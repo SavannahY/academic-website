@@ -1,44 +1,90 @@
-.research-section {
-  display: block;
-  padding-bottom: 44px;
-}
-.research-section .section-label { margin-bottom: 32px; }
-.research-affiliation {
-  color: var(--muted);
-  font-size: .94rem;
-  margin-top: 14px;
-}
-.research-list { gap: 24px; }
-.research-item {
-  background: var(--surface);
-  border-top: 2px solid var(--blue);
-  padding: 28px 30px 30px;
-}
-.research-item h3 { font-size: 2.15rem; }
-.research-item > p.research-subtitle {
-  color: var(--ink);
-  font-family: var(--serif);
-  font-size: 1.28rem;
-  line-height: 1.45;
-  margin-top: 12px;
-}
-.research-item .project-label { margin-bottom: 12px; }
-.research-item .text-link { font-size: .86rem; }
-.poster-section { margin-bottom: 44px; }
+/* Plain, reading-first layout for the academic homepage. */
+html { scroll-behavior: auto; scroll-padding-top: 24px; }
+.site-header { position: static; background: #fff; }
+.header-inner { max-width: 900px; min-height: 68px; padding: 0 24px; }
+.wordmark { letter-spacing: .04em; }
+.wordmark-rule { display: none; }
+nav { gap: 24px; }
+nav a { font-size: .86rem; }
+.section-shell { max-width: 900px; padding: 36px 24px; }
+h1 { font-size: 2.6rem; letter-spacing: -.025em; }
+h2 { font-size: 1.55rem; letter-spacing: -.015em; }
+.eyebrow { font-size: .73rem; font-weight: 400; letter-spacing: .025em; margin-bottom: 10px; }
+.file-tag { border: 0; padding: 0; border-radius: 0; letter-spacing: 0; }
+.intro { grid-template-columns: minmax(0, 1fr) 155px; gap: 40px; padding-top: 42px; padding-bottom: 40px; }
+.portrait img { height: 196px; border-radius: 0; }
+.portrait figcaption { font-size: .75rem; }
+.research-line { font-size: 1.2rem; margin: 12px 0 20px; }
+.bio { font-size: 1rem; line-height: 1.75; }
+.contact-links { gap: 22px; margin-top: 18px; }
+.research-section { display: block; }
+.research-section .section-label { margin-bottom: 26px; }
+.research-affiliation { color: var(--muted); font-size: .9rem; margin-top: 10px; }
+.research-list { display: block; }
+.research-item { background: transparent; border: 0; padding: 0; }
+.research-item + .research-item { border: 0; padding: 0; margin-top: 28px; }
+.research-item .project-label { font-size: .72rem; font-weight: 400; letter-spacing: .02em; margin-bottom: 6px; color: var(--muted); }
+.research-item h3 { display: inline; font-family: var(--sans); font-size: 1.05rem; font-weight: 600; letter-spacing: 0; line-height: 1.6; }
+.research-item > p.research-subtitle { display: inline; color: var(--ink); font: 1.05rem/1.6 var(--sans); margin: 0; }
+.research-item > p.research-subtitle::before { content: " — "; }
+.research-item > p:not(.project-label):not(.research-subtitle) { font-size: .96rem; line-height: 1.75; margin-top: 8px; }
+.research-item .methods { font-size: .83rem !important; }
+.research-item .text-link { margin-top: 9px; font-size: .86rem; }
+.poster-section { grid-template-columns: 160px minmax(0, 1fr); gap: 28px; align-items: start; background: transparent; border-top: 1px solid var(--line); margin: auto; }
+.poster-preview { padding: 0; border: 0; background: transparent; margin-top: 4px; }
+.poster-preview img { max-height: none; }
+.poster-section h2 { font-family: var(--sans); font-size: 1.12rem; font-weight: 600; letter-spacing: 0; line-height: 1.5; }
+.poster-section p:not(.eyebrow) { margin-top: 9px; font-size: .9rem; }
+.poster-section .text-link { margin-top: 10px; font-size: .86rem; }
+.section-top { display: block; margin-bottom: 22px; }
+.quiet-label { display: block; margin-top: 9px; font-size: .83rem; }
+.publication-list li { display: block; padding: 0; border: 0; }
+.publication-list li + li { margin-top: 26px; }
+.publication-year { font-size: .8rem; margin-bottom: 5px; padding: 0; }
+.journal { font-size: .8rem; margin-bottom: 5px; }
+.publication-body h3 { font-family: var(--sans); font-size: 1rem; font-weight: 600; letter-spacing: 0; line-height: 1.6; }
+.authors { margin-top: 7px; font-size: .85rem; }
+.publication-meta { margin-top: 9px; gap: 18px; }
+.copy-status:empty { display: none; }
+.course-project-list { display: block; }
+.course-project { grid-template-columns: 160px minmax(0, 1fr); gap: 28px; border: 0; padding: 0; }
+.course-project + .course-project { margin-top: 32px; }
+.project-visual { padding: 0; border: 0; background: transparent; }
+.project-caption { font-size: .72rem; }
+.course-project-body h3 { font-family: var(--sans); font-size: 1.05rem; font-weight: 600; letter-spacing: 0; line-height: 1.55; }
+.course-project-body .project-label { font-size: .72rem; font-weight: 400; letter-spacing: 0; margin-bottom: 7px; }
+.project-description, .project-result { margin-top: 10px; font-size: .92rem; line-height: 1.75; }
+.project-links { margin-top: 12px; gap: 16px; }
+.background-columns { display: block; }
+.background-columns > div + div { margin-top: 26px; }
+.small-heading { margin-bottom: 16px; }
+.education-item { padding-bottom: 16px; }
+.education-item h4 { font-size: .96rem; }
+.education-item p { font-size: .9rem; }
+.experience-text { font-size: .94rem; margin-bottom: 14px; }
+.site-footer { max-width: 900px; margin: auto; padding: 24px 24px 32px; }
 @media (max-width: 650px) {
-  .research-section { padding-bottom: 28px; }
-  .research-list { gap: 22px; }
-  .research-item { padding: 24px; }
-  .research-item + .research-item {
-    border-top: 2px solid var(--blue);
-    padding-top: 24px;
-  }
-  .research-item h3 { font-size: 2rem; }
-  .research-item > p.research-subtitle { font-size: 1.2rem; }
-  .poster-section { margin-bottom: 28px; }
+  .header-inner { padding: 16px 20px; gap: 12px; min-height: auto; }
+  nav { gap: 8px 17px; }
+  nav a { font-size: .82rem; }
+  .section-shell { padding: 28px 20px; }
+  .intro { grid-template-columns: 1fr; gap: 20px; }
+  h1 { font-size: 2.25rem; }
+  .portrait img { width: 82px; height: 103px; }
+  .portrait figcaption { padding-bottom: 2px; }
+  .contact-links { gap: 18px; }
+  .poster-section { grid-template-columns: 1fr; gap: 18px; margin: auto; }
+  .poster-preview { width: 180px; max-width: 100%; }
+  .course-project { grid-template-columns: 1fr; gap: 16px; }
+  .course-project > figure, .course-project > .project-visual { width: 150px; max-width: 100%; }
+  .project-visual { max-width: 100%; margin-top: 0; }
+  .course-project-body h3 { font-size: 1.05rem; }
+  .project-description { font-size: .92rem; }
+  .quiet-label { display: block; }
+  .site-footer { margin: auto; padding: 24px 20px; gap: 10px; }
 }
 @media print {
-  .research-section { padding-bottom: 20px; }
-  .research-item { padding: 18px; }
-  .poster-section { margin-bottom: 20px; }
+  .section-shell { max-width: none; padding: 18px 0; }
+  .research-item { padding: 0; }
+  .poster-section, .course-project { grid-template-columns: 120px minmax(0, 1fr); gap: 22px; }
 }
