@@ -1,0 +1,966 @@
+{
+  "metadata": {
+    "name": "PowerTwin 4D Knowledge Base",
+    "version": "0.3.1",
+    "updated": "2026-09-01",
+    "purpose": "Promote rapid modular data center construction through 4D modeling, physics-aware digital twins, 800V DC power architecture, and diversified intelligent supply chain planning.",
+    "positioning": "A reference layer for Jane Yang’s personal exploratory project on modular data center design, energy systems, and 4D construction planning."
+  },
+  "sources": [
+    {
+      "id": "fischer_4d_cad",
+      "type": "paper",
+      "title": "4D CAD Modeling: Visual Intelligence for Construction Management",
+      "authors": [
+        "Martin Fischer"
+      ],
+      "year": 2000,
+      "sourceUrl": "https://web.stanford.edu/~fischer/research/4DCADModeling.pdf"
+    },
+    {
+      "id": "mckinney_fischer_4d_schedule",
+      "type": "paper",
+      "title": "Generating, Evaluating and Visualizing Construction Schedules with CAD Tools",
+      "authors": [
+        "Kathleen McKinney",
+        "Martin Fischer"
+      ],
+      "year": 1998,
+      "sourceUrl": "https://doi.org/10.1016/S0926-5805(98)00053-3"
+    },
+    {
+      "id": "khanzode_fischer_mep_vdc",
+      "type": "paper",
+      "title": "Challenges and Benefits of Implementing Virtual Design and Construction Technologies for Coordination of MEP Systems",
+      "authors": [
+        "Atul Khanzode",
+        "Martin Fischer",
+        "Dean Reed"
+      ],
+      "year": 2007,
+      "sourceUrl": "https://itc.scix.net/pdfs/w78-2007-032-107-Khanzode.pdf"
+    },
+    {
+      "id": "armeni_semantic_parsing",
+      "type": "paper",
+      "title": "3D Semantic Parsing of Large-Scale Indoor Spaces",
+      "authors": [
+        "Iro Armeni",
+        "Ozan Sener",
+        "Amir R. Zamir",
+        "Helen Jiang",
+        "Ioannis Brilakis",
+        "Martin Fischer",
+        "Silvio Savarese"
+      ],
+      "year": 2016,
+      "sourceUrl": "https://cvgl.stanford.edu/papers/iro_cvpr16.pdf"
+    },
+    {
+      "id": "armeni_3d_scene_graph",
+      "type": "paper",
+      "title": "3D Scene Graph: A Structure for Unified Semantics, 3D Space, and Camera",
+      "authors": [
+        "Iro Armeni",
+        "Zhi-Yang He",
+        "JunYoung Gwak",
+        "Amir R. Zamir",
+        "Martin Fischer",
+        "Jitendra Malik",
+        "Silvio Savarese"
+      ],
+      "year": 2019,
+      "sourceUrl": "https://3dscenegraph.stanford.edu/images/3DSceneGraph.pdf"
+    },
+    {
+      "id": "rescene4d",
+      "type": "paper",
+      "title": "ReScene4D: Temporally Consistent Semantic Instance Segmentation of Evolving Indoor 3D Scenes",
+      "authors": [
+        "Emily Steiner",
+        "Jianhao Zheng",
+        "Henry Howard-Jenkins",
+        "Chris Xie",
+        "Iro Armeni"
+      ],
+      "year": 2026,
+      "sourceUrl": "https://arxiv.org/abs/2601.11508"
+    },
+    {
+      "id": "nvidia_800v_ocp",
+      "type": "industry",
+      "title": "NVIDIA, Partners Drive Next-Gen Efficient Gigawatt AI Factories in Buildup for Vera Rubin",
+      "year": 2025,
+      "sourceUrl": "https://blogs.nvidia.com/blog/gigawatt-ai-factories-ocp-vera-rubin/"
+    },
+    {
+      "id": "tsmc_2025_annual",
+      "type": "industry",
+      "title": "TSMC 2025 Annual Report: Global Manufacturing and Advanced Packaging Expansion",
+      "year": 2026,
+      "sourceUrl": "https://investor.tsmc.com/static/annualReports/2025/english/index.html"
+    },
+    {
+      "id": "tsmc_amkor_arizona",
+      "type": "industry",
+      "title": "TSMC and Amkor Collaborate on Advanced Packaging in Arizona",
+      "year": 2024,
+      "sourceUrl": "https://pr.tsmc.com/english/news/3174"
+    },
+    {
+      "id": "skhynix_hbm4",
+      "type": "industry",
+      "title": "SK hynix Completes HBM4 Development and Readies Mass Production",
+      "year": 2025,
+      "sourceUrl": "https://news.skhynix.com/sk-hynix-completes-worlds-first-hbm4-development-and-readies-mass-production/"
+    },
+    {
+      "id": "hitachi_transformer_capacity",
+      "type": "industry",
+      "title": "Hitachi Energy Invests to Address Global Transformer Shortage",
+      "year": 2025,
+      "sourceUrl": "https://www.hitachienergy.com/us/en/news-and-events/press-releases/2025/03/hitachi-energy-invests-additional-250-million-usd-to-address-global-transformer-shortage"
+    },
+    {
+      "id": "rollsroyce_datacenter_backup",
+      "type": "industry",
+      "title": "Rolls-Royce: Powering Data Centres Through the Energy Transition",
+      "year": 2025,
+      "sourceUrl": "https://www.rolls-royce.com/media/our-stories/discover/2025/powering-data-centres-through-the-energy-transition.aspx"
+    },
+    {
+      "id": "cummins_microgrid",
+      "type": "industry",
+      "title": "Standby generation reference Microgrid Power Systems",
+      "year": 2026,
+      "sourceUrl": "https://www.cummins.com/en-eu/generators/microgrids"
+    },
+    {
+      "id": "cummins_bess",
+      "type": "industry",
+      "title": "Standby generation reference Containerized BESS Product Line",
+      "year": 2025,
+      "sourceUrl": "https://www.cummins.com/en-na/news/2025/06/03/cummins-launches-containerised-bess-product-line"
+    },
+    {
+      "id": "cummins_microgrid_control",
+      "type": "industry",
+      "title": "Standby generation reference Microgrid Control",
+      "year": 2026,
+      "sourceUrl": "https://www.cummins.com/en-na/generators/products/microgrid-control"
+    },
+    {
+      "id": "eaton_800v_supercap",
+      "type": "industry",
+      "title": "Electrical profile C 800 VDC Architecture for Next-Generation AI Factories",
+      "year": 2025,
+      "sourceUrl": "https://www.eaton.com/my/en-us/company/news-insights/news-releases/2025/eaton-next-generation-ai-factories.html"
+    },
+    {
+      "id": "nvidia_gb300_nvl72",
+      "type": "industry",
+      "title": "NVIDIA GB300 NVL72",
+      "year": 2026,
+      "sourceUrl": "https://www.nvidia.com/en-gb/data-center/gb300-nvl72/"
+    },
+    {
+      "id": "feynman_energy",
+      "type": "textbook",
+      "title": "The Feynman Lectures on Physics, Vol. I, Ch. 4: Conservation of Energy",
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "sourceUrl": "https://www.feynmanlectures.caltech.edu/I_04.html"
+    },
+    {
+      "id": "feynman_circuits",
+      "type": "textbook",
+      "title": "The Feynman Lectures on Physics, Vol. II, Ch. 22: AC Circuits",
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "sourceUrl": "https://www.feynmanlectures.caltech.edu/II_22.html"
+    },
+    {
+      "id": "feynman_thermodynamics",
+      "type": "textbook",
+      "title": "The Feynman Lectures on Physics, Vol. I, Ch. 44: The Laws of Thermodynamics",
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "sourceUrl": "https://www.feynmanlectures.caltech.edu/I_44.html"
+    },
+    {
+      "id": "feynman_mechanics",
+      "type": "textbook",
+      "title": "The Feynman Lectures on Physics, Vol. I, Ch. 9: Newton's Laws of Dynamics",
+      "authors": [
+        "Richard P. Feynman",
+        "Robert B. Leighton",
+        "Matthew Sands"
+      ],
+      "sourceUrl": "https://www.feynmanlectures.caltech.edu/I_09.html"
+    },
+    {
+      "id": "ocp_orv3_specs",
+      "type": "open_standard",
+      "title": "Open Rack V3 Specifications and Designs",
+      "year": 2026,
+      "sourceUrl": "https://www.opencompute.org/wiki/Open_Rack/SpecsAndDesigns"
+    },
+    {
+      "id": "ocp_advanced_cooling",
+      "type": "open_standard",
+      "title": "OCP Advanced Cooling Solutions",
+      "year": 2026,
+      "sourceUrl": "https://www.opencompute.org/wiki/Cooling_Environments_Advanced_Cooling_Solutions"
+    },
+    {
+      "id": "doe_solar_resilience",
+      "type": "public_policy",
+      "title": "Solar and Resilience Basics",
+      "year": 2026,
+      "sourceUrl": "https://www.energy.gov/cmei/systems/solar-and-resilience-basics"
+    },
+    {
+      "id": "doe_onsite_energy",
+      "type": "public_policy",
+      "title": "DOE Onsite Energy Program",
+      "year": 2026,
+      "sourceUrl": "https://www.energy.gov/cmei/ito/onsite-energy-program"
+    },
+    {
+      "id": "uptime_tier_topology",
+      "type": "industry_standard",
+      "title": "Explaining Uptime Institute's Tier Classification System",
+      "sourceUrl": "https://journal.uptimeinstitute.com/explaining-uptime-institutes-tier-classification-system/"
+    },
+    {
+      "id": "cat_g3520h",
+      "type": "industry",
+      "title": "Caterpillar G3520H Gas Generator Set",
+      "sourceUrl": "https://www.cat.com/en_US/products/new/power-systems/electric-power/gas-generator-sets/1000003143.html"
+    },
+    {
+      "id": "ge_lm2500xpress",
+      "type": "industry",
+      "title": "Aeroderivative turbine reference LM2500XPRESS Aeroderivative Gas Turbine",
+      "year": 2025,
+      "sourceUrl": "https://www.gevernova.com/power/en/lm2500xpress"
+    },
+    {
+      "id": "vertiv_megamod_coolchip",
+      "type": "industry",
+      "title": "Liquid-cooled modular profile Prefabricated Modular Data Center",
+      "sourceUrl": "https://www.vertiv.com/en-ca/about/news-and-events/corporate-news/vertiv-launches-high-density-prefabricated-modular-data-center-solution--to-accelerate-global-deployment-of-ai-compute/"
+    },
+    {
+      "id": "siemens_eaton_modular_power",
+      "type": "industry",
+      "title": "Generation profile D Modular Onsite Power Generation for Data Centers",
+      "sourceUrl": "https://www.siemens-energy.com/global/en/home/products-services/product/modular-onsite-power-generation-data-center.html"
+    },
+    {
+      "id": "rittal_rimatrix",
+      "type": "industry",
+      "title": "Rack profile E RiMatrix Modular Data Center",
+      "sourceUrl": "https://www.rittal.com/uk-en/products/RiMatrix"
+    },
+    {
+      "id": "delta_modular_microgrid",
+      "type": "industry",
+      "title": "Delta Modular AI Data Center and Microgrid",
+      "year": 2026,
+      "sourceUrl": "https://www.delta-americas.com/en-US/landing/GTC-2026"
+    },
+    {
+      "id": "nvidia_omniverse_libraries",
+      "type": "industry",
+      "title": "NVIDIA Omniverse Libraries",
+      "year": 2026,
+      "sourceUrl": "https://developer.nvidia.com/omniverse"
+    },
+    {
+      "id": "schneider_800v_sidecar",
+      "type": "industry",
+      "title": "Electrical integration reference Highlights Innovation in 800 VDC Power Systems in support of NVIDIA's next generation GPUs",
+      "year": 2025,
+      "sourceUrl": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-highlights-innovation-in-800-vdc-power-systems-in-support-of-nvidia%E2%80%99s-next-generation-gpus-68ecb631098fd4ea49024353/"
+    },
+    {
+      "id": "doe_data_center_energy",
+      "type": "public_policy",
+      "title": "DOE Releases New Report Evaluating Increase in Electricity Demand from Data Centers",
+      "year": 2024,
+      "sourceUrl": "https://www.energy.gov/articles/doe-releases-new-report-evaluating-increase-electricity-demand-data-centers"
+    },
+    {
+      "id": "ca_cgs_alquist_priolo",
+      "type": "public_policy",
+      "title": "California Geological Survey Alquist-Priolo Earthquake Fault Zones",
+      "year": 2026,
+      "sourceUrl": "https://www.conservation.ca.gov/cgs/alquist-priolo"
+    },
+    {
+      "id": "ai_dc_power_architecture",
+      "type": "paper",
+      "title": "Toward Next-Generation AI Data Centers: Power Delivery Architecture Shifts, Emerging Technologies, and Challenges",
+      "year": 2026,
+      "sourceUrl": "https://arxiv.org/abs/2606.25095"
+    },
+    {
+      "id": "sst_800v_simulation",
+      "type": "paper",
+      "title": "Sequential Operating Simulation of Solid State Transformer-Driven Next-Generation 800 VDC Data Center",
+      "year": 2026,
+      "sourceUrl": "https://arxiv.org/abs/2601.16502"
+    }
+  ],
+  "research_papers": [
+    {
+      "id": "4d_schedule_visualization",
+      "label": "4D schedule intelligence",
+      "thesis": "Linking 3D components with schedule activities makes construction sequences easier to evaluate, communicate, and optimize before field execution.",
+      "productUse": "Use each data center pod as a queryable 4D object with design, procurement, steel, power, cooling, rack-load, and operations states.",
+      "evidence": [
+        "fischer_4d_cad",
+        "mckinney_fischer_4d_schedule"
+      ]
+    },
+    {
+      "id": "mep_prefab_coordination",
+      "label": "MEP coordination and prefab",
+      "thesis": "VDC is strongest when it coordinates mechanical, electrical, plumbing, prefabrication, and field constraints before installation.",
+      "productUse": "Treat rectifier skids, 800V busway, liquid headers, rack shelves, and steel bays as co-designed modules.",
+      "evidence": [
+        "khanzode_fischer_mep_vdc"
+      ]
+    },
+    {
+      "id": "semantic_scene_graph",
+      "label": "Semantic 3D scene graph",
+      "thesis": "A semantic graph can unify spaces, objects, geometry, cameras, and relationships into a queryable digital twin.",
+      "productUse": "Represent site, foundation, steel, power, cooling, compute, software, and telemetry as OpenUSD-like layers and graph nodes.",
+      "evidence": [
+        "armeni_semantic_parsing",
+        "armeni_3d_scene_graph"
+      ]
+    },
+    {
+      "id": "4d_scan_progress",
+      "label": "4D scan progress",
+      "thesis": "Sparse repeated scans need temporal identity tracking to understand evolving built environments.",
+      "productUse": "Compare weekly scans against planned module state, flag deltas, and update readiness scores.",
+      "evidence": [
+        "rescene4d"
+      ]
+    }
+  ],
+  "construction_process": [
+    {
+      "stage": "01_land_power_screen",
+      "name": "Land + grid screen",
+      "visualLayer": "Site parcels, substation distance, queue risk, water/air gates",
+      "decision": "Choose a site only if power interconnect, permitting, geotech, and logistics can converge inside the target time-to-power window.",
+      "inputs": [
+        "utility capacity",
+        "parcel hazards",
+        "water and air permit needs",
+        "fiber proximity",
+        "module laydown"
+      ],
+      "outputs": [
+        "site score",
+        "critical constraints",
+        "utility application package"
+      ],
+      "evidence": [
+        "doe_data_center_energy",
+        "ca_cgs_alquist_priolo"
+      ]
+    },
+    {
+      "stage": "02_geotech_foundation",
+      "name": "Geotech + foundation engine",
+      "visualLayer": "Soil class, piles, mat thickness, bearing and settlement heatmap",
+      "decision": "Foundation should be calculated from site class, liquefaction, groundwater, seismic tier, rack mass, skid mass, and steel bay loads.",
+      "inputs": [
+        "CPT/borings",
+        "seismic hazard",
+        "rack density",
+        "skid mass",
+        "module footprint"
+      ],
+      "outputs": [
+        "pile-mat or spread-footing strategy",
+        "bearing kPa",
+        "settlement mm",
+        "anchor count"
+      ],
+      "evidence": [
+        "ca_cgs_alquist_priolo"
+      ]
+    },
+    {
+      "stage": "03_modular_steel",
+      "name": "Modular steel frame",
+      "visualLayer": "Columns, beams, braces, module connections, crane sequence",
+      "decision": "Steel bays become the repeatable product unit: each bay carries racks, liquid loop, busway, scan status, and commissioning state.",
+      "inputs": [
+        "bay geometry",
+        "brace strategy",
+        "lateral drift",
+        "erection crew",
+        "prefab percentage"
+      ],
+      "outputs": [
+        "erection sequence",
+        "connection checklist",
+        "4D bay status"
+      ],
+      "evidence": [
+        "fischer_4d_cad",
+        "khanzode_fischer_mep_vdc"
+      ]
+    },
+    {
+      "stage": "04_800v_power",
+      "name": "800V DC power path",
+      "visualLayer": "MV feed, SST/rectifier, DC busway, sidecar storage, rack shelf",
+      "decision": "AI rack density pushes power design from legacy in-rack voltage toward facility-level 800V DC with storage and protection modeled as first-class objects.",
+      "inputs": [
+        "rack kW",
+        "bus current",
+        "feeder capacity",
+        "storage buffer",
+        "fault analysis"
+      ],
+      "outputs": [
+        "800V bus readiness",
+        "bridge storage kWh",
+        "protection and metering plan"
+      ],
+      "evidence": [
+        "nvidia_800v_ocp",
+        "schneider_800v_sidecar",
+        "ai_dc_power_architecture",
+        "sst_800v_simulation"
+      ]
+    },
+    {
+      "stage": "05_liquid_thermal",
+      "name": "Liquid + thermal loop",
+      "visualLayer": "Supply/return headers, cold plates, heat rejection, pressure drop",
+      "decision": "Liquid cooling geometry must be co-optimized with steel bay, rack power, and service access before releasing modules.",
+      "inputs": [
+        "rack heat kW",
+        "flow LPM",
+        "delta T",
+        "header diameter",
+        "service clearance"
+      ],
+      "outputs": [
+        "thermal margin",
+        "pressure drop",
+        "loop commissioning status"
+      ],
+      "evidence": [
+        "nvidia_800v_ocp",
+        "nvidia_omniverse_libraries"
+      ]
+    },
+    {
+      "stage": "06_compute_software",
+      "name": "Rack compute + AI factory OS",
+      "visualLayer": "GPU/ASIC racks, fabric, scheduler, telemetry, rollback",
+      "decision": "Construction is not done when racks are installed; workload scheduling, observability, security, and rollback determine load-readiness.",
+      "inputs": [
+        "chip platform",
+        "rack profile",
+        "fabric bandwidth",
+        "scheduler",
+        "workload"
+      ],
+      "outputs": [
+        "software fit",
+        "release score",
+        "queue p95",
+        "ops readiness"
+      ],
+      "evidence": [
+        "nvidia_800v_ocp",
+        "nvidia_omniverse_libraries"
+      ]
+    },
+    {
+      "stage": "07_operations_twin",
+      "name": "Operations digital twin",
+      "visualLayer": "Live telemetry, simulation readiness, anomaly and supply chain events",
+      "decision": "The operating twin should keep construction, power, cooling, compute, software, and supply chain data live after handoff.",
+      "inputs": [
+        "telemetry streams",
+        "scan deltas",
+        "run history",
+        "supplier events"
+      ],
+      "outputs": [
+        "live readiness",
+        "risk actions",
+        "next module recommendation"
+      ],
+      "evidence": [
+        "armeni_3d_scene_graph",
+        "nvidia_omniverse_libraries"
+      ]
+    }
+  ],
+  "supply_chain": {
+    "thesis": "Fast modular AI data center construction depends on an intelligent multi-vendor supply chain, not a single-vendor building package.",
+    "planningBoundary": "Lead times and risk scores are design-stage assumptions. Replace them with supplier quotations, reserved production slots, qualified alternates, logistics commitments, and site-specific permit dates before investment approval.",
+    "strategies": [
+      {
+        "id": "balanced",
+        "label": "Balanced",
+        "intent": "Global best-source procurement with standard schedule buffers."
+      },
+      {
+        "id": "resilient",
+        "label": "Dual source",
+        "intent": "Parallel qualification, reserved factory slots, and regional alternates."
+      },
+      {
+        "id": "localized",
+        "label": "US localized",
+        "intent": "Localize power, steel, integration, and service while retaining global silicon."
+      }
+    ],
+    "shockTests": [
+      {
+        "id": "taiwan",
+        "label": "Taiwan delay",
+        "affected": [
+          "AI silicon",
+          "HBM4",
+          "rack integration",
+          "network optics"
+        ]
+      },
+      {
+        "id": "transformer",
+        "label": "Transformer queue",
+        "affected": [
+          "transformer",
+          "switchgear",
+          "800V conversion"
+        ]
+      },
+      {
+        "id": "logistics",
+        "label": "Port disruption",
+        "affected": [
+          "global compute",
+          "power",
+          "cooling",
+          "storage freight"
+        ]
+      }
+    ],
+    "globalNodes": [
+      {
+        "id": "silicon",
+        "package": "AI silicon + CoWoS",
+        "region": "Taiwan + Arizona ramp",
+        "alternate": "Arizona + Amkor qualification",
+        "evidence": [
+          "tsmc_2025_annual",
+          "tsmc_amkor_arizona"
+        ]
+      },
+      {
+        "id": "hbm",
+        "package": "HBM4 memory",
+        "region": "Korea",
+        "alternate": "Second-source memory qualification",
+        "evidence": [
+          "skhynix_hbm4"
+        ]
+      },
+      {
+        "id": "rack",
+        "package": "MGX rack integration",
+        "region": "Taiwan + global plants",
+        "alternate": "Multiple MGX integration partners",
+        "evidence": [
+          "nvidia_800v_ocp"
+        ]
+      },
+      {
+        "id": "network",
+        "package": "NVLink / optics / spine",
+        "region": "Taiwan + US",
+        "alternate": "Ethernet fabric design path",
+        "evidence": [
+          "nvidia_800v_ocp"
+        ]
+      },
+      {
+        "id": "transformer",
+        "package": "Transformer + switchgear",
+        "region": "US + Europe",
+        "alternate": "Reserve two factory slots",
+        "evidence": [
+          "hitachi_transformer_capacity"
+        ]
+      },
+      {
+        "id": "power800",
+        "package": "800V sidecar + busway",
+        "region": "US + Europe",
+        "alternate": "Open 800V interface package",
+        "evidence": [
+          "nvidia_800v_ocp",
+          "schneider_800v_sidecar",
+          "eaton_800v_supercap"
+        ]
+      },
+      {
+        "id": "cooling",
+        "package": "CDU + pump + manifold",
+        "region": "EU + US + Asia",
+        "alternate": "OCP ACS interface",
+        "evidence": [
+          "ocp_advanced_cooling"
+        ]
+      },
+      {
+        "id": "bess",
+        "package": "LFP BESS + controls",
+        "region": "US + global cells",
+        "alternate": "Qualified container, PCS, and cell packages",
+        "evidence": [
+          "cummins_bess"
+        ]
+      },
+      {
+        "id": "standby",
+        "package": "Standby generation + fuel",
+        "region": "Germany + US",
+        "alternate": "HVO and gas engine families",
+        "evidence": [
+          "rollsroyce_datacenter_backup"
+        ]
+      },
+      {
+        "id": "steel",
+        "package": "Steel pod + MEP skid",
+        "region": "US West",
+        "alternate": "Two regional fabrication cells",
+        "evidence": [
+          "khanzode_fischer_mep_vdc"
+        ]
+      },
+      {
+        "id": "controls",
+        "package": "Microgrid + DCIM controls",
+        "region": "US",
+        "alternate": "Open telemetry and Modbus acceptance contract",
+        "evidence": [
+          "cummins_microgrid_control"
+        ]
+      }
+    ],
+    "tiers": [
+      {
+        "id": "compute_platforms",
+        "label": "Compute platforms",
+        "role": "Rack-scale GPU, ASIC, CPU, and networking architecture drives power, cooling, steel, and software assumptions.",
+        "exampleActors": [
+          "NVIDIA",
+          "AMD",
+          "Google Cloud TPU",
+          "Intel Gaudi",
+          "AWS Trainium",
+          "custom XPU vendors"
+        ],
+        "evidence": [
+          "nvidia_800v_ocp"
+        ]
+      },
+      {
+        "id": "power_semiconductors",
+        "label": "Power semiconductors",
+        "role": "GaN, SiC, controllers, protection, and high-voltage conversion components determine 800V DC efficiency and availability.",
+        "exampleActors": [
+          "Analog Devices",
+          "Infineon",
+          "Navitas",
+          "onsemi",
+          "Renesas",
+          "ROHM",
+          "STMicroelectronics",
+          "Texas Instruments"
+        ],
+        "evidence": [
+          "nvidia_800v_ocp"
+        ]
+      },
+      {
+        "id": "power_systems",
+        "label": "Power systems",
+        "role": "SST/rectifier, switchgear, busway, metering, sidecar storage, protection, and serviceability become modular product interfaces.",
+        "exampleActors": [
+          "ABB",
+          "Electrical profile C",
+          "Aeroderivative turbine reference",
+          "Hitachi Energy",
+          "Electrical integration reference",
+          "Siemens",
+          "Cooling profile B"
+        ],
+        "evidence": [
+          "nvidia_800v_ocp",
+          "schneider_800v_sidecar"
+        ]
+      },
+      {
+        "id": "factory_integrators",
+        "label": "Factory integrators",
+        "role": "Prefabricated steel, power skids, busway, and cooling assemblies compress field work if design freeze happens early.",
+        "exampleActors": [
+          "Foxconn",
+          "Flex",
+          "Delta",
+          "LiteOn",
+          "regional steel fabricators",
+          "modular MEP shops"
+        ],
+        "evidence": [
+          "nvidia_800v_ocp",
+          "khanzode_fischer_mep_vdc"
+        ]
+      },
+      {
+        "id": "site_delivery",
+        "label": "Site delivery",
+        "role": "Geotech, civil, steel, utility, and permitting partners localize the design engine to California parcels and constraints.",
+        "exampleActors": [
+          "geotech engineers",
+          "steel erectors",
+          "EPC contractors",
+          "utility interconnect teams",
+          "permitting consultants"
+        ],
+        "evidence": [
+          "ca_cgs_alquist_priolo",
+          "doe_data_center_energy"
+        ]
+      },
+      {
+        "id": "software_twin",
+        "label": "Software and twin layer",
+        "role": "OpenUSD-like scene graph, simulation, telemetry, scheduler integration, and procurement intelligence convert construction progress into live decisions.",
+        "exampleActors": [
+          "OpenUSD ecosystem",
+          "NVIDIA Omniverse Libraries",
+          "Kubernetes/Slurm/Ray",
+          "DCIM/BMS vendors",
+          "scan-to-BIM tooling"
+        ],
+        "evidence": [
+          "nvidia_omniverse_libraries",
+          "armeni_3d_scene_graph",
+          "rescene4d"
+        ]
+      }
+    ]
+  },
+  "power_architectures": [
+    {
+      "id": "grid",
+      "label": "Utility grid",
+      "path": "MVAC utility feed > switchgear > SST/rectifier > 800V DC bus > rack sidecar",
+      "firming": "Utility capacity and interconnect study required",
+      "evidence": [
+        "doe_data_center_energy",
+        "nvidia_800v_ocp"
+      ]
+    },
+    {
+      "id": "btmGas",
+      "label": "Behind-the-meter gas",
+      "path": "Gas train > modular generator blocks > MV switchgear > SST/rectifier > 800V DC bus",
+      "firming": "Fuel delivery, emissions permit, black start and common-mode review required",
+      "evidence": [
+        "doe_onsite_energy",
+        "cat_g3520h",
+        "siemens_eaton_modular_power"
+      ]
+    },
+    {
+      "id": "gasTurbine",
+      "label": "Aeroderivative gas turbine",
+      "path": "Firm gas > DLE aeroderivative turbine > MV generator > switchgear > SST/rectifier > 800V DC bus",
+      "firming": "Firm gas transport, air permit, SCR, acoustics, islanding, black start and seismic turbine mat required",
+      "evidence": [
+        "ge_lm2500xpress",
+        "siemens_eaton_modular_power"
+      ]
+    },
+    {
+      "id": "btmSolar",
+      "label": "Behind-the-meter solar",
+      "path": "PV field > DC combiner > grid-forming inverter > storage > 800V DC bus",
+      "firming": "Solar alone is not a 24/7 firm critical source; storage and dispatch studies are required",
+      "evidence": [
+        "doe_solar_resilience",
+        "delta_modular_microgrid"
+      ]
+    }
+  ],
+  "backup_architectures": {
+    "designIntent": "Use a multi-timescale continuity stack: rack DC-link for sub-cycle transients, 800V sidecar or supercapacitor for fast cycling, LFP BESS for the generator-start bridge, and N+1 standby generation for long-duration outages.",
+    "publicationBaseline": {
+      "id": "hvo48",
+      "label": "15 minute BESS bridge + 48 hour HVO standby",
+      "topology": "Rack DC-link > 800V sidecar > LFP BESS > N+1 HVO generator plant > protected onsite fuel",
+      "requiredStudies": [
+        "air permit",
+        "fire code and tank separation",
+        "fuel delivery contract",
+        "selective coordination",
+        "black-start sequence",
+        "load-bank test",
+        "BESS recharge strategy"
+      ],
+      "evidence": [
+        "nvidia_800v_ocp",
+        "schneider_800v_sidecar",
+        "eaton_800v_supercap",
+        "rollsroyce_datacenter_backup",
+        "cummins_microgrid",
+        "cummins_microgrid_control"
+      ]
+    },
+    "boundary": "Autonomy and fuel consumption are planning screens, not vendor guarantees. Final values require the selected engine curve, ambient derating, emissions controls, reserve loading, usable battery state of charge, degradation allowance, and local code review."
+  },
+  "reliability_method": {
+    "method": "Series component availability, binomial N+1 capacity probability, independent 2N path probability and explicit backup transfer probability.",
+    "boundary": "The result is an engineering screening estimate, not Uptime Institute certification and not a contractual uptime guarantee.",
+    "evidence": [
+      "uptime_tier_topology"
+    ]
+  },
+  "modular_supplier_reference": [
+    {
+      "id": "ocp",
+      "label": "OCP open reference",
+      "scope": "ORv3 rack, 48V power shelf, blind-mate manifold and ACS interfaces",
+      "evidence": [
+        "ocp_orv3_specs",
+        "ocp_advanced_cooling"
+      ]
+    },
+    {
+      "id": "schneider",
+      "label": "Electrical integration profile",
+      "scope": "Prefab pod, MGX/OCP-inspired rack and 800V sidecar",
+      "evidence": [
+        "schneider_800v_sidecar"
+      ]
+    },
+    {
+      "id": "vertiv",
+      "label": "Liquid-cooled modular profile",
+      "scope": "Liquid-cooled prefabricated modular data center",
+      "evidence": [
+        "vertiv_megamod_coolchip"
+      ]
+    },
+    {
+      "id": "eatonSiemens",
+      "label": "Electrical profile C + Generation profile D",
+      "scope": "Grid-to-chip 800V and modular onsite power",
+      "evidence": [
+        "siemens_eaton_modular_power"
+      ]
+    },
+    {
+      "id": "rittal",
+      "label": "Rack profile E RiMatrix",
+      "scope": "Modular room, ORv3 rack and in-row liquid cooling",
+      "evidence": [
+        "rittal_rimatrix"
+      ]
+    },
+    {
+      "id": "delta",
+      "label": "Power conversion modular AI DC",
+      "scope": "800V, liquid cooling, microgrid and digital twin",
+      "evidence": [
+        "delta_modular_microgrid"
+      ]
+    }
+  ],
+  "design_principles": [
+    "Use the module as the unit of capital, construction, power, cooling, compute, and operations.",
+    "Make every 3D object time-aware, source-aware, and supply-chain-aware.",
+    "Calculate foundation and structural assumptions from site and load inputs instead of using fixed defaults.",
+    "Show uncertainty and blockers visually; investors should see why time-to-power changes.",
+    "Treat 800V DC, liquid cooling, rack compute, and software readiness as one commissioning path.",
+    "Keep the product vendor-diverse: optimize across suppliers, not only inside one ecosystem.",
+    "Do not present solar without storage and grid-forming controls as a firm critical source.",
+    "Do not translate reliability screening percentages into Tier certification claims."
+  ],
+  "visualization_targets": [
+    {
+      "name": "4D construction timeline",
+      "description": "Week-by-week module states from design through load; each block can be clicked in 3D.",
+      "dataNeeded": [
+        "module id",
+        "schedule dates",
+        "status",
+        "critical path",
+        "scan deltas"
+      ]
+    },
+    {
+      "name": "Foundation physics layer",
+      "description": "Bearing, settlement, seismic base shear, pile depth, anchor count and governing ratio per pod.",
+      "dataNeeded": [
+        "soil class",
+        "allowable bearing",
+        "rack mass",
+        "skid mass",
+        "seismic tier"
+      ]
+    },
+    {
+      "name": "800V DC power topology",
+      "description": "MVAC to SST/rectifier to 800V busway to rack shelf with storage bridge and feeder headroom.",
+      "dataNeeded": [
+        "facility MW",
+        "bus current",
+        "feeder use",
+        "bridge kWh",
+        "conversion loss"
+      ]
+    },
+    {
+      "name": "Intelligent supply chain graph",
+      "description": "Compute, power semiconductor, power-system, factory, site and software suppliers mapped to blocked/ready states.",
+      "dataNeeded": [
+        "supplier tier",
+        "lead time",
+        "risk",
+        "substitution path",
+        "module dependency"
+      ]
+    }
+  ]
+}

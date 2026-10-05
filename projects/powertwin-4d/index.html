@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A personal exploratory project by Jane Yang connecting modular data center design, electricity supply, and construction sequencing." />
+    <meta name="theme-color" content="#f1f3f4" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PowerTwin 4D | Jane Yang" />
+    <meta property="og:description" content="Explore how modular data center design, power-system choices, and construction planning interact." />
+    <meta property="og:image" content="https://janeyang.me/projects/powertwin-4d/assets/powertwin-site-preview.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PowerTwin 4D | Jane Yang" />
+    <meta name="twitter:description" content="Jane Yang’s personal exploratory project on modular data centers, energy systems, and 4D planning." />
+    <meta name="twitter:image" content="https://janeyang.me/projects/powertwin-4d/assets/powertwin-site-preview.png" />
+    <link rel="canonical" href="https://janeyang.me/projects/powertwin-4d/" />
+    <meta property="og:url" content="https://janeyang.me/projects/powertwin-4d/" />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <title>PowerTwin 4D | Jane Yang</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="personal-project-banner">
+      <a href="../../#personal-projects">← Jane Yang · Personal Exploratory Projects</a>
+      <span>Research prototype · Illustrative planning assumptions, not approved engineering</span>
+    </div>
+    <noscript>
+      <div class="no-script-preview">
+        <h1>PowerTwin 4D</h1>
+        <p>A personal exploratory project connecting modular data center design, electricity supply, and construction sequencing. Enable JavaScript to explore the interactive model.</p>
+        <img src="./assets/powertwin-site-preview.png" alt="Preview of the modular data center planning model" />
+      </div>
+    </noscript>
+    <div class="app-shell">
+      <header class="topbar">
+        <div class="brand-lockup" aria-label="PowerTwin 4D">
+          <span class="mark" aria-hidden="true"></span>
+          <div>
+            <strong>PowerTwin 4D</strong>
+            <span>Modular data center design + energy systems</span>
+          </div>
+        </div>
+        <div class="top-metrics" aria-label="Program metrics">
+          <div>
+            <span>MW ready</span>
+            <strong id="mwReady">0.0</strong>
+          </div>
+          <div>
+            <span>Time-to-power</span>
+            <strong id="ttp">--w</strong>
+          </div>
+          <div>
+            <span>Critical path</span>
+            <strong id="criticalPath">Power</strong>
+          </div>
+        </div>
+        <div class="header-actions">
+          <span id="backendStatus" class="backend-pill" data-state="offline">Browser demo</span>
+          <button id="copySnapshot" class="ghost-btn" type="button"><span class="wide-label">Copy snapshot</span><span class="narrow-label">Copy</span></button>
+          <button id="exportBrief" class="primary-btn" type="button"><span class="wide-label">Export pilot brief</span><span class="narrow-label">Brief</span></button>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="left-panel" aria-label="Block roster">
+          <section class="scenario-panel">
+            <div class="section-kicker">Scenario</div>
+            <div class="scenario-row" role="group" aria-label="Scenario presets">
+              <button class="scenario-chip is-active" type="button" data-scenario="baseline" aria-pressed="true">Baseline</button>
+              <button class="scenario-chip" type="button" data-scenario="utilitySlip" aria-pressed="false">Utility slip</button>
+              <button class="scenario-chip" type="button" data-scenario="accelerated" aria-pressed="false">Fast track</button>
+            </div>
+
+            <label class="control-label" for="weekRange">
+              <span>Construction week</span>
+              <strong id="weekLabel">14</strong>
+            </label>
+            <input id="weekRange" class="range" type="range" min="0" max="30" value="14" />
+
+            <label class="control-label" for="crewRange">
+              <span>Steel crews</span>
+              <strong id="crewLabel">4</strong>
+            </label>
+            <input id="crewRange" class="range" type="range" min="2" max="7" value="4" />
+
+            <label class="control-label" for="prefabRange">
+              <span>DC skid prefab</span>
+              <strong id="prefabLabel">62%</strong>
+            </label>
+            <input id="prefabRange" class="range" type="range" min="35" max="85" value="62" />
+
+            <label class="toggle-row">
+              <input id="bridgeToggle" type="checkbox" />
+              <span></span>
+              <strong>Battery DC bridge</strong>
+            </label>
+          </section>
+
+          <section class="roster-panel">
+            <div class="panel-heading">
+              <div>
+                <div class="section-kicker">Blocks</div>
+                <h2>Steel DC pods</h2>
+              </div>
+              <span id="rosterCount">12</span>
+            </div>
+            <div id="blockList" class="block-list"></div>
+          </section>
+        </aside>
+
+        <section class="center-stage" aria-label="4D twin">
+          <div class="stage-toolbar">
+            <div class="stage-heading">
+              <div class="stage-kicker-row">
+                <div class="section-kicker">Digital twin</div>
+                <span class="demo-badge">California reference</span>
+              </div>
+              <h1 id="stageTitle">GPU AI factory twin.</h1>
+            </div>
+            <div class="view-tabs" role="tablist" aria-label="Product views">
+              <button id="viewTabTwin" class="tab-btn is-active" role="tab" type="button" data-tab="twin" aria-controls="tabTwin" aria-selected="true">Twin</button>
+              <button id="viewTabPower" class="tab-btn" role="tab" type="button" data-tab="power" aria-controls="tabPower" aria-selected="false" tabindex="-1">Power</button>
+              <button id="viewTabField" class="tab-btn" role="tab" type="button" data-tab="field" aria-controls="tabField" aria-selected="false" tabindex="-1">Scan</button>
+              <button id="viewTabSupply" class="tab-btn" role="tab" type="button" data-tab="supply" aria-controls="tabSupply" aria-selected="false" tabindex="-1">Supply</button>
+              <button id="viewTabCost" class="tab-btn" role="tab" type="button" data-tab="cost" aria-controls="tabCost" aria-selected="false" tabindex="-1">Cost</button>
+              <button id="viewTabIntel" class="tab-btn" role="tab" type="button" data-tab="intel" aria-controls="tabIntel" aria-selected="false" tabindex="-1">Intel</button>
+              <button id="viewTabOmniverse" class="tab-btn" role="tab" type="button" data-tab="omniverse" aria-controls="tabOmniverse" aria-selected="false" tabindex="-1">USD</button>
+              <button id="viewTabPilot" class="tab-btn" role="tab" type="button" data-tab="pilot" aria-controls="tabPilot" aria-selected="false" tabindex="-1">Pilot</button>
+            </div>
+          </div>
+
+          <div id="threeViewport" class="site-hero three-viewport">
+            <canvas id="twin3d" tabindex="0" aria-label="Interactive 3D data center twin"></canvas>
+            <div id="knowledgeMap" class="knowledge-map" aria-label="4D knowledge and supply chain map"></div>
+            <div class="hero-system-rail" aria-label="Active reference architecture">
+              <span class="hero-system-chip" style="--system-color:#4e8cff"><i aria-hidden="true"></i><strong id="heroCompute">Vera Rubin NVL72</strong></span>
+              <span class="hero-system-chip" style="--system-color:#f08a4b"><i aria-hidden="true"></i><strong id="heroPower">800V DC + bridge</strong></span>
+              <span class="hero-system-chip" style="--system-color:#36d7c8"><i aria-hidden="true"></i><strong id="heroCooling">Direct liquid</strong></span>
+              <span class="hero-system-chip" style="--system-color:#a7adb4"><i aria-hidden="true"></i><strong id="heroStructure">Seismic steel</strong></span>
+            </div>
+            <div id="coolingHud" class="cooling-hud" aria-hidden="true">
+              <div class="cooling-hud-head">
+                <span>Modular DLC</span>
+                <strong id="coolingHudModule">A-03 / CDU-03</strong>
+              </div>
+              <div class="cooling-chain" aria-label="Facility water to GPU cold plate path">
+                <div><i class="cooling-node facility" aria-hidden="true"></i><span>FWS</span></div>
+                <b aria-hidden="true"></b>
+                <div><i class="cooling-node cdu" aria-hidden="true"></i><span>CDU N+1</span></div>
+                <b aria-hidden="true"></b>
+                <div><i class="cooling-node quick" aria-hidden="true"></i><span>Rack QD</span></div>
+                <b aria-hidden="true"></b>
+                <div><i class="cooling-node plate" aria-hidden="true"></i><span>Cold plate</span></div>
+              </div>
+              <div id="coolingHudTopology" class="cooling-topology">N+1 CDU / blind-mate rack QD</div>
+              <div class="cooling-readout">
+                <span><i class="supply" aria-hidden="true"></i><strong id="coolingHudSupply">36C</strong> supply</span>
+                <span><i class="return" aria-hidden="true"></i><strong id="coolingHudReturn">45C</strong> return</span>
+                <span><strong id="coolingHudRackFlow">637</strong> L/min/rack</span>
+              </div>
+            </div>
+            <div id="powerHud" class="power-hud" aria-hidden="true">
+              <div class="power-hud-head">
+                <span>Primary power</span>
+                <strong id="powerHudSource">Utility grid</strong>
+              </div>
+              <div class="power-chain" aria-label="Primary source to GPU rack power path">
+                <div><i class="power-node source" aria-hidden="true"></i><span>Source</span></div>
+                <b aria-hidden="true"></b>
+                <div><i class="power-node convert" aria-hidden="true"></i><span>Convert</span></div>
+                <b aria-hidden="true"></b>
+                <div><i class="power-node bus" aria-hidden="true"></i><span>800V bus</span></div>
+                <b aria-hidden="true"></b>
+                <div><i class="power-node rack" aria-hidden="true"></i><span>GPU rack</span></div>
+              </div>
+              <div class="power-readout">
+                <span><strong id="powerHudMw">40 MW</strong> target</span>
+                <span><strong id="powerHudTopology">N+1</strong> topology</span>
+                <span><strong id="powerHudBackup">2 h BESS</strong> backup</span>
+              </div>
+            </div>
+            <div class="hero-overlay">
+              <span id="heroBlock">A-03</span>
+              <strong id="heroStatus">Power hold</strong>
+            </div>
+          </div>
+
+          <section id="constructionTimeline" class="construction-timeline" aria-label="Interactive construction timeline">
+            <header>
+              <div>
+                <span>4D construction sequence</span>
+                <strong id="constructionTimelinePhase">Module set</strong>
+              </div>
+              <div class="construction-timeline-now">
+                <span>Week</span>
+                <strong id="constructionTimelineWeek">14</strong>
+                <em id="constructionTimelineMeta">A-03 / 72% prefab</em>
+              </div>
+            </header>
+            <div id="constructionMilestones" class="construction-milestones" role="group" aria-label="Construction milestones"></div>
+            <div id="constructionScrubber" class="construction-scrubber">
+              <input id="constructionTimelineRange" type="range" min="0" max="30" step="1" value="14" aria-label="Construction timeline week" />
+              <div class="construction-scale" aria-hidden="true">
+                <span>W0</span><span>W10</span><span>W20</span><span>W30</span>
+              </div>
+            </div>
+          </section>
+
+          <div class="site-grid-wrap">
+            <div class="map-header">
+              <span>Steel bay plan</span>
+              <span>Click a block</span>
+            </div>
+            <div id="moduleMap" class="module-map" aria-label="Interactive module bay plan"></div>
+          </div>
+        </section>
+
+        <aside class="right-panel" aria-label="Inspector">
+          <section class="inspector-head">
+            <div>
+              <div class="section-kicker">Selected block</div>
+              <h2 id="selectedTitle">A-03</h2>
+            </div>
+            <span id="selectedBadge" class="status-badge">Power hold</span>
+          </section>
+
+          <section id="tabTwin" class="tab-panel is-active" role="tabpanel" aria-labelledby="viewTabTwin" tabindex="0">
+            <div class="metric-strip">
+              <div>
+                <span>IT allocation</span>
+                <strong id="blockMw">3.2 MW</strong>
+              </div>
+              <div>
+                <span>Steel bay</span>
+                <strong id="blockSteelBay">A3</strong>
+              </div>
+              <div>
+                <span>DC bus</span>
+                <strong id="blockFeeder">800V DC Bus A</strong>
+              </div>
+              <div>
+                <span>Rectifier</span>
+                <strong id="blockRectifier">R-1B</strong>
+              </div>
+            </div>
+            <div class="twin-switch" role="group" aria-label="Digital twin mode">
+              <button class="twin-mode-btn is-active" type="button" data-twin-mode="design" aria-pressed="true">Design</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="mechanics" aria-pressed="false">Structure</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="energy" aria-pressed="false">Energy</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="fluid" aria-pressed="false">Liquid</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="thermal" aria-pressed="false">Thermal</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="physics" aria-pressed="false">Physics</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="compute" aria-pressed="false">Compute</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="software" aria-pressed="false">Software</button>
+              <button class="twin-mode-btn" type="button" data-twin-mode="ops" aria-pressed="false">Ops</button>
+            </div>
+            <div id="gpuLayerControls" class="gpu-layer-controls" role="group" aria-label="GPU internal layer visibility">
+              <button class="gpu-layer-btn is-active" type="button" data-internal-layer="all" aria-pressed="true">All</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="power" aria-pressed="false">Power</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="cooling" aria-pressed="false">Cooling</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="compute" aria-pressed="false">Compute</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="network" aria-pressed="false">Network</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="safety" aria-pressed="false">Safety</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="structure" aria-pressed="false">Structure</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="foundation" aria-pressed="false">Foundation</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="construction" aria-pressed="false">Construction</button>
+              <button class="gpu-layer-btn" type="button" data-internal-layer="telemetry" aria-pressed="false">Telemetry</button>
+              <button id="cutawayToggle" class="gpu-layer-btn cutaway-btn is-active" type="button" aria-pressed="true">Cutaway</button>
+              <button id="explodedToggle" class="gpu-layer-btn cutaway-btn" type="button" aria-pressed="false">Exploded</button>
+            </div>
+            <div id="opsFailureControls" class="ops-failure-controls" hidden role="group" aria-label="Operations failure simulation"></div>
+            <div class="twin-summary">
+              <span id="twinEyebrow">Design twin</span>
+              <strong id="twinHeadline">Full-stack module before concrete.</strong>
+              <p id="twinCopy">Structure, energy, liquid cooling, rack compute, chips and software stay live before release.</p>
+            </div>
+            <div id="designEngine" class="design-engine"></div>
+            <div id="twinKpis" class="twin-kpis"></div>
+            <div id="twinFlow" class="twin-flow"></div>
+            <div id="internalDetails" class="internal-details"></div>
+            <div class="stage-list" id="stageList"></div>
+            <div class="next-action">
+              <span>Next action</span>
+              <strong id="nextAction">Lock utility witness test.</strong>
+            </div>
+          </section>
+
+          <section id="tabPower" class="tab-panel" role="tabpanel" aria-labelledby="viewTabPower" tabindex="0" hidden>
+            <canvas id="powerCanvas" width="640" height="420" aria-label="800 volt DC power topology"></canvas>
+            <div class="power-legend">
+              <span><i class="dot ready"></i>Ready</span>
+              <span><i class="dot active"></i>Active</span>
+              <span><i class="dot blocked"></i>Blocked</span>
+            </div>
+            <div id="powerReadout" class="readout"></div>
+          </section>
+
+          <section id="tabField" class="tab-panel" role="tabpanel" aria-labelledby="viewTabField" tabindex="0" hidden>
+            <div class="scan-stack" id="scanStack"></div>
+            <button id="resolveScan" class="ghost-btn full" type="button">Resolve top delta</button>
+          </section>
+
+          <section id="tabSupply" class="tab-panel" role="tabpanel" aria-labelledby="viewTabSupply" tabindex="0" hidden>
+            <div id="supplyControls" class="supply-controls"></div>
+            <div id="supplySummary" class="supply-summary"></div>
+            <div id="supplyExposure" class="supply-exposure"></div>
+            <div id="supplyProcurement" class="supply-procurement"></div>
+            <div id="supplyActions" class="supply-actions"></div>
+          </section>
+
+          <section id="tabCost" class="tab-panel cost-panel" role="tabpanel" aria-labelledby="viewTabCost" tabindex="0" hidden>
+            <div id="costControls" class="cost-controls"></div>
+            <div id="costMethod" class="cost-method"></div>
+            <div id="costHeadline" class="cost-headline"></div>
+            <div id="costKpis" class="cost-kpis"></div>
+            <div id="costProcurement" class="cost-procurement"></div>
+            <div id="costBreakdown" class="cost-breakdown"></div>
+            <div id="costComponents" class="cost-components"></div>
+            <div id="costCashflow" class="cost-cashflow"></div>
+            <div id="costBackup" class="cost-backup"></div>
+            <div id="costAssumptions" class="cost-assumptions"></div>
+          </section>
+
+          <section id="tabIntel" class="tab-panel" role="tabpanel" aria-labelledby="viewTabIntel" tabindex="0" hidden>
+            <div id="intelSummary" class="intel-summary"></div>
+            <div id="backendEngine" class="backend-engine-panel"></div>
+            <div id="knowledgeBase" class="knowledge-base"></div>
+            <div id="intelOptimizer" class="intel-optimizer"></div>
+            <div id="intelConstraints" class="constraint-stack"></div>
+            <div id="intelPortfolio" class="site-portfolio"></div>
+            <div id="intelCapital" class="capital-case"></div>
+            <div id="intelPeers" class="peer-matrix"></div>
+            <div id="intelSignals" class="intel-signals"></div>
+            <div id="intelReadout" class="intel-readout"></div>
+          </section>
+
+          <section id="tabOmniverse" class="tab-panel" role="tabpanel" aria-labelledby="viewTabOmniverse" tabindex="0" hidden>
+            <div id="omniverseSummary" class="omniverse-summary"></div>
+            <div id="omniverseLayers" class="omniverse-layers"></div>
+            <div id="omniverseGraph" class="omniverse-graph"></div>
+            <div id="omniverseTelemetry" class="omniverse-telemetry"></div>
+            <div id="omniverseActions" class="omniverse-actions"></div>
+          </section>
+
+          <section id="tabPilot" class="tab-panel" role="tabpanel" aria-labelledby="viewTabPilot" tabindex="0" hidden>
+            <div class="pilot-card">
+              <span>Pilot target</span>
+              <strong>One 800V DC steel pod</strong>
+              <p>Steel frame, rectifier skid, DC busway, rack shelf, and energization data.</p>
+            </div>
+            <div class="checklist" id="pilotChecklist"></div>
+          </section>
+        </aside>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="./vendor/three/three.global.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

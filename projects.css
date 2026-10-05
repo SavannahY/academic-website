@@ -3,6 +3,7 @@
 .course-project{display:grid;grid-template-columns:235px minmax(0,1fr);gap:36px;align-items:start;border-top:1px solid var(--line);padding-top:30px}
 .project-visual{display:block;border:1px solid var(--line);background:var(--surface);padding:8px;margin-top:4px}
 .project-visual img{display:block;width:100%;height:auto}
+.project-caption{font-size:.75rem;color:var(--muted);margin-top:8px}
 .chart-preview{background:#fff}
 .course-project-body h3{font-size:1.4rem;line-height:1.4}
 .course-project-body .project-label{font-size:.73rem;letter-spacing:.04em;margin-bottom:10px}

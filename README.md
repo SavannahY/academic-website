@@ -4,10 +4,11 @@ Static academic website, hosted with GitHub Pages. No build step, database, serv
 
 ## Editing
 
-- `index.html`: biography, research, publications, selected course projects, and background.
+- `index.html`: biography, research, publications, selected course projects, personal exploratory projects, and background.
 - `styles.css` and `projects.css`: responsive layout and typography.
 - `script.js`: BibTeX copy buttons.
 - `assets/`: public portrait, research and course-project posters, project figures, and privacy-reviewed CV.
+- `projects/powertwin-4d/`: standalone, static PowerTwin 4D exploratory prototype, with locally hosted visualization dependencies and public reference material.
 
 GitHub Pages publishes the repository root from the `main` branch. Commit and push edits to update the live site.
 
