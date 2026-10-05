@@ -4,10 +4,10 @@ Static academic website, hosted with GitHub Pages. No build step, database, serv
 
 ## Editing
 
-- `index.html`: biography, research, publications, and background.
-- `styles.css`: responsive layout and typography.
+- `index.html`: biography, research, publications, selected course projects, and background.
+- `styles.css` and `projects.css`: responsive layout and typography.
 - `script.js`: BibTeX copy buttons.
-- `assets/`: public portrait, poster, and privacy-reviewed CV.
+- `assets/`: public portrait, research and course-project posters, project figures, and privacy-reviewed CV.
 
 GitHub Pages publishes the repository root from the `main` branch. Commit and push edits to update the live site.
 
