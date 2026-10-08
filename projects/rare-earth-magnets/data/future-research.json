@@ -470,11 +470,11 @@
   "packages": [
     {
       "id": "application-observations",
-      "title_en": "Anonymous practitioner context and public evidence",
-      "title_zh": "匿名从业者背景与公开证据",
+      "title_en": "Anonymous practitioner perspectives and public context",
+      "title_zh": "匿名从业者视角与公开背景",
       "status": "anonymous observations; public examples separately sourced",
-      "summary_en": "Buyer roles, specialist sourcing and qualification questions. No factory identity, supplier route or quantitative model input is created by these observations.",
-      "summary_zh": "采购角色、专业采购与认证问题。观察没有建立工厂身份、供应路线或模型定量输入。",
+      "summary_en": "Buyer roles, specialist sourcing and qualification questions. Anonymous observations establish no factory identity, supplier route or quantitative model input.",
+      "summary_zh": "采购角色、专业采购与认证问题。匿名观察不建立工厂身份、供应路线或定量模型输入。",
       "source_ids": [
         "APP_ABBCONTRACT",
         "NEO_NARVA",
