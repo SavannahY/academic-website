@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101614">
+  <title>Research learning map — Steven Davis</title><meta name="description" content="A compact learning framework for source-backed Steven Davis research, with a full chronology, inspected evidence and your own interest choices.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=20261007-4"><link rel="stylesheet" href="knowledge.css?v=20261007-8"><link rel="stylesheet" href="global-nav.css?v=20261007-1">
+  <script defer src="lib/d3.min.js"></script><script defer src="knowledge.js?v=20261007-9"></script><script defer src="global-nav.js?v=20261007-1"></script>
+</head>
+<body class="knowledge-page">
+  <a class="skip-link" href="#km-question">Skip to question picker</a>
+  <header class="masthead"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>RARE EARTH<small>A MATERIAL OBSERVATORY</small></span></a><nav aria-label="Main navigation"><a href="research.html">Research film</a><a href="collaborators.html">Collaborators</a><a href="methods.html">Methods & evidence</a><a href="grades.html">Materials & origins</a><a href="future.html">Future Research</a></nav></header>
+  <main class="section-wrap">
+    <section class="km-intro"><div><p class="eyebrow" data-km-copy="eyebrow">Steven J. Davis · a learning framework</p><h1 data-km-copy-html="headline">Find the ideas.<br><em>Then read the evidence.</em></h1></div><div class="km-intro-side"><div class="km-language" role="group" aria-label="Page language"><button type="button" data-km-lang="en" aria-pressed="true">English</button><button type="button" data-km-lang="zh" aria-pressed="false">中文</button></div><p data-km-copy="intro">Start with a few concepts, then open a question to inspect its paper, method and scope. This learning framework is our synthesis—not a quotation or a claim that every year marks a new field.</p></div></section>
+    <section class="km-workspace" aria-label="Interactive research knowledge map">
+      <div class="km-mode-row"><div class="km-tabs" role="tablist" aria-label="Map view"><button id="km-topic-view" role="tab" aria-selected="true" aria-controls="km-map-panel" data-km-copy="concept_view">Concept map</button><button id="km-tree-view" role="tab" aria-selected="false" aria-controls="km-map-panel" data-km-copy="tree_view">Chronology · 2008–2026</button></div><span id="km-counts" role="status">Loading source records…</span></div>
+      <div class="km-filters"><label><span data-km-copy="source_theme">Source theme</span><select id="km-topic"><option value="all">All themes</option></select></label><label><span data-km-copy="year">Year</span><select id="km-year"><option value="all">All years</option></select></label><label class="km-question-control"><span data-km-copy="question">Question / record</span><select id="km-question"><option>Loading verified questions…</option></select></label><label><span data-km-copy="search">Search the evidence</span><input id="km-search" type="search" placeholder="Question, title or year" autocomplete="off"></label></div>
+      <div class="km-map-layout"><div id="km-map-panel" class="km-map-panel" role="tabpanel" aria-labelledby="km-topic-view">
+        <div class="km-navigation"><p data-km-copy="navigation">Drag to pan · scroll / pinch to zoom · open a concept or year</p><div><button id="km-expand" data-km-copy="expand">Expand visible</button><button id="km-collapse" data-km-copy="collapse">Collapse</button><button id="km-fit" data-km-copy="fit">Fit</button><button id="km-focus" data-km-copy="focus">Focus selection</button><button id="km-minus" aria-label="Zoom out">−</button><button id="km-plus" aria-label="Zoom in">+</button><button id="km-reset" data-km-copy="reset">Overview</button><output id="km-zoom">1×</output></div></div>
+        <svg id="knowledge-map" viewBox="0 0 1400 780" tabindex="0" role="group" aria-label="Interactive research topic mind map. Use pickers above for an accessible equivalent."></svg>
+        <p id="km-map-note" class="km-map-note">Topics are an editorial grouping of source-backed questions. Placement and line length have no scientific meaning.</p>
+      </div><aside id="km-detail" class="km-detail" aria-live="polite"><p>Select a question, topic or year.</p></aside></div>
+      <div class="km-legends"><div><p class="eyebrow">Read the connections</p><div id="km-relation-key"></div></div><div><p class="eyebrow">Your interest · local browser only</p><div class="km-interest-key"><span data-interest="deep">Deep</span><span data-interest="medium">Medium</span><span data-interest="light">Light</span><span data-interest="none">No interest</span><span data-interest="unrated">Unrated</span></div><p>Ratings are yours, not Davis’s priorities or a measure of paper importance. Unrated is distinct from explicitly choosing “No interest.” Topic ratings do not change their questions.</p><button id="km-clear-interest">Clear my saved ratings</button><p id="km-storage-status" role="status"></p></div></div>
+      <div id="km-relation-detail" class="km-relation-detail" aria-live="polite"></div>
+      <details class="km-evidence"><summary>Scope, source boundaries & map construction</summary><div id="km-scope"></div></details>
+    </section>
+  </main>
+  <footer class="section-wrap"><a class="footer-brand" href="index.html">RARE EARTH</a><p>Verified public research · questions are source-audited summaries, not author quotations</p><a href="research.html">Watch the chronological film</a></footer>
+</body>
+</html>

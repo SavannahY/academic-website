@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-07",
+  "provenance": {
+    "type": "anonymous_practitioner_observations",
+    "independently_verified": false,
+    "quotation": false,
+    "en": "Anonymous practitioner observations · paraphrased, with identity withheld. These are exploratory perspectives, not independently verified market-wide facts. Public evidence is identified separately.",
+    "zh": "匿名从业者观察 · 转述并隐去个人身份。这些是探索性观点，不是经过独立核实的全行业事实；公开证据另行标明。"
+  },
+  "roles": [
+    {
+      "id": "producer",
+      "en": "Magnet producer",
+      "zh": "磁体生产商",
+      "product_en": "Magnet or magnetic rotor component",
+      "product_zh": "磁体或含磁体的转子部件",
+      "note_en": "Ask which finished part is offered, which processes the supplier controls, and who accepts its specification. A motor maker may be the buyer; the robot OEM is not automatically the direct customer.",
+      "note_zh": "先确认交付的成品、供应商掌握的工艺及规格验收方。采购方可能是电机厂；机器人整机厂并不必然直接购买磁体。"
+    },
+    {
+      "id": "motor",
+      "en": "Motor / actuator maker",
+      "zh": "电机 / 执行器厂",
+      "product_en": "Motor, actuator or joint module",
+      "product_zh": "电机、执行器或关节模组",
+      "note_en": "Ask who turns the magnetic part into an accepted motion product, and who owns thermal, demagnetization and dimensional requirements. That technical role may differ from the purchasing contact.",
+      "note_zh": "确认谁将磁性部件集成为合格的运动产品，谁负责温度、抗退磁和尺寸要求。技术需求方与采购联系人可能不同。"
+    },
+    {
+      "id": "integrator",
+      "en": "System integrator",
+      "zh": "系统集成商",
+      "product_en": "Integrated motion subsystem",
+      "product_zh": "集成后的运动子系统",
+      "note_en": "Investigate whether the buyer purchases magnets, motors or a complete subsystem. Identify responsibility for interfaces, controls and acceptance rather than assuming that every integrator buys raw magnets.",
+      "note_zh": "研究其购买的是磁体、电机还是完整子系统；分清接口、控制及验收责任，不能默认所有集成商都采购原始磁体。"
+    },
+    {
+      "id": "oem",
+      "en": "Robot OEM",
+      "zh": "机器人整机厂",
+      "product_en": "Robot or complete application",
+      "product_zh": "机器人或完整应用产品",
+      "note_en": "Identify the final program and who approves a supplier change. Direct procurement, purchases through component makers and channel relationships must be documented separately.",
+      "note_zh": "明确最终项目及供应商变更的批准方。直接采购、通过部件厂采购及渠道关系需要分别核实。"
+    },
+    {
+      "id": "user",
+      "en": "Application user",
+      "zh": "应用终端用户",
+      "product_en": "Household, industrial, commercial or infrastructure use",
+      "product_zh": "家庭、工业、商用或基础设施用途",
+      "note_en": "Verify the actual use and buyer. Industrial robots may serve businesses and production facilities; a final household destination cannot be assumed for every motor or robot.",
+      "note_zh": "核实实际用途及采购方。工业机器人可能服务企业及生产设施，不能默认所有电机或机器人最终都进入家庭。"
+    }
+  ],
+  "observations": [
+    {
+      "id": "robotics",
+      "en": "An application market to investigate",
+      "zh": "值得研究的应用市场",
+      "body_en": "Robotics motors and actuators were suggested as a promising area to investigate. First establish the product, technical buyer and purchasing role; no market size, named customer or supplier route was established by these observations.",
+      "body_zh": "访谈提出机器人电机与执行器值得关注。先明确产品、技术需求方及采购角色；访谈没有建立市场规模、具名客户或供应路线。"
+    },
+    {
+      "id": "sourcing",
+      "en": "A specialist sourcing role",
+      "zh": "专业采购与渠道服务",
+      "body_en": "The practitioner suggested that translating requirements, finding suitable suppliers and coordinating procurement and customer communication may create value without owning a factory. Access to emerging customer channels is a hypothesis to test, not proof that producers lack channels.",
+      "body_zh": "从业者认为，即使不拥有工厂，也可能通过明确需求、寻找合适供应商、协调采购及客户沟通创造价值。新兴应用的客户渠道是一项待验证假设，不能据此认定生产商缺乏渠道。"
+    },
+    {
+      "id": "tradeoff",
+      "en": "Flexibility and installed capability",
+      "zh": "供应灵活性与现有产线能力",
+      "body_en": "Manufacturer-independent sourcing may compare several suppliers. A plant owner may offer direct process control within installed capability. Compare flexibility, accountability, quality control and qualification effort; neither structure is assumed better in every case.",
+      "body_zh": "独立于制造商的采购服务可以比较多家供应商；工厂拥有者可在现有产线能力内直接控制工艺。应同时比较灵活性、责任落实、质量控制与认证成本，不能预设某种模式总是更好。"
+    }
+  ],
+  "buyer_lens": [
+    {
+      "id": "cost",
+      "en": "Delivered cost",
+      "zh": "到货总成本",
+      "body_en": "Compare the qualified product's delivered cost, including relevant logistics, inspection and rejection costs. A cheaper raw-material quote does not establish a cheaper accepted motor component.",
+      "body_zh": "比较合格产品的到货总成本，并考虑适用的物流、检验及不合格品成本。原料报价更低，不等于合格电机部件成本更低。"
+    },
+    {
+      "id": "fit",
+      "en": "Performance fit",
+      "zh": "性能匹配",
+      "body_en": "Check geometry, magnetic properties at operating temperature, demagnetization margin, coating and the actual motor requirements. The highest N number alone is not an acceptance criterion.",
+      "body_zh": "核对尺寸、工作温度下的磁性能、抗退磁裕度、涂层及实际电机要求。最高的 N 数字本身并不是验收标准。"
+    },
+    {
+      "id": "quality",
+      "en": "Consistent quality",
+      "zh": "质量一致性",
+      "body_en": "Ask for evidence of repeatability and agreed acceptance criteria across lots. A single good sample is different from consistent production.",
+      "body_zh": "查看跨批次一致性及双方约定的验收标准。一件合格样品与持续稳定生产是不同的证据。"
+    },
+    {
+      "id": "qualification",
+      "en": "Qualification & switching",
+      "zh": "认证及切换",
+      "body_en": "Identify who accepts the part and what testing or revalidation a change requires. Supplier-specific durations and costs remain unknown unless the program discloses them.",
+      "body_zh": "明确部件验收方，以及变更需要哪些测试或重新验证。除非项目披露，否则不能指定供应商切换的实际周期与成本。"
+    },
+    {
+      "id": "lead",
+      "en": "Lead time",
+      "zh": "交期",
+      "body_en": "Separate sample delivery, production readiness and recurring order delivery. Confirm the required schedule rather than substituting announced capacity for a promised delivery.",
+      "body_zh": "区分送样、量产准备及持续订单交付；确认实际所需时间，不能用公布的产能代替交付承诺。"
+    },
+    {
+      "id": "continuity",
+      "en": "Supply continuity",
+      "zh": "供货连续性",
+      "body_en": "Investigate material sourcing, available capacity, inventories and fallback options. Named locations or contracts alone do not establish continuous accepted supply.",
+      "body_zh": "研究原料采购、可用产能、库存及备用方案。具名厂点或合同本身并不证明持续供应合格产品。"
+    },
+    {
+      "id": "collaboration",
+      "en": "Collaboration",
+      "zh": "协作能力",
+      "body_en": "Clarify responsibility for engineering communication, documentation, issue resolution and change control. A sourcing intermediary's value must be demonstrated in these tasks, not assumed from introductions alone.",
+      "body_zh": "明确工程沟通、文件、问题处理及变更控制的责任。采购中介的价值需在这些工作中体现，不能只凭介绍客户就预设成立。"
+    }
+  ],
+  "evidence": [
+    {
+      "source_id": "APP_ARNOLDTECH",
+      "en": "Arnold: Neodymium Iron Boron Magnets",
+      "zh": "公开厂家资料支持的部分",
+      "body_en": "Arnold discusses geometry/alignment effects, temperature/output/system-cost trade-offs and corrosion coatings. It says it has evaluated multiple manufacturers for base-material corrosion resistance. The multi-manufacturer evaluation is Arnold’s account. It does not establish neutral representation, open distribution rights, unrestricted substitution, or a robot OEM’s chosen grade.",
+      "body_zh": "Arnold 说明磁性能受压制取向、形状和尺寸影响；选择 NdFeB/SmCo 要考虑工作温度、所需磁输出和系统总成本；潮湿环境可能需要防腐涂层。其称已评估多家制造商的基材耐腐蚀性。 多厂家评估是 Arnold 自述；不证明厂家中立、开放代理权、可无条件换厂，或某机器人 OEM 用其牌号。"
+    },
+    {
+      "source_id": "APP_KOLLMORGENROBOT",
+      "en": "Kollmorgen: Robotic Motor Solutions brochure",
+      "zh": "公开厂家资料支持的部分",
+      "body_en": "Kollmorgen describes robotic-joint power density, weight/inertia, smooth motion and configurable/co-engineered motors. Its KBM example identifies NdFeB and options for hub dimensions, stack length, diameter, mounting, windings and connections. This is the company’s product/service example, not a universal robot-motor BOM. Its 155°C figure concerns continuous internal winding capability, not a general magnet temperature rating.",
+      "body_zh": "Kollmorgen 介绍机器人关节的功率密度、重量/惯量、运动平顺性，以及标准、可配置和共同工程修改的电机。KBM 例子明确采用 NdFeB，可修改轮毂、叠长、直径、安装、绕组与连接等。 这是该公司的产品与服务例子，不是所有机器人电机的 BOM。155°C 指内部绕组连续能力，不是磁体通用耐温。"
+    },
+    {
+      "source_id": "PO_DEXTER",
+      "en": "Dexter Magnetic Technologies: Magnetic Assemblies",
+      "zh": "公开厂家资料支持的部分",
+      "body_en": "Dexter advertises technical support for material grades, coatings, tolerances, magnetic testing and prototypes; linear-motor assistance covers force, environment and magnetic interaction in the application. These are manufacturer service claims, not independently verified savings. Dexter also designs and manufactures assemblies; it is not proof of a profitable factory-free trading model.",
+      "body_zh": "Dexter 公开提供选材牌号、涂层、公差、磁测试和原型方面的技术支持；线性电机支持包括力、环境与整机磁通相互作用的选择。 这是制造商服务自述，不能视为独立验证的成本节省。Dexter 自身也设计和制造磁性组件，不是“无需工厂的独立贸易商”盈利证明。"
+    },
+    {
+      "source_id": "APP_JLMAG2021AR",
+      "en": "JL MAG: 2021 Annual Report / annual-results announcement",
+      "zh": "公开厂家资料支持的部分",
+      "body_en": "JL MAG reports strict customer quality/technical/management requirements and lengthy evaluation/certification, alongside performance, quality, quantity and delivery needs. It describes customer-design support, non-standard adaptation and overseas technical/logistics/sales teams. Qualification barriers and switching reluctance are management’s FY2021 account, not a universal robot-buyer rule or fixed lead time. Its channel example also shows that established manufacturers already operate sales/technical channels.",
+      "body_zh": "金力永磁称领先客户有严格质量/技术/管理要求、较长评价认证周期，并按性能、质量、数量与交期选择合格供应商。其介绍参与客户设计、非标产品适配，以及海外团队的技术交流、物流与销售职能。 “认证壁垒高、客户不易切换”是 FY2021 管理层叙述，不能变成每个机器人客户统一规则或固定认证周期。其渠道案例反而说明已有厂家经营销售/技术渠道。"
+    },
+    {
+      "source_id": "APP_NIDECCONTRACT",
+      "en": "Nidec and Noveon: binding magnet offtake announcement",
+      "zh": "公开厂家资料支持的部分",
+      "body_en": "Nidec and Noveon announce a binding five-year finished sintered NdFeB offtake for automation/industrial/defense uses. Nidec describes supply stability, reliability and performance as considerations. This establishes a named partnership announcement, not practitioner customer access, direct robot-OEM procurement, realized shipments, pricing, or an available intermediary role. Performance superiority remains attributed.",
+      "body_zh": "Nidec–Noveon 宣布五年有约束力 finished sintered NdFeB 包销，覆盖自动化/工业/防务用途；Nidec 将供应稳定、可靠性和性能列为合作考虑。 这证明具名合作公告，不证明本次访谈已有客户、机器人 OEM 直接采购、实际发货量、报价或代理空间。营销性优越性表述保持归属。"
+    }
+  ],
+  "questions": [
+    {
+      "en": "Who buys and accepts the part: a motor/actuator maker, component integrator or robot OEM? Is the final use industrial, infrastructure, commercial or household? Which need requires outside coordination?",
+      "zh": "谁真正采购并验收：电机/执行器厂、部件集成商还是机器人 OEM？最终用途是工业、基础设施、商用还是家庭？具体哪项需求需要外部协调？",
+      "body_en": "Distinguish the magnet supplier, motor/actuator maker, robot OEM/integrator and final user. Identify the buyer, drawing/acceptance owner and source approver; do not infer a direct contract from layer position.",
+      "body_zh": "按一个实际项目区分磁体供应商、电机/执行器制造商、机器人 OEM/集成商和最终使用者，并确定采购主体、图纸/验收拥有者与资格批准者；不凭层级位置推断直接合同。"
+    },
+    {
+      "en": "For the same drawing, which magnetic, temperature/demagnetization, magnetization, coating, tolerance and test requirements are mandatory, and which permit co-engineered changes?",
+      "zh": "同一图纸下，哪些磁性能、温度/退磁裕度、磁化方向、涂层、公差与测试是硬性验收条件，哪些允许共同工程修改？",
+      "body_en": "Compare customer-confirmed specifications and sample tests; do not treat winding temperature as magnet temperature or a grade name as the full specification.",
+      "body_zh": "用客户确认的规格及样品测试对照；电机绕组耐温不直接当磁体耐温，牌号名也不自动等于全项规格。"
+    },
+    {
+      "en": "When sourcing across manufacturers, which factories, materials/coatings and processes are approved? Which changes need samples, retesting or renewed approval, and who bears the time and cost?",
+      "zh": "跨厂家供货时，哪些工厂、材料/涂层和工艺已经获客户批准；哪些变更需要样品、再测试或重新批准，时间与费用由谁承担？",
+      "body_en": "Check the programme’s approved-source list and change rules; clarify exclusivity, representation, commissions and customer restrictions rather than equating lack of factory ownership with independence.",
+      "body_zh": "查项目批准厂源清单和变更规则；明确服务方与厂家是否有独家、代理、佣金或客户限制，不能只凭“不拥有工厂”判定独立。"
+    },
+    {
+      "en": "At the same qualified specification, delivery terms and volume, how do samples/tooling/inspection, yield/rework, packaging/freight, lead time and inventory affect delivered cost? Which new capability can the customer test or confirm?",
+      "zh": "在相同合格规格、交付条件和需求量下，样品/模具/检验、良率/返工、包装运费、交期与库存如何改变交付成本；哪项新能力能被客户测试或确认？",
+      "body_en": "Use comparable quotes and programme records; do not derive profit from an ex-factory unit price or treat advertised savings as measured results.",
+      "body_zh": "用同口径报价和项目记录比较，不由出厂单价推算利润或把供应商“降本”宣传当实测结果。"
+    }
+  ],
+  "boundary_en": "The role sequence is a reading framework, not a verified shipment chain. These observations add no market-size, demand, capacity, supplier-qualification or model parameter values.",
+  "boundary_zh": "角色顺序是阅读框架，并非已核实的物流链。这些观察没有新增市场规模、需求、产能、供应商资格或模型参数。",
+  "source_ids": [
+    "APP_ARNOLDTECH",
+    "APP_KOLLMORGENROBOT",
+    "PO_DEXTER",
+    "APP_JLMAG2021AR",
+    "APP_NIDECCONTRACT"
+  ]
+}

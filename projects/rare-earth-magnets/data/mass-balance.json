@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-07",
+  "identity": "opening_stock + primary_external + recycled_external + imports = exports + delivered_use + unrecoverable_loss + closing_stock",
+  "dimension_keys": [
+    "period_start",
+    "period_end",
+    "geography_boundary_id",
+    "system_boundary_id",
+    "material_stage",
+    "mass_basis",
+    "element_or_product",
+    "unit"
+  ],
+  "required_record_fields": {
+    "id": "unique string",
+    "kind": "observed | observed_estimate | derived | scenario",
+    "quantity": "number or null",
+    "unit": "explicit native unit",
+    "period_start": "date or null",
+    "period_end": "date or null",
+    "time_basis": "shipment | production | sales-recognition | stock-snapshot | annual_capacity",
+    "boundary_id": "string",
+    "product_form": "chemical form and stage",
+    "element_assay": "map {element: mass_fraction}; null when unknown",
+    "assay_basis": "whole dry product | oxide purity | total rare-earth basis | wet material",
+    "source_ids": "array of source IDs",
+    "parent_record_ids": "derivation lineage",
+    "overlap_group": "shared upstream/downstream material",
+    "transaction_id": "same shipment unique ID",
+    "stock_id": "unique holding",
+    "unknown_reason": "required when quantity/assay/endpoints missing"
+  },
+  "rules": [
+    "Choose a conserved element basis for chemical transformations; oxide gross mass changes when oxygen is removed. A product-mass balance is valid only inside a fixed product/form boundary or with all reactants/byproducts explicitly included.",
+    "Domestic stage production is an internal transfer when all stages are inside the chosen boundary. Add it only at the entry boundary, never again at separation, metal, alloy and magnet stages.",
+    "Primary/recycled terms are external arrivals at the selected plant/system. Internal scrap recirculation is an internal loop and cancels in the whole-system balance. Imported recycled feed belongs to imports with recycled-origin metadata, not both import and recycled terms.",
+    "Opening and closing stocks include raw feed, process WIP, goods, and in-transit material consistently. Specify ownership/control transfer once, retain shipment date and receipt date, and do not equate same-year production with delivery.",
+    "An output from stage A may arrive in B later; WIP/in-transit stock bridges periods. Revenue recognition is not a physical-flow timestamp.",
+    "Exports and final delivery/use are disjoint boundary exits. A sold magnet is not counted again as delivered motor, vehicle, installed robot and in-use magnet within the same mass boundary.",
+    "Keep loss, external recycling, and retained/recoverable scrap distinct. Count elemental carrier Fe from DyFe and FeB once in the complete assay, and deduct it from any separately specified pure-Fe input.",
+    "NdPr oxide mass requires its Nd/Pr composition and exact oxide convention for individual metal conversion. Do not assign a universal 75/25 mix or apply a universal grade recipe.",
+    "Stoichiometric conversion requires exact formula, dry/wet basis, and purity/assay interpretation. An assay quoted relative to total rare-earth content differs from whole-product purity. Certificates of analysis take precedence.",
+    "If any required term is unknown, report balance residual/unallocated as unknown. Do not invent missing amounts or force a 100% closure. Null is not zero.",
+    "Net imports = same-boundary imports minus exports; net inflow must state which external feeds and exits are included. Percent denominator must be explicit, nonzero, and common to every term.",
+    "Capacity is a rate, actual production is an amount over a period. Planned/nameplate rates do not enter actual material balances."
+  ],
+  "atomic_weights": {
+    "Nd": 144.242,
+    "Pr": 140.90766,
+    "Dy": 162.5,
+    "Tb": 158.925354,
+    "Fe": 55.845,
+    "B": 10.81,
+    "O": 15.9994
+  },
+  "atomic_weight_note": "CIAAW normal-material weights; O chosen as midpoint of interval [15.99903,15.99977] and B=10.81 within [10.806,10.821]. Scenario arithmetic rounds for display.",
+  "oxide_conversion_factors": {
+    "Nd2O3": {
+      "element": "Nd",
+      "factor": 0.8573529298132264,
+      "formula": "2*A(Nd)/(2*A(Nd)+3*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    },
+    "Pr2O3": {
+      "element": "Pr",
+      "factor": 0.854468670659711,
+      "formula": "2*A(Pr)/(2*A(Pr)+3*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    },
+    "Pr6O11": {
+      "element": "Pr",
+      "factor": 0.8277005890981134,
+      "formula": "6*A(Pr)/(6*A(Pr)+11*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    },
+    "Dy2O3": {
+      "element": "Dy",
+      "factor": 0.8713178776734043,
+      "formula": "2*A(Dy)/(2*A(Dy)+3*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    },
+    "Tb2O3": {
+      "element": "Tb",
+      "factor": 0.8688032164360048,
+      "formula": "2*A(Tb)/(2*A(Tb)+3*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    },
+    "Tb4O7": {
+      "element": "Tb",
+      "factor": 0.8502123618981082,
+      "formula": "4*A(Tb)/(4*A(Tb)+7*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    },
+    "Fe2O3": {
+      "element": "Fe",
+      "factor": 0.699425505453753,
+      "formula": "2*A(Fe)/(2*A(Fe)+3*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    },
+    "B2O3": {
+      "element": "B",
+      "factor": 0.3105509766124376,
+      "formula": "2*A(B)/(2*A(B)+3*A(O))",
+      "interpretation": "kg element per kg pure stated oxide; not process yield"
+    }
+  },
+  "conversion_formula": "element_kg = product_kg * whole_product_pure_oxide_fraction * stoichiometric_element_fraction; only if purity is defined on that basis. Otherwise use an elemental assay.",
+  "illustrative_scenario": {
+    "id": "illustrative_no_company_or_country",
+    "evidence_kind": "illustrative_scenario",
+    "boundary": {
+      "geography": "Hypothetical region",
+      "period": "one illustrative accounting year",
+      "stage": "magnet-making boundary; external feed once, internal processing excluded",
+      "mass_basis": "contained-element mass in metal/alloy feed and magnets",
+      "unit": "metric tonnes",
+      "includes_in_transit_by_control": true
+    },
+    "disclaimer_en": "Invented numbers solely to explain accounting. No actual plant, national flow, grade recommendation or universal recipe.",
+    "disclaimer_zh": "纯演示情景；不代表任何工厂、国家、牌号或通用配方。",
+    "composition_assumption": {
+      "Nd": 0.25,
+      "Pr": 0.05,
+      "Dy": 0.01,
+      "Tb": 0.002,
+      "Fe": 0.678,
+      "B": 0.01
+    },
+    "composition_note": "Illustrative assayed metal/alloy mixture. Same element fractions assumed for each flow and stock solely to make the example transparent; actual yields/recipes/losses are element-specific.",
+    "flows_tonnes": {
+      "opening_stock": 10,
+      "primary_external_virgin_feed": 60,
+      "recycled_external_feed": 10,
+      "imports": 20,
+      "exports": 10,
+      "delivered_use": 80,
+      "unrecoverable_loss": 2,
+      "closing_stock": 8
+    },
+    "closing_stock_components_tonnes": {
+      "finished_or_raw_stock": 5,
+      "process_WIP": 3
+    },
+    "opening_stock_components_tonnes": {
+      "finished_or_raw_stock": 7,
+      "process_WIP": 3
+    },
+    "element_ledgers": {
+      "Nd": {
+        "opening_stock": 2.5,
+        "primary_external_virgin_feed": 15.0,
+        "recycled_external_feed": 2.5,
+        "imports": 5.0,
+        "exports": 2.5,
+        "delivered_use": 20.0,
+        "unrecoverable_loss": 0.5,
+        "closing_stock": 2.0
+      },
+      "Pr": {
+        "opening_stock": 0.5,
+        "primary_external_virgin_feed": 3.0,
+        "recycled_external_feed": 0.5,
+        "imports": 1.0,
+        "exports": 0.5,
+        "delivered_use": 4.0,
+        "unrecoverable_loss": 0.1,
+        "closing_stock": 0.4
+      },
+      "Dy": {
+        "opening_stock": 0.1,
+        "primary_external_virgin_feed": 0.6,
+        "recycled_external_feed": 0.1,
+        "imports": 0.2,
+        "exports": 0.1,
+        "delivered_use": 0.8,
+        "unrecoverable_loss": 0.02,
+        "closing_stock": 0.08
+      },
+      "Tb": {
+        "opening_stock": 0.02,
+        "primary_external_virgin_feed": 0.12,
+        "recycled_external_feed": 0.02,
+        "imports": 0.04,
+        "exports": 0.02,
+        "delivered_use": 0.16,
+        "unrecoverable_loss": 0.004,
+        "closing_stock": 0.016
+      },
+      "Fe": {
+        "opening_stock": 6.78,
+        "primary_external_virgin_feed": 40.68,
+        "recycled_external_feed": 6.78,
+        "imports": 13.56,
+        "exports": 6.78,
+        "delivered_use": 54.24,
+        "unrecoverable_loss": 1.356,
+        "closing_stock": 5.424
+      },
+      "B": {
+        "opening_stock": 0.1,
+        "primary_external_virgin_feed": 0.6,
+        "recycled_external_feed": 0.1,
+        "imports": 0.2,
+        "exports": 0.1,
+        "delivered_use": 0.8,
+        "unrecoverable_loss": 0.02,
+        "closing_stock": 0.08
+      }
+    },
+    "net_imports_tonnes": 10,
+    "stock_change_tonnes": -2,
+    "gross_current_period_inflows_tonnes": 90,
+    "available_mass_denominator_tonnes": 100,
+    "percent_denominator": "opening stock + external primary + external recycled + imports = 100 t",
+    "inflow_percent": {
+      "opening_stock": 10,
+      "primary_external_virgin_feed": 60,
+      "recycled_external_feed": 10,
+      "imports": 20
+    },
+    "outflow_and_retention_percent": {
+      "exports": 10,
+      "delivered_use": 80,
+      "unrecoverable_loss": 2,
+      "closing_stock": 8
+    },
+    "flow_inflow_net_inflow_outflow": {
+      "gross_inflow_excludes_opening_stock": 90,
+      "net_inflow_definition": "external primary + external recycled + imports − exports",
+      "net_inflow_tonnes": 80,
+      "net_imports_definition": "imports − exports",
+      "net_imports_tonnes": 10,
+      "outflow_definition": "exports + delivered use + loss",
+      "outflow_tonnes": 92,
+      "stock_change_equals_net_inflow_minus_use_minus_loss": -2
+    }
+  },
+  "illustrative_carrier_fe_example": {
+    "evidence_kind": "illustrative_scenario",
+    "not_a_grade_or_supplier_recipe": true,
+    "target_mixture_kg": 1000,
+    "target_element_mass_kg": {
+      "Nd": 250.0,
+      "Pr": 50.0,
+      "Dy": 10.0,
+      "Tb": 2.0,
+      "Fe": 678.0,
+      "B": 10.0
+    },
+    "purchased_feed_kg": {
+      "assayed_NdPr_metal_250Nd_50Pr": 300,
+      "DyFe_assayed_80pctDy_20pctFe": 12.5,
+      "Tb_metal": 2,
+      "FeB_assayed_20pctB_80pctFe": 50,
+      "pure_Fe": 635.5
+    },
+    "carrier_Fe_kg": {
+      "from_DyFe": 2.5,
+      "from_FeB": 40,
+      "total": 42.5
+    },
+    "pure_Fe_formula": "678 target Fe − 2.5 DyFe-carrier Fe − 40 FeB-carrier Fe = 635.5 kg",
+    "note": "Assay fractions are invented examples, not fixed DyFe/FeB specifications. Purchased feed sums to 1,000 kg and carrier Fe is already inside those feed masses."
+  }
+}

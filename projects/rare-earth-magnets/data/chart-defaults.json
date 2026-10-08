@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-07",
+  "default_mode": "reported_aggregate_statistics",
+  "default_title_en": "2025 rare-earth quantities: reported measures",
+  "default_title_zh": "2025 年稀土量：已报告统计",
+  "default_cards": [
+    "us_mine_2025",
+    "us_compounds_metals_2025",
+    "us_import_compounds_2025",
+    "us_apparent_2025",
+    "us_net_import_reliance_2025"
+  ],
+  "default_warning_en": "These are different material stages. REO is not magnet tonnage; apparent consumption is not NdFeB demand.",
+  "default_warning_zh": "不同环节不可相加；REO 不是磁体吨数；表观消费不是钕铁硼需求。",
+  "absolute_toggle": "Native tonnes/rates, explicit year/quarter and actual/nameplate/planned badges. Never combine rates, product tonnes, REO-equivalent and element tonnes on one additive axis.",
+  "percent_toggle": {
+    "world_mine": "Country rows / source rounded 390,000 t total. Shares sum below 100% because of source rounding; show rounding note rather than fictitious extra country.",
+    "us_apparent_context": {
+      "boundary": "2025 compounds/metals apparent consumption only",
+      "denominator_record_id": "us_apparent_2025",
+      "domestic_production_record_id": "us_compounds_metals_2025",
+      "reported_net_import_reliance_record_id": "us_net_import_reliance_2025",
+      "derived_net_imports_tonnes": 18100,
+      "derived_formula": "27,000 − 8,900",
+      "domestic_share_pct": 32.96296296296296,
+      "derived_net_import_share_pct": 67.03703703703704,
+      "disclaimer": "Algebraic context from rounded USGS figures. Not an independently observed physical import minus export ledger, not magnet demand, and not a stock/loss model. Reported reliance is 67%.",
+      "requires_derived_badge": true
+    },
+    "scenario": "Use scenario available-mass 100 t denominator, with visible stocks and explicit unknown/unallocated terms. Do not renormalize known allocations to make them fill 100%."
+  },
+  "scenario_mode": {
+    "default_off": true,
+    "elements": [
+      "Nd",
+      "Pr",
+      "Dy",
+      "Tb",
+      "Fe",
+      "B"
+    ],
+    "dataset": "mass-balance.json illustrative_scenario",
+    "required_visible_labels": [
+      "Illustrative scenario / 演示情景",
+      "assay/recipe assumption",
+      "region and period",
+      "unit and denominator",
+      "loss/WIP/stock assumptions",
+      "source versus derived versus scenario legend"
+    ],
+    "controls": [
+      "absolute / 100%",
+      "gross inflow / net imports / defined net inflow / outflow",
+      "element / whole assayed mixture"
+    ],
+    "no_observed_national_element_numbers": true
+  },
+  "map_volume_badges": "Only source-native observed site/company volumes and separately tagged capacities. Actual vehicles/robots/turbines are output counts; do not convert them to magnet tonnes without an explicitly selected BOM scenario.",
+  "unknowns": "Use Unknown / 未知 badges, anonymous counterparties, and unallocated bands if a quantitative denominator exists. An unknown total cannot have a numerical unknown percentage.",
+  "old_deck": "The normalized prototype is an illustrative allocation. Its bands do not establish actual shipments, inventories, processing losses or an absolute-tonne conversion."
+}

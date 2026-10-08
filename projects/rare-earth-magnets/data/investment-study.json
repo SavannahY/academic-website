@@ -1,0 +1,447 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-07",
+  "title": "Independence is an outcome, not a single spending number",
+  "scope": "Sintered NdFeB and Nd/Pr/Dy/Tb, including purchased iron/ferroboron dependencies; research only.",
+  "status": "Bounded public evidence and decision framework; not an optimized national investment plan.",
+  "definitions": [
+    {
+      "id": "china_independent_allies",
+      "meaning": "Serve specified U.S. customer-qualified demand without China-origin feed, processing, metals/alloys/magnets or critical China-controlled process inputs, using an explicitly selected set of trusted countries.",
+      "boundary": "Foreign steps count only after process/feed origin, access and readiness are verified. Supplier ownership does not establish source origin.",
+      "unresolved": [
+        "Allowed countries",
+        "Eligibility of existing China-origin stocks and recycled scrap",
+        "Equipment, spares, technology and minor-input origin rules"
+      ],
+      "label": "China-independent with allies",
+      "short": "U.S. and explicitly approved allied routes; every relevant origin and access condition must be verified."
+    },
+    {
+      "id": "us_located_chain",
+      "meaning": "Serve specified qualified demand with U.S.-located mining or approved domestic secondary feed, separation, metal/master-alloy conversion, magnet production and finishing/qualification.",
+      "boundary": "Allied feed or foreign conversion fails this strict geographic definition. U.S. ownership of foreign assets does not establish U.S. production.",
+      "unresolved": [
+        "Eligibility of domestic recovered China-origin magnets",
+        "Reagents, equipment, spares and minor additives",
+        "Whether embedded finished goods and motor assembly must also be onshored"
+      ],
+      "label": "Entirely U.S.-located chain",
+      "short": "All required steps and eligible feed meet a strict U.S. geographic boundary."
+    }
+  ],
+  "national_total": {
+    "value": null,
+    "currency": "USD",
+    "finding": "No verified public primary national capex estimate found that specifies demand, horizon and one of the independence definitions.",
+    "limitation": "A bounded search finding, not proof that no estimate exists. Public sources provide a global model, partial project estimates, financing packages and redacted survey costs.",
+    "source_ids": [
+      "BIS_MAG2022",
+      "IEA_RE_SUM",
+      "DOE_MAG2022",
+      "EXIM_VAULT2026"
+    ]
+  },
+  "options": [
+    {
+      "option": "Qualified finished-part inventory",
+      "upfront": "Initial purchase and working capital; an asset, not construction capex.",
+      "recurring": "Finance, storage, logistics, rotation/quality losses, net of release proceeds.",
+      "readiness": "Early short disruption only if approved parts can be acquired and released.",
+      "allied_definition": "Domestic or verified China-independent ally parts; decide eligibility of old China-origin stocks.",
+      "domestic_definition": "Only eligible U.S. production/feed; stock does not create domestic capacity.",
+      "priority_condition": "An immediate short service gap and usable purchasable stock.",
+      "constraints": [
+        "Part-specific volumes",
+        "Delivered quote and allotment",
+        "Storage terms and release readiness"
+      ],
+      "source_ids": [
+        "IEA_RE_PDF"
+      ],
+      "id": "inventory",
+      "card_label": "Finished-part inventory",
+      "card_description": "Bridge a short service gap, if usable parts can be acquired."
+    },
+    {
+      "option": "Existing domestic/allied qualified sourcing",
+      "upfront": "Qualification, tooling and possible prepayments.",
+      "recurring": "Delivered price/premium and logistics.",
+      "readiness": "Existing production can be earlier than new construction; a new customer or grade can still need approval.",
+      "allied_definition": "Eligible after feed/process origin, access and allocation verification.",
+      "domestic_definition": "Foreign steps can bridge service but fail strict geographic independence.",
+      "priority_condition": "An eligible complete route can meet required grades and dates.",
+      "constraints": [
+        "Actual available allocation",
+        "Upstream origin",
+        "Offtake versus delivery"
+      ],
+      "source_ids": [
+        "EVAC_OPERATING2026",
+        "mp_q2_2026_release",
+        "NOVEON_SERIESC2026",
+        "LCM_METAL"
+      ],
+      "id": "existing_sourcing",
+      "card_label": "Existing qualified sourcing",
+      "card_description": "Check a complete eligible route, not just a supplier address."
+    },
+    {
+      "option": "Debottleneck existing plants and qualification",
+      "upfront": "Incremental construction, testing, tooling and training.",
+      "recurring": "Added feed, utilities, labor, reagents, maintenance and yield loss.",
+      "readiness": "Project-specific; establish the bottleneck of the complete route.",
+      "allied_definition": "Expand a U.S. or eligible allied node.",
+      "domestic_definition": "Expand U.S. nodes with eligible domestic feed.",
+      "priority_condition": "The increment unlocks qualified service because other stages are ready.",
+      "constraints": [
+        "Shared circuits and feed availability",
+        "Incremental engineering costs",
+        "Ramp/customer qualification"
+      ],
+      "source_ids": [
+        "EF_HRE_BUILD",
+        "mp_10q_q2_2026",
+        "EF_ASM"
+      ],
+      "id": "debottleneck",
+      "card_label": "Debottleneck & qualify",
+      "card_description": "Expand the stage that actually unlocks accepted supply."
+    },
+    {
+      "option": "New processing/metal/magnet plants",
+      "upfront": "Remaining plant/infrastructure capital, commissioning, qualification and working capital.",
+      "recurring": "Full plant operating costs and sustaining investment.",
+      "readiness": "Examples target commissioning from 2028; White Mesa Phase2 mid-2029 is conditional. These are not accepted-delivery dates.",
+      "allied_definition": "Build a complete route using eligible diversified feed/conversion.",
+      "domestic_definition": "Every required step and feed must satisfy the U.S. boundary.",
+      "priority_condition": "A persistent gap after readiness, with credible feed, technology and customer demand.",
+      "constraints": [
+        "Permits, equipment, IP and skills",
+        "Feed compatibility",
+        "Ramp and qualification"
+      ],
+      "source_ids": [
+        "mp_10x_feb2026",
+        "USAR_BLACKSBURG",
+        "EF_10Q26Q2",
+        "IEA_RE_PDF"
+      ],
+      "id": "new_plants",
+      "card_label": "New conversion / magnet plants",
+      "card_description": "Cost a complete future route through commissioning and acceptance."
+    },
+    {
+      "option": "New mines and feed processing",
+      "upfront": "Resource/permitting/development and mine/beneficiation/crack-leach capital.",
+      "recurring": "Mining, reagents, waste, transport and co-product economics.",
+      "readiness": "IEA newly announced ex-China projects average around eight years; not a universal U.S. project date.",
+      "allied_definition": "A broader resource/project set can qualify.",
+      "domestic_definition": "Domestic assays, deposits and permits restrict choices.",
+      "priority_condition": "A long-lived compatible feed or element-mix gap binds a complete path.",
+      "constraints": [
+        "Not an immediate finished-part bridge",
+        "Element distribution",
+        "Downstream readiness"
+      ],
+      "source_ids": [
+        "IEA_RE_PDF",
+        "mp_10k_2025"
+      ],
+      "id": "new_mines",
+      "card_label": "New mines & feed processing",
+      "card_description": "Resolve a long-lived compatible feed or element-mix gap."
+    },
+    {
+      "option": "Recycling and qualified demand reduction",
+      "upfront": "Collection/segregation/recycling capital or redesign and requalification.",
+      "recurring": "Feed/recovery/processing or redesigned-system costs.",
+      "readiness": "Potentially earlier for proven prompt scrap or accepted designs; later for new collection/technology.",
+      "allied_definition": "Cross-border secondary feed/conversion depends on origin rules.",
+      "domestic_definition": "Domestic secondary-feed eligibility must be defined.",
+      "priority_condition": "Verified yield or performance benefit within the service horizon.",
+      "constraints": [
+        "No universal drop-in substitution",
+        "Thermal/coercivity/size performance",
+        "Recovered feed versus qualified finished product"
+      ],
+      "source_ids": [
+        "IEA_RE_PDF",
+        "NOVEON_SERIESC2026",
+        "mp_10q_q2_2026"
+      ],
+      "id": "recycling_redesign",
+      "card_label": "Recycling & accepted redesign",
+      "card_description": "Reduce primary exposure only with verified yield and performance."
+    }
+  ],
+  "cost_ledgers": [
+    {
+      "id": "upfront",
+      "label": "Upfront cash & assets",
+      "detail": "Remaining incremental construction, one-off engineering/qualification, initial incremental inventory purchases and working capital.",
+      "rule": "Keep sunk spending and acquisitions distinct. Stock purchase is an asset, not factory construction cost."
+    },
+    {
+      "id": "recurring",
+      "label": "Recurring operations",
+      "detail": "Plant operating and sustaining costs, inventory finance/storage/logistics, losses and rotation.",
+      "rule": "State annual timing, release/sales proceeds and co-product economics separately. A yearly cost is not a one-off capex total."
+    },
+    {
+      "id": "fiscal",
+      "label": "Public fiscal cash & exposure",
+      "detail": "Grants and tax credits; loan/equity cash and recoveries; guarantees; price-floor and offtake cash flows.",
+      "rule": "Financing is not a second construction cost. Loan principal is not a free grant or an automatic reduction in resource cost."
+    }
+  ],
+  "route_boundary": [
+    {
+      "id": "feed",
+      "label": "Compatible feed",
+      "form": "Mine or approved secondary feed"
+    },
+    {
+      "id": "oxide",
+      "label": "Separate & finish",
+      "form": "Required oxide product"
+    },
+    {
+      "id": "conversion",
+      "label": "Metal / master alloy",
+      "form": "Approved metal and alloy forms"
+    },
+    {
+      "id": "manufacture",
+      "label": "Make & finish magnets",
+      "form": "Required grade, shape and coating"
+    },
+    {
+      "id": "acceptance",
+      "label": "Customer acceptance",
+      "form": "Usable, allocated qualified parts"
+    }
+  ],
+  "framework": {
+    "objective": "Minimize unmet customer-qualified part demand over a specified disruption/recovery horizon, under upfront capital and readiness constraints.",
+    "equation": "min sum(t,g,scenario) probability[scenario] * criticality_weight[g] * unmet[g,t,scenario]; choose probability or worst-case aggregation explicitly.",
+    "budget": "Remaining incremental construction + one-off engineering/qualification + initial incremental stock purchase + working capital <= B. Set annual operating cash constraints separately.",
+    "network": "Use concentrate/oxide/metal/master-alloy/alloy/magnet/qualified-part nodes with actual assays, conversions and yields. Readiness, ramp, utilization, rejection, customer acceptance and available allocation constrain flows.",
+    "path_check": "Convert stage capacities to the same finished-part basis and take the bottleneck; do not add successive masses. Mass-balance recycled and internal scrap only once.",
+    "demand": "Separate U.S. assembly demand from imported embedded finished-goods demand. Add assembly-onshoring investment only if the chosen boundary requires it.",
+    "project_costs": "Record distinct incremental projects with scope, geography, price year, estimate class, contingency and remaining cash. Keep multi-stage campuses whole unless an engineering breakdown is public. Separate sunk spending and acquisitions.",
+    "public_fiscal_costs": "Maintain a separate ledger for grant/tax-credit cost, loan/equity cash and recoveries, guarantee exposure and price-floor/offtake cash flows. Financing does not add construction cost.",
+    "inventory": "Initial purchase = quantity * delivered qualified quote by form/grade. Annual carrying cost = finance + storage + logistics/insurance + losses/rotation discounts. Keep inventory assets and release proceeds separate. Only accessible conversion/acceptance makes upstream stocks usable.",
+    "readiness": "Use the critical path for the complete chain and customer acceptance. Do not equate commissioning with qualified delivery or add parallel work durations arbitrarily.",
+    "outputs": [
+      "Budget versus qualified-service frontier with uncertainty",
+      "Bottleneck and earliest feasible date by part family",
+      "Remaining incremental capex and initial inventory cash separately",
+      "Annual carrying/operating costs and public fiscal exposure separately",
+      "Unmet customer-qualified demand under both definitions"
+    ],
+    "missing_inputs": [
+      "Target end uses, parts, demand and growth",
+      "Independence/eligible-country/secondary-origin rules",
+      "Budget and annual operating-cash limits",
+      "Preparation, disruption and recovery horizons; criticality weights",
+      "Qualified inventory, quotes and storage terms",
+      "Supplier allocation, qualification and ramp dates",
+      "Assays, conversions, yields, scrap recovery and HREE process needs",
+      "Remaining engineering costs, equipment/spares/IP/skills/permits",
+      "Origin/access verification and correlated disruption scenarios",
+      "Operating costs, co-product revenues and finance terms"
+    ]
+  },
+  "empirical_study": {
+    "scope": "One end-user and a small set of approved sintered NdFeB industrial-motor part families, with a U.S. assembly boundary. This is a proposed empirical study, not a national allocation.",
+    "next_inputs": [
+      "Monthly orders and BOMs with grade/shape/acceptance",
+      "Accessible inventory, actual yields/ramp and supplier allocation",
+      "Incremental complete-path engineering and qualification quotes"
+    ],
+    "design": "Choose the planning horizon with the user. Test 3/6/12-month disruptions as explicitly illustrative sensitivity cases under both definitions. Optimize after missing inputs arrive; until then show bounds and unknowns.",
+    "deliverable": "Reproducible route-level mass balance and qualified-service frontier; validate against accepted shipments.",
+    "scale_rule": "Expand across more part families before making a national model. Do not multiply one campus cost by unverified national tonnage."
+  },
+  "demand_example": {
+    "id": "doe_us_selected_ndfeb_total",
+    "values": [
+      {
+        "year": 2020,
+        "value": 16.1,
+        "status": "modelled baseline estimate"
+      },
+      {
+        "year": 2030,
+        "value": 37.0,
+        "status": "high-growth scenario"
+      },
+      {
+        "year": 2050,
+        "value": 68.6,
+        "status": "high-growth scenario"
+      }
+    ],
+    "unit": "thousand metric tonnes NdFeB magnets/year",
+    "scope": "Selected applications; sintered plus bonded; direct plus embedded finished-goods demand",
+    "source_id": "DOE_MAG2022",
+    "corroborating_source_id": "BIS_MAG2022",
+    "locator": "DOE Table10 printedp32/PDFp45; BIS Table2 p31",
+    "bonded_subset_kt": [
+      0.6,
+      0.8,
+      1.3
+    ],
+    "scenario_basis": "Aggressive decarbonization assumptions published in 2022; not observed 2026 demand.",
+    "limitations": [
+      "No current part/grade/shape/customer qualification split",
+      "Embedded imported goods do not necessarily create U.S. magnet-factory demand",
+      "Assumes 30GW U.S. offshore wind in 2030 and a 90% EV permanent-magnet share; update deployment, policy and technology assumptions",
+      "Do not add magnet mass to contained rare-earth demand"
+    ]
+  },
+  "global_context": "IEA’s approximately $60B requirement is global diversification outside China through 2035, not a U.S. budget. Announced project budgets cannot be summed into a national independence requirement.",
+  "sources": [
+    {
+      "id": "mp_q2_2026_release",
+      "title": "MP Q2 2026 results",
+      "date": "2026-08-06",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Second-Quarter-2026-Results/",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_10k_2025",
+      "title": "MP FY2025 10-K",
+      "date": "Filed 2026-02-26; year ended 2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_10q_q2_2026",
+      "title": "MP Q2 2026 10-Q",
+      "date": "Filed 2026-08-07; period ended 2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000048/mp-20260630.htm",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_10x_feb2026",
+      "title": "MP selects Northlake for 10X",
+      "date": "2026-02-26",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Selects-Northlake-Texas-as-the-Site-of-10X-a-New-U-S--Rare-Earth-Magnet-Manufacturing-Campus/default.aspx",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "EF_ASM",
+      "title": "Energy Fuels closes ASM acquisition",
+      "url": "https://investors.energyfuels.com/2026-08-28-Energy-Fuels-Completes-Acquisition-of-Australian-Strategic-Materials",
+      "date": "2026-08-28",
+      "type": "company closing announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_PDF",
+      "title": "Rare Earth Elements 2026 report",
+      "url": "https://iea.blob.core.windows.net/assets/88d2b060-4c5b-46cc-8727-c60576cb937d/RareearthelementsPathwaystosecureanddiversifiedsupplychains.pdf",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_SUM",
+      "title": "Rare Earth Elements 2026 executive summary",
+      "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LCM_METAL",
+      "title": "LCM metal-making capabilities",
+      "url": "https://lesscommonmetals.com/metalmaking/",
+      "date": "2026-10-07",
+      "type": "company technical operating description",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_BLACKSBURG",
+      "title": "USA Rare Earth breaks ground on Blacksburg metal and magnet campus",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-breaks-ground-advanced-rare-earth-metal-and",
+      "date": "2026-09-09",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_10Q26Q2",
+      "title": "Energy Fuels Q2 2026 Form10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1385849/000138584926000029/efr-20260630.htm",
+      "date": "2026-08-05",
+      "type": "SEC filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_HRE_BUILD",
+      "title": "Commercial-scale heavy-REE plant under construction at White Mesa",
+      "url": "https://investors.energyfuels.com/2026-07-29-Commercial-Scale-Heavy-Rare-Earth-Plant-Now-Under-Construction-in-Utah",
+      "date": "2026-07-29",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "DOE_MAG2022",
+      "title": "Rare Earth Permanent Magnets: Supply Chain Deep Dive Assessment",
+      "date": "2022-02-24",
+      "url": "https://www.energy.gov/sites/default/files/2022-02/Neodymium%20Magnets%20Supply%20Chain%20Report%20-%20Final.pdf",
+      "type": "government assessment",
+      "locator": "Table10/12, printedpp32,41-42; PDFpp45,54-55",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "BIS_MAG2022",
+      "title": "Section232 investigation: NdFeB permanent magnets",
+      "date": "2022 investigation; public publication 2023-02-14",
+      "url": "https://media.bis.gov/media/documents/section-232-ndfeb-magnets-report-appendices-combined.pdf",
+      "type": "government survey/assessment",
+      "locator": "pp30-31,62-65,95; cost and funding-gap figures visibly redacted",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EXIM_VAULT2026",
+      "title": "EXIM approval of Project Vault loan",
+      "date": "2026-02-02",
+      "url": "https://www.exim.gov/news/project-vault",
+      "type": "government financing announcement",
+      "locator": "Up to USD10B direct loan for critical-minerals reserve; not magnet capex",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "NOVEON_SERIESC2026",
+      "title": "Noveon Series C financing and capacity expansion",
+      "date": "2026-01-19",
+      "url": "https://noveon.co/noveon-completes-series-c",
+      "type": "company primary disclosure",
+      "locator": "USD215M financing includes secondary share sales; expansion beyond2,000tons/year; no actual annual tonnage",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EVAC_OPERATING2026",
+      "title": "eVAC Sumter opening and operating update",
+      "date": "2026-07-16",
+      "url": "https://vacuumschmelze.com/Newsroom/evac-magnetics-holds-opening-ceremony-for-sumter-south-carolina-rare-earth-magnet-manufacturing-facility-n2902",
+      "type": "company primary disclosure",
+      "locator": "Commercial production from2025; ~2,000metric t/year nameplate; no achieved annual tonnage",
+      "checked": "2026-10-07"
+    }
+  ]
+}

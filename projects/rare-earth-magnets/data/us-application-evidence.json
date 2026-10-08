@@ -1,0 +1,2899 @@
+{
+  "schema_version": "us-application-demand.v1",
+  "as_of": "2026-10-07",
+  "preliminary": false,
+  "scope_en": "Bounded U.S. application-factory evidence subset; not a census or measured national magnet-demand estimate.",
+  "scope_zh": "美国应用工厂与需求证据的有限子集；不是全国普查，也不是已测量的全国磁体吨数。",
+  "upstream_reuse": {
+    "rules": [
+      "Reuse existing company/site/link IDs where explicitly marked.",
+      "Application map and global raw-material/processing/magnet map remain separate but connected through typed evidence.",
+      "Never turn company contract into a geographic physical route without receiver evidence."
+    ]
+  },
+  "companies": [
+    {
+      "id": "app_gm",
+      "label_en": "General Motors",
+      "site_ids": [
+        "gm_factory_zero",
+        "gm_toledo"
+      ],
+      "roles": [
+        "ev_oem",
+        "propulsion_component"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_tesla",
+      "label_en": "Tesla",
+      "site_ids": [
+        "tesla_fremont",
+        "tesla_texas"
+      ],
+      "roles": [
+        "ev_oem"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_rivian",
+      "label_en": "Rivian",
+      "site_ids": [
+        "rivian_normal"
+      ],
+      "roles": [
+        "ev_oem",
+        "motor_component"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_lucid",
+      "label_en": "Lucid Group",
+      "site_ids": [
+        "lucid_amp1"
+      ],
+      "roles": [
+        "ev_oem",
+        "powertrain_component"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_hyundai",
+      "label_en": "Hyundai Motor Group",
+      "site_ids": [
+        "hyundai_metaplant"
+      ],
+      "roles": [
+        "ev_oem"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_abb",
+      "label_en": "ABB",
+      "site_ids": [
+        "abb_auburn_hills",
+        "abb_fort_smith"
+      ],
+      "roles": [
+        "industrial_motor_component",
+        "robot_oem"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_agility",
+      "label_en": "Agility Robotics",
+      "site_ids": [
+        "agility_robofab"
+      ],
+      "roles": [
+        "humanoid_robot_oem"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_kollmorgen",
+      "label_en": "Kollmorgen",
+      "site_ids": [
+        "kollmorgen_radford"
+      ],
+      "roles": [
+        "actuator_component",
+        "servo_motor_component"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_maxon",
+      "label_en": "maxon",
+      "site_ids": [
+        "maxon_taunton"
+      ],
+      "roles": [
+        "mechatronic_system_component",
+        "motor_component"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_whirlpool",
+      "label_en": "Whirlpool",
+      "site_ids": [
+        "whirlpool_clyde"
+      ],
+      "roles": [
+        "appliance_oem"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_bmw",
+      "label_en": "BMW Group",
+      "site_ids": [
+        "bmw_spartanburg"
+      ],
+      "roles": [
+        "ev_oem"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_gxo",
+      "label_en": "GXO Logistics",
+      "site_ids": [
+        "gxo_spanx_flowery_branch"
+      ],
+      "roles": [
+        "logistics_operator",
+        "robot_application_end_user"
+      ],
+      "headquarters_is_production": false
+    },
+    {
+      "id": "app_amazon",
+      "label_en": "Amazon",
+      "site_ids": [],
+      "roles": [
+        "commercial_fleet_customer"
+      ],
+      "headquarters_is_production": false,
+      "source_ids": [
+        "US_RIVIAN_10K"
+      ]
+    },
+    {
+      "id": "app_universalrobots",
+      "label_en": "Universal Robots",
+      "site_ids": [],
+      "roles": [
+        "robot_manufacturer_customer_context"
+      ],
+      "headquarters_is_production": false,
+      "source_ids": [
+        "US_KOLL_ROBOT_CUSTOMER"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "id": "gm_factory_zero",
+      "company_id": "app_gm",
+      "company_role": [
+        "ev_oem"
+      ],
+      "label_en": "GM Factory ZERO Detroit-Hamtramck Assembly Center",
+      "label_zh": "GM Factory ZERO 整车装配厂",
+      "country": "United States",
+      "city": "Detroit / Hamtramck",
+      "state": "Michigan",
+      "address": "2500 East Grand Boulevard, Detroit, MI 48211",
+      "geography": {
+        "precision": "published_address_without_coordinates",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "ev_assembly",
+      "products": [
+        "GMC HUMMER EV pickup/SUV",
+        "Chevrolet Silverado EV",
+        "GMC Sierra EV",
+        "Cadillac Escalade IQ"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-07-28",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "NdFeB_program_evidence",
+        "scope": "GM Ultium traction programs including HUMMER EV and Silverado EV; supplier announcement does not identify this assembly plant as magnet receiver.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "units/year",
+          "period": null,
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No scoped annual output disclosed in checked sources."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "end_use",
+          "recipient": "households and commercial/fleet vehicle users",
+          "geography": "market split not disclosed",
+          "status": "application_classification"
+        }
+      ],
+      "relationship_ids": [
+        "app_mp_gm",
+        "app_evac_gm"
+      ],
+      "source_ids": [
+        "US_GM_DIRECTORY",
+        "US_GM_CURRENT",
+        "US_GM_MP"
+      ],
+      "explicit_gaps": [
+        "No plant-specific actual annual assembly output or installed annual capacity found in checked primary sources.",
+        "No magnet, rotor or motor incoming supplier/batch assigned to this assembly plant.",
+        "Do not reuse 600,000/year combined Factory ZERO + formerly planned Orion capacity as current Factory ZERO capacity."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "gm_toledo",
+      "company_id": "app_gm",
+      "company_role": [
+        "propulsion_component"
+      ],
+      "label_en": "GM Toledo Propulsion Systems",
+      "label_zh": "GM Toledo 动力系统厂",
+      "country": "United States",
+      "city": "Toledo",
+      "state": "Ohio",
+      "address": "1455 West Alexis Road, Toledo, OH 43612",
+      "geography": {
+        "precision": "published_address_without_coordinates",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "motor_drive_unit",
+      "products": [
+        "transmissions",
+        "electric drive units"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": null,
+        "date_basis": "current undated operator page observed on checked_at",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "NdFeB_program_evidence_not_receipt",
+        "scope": "Current directory lists EV drive units/products; program-level NdFeB evidence, without receiving-factory attribution.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "units/year",
+          "period": null,
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No scoped annual output disclosed in checked sources."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "announced_product_program",
+          "recipient": "Silverado EV / Sierra EV / HUMMER EV",
+          "geography": "GM vehicle programs",
+          "status": "2022 announced use; current directory corroborates products",
+          "source_ids": [
+            "US_GM_TOLEDO_PLAN",
+            "US_GM_DIRECTORY"
+          ]
+        }
+      ],
+      "relationship_ids": [
+        "app_mp_gm",
+        "app_evac_gm"
+      ],
+      "source_ids": [
+        "US_GM_DIRECTORY",
+        "US_GM_TOLEDO_PLAN",
+        "US_GM_MP"
+      ],
+      "explicit_gaps": [
+        "Plant output, motor BOM and incoming magnet supplier not publicly assigned.",
+        "Toledo→Factory ZERO is not a verified dated physical shipment edge."
+      ],
+      "existing_application_site_id": "gm_toledo",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "tesla_fremont",
+      "company_id": "app_tesla",
+      "company_role": [
+        "ev_oem"
+      ],
+      "label_en": "Tesla Fremont Factory",
+      "label_zh": "Tesla Fremont 整车厂",
+      "country": "United States",
+      "city": "Fremont",
+      "state": "California",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "ev_assembly",
+      "products": [
+        "Model 3",
+        "Model Y"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-07-22",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "PM_architecture_material_unreported",
+        "scope": "Model Y rear PM motor; AWD front induction. Model/trim allocation and NdFeB material not established.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "installed_capacity",
+          "value": 550000,
+          "comparator": ">",
+          "unit": "vehicles/year",
+          "period": "Q2 2026",
+          "scope": "site",
+          "source_ids": [
+            "US_TESLA_Q226"
+          ],
+          "annual": true,
+          "note": "California Model 3/Model Y capacity; actual plant production not disclosed."
+        },
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "Company-global output is not a Fremont total."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "end_use",
+          "recipient": "consumer and fleet customers",
+          "geography": "site-level destination split undisclosed",
+          "status": "application_classification"
+        }
+      ],
+      "relationship_ids": [
+        "app_jlmag_tesla"
+      ],
+      "source_ids": [
+        "US_TESLA_10K",
+        "US_TESLA_Q226",
+        "US_TESLA_MODELY_MOTOR"
+      ],
+      "explicit_gaps": [
+        "JL MAG historic adoption/customer mention does not establish a current direct procurement contract or route.",
+        "No actual annual Fremont output, magnet supplier, grade or mass by trim.",
+        "Current Q2 2026 capacity table omits Model S/X; this subset maps current listed Model 3/Y capacity only."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "tesla_texas",
+      "company_id": "app_tesla",
+      "company_role": [
+        "ev_oem"
+      ],
+      "label_en": "Tesla Gigafactory Texas",
+      "label_zh": "Tesla 得州超级工厂",
+      "country": "United States",
+      "city": "Austin",
+      "state": "Texas",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "ev_assembly",
+      "products": [
+        "Model Y",
+        "Cybertruck",
+        "Cybercab"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-07-22",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "model_subset_PM_architecture",
+        "scope": "Model Y rear PM/optional front induction documented. This is not a material/topology claim for every Cybertruck/Cybercab motor.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "installed_capacity",
+          "value": 250000,
+          "comparator": ">",
+          "unit": "vehicles/year",
+          "period": "Q2 2026",
+          "scope": "site",
+          "source_ids": [
+            "US_TESLA_Q226"
+          ],
+          "annual": true,
+          "note": "Model Y"
+        },
+        {
+          "kind": "installed_capacity",
+          "value": 125000,
+          "comparator": ">",
+          "unit": "vehicles/year",
+          "period": "Q2 2026",
+          "scope": "site",
+          "source_ids": [
+            "US_TESLA_Q226"
+          ],
+          "annual": true,
+          "note": "Cybertruck"
+        },
+        {
+          "kind": "installed_capacity",
+          "value": 125000,
+          "comparator": ">",
+          "unit": "vehicles/year",
+          "period": "Q2 2026",
+          "scope": "site",
+          "source_ids": [
+            "US_TESLA_Q226"
+          ],
+          "annual": true,
+          "note": "Cybercab; operator lists production status"
+        },
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "Site-specific annual actual undisclosed."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "end_use",
+          "recipient": "consumer/fleet mobility users; robotaxi service operators for Cybercab",
+          "geography": "site-level destination split undisclosed",
+          "status": "application_classification"
+        }
+      ],
+      "relationship_ids": [
+        "app_jlmag_tesla"
+      ],
+      "source_ids": [
+        "US_TESLA_10K",
+        "US_TESLA_Q226",
+        "US_TESLA_TEXAS",
+        "US_TESLA_MODELY_MOTOR"
+      ],
+      "explicit_gaps": [
+        "Do not sum installed capacity into actual output or magnet demand.",
+        "Magnet suppliers/grades and production mix unknown.",
+        "Tesla Optimus California/Texas rows are construction in Q2 2026 with no annual capacity; separate planned robotics context, not vehicle output."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "rivian_normal",
+      "company_id": "app_rivian",
+      "company_role": [
+        "ev_oem",
+        "motor_component"
+      ],
+      "label_en": "Rivian Normal Factory",
+      "label_zh": "Rivian Normal 工厂",
+      "country": "United States",
+      "city": "Normal",
+      "state": "Illinois",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "ev_and_drive_unit",
+      "products": [
+        "R1T",
+        "R1S",
+        "Rivian Commercial Van",
+        "Enduro drive units; R2 program"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-10-02",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "PM_inventory_model_example",
+        "scope": "R1T Dual-Motor LCA includes permanent magnets. Enduro internal manufacturing is documented; exact magnet material/BOM for all current variants remains undisclosed.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": 42284,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [
+            "US_RIVIAN_FY25"
+          ],
+          "annual": true,
+          "note": ""
+        },
+        {
+          "kind": "installed_capacity",
+          "value": 215000,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025 year-end",
+          "scope": "site",
+          "source_ids": [
+            "US_RIVIAN_10K"
+          ],
+          "annual": true,
+          "note": "Multi-shift full-rate cap; model maxima 155k R2 +85k R1 +65k RCV are flexible alternatives, not additive."
+        },
+        {
+          "kind": "actual_output",
+          "value": 19751,
+          "comparator": "=",
+          "unit": "vehicles/quarter",
+          "period": "Q3 2026",
+          "scope": "site",
+          "source_ids": [
+            "US_RIVIAN_Q326"
+          ],
+          "annual": false,
+          "note": "Not annualized."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "actual_customer_sales",
+          "recipient": "Amazon and affiliates (EDVs)",
+          "geography": "customer fleet locations not identified",
+          "status": "actual sales in 2025",
+          "source_ids": [
+            "US_RIVIAN_10K"
+          ]
+        },
+        {
+          "type": "end_use",
+          "recipient": "consumer adventure vehicles and commercial fleets",
+          "geography": "United States and other served markets; plant shipment split undisclosed",
+          "status": "application_classification"
+        }
+      ],
+      "relationship_ids": [
+        "us_rivian_amazon"
+      ],
+      "source_ids": [
+        "US_RIVIAN_10K",
+        "US_RIVIAN_FY25",
+        "US_RIVIAN_Q326",
+        "US_RIVIAN_ENDURO",
+        "US_RIVIAN_LCA"
+      ],
+      "explicit_gaps": [
+        "Annual vehicles cannot be converted to tonnes without actual model/motor mix and magnet kg per design.",
+        "LCA ecoinvent market geography is a model input, not procurement origin.",
+        "Magnet vendor and rotor supply receipts unreported."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "lucid_amp1",
+      "company_id": "app_lucid",
+      "company_role": [
+        "ev_oem",
+        "powertrain_component"
+      ],
+      "label_en": "Lucid Advanced Manufacturing Plant-1 (AMP-1)",
+      "label_zh": "Lucid AMP-1 整车与动力系统厂",
+      "country": "United States",
+      "city": "Casa Grande",
+      "state": "Arizona",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "ev_and_drive_unit",
+      "products": [
+        "Lucid Air",
+        "Lucid Gravity",
+        "dedicated powertrain production"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-08-04",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "PM_architecture_material_unreported",
+        "scope": "Lucid 10-K describes internally developed PM motors; exact NdFeB grade/sourcing and program mass not supplied.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "installed_capacity",
+          "value": 90000,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025 year-end",
+          "scope": "site",
+          "source_ids": [
+            "US_LUCID_10K"
+          ],
+          "annual": true,
+          "note": ""
+        },
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No isolated AMP-1 actual found."
+        },
+        {
+          "kind": "actual_output_context",
+          "value": 17840,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "company_global",
+          "source_ids": [
+            "US_LUCID_FINAL25"
+          ],
+          "annual": true,
+          "note": "Final revised company count; do not assign to AMP-1. Saudi SKD assembly adds geographic/counting ambiguity."
+        },
+        {
+          "kind": "actual_output_context",
+          "value": 4774,
+          "comparator": "=",
+          "unit": "vehicles/quarter",
+          "period": "Q2 2026",
+          "scope": "company_global",
+          "source_ids": [
+            "US_LUCID_Q226"
+          ],
+          "annual": false,
+          "note": ""
+        }
+      ],
+      "destinations": [
+        {
+          "type": "end_use",
+          "recipient": "consumers / business mobility users",
+          "geography": "North America, Europe, Middle East; no site-specific mix",
+          "status": "operator global sales footprint"
+        },
+        {
+          "type": "internal_manufacturing_context",
+          "recipient": "Saudi AMP-2 semi-knocked-down assembly",
+          "geography": "King Abdullah Economic City, Saudi Arabia",
+          "status": "operator manufacturing description",
+          "source_ids": [
+            "US_LUCID_10K"
+          ]
+        }
+      ],
+      "relationship_ids": [],
+      "source_ids": [
+        "US_LUCID_10K",
+        "US_LUCID_FINAL25",
+        "US_LUCID_Q226"
+      ],
+      "explicit_gaps": [
+        "Actual AMP-1 annual output and magnet receipts unreported.",
+        "Company 17,840 final production supersedes 18,378 preliminary, not a plant actual.",
+        "LPM-1 dedicated powertrain operations substantially transferred to AMP-1 in 2025; do not retain LPM-1 as current main motor production by assumption."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "hyundai_metaplant",
+      "company_id": "app_hyundai",
+      "company_role": [
+        "ev_oem"
+      ],
+      "label_en": "Hyundai Motor Group Metaplant America (HMGMA)",
+      "label_zh": "现代集团美国 Metaplant",
+      "country": "United States",
+      "city": "Ellabell / Bryan County",
+      "state": "Georgia",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "ev_assembly",
+      "products": [
+        "IONIQ 5",
+        "IONIQ 9",
+        "hybrid expansion program"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-08-26",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "PM_architecture_material_unreported",
+        "scope": "U.S. MY2025 IONIQ 5 specifies PM synchronous traction motors; plant-level magnet material/supplier is not disclosed.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "installed_initial_capacity",
+          "value": 300000,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "March 2025 opening",
+          "scope": "site",
+          "source_ids": [
+            "US_HMGMA_OPEN"
+          ],
+          "annual": true,
+          "note": "Initial operator capacity."
+        },
+        {
+          "kind": "planned_capacity",
+          "value": 500000,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "target 2028",
+          "scope": "site",
+          "source_ids": [
+            "US_HYUNDAI_2025_PLAN",
+            "US_HYUNDAI_2026"
+          ],
+          "annual": true,
+          "note": "EV+hybrid mix; August 2026 confirms incremental 200k expansion uninstalled."
+        },
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No plant-specific actual annual production found."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "market_intent",
+          "recipient": "U.S. vehicle buyers",
+          "geography": "United States",
+          "status": "operator local production strategy"
+        },
+        {
+          "type": "qualification_program",
+          "recipient": "Waymo-equipped IONIQ 5",
+          "geography": "receiving fleet sites unreported",
+          "status": "validation builds; August 2026 plan calls for deliveries Q4 2026",
+          "source_ids": [
+            "US_HYUNDAI_2026_LETTER",
+            "US_HYUNDAI_2026"
+          ]
+        }
+      ],
+      "relationship_ids": [],
+      "source_ids": [
+        "US_HMGMA_OPEN",
+        "US_HYUNDAI_2026",
+        "US_HYUNDAI_2025_PLAN",
+        "US_HYUNDAI_2026_LETTER",
+        "US_IONIQ5_MOTOR"
+      ],
+      "explicit_gaps": [
+        "500k is a future capacity target; not current output.",
+        "Waymo-equipped validation does not establish magnet-part qualification or completed Q4 delivery.",
+        "EV/hybrid production mix, components receiving sites, suppliers, grade and kg/unit unknown."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "abb_auburn_hills",
+      "company_id": "app_abb",
+      "company_role": [
+        "robot_oem"
+      ],
+      "label_en": "ABB Auburn Hills robotics manufacturing",
+      "label_zh": "ABB Auburn Hills 机器人制造厂",
+      "country": "United States",
+      "city": "Auburn Hills",
+      "state": "Michigan",
+      "address": "1250 Brown Road, Auburn Hills, MI 48326",
+      "geography": {
+        "precision": "published_address_without_coordinates",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "robot_assembly",
+      "products": [
+        "industrial robots",
+        "robotic automation solutions"
+      ],
+      "sector_ids": [
+        "robot_automation"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2024-03-14",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "magnet_material_not_disclosed",
+        "scope": "Actual robot manufacturing established; no plant-specific motor topology, magnet material or supplier established in this subset.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "units/year",
+          "period": null,
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No scoped annual output disclosed in checked sources."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "operator_market",
+          "recipient": "automotive EV production, packaging/logistics, food/beverage, construction, healthcare businesses",
+          "geography": "United States and Americas",
+          "status": "2024 operator intended served markets",
+          "source_ids": [
+            "US_ABB_AUBURN"
+          ]
+        }
+      ],
+      "relationship_ids": [],
+      "source_ids": [
+        "US_ABB_AUBURN",
+        "US_ABB_ADDRESS"
+      ],
+      "explicit_gaps": [
+        "Robot output units/year and motor/magnet BOM undisclosed.",
+        "Noveon contract is ABB industrial motor business evidence, not robot plant supply.",
+        "3,000 trainees/year and 30% floor-space growth are not robots/year.",
+        "ABB Robotics ownership/transaction status requires separate current corporate QA; preserve company role without inferring magnet route."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "abb_fort_smith",
+      "company_id": "app_abb",
+      "company_role": [
+        "industrial_motor_component"
+      ],
+      "label_en": "ABB Fort Smith motor manufacturing",
+      "label_zh": "ABB Fort Smith 电机厂",
+      "country": "United States",
+      "city": "Fort Smith",
+      "state": "Arkansas",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "industrial_motor",
+      "products": [
+        "NEMA industrial motors"
+      ],
+      "sector_ids": [
+        "industrial_motors",
+        "hvac_appliances",
+        "datacenter_equipment"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-05-04",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "company_NdFeB_contract_siteallocation_unknown",
+        "scope": "ABB North American motor NdFeB supply contract; recipient unnamed. SP4 HVAC product is a documented magnet-free alternative, with plant allocation unreported.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "units/year",
+          "period": null,
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No scoped annual output disclosed in checked sources."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "company_application_context",
+          "recipient": "cooling towers, water pumps, building systems, HVACR and data centers",
+          "geography": "North America",
+          "status": "contract application scope, not Fort Smith shipment roster",
+          "source_ids": [
+            "US_ABB_NOVEON"
+          ]
+        }
+      ],
+      "relationship_ids": [
+        "app_noveon_abb"
+      ],
+      "source_ids": [
+        "US_ABB_FORTSMITH",
+        "US_ABB_NOVEON",
+        "US_ABB_SP4"
+      ],
+      "explicit_gaps": [
+        "Release dateline Fort Smith does not identify contract receiving plant.",
+        "Actual site output and PM-product share undisclosed.",
+        "Do not classify all NEMA motors as NdFeB users."
+      ],
+      "existing_application_site_id": "abb_fort_smith",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "agility_robofab",
+      "company_id": "app_agility",
+      "company_role": [
+        "humanoid_robot_oem"
+      ],
+      "label_en": "Agility Robotics RoboFab",
+      "label_zh": "Agility RoboFab 人形机器人装配厂",
+      "country": "United States",
+      "city": "Salem",
+      "state": "Oregon",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "robot_assembly",
+      "products": [
+        "Digit 4",
+        "Digit 5 planned product"
+      ],
+      "sector_ids": [
+        "robot_automation"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-09-15",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "motor_magnet_BOM_not_disclosed",
+        "scope": "Robot assembly and work application confirmed; exact actuator topology, magnet supplier/material and mass undisclosed.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "designed_capacity",
+          "value": 10000,
+          "comparator": "<=",
+          "unit": "robots/year",
+          "period": "September 2026",
+          "scope": "site",
+          "source_ids": [
+            "US_AGILITY_2026"
+          ],
+          "annual": true,
+          "note": "At full capacity; not realized annual production."
+        },
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "robots/year",
+          "period": "2025/2026",
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No annual actual unit output disclosed."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "commercial_deployment",
+          "recipient": "GXO SPANX Flowery Branch distribution facility",
+          "geography": "Flowery Branch, Georgia",
+          "status": "Digit 4 actual operation; 100,000 totes cumulative milestone, not yearly robot count",
+          "source_ids": [
+            "US_AGILITY_2026",
+            "US_GXO_DIGIT",
+            "US_GXO_SPANX"
+          ]
+        },
+        {
+          "type": "planned_market",
+          "recipient": "manufacturing/warehouse/distribution operators; Digit 5",
+          "geography": "North America; planned EU/UK access",
+          "status": "Digit 5 early access H1 2027; general availability end 2027",
+          "source_ids": [
+            "US_AGILITY_2026"
+          ]
+        }
+      ],
+      "relationship_ids": [
+        "us_agility_gxo"
+      ],
+      "source_ids": [
+        "US_AGILITY_2026",
+        "US_AGILITY_SUPPLY",
+        "US_GXO_DIGIT"
+      ],
+      "explicit_gaps": [
+        "75% U.S.-sourced parts does not identify magnet provenance.",
+        "Annual production, actuators per robot and magnet kg per actuator unreported.",
+        "Commercial deployment is not proof of an upstream magnet contract."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "kollmorgen_radford",
+      "company_id": "app_kollmorgen",
+      "company_role": [
+        "servo_motor_component",
+        "actuator_component"
+      ],
+      "label_en": "Kollmorgen Rock Road manufacturing",
+      "label_zh": "Kollmorgen Radford Rock Road 制造厂",
+      "country": "United States",
+      "city": "Radford",
+      "state": "Virginia",
+      "address": "201 West Rock Road, Radford, VA 24141",
+      "geography": {
+        "precision": "published_address_without_coordinates",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "motor_component",
+      "products": [
+        "motion-control products",
+        "company KBM NdFeB frameless motor product context"
+      ],
+      "sector_ids": [
+        "robot_automation",
+        "industrial_motors"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2024-06-09",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "company_NdFeB_product_siteallocation_unknown",
+        "scope": "KBM product page confirms NdFeB; factory manufactures motion-control products. Per-model Radford allocation remains unproven.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "units/year",
+          "period": null,
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No scoped annual output disclosed in checked sources."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "documented_company_product_customer",
+          "recipient": "Universal Robots",
+          "geography": "receiving factory unreported",
+          "status": "2024 published case study; current procurement/plant route unconfirmed",
+          "source_ids": [
+            "US_KOLL_ROBOT_CUSTOMER"
+          ]
+        }
+      ],
+      "relationship_ids": [
+        "us_kollmorgen_universalrobots"
+      ],
+      "source_ids": [
+        "US_KOLL_CERT",
+        "US_KOLL_CAREERS",
+        "US_KOLL_KBM",
+        "US_KOLL_ROBOT_CUSTOMER"
+      ],
+      "explicit_gaps": [
+        "No actual site motor output or supplier/grade disclosed.",
+        "ISO 9001 is management-system certification, not specific robot motor acceptance.",
+        "201 West Rock Road is manufacturing; 203 West Rock Road is service. Existing 203A contact address must not substitute for manufacturing."
+      ],
+      "existing_application_site_id": "kollmorgen_radford",
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "maxon_taunton",
+      "company_id": "app_maxon",
+      "company_role": [
+        "motor_component",
+        "mechatronic_system_component"
+      ],
+      "label_en": "maxon Taunton production site",
+      "label_zh": "maxon Taunton 精密驱动制造厂",
+      "country": "United States",
+      "city": "Taunton",
+      "state": "Massachusetts",
+      "address": "125 Dever Drive, Taunton, MA 02780",
+      "geography": {
+        "precision": "published_address_without_coordinates",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "motor_component",
+      "products": [
+        "motor/mechatronic production and assembly",
+        "custom modifications"
+      ],
+      "sector_ids": [
+        "robot_automation",
+        "industrial_motors"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": null,
+        "date_basis": "current undated operator page observed on checked_at",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "company_NdFeB_product_siteallocation_unknown",
+        "scope": "Company DCX/DC-max/RE product examples specify NdFeB; their allocation to Taunton is not established.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "units/year",
+          "period": null,
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "No scoped annual output disclosed in checked sources."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "operator_company_application_context",
+          "recipient": "humanoid robots, precision industrial machinery and surgical tools",
+          "geography": "specific Taunton customers unreported",
+          "status": "company application examples",
+          "source_ids": [
+            "US_MAXON_2019"
+          ]
+        }
+      ],
+      "relationship_ids": [],
+      "source_ids": [
+        "US_MAXON_SITES",
+        "US_MAXON_CAREERS",
+        "US_MAXON_ADDRESS",
+        "US_MAXON_2019",
+        "US_MAXON_MOTOR"
+      ],
+      "explicit_gaps": [
+        "No site units/year, receiving customer, magnet supplier or per-model allocation.",
+        "Medical drive examples do not imply Taunton produces permanent MRI magnets.",
+        "Current career page ambiguously says U.S. presence since 2013; plant opening history specifically says March 2019."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "whirlpool_clyde",
+      "company_id": "app_whirlpool",
+      "company_role": [
+        "appliance_oem"
+      ],
+      "label_en": "Whirlpool Clyde Operations",
+      "label_zh": "Whirlpool Clyde 洗衣机厂",
+      "country": "United States",
+      "city": "Clyde",
+      "state": "Ohio",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "appliance_assembly",
+      "products": [
+        "washing machines",
+        "Whirlpool / Maytag top-load laundry"
+      ],
+      "sector_ids": [
+        "hvac_appliances"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": null,
+        "date_basis": "current undated operator page observed on checked_at",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "product_motor_material_not_disclosed",
+        "scope": "High-volume washer factory is confirmed; motor architecture, magnet use, supplier and mass are unreported.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "reported_annual_rate",
+          "value": 4000000,
+          "comparator": ">",
+          "unit": "washers/year",
+          "period": "undated current operator statement",
+          "scope": "site",
+          "source_ids": [
+            "US_WHIRLPOOL_FACTORIES"
+          ],
+          "annual": true,
+          "note": "No named calendar year; do not relabel as 2025 actual."
+        },
+        {
+          "kind": "actual_output",
+          "value": null,
+          "comparator": "=",
+          "unit": "washers/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "Calendar-year site actual not disclosed."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "operator_market",
+          "recipient": "U.S. consumers / households via appliance retail and building channels",
+          "geography": "U.S.; no factory-specific export split",
+          "status": "company domestic manufacturing and investment statement",
+          "source_ids": [
+            "US_WHIRLPOOL_2025"
+          ]
+        }
+      ],
+      "relationship_ids": [],
+      "source_ids": [
+        "US_WHIRLPOOL_FACTORIES",
+        "US_WHIRLPOOL_2025",
+        "US_WHIRLPOOL_AR25"
+      ],
+      "explicit_gaps": [
+        "Washer counts cannot become magnet tonnes without model/motor mix and material evidence.",
+        "Company domestic major-appliance share is not a Clyde-specific shipment share."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "bmw_spartanburg",
+      "company_id": "app_bmw",
+      "company_role": [
+        "ev_oem"
+      ],
+      "label_en": "BMW Group Plant Spartanburg",
+      "label_zh": "BMW Spartanburg 整车厂",
+      "country": "United States",
+      "city": "Spartanburg area",
+      "state": "South Carolina",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "mixed_vehicle_assembly",
+      "products": [
+        "BMW X models",
+        "current ICE/PHEV",
+        "iX5 BEV planned December 2026"
+      ],
+      "sector_ids": [
+        "ev_traction"
+      ],
+      "status": {
+        "type": "operating_mixed_plant_BEV_planned",
+        "claim_date": "2026-06-30",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "specified_iX5_traction_PM_free",
+        "scope": "Planned iX5 Gen6 rear EESM and front ASM avoid permanent traction magnets. This does not classify all current PHEV/auxiliary motors.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_output",
+          "value": 412799,
+          "comparator": "=",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [
+            "US_BMW_OUTPUT25"
+          ],
+          "annual": true,
+          "note": "All X models, including ICE/PHEV. Not BEV output."
+        },
+        {
+          "kind": "actual_export",
+          "value": 200000,
+          "comparator": "approximately",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "site",
+          "source_ids": [
+            "US_BMW_OUTPUT25"
+          ],
+          "annual": true,
+          "note": "Nearly 200,000 to nearly 120 countries; exported units already included in production."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "actual_market_and_export",
+          "recipient": "U.S. buyers and nearly 120 overseas country markets",
+          "geography": "primarily Port of Charleston plus Brunswick/Jacksonville/Everglades/Baltimore; rail also",
+          "status": "2025 exports",
+          "source_ids": [
+            "US_BMW_OUTPUT25"
+          ]
+        }
+      ],
+      "relationship_ids": [],
+      "source_ids": [
+        "US_BMW_OUTPUT25",
+        "US_BMW_INVEST26",
+        "US_BMW_IX5",
+        "US_BMW_DEC26"
+      ],
+      "explicit_gaps": [
+        "No iX5 annual output/capacity yet; planned December 2026 production and Q1 2027 market launch.",
+        "No valid conversion of all 412,799 vehicles to rare-earth traction magnet demand.",
+        "Motor delivery factory/batch for Spartanburg iX5 not assigned."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    },
+    {
+      "id": "gxo_spanx_flowery_branch",
+      "company_id": "app_gxo",
+      "company_role": [
+        "logistics_operator",
+        "robot_application_end_user"
+      ],
+      "label_en": "GXO SPANX distribution facility",
+      "label_zh": "GXO SPANX Flowery Branch 配送中心",
+      "country": "United States",
+      "city": "Flowery Branch",
+      "state": "Georgia",
+      "address": null,
+      "geography": {
+        "precision": "operator_named_locality",
+        "coordinates": null,
+        "basis": "operator place or address; no surveyed point inferred"
+      },
+      "node_kind": "facility",
+      "stage": "robot_end_use",
+      "products": [
+        "SPANX order fulfillment",
+        "Digit tote transfer application"
+      ],
+      "sector_ids": [
+        "robot_automation"
+      ],
+      "status": {
+        "type": "operating_reported",
+        "claim_date": "2026-09-15",
+        "date_basis": "dated source or dated event in source",
+        "checked_at": "2026-10-07"
+      },
+      "qualification": {
+        "status": "customer_part_grade_qualification_not_disclosed",
+        "note": "Operating factory, product documentation and management-system certification do not by themselves establish magnet part acceptance."
+      },
+      "magnet": {
+        "evidence_level": "upstream_robot_BOM_not_disclosed",
+        "scope": "Actual robot application site, not motor/magnet manufacturing.",
+        "supplier": null,
+        "grade": null,
+        "kg_per_unit": null,
+        "annual_tonnes": null
+      },
+      "annual_metrics": [
+        {
+          "kind": "actual_annual_robot_installations",
+          "value": null,
+          "comparator": "=",
+          "unit": "robots/year",
+          "period": null,
+          "scope": "site",
+          "source_ids": [],
+          "annual": true,
+          "note": "Robot installation units/year unreported."
+        },
+        {
+          "kind": "cumulative_activity",
+          "value": 100000,
+          "comparator": "=",
+          "unit": "totes_cumulative",
+          "period": "milestone reported September 2026",
+          "scope": "site",
+          "source_ids": [
+            "US_AGILITY_2026"
+          ],
+          "annual": false,
+          "note": "Cumulative robot work; not annual demand or robot count."
+        }
+      ],
+      "destinations": [
+        {
+          "type": "logistics_service",
+          "recipient": "SPANX direct-to-consumer and store orders",
+          "geography": "U.S. and international",
+          "status": "2023 operator service announcement",
+          "source_ids": [
+            "US_GXO_SPANX"
+          ]
+        }
+      ],
+      "relationship_ids": [
+        "us_agility_gxo"
+      ],
+      "source_ids": [
+        "US_GXO_SPANX",
+        "US_GXO_DIGIT",
+        "US_AGILITY_2026"
+      ],
+      "explicit_gaps": [
+        "Robots ultimately support consumer orders through business logistics, not household robot ownership.",
+        "Installed robot count, motor/magnet BOM and annual magnet demand unreported."
+      ],
+      "existing_application_site_id": null,
+      "verified_at": "2026-10-07"
+    }
+  ],
+  "relationships": [
+    {
+      "id": "app_mp_gm",
+      "reuse_existing": true,
+      "from_company": "app_mp",
+      "to_company": "app_gm",
+      "from_site": "mp_independence",
+      "to_site": null,
+      "type": "company_supply_contract",
+      "status": "binding program relationship; current deliveries/qualification must be read from existing MP evidence",
+      "claim_date": "2021-12-09",
+      "source_ids": [
+        "US_GM_MP"
+      ],
+      "material": "rare-earth materials / NdFeB alloy and finished magnets",
+      "quantity": null,
+      "physical_site_arc_allowed": false,
+      "gap": "GM receiving factory is unidentified."
+    },
+    {
+      "id": "app_evac_gm",
+      "reuse_existing": true,
+      "from_company": "app_evac",
+      "to_company": "app_gm",
+      "from_site": "evac_sumter",
+      "to_site": null,
+      "type": "company_supply_contract",
+      "status": "binding long-term contract; current accepted plant shipments not established here",
+      "claim_date": "2023-01-30",
+      "source_ids": [
+        "US_VAC_GM"
+      ],
+      "material": "rare-earth permanent magnets",
+      "quantity": null,
+      "physical_site_arc_allowed": false,
+      "gap": "North American facilities building GM EV motors unnamed."
+    },
+    {
+      "id": "app_noveon_abb",
+      "reuse_existing": true,
+      "from_company": "app_noveon",
+      "to_company": "app_abb",
+      "from_site": "noveon",
+      "to_site": null,
+      "type": "company_supply_contract",
+      "status": "long-term agreement; deliveries scheduled from August 2025, ramp target end 2026",
+      "claim_date": "2025-08-14",
+      "source_ids": [
+        "US_ABB_NOVEON"
+      ],
+      "material": "sintered NdFeB magnets for North American industrial motors",
+      "quantity": null,
+      "physical_site_arc_allowed": false,
+      "gap": "Receiving factory unreported; not an ABB robot/Shanghai route."
+    },
+    {
+      "id": "app_noveon_nidec",
+      "reuse_existing": true,
+      "from_company": "app_noveon",
+      "to_company": "app_nidec",
+      "from_site": "noveon",
+      "to_site": null,
+      "type": "company_binding_offtake",
+      "status": "five-year agreement; potential total volume, deliveries scheduled starting 2025",
+      "claim_date": "2025-02-03",
+      "source_ids": [
+        "US_NIDEC_NOVEON"
+      ],
+      "material": "finished sintered NdFeB magnets",
+      "quantity": {
+        "value": 1000,
+        "comparator": ">",
+        "unit": "tons as reported; ton basis unspecified",
+        "period": "total potential over five-year agreement",
+        "kind": "potential_offtake",
+        "actual_annual_tonnes": null
+      },
+      "physical_site_arc_allowed": false,
+      "gap": "Do not convert to measured 200 metric tonnes/year; receiving facilities unnamed."
+    },
+    {
+      "id": "app_jlmag_tesla",
+      "reuse_existing": true,
+      "from_company": "app_jlmag",
+      "to_company": "app_tesla",
+      "from_site": null,
+      "to_site": null,
+      "type": "historical_customer_or_product_adoption",
+      "status": "preserve legacy evidence status; current direct procurement unconfirmed",
+      "claim_date": null,
+      "source_ids": [],
+      "material": "company product context",
+      "quantity": null,
+      "physical_site_arc_allowed": false,
+      "gap": "No plant source assignment.",
+      "external_evidence_ref": "application-supply-evidence.json#/links/app_jlmag_tesla"
+    },
+    {
+      "id": "us_rivian_amazon",
+      "from_company": "app_rivian",
+      "to_company": "app_amazon",
+      "from_site": "rivian_normal",
+      "to_site": null,
+      "type": "actual_company_customer_sales",
+      "status": "2025 EDV sales recorded; individual fleet receipts unknown",
+      "claim_date": "2025-12-31",
+      "source_ids": [
+        "US_RIVIAN_10K"
+      ],
+      "material": "finished electric delivery vehicles",
+      "quantity": null,
+      "physical_site_arc_allowed": false,
+      "gap": "No receiving fleet depot or plant magnet supply route."
+    },
+    {
+      "id": "us_agility_gxo",
+      "from_company": "app_agility",
+      "to_company": "app_gxo",
+      "from_site": "agility_robofab",
+      "to_site": "gxo_spanx_flowery_branch",
+      "type": "commercial_robot_service_and_deployment",
+      "status": "RaaS agreement June 2024; actual Digit operation corroborated September 2026",
+      "claim_date": "2026-09-15",
+      "source_ids": [
+        "US_GXO_DIGIT",
+        "US_GXO_SPANX",
+        "US_AGILITY_2026"
+      ],
+      "material": "Digit robots / service",
+      "quantity": null,
+      "physical_site_arc_allowed": false,
+      "application_connection_allowed": true,
+      "gap": "Show product application relationship; no batch/serial origin shipment or upstream magnet provenance."
+    },
+    {
+      "id": "us_kollmorgen_universalrobots",
+      "from_company": "app_kollmorgen",
+      "to_company": "app_universalrobots",
+      "from_site": null,
+      "to_site": null,
+      "type": "documented_customer_product_case",
+      "status": "2024 case-study publication; current contract unreported",
+      "claim_date": "2024",
+      "source_ids": [
+        "US_KOLL_ROBOT_CUSTOMER"
+      ],
+      "material": "robot motor products",
+      "quantity": null,
+      "physical_site_arc_allowed": false,
+      "gap": "Do not force KBM product example or Radford site allocation onto the unnamed case-study motor/receiving factory."
+    }
+  ],
+  "sector_demand": [
+    {
+      "id": "us_ev_sales_2025",
+      "sector_id": "ev_traction",
+      "geography": "United States",
+      "scope": "new electric cars (BEV+PHEV), sales; includes imports and excludes factory export demand",
+      "metrics": [
+        {
+          "kind": "actual_sales",
+          "value": 1500000,
+          "comparator": "approximately",
+          "unit": "vehicles/year",
+          "period": "2025",
+          "scope": "United States",
+          "source_ids": [
+            "US_IEA_EV25"
+          ],
+          "annual": true,
+          "note": ""
+        }
+      ],
+      "source_ids": [
+        "US_IEA_EV25"
+      ],
+      "magnet_demand_tonnes": null,
+      "gaps": [
+        "U.S. market sales are not U.S. factory production.",
+        "PM/induction/wound-rotor share, trim mix, auxiliary motors and kg/unit needed.",
+        "No authoritative scoped U.S. annual magnet tonnage established."
+      ]
+    },
+    {
+      "id": "us_robot_installations_2025",
+      "sector_id": "robot_automation",
+      "geography": "United States",
+      "scope": "industrial robot installations; import-inclusive; excludes an assumed count of all service/humanoid robots",
+      "metrics": [
+        {
+          "kind": "actual_installations",
+          "value": 38400,
+          "comparator": "=",
+          "unit": "robots/year",
+          "period": "2025",
+          "scope": "United States",
+          "source_ids": [
+            "US_IFR_FINAL25"
+          ],
+          "annual": true,
+          "note": ""
+        },
+        {
+          "kind": "actual_installations",
+          "value": 13500,
+          "comparator": "=",
+          "unit": "robots/year",
+          "period": "2025",
+          "scope": "United States automotive",
+          "source_ids": [
+            "US_IFR_FINAL25"
+          ],
+          "annual": true,
+          "note": ""
+        },
+        {
+          "kind": "actual_installations",
+          "value": 3000,
+          "comparator": "=",
+          "unit": "robots/year",
+          "period": "2025",
+          "scope": "United States metal/machinery",
+          "source_ids": [
+            "US_IFR_FINAL25"
+          ],
+          "annual": true,
+          "note": ""
+        },
+        {
+          "kind": "actual_installations",
+          "value": 2900,
+          "comparator": "=",
+          "unit": "robots/year",
+          "period": "2025",
+          "scope": "United States food/beverage",
+          "source_ids": [
+            "US_IFR_FINAL25"
+          ],
+          "annual": true,
+          "note": ""
+        }
+      ],
+      "source_ids": [
+        "US_IFR_FINAL25",
+        "US_IFR_GLOBAL25"
+      ],
+      "magnet_demand_tonnes": null,
+      "gaps": [
+        "Country PDF reports 38,400; global release says almost 38,500; June preliminary 38,000 is superseded.",
+        "Most U.S. robots imported from Japan/Europe; installations cannot measure domestic motor manufacture.",
+        "Axis/actuator architecture, qualified BOM, imported embedded magnet mass and replacement demand missing."
+      ]
+    },
+    {
+      "id": "us_motor_installed_stock_context",
+      "sector_id": "industrial_motors",
+      "geography": "United States",
+      "scope": "industrial/commercial three-phase and DC motor systems >=1 hp; installed stock/energy estimate, not annual production",
+      "metrics": [
+        {
+          "kind": "estimated_installed_stock",
+          "value": 52500000,
+          "comparator": "=",
+          "unit": "motor_systems",
+          "period": "field assessment 2016-2019",
+          "scope": "United States",
+          "source_ids": [
+            "US_LBNL_MOTORS"
+          ],
+          "annual": false,
+          "note": "±4.5 million at stated 90% confidence; excludes fractional hp."
+        },
+        {
+          "kind": "estimated_annual_electricity",
+          "value": 1079,
+          "comparator": "=",
+          "unit": "TWh/year",
+          "period": "2016-2019 assessment; 2018 electricity comparison",
+          "scope": "United States",
+          "source_ids": [
+            "US_LBNL_MOTORS"
+          ],
+          "annual": true,
+          "note": "±36 TWh; about 29% of 2018 total electricity supply, not 2026 estimate."
+        }
+      ],
+      "source_ids": [
+        "US_LBNL_MOTORS",
+        "US_LBNL_CURRENT"
+      ],
+      "magnet_demand_tonnes": null,
+      "gaps": [
+        "Current annual U.S. advanced/PM motor shipments and NdFeB share not established.",
+        "Installed motors/electricity are importance proxies, not magnet annual demand.",
+        "Survey includes alternative motor technologies; do not multiply all motor stock by magnet intensity."
+      ]
+    },
+    {
+      "id": "us_wind_plan_context",
+      "sector_id": "pm_wind",
+      "geography": "United States",
+      "scope": "utility-scale wind generating-capacity additions in inventory",
+      "metrics": [
+        {
+          "kind": "planned_capacity_additions",
+          "value": 11.8,
+          "comparator": "=",
+          "unit": "GW/year",
+          "period": "2026 plan based on Dec 2025 inventory",
+          "scope": "United States",
+          "source_ids": [
+            "US_EIA_WIND_PLAN"
+          ],
+          "annual": true,
+          "note": ""
+        }
+      ],
+      "source_ids": [
+        "US_EIA_WIND_PLAN"
+      ],
+      "magnet_demand_tonnes": null,
+      "gaps": [
+        "This is a dated plan, not realized full-year actual or latest inventory total.",
+        "Generator architecture, model mix, kg/MW and factory/magnet sourcing missing.",
+        "Not all wind turbines use PM generators; PM is not proof of NdFeB."
+      ]
+    },
+    {
+      "id": "us_household_washer_factory_context",
+      "sector_id": "hvac_appliances",
+      "geography": "Clyde, Ohio plant only",
+      "scope": "operator annual-rate statement for household appliance factory; not national sector census",
+      "metrics": [
+        {
+          "kind": "reported_annual_rate",
+          "value": 4000000,
+          "comparator": ">",
+          "unit": "washers/year",
+          "period": "undated operator current statement",
+          "scope": "single U.S. site",
+          "source_ids": [
+            "US_WHIRLPOOL_FACTORIES"
+          ],
+          "annual": true,
+          "note": ""
+        }
+      ],
+      "source_ids": [
+        "US_WHIRLPOOL_FACTORIES"
+      ],
+      "magnet_demand_tonnes": null,
+      "gaps": [
+        "No dated yearly actual or model-specific motor material share."
+      ]
+    }
+  ],
+  "investment_context": [
+    {
+      "id": "us_gm_toledo_capex",
+      "site_ids": [
+        "gm_toledo"
+      ],
+      "amount": 760000000,
+      "currency": "USD",
+      "status": "announced conversion investment",
+      "claim_date": "2022-09-23",
+      "scope": "EV drive-unit plant conversion",
+      "source_ids": [
+        "US_GM_TOLEDO_PLAN"
+      ],
+      "magnet_capacity_tonnes_per_year": null
+    },
+    {
+      "id": "us_abb_auburn_refit",
+      "site_ids": [
+        "abb_auburn_hills"
+      ],
+      "amount": 20000000,
+      "currency": "USD",
+      "status": "refit opened",
+      "claim_date": "2024-03-14",
+      "scope": "robotics factory expansion; not magnet plant",
+      "source_ids": [
+        "US_ABB_AUBURN"
+      ],
+      "magnet_capacity_tonnes_per_year": null
+    },
+    {
+      "id": "us_hmgma_expansion_capex",
+      "site_ids": [
+        "hyundai_metaplant"
+      ],
+      "amount": 2700000000,
+      "currency": "USD",
+      "status": "announced three-year expansion plan; incremental 200k capacity still uninstalled August 2026",
+      "claim_date": "2025-09-18",
+      "scope": "EV/hybrid assembly expansion to 500k/year by 2028",
+      "source_ids": [
+        "US_HYUNDAI_2025_PLAN",
+        "US_HYUNDAI_2026"
+      ],
+      "magnet_capacity_tonnes_per_year": null
+    },
+    {
+      "id": "us_bmw_sc_capex",
+      "site_ids": [
+        "bmw_spartanburg"
+      ],
+      "amount": 1700000000,
+      "currency": "USD",
+      "status": "investment completion announced",
+      "claim_date": "2026-06-30",
+      "scope": "Spartanburg expansion plus Woodruff battery factory combined",
+      "source_ids": [
+        "US_BMW_INVEST26"
+      ],
+      "magnet_capacity_tonnes_per_year": null
+    },
+    {
+      "id": "us_whirlpool_laundry_capex",
+      "site_ids": [
+        "whirlpool_clyde"
+      ],
+      "amount": 300000000,
+      "currency": "USD",
+      "status": "planned investment announced",
+      "claim_date": "2025-10-15",
+      "scope": "Clyde AND Marion laundry operations combined; not Clyde-only",
+      "source_ids": [
+        "US_WHIRLPOOL_2025"
+      ],
+      "magnet_capacity_tonnes_per_year": null
+    }
+  ],
+  "future_research": [
+    {
+      "id": "fr_us_demand_bom",
+      "title_en": "Which actual U.S. programs create annual demand for which magnet grades?",
+      "title_zh": "哪些美国实际项目每年需要哪些磁体牌号？",
+      "testable_question": "For a chosen calendar year, does program-level actual production × qualified PM motor/actuator mix × measured BOM mass reproduce direct magnet receipts within inventory and yield adjustments?",
+      "required_inputs": [
+        "actual units by U.S. plant/program/year",
+        "motor/actuator count and topology by trim",
+        "magnet material/grade and kg per qualified design",
+        "domestic production vs imported embedded components vs U.S. sales",
+        "inventory change, scrap/yield and replacement flows"
+      ],
+      "deliverable": "A bounded table by confirmed program with uncertainty intervals; missing BOM remains null.",
+      "constraint_focus": [
+        "actual demand and architecture share",
+        "yield",
+        "model mix"
+      ],
+      "source_ids": [
+        "US_RIVIAN_FY25",
+        "US_RIVIAN_10K",
+        "US_TESLA_MODELY_MOTOR",
+        "US_BMW_IX5",
+        "US_IFR_FINAL25"
+      ]
+    },
+    {
+      "id": "fr_us_qualification_routing",
+      "title_en": "Where does the qualified magnet actually enter a U.S. motor or robot?",
+      "title_zh": "已合格磁体实际在哪家美国电机或机器人厂进入生产？",
+      "testable_question": "For Noveon→ABB/Nidec and MP/VAC→GM, can public qualification/receipt evidence identify receiver, part number/grade, acceptance date and realized annual deliveries, rather than only company-wide contracts?",
+      "required_inputs": [
+        "named receiving plant",
+        "part/grade and drawing revision",
+        "customer acceptance and ramp date",
+        "annual accepted shipment mass/unit count",
+        "qualified alternative supplier and switching lead time"
+      ],
+      "deliverable": "Upgrade company contract to plant-level route only when endpoints and dated receipt/acceptance are public.",
+      "constraint_focus": [
+        "qualification",
+        "part-specific sourcing",
+        "delivery ramp"
+      ],
+      "source_ids": [
+        "US_ABB_NOVEON",
+        "US_NIDEC_NOVEON",
+        "US_GM_MP",
+        "US_VAC_GM"
+      ]
+    },
+    {
+      "id": "fr_us_interruption_capex",
+      "title_en": "Which constraint changes lost output under a supply interruption?",
+      "title_zh": "供应中断时，哪个约束真正改变产量损失？",
+      "testable_question": "For selected actual programs, compare a qualified-magnet interruption with alloy/HRE feedstock shortage, motor/actuator bottleneck and qualification delay; which incremental qualified capacity or inventory would reduce lost deliveries?",
+      "required_inputs": [
+        "qualified inventory days",
+        "supplier interruption duration",
+        "component yield and motor/actuator capacity",
+        "customer switching/validation lead time",
+        "incremental capex per qualified annual tonne by stage",
+        "utilization/ramp curve, lead time and operating cost"
+      ],
+      "deliverable": "Transparent interruption and capacity scenarios, with costs separated by refining/alloy/magnet/motor/qualification; no financial investment recommendation.",
+      "constraint_focus": [
+        "qualified capacity rather than nameplate",
+        "inventory",
+        "upstream HRE/alloy exposure",
+        "motor capacity and certification timing"
+      ],
+      "source_ids": [
+        "US_LBNL_MOTORS",
+        "US_AGILITY_2026",
+        "US_LUCID_Q226",
+        "US_ABB_NOVEON"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "US_GM_DIRECTORY",
+      "title": "GM current U.S. operations directory",
+      "url": "https://www.gm.com/company/us-operations",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current directory checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Undated directory; date checked is not a publication date."
+    },
+    {
+      "id": "US_GM_CURRENT",
+      "title": "Every GM assembly plant currently operating in the U.S.",
+      "url": "https://news.gm.com/home.detail.html/Pages/topic/us/en/2026/jul/0728-assembly-plant.html",
+      "source_date": "2026-07-28",
+      "source_date_precision": "day",
+      "claim_period": "2026-07-28",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_GM_TOLEDO_PLAN",
+      "title": "GM Toledo EV drive-unit investment announcement",
+      "url": "https://news.gm.com/home.detail.html/Pages/news/us/en/2022/sep/0923-toledo.html",
+      "source_date": "2022-09-23",
+      "source_date_precision": "day",
+      "claim_period": "2022 announcement of conversion plan",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_GM_MP",
+      "title": "GM/MP Materials rare-earth magnet sourcing agreement",
+      "url": "https://investors.gm.com/news-releases/news-release-details/general-motors-and-mp-materials-enter-long-term-supply-agreement/",
+      "source_date": "2021-12-09",
+      "source_date_precision": "day",
+      "claim_period": "agreement announced 2021; original ramp expectation 2023",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Historic agreement and program architecture; not proof of current plant receipts. Reuse newer MP delivery/qualification evidence in the existing atlas."
+    },
+    {
+      "id": "US_VAC_GM",
+      "title": "VAC binding North American GM supply agreement",
+      "url": "https://vacuumschmelze.com/Newsroom/on-the-road-to-an-electric-future-n2480",
+      "source_date": "2023-01-30",
+      "source_date_precision": "day",
+      "claim_period": "2023 contract; production then expected 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_TESLA_10K",
+      "title": "Tesla 2025 Form 10-K: primary manufacturing facilities",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "source_date": "2026-01-29",
+      "source_date_precision": "day",
+      "claim_period": "year ended 2025-12-31",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_TESLA_Q226",
+      "title": "Tesla Q2 2026 update: installed annual manufacturing capacity",
+      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049213/exhibit991.htm",
+      "source_date": "2026-07-22",
+      "source_date_precision": "day",
+      "claim_period": "Q2 2026",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Region/product capacity; installed capacity explicitly differs from actual production rate."
+    },
+    {
+      "id": "US_TESLA_MODELY_MOTOR",
+      "title": "Tesla Model Y owner manual: motor types",
+      "url": "https://www.tesla.com/ownersmanual/modely/en_us/GUID-E414862C-CFA1-4A0B-9548-BE21C32CAA58.html",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current Model Y manual checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Rear PM synchronous; front AWD induction. Magnet material/BOM and plant trim mix not disclosed."
+    },
+    {
+      "id": "US_TESLA_TEXAS",
+      "title": "Tesla Gigafactory Texas operator page",
+      "url": "https://www.tesla.com/giga-texas",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current page checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_RIVIAN_10K",
+      "title": "Rivian 2025 Form 10-K: Normal capacity and Amazon EDV sales",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm",
+      "source_date": "2026-02-12",
+      "source_date_precision": "day",
+      "claim_period": "year ended 2025-12-31",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_RIVIAN_FY25",
+      "title": "Rivian Q4 and full year 2025 production at Normal",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000007/ex-991pressrelease4q25earn.htm",
+      "source_date": "2026-02-12",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_RIVIAN_Q326",
+      "title": "Rivian Q3 2026 production and delivery figures",
+      "url": "https://rivian.com/newsroom/article/rivian-releases-q3-2026-production-and-delivery-figures",
+      "source_date": "2026-10-02",
+      "source_date_precision": "day",
+      "claim_period": "quarter ended 2026-09-30",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Browser text extractor returned no article body; direct public operator HTML contains the article and posted date. Snapshot retained locally."
+    },
+    {
+      "id": "US_RIVIAN_ENDURO",
+      "title": "First customer Dual-Motor R1T rolls off the Normal line",
+      "url": "https://rivian.com/stories/dual-motor-r1t-start-of-production",
+      "source_date": "2023-05-25",
+      "source_date_precision": "day",
+      "claim_period": "May 2023 Enduro start/ramp",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_RIVIAN_LCA",
+      "title": "Rivian R1T Dual-Motor carbon footprint, version 1.1",
+      "url": "https://assets.rivian.com/2md5qhoeajym/4wuFZHyC16SDwjbJN7a6jp/97360fd5f194feb68d0870966d71fe1e/R1T_Dual-Motor_Carbon_Footprint_V1.1.pdf",
+      "source_date": "2023",
+      "source_date_precision": "year",
+      "claim_period": "R1T Dual-Motor model LCA",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Appendix includes a permanent-magnet inventory category. Ecoinvent geography is a modelling dataset, not a disclosed supplier or shipment origin."
+    },
+    {
+      "id": "US_LUCID_10K",
+      "title": "Lucid 2025 Form 10-K: AMP-1 and powertrain manufacturing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828026011053/lcid-20251231.htm",
+      "source_date": "2026-02-24",
+      "source_date_precision": "day",
+      "claim_period": "year ended 2025-12-31",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_LUCID_FINAL25",
+      "title": "Lucid Q4/full-year 2025 financial results with revised production",
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-fourth-quarter-and-full-year-2025-financial",
+      "source_date": "2026-02-24",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Final 17,840 replaces January preliminary 18,378; company-global, not plant-specific."
+    },
+    {
+      "id": "US_LUCID_Q226",
+      "title": "Lucid operational reset and Q2 2026 results",
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-operational-reset-and-second-quarter-2026/",
+      "source_date": "2026-08-04",
+      "source_date_precision": "day",
+      "claim_period": "quarter ended 2026-06-30",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_HMGMA_OPEN",
+      "title": "Hyundai Motor Group Metaplant America grand opening",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-group-metaplant-america-celebrates-grand-opening,-powering-u.s.-economic-growth-0000000920",
+      "source_date": "2025-03-26",
+      "source_date_precision": "day",
+      "claim_period": "opening March 2025; initial annual capacity 300,000",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Worldwide CMS also displays 2025-03-27 posting timestamp; release dateline is March 26."
+    },
+    {
+      "id": "US_HYUNDAI_2026",
+      "title": "Hyundai 2026 CEO Investor Day roadmap",
+      "url": "https://www.hyundai.com/in/en/hyundai-story/media-center/press-release/hmc-charts-profit-driven-growth-roadmap-2026-ceo-investor-day",
+      "source_date": "2026-08-26",
+      "source_date_precision": "day",
+      "claim_period": "August 2026 plan",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Confirms 200,000-unit HMGMA expansion was announced but uninstalled as of this disclosure."
+    },
+    {
+      "id": "US_HYUNDAI_2025_PLAN",
+      "title": "Hyundai 2025 CEO Investor Day expansion plan",
+      "url": "https://www.hyundai.com/worldwide/en/newsroom/detail/hyundai-motor-company-unveils-bold-2030-vision-and-product-roadmap-at-2025-ceo-investor-day-0000001018",
+      "source_date": "2025-09-18",
+      "source_date_precision": "day",
+      "claim_period": "500,000 annual capacity target by 2028",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_HYUNDAI_2026_LETTER",
+      "title": "Hyundai CEO letter to shareholders",
+      "url": "https://www.hyundai.com/worldwide/en/company/ir/management-information/ceo-letter-to-shareholders",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "2025 performance and 2026 forward plan",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "HMGMA producing IONIQ 5 and IONIQ 9; mentions validation builds for Waymo. Exact publication date not supplied."
+    },
+    {
+      "id": "US_IONIQ5_MOTOR",
+      "title": "2025 U.S. IONIQ 5 official specifications",
+      "url": "https://www.hyundaiusa.com/us/en/vehicles/2025-ioniq-5",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "model year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "PM synchronous motor specified; NdFeB material, grade and supplier not identified."
+    },
+    {
+      "id": "US_ABB_AUBURN",
+      "title": "ABB refitted U.S. robotics manufacturing facility",
+      "url": "https://new.abb.com/news/detail/113681/abb-opens-refitted-state-of-the-art-us-robotics-facility-reaffirming-commitment-to-us-customers",
+      "source_date": "2024-03-14",
+      "source_date_precision": "day",
+      "claim_period": "refit opened March 2024",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_ABB_ADDRESS",
+      "title": "ABB U.S. location and billing directory",
+      "url": "https://new.abb.com/us/about/us-supplier-inquiries/us-address-directory",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current directory checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Uses ABB Location column for Auburn Hills Operation; billing PO box is not the factory address."
+    },
+    {
+      "id": "US_ABB_FORTSMITH",
+      "title": "ABB Fort Smith motor manufacturing visit",
+      "url": "https://new.abb.com/news/detail/135749/gov-sanders-experiences-abbs-leadership-in-workforce-development",
+      "source_date": "2026-05-12",
+      "source_date_precision": "day",
+      "claim_period": "plant visit 2026-05-04",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_ABB_NOVEON",
+      "title": "ABB/Noveon long-term NdFeB magnet agreement",
+      "url": "https://new.abb.com/news/detail/128298/abb-selects-noveon-magnetics-for-long-term-agreement-to-supply-us-made-rare-earth-magnets",
+      "source_date": "2025-08-14",
+      "source_date_precision": "day",
+      "claim_period": "deliveries scheduled August 2025; full ramp target end 2026",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "North American industrial motor operations; receiving factory unnamed, despite Fort Smith release dateline."
+    },
+    {
+      "id": "US_ABB_SP4",
+      "title": "ABB SP4 HVAC motor efficiency without magnets",
+      "url": "https://new.abb.com/news/detail/136818/abb-baldor-reliance-sp4-hvac-motor-wins-gold-in-plant-engineering-2026-product-of-the-year-awards",
+      "source_date": "2026-06-18",
+      "source_date_precision": "day",
+      "claim_period": "SP4 product architecture June 2026",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Product-level alternative; specific production plant allocation not supplied."
+    },
+    {
+      "id": "US_NIDEC_NOVEON",
+      "title": "Nidec/Noveon five-year binding offtake",
+      "url": "https://acim.nidec.com/cs-CZ/motors/News-And-Media/Press-Releases/Nidec-and-Noveon",
+      "source_date": "2025-02-03",
+      "source_date_precision": "day",
+      "claim_period": "five-year agreement announced February 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Potential >1,000 tons total, not actual annual shipments. Original source says tons without resolving metric vs short tons."
+    },
+    {
+      "id": "US_AGILITY_2026",
+      "title": "Digit 5 and current RoboFab assembly operations",
+      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+      "source_date": "2026-09-15",
+      "source_date_precision": "day",
+      "claim_period": "Digit 4 current deployments; Digit 5 expected 2027",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_AGILITY_SUPPLY",
+      "title": "Agility proposed public combination and supply-chain disclosure",
+      "url": "https://www.agilityrobotics.com/content/agility-robotics-to-go-public-through-merger-with-churchill-capital-corp-xi",
+      "source_date": "2026-06-24",
+      "source_date_precision": "day",
+      "claim_period": "June 2026",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Approximately 75% of Digit parts sourced in U.S. does not establish rare-earth magnet origin."
+    },
+    {
+      "id": "US_GXO_DIGIT",
+      "title": "GXO multi-year RaaS agreement and SPANX deployment",
+      "url": "https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/",
+      "source_date": "2024-06-27",
+      "source_date_precision": "day",
+      "claim_period": "2024 commercial deployment",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_GXO_SPANX",
+      "title": "GXO SPANX Flowery Branch distribution site",
+      "url": "https://gxo.com/news_article/gxo-partners-with-global-womenswear-brand-spanx/",
+      "source_date": "2023-03-16",
+      "source_date_precision": "day",
+      "claim_period": "2023 site and distribution scope",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_KOLL_CERT",
+      "title": "Kollmorgen Rock Road ISO 9001 site certificate",
+      "url": "https://www.kollmorgen.com/sites/default/files/2025-02/Rock%20Road%20ISO9001%20Certificate%202024.pdf",
+      "source_date": "2024-06-09",
+      "source_date_precision": "day",
+      "claim_period": "certificate valid 2024-06-09 through 2027-06-09",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Manufacture: 201 West Rock Road. Customer Support & Service: 203 West Rock Road. Management-system certification is not customer magnet qualification."
+    },
+    {
+      "id": "US_KOLL_CAREERS",
+      "title": "Kollmorgen current manufacturing careers",
+      "url": "https://www.kollmorgen.com/en-us/company/careers/current-opportunities",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current page checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_KOLL_KBM",
+      "title": "Kollmorgen KBM frameless motors: NdFeB product features",
+      "url": "https://www.kollmorgen.com/en-us/products/motors/direct-drive/kbm-series-frameless",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current product page checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Product identifies NdFeB; allocation to Radford factory and supplier not established."
+    },
+    {
+      "id": "US_KOLL_ROBOT_CUSTOMER",
+      "title": "Kollmorgen motors for Universal Robots",
+      "url": "https://www.kollmorgen.com/sites/default/files/2024-11/Kollmorgen%20Motors%20Drive%20the%20Lightweight%20Helpers%20of%20Universal%20Robots_RevB_en.pdf",
+      "source_date": "2024",
+      "source_date_precision": "year",
+      "claim_period": "2024 operator customer case study",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Historic product relationship; current contract and receiving/manufacturing plant unreported."
+    },
+    {
+      "id": "US_MAXON_SITES",
+      "title": "maxon current company history: U.S. production opened 2019",
+      "url": "https://www.maxongroup.com/en-us/company/who-we-are",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "2019 opening; current page checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_MAXON_CAREERS",
+      "title": "maxon current production locations",
+      "url": "https://www.maxongroup.com/en/career",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current page checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_MAXON_ADDRESS",
+      "title": "maxon current Taunton contact address",
+      "url": "https://www.maxongroup.com/en-us/contact",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current directory checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_MAXON_2019",
+      "title": "maxon U.S. production plant opening",
+      "url": "https://www.maxongroup.us/medias/sys_master/8832570851358.pdf?attachment=true",
+      "source_date": "2019-03-19",
+      "source_date_precision": "day",
+      "claim_period": "March 2019 plant opening",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_MAXON_MOTOR",
+      "title": "maxon DC motor families with NdFeB magnets",
+      "url": "https://www.maxongroup.com/en-us/drives-and-systems/brushed-dc-motors",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current product page checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "DCX/DC-max/RE examples; site allocation and specific customer application require separate evidence."
+    },
+    {
+      "id": "US_WHIRLPOOL_FACTORIES",
+      "title": "Whirlpool current U.S. manufacturing sites",
+      "url": "https://www.whirlpoolcorp.com/manufacturing.html",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current operator description checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Clyde >4 million washers/year is an undated operator annual-rate statement, not a dated calendar-year count."
+    },
+    {
+      "id": "US_WHIRLPOOL_2025",
+      "title": "Whirlpool planned $300 million laundry investment",
+      "url": "https://investors.whirlpoolcorp.com/news-and-events/news/news-details/2025/Whirlpool-Corporation-Announces-300-Million-Investment-in-U-S--Laundry-Operations-Creating-400-600-New-Jobs/default.aspx",
+      "source_date": "2025-10-15",
+      "source_date_precision": "day",
+      "claim_period": "2025 announced investment across Clyde and Marion",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_WHIRLPOOL_AR25",
+      "title": "Whirlpool 2025 annual report: Ohio top-load laundry",
+      "url": "https://ar.whirlpoolcorp.com/Whirlpool_2025_AR.pdf",
+      "source_date": "2026",
+      "source_date_precision": "year",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Report edition/year known; exact publication date not supplied in extracted source."
+    },
+    {
+      "id": "US_BMW_OUTPUT25",
+      "title": "BMW Spartanburg 2025 production and exports",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0456008EN_US?language=en_US",
+      "source_date": "2026-03-05",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_BMW_INVEST26",
+      "title": "BMW completes Spartanburg/Woodruff $1.7 billion investment",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0458940EN_US/bmw-group-completes-1-7-billion-u-s-investment-and-premieres-all-new-bmw-x5-at-%E2%80%9Chome-of-x%E2%80%9D-event-in-spartanburg-sc?language=en_US",
+      "source_date": "2026-06-30",
+      "source_date_precision": "day",
+      "claim_period": "June 2026 completed investment; late-2026 BEV plan",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_BMW_IX5",
+      "title": "BMW iX5 Gen6 EESM/ASM traction architecture",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0458814EN_US/the-new-bmw-x5-and-ix5?language=en_US",
+      "source_date": "2026-06-30",
+      "source_date_precision": "day",
+      "claim_period": "iX5 program; Q1 2027 U.S. market introduction",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_BMW_DEC26",
+      "title": "BMW new X5: iX5 production scheduled December 2026",
+      "url": "https://www.bmwgroup.com/en/news/general/2026/the-new-bmw-x5.html",
+      "source_date": "2026",
+      "source_date_precision": "year",
+      "claim_period": "December 2026 planned start",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Date only known at year precision from current operator article."
+    },
+    {
+      "id": "US_IEA_EV25",
+      "title": "IEA Global EV Outlook 2026: U.S. electric-car sales",
+      "url": "https://www.iea.org/reports/global-ev-outlook-2026/trends-in-electric-cars",
+      "source_date": "2026",
+      "source_date_precision": "year",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "BEV+PHEV new car sales, rounded ~1.5 million; not U.S. factory output."
+    },
+    {
+      "id": "US_IFR_FINAL25",
+      "title": "IFR World Robotics 2026 U.S. country release",
+      "url": "https://ifr.org/downloads/press_docs/EN-2026-SEP-24-IFR_Press_Release_WR-USA.pdf",
+      "source_date": "2026-09-24",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Country release reports 38,400; global summary rounds to almost 38,500. Supersedes June preliminary 38,000."
+    },
+    {
+      "id": "US_IFR_GLOBAL25",
+      "title": "IFR World Robotics 2026 global release",
+      "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally",
+      "source_date": "2026-09-24",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025 and global forecast 2026/2029",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_LBNL_MOTORS",
+      "title": "LBNL/DOE motor systems market assessment Volume 1",
+      "url": "https://eta-publications.lbl.gov/sites/default/files/u.s._industrial_and_commercial_motor_system_market_assessment_report_vol_1_.pdf",
+      "source_date": "2021-09",
+      "source_date_precision": "month",
+      "claim_period": "field assessments Sep 2016–Mar 2019; electricity comparison to U.S. 2018",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Installed stock and estimated energy use; not 2025/2026 motor shipments or rare-earth demand."
+    },
+    {
+      "id": "US_LBNL_CURRENT",
+      "title": "LBNL/DOE current public motor assessment companion",
+      "url": "https://motors.lbl.gov/",
+      "source_date": null,
+      "source_date_precision": "unknown",
+      "claim_period": "current publication companion checked 2026-10-07",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": ""
+    },
+    {
+      "id": "US_EIA_WIND_PLAN",
+      "title": "EIA preliminary 2026 utility-scale generating-capacity plans",
+      "url": "https://www.eia.gov/todayinEnergy/detail.php?id=67205",
+      "source_date": "2026-02-20",
+      "source_date_precision": "day",
+      "claim_period": "December 2025 inventory; 2026 planned additions",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "11.8 GW planned wind, subject to changes. Does not identify generator architecture or magnet provenance."
+    }
+  ],
+  "criticality_method": {
+    "official_ranking": false,
+    "universal_score": null,
+    "dimensions": [
+      "material_dependence",
+      "substitution_redesign",
+      "qualification_switching",
+      "interruption_consequence",
+      "supply_exposure",
+      "demand_pressure"
+    ],
+    "rule": "Use architecture/program-specific evidence, analyst interpretation labels, independent dimensions and visible unknowns; no universal official sector hierarchy.",
+    "contrasts": [
+      "GM program evidence confirms NdFeB; plant receiving provenance remains missing.",
+      "Tesla Model Y mixes PM rear with induction front; material and grade not disclosed.",
+      "BMW planned iX5 EESM/ASM traction avoids PM magnets; auxiliary demand remains separate.",
+      "ABB SP4 HVAC product avoids magnets/rare earths, despite other ABB motor programs contracting NdFeB.",
+      "Robot/logistics products serve businesses/manufacturing and infrastructure; final retail beneficiaries do not imply household robot ownership."
+    ]
+  },
+  "demand_model": {
+    "measured_us_annual_magnet_tonnes": null,
+    "optional_formula": "sum(actual units/year × confirmed eligible architecture share × magnets kg/eligible unit) / 1000",
+    "single_program_formula": "units/year × magnet kg/unit ÷ 1000",
+    "inputs": {
+      "actual_units": null,
+      "eligible_architecture_share": null,
+      "magnet_kg_per_unit": null
+    },
+    "allow_compute_only_with_explicit_inputs": true,
+    "inputs_must_be_independent": true,
+    "note": "For multi-motor/actuator products, kg/unit must aggregate only confirmed eligible parts. Use actual output or demand scenario basis explicitly; capacity does not mean demand. Material elements require a separate grade-composition model."
+  },
+  "boundary_checks": [
+    "MP→Apple expected 2027; current MP qualification recipients unnamed, not assigned here.",
+    "Do not infer Noveon→ABB Shanghai or Auburn Hills robot supply.",
+    "JL MAG→Tesla/BYD adoption/history is not a current direct procurement contract.",
+    "Vestas Szczecin→Baltic Power nacelle delivery does not establish magnet provenance.",
+    "Headquarters and U.S. sales/integration offices are not motor/robot manufacturing plants."
+  ],
+  "counts": {
+    "sites": 15,
+    "companies": 14,
+    "site_operators": 12,
+    "customer_context_companies": 2,
+    "relationships": 8,
+    "sources": 54,
+    "sector_contexts": 5
+  },
+  "validation": {
+    "source_references_checked": true,
+    "ids_unique_checked": true,
+    "units_dates_scope_checked": true,
+    "checked_at": "2026-10-07",
+    "geographic_routes_checked": true,
+    "manual_scope_notes": "Actual/capacity/plan/rate/company-wide/quarterly/cumulative values remain separately typed; no annualization, additive flexible capacities, ton-unit conversion or magnet-tonnage extrapolation."
+  }
+}

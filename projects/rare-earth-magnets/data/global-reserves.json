@@ -1,0 +1,394 @@
+{
+  "title": "Rare-earth reserves · countries and territories",
+  "source_id": "usgs-mcs2026-ree-revised",
+  "publication_date": "2026-02-06",
+  "revision_date": "2026-05-27",
+  "accessed_date": "2026-10-07",
+  "reserve_basis": "Total rare-earth reserves, expressed as REO equivalent; includes lanthanides and yttrium and excludes most scandium. Not individual Nd, Pr, Dy or Tb reserves.",
+  "unit": "metric tonnes of rare-earth-oxide equivalent (t REO)",
+  "world_total": {
+    "value_tonnes_reo": 75000000,
+    "qualifier": ">",
+    "label": "World total >75 million t REO",
+    "note": "The published rounded world total is a lower bound, not an exact denominator. Country/world calculations are bounds based on the reported values, not exact global shares."
+  },
+  "listed_subtotal": {
+    "value_tonnes_reo": 75290000,
+    "label": "Share of reported country reserves total · 75.29 million t REO",
+    "note": "Sum of the eleven numeric entries in this table. NA entries and unlisted countries are excluded. Percentages of this subtotal are not percentages of all global reserves; rounding of estimates limits precision. Displayed two-decimal shares sum to 99.99% through rounding; no residual Other share is invented."
+  },
+  "countries": [
+    {
+      "id": "united-states",
+      "name": "United States",
+      "iso_numeric": "840",
+      "reserve_tonnes_reo": 1900000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "1.9 million t REO",
+      "notes": [
+        "USGS separately reports 3.6 million tonnes of measured and indicated U.S. resources; that resource figure is not added to reserves."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 51000,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "iso_numeric": "036",
+      "reserve_tonnes_reo": 6300000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "6.3 million t REO",
+      "notes": [
+        "Footnote 13: JORC-compliant or equivalent reserves were 3.3 million tonnes. The main table uses 6.3 million; replacing it with 3.3 would change the comparison basis.",
+        "The 6.3 million tonne main-column basis is Accessible Economic Demonstrated Resources (AEDR); JORC/equivalent Ore Reserves are 3.3 million tonnes. National classifications and measurement vintages vary, so the compilation is not a harmonized reserve audit."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised",
+        "usgs-mcs2026-report",
+        "ga-aimr2024-reserves"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 29000,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "iso_numeric": "076",
+      "reserve_tonnes_reo": 11000000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "11 million t REO",
+      "notes": [
+        "May 27, 2026 revision changes Brazil from 21 million to 11 million tonnes and the world lower-bound total from >85 million to >75 million."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised",
+        "usgs-mcs2026-history"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 2000,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "myanmar",
+      "name": "Myanmar (USGS: Burma)",
+      "iso_numeric": "104",
+      "reserve_tonnes_reo": null,
+      "qualifier": "NA",
+      "status": "not_available",
+      "reported_display": "NA · not available",
+      "notes": [
+        "Production is reported separately; unavailable reserves are not zero reserves."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "miningproduction_tonnes_reo": 22000,
+      "miningproduction_year": 2025,
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revised May27,2026; no common country measurement date supplied."
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "iso_numeric": "124",
+      "reserve_tonnes_reo": 830000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "0.83 million t REO",
+      "notes": [
+        "USGS separately reports more than 14 million tonnes of measured and indicated resources; those resources are not counted as reserves."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 0,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "china",
+      "name": "China",
+      "iso_numeric": "156",
+      "reserve_tonnes_reo": 44000000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "44 million t REO",
+      "notes": [
+        "Total-REE reserves do not reveal the individual NdPr, Dy or Tb content, recovery, processing capacity or ownership of a particular deposit."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 270000,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "greenland",
+      "name": "Greenland",
+      "iso_numeric": "304",
+      "reserve_tonnes_reo": 1500000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "1.5 million t REO",
+      "notes": [
+        "A separate territory entry in the USGS table; this does not imply a current operating magnet-material mine or independently qualified supply chain."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 0,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "india",
+      "name": "India",
+      "iso_numeric": "356",
+      "reserve_tonnes_reo": null,
+      "qualifier": "NA",
+      "status": "not_available",
+      "reported_display": "NA · not available",
+      "notes": [
+        "Footnote 14: an OSCOM 2015 report indicated 256,000 tonnes of monazite reserves; rare-earth reserves were not reported. Monazite tonnes must not be relabeled as REO reserves."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 2900,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar",
+      "iso_numeric": "450",
+      "reserve_tonnes_reo": null,
+      "qualifier": "NA",
+      "status": "not_available",
+      "reported_display": "NA · not available",
+      "notes": [
+        "NA is excluded from the numeric subtotal, not treated as zero."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 2700,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "malaysia",
+      "name": "Malaysia",
+      "iso_numeric": "458",
+      "reserve_tonnes_reo": 710000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "0.71 million t REO",
+      "notes": [
+        "Country reserves are distinct from processing of imported concentrates and intermediates."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 110,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "nigeria",
+      "name": "Nigeria",
+      "iso_numeric": "566",
+      "reserve_tonnes_reo": null,
+      "qualifier": "NA",
+      "status": "not_available",
+      "reported_display": "NA · not available",
+      "notes": [
+        "NA is excluded from the numeric subtotal, not treated as zero."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 1500,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "russia",
+      "name": "Russia",
+      "iso_numeric": "643",
+      "reserve_tonnes_reo": 3800000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "3.8 million t REO",
+      "notes": [],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 2600,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "south-africa",
+      "name": "South Africa",
+      "iso_numeric": "710",
+      "reserve_tonnes_reo": 860000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "0.86 million t REO",
+      "notes": [],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 0,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "tanzania",
+      "name": "Tanzania",
+      "iso_numeric": "834",
+      "reserve_tonnes_reo": 890000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "0.89 million t REO",
+      "notes": [],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 0,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "thailand",
+      "name": "Thailand",
+      "iso_numeric": "764",
+      "reserve_tonnes_reo": null,
+      "qualifier": "NA",
+      "status": "not_available",
+      "reported_display": "NA · not available",
+      "notes": [
+        "NA is excluded from the numeric subtotal, not treated as zero."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 4800,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "vietnam",
+      "name": "Vietnam",
+      "iso_numeric": "704",
+      "reserve_tonnes_reo": 3500000,
+      "qualifier": "=",
+      "status": "reported",
+      "reported_display": "3.5 million t REO",
+      "notes": [],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false,
+      "reserve_measurement_year": null,
+      "reserve_reference_period": "Publication snapshot, revision 2026-05-27; no common country measurement date is supplied.",
+      "miningproduction_tonnes_reo": 150,
+      "miningproduction_year": 2025
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "iso_numeric": null,
+      "reserve_tonnes_reo": null,
+      "qualifier": "NA",
+      "status": "aggregate",
+      "reported_display": "NA · not available",
+      "notes": [
+        "An aggregate table row, not a country or a map pin."
+      ],
+      "source_ids": [
+        "usgs-mcs2026-ree-revised"
+      ],
+      "percent_is_global_share": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "usgs-mcs2026-ree-revised",
+      "title": "USGS Mineral Commodity Summaries 2026 · Rare Earths · revised current table",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+      "date": "2026-05-27",
+      "note": "World Mine Production and Reserves, PDF page 2; footnotes 1, 10, 13, 14. Current unversioned chapter retrieved October 7, 2026; SHA256 0116a192336fec41c38d8e11dad553bb7703308c1fbd1f97dc14b75c7e7d9900. PDF server last-modified May 26; report revision history records May 27."
+    },
+    {
+      "id": "usgs-mcs2026-history",
+      "title": "USGS MCS 2026 revision history · version 1.3",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/versionHist.txt",
+      "date": "2026-05-27",
+      "note": "Documents the Brazil/world-total correction. Earlier dated report figures remain distinct vintages."
+    },
+    {
+      "id": "usgs-mcs2026-report",
+      "title": "USGS Mineral Commodity Summaries 2026 · full report and reserve definitions",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "date": "2026-05-27",
+      "note": "Rare Earths table and Appendix C: resources and reserves are different reporting concepts."
+    },
+    {
+      "id": "ga-aimr2024-reserves",
+      "title": "Geoscience Australia · Australia's estimated Ore Reserves · Table 2",
+      "url": "https://www.ga.gov.au/aimr2024/australias-estimated-ore-reserves",
+      "date": "2025-02-27",
+      "note": "Australian JORC/equivalent national Ore Reserves3.34million tREO atDecember31,2023. Separate basis, not substituted into the USGS main-table denominator."
+    }
+  ],
+  "caveats": [
+    "Reserves are economically extractable mineral stocks under the reporting framework, not yearly mine output, operating separation capacity, magnet output or inventory.",
+    "This is total-REE REO equivalent. It cannot be interpreted as individual magnet NdPr, Dy or Tb reserves or feedstock availability.",
+    "The world total is rounded and reported as >75 million. The numeric-country subtotal is 75.29 million; neither gives an exact complete global percentage distribution.",
+    "NA means not available. Countries omitted from the table remain unlisted/unknown; neither category is plotted as a measured zero.",
+    "Country/territory display anchors are geographic references, not mine coordinates or ownership records.",
+    "Reserves do not identify corporate mine control or establish a physical shipment route to the United States. Facility evidence and typed contracts remain separate map layers."
+  ],
+  "percent_is_global_share": false,
+  "country_comparability": "Same USGS global compilation, but national classifications and measurement vintages vary; not a harmonized international reserve audit."
+}

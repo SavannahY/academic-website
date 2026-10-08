@@ -1,0 +1,978 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-07",
+  "title": "Representative NdFeB grades: exact supplier-sheet examples",
+  "supplier": "Arnold Magnetic Technologies",
+  "scope": "Thirteen documented Arnold examples. These are revision-specific published magnetic-property tables, not universal grade standards, alloy formulations, measured batch results, current stock availability or engineering guarantees.",
+  "displayUnit": "MGOe",
+  "gradeCount": 13,
+  "grades": [
+    {
+      "grade": "N35",
+      "label": "N35",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 33,
+          "nominal": 36,
+          "max": 38
+        },
+        "kJPerM3": {
+          "min": 263,
+          "nominal": 283,
+          "max": 302
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 955,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1170,
+          "nominal": 1210,
+          "max": 1250
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 80,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N35 row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N35-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": null,
+        "basis": "N35 summary cells show unusable zeros; not treated as physical values",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N35 row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The historical summary catalog's N35 energy-product cells display zero; excluded as unusable summary values. The individual grade sheet supplies the quoted range."
+      ]
+    },
+    {
+      "grade": "N38",
+      "label": "N38",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 36,
+          "nominal": 39,
+          "max": 41
+        },
+        "kJPerM3": {
+          "min": 286,
+          "nominal": 306,
+          "max": 326
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 955,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1220,
+          "nominal": 1260,
+          "max": 1300
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 80,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N38 row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N38-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 38,
+          "kJPerM3": 306
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N38 row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The individual sheet quotes 39 MGOe nominal; the historical summary table lists 38 MGOe typical. Nominal and typical are different reported fields, not interchangeable."
+      ]
+    },
+    {
+      "grade": "N40",
+      "label": "N40",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 38,
+          "nominal": 40,
+          "max": 42
+        },
+        "kJPerM3": {
+          "min": 302,
+          "nominal": 318,
+          "max": 334
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "consistent_with_rounding"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 955,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1250,
+          "nominal": 1270,
+          "max": 1290
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 80,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N40 row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N40-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 40,
+          "kJPerM3": 318
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N40 row"
+      },
+      "qualityFlags": []
+    },
+    {
+      "grade": "N42",
+      "label": "N42",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 40,
+          "nominal": 42,
+          "max": 44
+        },
+        "kJPerM3": {
+          "min": 318,
+          "nominal": 334,
+          "max": 350
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "consistent_with_rounding"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 955,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1280,
+          "nominal": 1315,
+          "max": 1350
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 80,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N42 row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N42-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 42,
+          "kJPerM3": 334
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N42 row"
+      },
+      "qualityFlags": []
+    },
+    {
+      "grade": "N48",
+      "label": "N48",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 45,
+          "nominal": 47,
+          "max": 49
+        },
+        "kJPerM3": {
+          "min": 358,
+          "nominal": 374,
+          "max": 390
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "consistent_with_rounding"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 875,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1370,
+          "nominal": 1400,
+          "max": 1430
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 80,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N48 row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N48-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 47,
+          "kJPerM3": 374
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N48 row"
+      },
+      "qualityFlags": [
+        "The live product-page summary differs from this individual sheet and historical catalog (energy product and Hcj). This record preserves the individual-sheet revision; do not describe it as a universal or guaranteed current specification."
+      ]
+    },
+    {
+      "grade": "N52",
+      "label": "N52",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 49,
+          "nominal": 51,
+          "max": 53
+        },
+        "kJPerM3": {
+          "min": 390,
+          "nominal": 406,
+          "max": 422
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "consistent_with_rounding"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 875,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1420,
+          "nominal": 1450,
+          "max": 1480
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 60,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N52 row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N52-151021.pdf",
+      "sourceRevision": "210802",
+      "sourceDate": "2021-08-02",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 51,
+          "kJPerM3": 406
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N52 row"
+      },
+      "qualityFlags": [
+        "The live summary page rounds Hcj to 876 kA/m; this individual sheet prints 875 kA/m. The sheet value is preserved."
+      ]
+    },
+    {
+      "grade": "N35H",
+      "label": "N35H",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "H",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 33,
+          "nominal": 36,
+          "max": 38
+        },
+        "kJPerM3": {
+          "min": 263,
+          "nominal": 283,
+          "max": 302
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 1353,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1170,
+          "nominal": 1210,
+          "max": 1250
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 120,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N35H row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2025/10/N35H-151021.pdf",
+      "sourceRevision": "151021a",
+      "sourceDate": "2015-10-21",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 35,
+          "kJPerM3": 283
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N35H row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The individual sheet quotes 36 MGOe nominal; the historical summary table lists 35 MGOe typical. Nominal and typical are different reported fields, not interchangeable.",
+        "Use the current product-page link under /2025/10/. The older /2017/11/N35H-151021.pdf URL contains an N35SH sheet and is not accepted as N35H evidence."
+      ]
+    },
+    {
+      "grade": "N38H",
+      "label": "N38H",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "H",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 36,
+          "nominal": 39,
+          "max": 41
+        },
+        "kJPerM3": {
+          "min": 287,
+          "nominal": 307,
+          "max": 326
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 1353,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1220,
+          "nominal": 1260,
+          "max": 1300
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 120,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N38H row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N38H-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 39,
+          "kJPerM3": 307
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N38H row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification."
+      ]
+    },
+    {
+      "grade": "N42H",
+      "label": "N42H",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "H",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 40,
+          "nominal": 42,
+          "max": 43
+        },
+        "kJPerM3": {
+          "min": 318,
+          "nominal": 330,
+          "max": 342
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 1353,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1280,
+          "nominal": 1300,
+          "max": 1320
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 120,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N42H row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N42H-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 41,
+          "kJPerM3": 330
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N42H row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The individual sheet quotes 42 MGOe nominal; the historical summary table lists 41 MGOe typical. Nominal and typical are different reported fields, not interchangeable."
+      ]
+    },
+    {
+      "grade": "N35SH",
+      "label": "N35SH",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "SH",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 33,
+          "nominal": 36,
+          "max": 38
+        },
+        "kJPerM3": {
+          "min": 263,
+          "nominal": 283,
+          "max": 302
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 1592,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1170,
+          "nominal": 1210,
+          "max": 1250
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 150,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N35SH row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N35SH-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 35,
+          "kJPerM3": 283
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N35SH row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The individual sheet quotes 36 MGOe nominal; the historical summary table lists 35 MGOe typical. Nominal and typical are different reported fields, not interchangeable."
+      ]
+    },
+    {
+      "grade": "N42SH",
+      "label": "N42SH",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "SH",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 39,
+          "nominal": 42,
+          "max": 44
+        },
+        "kJPerM3": {
+          "min": 310,
+          "nominal": 330,
+          "max": 350
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 1592,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1280,
+          "nominal": 1310,
+          "max": 1340
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 150,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 1, N42SH row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N42SH-151021.pdf",
+      "sourceRevision": "020821",
+      "sourceDate": null,
+      "sourceDateStatus": "ambiguous printed code; calendar date unassigned",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 41,
+          "kJPerM3": 330
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 1, N42SH row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The individual sheet quotes 42 MGOe nominal; the historical summary table lists 41 MGOe typical. Nominal and typical are different reported fields, not interchangeable.",
+        "The printed revision code 020821 has an ambiguous date order; no calendar revision date is inferred."
+      ]
+    },
+    {
+      "grade": "N35UH",
+      "label": "N35UH",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "UH",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 33,
+          "nominal": 36,
+          "max": 38
+        },
+        "kJPerM3": {
+          "min": 263,
+          "nominal": 283,
+          "max": 302
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 1990,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1170,
+          "nominal": 1210,
+          "max": 1250
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 180,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 2, N35UH row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N35UH-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 35,
+          "kJPerM3": 283
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 2, N35UH row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The individual sheet quotes 36 MGOe nominal; the historical summary table lists 35 MGOe typical. Nominal and typical are different reported fields, not interchangeable."
+      ]
+    },
+    {
+      "grade": "N42UH",
+      "label": "N42UH",
+      "supplier": "Arnold Magnetic Technologies",
+      "magnetType": "Sintered neodymium–iron–boron (NdFeB)",
+      "suffix": "UH",
+      "energyProduct": {
+        "quantity": "Maximum energy product (BH)max",
+        "MGOe": {
+          "min": 39,
+          "nominal": 42,
+          "max": 44
+        },
+        "kJPerM3": {
+          "min": 310,
+          "nominal": 330,
+          "max": 350
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max",
+        "unitConsistency": "supplier_unit_discrepancy"
+      },
+      "intrinsicCoercivity": {
+        "symbol": "Hcj",
+        "min": 1990,
+        "unit": "kA/m",
+        "basis": "Individual supplier sheet minimum"
+      },
+      "residualInduction": {
+        "symbol": "Br",
+        "mT": {
+          "min": 1270,
+          "nominal": 1310,
+          "max": 1350
+        },
+        "basis": "Individual supplier sheet: printed min / nominal / max"
+      },
+      "maxUseTemperature": {
+        "celsius": 180,
+        "basis": "Historical summary catalog Tw max column, not an individual-sheet limit or a geometry-independent guarantee",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "locator": "PDF page 2, N42UH row, Tw max °C",
+        "scope": "Application temperature, magnetic-circuit load line/permeance coefficient, opposing fields, size/shape and acceptable flux loss must be evaluated; the catalog temperature is not the Curie temperature."
+      },
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/11/N42UH-151021.pdf",
+      "sourceRevision": "210607",
+      "sourceDate": "2021-06-07",
+      "sourceDateStatus": "interpreted from printed YYMMDD revision code; not upload-path date",
+      "sourceLocator": "PDF page 1, Magnetic Properties table (left), min / nominal / max columns; printed revision in footer",
+      "verifiedOn": "2026-10-07",
+      "summaryCatalog": {
+        "energyProductTypical": {
+          "MGOe": 41,
+          "kJPerM3": 330
+        },
+        "basis": "Historical catalog summary: typical, not individual-sheet nominal",
+        "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+        "sourceRevision": "181031",
+        "sourceDate": "2018-10-31",
+        "sourceLocator": "PDF page 2, N42UH row"
+      },
+      "qualityFlags": [
+        "Printed MGOe and kJ/m³ values are not fully consistent under unit conversion; retained exactly as quoted, without correction. Supplier confirmation is needed for an engineering purchase specification.",
+        "The individual sheet quotes 42 MGOe nominal; the historical summary table lists 41 MGOe typical. Nominal and typical are different reported fields, not interchangeable."
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "standard",
+      "suffix": "",
+      "label": "No H-family suffix",
+      "exampleGrades": [
+        "N35",
+        "N38",
+        "N40",
+        "N42",
+        "N48",
+        "N52"
+      ],
+      "explanation": "Compare each individual Hcj value. Even grades in this group do not all have the same coercivity or catalog temperature.",
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+      "sourceLocator": "PDF page 1, basic grade rows"
+    },
+    {
+      "id": "H",
+      "suffix": "H",
+      "label": "H coercivity class",
+      "exampleGrades": [
+        "N35H",
+        "N38H",
+        "N42H"
+      ],
+      "explanation": "These selected sheets specify Hcj ≥ 1,353 kA/m; the catalog lists 120°C for these rows. This describes these supplier examples, not a rule for every manufacturer.",
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+      "sourceLocator": "PDF page 1, H rows"
+    },
+    {
+      "id": "SH",
+      "suffix": "SH",
+      "label": "SH coercivity class",
+      "exampleGrades": [
+        "N35SH",
+        "N42SH"
+      ],
+      "explanation": "These selected sheets specify Hcj ≥ 1,592 kA/m; the catalog lists 150°C for these rows. Temperature capability still depends on the application.",
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+      "sourceLocator": "PDF page 1, SH rows"
+    },
+    {
+      "id": "UH",
+      "suffix": "UH",
+      "label": "UH coercivity class",
+      "exampleGrades": [
+        "N35UH",
+        "N42UH"
+      ],
+      "explanation": "These selected sheets specify Hcj ≥ 1,990 kA/m; the catalog lists 180°C for these rows. A higher class does not identify a unique Dy/Tb recipe.",
+      "sourceUrl": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+      "sourceLocator": "PDF page 2, UH rows"
+    }
+  ],
+  "sources": [
+    {
+      "id": "arnold-summary-catalog",
+      "title": "Arnold NdFeB Summary Product List & Reference Guide",
+      "url": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/Catalog-151021.pdf",
+      "revision": "181031",
+      "documentDate": "2018-10-31",
+      "dateBasis": "YYMMDD footer on summary pages 1–4",
+      "scope": "Historical summary; assembled PDF also contains older individual sheets and later GBD sheets. URL filename is not a single document revision date.",
+      "locator": "PDF pages 1–2: grade rows and Tw maximum-use-temperature column",
+      "verifiedOn": "2026-10-07"
+    },
+    {
+      "id": "arnold-live-product-page",
+      "title": "Arnold Neodymium Iron Boron product page",
+      "url": "https://www.arnoldmagnetics.com/products/neodymium-iron-boron-magnets/",
+      "documentDate": null,
+      "verifiedOn": "2026-10-07",
+      "scope": "Undated live page; source of current direct N35H link and qualitative grade/geometry/GBD explanation. Not substituted for dated individual specifications.",
+      "locator": "Available Neo Grades; Maximum Use Temperature; Grain Boundary Diffusion"
+    },
+    {
+      "id": "arnold-high-temperature-motors",
+      "title": "NdFeB for High Temperature Motor Applications, Steve Constantinides with Dale Gulick",
+      "url": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/NdFeB-for-high-temperature-motor-applications.pdf",
+      "documentDate": "2004-11-03",
+      "dateBasis": "Presentation at SMMA Fall Technical Conference, 3–5 November 2004",
+      "verifiedOn": "2026-10-07",
+      "scope": "Magnet physics and load-line/temperature explanation; not a current commercial grade list.",
+      "locator": "Printed slide 10 (energy product), slides 13–14 (load line), slides 25–29 (temperature/demagnetization)"
+    }
+  ],
+  "caveats": [
+    "The number after N broadly identifies an energy-product class; it does not establish a universal nominal value, pull force, composition, heavy-rare-earth content or application.",
+    "H, SH and UH indicate supplier coercivity classes that are related to thermal demagnetization resistance. Compare exact Hcj values and demagnetization curves rather than relying on suffixes alone.",
+    "Dy/Tb additions or grain-boundary diffusion can increase coercivity; a higher N number does not automatically require more Dy or Tb. Grain-boundary diffusion is a processing strategy, not an ingredient implied by every suffix.",
+    "Catalog temperature limits are application dependent and are separate from the Curie temperature. A datasheet's thermal-coefficient measurement interval is also not automatically a maximum safe operating temperature.",
+    "Copied min/nominal/max markers are printed specification values, not statistical quantiles or a probability distribution.",
+    "Supplier PDFs and live summary tables contain discrepancies. The raw quoted triples, exact source revisions and row-level quality flags are retained; do not silently convert or repair them.",
+    "Nominal in an individual sheet and typical in a summary catalog are distinct reported fields. Do not splice the latter into the former.",
+    "Dates are from printed revision codes. Upload directories and filename suffixes do not reliably identify the present PDF revision.",
+    "This comparison supplies no recipe for any grade and does not add grade-specific composition to the quantitative supply simulation."
+  ],
+  "renderingNotes": [
+    "Plot the individual-sheet MGOe min-to-max interval and nominal marker; label the values quoted and show qualityFlags near a selected grade.",
+    "Show Hcj minimum as a second independent axis or card. Keep catalog temperatures in a separate source-labeled field.",
+    "Offer grouping by no suffix / H / SH / UH. Do not label all thirteen rows as higher number = better.",
+    "Treat kJPerM3 as source-quoted parallel data with discrepancy flags; do not make it a converted toggle claiming numerical equivalence.",
+    "Link every individual sheet and show its printed revision. For N42SH show Rev. 020821 — date ambiguous.",
+    "Never use the superseded N35H /2017/11/ PDF as N35H evidence."
+  ]
+}

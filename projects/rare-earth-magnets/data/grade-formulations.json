@@ -1,0 +1,3086 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-07",
+  "scope": "Illustrative source chemistry is not an Arnold recipe, a guaranteed grade, a factory purchase record, or a finished-magnet cost forecast. Joint NdPr metal, Dy–Fe and ferroboron remain distinct bought products. Composition, processing, geometry and customer qualification must be established separately.",
+  "sources": [
+    {
+      "id": "arnold-grades",
+      "label": "Arnold · NdFeB product and engineering guidance",
+      "url": "https://www.arnoldmagnetics.com/products/neodymium-iron-boron-magnets/",
+      "kind": "primary supplier",
+      "date": "undated; current page retrieved 2026-10-07",
+      "locator": "Supplier property targets, broad applications, GBD constraints; no alloy recipes."
+    },
+    {
+      "id": "arnold-motor",
+      "label": "Arnold · high-temperature motor engineering",
+      "url": "https://www.arnoldmagnetics.com/wp-content/uploads/2017/10/NdFeB-for-high-temperature-motor-applications.pdf",
+      "kind": "primary supplier engineering",
+      "date": "2004-11-03 to 2004-11-05",
+      "locator": "Temperature, opposing field, permeance coefficient/load line and operating point."
+    },
+    {
+      "id": "wu-n35",
+      "label": "Wu et al. · N35 cutting-study specimen",
+      "url": "https://doi.org/10.3390/ma16041521",
+      "kind": "original paper",
+      "date": "2023-02-11",
+      "locator": "Section 2, Table 1"
+    },
+    {
+      "id": "lin-n38",
+      "label": "Lin et al. · two-powder Nd/Ce magnets",
+      "url": "https://doi.org/10.1002/adem.202500054",
+      "kind": "original paper",
+      "date": "2025-05-13",
+      "locator": "Tables 1 and 3; Experimental Section"
+    },
+    {
+      "id": "huang-n40",
+      "label": "Huang et al. · diffusion in commercial N40",
+      "url": "https://doi.org/10.1016/j.jmmm.2025.172788",
+      "kind": "original paper",
+      "date": "2025-03-15",
+      "locator": "Experimental (public primary publisher excerpt)"
+    },
+    {
+      "id": "prokofev-n33u",
+      "label": "Prokofev et al. · separate N42 and N33U starting magnets",
+      "url": "https://doi.org/10.3390/ma13143049",
+      "kind": "original paper",
+      "date": "2020-07-08",
+      "locator": "Section 2; Table 3"
+    },
+    {
+      "id": "patent-n38",
+      "label": "CN121483855A · Ce-containing N38 substrate",
+      "url": "https://patents.google.com/patent/CN121483855A/en",
+      "kind": "primary patent",
+      "date": "2026-02-06",
+      "locator": "Example 4, step 1"
+    },
+    {
+      "id": "raw-inputs-patent",
+      "label": "CN103480836A · metal and master-alloy input forms",
+      "url": "https://patents.google.com/patent/CN103480836A/en",
+      "kind": "primary patent",
+      "date": "2014-01-01",
+      "locator": "Detailed description, fine-powder preparation step 1-1"
+    },
+    {
+      "id": "ds18-n38h",
+      "label": "DS18 · N38H mini-dome tweeter manual",
+      "url": "https://ds18.com/cdn/shop/files/SQT1_SPANGLISH_MANUAL_WEB_V1.pdf?v=10366202051452936887",
+      "kind": "primary product manual",
+      "date": "undated; retrieved 2026-10-07",
+      "locator": "SQT1 mini dome tweeter uses N38H neodymium magnet; no claim that every N38H recipe qualifies."
+    },
+    {
+      "id": "n38h-afpm",
+      "label": "N38H · axial-flux in-wheel motor study",
+      "url": "https://doi.org/10.3390/en14082107",
+      "kind": "original engineering paper",
+      "date": "2021",
+      "locator": "Axial Flux PM In-Wheel Motor for Electric Vehicles: 3D Multiphysics Analysis; Table2 selects N38H."
+    },
+    {
+      "id": "n42sh-motor",
+      "label": "N42SH · free-piston generator linear-motor design",
+      "url": "https://www.mdpi.com/2079-9292/9/4/621",
+      "kind": "original engineering paper",
+      "date": "2020",
+      "locator": "Free-piston engine generator linear motor design selects N42SH."
+    },
+    {
+      "id": "n35h-motor",
+      "label": "N35H · in-wheel EV motor prototype study",
+      "url": "https://www.mdpi.com/2075-1702/14/7/729",
+      "kind": "original engineering paper",
+      "date": "2026",
+      "locator": "Experimental prototype outer-rotor PM-assisted synchronous reluctance motor uses arc N35H for in-wheel EV research."
+    },
+    {
+      "id": "n35uh-motor",
+      "label": "N35UH · motorcycle motor investigation",
+      "url": "https://www.mdpi.com/2071-1050/18/17/8838",
+      "kind": "original engineering paper",
+      "date": "2026",
+      "locator": "Disassembled QS138 V1 motorcycle motor described with N35UH; original investigation/model, not universal use mapping."
+    },
+    {
+      "id": "patent-n42",
+      "label": "CN104821218A · N42 main and auxiliary alloy example",
+      "url": "https://patents.google.com/patent/CN104821218A/en",
+      "kind": "primary patent · reported example",
+      "date": "2015-08-05",
+      "locator": "Claim 1; Example 1; magnetic-property table"
+    },
+    {
+      "id": "patent-n48",
+      "label": "CN103594243B · N48 charge and test table",
+      "url": "https://patents.google.com/patent/CN103594243B/en",
+      "kind": "primary patent · reported example",
+      "date": "2016-03-30",
+      "locator": "Example 1 charge formula; A/B magnetic-property test table"
+    },
+    {
+      "id": "patent-n52-42h-35sh",
+      "label": "CN108281246B · N52, 42H and 35SH charges",
+      "url": "https://patents.google.com/patent/CN108281246B/en",
+      "kind": "primary patent · reported example",
+      "date": "2020-08-25",
+      "locator": "Example 2 / Table 2; Example 4 / Table 4; Comparative Example 1 / Table 5"
+    },
+    {
+      "id": "patent-n35h",
+      "label": "CN121281949A · N35H example",
+      "url": "https://patents.google.com/patent/CN121281949A/en",
+      "kind": "primary patent · reported example",
+      "date": "2026-01-06",
+      "locator": "Example 2; Tables 1 and 2; Claim 4 unit context"
+    },
+    {
+      "id": "patent-n35uh",
+      "label": "EP4322184A1 · N35UH comparative example",
+      "url": "https://patents.google.com/patent/EP4322184A1/en",
+      "kind": "primary patent · reported example",
+      "date": "2024-02-14",
+      "locator": "Comparative Example 2; Table 1; process inherited from Comparative Example 1"
+    },
+    {
+      "id": "patent-n42uh",
+      "label": "CN101629264A · N42UH two-strip mixture",
+      "url": "https://patents.google.com/patent/CN101629264A/en",
+      "kind": "primary patent · reported example",
+      "date": "2010-01-20",
+      "locator": "Example 8; Claim 1 and Tables 1–3"
+    },
+    {
+      "id": "n42sh-solvolysis",
+      "label": "Solvolysis study · industrial-partner N42SH specimen",
+      "url": "https://doi.org/10.1016/j.clce.2026.100220",
+      "kind": "original research · specimen evidence",
+      "date": "2026-02-15 early online; 2026-03 issue",
+      "locator": "Materials and Methods; indexed primary article text, university DOI/date confirmation"
+    },
+    {
+      "id": "huang-n52",
+      "label": "Huang et al. · source-designated N52 diffusion experiment",
+      "url": "https://doi.org/10.3390/ma16083131",
+      "kind": "original paper · separate specimen and surface-treatment example",
+      "date": "2023-04-16",
+      "locator": "Section 2; Table 1; Conclusion"
+    }
+  ],
+  "examples": [
+    {
+      "id": "n35-producer-specimen",
+      "label": "Producer-supplied N35 specimen",
+      "reportedDesignation": "N35",
+      "compositionBasis": "wt%",
+      "composition": [
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "63.54 wt%"
+        },
+        {
+          "label": "Neodymium (Nd)",
+          "chinese": "钕",
+          "valueText": "22.21 wt%"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "8.19 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "2.99 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "1 wt%"
+        },
+        {
+          "label": "Praseodymium (Pr)",
+          "chinese": "镨",
+          "valueText": "0.76 wt%"
+        },
+        {
+          "label": "Gadolinium (Gd)",
+          "chinese": "钆",
+          "valueText": "0.15 wt%"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.09 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.07 wt%"
+        },
+        {
+          "label": "Niobium (Nb)",
+          "chinese": "铌",
+          "valueText": "0.06 wt%"
+        },
+        {
+          "label": "Nickel (Ni)",
+          "chinese": "镍",
+          "valueText": "0.04 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "wt%",
+        "segments": [
+          {
+            "label": "Nd + Pr · sum for tracing",
+            "value": 22.970000000000002,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 63.54,
+            "colorKey": "Fe"
+          },
+          {
+            "label": "Dysprosium (Dy)",
+            "value": 8.19,
+            "colorKey": "Dy"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 2.99,
+            "colorKey": "other"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 1,
+            "colorKey": "B"
+          },
+          {
+            "label": "Gadolinium (Gd)",
+            "value": 0.15,
+            "colorKey": "other"
+          },
+          {
+            "label": "Aluminum (Al)",
+            "value": 0.09,
+            "colorKey": "other"
+          },
+          {
+            "label": "Copper (Cu)",
+            "value": 0.07,
+            "colorKey": "other"
+          },
+          {
+            "label": "Niobium (Nb)",
+            "value": 0.06,
+            "colorKey": "other"
+          },
+          {
+            "label": "Nickel (Ni)",
+            "value": 0.04,
+            "colorKey": "other"
+          }
+        ],
+        "unspecifiedPct": 0.9,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list. Nd and Pr are grouped for tracing only; their source percentages remain in the exact list. Gray is the unreported remainder."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝",
+        "Gd / 钆"
+      ],
+      "feedstocks": [
+        {
+          "label": "Matching Nd/Pr metal blend or elemental Nd/Pr",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Co and listed minor-metal additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Original manufacture",
+          "note": "The paper does not report the original sintering or annealing schedule."
+        },
+        {
+          "label": "What was studied",
+          "note": "Diamond-wire sawing of the supplied N35 magnet; this is a cutting study, not a grade-manufacturing validation."
+        }
+      ],
+      "performance": [],
+      "caveats": [
+        "0.90wt% not accounted for; do not normalize or fill with Fe.",
+        "No Br/Hcj/BHmax validation in paper.",
+        "Dy-rich specimen must not be presented as universal no-suffix N35 recipe.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "wu-n35",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "n38-patent-ce-base",
+      "label": "Patent-reported Ce-containing N38 base",
+      "reportedDesignation": "N38",
+      "compositionBasis": "wt%",
+      "composition": [
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "20.4 wt% · Nd/Pr split undisclosed"
+        },
+        {
+          "label": "Cerium (Ce)",
+          "chinese": "铈",
+          "valueText": "11.7 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "0.98 wt%"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.1 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "0.1 wt%"
+        },
+        {
+          "label": "Zirconium (Zr)",
+          "chinese": "锆",
+          "valueText": "0.36 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.15 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "66.21 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "wt%",
+        "segments": [
+          {
+            "label": "Nd + Pr (combined)",
+            "value": 20.4,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Cerium (Ce)",
+            "value": 11.7,
+            "colorKey": "other"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 0.98,
+            "colorKey": "B"
+          },
+          {
+            "label": "Aluminum (Al)",
+            "value": 0.1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 0.1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Zirconium (Zr)",
+            "value": 0.36,
+            "colorKey": "other"
+          },
+          {
+            "label": "Copper (Cu)",
+            "value": 0.15,
+            "colorKey": "other"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 66.21,
+            "colorKey": "Fe"
+          }
+        ],
+        "unspecifiedPct": 0,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Ce / 铈"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr alloy of source-matching Nd:Pr ratio (ratio unresolved)",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "Ce metal or suitable Ce-bearing alloy",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Al/Co/Zr/Cu additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Make the base",
+          "note": "Strip casting → hydrogen decrepitation → jet milling → magnetic alignment → sintering. Exact base temperatures are not supplied."
+        },
+        {
+          "label": "Separate later treatment",
+          "note": "The patent later coats/diffuses cut 42.5 × 10 × 2 mm pieces. Its conflicting heat sequences are not adopted as a production prescription."
+        }
+      ],
+      "performance": [],
+      "caveats": [
+        "Patent example not independently replicated.",
+        "Nd/Pr split unresolved.",
+        "Conflicting later heat-treatment sequences in patent; avoid prescribing diffusion schedule from it.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n38",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "n40-ce-specimen",
+      "label": "Commercial N40 nominal specimen",
+      "reportedDesignation": "N40",
+      "compositionBasis": "wt%",
+      "composition": [
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "23.77 wt% · Nd/Pr split undisclosed"
+        },
+        {
+          "label": "Cerium (Ce)",
+          "chinese": "铈",
+          "valueText": "5.16 wt%"
+        },
+        {
+          "label": "Gadolinium (Gd)",
+          "chinese": "钆",
+          "valueText": "1.51 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "66.27 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "0.94 wt%"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "0.47 wt%"
+        },
+        {
+          "label": "Grouped minor additions · Al/Co/Ga/Ho",
+          "valueText": "1.88 wt% · calculated balance; individual split unknown"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "wt%",
+        "segments": [
+          {
+            "label": "Nd + Pr (combined)",
+            "value": 23.77,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Cerium (Ce)",
+            "value": 5.16,
+            "colorKey": "other"
+          },
+          {
+            "label": "Gadolinium (Gd)",
+            "value": 1.51,
+            "colorKey": "other"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 66.27,
+            "colorKey": "Fe"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 0.94,
+            "colorKey": "B"
+          },
+          {
+            "label": "Dysprosium (Dy)",
+            "value": 0.47,
+            "colorKey": "Dy"
+          },
+          {
+            "label": "Al/Co/Ga/Ho · grouped balance",
+            "value": 1.88,
+            "colorKey": "other"
+          }
+        ],
+        "unspecifiedPct": 0,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝",
+        "Ce / 铈",
+        "Gd / 钆",
+        "Ho / 钬 · grouped, individual amount unresolved",
+        "Tb / 铽 · separate experimental diffusion source"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr alloy with source-matching ratio (unresolved)",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "Ce and Gd metal/master alloys",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "small DyFe or Dy-metal addition",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "M additives (individual split unresolved)",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "Tb metal or Tb70Cu30 (wt%) · separate surface-treatment source",
+          "note": "The N40 study sputters this onto the cut magnet’s c-planes. It is not part of the listed nominal bulk composition; film dose and retained Tb mass are not inferred."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Original manufacture",
+          "note": "Not disclosed in the public primary-publisher excerpt."
+        },
+        {
+          "label": "Diffusion experiment",
+          "note": "Wire-cut 8 × 8 × 7 mm pieces; sputter Tb or Tb70Cu30 (wt%) on both c-planes. A surface source is separate from the base alloy composition."
+        }
+      ],
+      "performance": [],
+      "caveats": [
+        "Nd/Pr split and minor M split unresolved.",
+        "Public primary excerpt has no complete base Br/Hcj/BHmax.",
+        "Illustrates alternate Ce/Gd-containing N40, not universal Arnold N40.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "huang-n40",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "CN104821218A-example1",
+      "label": "N42 main alloy plus auxiliary addition",
+      "reportedDesignation": "N42",
+      "compositionBasis": "Main and auxiliary formulas are at%; auxiliary addition is 0.3 wt%. Conversion to final mass fractions is a calculation, not a chemical assay.",
+      "composition": [
+        {
+          "label": "Main alloy · Praseodymium (Pr)",
+          "chinese": "镨",
+          "valueText": "3.5 at%"
+        },
+        {
+          "label": "Main alloy · Neodymium (Nd)",
+          "chinese": "钕",
+          "valueText": "9.7 at%"
+        },
+        {
+          "label": "Main alloy · Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "76.8 at%"
+        },
+        {
+          "label": "Main alloy · Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "3.8 at%"
+        },
+        {
+          "label": "Main alloy · Boron (B)",
+          "chinese": "硼",
+          "valueText": "6.2 at%"
+        },
+        {
+          "label": "Auxiliary alloy · Zinc (Zn)",
+          "chinese": "锌",
+          "valueText": "43 at%"
+        },
+        {
+          "label": "Auxiliary alloy · Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "18 at%"
+        },
+        {
+          "label": "Auxiliary alloy · Titanium (Ti)",
+          "chinese": "钛",
+          "valueText": "39 at%"
+        },
+        {
+          "label": "Auxiliary alloy added to main alloy",
+          "valueText": "0.3 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "separate-chips",
+        "basisLabel": "Two atomic-percent formulas + a separate weight-percent addition",
+        "groups": [
+          {
+            "label": "Main alloy",
+            "basis": "at%",
+            "items": [
+              {
+                "label": "Pr",
+                "valueText": "3.5"
+              },
+              {
+                "label": "Nd",
+                "valueText": "9.7"
+              },
+              {
+                "label": "Fe",
+                "valueText": "76.8"
+              },
+              {
+                "label": "Co",
+                "valueText": "3.8"
+              },
+              {
+                "label": "B",
+                "valueText": "6.2"
+              }
+            ]
+          },
+          {
+            "label": "Auxiliary alloy",
+            "basis": "at%",
+            "items": [
+              {
+                "label": "Zn",
+                "valueText": "43"
+              },
+              {
+                "label": "Al",
+                "valueText": "18"
+              },
+              {
+                "label": "Ti",
+                "valueText": "39"
+              }
+            ]
+          }
+        ],
+        "note": "Add 0.3 wt% auxiliary alloy. Atomic percentages describe atom counts; this is not a final wt% strip or an assayed magnet."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr or separate Nd/Pr to match converted target",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Co",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "Zn/Al/Ti auxiliary alloy (at% source formula)",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Cast and powder",
+          "note": "Melt at 1,380°C; cast 0.28 mm strips; hydrogen decrepitation then 2.5–4.5 µm jet-milled powder. Auxiliary powder: 1–3 µm; mix for 3 h."
+        },
+        {
+          "label": "Align and press",
+          "note": "1.9 T alignment; 180 MPa isostatic pressing."
+        },
+        {
+          "label": "Sinter and temper",
+          "note": "1,080°C for 4 h, then 850°C for 2 h and 475°C for 4 h. The 475°C example conflicts with the general 500–600°C range."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br at 20°C",
+          "valueText": "13 kG"
+        },
+        {
+          "label": "Hcj at 20°C",
+          "valueText": "12.6 kOe"
+        },
+        {
+          "label": "(BH)max at 20°C",
+          "valueText": "42 MGOe"
+        },
+        {
+          "label": "Hk / Hcj",
+          "valueText": "97.1%"
+        }
+      ],
+      "caveats": [
+        "Auxiliary example Zn43Al18Ti39 is outside the claim1 ranges Al30–52at% and Ti15–22at%; source is internally inconsistent. Preserve example formula and flag this.",
+        "Example second temper475°C is below the general disclosed500–600°C range.",
+        "Calculated final mixture is not a chemical assay.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n42",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "CN103594243B-example1",
+      "label": "Patent-reported N48 charge · 101% source total",
+      "reportedDesignation": "N48",
+      "compositionBasis": "weight percent; nominal charge formula",
+      "composition": [
+        {
+          "label": "Neodymium (Nd)",
+          "chinese": "钕",
+          "valueText": "31 wt%"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "1 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.2 wt%"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.2 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "1 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "1 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "66.6 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "separate-chips",
+        "basisLabel": "Source-reported charge wt% · total 101.0%",
+        "groups": [
+          {
+            "label": "Reported ingredient entries",
+            "basis": "wt%",
+            "items": [
+              {
+                "label": "Nd",
+                "valueText": "31"
+              },
+              {
+                "label": "Dy",
+                "valueText": "1"
+              },
+              {
+                "label": "Cu",
+                "valueText": "0.2"
+              },
+              {
+                "label": "Al",
+                "valueText": "0.2"
+              },
+              {
+                "label": "Co",
+                "valueText": "1"
+              },
+              {
+                "label": "B",
+                "valueText": "1"
+              },
+              {
+                "label": "Fe",
+                "valueText": "66.6"
+              }
+            ]
+          }
+        ],
+        "note": "The published entries add to 101.0%, not 100%. Fe remains 66.6% as reported; no normalization, repaired Fe balance, or 100 kg manufacturing charge is constructed."
+      },
+      "criticalMetals": [
+        "Nd / 钕",
+        "Dy / 镝"
+      ],
+      "feedstocks": [
+        {
+          "label": "Nd metal",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Cu/Al/Co additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Cast and powder",
+          "note": "0.25–0.5 mm strips; hydrogen decrepitation; jet-milled powder 2–5 µm. The disclosed limits include powder oxygen ≤10 ppm."
+        },
+        {
+          "label": "Align and compact",
+          "note": "Alignment ≥2 T; two pressing stages of 3–5 MPa and 1–3 MPa, with source-specified dwell ranges."
+        },
+        {
+          "label": "Thermal route",
+          "note": "Staged holds at 150–200°C, 300–350°C, 580°C and 800°C; sinter 1,030–1,100°C for 3–6.5 h under ≤3 Pa; controlled cooling. These are patent conditions, not a universal N48 schedule."
+        }
+      ],
+      "performance": [
+        {
+          "label": "A · original method",
+          "valueText": "Br 13.8 kGs · Hcj 12.5 kOe · (BH)max 47 MGOe"
+        },
+        {
+          "label": "B · patent method",
+          "valueText": "Br 13.8 kGs · Hcj 13.0 kOe · (BH)max 47 MGOe"
+        }
+      ],
+      "caveats": [
+        "The source entries total 101.0 wt%; the reported Fe66.6 entry is not repaired or normalized.",
+        "The patent A/B test table reports numerical magnetic properties; these are patent claims, not independent replication or Arnold certification.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n48",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "CN108281246B-example-2",
+      "label": "Patent-reported N52 charge",
+      "reportedDesignation": "N52",
+      "compositionBasis": "Nominal charge wt%; source PrNd 30.1 at Pr:Nd 20:80. Elemental expansion is Nd 24.08 + Pr 6.02 wt%, an alternative representation. Fe balance is calculated charge accounting, not assay.",
+      "composition": [
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "30.1 wt% · Pr:Nd 20:80"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "67.13 wt% · calculated balance"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.06 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.6 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "1 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "0.99 wt%"
+        },
+        {
+          "label": "Zirconium (Zr)",
+          "chinese": "锆",
+          "valueText": "0.05 wt%"
+        },
+        {
+          "label": "Hafnium (Hf)",
+          "chinese": "铪",
+          "valueText": "0.07 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "Nominal charge wt% · calculated Fe balance",
+        "segments": [
+          {
+            "label": "Nd + Pr (combined)",
+            "value": 30.1,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 67.13,
+            "colorKey": "Fe"
+          },
+          {
+            "label": "Aluminum (Al)",
+            "value": 0.06,
+            "colorKey": "other"
+          },
+          {
+            "label": "Copper (Cu)",
+            "value": 0.6,
+            "colorKey": "other"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 0.99,
+            "colorKey": "B"
+          },
+          {
+            "label": "Zirconium (Zr)",
+            "value": 0.05,
+            "colorKey": "other"
+          },
+          {
+            "label": "Hafnium (Hf)",
+            "value": 0.07,
+            "colorKey": "other"
+          }
+        ],
+        "unspecifiedPct": 0,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr alloy plus supplemental Nd to match source20Pr:80Nd ratio",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Al/Cu/Co/Zr/Hf additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses.",
+        "A separate ideal 100 kg mass-balance illustration uses nominal pure NdPr75:25 24.08 kg + Nd 6.02 kg + FeB20 4.95 kg + pure Fe 63.17 kg plus the stated minor metals; FeB contributes 3.96 kg Fe. It excludes impurities and all process losses and is not a manufacturing recipe."
+      ],
+      "process": [
+        {
+          "label": "Cast and powder",
+          "note": "Melt at 1,465°C; 0.28 mm strip. Absorb hydrogen for 1 h, dehydrogenate at 600°C for 5 h, then jet mill to about 3.4 µm powder."
+        },
+        {
+          "label": "Align and press",
+          "note": "1.75 T alignment in a sealed oxygen-free glovebox; 200 MPa cold isostatic pressing."
+        },
+        {
+          "label": "Sinter and age",
+          "note": "1,050°C for 6 h; age at 910°C for 2 h and 515°C for 5 h."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br",
+          "valueText": "14.35 kG"
+        },
+        {
+          "label": "Hcj",
+          "valueText": "14.15 kOe"
+        },
+        {
+          "label": "(BH)max",
+          "valueText": "51.98 MGOe"
+        }
+      ],
+      "caveats": [
+        "Some reported Br/BHmax pairs are slightly above the usual ideal Br²/(4mu0) energy-product bound assuming recoil permeability1. Preserve reported values but do not portray them as validated manufacturing recipes.",
+        "Not an Arnold supplier composition or production guarantee.",
+        "No Dy/Tb is listed in this charge; that does not establish an assay of zero heavy rare earths or a universal grade requirement.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature.",
+        "A separate Huang 2023 paper calls its base “N52” but measures 338.94 kJ/m³ (about 42.6 MGOe), below this card’s 49 MGOe minimum. That specimen and its Tb-rich surface film are not assigned as this N52 formulation; film at% is not bulk magnet wt%."
+      ],
+      "sourceIds": [
+        "patent-n52-42h-35sh",
+        "raw-inputs-patent",
+        "huang-n52"
+      ]
+    },
+    {
+      "id": "CN121281949A-example2",
+      "label": "Patent-reported N35H example · unresolved remainder",
+      "reportedDesignation": "N35H",
+      "compositionBasis": "Nominal charge wt%: PrNd 18% at Pr:Nd 25:75 equals calculated Nd 13.5% + Pr 4.5%; these are alternative representations, not additional masses. The 71.25% remainder is not explicitly Fe.",
+      "composition": [
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "0.85 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.1 wt%"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.5 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "0.5 wt%"
+        },
+        {
+          "label": "Gallium (Ga)",
+          "chinese": "镓",
+          "valueText": "0.1 wt%"
+        },
+        {
+          "label": "Holmium (Ho)",
+          "chinese": "钬",
+          "valueText": "0.5 wt%"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "0.2 wt%"
+        },
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "18 wt% · Pr:Nd 25:75"
+        },
+        {
+          "label": "Cerium (Ce)",
+          "chinese": "铈",
+          "valueText": "8 wt%"
+        },
+        {
+          "label": "Unresolved remainder",
+          "valueText": "71.25 wt% · element assignment not reported"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "Reported nominal charge wt% · 71.25% unresolved",
+        "segments": [
+          {
+            "label": "Boron (B)",
+            "value": 0.85,
+            "colorKey": "B"
+          },
+          {
+            "label": "Copper (Cu)",
+            "value": 0.1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Aluminum (Al)",
+            "value": 0.5,
+            "colorKey": "other"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 0.5,
+            "colorKey": "other"
+          },
+          {
+            "label": "Gallium (Ga)",
+            "value": 0.1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Holmium (Ho)",
+            "value": 0.5,
+            "colorKey": "other"
+          },
+          {
+            "label": "Dysprosium (Dy)",
+            "value": 0.2,
+            "colorKey": "Dy"
+          },
+          {
+            "label": "Nd + Pr (combined)",
+            "value": 18,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Cerium (Ce)",
+            "value": 8,
+            "colorKey": "other"
+          }
+        ],
+        "unspecifiedPct": 71.25,
+        "note": "The gray 71.25% is unresolved. It is not colored as Fe or filled with an assumed element."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝",
+        "Ce / 铈",
+        "Ho / 钬"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr75:25",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "Ce metal",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "Ho metal or suitable alloy",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "Pure iron (Fe) · amount unresolved",
+          "note": "The source does not explicitly identify its 71.25% remainder as Fe; an exact iron charge cannot be calculated from this table."
+        },
+        {
+          "label": "Cu/Al/Co/Ga additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Melt and powder",
+          "note": "Disclosed melting range 1,400–1,500°C; hydrogen decrepitation and jet milling. Exact powder size and alignment field are not reported."
+        },
+        {
+          "label": "Form and sinter",
+          "note": "Forming oxygen ≤100 ppm; sinter 1,065–1,085°C. Exact sintering duration is not reported."
+        },
+        {
+          "label": "Temper",
+          "note": "First temper 850–950°C; Example 2 second temper 520°C. Composition and tempering differ across examples, so their effects cannot be isolated from this comparison."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br",
+          "valueText": "12.12 · inferred kG"
+        },
+        {
+          "label": "Hcj",
+          "valueText": "18.03 · inferred kOe"
+        },
+        {
+          "label": "(BH)max",
+          "valueText": "35.26 · inferred MGOe"
+        },
+        {
+          "label": "Hk / Hcj",
+          "valueText": "94.5 · inferred %"
+        }
+      ],
+      "caveats": [
+        "Fe is not explicitly reported as balance in Table1 or Claim1. Any remainder assigned to Fe is an inference and must not be presented as an exact reported Fe content.",
+        "Table2 omits units; kG/kOe/MGOe are inferred from Claim4 and stated magnetic-performance thresholds.",
+        "Table2 uses example numbering1–3 and varies second temper500/520/540°C, while Table1 also varies composition1–3; the observed effect cannot unambiguously be assigned solely to tempering temperature.",
+        "Conclusion describes Ce up to9 wt% but Table1 examples list8,9,10 wt%.",
+        "Examples1/3 do not all satisfy the stated BHmax≥33 MGOe threshold; Example1 hasBr11.9kG andBHmax32.42.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n35h",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "lin-AP2-two-powder",
+      "label": "Measured AP2 two-powder magnet · H-family illustration",
+      "reportedDesignation": "AP2 two-powder magnet; authors do not designate it N38H",
+      "compositionBasis": "wt%, measured bulk Table3",
+      "composition": [
+        {
+          "label": "Neodymium (Nd)",
+          "chinese": "钕",
+          "valueText": "15.2 wt%"
+        },
+        {
+          "label": "Praseodymium (Pr)",
+          "chinese": "镨",
+          "valueText": "5.5 wt%"
+        },
+        {
+          "label": "Cerium (Ce)",
+          "chinese": "铈",
+          "valueText": "6.8 wt%"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "2.9 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "0.59 wt%"
+        },
+        {
+          "label": "Grouped minor additions · Al/Cu/Ga",
+          "valueText": "0.58 wt% · individual split unknown"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "0.95 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "67.48 wt% · calculated source balance"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "wt%, measured bulk Table3",
+        "segments": [
+          {
+            "label": "Nd + Pr · sum for tracing",
+            "value": 20.7,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Cerium (Ce)",
+            "value": 6.8,
+            "colorKey": "other"
+          },
+          {
+            "label": "Dysprosium (Dy)",
+            "value": 2.9,
+            "colorKey": "Dy"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 0.59,
+            "colorKey": "other"
+          },
+          {
+            "label": "Al/Cu/Ga · grouped",
+            "value": 0.58,
+            "colorKey": "other"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 0.95,
+            "colorKey": "B"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 67.48,
+            "colorKey": "Fe"
+          }
+        ],
+        "unspecifiedPct": 0,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list. Nd and Pr are grouped for tracing only; their source percentages remain in the exact list."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝",
+        "Ce / 铈"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr of measured target ratio plus supplemental Nd/Pr as needed",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "Ce metal/master alloy",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Co/Al/Cu/Ga additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Mix two powder populations",
+          "note": "70 wt% main powder + 30 wt% Dy-rich AP2 powder. D50 powder sizes: 3.9 µm main / 2.6 µm AP2."
+        },
+        {
+          "label": "Align and heat-treat",
+          "note": "2.6 T transverse pressing; vacuum sinter 1,020–1,060°C; anneal at 900°C then 500°C, with water quenching. Hold times are not supplied in this excerpt."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br",
+          "valueText": "1.25 T"
+        },
+        {
+          "label": "Coercivity · source label Hc",
+          "valueText": "1,362 kA/m"
+        },
+        {
+          "label": "(BH)max",
+          "valueText": "295 kJ/m³"
+        }
+      ],
+      "caveats": [
+        "Fe balance calculated; minor Al/Cu/Ga split unresolved.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "lin-n38",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "CN108281246B-comparative-example1",
+      "label": "Patent-reported 42H comparative charge",
+      "reportedDesignation": "42H",
+      "compositionBasis": "Nominal charge wt%; source PrNd 30.6 at Pr:Nd 20:80. Elemental expansion is Nd 24.48 + Pr 6.12 wt%, an alternative representation. Fe balance is calculated charge accounting, not assay.",
+      "composition": [
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "30.6 wt% · Pr:Nd 20:80"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.55 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.3 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "1.5 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "0.98 wt%"
+        },
+        {
+          "label": "Zirconium (Zr)",
+          "chinese": "锆",
+          "valueText": "0.09 wt%"
+        },
+        {
+          "label": "Hafnium (Hf)",
+          "chinese": "铪",
+          "valueText": "0.06 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "65.92 wt% · calculated balance"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "Nominal charge wt% · calculated Fe balance",
+        "segments": [
+          {
+            "label": "Nd + Pr (combined)",
+            "value": 30.6,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Aluminum (Al)",
+            "value": 0.55,
+            "colorKey": "other"
+          },
+          {
+            "label": "Copper (Cu)",
+            "value": 0.3,
+            "colorKey": "other"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 1.5,
+            "colorKey": "other"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 0.98,
+            "colorKey": "B"
+          },
+          {
+            "label": "Zirconium (Zr)",
+            "value": 0.09,
+            "colorKey": "other"
+          },
+          {
+            "label": "Hafnium (Hf)",
+            "value": 0.06,
+            "colorKey": "other"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 65.92,
+            "colorKey": "Fe"
+          }
+        ],
+        "unspecifiedPct": 0,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr alloy plus supplemental Nd to match20Pr:80Nd",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Al/Cu/Co/Zr/Hf additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Exact comparative process",
+          "note": "Not independently specified for this 42H comparative charge. The neighboring N52/35SH examples have schedules, but those schedules are not assigned to this specimen."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br",
+          "valueText": "13.15 kG"
+        },
+        {
+          "label": "Hcj",
+          "valueText": "18.03 kOe"
+        },
+        {
+          "label": "(BH)max",
+          "valueText": "42.56 MGOe"
+        }
+      ],
+      "caveats": [
+        "Comparative Example1 does not specify an independent exact process schedule; do not copy the clean Example2/4 schedules without marking them as illustrative.",
+        "PrNd expansion and balance accounting, not chemical assay.",
+        "No listed Dy/Tb does not prove an assay of zero heavy rare earths.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n52-42h-35sh",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "CN108281246B-example-4",
+      "label": "Patent-reported 35SH charge",
+      "reportedDesignation": "35SH",
+      "compositionBasis": "Nominal charge wt%; source PrNd 30.3 at Pr:Nd 20:80. Elemental expansion is Nd 24.24 + Pr 6.06 wt%, an alternative representation. Fe balance is calculated charge accounting, not assay.",
+      "composition": [
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "30.3 wt% · Pr:Nd 20:80"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "1.8 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "64.87 wt% · calculated balance"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.1 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.3 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "1.5 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "1.02 wt%"
+        },
+        {
+          "label": "Zirconium (Zr)",
+          "chinese": "锆",
+          "valueText": "0.05 wt%"
+        },
+        {
+          "label": "Hafnium (Hf)",
+          "chinese": "铪",
+          "valueText": "0.06 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "Nominal charge wt% · calculated Fe balance",
+        "segments": [
+          {
+            "label": "Nd + Pr (combined)",
+            "value": 30.3,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Dysprosium (Dy)",
+            "value": 1.8,
+            "colorKey": "Dy"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 64.87,
+            "colorKey": "Fe"
+          },
+          {
+            "label": "Aluminum (Al)",
+            "value": 0.1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Copper (Cu)",
+            "value": 0.3,
+            "colorKey": "other"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 1.5,
+            "colorKey": "other"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 1.02,
+            "colorKey": "B"
+          },
+          {
+            "label": "Zirconium (Zr)",
+            "value": 0.05,
+            "colorKey": "other"
+          },
+          {
+            "label": "Hafnium (Hf)",
+            "value": 0.06,
+            "colorKey": "other"
+          }
+        ],
+        "unspecifiedPct": 0,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr alloy plus supplemental Nd to match20Pr:80Nd",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Al/Cu/Co/Zr/Hf additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Cast and powder",
+          "note": "Melt at 1,458°C; 0.29 mm strip. Absorb hydrogen for 1 h, dehydrogenate at 600°C for 5 h, then jet mill to about 3.4 µm powder."
+        },
+        {
+          "label": "Align and press",
+          "note": "1.77 T alignment in a sealed oxygen-free glovebox; 200 MPa cold isostatic pressing."
+        },
+        {
+          "label": "Sinter and age",
+          "note": "1,050°C for 6 h; age at 910°C for 2 h and 515°C for 5 h."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br",
+          "valueText": "12.10 kG"
+        },
+        {
+          "label": "Hcj",
+          "valueText": "21.88 kOe"
+        },
+        {
+          "label": "(BH)max",
+          "valueText": "37.36 MGOe"
+        }
+      ],
+      "caveats": [
+        "Some reported Br/BHmax pairs are slightly above the usual ideal Br²/(4mu0) energy-product bound assuming recoil permeability1. Preserve reported values but do not portray them as validated manufacturing recipes.",
+        "Not an Arnold supplier composition or production guarantee.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n52-42h-35sh",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "clce2026-N42SH-specimen",
+      "label": "Industrial-partner N42SH specimen",
+      "reportedDesignation": "N42SH",
+      "compositionBasis": "Explicit weight percent",
+      "composition": [
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "26 wt% · Nd/Pr split undisclosed"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "3.5 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "66 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "0.8 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "1 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.1 wt%"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.3 wt%"
+        },
+        {
+          "label": "Gallium (Ga)",
+          "chinese": "镓",
+          "valueText": "0.1 wt%"
+        },
+        {
+          "label": "Terbium (Tb)",
+          "chinese": "铽",
+          "valueText": "0.3 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "mass-strip",
+        "basisLabel": "Explicit weight percent",
+        "segments": [
+          {
+            "label": "Nd + Pr (combined)",
+            "value": 26,
+            "colorKey": "NdPr"
+          },
+          {
+            "label": "Dysprosium (Dy)",
+            "value": 3.5,
+            "colorKey": "Dy"
+          },
+          {
+            "label": "Iron (Fe)",
+            "value": 66,
+            "colorKey": "Fe"
+          },
+          {
+            "label": "Cobalt (Co)",
+            "value": 0.8,
+            "colorKey": "other"
+          },
+          {
+            "label": "Boron (B)",
+            "value": 1,
+            "colorKey": "B"
+          },
+          {
+            "label": "Copper (Cu)",
+            "value": 0.1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Aluminum (Al)",
+            "value": 0.3,
+            "colorKey": "other"
+          },
+          {
+            "label": "Gallium (Ga)",
+            "value": 0.1,
+            "colorKey": "other"
+          },
+          {
+            "label": "Terbium (Tb)",
+            "value": 0.3,
+            "colorKey": "Tb"
+          }
+        ],
+        "unspecifiedPct": 1.9,
+        "note": "Widths use the reported numbers on a fixed 100% scale; no normalization. Minor additions remain available in the exact-value list. Gray is the unreported remainder."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝",
+        "Tb / 铽"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr matching unknown Nd:Pr split",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "Tb source (original bulk/diffusion history unresolved)",
+          "note": "The source lists Tb but does not reveal whether it entered through bulk alloying, a master alloy, or grain-boundary diffusion. Do not invent the purchased Tb form or dose."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Co/Cu/Al/Ga; missing1.9wt% must be resolved",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Original manufacture",
+          "note": "The study does not disclose the original alloying, sintering, diffusion or annealing schedule."
+        },
+        {
+          "label": "What was studied",
+          "note": "Epoxy-coating removal: isopropanol solvolysis at 175°C for 20 min. This is a recycling treatment, not the initial magnet-production process."
+        }
+      ],
+      "performance": [],
+      "caveats": [
+        "Source proportions sum 98.1 wt%; do not normalize or fill the missing 1.9 wt% silently.",
+        "Nd/Pr split is not disclosed.",
+        "This extraction uses indexed primary article Materials and Methods text; publisher page direct-open failed, university metadata confirms DOI/date.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "n42sh-solvolysis",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "EP4322184A1-comparative-example2",
+      "label": "Patent-reported N35UH comparative example",
+      "reportedDesignation": "N35UH",
+      "compositionBasis": "Weight-percent convention is interpreted; the formula does not print wt% or at%. PrNd 27 at Pr:Nd 25:75 would equal Nd 20.25 + Pr 6.75 under that mass interpretation, not a post-sintering assay.",
+      "composition": [
+        {
+          "label": "Nd + Pr (combined)",
+          "chinese": "镨钕",
+          "valueText": "27 wt% · Pr:Nd 25:75"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "4 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "65.33 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "0.91 wt%"
+        },
+        {
+          "label": "Cobalt (Co)",
+          "chinese": "钴",
+          "valueText": "1 wt%"
+        },
+        {
+          "label": "Aluminum (Al)",
+          "chinese": "铝",
+          "valueText": "0.8 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.4 wt%"
+        },
+        {
+          "label": "Gallium (Ga)",
+          "chinese": "镓",
+          "valueText": "0.4 wt%"
+        },
+        {
+          "label": "Titanium (Ti)",
+          "chinese": "钛",
+          "valueText": "0.16 wt%"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "separate-chips",
+        "basisLabel": "Source numerical charge · mass-basis interpretation is unprinted",
+        "groups": [
+          {
+            "label": "Reported formula values",
+            "basis": "interpreted wt%",
+            "items": [
+              {
+                "label": "NdPr",
+                "valueText": "27"
+              },
+              {
+                "label": "Dy",
+                "valueText": "4"
+              },
+              {
+                "label": "Fe",
+                "valueText": "65.33"
+              },
+              {
+                "label": "B",
+                "valueText": "0.91"
+              },
+              {
+                "label": "Co",
+                "valueText": "1"
+              },
+              {
+                "label": "Al",
+                "valueText": "0.8"
+              },
+              {
+                "label": "Cu",
+                "valueText": "0.4"
+              },
+              {
+                "label": "Ga",
+                "valueText": "0.4"
+              },
+              {
+                "label": "Ti",
+                "valueText": "0.16"
+              }
+            ]
+          }
+        ],
+        "note": "The numbers sum to 100 under the weight interpretation, but the source formula does not explicitly print the basis. No final mass strip or actual charging plan is inferred."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr75:25",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Al/Co/Cu/Ga/Ti additions",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Cast and powder",
+          "note": "Inherited from Comparative Example 1: melt at 1,500°C; cast 0.2–0.4 mm strips; jet-milled mean particle size 3.2 µm."
+        },
+        {
+          "label": "Press",
+          "note": "Forming oxygen ≤0.01%; 180 MPa isostatic pressing for 120 s. Exact alignment field is not specified."
+        },
+        {
+          "label": "Sinter and temper",
+          "note": "Vacuum ≤0.05 Pa; 1,075°C for 4.5 h; temper at 920°C for 2 h and 520°C for 5 h."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br",
+          "valueText": "11.96 kG"
+        },
+        {
+          "label": "Hcj",
+          "valueText": "26.34 kOe"
+        },
+        {
+          "label": "(BH)max",
+          "valueText": "34.21 MGOe"
+        }
+      ],
+      "caveats": [
+        "Interpreted weight-percent convention; the comparative-example formula does not explicitly print wt% or at%. Keep this limitation.",
+        "Mass interpretation and PrNd expansion, not post-sintering assay.",
+        "Not a supplier certification.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n35uh",
+        "raw-inputs-patent"
+      ]
+    },
+    {
+      "id": "CN101629264A-example8",
+      "label": "Patent-reported N42UH mixture · conflicting Cu entries",
+      "reportedDesignation": "N42UH",
+      "compositionBasis": "wt%, calculated two-strip mixture, not chemical assay. Cu differs between Claim 1 and Table 2.",
+      "composition": [
+        {
+          "label": "Neodymium (Nd)",
+          "chinese": "钕",
+          "valueText": "26.75 wt%"
+        },
+        {
+          "label": "Praseodymium (Pr)",
+          "chinese": "镨",
+          "valueText": "2.25 wt%"
+        },
+        {
+          "label": "Iron (Fe)",
+          "chinese": "铁",
+          "valueText": "66.825 wt%"
+        },
+        {
+          "label": "Boron (B)",
+          "chinese": "硼",
+          "valueText": "1.075 wt%"
+        },
+        {
+          "label": "Dysprosium (Dy)",
+          "chinese": "镝",
+          "valueText": "3 wt%"
+        },
+        {
+          "label": "Copper (Cu)",
+          "chinese": "铜",
+          "valueText": "0.100 wt% (claim branch) / 0.125 wt% (Table 2 branch)"
+        }
+      ],
+      "compositionGraphic": {
+        "mode": "separate-chips",
+        "basisLabel": "Calculated 75% SC02 + 25% SC03 mixture · source conflict retained",
+        "groups": [
+          {
+            "label": "Shared calculated components",
+            "basis": "wt%",
+            "items": [
+              {
+                "label": "Nd",
+                "valueText": "26.75"
+              },
+              {
+                "label": "Pr",
+                "valueText": "2.25"
+              },
+              {
+                "label": "Fe",
+                "valueText": "66.825"
+              },
+              {
+                "label": "B",
+                "valueText": "1.075"
+              },
+              {
+                "label": "Dy",
+                "valueText": "3"
+              }
+            ]
+          },
+          {
+            "label": "Alternative Cu entries",
+            "basis": "wt%",
+            "items": [
+              {
+                "label": "Claim branch Cu",
+                "valueText": "0.100"
+              },
+              {
+                "label": "Table branch Cu",
+                "valueText": "0.125"
+              }
+            ]
+          }
+        ],
+        "note": "Claim branch totals 100%; table branch totals 100.025%. The two Cu entries are alternatives, not additive. Neither branch is silently normalized or selected as a validated recipe."
+      },
+      "criticalMetals": [
+        "Nd + Pr / 镨钕",
+        "Dy / 镝"
+      ],
+      "feedstocks": [
+        {
+          "label": "NdPr plus supplemental Nd to match stated ratio",
+          "note": "Keep Nd and Pr together when tracing a bought NdPr-metal product. Match the actual Nd:Pr ratio and purity to the target; use supplemental metal only if needed. This is a possible charge form, not the source factory’s purchasing record."
+        },
+        {
+          "label": "DyFe or Dy metal",
+          "note": "Dy–Fe (镝铁) is a master alloy, not pure Dy. Its whole-product Dy assay sets the purchased mass; its carrier Fe must be subtracted from separate iron."
+        },
+        {
+          "label": "FeB",
+          "note": "Ferroboron (硼铁) supplies B and carrier Fe. Use the certified B assay and impurity limits; deduct its Fe from separate iron. Boron (B, 硼) is not terbium (Tb, 铽)."
+        },
+        {
+          "label": "pure Fe",
+          "note": "Add only the remaining iron after accounting for Fe carried by every master alloy."
+        },
+        {
+          "label": "Cu addition (source conflict)",
+          "note": "Potential metal/master-alloy inputs only. Verify each product’s composition, impurities and element-retention behavior; unresolved grouped additions cannot be split into invented purchase amounts."
+        }
+      ],
+      "balanceNotes": [
+        "Source alloy/charge percentages and purchased-feedstock masses are different quantities. Count carrier iron from Dy–Fe, FeB and any other Fe-bearing master alloy once; then reduce the separate iron input.",
+        "No actual assays, element-specific losses or finished-magnet yield are inferred here. Oxide prices or oxide masses do not directly replace metal/master-alloy purchase prices or masses."
+      ],
+      "process": [
+        {
+          "label": "Mix two strip chemistries",
+          "note": "75 wt% SC02 + 25 wt% SC03; the conflicting SC03 Cu entry produces two alternative calculated mixtures."
+        },
+        {
+          "label": "Powder and align",
+          "note": "Hydrogen decrepitation at 350°C for 30 min; jet milling under high-purity nitrogen; perpendicular-field forming. Powder size and field strength are not given."
+        },
+        {
+          "label": "Sinter and heat-treat",
+          "note": "Patent reports 1,180°C for 2 h under nitrogen, then 900°C for 1 h and 650°C for 2 h. Preserve the reported schedule; no independent replication is established."
+        }
+      ],
+      "performance": [
+        {
+          "label": "Br",
+          "valueText": "1.26 T"
+        },
+        {
+          "label": "Hcj",
+          "valueText": "1,910 kA/m · below this card’s 1,990 kA/m minimum"
+        },
+        {
+          "label": "Hcb",
+          "valueText": "900 kA/m"
+        },
+        {
+          "label": "(BH)max",
+          "valueText": "330 kJ/m³"
+        },
+        {
+          "label": "Curie temperature Tc",
+          "valueText": "335°C · not an operating limit"
+        }
+      ],
+      "caveats": [
+        "Claim1 and Table2 conflict on SC03 Cu; both branches retained; cannot silently resolve.",
+        "Reported Hcj1910kA/m < Arnold N42UH minimum1990.",
+        "Reported Br/BHmax pair fails approximate ideal energy-product sanity check; independent verification required.",
+        "Powder diameter is not finished grain size. The reported example and process do not guarantee this Arnold property card or a safe motor operating temperature."
+      ],
+      "sourceIds": [
+        "patent-n42uh",
+        "raw-inputs-patent"
+      ]
+    }
+  ],
+  "grades": [
+    {
+      "grade": "N35",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The source names N35, but this unusual Dy-rich, incomplete specimen has no magnetic-property validation in the cutting paper.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "n35-producer-specimen",
+          "relationship": "Published specimen · 文献示例",
+          "note": "The source names N35, but this unusual Dy-rich, incomplete specimen has no magnetic-property validation in the cutting paper."
+        }
+      ],
+      "application": {
+        "summary": "Sensors, switches, loudspeakers, magnetic separation at modest operating temperature.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "NdFeB family applications; assignment to this grade is illustrative.",
+        "sourceIds": [
+          "arnold-grades"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Gd, Co, Nb or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N38",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent names the base N38. Its Nd/Pr split is undisclosed; the example is not independently replicated.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "n38-patent-ce-base",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent names the base N38. Its Nd/Pr split is undisclosed; the example is not independently replicated."
+        }
+      ],
+      "application": {
+        "summary": "Sensors, switches, loudspeakers and modest-temperature small motors when more energy density is useful.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Family selection inference, not an exclusive grade use.",
+        "sourceIds": [
+          "arnold-grades"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Ce, Co, Zr or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N40",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The paper names the commercial material N40. Its grouped Nd/Pr and minor additions are not fully resolved.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "n40-ce-specimen",
+          "relationship": "Published specimen · 文献示例",
+          "note": "The paper names the commercial material N40. Its grouped Nd/Pr and minor additions are not fully resolved."
+        }
+      ],
+      "application": {
+        "summary": "Compact sensors, loudspeakers, separator assemblies and modest-temperature motors.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Family selection inference.",
+        "sourceIds": [
+          "arnold-grades"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Ce, Gd, Ho, Co, Ga or unresolved grouped additions. Tb belongs to the separate diffusion experiment, not the listed base alloy; no treatment consumption or cost is estimated.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Tb metal · separate diffusion-source price context",
+          "material": "Tb",
+          "view": "tb-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne metal, assay/tax/delivery unstated. This is not a Tb70Cu30 film quote; treatment dose and uptake are unknown."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N42",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent names N42. Main/auxiliary atom-count formulas and the 0.3 wt% addition remain separate.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "CN104821218A-example1",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent names N42. Main/auxiliary atom-count formulas and the 0.3 wt% addition remain separate."
+        }
+      ],
+      "application": {
+        "summary": "Compact sensors, switches, loudspeakers and modest-temperature motors.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Family selection inference; real N42 electronics source documented in Prokofev.",
+        "sourceIds": [
+          "arnold-grades",
+          "prokofev-n33u"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Co or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N48",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent names N48 and reports A/B magnetic tests, but its ingredient entries total 101.0 wt%.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "CN103594243B-example1",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent names N48 and reports A/B magnetic tests, but its ingredient entries total 101.0 wt%."
+        }
+      ],
+      "application": {
+        "summary": "Compact loudspeakers, sensors or high-performance motors with managed magnet temperature.",
+        "considerations": [
+          "Higher energy density may help where magnet volume is constrained; it does not by itself establish torque, pull force, reliability or tolerance to heat.",
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Family selection inference, not a universal motor prescription.",
+        "sourceIds": [
+          "arnold-grades"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Co or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Nd metal · historical market evidence",
+          "material": "Nd",
+          "view": "nd-market-2015",
+          "panel": "market",
+          "basis": "China annual market reference, 2015–2020; CNY/tonne metal. Assay, tax and delivery not disclosed; not a current factory quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Twenty-year upstream Nd history",
+          "material": "Nd",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N52",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent names this charge N52 and reports its properties; it does not disclose Arnold’s formulation.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "CN108281246B-example-2",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent names this charge N52 and reports its properties; it does not disclose Arnold’s formulation."
+        }
+      ],
+      "application": {
+        "summary": "Volume-constrained sensors, switches, loudspeakers or motors with managed temperature.",
+        "considerations": [
+          "Higher energy density may help where magnet volume is constrained; it does not by itself establish torque, pull force, reliability or tolerance to heat.",
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Family selection inference; Arnold lists60C maximum-use entry for this grade.",
+        "sourceIds": [
+          "arnold-grades"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Co, Zr, Hf or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N35H",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent names N35H, but the missing 71.25% is not explicitly assigned to Fe.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "CN121281949A-example2",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent names N35H, but the missing 71.25% is not explicitly assigned to Fe."
+        }
+      ],
+      "application": {
+        "summary": "Arc magnets for PM-assisted EV motor research; warmer small motor and actuator candidates.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Specific prototype use plus family inference.",
+        "sourceIds": [
+          "n35h-motor",
+          "arnold-motor"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Ce, Ho, Co, Ga or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N38H",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. This AP2 composition is an H-family teaching comparison. The authors do not call it N38H; it is not an exact N38H recipe.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "lin-AP2-two-powder",
+          "relationship": "Family illustration · 同系列示意",
+          "note": "This AP2 composition is an H-family teaching comparison. The authors do not call it N38H; it is not an exact N38H recipe."
+        }
+      ],
+      "application": {
+        "summary": "Mini dome tweeter magnets; axial-flux in-wheel EV motor research.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Specific primary product manual and engineering study.",
+        "sourceIds": [
+          "ds18-n38h",
+          "n38h-afpm"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Ce, Co, Ga or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N42H",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent writes 42H. Its comparative charge has no listed Dy/Tb, and the exact comparative process is not specified.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "CN108281246B-comparative-example1",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent writes 42H. Its comparative charge has no listed Dy/Tb, and the exact comparative process is not specified."
+        }
+      ],
+      "application": {
+        "summary": "Warmer compact motor, actuator and generator candidates needing higher remanence than lower H numbers.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Family selection inference; no exclusive named-grade application asserted.",
+        "sourceIds": [
+          "arnold-grades",
+          "arnold-motor"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Co, Zr, Hf or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N35SH",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent writes 35SH; the N prefix is added here only to match the site’s naming convention.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "CN108281246B-example-4",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent writes 35SH; the N prefix is added here only to match the site’s naming convention."
+        }
+      ],
+      "application": {
+        "summary": "Motor, actuator and generator candidates facing stronger thermal/demagnetizing stress.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "SH-family selection inference.",
+        "sourceIds": [
+          "arnold-grades",
+          "arnold-motor"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Co, Zr, Hf or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N42SH",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The source names the industrial specimen N42SH, but 1.9 wt% is missing and its original manufacturing route is unknown.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "clce2026-N42SH-specimen",
+          "relationship": "Published specimen · 文献示例",
+          "note": "The source names the industrial specimen N42SH, but 1.9 wt% is missing and its original manufacturing route is unknown."
+        }
+      ],
+      "application": {
+        "summary": "Linear-motor design research for free-piston engine generation. Broader motor uses remain application-specific.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Specific primary engineering design use.",
+        "sourceIds": [
+          "n42sh-motor"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Co, Ga or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Tb metal · historical market evidence",
+          "material": "Tb",
+          "view": "tb-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne metal. Assay, tax and delivery not disclosed; does not identify this specimen’s bought Tb form."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N35UH",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent names N35UH. The weight-percent convention is interpreted rather than explicitly printed next to the formula.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "EP4322184A1-comparative-example2",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent names N35UH. The weight-percent convention is interpreted rather than explicitly printed next to the formula."
+        }
+      ],
+      "application": {
+        "summary": "Motorcycle traction-motor study and hotter motor/actuator candidates.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "Specific original engineering study plus UH-family selection inference.",
+        "sourceIds": [
+          "n35uh-motor",
+          "arnold-motor"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume. No matched purchase-price series is assigned here to Co, Ga or unresolved grouped additions.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    },
+    {
+      "grade": "N42UH",
+      "summary": "One possible formulation pathway · 一种可能的配方路径. The patent names N42UH, but its reported Hcj1,910 kA/m is below this Arnold card’s 1,990 kA/m minimum. Cu has two conflicting branches.",
+      "evidenceBoundary": "The magnetic limits above belong to Arnold’s revision-specific supplier sheet. The chemistry and process below belong to a different source. A grade label specifies properties, not a unique recipe.",
+      "examples": [
+        {
+          "id": "CN101629264A-example8",
+          "relationship": "Patent-reported · 专利报告",
+          "note": "The patent names N42UH, but its reported Hcj1,910 kA/m is below this Arnold card’s 1,990 kA/m minimum. Cu has two conflicting branches."
+        }
+      ],
+      "application": {
+        "summary": "Hotter compact motor, actuator and generator candidates balancing remanence and coercivity.",
+        "considerations": [
+          "Select with measured demagnetization curves at operating magnet temperature, geometry/load line, opposing field, corrosion protection, and system validation; grade number alone does not guarantee motor torque or a safe limit.",
+          "These application examples do not validate the chemistry shown above. Magnet volume, temperature and the motor’s magnetic circuit determine whether a grade is suitable."
+        ],
+        "basis": "UH-family selection inference; load line and opposing field still determine suitability.",
+        "sourceIds": [
+          "arnold-motor",
+          "arnold-grades"
+        ]
+      },
+      "priceNote": "Price exposure comes from how many kilograms of each qualified product are bought, at its actual assay and process yield. The links preserve product, period, currency and price-per-product-mass basis; they do not produce a total grade cost or a supply volume.",
+      "priceLinks": [
+        {
+          "label": "Joint NdPr metal · actual issuer purchase history",
+          "material": "NdPr",
+          "view": "ndpr-purchase-annual",
+          "panel": "market",
+          "basis": "JL MAG purchases, 2018–2020; nominal CNY/tonne NdPr metal, VAT excluded. Ratio/assay undisclosed; not a grade-matched or current quote."
+        },
+        {
+          "label": "Dy–Fe master alloy · historical market evidence",
+          "material": "Dy",
+          "view": "dyfe-market-2015",
+          "panel": "market",
+          "basis": "China, 2015–2020; nominal CNY/tonne whole DyFe alloy. Dy assay, tax and delivery not disclosed; not pure-Dy price."
+        },
+        {
+          "label": "Twenty-year upstream NdPr history",
+          "material": "NdPr",
+          "view": null,
+          "panel": "history",
+          "basis": "2006–2025 oxide series: upstream benchmark, not the metal/master-alloy product in a furnace charge. Source units and traded form remain on the chart."
+        },
+        {
+          "label": "Ferroboron · price evidence gap",
+          "material": "B",
+          "view": "feb-quote-gap",
+          "panel": "market",
+          "basis": "No reusable magnet-grade FeB purchase-price series verified. Borate unit values are not FeB prices."
+        },
+        {
+          "label": "Pure iron · price evidence gap",
+          "material": "Fe",
+          "view": "iron-quote-gap",
+          "panel": "market",
+          "basis": "No verified firm delivered magnet-grade pure-iron quote. Iron ore and bulk steel are different products."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101614"><title>Supply chain laboratory — Rare Earth</title>
+  <meta name="description" content="A transparent scenario laboratory for finite inventories, processing bottlenecks and qualified magnet delivery.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=20261007-4"><link rel="stylesheet" href="chain.css?v=20261007-6">
+  <script defer src="lib/d3.min.js"></script><script defer src="lib/topojson-client.min.js"></script>
+  <script defer src="runtime.js?v=20261007-5"></script><script defer src="chain.js?v=20261007-6"></script>
+<link rel="stylesheet" href="global-nav.css?v=20261007-1"><script defer src="global-nav.js?v=20261007-1"></script></head>
+<body class="chain-page">
+  <a class="skip-link" href="#chain-experiment">Skip to experiment</a>
+  <header class="masthead"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>RARE EARTH<small>A MATERIAL OBSERVATORY</small></span></a><nav aria-label="Main navigation"><a data-nav-route="supply" href="grades.html?layer=facilities#origins">Supply chain</a><a data-nav-route="flows" href="flows.html">Flows &amp; balance</a><a data-nav-route="applications" href="grades.html?layer=applications&amp;application_country=United%20States#origins">Applications &amp; demand</a><a data-nav-route="future" href="future.html">Future research</a><a data-nav-route="knowledge" href="knowledge.html">Davis knowledge</a><a data-nav-route="process" href="process.html">Factory tour</a><a data-nav-route="chain" href="chain.html">Supply laboratory</a></nav></header>
+  <main>
+    <section class="section-wrap cl-intro"><div><p class="eyebrow">The supply chain laboratory</p><h1>A mine is a beginning.<br><em>Delivery is the test.</em></h1></div><p>Follow a disruption through resources, separation, purchased alloys, magnet production and acceptance. Compare what the same budget can protect by the same deadline.</p></section>
+    <section id="chain-experiment" class="section-wrap cl-workspace">
+      <div class="cl-section-line"><p class="eyebrow">01 / Set up one experiment</p><span class="cl-assumption-tag">Illustrative scenario · Python model</span></div>
+      <div id="chain-status" class="cl-status" role="status" aria-live="polite">Loading the shared Python research model…</div>
+      <form id="chain-controls" class="cl-controls" aria-label="Supply experiment controls"></form>
+      <div id="chain-application-context" class="cl-reference-note" hidden></div>
+      <div class="cl-actions"><button id="chain-run" type="button" disabled>Run & compare <span aria-hidden="true">↗</span></button><button id="chain-reset" type="button" disabled>Restore scenario</button><button id="chain-download" type="button" disabled>Download assumptions & results</button><p id="chain-revision" class="cl-small">Results will identify the exact assumptions used.</p></div>
+      <div id="chain-results" hidden>
+        <div class="cl-section-line cl-result-heading"><p class="eyebrow">02 / Follow the usable material</p><label>Inspect month <select id="chain-month" aria-label="Month displayed on the supply graph"></select></label></div>
+        <div id="chain-kpis" class="cl-kpis" aria-live="polite"></div>
+        <div id="chain-reference-note" class="cl-reference-note" aria-live="polite"></div>
+        <div class="cl-graph-shell"><div class="cl-graph-heading"><h2>Six stages.<br><em>One delivery boundary.</em></h2><p id="chain-flow-note">Graph widths describe this scenario, not documented trade quantities.</p></div><div id="chain-graph" class="cl-chain-graph" aria-label="Select a supply stage"></div><button type="button" id="chain-nonree" class="cl-bypass" data-chain-stage="nonree-inputs"><span>Fe / B / minor-metal input branch</span><span>Bypasses REE separation → purchased feedstocks</span></button><div id="chain-stage-detail" class="cl-stage-detail" aria-live="polite"></div></div>
+        <div id="chain-readiness" class="cl-readiness"></div>
+        <div class="cl-chart-grid"><article><p class="eyebrow">Qualified service over time</p><h3>Demand meets delivery.</h3><svg id="chain-service-chart" viewBox="0 0 700 310" role="img" aria-label="Scenario qualified delivery and demand over time"></svg><div id="chain-service-key" class="cl-chart-key"></div></article><article><p class="eyebrow">Same budget · same horizon</p><h3>Compare interventions.</h3><svg id="chain-compare-chart" viewBox="0 0 700 310" role="img" aria-label="Unmet qualified tonnes by intervention at the common deadline"></svg><p id="chain-compare-note" class="cl-small"></p></article></div>
+        <div id="chain-comparison" class="cl-comparison" aria-live="polite"></div>
+        <div id="chain-findings" class="cl-findings"></div>
+      </div>
+    </section>
+    <section id="chain-evidence" class="section-wrap cl-evidence">
+      <div class="cl-section-line"><p class="eyebrow">03 / Keep the map and the model distinct</p><span class="cl-evidence-tag">Source-backed context</span></div>
+      <div class="cl-evidence-heading"><h2>A documented fragment.<br><em>An explicit gap.</em></h2><p>Select an evidence path for context. Its places do not supply the model’s assumed capacities, yields, inventories or qualification times.</p></div>
+      <div class="cl-evidence-pickers"><label>Map evidence path<select id="chain-map-path"><option value="">Loading map evidence…</option></select></label><a id="chain-open-map" href="grades.html#origins">Open this path on the full map ↗</a></div>
+      <div class="cl-evidence-layout"><div><svg id="chain-context-map" viewBox="0 0 960 450" role="img" aria-label="Approximate locations in the selected documented evidence path"></svg><p id="chain-map-note" class="cl-small"></p></div><aside id="chain-map-detail"></aside></div>
+      <div id="chain-evidence-path" class="cl-evidence-path"></div>
+      <details class="cl-methods"><summary>Read the accounting boundary, assumptions and limitations</summary><div id="chain-methods"><p>This is a scenario experiment. It cannot establish actual shipment provenance, supplier eligibility or a national investment optimum.</p></div></details>
+    </section>
+  </main>
+  <footer class="section-wrap"><a class="footer-brand" href="index.html">RARE EARTH</a><p>Evidence has dates. Scenarios have assumptions.</p><a href="grades.html#origins">Return to the supply map ↗</a></footer>
+</body>
+</html>

@@ -1,0 +1,790 @@
+{
+  "schema_version": 1,
+  "export_date": "2026-10-07",
+  "entry": "index.html",
+  "intended_route": "/projects/rare-earth-magnets/",
+  "source_revision": "659f6b8f5db09699cbb499e0c31c0191c1d6ca63",
+  "scope": "Complete interactive website; public-source evidence and clearly labeled scenarios",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2380,
+      "sha256": "8a6a4d1e3c6029baffda1848bc41daf2ab3d44a0f83e2a98af17f1c43d3978b7"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.md",
+      "bytes": 3320,
+      "sha256": "88a21d4b64b7fde174981f7e4f90d09a0b9bcf52bdc49b3667fa9558d05449ff"
+    },
+    {
+      "path": "app.js",
+      "bytes": 25261,
+      "sha256": "0cc3a681f31e67daa87b05c94ea72f2d06857907c521207628f96db0837ab593"
+    },
+    {
+      "path": "application-connections.css",
+      "bytes": 5522,
+      "sha256": "51da544848120ca5df902238c397fa1972cd23317b2eea73965f106c7e46c940"
+    },
+    {
+      "path": "applications.css",
+      "bytes": 9585,
+      "sha256": "40a9ba555b6b5bcab50fba6a29e879ee1c808b8bc4fbb983d6c42d69c8948ef6"
+    },
+    {
+      "path": "applications.html",
+      "bytes": 5173,
+      "sha256": "47867b6a68360dd0d11b6a8f14136b0afc65fe5d732e5909cec2d8868b10aa8a"
+    },
+    {
+      "path": "applications.js",
+      "bytes": 20397,
+      "sha256": "10e4d2a62501798d4863c4bf2505287182741f6d14e2a51fe08d3f09b55e6083"
+    },
+    {
+      "path": "assets/davis-anime/01-paleohydrology-mountains-drainage.png",
+      "bytes": 2864948,
+      "sha256": "182821dea6bb831ce22e9822822ae37dbcec2279e5625b188b2b112bf15bcff0"
+    },
+    {
+      "path": "assets/davis-cinema/ai-candidate-site-plate.png",
+      "bytes": 3545509,
+      "sha256": "442d2943bf3885369b1f9f75543fb89d6cacf1958d2c154d6596cc54a6e4df2e"
+    },
+    {
+      "path": "assets/davis-cinema/ai-cooling-inspection-8-poses-v1.png",
+      "bytes": 1395993,
+      "sha256": "77450143a1126de732f39d43c82e8051f1f182884dcd29acbf92ac8ad56281f6"
+    },
+    {
+      "path": "assets/davis-cinema/ai-cooling-inspection-poses.png",
+      "bytes": 1835723,
+      "sha256": "bcaa0f62e404410802bfbe92d75fd5dd0f161738744ec01b27615a982773fd66"
+    },
+    {
+      "path": "assets/davis-cinema/ai-cooling-service-plate.png",
+      "bytes": 2587428,
+      "sha256": "80255a3096cd718c2959bda61a8ee9fe8a3239d4a515b311fa5da7f23827dc53"
+    },
+    {
+      "path": "assets/davis-cinema/ai-engineering-poses.png",
+      "bytes": 732147,
+      "sha256": "7c7ebb3dc82568fda0c246be631ccb05266f2cfcd0a01b47f495da5038d195aa"
+    },
+    {
+      "path": "assets/davis-cinema/ai-powerroom-plate.png",
+      "bytes": 2239107,
+      "sha256": "6cf58aa3a025681592b52ab726ff74087fab424bbbcbd8f8bfd69b2148559dd0"
+    },
+    {
+      "path": "assets/davis-cinema/alpine-field-plate.png",
+      "bytes": 3596758,
+      "sha256": "c987ac9751eece5b678dc5e2482e7882a1d4a43433132676ca1b347ee4aa7a47"
+    },
+    {
+      "path": "assets/davis-cinema/atmospheric-cloudband.png",
+      "bytes": 1196697,
+      "sha256": "dbe95627e75b5a8f9d08acb4de07ec99bdb9733e08ececebb299f0931b87291f"
+    },
+    {
+      "path": "assets/davis-cinema/basin-integrated-plate.png",
+      "bytes": 3257793,
+      "sha256": "9bdbf034adf2e257ad9ea29bc9f684144543892a518a4df467be36e01dea0b97"
+    },
+    {
+      "path": "assets/davis-cinema/basin-separate-plate.png",
+      "bytes": 3676748,
+      "sha256": "b8d8c9d49f0fb095ee67446685d40f7bcdbfa998b7cb71b27ef5562521ecd3c9"
+    },
+    {
+      "path": "assets/davis-cinema/cement-community-plate.png",
+      "bytes": 3439253,
+      "sha256": "0fff4a92228877ab4e829aaa239c6e3bae287714561b1384ee1bd7364ef724d9"
+    },
+    {
+      "path": "assets/davis-cinema/cement-mixer-truck.png",
+      "bytes": 1659324,
+      "sha256": "154bb1f50c5528c626aaec8326eb898ea4da9a77ebdc0f8d2157af2814e3601c"
+    },
+    {
+      "path": "assets/davis-cinema/cement-worker-poses.png",
+      "bytes": 1718562,
+      "sha256": "94e77396148842e7e53b5e0417469ea2127fb4053e8a2caca581a4e89ed5dfe3"
+    },
+    {
+      "path": "assets/davis-cinema/coal-fuel-environment-v1.png",
+      "bytes": 3671023,
+      "sha256": "bbf8ea3bf598d31bff31b076071a13b608a999e87083e2640da375e7d6edc88c"
+    },
+    {
+      "path": "assets/davis-cinema/energy-environment-v1.png",
+      "bytes": 3040963,
+      "sha256": "efdc8ca26c14d9a1a236d7ede63e1bfd73323ab34674bce39811ae5b7cc495fa"
+    },
+    {
+      "path": "assets/davis-cinema/energy-forklift-empty.png",
+      "bytes": 1576381,
+      "sha256": "c22a9e4ca11c9302b9b16eee9a0a7adeb34badcccae40260b1c52c5bb004f50b"
+    },
+    {
+      "path": "assets/davis-cinema/energy-metal-pallet.png",
+      "bytes": 1877280,
+      "sha256": "e79802c7d53874c4480e9bac6fb715b4e84e5f2febadbb9ddd93d02562186946"
+    },
+    {
+      "path": "assets/davis-cinema/energy-wind-rotor.png",
+      "bytes": 398565,
+      "sha256": "ffc857b211d1e851cb49ffafb1cdd8bc792e8bab10cb956cae3d0f0d9ae21af5"
+    },
+    {
+      "path": "assets/davis-cinema/farmland-crop-truck.png",
+      "bytes": 2509985,
+      "sha256": "a2c3c9417024ca5c57245f254035a10ce4d375240b151515c145073da588c80f"
+    },
+    {
+      "path": "assets/davis-cinema/farmland-trade-plate.png",
+      "bytes": 3487345,
+      "sha256": "cf27d9606d9b1bbf1309a75f03e42c3140d683da0b628b8d6fc2fd0f89cd5124"
+    },
+    {
+      "path": "assets/davis-cinema/field-scientist-sediment-8frames.png",
+      "bytes": 2028774,
+      "sha256": "7b27ed495f36ccceb2c799cb48b94dd58ce225bda8137f5c602dd89c7aaa2bf2"
+    },
+    {
+      "path": "assets/davis-cinema/field-scientist-sediment-poses.png",
+      "bytes": 1802136,
+      "sha256": "1401cf7b96062594eca850c4c2deabac8bfe8a3aa0e6e7f313d18495e022fa33"
+    },
+    {
+      "path": "assets/davis-cinema/lab-archive-plate.png",
+      "bytes": 2625025,
+      "sha256": "015a103f631b6734c9fff670d955d147dd2b16d51d24dacc4e52eec3028f0010"
+    },
+    {
+      "path": "assets/davis-cinema/lab-sample-hand-poses.png",
+      "bytes": 916671,
+      "sha256": "d7091ea9395c2226cb6f42061f8635f172f13f22a00c1e99666a07a809dd55b5"
+    },
+    {
+      "path": "assets/davis-cinema/metal-resource-environment-v1.png",
+      "bytes": 3686571,
+      "sha256": "976e4acc952eccca40fde712a8021125483c0aa48dbcf9233c3a3cb7f5e85df4"
+    },
+    {
+      "path": "assets/davis-cinema/port-cargo-vessel.png",
+      "bytes": 1385637,
+      "sha256": "cd634650a43e128537129440f06b8608cb51ab4f978b326a71d7fb2fba06acdd"
+    },
+    {
+      "path": "assets/davis-cinema/port-container.png",
+      "bytes": 1669577,
+      "sha256": "3d814e93ffa64d48ed53c64641df86fb15a93090b16e4988530cf58a07d60d97"
+    },
+    {
+      "path": "assets/davis-cinema/port-environment-v1.png",
+      "bytes": 2948921,
+      "sha256": "a5565bb8d956c353bfc521a5837ded828ad87e15caf76f56b54ea032b1b5efad"
+    },
+    {
+      "path": "assets/davis-cinema/port-hoist-rig-v2.png",
+      "bytes": 1690735,
+      "sha256": "e929b0e84434ee4394b2b5f15a958529b1e267c80fe99bb1570934e1c4735898"
+    },
+    {
+      "path": "assets/davis-cinema/port-research-team-v2.png",
+      "bytes": 1897098,
+      "sha256": "fe64769b404179b60cc80180cba4c469cebf96c0b7c94f209a2093a92b20ab95"
+    },
+    {
+      "path": "assets/davis-cinema/port-water-wake.png",
+      "bytes": 1571913,
+      "sha256": "bd6ccdfc8e53a303ed478d32f25f46b4798c6df16e5754fd66e93b853d1caaf7"
+    },
+    {
+      "path": "assets/davis-cinema/quarry-excavator-poses-v2.png",
+      "bytes": 1441392,
+      "sha256": "b995cdf125e9e2eb31bf178e4207ef6568366ff433957089688728c0415c8b81"
+    },
+    {
+      "path": "assets/davis-cinema/quarry-haul-truck-empty.png",
+      "bytes": 2526893,
+      "sha256": "92e72fcdf28f3d73a82137665ff66c8303877994075df49386d2d5a4005ecc2a"
+    },
+    {
+      "path": "assets/davis-cinema/quarry-haul-truck.png",
+      "bytes": 2811464,
+      "sha256": "a5912534941144f34cd2611445313bfc657e69f8a03fd929743d3bcdac96c3d8"
+    },
+    {
+      "path": "assets/davis-cinema/records-alignment-poses-v2.png",
+      "bytes": 1529675,
+      "sha256": "c4e2212f845a39d0cf03a4e0abdcf88d0689070a64d39c048b7185826d217a42"
+    },
+    {
+      "path": "assets/davis-cinema/records-hand-prop-poses.png",
+      "bytes": 1890751,
+      "sha256": "17e9ba285d35554c49a4ff410562b6f434c59a7a3051c7a7f3082f8568dc505a"
+    },
+    {
+      "path": "assets/davis-cinema/records-office-plate.png",
+      "bytes": 2421661,
+      "sha256": "7716d7f2ffb7ec1f6a2894894c96e296cb45f3c2a64aab4d3070850365449fdc"
+    },
+    {
+      "path": "assets/davis-cinema/solar-land-comparison-plate.png",
+      "bytes": 3704125,
+      "sha256": "beff5bafa33126b2b015b7d418654ad2401ebba9e34b39a349d2ea32b717e31d"
+    },
+    {
+      "path": "assets/davis-cinema/solar-tracker-angle-poses-v2.png",
+      "bytes": 1959847,
+      "sha256": "4e631ae0875fcba3b1a7feda934ac9cc16d8a5f0f0440f694801d25669d42e40"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 409,
+      "sha256": "dd9b26fbea7b0d1e8f407050f1207c5b6609f458c21b591818a240db87654bc1"
+    },
+    {
+      "path": "assets/machines-factory-motion-base.png",
+      "bytes": 2305520,
+      "sha256": "ac2cef352fb6227dea5261952a518fc8dd5d39a2267123b6c3d6c88b52bc000d"
+    },
+    {
+      "path": "assets/machines-factory.png",
+      "bytes": 2276361,
+      "sha256": "1e142c9323615b50db1fa2a7175c375e553805b370f735068df38573c8a0e011"
+    },
+    {
+      "path": "assets/machines-upstream-motion-base-v2.png",
+      "bytes": 2535051,
+      "sha256": "995580f640e1cee87d1d05019efd5838c98c2fe6771c04bd9d78fde4d0472ac1"
+    },
+    {
+      "path": "assets/machines-upstream.png",
+      "bytes": 2659087,
+      "sha256": "8cbbc4d73d2750440bc49ca70cef0c2f51ec365980505dd32304714ba9092ee4"
+    },
+    {
+      "path": "assets/project-thumbnail.jpg",
+      "bytes": 73524,
+      "sha256": "8bc8b0869f4b5d520d389904ba250e992a0ad1892cb6be466fbe43b715d52573"
+    },
+    {
+      "path": "assets/world-countries.json",
+      "bytes": 107761,
+      "sha256": "2516c915867c7baf18ddec727aec46c315541a07cfb3d79a6559b05d5e94eee8"
+    },
+    {
+      "path": "chain.css",
+      "bytes": 13428,
+      "sha256": "f779f1204f0d04982d8593b3d895149b30b84a6bb5a73fe173a3fc104ed48035"
+    },
+    {
+      "path": "chain.html",
+      "bytes": 6624,
+      "sha256": "4c51e914adb0f5e40b386da44053ab469bf9b887d66a007e5bf06d88ab8f9ff0"
+    },
+    {
+      "path": "chain.js",
+      "bytes": 50612,
+      "sha256": "273821c86e287e640e83f426f8c95b7fcbb8ac33f4a440a2db43f97a2c13f665"
+    },
+    {
+      "path": "collaborators.css",
+      "bytes": 12962,
+      "sha256": "276fab9f85253f1ac4cda1dd0408a7f4cb3c783cf66c55501703084323ef7b86"
+    },
+    {
+      "path": "collaborators.html",
+      "bytes": 3677,
+      "sha256": "4556b8790342f84bdc7d107de39498bf447d9dd5c66a804ea4563b9fbbc08731"
+    },
+    {
+      "path": "collaborators.js",
+      "bytes": 16950,
+      "sha256": "141a80ab10a49ab8e954ac39d187c39df89dc2d72c92eb95dde2f92c98a94633"
+    },
+    {
+      "path": "data/application-supply.json",
+      "bytes": 454540,
+      "sha256": "226b23f5edd5b6a427903c7bb6b24aff9654c98c85b02a743c4a5ceea0076dd1"
+    },
+    {
+      "path": "data/chart-defaults.json",
+      "bytes": 3271,
+      "sha256": "795a07280af94e2991a45e4455a144b2cbc73dd9e50368f1e4f1ba73107bc098"
+    },
+    {
+      "path": "data/davis-collaborators.json",
+      "bytes": 192023,
+      "sha256": "0696198d73561a4009c3e1be7172f2c08ae36718454388e20bff36e019ca864a"
+    },
+    {
+      "path": "data/davis-evolution.json",
+      "bytes": 59990,
+      "sha256": "ccc0560d78a0546ac9b990b9c047555c083e1cd05df2e24a7e4c814b7fd2f888"
+    },
+    {
+      "path": "data/davis-knowledge.json",
+      "bytes": 242609,
+      "sha256": "be4b60488cdd8696398a6f4418433333c672336f056e8fa481c001a1393572fb"
+    },
+    {
+      "path": "data/davis-methods.json",
+      "bytes": 34402,
+      "sha256": "e29f0c100ac3860698361b39f5f9b24b05f6cb18c82ca051515613e5ddbe1526"
+    },
+    {
+      "path": "data/davis-students.json",
+      "bytes": 151054,
+      "sha256": "82019c087bcca31dd74cf92a7b5dcec459024bf823c517890637440e91c20567"
+    },
+    {
+      "path": "data/equipment-evidence.json",
+      "bytes": 65387,
+      "sha256": "1e73b5b642f149b8f0363d55cd30ef98444ebddd8d65855d20f95d0a4c28af1b"
+    },
+    {
+      "path": "data/equipment-readiness.json",
+      "bytes": 61410,
+      "sha256": "4f7d814dfb7c15108a9b8cfc8de0fbd606dae2e666262f219eca21941e48c8a0"
+    },
+    {
+      "path": "data/flow-evidence.json",
+      "bytes": 57646,
+      "sha256": "4307c112bafdb97f9652a70feb367b1eb61e07b0b606150ccc8765a975883229"
+    },
+    {
+      "path": "data/future-research.json",
+      "bytes": 57345,
+      "sha256": "cdf0bcab869beec43d42f3300021e23aeaff57a4c5a39c6e6c0f1dd02f458bfb"
+    },
+    {
+      "path": "data/global-reserves.json",
+      "bytes": 16033,
+      "sha256": "acca1f609f87211de9ad9c63ac48c57ea439ec91d5ab26d75401b3cc756d1832"
+    },
+    {
+      "path": "data/grade-catalog.json",
+      "bytes": 43505,
+      "sha256": "5cc03cabe97f1be86679bb02f05a4295d33cd49d5c00ec23533427dc1887183a"
+    },
+    {
+      "path": "data/grade-formulations.json",
+      "bytes": 130557,
+      "sha256": "5abd05ba1385cbb118aea1c26f19420bd88072883664d8b7b0d6eeecece15e31"
+    },
+    {
+      "path": "data/graph-model.json",
+      "bytes": 4881,
+      "sha256": "5b8e474d78ecbbddef5803794dc5e33919392c1d98779dd41000cbdad8c7c6ee"
+    },
+    {
+      "path": "data/investment-evidence.json",
+      "bytes": 150311,
+      "sha256": "9876ad73afc77bcd72b02469590f4cdf5da146df7806369d34c2f5e8d619d6fa"
+    },
+    {
+      "path": "data/investment-study.json",
+      "bytes": 22068,
+      "sha256": "a811aee20fff9cfda477f326db552bbab6cb926cfcfe563415a60034a4a33dda"
+    },
+    {
+      "path": "data/market-evidence.json",
+      "bytes": 138591,
+      "sha256": "b2894214c0bc827388a16a5dc076e9eea43af0fe199dc832f55fa721ef691e5f"
+    },
+    {
+      "path": "data/mass-balance.json",
+      "bytes": 11193,
+      "sha256": "4688e10234b315c7e36e96b2f5bd714a34136a9f59dd61f92bc48c1151f1723b"
+    },
+    {
+      "path": "data/mine-routes.json",
+      "bytes": 269919,
+      "sha256": "94bb2622eda95990b380c454386f38322f2eb7b65e7fc8cd702e156059989c08"
+    },
+    {
+      "path": "data/practitioner-insights.json",
+      "bytes": 17571,
+      "sha256": "30c848b4d36c4e7dba9e03d7a358761756254df4ca357ad7dce54b905ab8d537"
+    },
+    {
+      "path": "data/price-history-boron.json",
+      "bytes": 7069,
+      "sha256": "cf4e22f672c89ccc6aac0f7038a09cd06e1b710c7549dd770012ba95839d4898"
+    },
+    {
+      "path": "data/price-history-bulk.json",
+      "bytes": 61640,
+      "sha256": "a3884815ec25712325d18c89f7e14eb46a52b48b65c22c7f9f3827dc32fe2824"
+    },
+    {
+      "path": "data/price-history-ree.json",
+      "bytes": 118029,
+      "sha256": "fc4af31e91636b16fcb5fb95ce22c73d72ce35f37f40de554cf1371698bdc302"
+    },
+    {
+      "path": "data/security-evidence.json",
+      "bytes": 35753,
+      "sha256": "97a1525c664fdfc3e5093c307e03f3e6a1c0c1b026b5118d0521f4199998db3f"
+    },
+    {
+      "path": "data/supply-chain.json",
+      "bytes": 7168,
+      "sha256": "a04e4a5feeef78140194b57353e440fdac46a2c5a9b010f553806190232098ae"
+    },
+    {
+      "path": "data/supply-paths.json",
+      "bytes": 112452,
+      "sha256": "d952462ac15f3afc79fb8e21f00687e312b5fa1eb69bf6bfc2764d7e952dadc8"
+    },
+    {
+      "path": "data/us-application-evidence.json",
+      "bytes": 104442,
+      "sha256": "f2bbd0b2ea1d00d5dc340ce44dd2831efdbeb629d56abc263e16fccdd21d44f9"
+    },
+    {
+      "path": "data/volume-records.json",
+      "bytes": 60326,
+      "sha256": "813774b3c7c9397ee8a07609e254cadda182e70f3b798dfc7e845e4de6fd8c03"
+    },
+    {
+      "path": "engine/data/baseline.json",
+      "bytes": 3014,
+      "sha256": "7db01d56ceb3773a9efbb5df811466fe46b92b43602f60a55671743bf77ec2b9"
+    },
+    {
+      "path": "engine/data/sources.json",
+      "bytes": 4930,
+      "sha256": "ef7117d474f5a9affd8e3a27d1b8871daa9fea8bd4a8fd20f786a9b8aa8c2853"
+    },
+    {
+      "path": "engine/data/supply-chain.json",
+      "bytes": 7168,
+      "sha256": "a04e4a5feeef78140194b57353e440fdac46a2c5a9b010f553806190232098ae"
+    },
+    {
+      "path": "engine/rareearth/chain.py",
+      "bytes": 37695,
+      "sha256": "b60cf31168653b8ce318b06b7d5e51c404f50952c60ab6b43fcc4d8e7bcd4c44"
+    },
+    {
+      "path": "engine/rareearth/model.py",
+      "bytes": 20249,
+      "sha256": "592b8862462ed28d8e21e00c169df2e923f6684775530ae2a60c4a41a3554770"
+    },
+    {
+      "path": "engine/rareearth/package-init.py",
+      "bytes": 220,
+      "sha256": "079699f93e7d3662b85347872893b061245a73a7b3a95e5ab466667e84b24a96"
+    },
+    {
+      "path": "engine/rareearth/trade_risk.py",
+      "bytes": 3953,
+      "sha256": "c4911ba21056092fbc76449fa4f4d7cf4da160a512ff0718c0829992f624797b"
+    },
+    {
+      "path": "flows.css",
+      "bytes": 12692,
+      "sha256": "2b2874479a945c6f3176e17ce3f9dc9870b74ea15b39fb48d09b29c342c146aa"
+    },
+    {
+      "path": "flows.html",
+      "bytes": 8101,
+      "sha256": "36d6cd529701afbafefa192bfd1751baccf11e2786b40076d56d864f9ef70c56"
+    },
+    {
+      "path": "flows.js",
+      "bytes": 36428,
+      "sha256": "ae0d0d8b05d1dfc1e87e4e97a21f3e17af73d0121142de1a1a21191f8dbb5a96"
+    },
+    {
+      "path": "future.css",
+      "bytes": 16651,
+      "sha256": "c69f9cac8b3bd3bc22987750617f6aa228f68847e9414e77696104b18c150c3e"
+    },
+    {
+      "path": "future.html",
+      "bytes": 8609,
+      "sha256": "378df9745de6acaba4956985daf02fb8f6d6f8592a69db1a74c69d583ba43de0"
+    },
+    {
+      "path": "future.js",
+      "bytes": 43395,
+      "sha256": "d275eb5464152a70ca161b80b40d24604cbad927659ee3e3a43e605f454abc24"
+    },
+    {
+      "path": "global-nav.css",
+      "bytes": 1480,
+      "sha256": "c357962b9896c55cf078911ce19901f8923d058c354e908215a4c9203a1ee5d0"
+    },
+    {
+      "path": "global-nav.js",
+      "bytes": 5054,
+      "sha256": "ecd17dad293ce5c7c08d5d848b3b44b954d9401fd016f9a37d8ef9141a89efbb"
+    },
+    {
+      "path": "grade-comparison.css",
+      "bytes": 19045,
+      "sha256": "f1c7ee4af72323589109cf88f6ae7ebd261c7f7c625c6a5a37f01b84605e2df8"
+    },
+    {
+      "path": "grade-comparison.js",
+      "bytes": 24988,
+      "sha256": "05034bef39290860c9daaf722957e9898cc5eda73dd7ce7bc8fabeb09ec0d4df"
+    },
+    {
+      "path": "grades.css",
+      "bytes": 33267,
+      "sha256": "418aff8b59a99fb473f4bdcda8a0435c35ddd822bdeb94228a833d054ca35172"
+    },
+    {
+      "path": "grades.html",
+      "bytes": 17340,
+      "sha256": "0d441b141552699044820c58d041300735f9c0218643f0a159857c4b72114df6"
+    },
+    {
+      "path": "grades.js",
+      "bytes": 111806,
+      "sha256": "d5ffc3f452f4e855a99c64a29f8e3ad8a087adaa57affcdec467b9d75a9ae6fe"
+    },
+    {
+      "path": "index.html",
+      "bytes": 18627,
+      "sha256": "00103629485feafb8754739c1ce99488c220ebc0fb1f98db65f859f589efeac6"
+    },
+    {
+      "path": "investment-evidence.css",
+      "bytes": 11647,
+      "sha256": "d1dac55eb7913c7a3a7d1d18db4f6bb551c8a8fcab0160b954a8c8887b562f56"
+    },
+    {
+      "path": "investment-evidence.js",
+      "bytes": 20254,
+      "sha256": "bcb36c4ca90499803c8906158ca161945a8de0daa3659752fa7050752c26006d"
+    },
+    {
+      "path": "investment-study.css",
+      "bytes": 8951,
+      "sha256": "a079933dccb70437332ddc2edfaa3b15693cdda52bb17110b5b67108b10a27da"
+    },
+    {
+      "path": "investment-study.js",
+      "bytes": 10923,
+      "sha256": "15a85f59ac0cc964a94af283b901e95c64d441370f32f9cb7c433dc66c390b80"
+    },
+    {
+      "path": "investment.html",
+      "bytes": 2641,
+      "sha256": "f0710ad80fe16d9bccd923bd5c2b097850fdf72a067e6c71e556d42de5134867"
+    },
+    {
+      "path": "knowledge.css",
+      "bytes": 13121,
+      "sha256": "a8bdfada7065d29d2f47a847e0486b7aac4a24001b4cd8a1e10034662d6a9a96"
+    },
+    {
+      "path": "knowledge.html",
+      "bytes": 5738,
+      "sha256": "9edb36bf4f57568d654aa8fac7c34a200b718e24e093331c60132ffe623611eb"
+    },
+    {
+      "path": "knowledge.js",
+      "bytes": 79886,
+      "sha256": "9f5d53225e990435a63eda3541dd3f47bf5187cdadc726cc060be99f6627d7b2"
+    },
+    {
+      "path": "lib/PLOTLY-LICENSE",
+      "bytes": 1086,
+      "sha256": "8c45d9eaf50c2f72dd9c7ab9ef440788ba58a3538484b5c51c1f17d5128752e7"
+    },
+    {
+      "path": "lib/d3-LICENSE",
+      "bytes": 731,
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+    },
+    {
+      "path": "lib/d3.min.js",
+      "bytes": 279706,
+      "sha256": "f2094bbf6141b359722c4fe454eb6c4b0f0e42cc10cc7af921fc158fceb86539"
+    },
+    {
+      "path": "lib/plotly-4.1.1.min.js",
+      "bytes": 4815814,
+      "sha256": "3b6e15d45dbb7fca5bd2094291e961ddc5472cd887009e6009a56dab668d721f"
+    },
+    {
+      "path": "lib/topojson-client-LICENSE",
+      "bytes": 734,
+      "sha256": "4c4d15b635e04e691825a76db7d33f7f2033b55669a7430011694f31e6c65999"
+    },
+    {
+      "path": "lib/topojson-client.min.js",
+      "bytes": 7169,
+      "sha256": "25cd02ae486cc5063e0215a4e4cfb15de83700c87ac48bac4d57dc6aaf3ebb89"
+    },
+    {
+      "path": "market-evidence.css",
+      "bytes": 7492,
+      "sha256": "76db1d435f6680f40edaf494895b71467c124d2f99e1944a1f682d03cb95a179"
+    },
+    {
+      "path": "market-evidence.js",
+      "bytes": 16761,
+      "sha256": "052b5640f12b1b2c28ffbeb8f0ed01da225a57d39b30f13f3f0a380afad230a2"
+    },
+    {
+      "path": "methods.css",
+      "bytes": 1844,
+      "sha256": "fdf775682111982b4605faebd00893e833e0f23de0ae3fe67f3fa6273fbbdb94"
+    },
+    {
+      "path": "methods.html",
+      "bytes": 3353,
+      "sha256": "99320b7aefa557e5a5a1cb76386d33a346da96eeaf994ae8c04d68fb99a06c06"
+    },
+    {
+      "path": "methods.js",
+      "bytes": 3625,
+      "sha256": "ecda67b26452fccab3d2e77040730e7d34750a1f5a7112b28352ccbdcceac675"
+    },
+    {
+      "path": "practitioner-insights.css",
+      "bytes": 3599,
+      "sha256": "63b69e99f4a5a52b09009d20faac64f25805b81f49730e107858d3bcfae5e1d0"
+    },
+    {
+      "path": "practitioner-insights.js",
+      "bytes": 4821,
+      "sha256": "a293c3db1b4820d7d39dd476f74c2d1e9dea34bbafdbee3167bff9d460dabf7d"
+    },
+    {
+      "path": "process-motion.css",
+      "bytes": 2124,
+      "sha256": "d42f675777fc486dd2b4e09f7a1d210a406e3b3e6ea3b11253a5502317b7edfc"
+    },
+    {
+      "path": "process-motion.js",
+      "bytes": 46717,
+      "sha256": "e207f4cae6a04c47cb9256e41edbfc294c6a7a9640cc7e150dbd3089e14b813e"
+    },
+    {
+      "path": "process.css",
+      "bytes": 13262,
+      "sha256": "9913b53c6124bd789959367e551e714a6c247292911505e053751e4032e0a240"
+    },
+    {
+      "path": "process.html",
+      "bytes": 10400,
+      "sha256": "045bc1911c22e64c414be8c473597f74030de68e5594af0c168db4ca3ca973af"
+    },
+    {
+      "path": "process.js",
+      "bytes": 27410,
+      "sha256": "07d82e08f7f05d871952efd472415163d05915f7c08778ccf86fd78fd9184fd2"
+    },
+    {
+      "path": "production-quantities.css",
+      "bytes": 1762,
+      "sha256": "ded26ea4a0f9c0d6ec39b6eef2f158d998c830357781b73c6c96c3e565831448"
+    },
+    {
+      "path": "production-quantities.js",
+      "bytes": 4036,
+      "sha256": "234585f8a01372fadc34a3e240d74e702b489cc93f173b7b2f39a247e5d5ad21"
+    },
+    {
+      "path": "purchased-materials.css",
+      "bytes": 6561,
+      "sha256": "8fdbd2c91d74c588edc6e419742ae8b916a502bbd7ea489ecb74e37de94bb6c4"
+    },
+    {
+      "path": "purchased-materials.js",
+      "bytes": 11766,
+      "sha256": "25ff67b4db3801af9196bc6c9877a68505c6e03f8f16c7d75f4f78ed0e624125"
+    },
+    {
+      "path": "python-worker.js",
+      "bytes": 2895,
+      "sha256": "139459eda888b4593be566e54ef5eee286c8599db895a8a68bf5f699841638cb"
+    },
+    {
+      "path": "research-film.css",
+      "bytes": 13970,
+      "sha256": "8501a889cc3b988aed39cde0d158d4a57c00a4d00157980e0471e566e5b5ccda"
+    },
+    {
+      "path": "research-film.js",
+      "bytes": 52618,
+      "sha256": "f9e4945dd51de518c7f8ab4a6f5aefc96f651ef0ce6143f92c77bbc06144ef1f"
+    },
+    {
+      "path": "research-link.js",
+      "bytes": 1102,
+      "sha256": "a29bc3abd1c6a6cec3959e3390ccf6012675ecacf37d8895602e28db0fe2d333"
+    },
+    {
+      "path": "research.html",
+      "bytes": 2542,
+      "sha256": "9e348d186e0e80936c2110387d904690955a025a9d0742e47f82883b751e2047"
+    },
+    {
+      "path": "runtime.js",
+      "bytes": 1758,
+      "sha256": "11fb058cdec75b13f5e34628400ed27bbf6acba8e4c3971afa53384ac6aba621"
+    },
+    {
+      "path": "security-evidence.css",
+      "bytes": 3619,
+      "sha256": "f9dc998e47422f9ce75b3a0818879f021a337c059db1bd5c9c93ee0b8b0862bf"
+    },
+    {
+      "path": "security-evidence.js",
+      "bytes": 10105,
+      "sha256": "fc9235a2f90d34ef08154bfb5830eb0b4350665ecc28bdc211f738527466007a"
+    },
+    {
+      "path": "students.css",
+      "bytes": 5629,
+      "sha256": "b7cbb5d26326d038ab36be963bfe5605928131bf79612944a59cb3ce89832806"
+    },
+    {
+      "path": "students.html",
+      "bytes": 3847,
+      "sha256": "cd5ae1cca5dda76b840d6ca7fb9fd7616bb127801b45e2c5f88c8aae89ab0b9d"
+    },
+    {
+      "path": "students.js",
+      "bytes": 18667,
+      "sha256": "d585dc14ec9c556cf7d35aa275b5c9e24a7885aaa50eed7415ee1c78b9259da6"
+    },
+    {
+      "path": "style.css",
+      "bytes": 30719,
+      "sha256": "9a529742ff529898157411805f4385b39099cb41ed19a59dc70a6df725dae377"
+    },
+    {
+      "path": "supply-paths.css",
+      "bytes": 11560,
+      "sha256": "e3439ccba3563615b45ed193060599e8759aa9eb32c0ce3a09993f39e8b8142f"
+    },
+    {
+      "path": "supply-paths.js",
+      "bytes": 16807,
+      "sha256": "c3da0451ff848777228613975c987258afbb51071cd50782bc6154c2fb93cdc3"
+    },
+    {
+      "path": "volume-evidence.css",
+      "bytes": 2746,
+      "sha256": "e25341188e1ac50264107ebc82ac69f026b65e239e8e7b3a72643c5e0aaefed0"
+    },
+    {
+      "path": "volume-evidence.js",
+      "bytes": 15093,
+      "sha256": "a982baa4d2d90eece99f77db831a8a9d9611a71964bd891889e076695b732346"
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "window": [
+    2006,
+    2025
+  ],
+  "series": [
+    {
+      "id": "boron-import-unit-value-port-exportation",
+      "element": "B",
+      "label": "Borates / boron minerals · import unit value at export port",
+      "form": "Mixed boron mineral imports; not elemental boron or ferroboron",
+      "basis": "Annual average value of mineral imports at port of exportation, as reported by USGS MCS 2011 and 2016",
+      "unit": "USD / metric tonne of imported product",
+      "sourceUrl": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2016-boron.pdf",
+      "points": [
+        {
+          "year": 2006,
+          "value": 298,
+          "sourceUrl": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2011-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2007,
+          "value": 302,
+          "sourceUrl": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2011-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2008,
+          "value": 302,
+          "sourceUrl": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2011-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2009,
+          "value": 339,
+          "sourceUrl": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2011-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2010,
+          "value": 360,
+          "sourceUrl": "https://d9-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2011-boron.pdf",
+          "estimated": true
+        },
+        {
+          "year": 2011,
+          "value": 553,
+          "sourceUrl": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2016-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2012,
+          "value": 510,
+          "sourceUrl": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2016-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2013,
+          "value": 433,
+          "sourceUrl": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/mineral-pubs/boron/mcs-2016-boron.pdf",
+          "estimated": false
+        }
+      ]
+    },
+    {
+      "id": "boron-import-unit-value-cif",
+      "element": "B",
+      "label": "Borates / boron compounds · CIF import unit value",
+      "form": "Mixed boron-product imports; not elemental boron or ferroboron",
+      "basis": "Annual average import unit value including cost, insurance, and freight; MCS 2026 calls this combined imports",
+      "unit": "USD / metric tonne of imported product",
+      "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "points": [
+        {
+          "year": 2014,
+          "value": 373,
+          "sourceUrl": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/mcs-2019-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2015,
+          "value": 327,
+          "sourceUrl": "https://d9-wret.s3-us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/atoms/files/mcs-2019-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2016,
+          "value": 352,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2021/mcs2021_old.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2017,
+          "value": 392,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2021/mcs2021_old.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2018,
+          "value": 404,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2021/mcs2021_old.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2019,
+          "value": 373,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2020,
+          "value": 380,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-boron.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2021,
+          "value": 394,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2022,
+          "value": 485,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2023,
+          "value": 606,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2024,
+          "value": 574,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+          "estimated": false
+        },
+        {
+          "year": 2025,
+          "value": 540,
+          "sourceUrl": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+          "estimated": true
+        }
+      ]
+    }
+  ],
+  "caveats": [
+    "These are USGS annual aggregate import unit values, not pure boron, boric-acid-only, ferroboron, or magnet-factory purchase-price series.",
+    "The export-port and CIF price bases are kept as separate series. Do not connect their traces as a homogeneous benchmark or treat the change between 2013 and 2014 as a measured same-product price return.",
+    "No conversion to USD/kg contained B is made: product mix and boron assay vary. USGS notes that borate products are sold based on boric-oxide content, but this does not make these tabulated import-product unit values prices per tonne of elemental B.",
+    "2010 is marked estimated in the MCS 2011 source; 2025 is marked estimated in MCS 2026. Other points are historical values in the cited publication vintage.",
+    "Later publications revise prior-year observations. The 2020 value 380 uses MCS 2024 rather than the MCS 2021 estimate 384; 2024 uses MCS 2026 value 574 rather than the MCS 2025 estimate 560.",
+    "For the basis transition, MCS 2016 reported export-port values 372 for 2014 and an estimated 400 for 2015, while MCS 2019 reports CIF values 373 and 327. This file uses the CIF observations for those years and does not blend the bases.",
+    "The MCS 2011 general volume heading uses boric-oxide units, but its price row separately specifies dollars per ton. The file preserves the price-row import-product basis and does not apply a boric-oxide mass conversion.",
+    "Prices are nominal annual values. No monthly values, seasonal pattern, interpolation, or inflation adjustment is supplied.",
+    "Coverage is 2006–2025 with exactly one sourced annual point per year across the two series. Source editions are mixed and do not constitute a single latest-vintage backcast."
+  ]
+}

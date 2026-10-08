@@ -1,0 +1,51 @@
+/* Application relationships remain evidence records, never geographic flows. */
+body[data-map-layer="applications"] .origin-layout{grid-template-columns:minmax(0,1.8fr) minmax(340px,1fr)}
+#map-demand-link[hidden],#map-flows-link[hidden]{display:none}
+body[data-map-layer="applications"] .mine-detail h3{font-size:29px}
+.application-site-facts{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px;margin:16px 0}
+.application-site-facts>div:last-child{grid-column:1/-1}
+.application-site-facts dt,.application-path-gaps dt{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px}
+.application-site-facts dd{margin:0;color:var(--paper);font-size:14px;line-height:1.45}
+.application-connections{border-block:1px solid #77a8b840;padding:14px 0;margin:14px 0}
+.mine-detail .application-connections>h4{margin:0 0 12px;color:#a2d0d7;font-size:11px}
+.application-relationship,.application-use-context{border:1px solid var(--line);margin:9px 0;background:#101614}
+.application-relationship>summary,.application-use-context>summary{display:grid;gap:5px;position:relative;padding:11px 28px 11px 12px;cursor:pointer;list-style:none}
+.application-relationship>summary::-webkit-details-marker,.application-use-context>summary::-webkit-details-marker{display:none}
+.application-relationship>summary:after,.application-use-context>summary:after{content:'+';position:absolute;right:11px;top:12px;color:var(--brass-light)}
+.application-relationship[open]>summary:after,.application-use-context[open]>summary:after{content:'−'}
+.application-relationship-kind,.application-use-context>summary>span:first-child{font-size:10px;color:#a2d0d7;line-height:1.5}
+.application-relationship>summary strong,.application-use-context>summary strong{font-size:13px;line-height:1.45;color:var(--paper);font-weight:500}
+.application-relationship-status,.application-use-context>summary>span:last-child{font-size:11px;color:var(--brass-light);line-height:1.5}
+.application-relationship-scope,.application-relationship-gap{font-size:11px;line-height:1.5;color:var(--muted)}
+.application-relationship-gap{border-left:2px solid var(--brass);padding-left:8px;color:var(--paper)}
+.application-relationship-body{padding:0 12px 12px;border-top:1px solid var(--line)}
+.mine-detail .application-relationship-body p,.mine-detail .application-use-context p{font-size:12px;margin:9px 0;line-height:1.6}
+.application-use-context>p,.application-use-context>a{margin-left:12px;margin-right:12px}
+.application-relationship-sources{display:flex;flex-direction:column;gap:5px}
+.mine-detail .application-relationship-sources a{font-size:11px;margin:0;line-height:1.5}
+.application-path-gaps{display:grid;gap:12px;margin:15px 0}
+.application-path-gaps>div{border-left:2px dashed #77a8b860;padding-left:10px}
+.application-path-gaps dd{font-size:12px;line-height:1.55;margin:0;color:var(--muted)}
+.mine-detail .application-relationship-empty{font-size:12px;color:var(--muted);margin:10px 0}
+.application-role-flow{border-top:1px dashed var(--line);margin-top:14px;padding-top:12px}
+.mine-detail .application-role-flow p{font-size:10px;color:var(--muted);line-height:1.5;margin:0 0 7px}
+.application-role-flow ol{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0 0 8px;font-size:10px;line-height:1.5;color:var(--paper)}
+.application-role-flow li:not(:last-child):after{content:'→';color:var(--muted);padding-left:6px}
+.mine-detail .application-demand-link{font-size:12px;display:block;line-height:1.5;padding:10px 12px;border:1px solid var(--line);margin:12px 0 0;text-decoration:none}
+.application-site-dossier{font-size:12px;margin:15px 0;border-top:1px solid var(--line);padding-top:12px}
+.application-site-dossier>summary{color:var(--brass-light);cursor:pointer;line-height:1.5}
+.application-connections summary:focus-visible,.application-site-dossier summary:focus-visible,.application-demand-link:focus-visible{outline:2px solid var(--brass);outline-offset:3px}
+.application-quantity-strip{margin:14px 0}
+.mine-detail .application-quantity-strip>h4{font-size:10px;letter-spacing:.06em;margin:0 0 8px}
+.application-quantity-cards{display:grid;gap:7px}
+.application-quantity-card{border-left:2px solid var(--sage);background:#8aab9509;padding:9px 10px;display:grid;gap:4px}
+.application-quantity-card>span{font-size:10px;line-height:1.5;color:var(--muted)}
+.application-quantity-card>strong{font:20px var(--serif);line-height:1.2;color:var(--brass-light)}
+.application-quantity-card>.application-quantity-type{color:var(--paper)}
+.application-quantity-card details{font-size:10px;line-height:1.5}
+.application-quantity-card summary{cursor:pointer;color:var(--brass-light)}
+.mine-detail .application-quantity-card p,.mine-detail .application-quantity-card a{font-size:10px;line-height:1.5;margin:7px 0}
+.mine-detail .application-quantity-unknown,.mine-detail .application-magnet-volume-gap{font-size:11px;line-height:1.5;margin:8px 0;color:var(--muted)}
+.mine-detail .application-magnet-volume-gap{color:var(--paper);border-left:2px dashed var(--brass);padding-left:9px}
+@media(max-width:1050px){body[data-map-layer="applications"] .origin-layout{grid-template-columns:minmax(0,1.6fr) minmax(300px,1fr)}}
+@media(max-width:760px){body[data-map-layer="applications"] .origin-layout{grid-template-columns:1fr}.application-relationship>summary,.application-use-context>summary{padding:13px 30px 13px 12px}.application-site-dossier>summary{min-height:40px}.mine-detail .application-demand-link{min-height:44px}}

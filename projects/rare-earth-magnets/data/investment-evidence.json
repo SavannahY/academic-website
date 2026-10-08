@@ -1,0 +1,3830 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-07",
+  "title": "Capacity, readiness and investment evidence",
+  "scope": "A bounded primary-disclosure comparison of MP Materials and selected global projects; not a comprehensive facility census, country total, market valuation or investment recommendation.",
+  "stages": [
+    {
+      "id": "all",
+      "label": "All stages"
+    },
+    {
+      "id": "mining",
+      "label": "Mining & concentration",
+      "form": "Ore → concentrate"
+    },
+    {
+      "id": "separation",
+      "label": "Separation & oxides",
+      "form": "Mixed feed → separated oxides"
+    },
+    {
+      "id": "metal",
+      "label": "Metal & master alloy",
+      "form": "Oxide → metal / alloy"
+    },
+    {
+      "id": "magnets",
+      "label": "Magnets & qualification",
+      "form": "Alloy → finished / qualified magnets"
+    },
+    {
+      "id": "context",
+      "label": "Cross-stage economic context",
+      "form": "Financing, company accounts and aggregate context"
+    }
+  ],
+  "global_investment": {
+    "as_of_report": "2026-04-08",
+    "horizon": "To 2035",
+    "geography": "Diversified regions outside the leading supplier, China. Global scope; not a U.S.-only budget.",
+    "product_scope": "Magnet rare-earth supply chains: Nd, Pr, Dy and Tb; mining, refining and magnet manufacturing.",
+    "total": 60000000000,
+    "currency": "USD",
+    "total_status": "Rounded modelled investment requirement, not committed funding or reported spending.",
+    "scenario": "The report projects demand under STEPS (existing and announced policy settings). The investment chart does not name a separate scenario.",
+    "stage_allocations": [
+      {
+        "id": "mining",
+        "stage": "Mining",
+        "allocation": "Remaining upstream investment",
+        "basis": "The report separates mining from downstream processing."
+      },
+      {
+        "id": "refining",
+        "stage": "Refining",
+        "allocation": "Nearly half",
+        "basis": "Qualitative scale from the report and chart; no precise fraction reproduced."
+      },
+      {
+        "id": "magnets",
+        "stage": "Magnet manufacturing",
+        "allocation": "About one third",
+        "basis": "Qualitative scale confirmed by page 53 chart and executive summary."
+      }
+    ],
+    "method": "Projected primary supply requirement and supply gap, combined with capital intensity. Includes existing expansions, announced projects not yet funded and the remaining new-project gap.",
+    "caveats": [
+      "No public underlying CSV or project-level observations were available for the chart. Do not infer machine-level, element-level or qualification budgets.",
+      "The page 52 prose repeats “refining” for the approximately $21B category. The page 53 chart and executive summary identify magnet manufacturing; this interface uses only qualitative stage allocations.",
+      "Rounded chart stages need not add exactly to the rounded $60B headline. No exact residual or percentage is invented.",
+      "This is not a committed investment total, a current funding gap, a U.S. security budget or a cost-minimizing solution."
+    ],
+    "source_ids": [
+      "IEA_INVEST_CHART",
+      "IEA_RE_PDF",
+      "IEA_RE_SUM"
+    ],
+    "source_locator": "Report PDF pages 52–53; scenario context page 44."
+  },
+  "facilities": [
+    {
+      "id": "mountain_pass_upstream",
+      "record_type": "facility",
+      "name": "Mountain Pass · upstream",
+      "site": "Mountain Pass, California, USA",
+      "country": "United States",
+      "operator": "MP Materials",
+      "stage_ids": [
+        "mining"
+      ],
+      "stage_description": "mining, beneficiation/concentration",
+      "product": "Rare-earth concentrate, measured as contained REO rather than bulk concentrate or mined ore",
+      "status": "operating",
+      "status_date": "2026-06-30",
+      "source_ids": [
+        "mp_10k_2025"
+      ],
+      "records": [
+        {
+          "id": "mountain_pass_upstream_actual_0",
+          "measure": "actual_output",
+          "product": "REO contained in concentrate",
+          "value": 50692,
+          "unit": "metric tons REO contained in concentrate",
+          "period": "2025",
+          "status": "Reported period output",
+          "basis": "Rare-earth concentrate, measured as contained REO rather than bulk concentrate or mined ore",
+          "reason": null,
+          "source_ids": [
+            "mp_fy2025_release"
+          ]
+        },
+        {
+          "id": "mountain_pass_upstream_actual_1",
+          "measure": "actual_output",
+          "product": "REO contained in concentrate",
+          "value": 11072,
+          "unit": "metric tons REO contained in concentrate",
+          "period": "2026-Q2",
+          "status": "Reported period output",
+          "basis": "Rare-earth concentrate, measured as contained REO rather than bulk concentrate or mined ore",
+          "reason": null,
+          "source_ids": [
+            "mp_q2_2026_release"
+          ]
+        },
+        {
+          "id": "mountain_pass_upstream_actual_2",
+          "measure": "actual_output",
+          "product": "REO contained in concentrate",
+          "value": 24055,
+          "unit": "metric tons REO contained in concentrate",
+          "period": "2026-H1",
+          "status": "Reported period output",
+          "basis": "Rare-earth concentrate, measured as contained REO rather than bulk concentrate or mined ore",
+          "reason": null,
+          "source_ids": [
+            "mp_10q_q2_2026"
+          ]
+        },
+        {
+          "id": "mountain_pass_upstream_capacity_0",
+          "measure": "capacity",
+          "product": "REO contained in concentrate",
+          "value": 60000,
+          "unit": "metric tons REO contained in concentrate/year",
+          "period": "FY2025 disclosure",
+          "status": "Upstream 60K strategic target; not demonstrated nameplate or actual output",
+          "basis": "Rare-earth concentrate, measured as contained REO rather than bulk concentrate or mined ore",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        }
+      ],
+      "money_refs": [
+        "cash_capex_2025",
+        "cash_capex_h1_2026",
+        "materials_capex_h1_2026",
+        "capital_guidance_2026"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Separate mine vs concentration capacity/capital allocation not identified.",
+        "No current firm completion date or quantified standalone 60K budget extracted."
+      ],
+      "caution": "Contains feed subsequently counted in separated products: do not add upstream REO and NdPr oxide output.",
+      "schedule": []
+    },
+    {
+      "id": "mountain_pass_ndpr",
+      "record_type": "facility",
+      "name": "Mountain Pass · NdPr separation",
+      "site": "Mountain Pass, California, USA",
+      "country": "United States",
+      "operator": "MP Materials",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "light rare-earth separation and finishing",
+      "product": "Finished and packaged NdPr oxide",
+      "status": "operating and ramping; midstream production began 2023",
+      "status_date": "2026-06-30",
+      "source_ids": [
+        "mp_10k_2025"
+      ],
+      "records": [
+        {
+          "id": "mountain_pass_ndpr_actual_0",
+          "measure": "actual_output",
+          "product": "NdPr oxide",
+          "value": 2599,
+          "unit": "metric tons NdPr oxide",
+          "period": "2025",
+          "status": "Reported period output",
+          "basis": "Finished and packaged NdPr oxide",
+          "reason": null,
+          "source_ids": [
+            "mp_fy2025_release"
+          ]
+        },
+        {
+          "id": "mountain_pass_ndpr_actual_1",
+          "measure": "actual_output",
+          "product": "NdPr oxide",
+          "value": 840,
+          "unit": "metric tons NdPr oxide",
+          "period": "2026-Q2",
+          "status": "Reported period output",
+          "basis": "Finished and packaged NdPr oxide",
+          "reason": null,
+          "source_ids": [
+            "mp_q2_2026_release"
+          ]
+        },
+        {
+          "id": "mountain_pass_ndpr_actual_2",
+          "measure": "actual_output",
+          "product": "NdPr oxide",
+          "value": 1757,
+          "unit": "metric tons NdPr oxide",
+          "period": "2026-H1",
+          "status": "Reported period output",
+          "basis": "Finished and packaged NdPr oxide",
+          "reason": null,
+          "source_ids": [
+            "mp_10q_q2_2026"
+          ]
+        },
+        {
+          "id": "mountain_pass_ndpr_capacity_0",
+          "measure": "capacity",
+          "product": "NdPr oxide",
+          "value": 6075,
+          "unit": "metric tons NdPr oxide/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "anticipated designed production rate after ramp; not current actual output",
+          "basis": "Finished and packaged NdPr oxide",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        },
+        {
+          "id": "mountain_pass_ndpr_capacity_1",
+          "measure": "capacity",
+          "product": "All separated REO, excluding cerium concentrate",
+          "value": 20000,
+          "unit": "metric tons separated REO/year, excluding cerium concentrate",
+          "period": "Disclosure-specific annual rate",
+          "status": "all separated-product anticipated production rate; includes NdPr",
+          "basis": "All separated rare-earth-oxide products in the anticipated production rate, excluding cerium concentrate; includes NdPr. This is not NdPr-only output.",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        }
+      ],
+      "money_refs": [
+        "stage2_historical_budget",
+        "cash_capex_2025",
+        "materials_capex_h1_2026"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Final cumulative Stage II actual cost not identified in current filings.",
+        "Do not use all separated-REO capacity as NdPr capacity."
+      ],
+      "caution": null,
+      "schedule": []
+    },
+    {
+      "id": "independence_metal_alloy",
+      "record_type": "facility",
+      "name": "Independence · metal & alloy",
+      "site": "Independence, Fort Worth, Texas, USA",
+      "country": "United States",
+      "operator": "MP Materials",
+      "stage_ids": [
+        "metal"
+      ],
+      "stage_description": "metallization and alloying",
+      "product": "NdPr metal by electrowinning, followed by NdFeB alloy flake by strip casting",
+      "status": "commercial NdPr metal since late 2024; alloy flake added 2025; precursor sales commenced Q1 2025",
+      "status_date": "See dated source disclosure",
+      "source_ids": [
+        "mp_10k_2025"
+      ],
+      "records": [
+        {
+          "id": "independence_metal_alloy_actual_0",
+          "measure": "actual_output",
+          "product": "NdPr metal or NdFeB alloy flake",
+          "value": null,
+          "unit": "metric tons NdPr metal or alloy flake",
+          "period": "2025",
+          "status": "Not reported / not verified",
+          "basis": "NdPr metal by electrowinning, followed by NdFeB alloy flake by strip casting",
+          "reason": "No physical-output KPI disclosed separately in reviewed public sources.",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        },
+        {
+          "id": "independence_metal_alloy_actual_1",
+          "measure": "actual_output",
+          "product": "NdPr metal or NdFeB alloy flake",
+          "value": null,
+          "unit": "metric tons NdPr metal or alloy flake",
+          "period": "2026-Q2",
+          "status": "Not reported / not verified",
+          "basis": "NdPr metal by electrowinning, followed by NdFeB alloy flake by strip casting",
+          "reason": "Precursor revenue is not physical output.",
+          "source_ids": [
+            "mp_10q_q2_2026",
+            "mp_q2_2026_release"
+          ]
+        },
+        {
+          "id": "independence_metal_alloy_capacity_0",
+          "measure": "capacity",
+          "product": "NdPr metal or NdFeB alloy flake",
+          "value": null,
+          "unit": "metric tons metal/year or alloy flake/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "No distinct annual capacity identified.",
+          "basis": "NdPr metal by electrowinning, followed by NdFeB alloy flake by strip casting",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        }
+      ],
+      "money_refs": [
+        "magnetics_capex_h1_2026",
+        "independence_48c_award",
+        "gm_prepayments"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Metal/alloy capacity, annual tonnage and standalone capex not disclosed here."
+      ],
+      "caution": "Materials-segment NdPr sales include oxide-equivalent metal volumes; they cannot be read as physical metal tonnage.",
+      "schedule": []
+    },
+    {
+      "id": "independence_magnets",
+      "record_type": "facility",
+      "name": "Independence · magnets",
+      "site": "Independence, Fort Worth, Texas, USA",
+      "country": "United States",
+      "operator": "MP Materials",
+      "stage_ids": [
+        "magnets"
+      ],
+      "stage_description": "powder metallurgy, sintering, machining/finishing and customer qualification",
+      "product": "Sintered NdFeB magnets",
+      "status": "Commercial equipment manufacturing began December 2025; final commissioning and customer/regulatory qualification continued in Q2 2026",
+      "status_date": "2026-08-06 disclosure",
+      "source_ids": [
+        "mp_q2_2026_release"
+      ],
+      "records": [
+        {
+          "id": "independence_magnets_actual_0",
+          "measure": "actual_output",
+          "product": "Finished NdFeB magnets",
+          "value": null,
+          "unit": "metric tons finished magnets",
+          "period": "2025",
+          "status": "Not reported / not verified",
+          "basis": "Sintered NdFeB magnets",
+          "reason": "First magnets disclosed; tonnage not reported.",
+          "source_ids": [
+            "mp_q2_2026_release"
+          ]
+        },
+        {
+          "id": "independence_magnets_actual_1",
+          "measure": "actual_output",
+          "product": "Finished NdFeB magnets",
+          "value": null,
+          "unit": "metric tons customer-qualified delivered magnets",
+          "period": "2026-Q2",
+          "status": "Not reported / not verified",
+          "basis": "Sintered NdFeB magnets",
+          "reason": "Qualification deliveries disclosed; no magnet-tonnage KPI.",
+          "source_ids": [
+            "mp_10q_q2_2026",
+            "mp_q2_2026_release"
+          ]
+        },
+        {
+          "id": "independence_magnets_capacity_0",
+          "measure": "capacity",
+          "product": "Finished NdFeB magnets",
+          "value": 1000,
+          "unit": "metric tons finished NdFeB magnets/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "initial planned facility capability, historical Jan2025 disclosure; not verified achieved throughput",
+          "basis": "Sintered NdFeB magnets",
+          "source_ids": [
+            "mp_independence_jan2025"
+          ]
+        },
+        {
+          "id": "independence_magnets_capacity_1",
+          "measure": "capacity",
+          "product": "Finished NdFeB magnets",
+          "value": 3000,
+          "unit": "metric tons magnets/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "projected expanded Independence capacity under government partnership",
+          "basis": "Sintered NdFeB magnets",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        }
+      ],
+      "money_refs": [
+        "magnetics_capex_h1_2026",
+        "independence_48c_award",
+        "apple_commitment",
+        "apple_prepayments"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Finished/qualified delivered magnet tonnes not public.",
+        "Separate final facility cost, 3,000t/y completion date and machine-stage costs not identified."
+      ],
+      "caution": "1,000 and 3,000 are alternative initial/expanded capacities, not additive; neither is customer-qualified delivery.",
+      "schedule": []
+    },
+    {
+      "id": "10x_northlake",
+      "record_type": "facility",
+      "name": "10X · Northlake",
+      "site": "10X, Northlake, Texas, USA",
+      "country": "United States",
+      "operator": "MP Materials",
+      "stage_ids": [
+        "magnets"
+      ],
+      "stage_description": "planned large-scale NdFeB magnet manufacturing campus",
+      "product": "Sintered NdFeB magnets and/or finished magnet products",
+      "status": "construction underway; site purchased April 2026",
+      "status_date": "2026-06-30",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "records": [
+        {
+          "id": "10x_northlake_actual_0",
+          "measure": "actual_output",
+          "product": "Finished NdFeB magnets",
+          "value": null,
+          "unit": "metric tons finished magnets",
+          "period": "2026-H1",
+          "status": "Not reported / not verified",
+          "basis": "Sintered NdFeB magnets and/or finished magnet products",
+          "reason": "Construction project; no operating output reported.",
+          "source_ids": [
+            "mp_10q_q2_2026",
+            "mp_q2_2026_release"
+          ]
+        },
+        {
+          "id": "10x_northlake_capacity_0",
+          "measure": "capacity",
+          "product": "Finished NdFeB magnets",
+          "value": 7000,
+          "unit": "metric tons magnets/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "planned, once completed and scaled",
+          "basis": "Sintered NdFeB magnets and/or finished magnet products",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        }
+      ],
+      "money_refs": [
+        "10x_total_investment",
+        "10x_land_spend",
+        "texas_local_incentive_package",
+        "texas_tef_grant",
+        "texas_tsif_grant",
+        "bank_commitment_2025",
+        "dod_magnet_offtake",
+        "magnetics_capex_h1_2026"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Full-capacity/qualification date and total project spend to date not separately disclosed.",
+        "No division of campus budget into metal/alloy/powder/sintering/finishing machines."
+      ],
+      "caution": null,
+      "schedule": [
+        {
+          "date": "2028",
+          "kind": "commissioning begins, not full-capacity output date",
+          "source_id": "mp_10x_feb2026"
+        }
+      ]
+    },
+    {
+      "id": "mountain_pass_hree",
+      "record_type": "facility",
+      "name": "Mountain Pass · heavy-REE expansion",
+      "site": "Mountain Pass, California, USA",
+      "country": "United States",
+      "operator": "MP Materials",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "heavy/medium rare-earth separation expansion",
+      "product": "Dy/Tb separated products, plus planned samarium oxide and other products",
+      "status": "Q2 2026 filing expected initial Tb/Dy refining in second half 2026; successful start/qualified output not verified as of cutoff",
+      "status_date": "See dated source disclosure",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "records": [
+        {
+          "id": "mountain_pass_hree_actual_0",
+          "measure": "actual_output",
+          "product": "Dy/Tb/Sm separated product",
+          "value": null,
+          "unit": "metric tons separated Dy/Tb/Sm product",
+          "period": "2026-H1",
+          "status": "Not reported / not verified",
+          "basis": "Dy/Tb separated products, plus planned samarium oxide and other products",
+          "reason": "No numerical operating output identified.",
+          "source_ids": [
+            "mp_10q_q2_2026",
+            "mp_q2_2026_release"
+          ]
+        },
+        {
+          "id": "mountain_pass_hree_capacity_0",
+          "measure": "capacity",
+          "product": "HREE circuit feedstock",
+          "value": 3000,
+          "unit": "metric tons feedstock/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "designed feed throughput; not separated-oxide output",
+          "basis": "Input feedstock mass processed by the heavy/medium rare-earth circuit, not separated-product output.",
+          "source_ids": [
+            "mp_q3_2025_release"
+          ]
+        },
+        {
+          "id": "mountain_pass_hree_capacity_1",
+          "measure": "capacity",
+          "product": "Dy/Tb circuit output · chemical basis unspecified",
+          "value": 200,
+          "unit": "metric tons Dy/Tb circuit output/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "nameplate, but capacity sentence does not specify oxide vs contained-metal basis",
+          "basis": "Dy/Tb circuit-output mass. The capacity sentence does not confirm an oxide or contained-metal basis. No individual Dy/Tb split or samarium capacity is derived.",
+          "source_ids": [
+            "mp_q3_2025_release"
+          ]
+        }
+      ],
+      "money_refs": [
+        "dod_hree_grant",
+        "dod_samarium_loan",
+        "materials_capex_h1_2026"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Exact chemical basis of 200t/y statement must remain unspecified until source confirms.",
+        "Commercial operating output, final project cost and samarium annual capacity not identified."
+      ],
+      "caution": null,
+      "schedule": [
+        {
+          "date": "2026-H2",
+          "kind": "latest expected initial refining; supersedes earlier mid2026 commissioning target",
+          "source_id": "mp_10q_q2_2026"
+        }
+      ]
+    },
+    {
+      "id": "mountain_pass_recycling",
+      "record_type": "facility",
+      "name": "Mountain Pass / Independence · recycling",
+      "site": "Mountain Pass, California, linked to Independence, Texas",
+      "country": "United States",
+      "operator": "MP Materials",
+      "stage_ids": [
+        "separation",
+        "magnets"
+      ],
+      "stage_description": "planned scaled recycling and recycled-product separation",
+      "product": "Recovered rare earth feed for recycled NdFeB magnets",
+      "status": "development under Apple agreement",
+      "status_date": "See dated source disclosure",
+      "source_ids": [
+        "mp_10k_2025"
+      ],
+      "records": [
+        {
+          "id": "mountain_pass_recycling_capacity_0",
+          "measure": "capacity",
+          "product": "Recovered rare-earth feed",
+          "value": null,
+          "unit": "metric tons feed/year or recovered oxide/year",
+          "period": "Disclosure-specific annual rate",
+          "status": "No separate public capacity identified.",
+          "basis": "Recovered rare earth feed for recycled NdFeB magnets",
+          "source_ids": [
+            "mp_10k_2025"
+          ]
+        }
+      ],
+      "money_refs": [
+        "apple_commitment",
+        "apple_prepayments",
+        "materials_capex_h1_2026"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Recycling-line standalone capacity, budget and completion date not extracted."
+      ],
+      "caution": null,
+      "schedule": [
+        {
+          "date": "2027, no earlier than latter half per June2026 filing",
+          "product": "Apple magnets from Independence, not recycling-line full capacity",
+          "source_id": "mp_10q_q2_2026"
+        }
+      ]
+    },
+    {
+      "id": "usare_blacksburg",
+      "record_type": "facility_or_chain",
+      "name": "Blacksburg campus",
+      "site": "Blacksburg campus · United States",
+      "country": "United States",
+      "operator": "USA Rare Earth",
+      "stage_ids": [
+        "metal",
+        "magnets"
+      ],
+      "stage_description": "metal/alloy / sintered magnet manufacturing",
+      "product": "sintered NdFeB magnets; strip-cast metal and alloy",
+      "status": "Groundbreaking reported 9 September 2026; commissioning targeted to begin in 2028.",
+      "status_date": "2026-09-09",
+      "source_ids": [
+        "USAR_BLACKSBURG"
+      ],
+      "records": [
+        {
+          "id": "usare_blacksburg_record_0",
+          "measure": "capacity",
+          "product": "sintered NdFeB magnets",
+          "value": 6400,
+          "unit": "metric tonnes/year",
+          "period": "commissioning from2028",
+          "status": "planned nameplate",
+          "basis": "whole magnet mass",
+          "source_ids": [
+            "USAR_BLACKSBURG"
+          ]
+        },
+        {
+          "id": "usare_blacksburg_record_1",
+          "measure": "capacity",
+          "product": "strip-cast metal and alloy",
+          "value": 5000,
+          "unit": "metric tonnes/year",
+          "period": "commissioning from2028",
+          "status": "planned nameplate",
+          "basis": "alloy mass",
+          "source_ids": [
+            "USAR_BLACKSBURG"
+          ]
+        }
+      ],
+      "money_refs": [
+        "usare_blacksburg_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The $1.2B estimate spans the combined metal/alloy/magnet campus; no stage or qualification allocation.",
+        "Achieved output, named feedstock shipments and qualified end-customer delivery are not reported here."
+      ],
+      "original_raw_gaps": [
+        "No allocation of $1.2B to stages or qualification; no achieved output; no named feedstock shipments or qualified end-customer delivery."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "white_mesa_phase1_existing",
+      "record_type": "facility_or_chain",
+      "name": "White Mesa existing Phase1",
+      "site": "White Mesa existing Phase1 · United States",
+      "country": "United States",
+      "operator": "Energy Fuels",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "crack/leach / separation/oxide",
+      "product": "monazite; separated NdPr",
+      "status": "Commissioned in 2024, with commercial NdPr capability. Shared crack/leach circuits switch between rare-earth and conventional uranium campaigns.",
+      "status_date": "2026-08-05",
+      "source_ids": [
+        "EF_10Q26Q2"
+      ],
+      "records": [
+        {
+          "id": "white_mesa_phase1_existing_record_0",
+          "measure": "capacity",
+          "product": "monazite",
+          "value": [
+            8000,
+            10000
+          ],
+          "unit": "tonnes/year",
+          "period": "existing",
+          "status": "design capacity",
+          "basis": "feed mass",
+          "source_ids": [
+            "EF_10Q26Q2"
+          ]
+        },
+        {
+          "id": "white_mesa_phase1_existing_record_1",
+          "measure": "capacity",
+          "product": "separated NdPr",
+          "value": [
+            850,
+            1000
+          ],
+          "unit": "tonnes/year",
+          "period": "existing",
+          "status": "design capacity",
+          "basis": "recoverable oxide output per source",
+          "source_ids": [
+            "EF_10Q26Q2"
+          ]
+        }
+      ],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Current annual throughput and stage-specific construction spend are not verified. Design capacity is not achieved annual output."
+      ],
+      "original_raw_gaps": [
+        "Current annualized throughput and current stage-specific construction spend not verified here; capacity is not achieved annual output."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "white_mesa_phase1_hre_expansion",
+      "record_type": "facility_or_chain",
+      "name": "White Mesa Phase1 HRE/MREC expansion",
+      "site": "White Mesa Phase1 HRE/MREC expansion · United States",
+      "country": "United States",
+      "operator": "Energy Fuels",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "separation/oxide / MREC processing",
+      "product": "Tb oxide; Dy oxide",
+      "status": "Construction began 29 July 2026. Tb/Dy circuits expected by end-2027; other circuits in 2028 depending on market needs.",
+      "status_date": "2026-07-29",
+      "source_ids": [
+        "EF_HRE_BUILD",
+        "EF_10Q26Q2"
+      ],
+      "records": [
+        {
+          "id": "white_mesa_phase1_hre_expansion_record_0",
+          "measure": "capacity",
+          "product": "Tb oxide",
+          "value": 20,
+          "unit": "tonnes/year",
+          "period": "end2027",
+          "status": "planned maximum",
+          "basis": "maximum design dependent on feed composition/recovery",
+          "source_ids": [
+            "EF_HRE_BUILD",
+            "EF_10Q26Q2"
+          ]
+        },
+        {
+          "id": "white_mesa_phase1_hre_expansion_record_1",
+          "measure": "capacity",
+          "product": "Dy oxide",
+          "value": 120,
+          "unit": "tonnes/year",
+          "period": "end2027",
+          "status": "planned maximum",
+          "basis": "maximum design dependent on feed composition/recovery",
+          "source_ids": [
+            "EF_HRE_BUILD",
+            "EF_10Q26Q2"
+          ]
+        }
+      ],
+      "money_refs": [
+        "white_mesa_phase1_hre_expansion_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The $104M estimate covers the HRE/MREC expansion and additional products, not Dy/Tb alone.",
+        "Q2 narrative confirms upgraded 20 t/y Tb and 120 t/y Dy designs, while the retained BFS table still has 14 and 48. These alternatives are not added."
+      ],
+      "original_raw_gaps": [
+        "Do not assign $104M entirely to Dy/Tb. Q2 filing narrative confirms20Tb/120Dy while retained BFS table reports14Tb/48Dy; show dated design upgrade and source inconsistency, do not add the two.",
+        "Conditional government loan support and grant applications are not paid construction costs."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "white_mesa_phase2",
+      "record_type": "facility_or_chain",
+      "name": "White Mesa Phase2 stand-alone circuit",
+      "site": "White Mesa Phase2 stand-alone circuit · United States",
+      "country": "United States",
+      "operator": "Energy Fuels",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "crack/leach / separation/oxide",
+      "product": "NdPr oxide; Tb oxide; Dy oxide",
+      "status": "Feasibility, permitting and financing stage. Positive final investment decision and sufficient feedstock are required; Q2 filing targets mid-2029.",
+      "status_date": "2026-08-05",
+      "source_ids": [
+        "EF_10Q26Q2",
+        "EF_PHASE2_BFS"
+      ],
+      "records": [
+        {
+          "id": "white_mesa_phase2_record_0",
+          "measure": "capacity",
+          "product": "NdPr oxide",
+          "value": 5229,
+          "unit": "tonnes/year",
+          "period": "mid2029 conditional",
+          "status": "planned design",
+          "basis": "Phase2 incremental capacity in BFS table",
+          "source_ids": [
+            "EF_10Q26Q2",
+            "EF_PHASE2_BFS"
+          ]
+        },
+        {
+          "id": "white_mesa_phase2_record_1",
+          "measure": "capacity",
+          "product": "Tb oxide",
+          "value": 66,
+          "unit": "tonnes/year",
+          "period": "mid2029 conditional",
+          "status": "planned design",
+          "basis": "Phase2 incremental capacity in BFS table",
+          "source_ids": [
+            "EF_10Q26Q2",
+            "EF_PHASE2_BFS"
+          ]
+        },
+        {
+          "id": "white_mesa_phase2_record_2",
+          "measure": "capacity",
+          "product": "Dy oxide",
+          "value": 240,
+          "unit": "tonnes/year",
+          "period": "mid2029 conditional",
+          "status": "planned design",
+          "basis": "Phase2 incremental capacity in BFS table",
+          "source_ids": [
+            "EF_10Q26Q2",
+            "EF_PHASE2_BFS"
+          ]
+        }
+      ],
+      "money_refs": [
+        "white_mesa_phase2_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The BFS combined table retains an earlier Phase 1 heavy-REE design; the July release also quotes a different combined NdPr figure. No reconciled total is invented.",
+        "Initial Phase 2 capex does not include all upstream mine acquisition/financing. Final investment decision and achieved nameplate are not verified."
+      ],
+      "original_raw_gaps": [
+        "BFS combined table6,229NdPr/80Tb/288Dy retains earlier Phase1 heavy design14/48. July29 release uses6,294NdPr plus80Tb/288Dy. Do not silently create a reconciled total or sum new Phase1max with old Phase2 design.",
+        "Stage2 initial capex excludes whole upstream mine acquisition/financing; FID and achieved nameplate not verified."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "kmp_alloy",
+      "record_type": "facility_or_chain",
+      "name": "Korean Metals Plant, Ochang",
+      "site": "Korean Metals Plant, Ochang · South Korea",
+      "country": "South Korea",
+      "operator": "Energy Fuels/ASM",
+      "stage_ids": [
+        "metal"
+      ],
+      "stage_description": "metal/master-alloy / strip-cast alloy",
+      "product": "NdFeB alloy",
+      "status": "Operating. Expansion commissioning expected as early as end-2026.",
+      "status_date": "2026-08-28",
+      "source_ids": [
+        "EF_ASM"
+      ],
+      "records": [
+        {
+          "id": "kmp_alloy_record_0",
+          "measure": "capacity",
+          "product": "NdFeB alloy",
+          "value": 1300,
+          "unit": "tonnes/year",
+          "period": "current",
+          "status": "existing nameplate",
+          "basis": "alloy mass",
+          "source_ids": [
+            "EF_ASM"
+          ]
+        },
+        {
+          "id": "kmp_alloy_record_1",
+          "measure": "capacity",
+          "product": "NdFeB alloy",
+          "value": 3600,
+          "unit": "tonnes/year",
+          "period": "end2026 target",
+          "status": "expanded planned nameplate",
+          "basis": "alloy mass",
+          "source_ids": [
+            "EF_ASM"
+          ]
+        }
+      ],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Expansion capex and achieved annual output are not disclosed in the acquisition release. Acquisition consideration is not metallization capex."
+      ],
+      "original_raw_gaps": [
+        "Expansion capex and achieved annual output not disclosed in cited acquisition release. Acquisition consideration is not metallization capex."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "varamada_mine",
+      "record_type": "facility_or_chain",
+      "name": "Vara Mada/Ranobe mineral sands project",
+      "site": "Vara Mada/Ranobe mineral sands project · Madagascar",
+      "country": "Madagascar",
+      "operator": "Energy Fuels",
+      "stage_ids": [
+        "mining"
+      ],
+      "stage_description": "mining / beneficiation/mineral concentration",
+      "product": "mineral-sands processing; mineral-sands mining; monazite concentrate",
+      "status": "Feasibility study. Legal/fiscal regime, monazite permit and final investment decision remain conditions.",
+      "status_date": "2026-01-08",
+      "source_ids": [
+        "EF_VARA_FS",
+        "EF_10Q26Q2"
+      ],
+      "records": [
+        {
+          "id": "varamada_mine_record_0",
+          "measure": "capacity",
+          "product": "mineral-sands processing",
+          "value": 13000000,
+          "unit": "tonnes/year",
+          "period": "postFID",
+          "status": "Stage1 planned",
+          "basis": "whole ore processing rate rounded in release",
+          "source_ids": [
+            "EF_VARA_FS",
+            "EF_10Q26Q2"
+          ]
+        },
+        {
+          "id": "varamada_mine_record_1",
+          "measure": "capacity",
+          "product": "mineral-sands mining",
+          "value": 25000000,
+          "unit": "tonnes/year",
+          "period": "later expansion",
+          "status": "Stage2 planned",
+          "basis": "whole ore mining rate",
+          "source_ids": [
+            "EF_VARA_FS",
+            "EF_10Q26Q2"
+          ]
+        },
+        {
+          "id": "varamada_mine_record_2",
+          "measure": "capacity",
+          "product": "monazite concentrate",
+          "value": 24000,
+          "unit": "tonnes/year",
+          "period": "modelled mine life",
+          "status": "projected output",
+          "basis": "modelled annual average excluding first/last partial years",
+          "source_ids": [
+            "EF_VARA_FS",
+            "EF_10Q26Q2"
+          ]
+        }
+      ],
+      "money_refs": [
+        "varamada_mine_money_0",
+        "varamada_mine_money_1",
+        "varamada_mine_money_2"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The capex covers a multi-product mineral-sands project; no allocation to Nd, Pr, Dy or Tb extraction or White Mesa separation.",
+        "All forecast outputs remain planned. Full-study cost and commodity assumptions are needed for budgeting."
+      ],
+      "original_raw_gaps": [
+        "No allocation to individual Nd/Pr/Dy/Tb extraction or downstream White Mesa separation. Planned output is not current supply; current cost base/commodity assumptions must be checked in full FS for budgeting."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "round_top_investment",
+      "record_type": "facility_or_chain",
+      "name": "Round Top",
+      "site": "Round Top · United States",
+      "country": "United States",
+      "operator": "USA Rare Earth",
+      "stage_ids": [
+        "mining",
+        "separation"
+      ],
+      "stage_description": "mine development / processing development",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Development, demonstration and feasibility work. Commercial output is not established.",
+      "status_date": "2026-05-12",
+      "source_ids": [
+        "USAR_ROUNDTOP_GRANT",
+        "USAR_10Q26Q2"
+      ],
+      "records": [],
+      "money_refs": [
+        "round_top_investment_money_0",
+        "round_top_investment_money_1"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Mine/separation stage shares and commercial output capacity are unverified. The expected >$1.4B is across the project.",
+        "The conditional reimbursement grant is support toward eligible costs, not total capex or proof of cash already disbursed."
+      ],
+      "original_raw_gaps": [
+        "DFS not published in cited latest Q2 evidence; mine/separation stage shares and commercial output capacity unverified.",
+        "Grant is support toward eligible costs, not total capex or cash already disbursed."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "usare_sep_pilot",
+      "record_type": "facility_or_chain",
+      "name": "USA Rare Earth pilot-scale separation project",
+      "site": "USA Rare Earth pilot-scale separation project · United States",
+      "country": "United States",
+      "operator": "USA Rare Earth",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "pilot separation/oxide / process validation",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Selected for DOE award negotiations on 21 May 2026. Final agreement and funds had not been received as of 30 June 2026.",
+      "status_date": "2026-08-10",
+      "source_ids": [
+        "USAR_10Q26Q2"
+      ],
+      "records": [],
+      "money_refs": [
+        "usare_sep_pilot_money_0",
+        "usare_sep_pilot_money_1",
+        "usare_sep_pilot_money_2"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The $50.5M proposed total includes $19.3M potential DOE and $31.2M non-DOE shares; do not add total and shares.",
+        "Selection for negotiation is not an executed federal grant. Product-specific throughput and qualification costs are unknown."
+      ],
+      "original_raw_gaps": [
+        "Do not count selection as executed federal grant or separate totalprojectvalue+shares. No product-specific nameplate or qualification cost."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "lynas_separated_output",
+      "record_type": "facility_or_chain",
+      "name": "Lynas chain",
+      "site": "Lynas chain · Australia/Malaysia",
+      "country": "Australia/Malaysia",
+      "operator": "Lynas",
+      "stage_ids": [
+        "mining",
+        "separation"
+      ],
+      "stage_description": "mining/concentration / crack/leach / separation/oxide",
+      "product": "NdPr oxide; total rare-earth oxides",
+      "status": "Operating and ramping. FY2026 NdPr and total REO output are reported for the linked Australia–Malaysia chain.",
+      "status_date": "2026-08-26",
+      "source_ids": [
+        "LYNAS_AR"
+      ],
+      "records": [
+        {
+          "id": "lynas_separated_output_record_0",
+          "measure": "actual_output",
+          "product": "NdPr oxide",
+          "value": 7260,
+          "unit": "tonnes",
+          "period": "FY2026",
+          "status": "reported output",
+          "basis": "Actual NdPr oxide production for the fiscal year ended 30 June 2026.",
+          "source_ids": [
+            "LYNAS_AR"
+          ]
+        },
+        {
+          "id": "lynas_separated_output_record_1",
+          "measure": "actual_output",
+          "product": "total rare-earth oxides",
+          "value": 13089,
+          "unit": "tonnes",
+          "period": "FY2026",
+          "status": "reported output",
+          "basis": "Total rare-earth-oxide output across the reported product suite, not a NdPr/Dy/Tb-only total.",
+          "source_ids": [
+            "LYNAS_AR"
+          ]
+        }
+      ],
+      "money_refs": [
+        "lynas_separated_output_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The A$1.5B cumulative investment claim spans operating assets and stages; no stage split.",
+        "Dy/Tb shipments are reported without element tonnage. Fiscal-year output is not nameplate capacity."
+      ],
+      "original_raw_gaps": [
+        "No stage breakdown of A$1.5B in cited claim; Dy/Tb shipments reported without element tonnes. Do not treat FYoutput asnameplate."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "lynas_malaysia_hre",
+      "record_type": "facility_or_chain",
+      "name": "Malaysia HRE expansion",
+      "site": "Malaysia HRE expansion · Malaysia",
+      "country": "Malaysia",
+      "operator": "Lynas",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "separation/oxide",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Critical equipment orders placed. Staged startup of further HRE products expected in early FY2028 / calendar 2028.",
+      "status_date": "2026-08-26",
+      "source_ids": [
+        "LYNAS_AR"
+      ],
+      "records": [],
+      "money_refs": [
+        "lynas_malaysia_hre_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The prior A$180M estimate was superseded by A$294M including contingency. Individual expanded Dy/Tb nameplates are not disclosed here.",
+        "The company attributes the increase to purity/form equipment, equipment sourcing outside China and geopolitical cost escalation; this is its explanation, not a causal estimate."
+      ],
+      "original_raw_gaps": [
+        "Previous estimatedA$180M superseded; no individual Dy/Tb expanded nameplate in cited section.",
+        "Company attributes rise to additional purity/form equipment, equipment sourcing outsideChina and geopolitical cost escalation; reported explanation, not causal estimate."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "solvay_la_rochelle",
+      "record_type": "facility_or_chain",
+      "name": "La Rochelle",
+      "site": "La Rochelle · France",
+      "country": "France",
+      "operator": "Solvay",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "separation/oxide",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Industrial NdPr production since April 2025. Dy/Tb industrial start was announced for autumn 2026; achieved startup is not verified here.",
+      "status_date": "2026-Q2 publication",
+      "source_ids": [
+        "SOLVAY_Q2",
+        "SOLVAY_Q3_2025"
+      ],
+      "records": [],
+      "money_refs": [
+        "solvay_la_rochelle_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Absolute element output and qualification-cost splits are not disclosed.",
+        "The €15–20M approval is not added to the older €50–100M staged 2030 ambition."
+      ],
+      "original_raw_gaps": [
+        "No absolute element tonnage or qualification-cost split. Broader €50–100M staged2030 ambition from older transcript must not simply be added to this approval."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "lcm_property",
+      "record_type": "facility_or_chain",
+      "name": "LCM Hooton Park/Ellesmere Port",
+      "site": "LCM Hooton Park/Ellesmere Port · United Kingdom",
+      "country": "United Kingdom",
+      "operator": "USA Rare Earth/LCM",
+      "stage_ids": [
+        "metal"
+      ],
+      "stage_description": "metal/alloy",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Commercial metallization capability verified separately. Previously leased land/building purchased on 2 July 2026.",
+      "status_date": "2026-08-10",
+      "source_ids": [
+        "USAR_10Q26Q2",
+        "LCM_METAL"
+      ],
+      "records": [],
+      "money_refs": [
+        "lcm_property_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The £7M property purchase is not full metalmaking replacement/construction capex or element-specific capacity."
+      ],
+      "original_raw_gaps": [
+        "Property purchase is not full metalmaking replacement/construction capex or element-specific capacity. Expansion and operating costs unverified."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "serra_verde",
+      "record_type": "facility_or_chain",
+      "name": "Pela Ema",
+      "site": "Pela Ema · Brazil",
+      "country": "Brazil",
+      "operator": "USA Rare Earth/Serra Verde",
+      "stage_ids": [
+        "mining",
+        "separation"
+      ],
+      "stage_description": "mining / chemical processing/MREC",
+      "product": "TREO in product",
+      "status": "Production began January 2024. Optimization, commissioning and next-stage construction were underway as of 4 September 2026.",
+      "status_date": "2026-09-04",
+      "source_ids": [
+        "USAR_SV",
+        "USAR_SV_SPV"
+      ],
+      "records": [
+        {
+          "id": "serra_verde_record_0",
+          "measure": "capacity",
+          "product": "TREO in product",
+          "value": 4000,
+          "unit": "tons/year",
+          "period": "end2026",
+          "status": "targetrunrate",
+          "basis": "Total rare-earth-oxide equivalent in product, not the output of each magnet rare-earth element.",
+          "source_ids": [
+            "USAR_SV",
+            "USAR_SV_SPV"
+          ]
+        },
+        {
+          "id": "serra_verde_record_1",
+          "measure": "capacity",
+          "product": "TREO in product",
+          "value": 6400,
+          "unit": "tons/year",
+          "period": "commissioningwithin12months",
+          "status": "nextstage target",
+          "basis": "Average total rare-earth-oxide equivalent in product, not an element-specific output.",
+          "source_ids": [
+            "USAR_SV",
+            "USAR_SV_SPV"
+          ]
+        }
+      ],
+      "money_refs": [
+        "serra_verde_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The >$1B cumulative investment claim is not a verified stage-specific capex figure. The $2.8B acquisition valuation is not capacity investment.",
+        "TREO targets do not establish Nd, Pr, Dy or Tb output, conversion yield or U.S. deliveries."
+      ],
+      "original_raw_gaps": [
+        "Cumulative investment is not verified stage capex. $2.8B acquisition valuation not capacity investment. Element-specific outputs and conversionyield missing."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "usare_doc_financing",
+      "record_type": "context",
+      "name": "USAR domestic projects financing",
+      "site": "USAR domestic projects financing · United States",
+      "country": "United States",
+      "operator": "USA Rare Earth",
+      "stage_ids": [
+        "context"
+      ],
+      "stage_description": "cross-stage financing",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Definitive agreements signed 3 June 2026. No direct funding disbursements or loan advances as of 30 June 2026.",
+      "status_date": "2026-08-10",
+      "source_ids": [
+        "USAR_10Q26Q2"
+      ],
+      "records": [],
+      "money_refs": [
+        "usare_doc_financing_money_0",
+        "usare_doc_financing_money_1"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "No stage allocation. Direct funding and loan guarantees have conditions and involve equity/warrants; they are not capex paid."
+      ],
+      "original_raw_gaps": [
+        "No stage allocation; directfunding entails equity andloanfacility entailswarrants. Financingaccess is not capexpaid orfreecash grant."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "ef_osc_financing",
+      "record_type": "context",
+      "name": "White Mesa and planned American Metals Plant",
+      "site": "White Mesa and planned American Metals Plant · United States",
+      "country": "United States",
+      "operator": "Energy Fuels",
+      "stage_ids": [
+        "context"
+      ],
+      "stage_description": "cross-stage financing / separation / plannedmetal/alloy",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Conditional loan commitment. Additional diligence and financial-close conditions remain.",
+      "status_date": "2026-06-23",
+      "source_ids": [
+        "EF_VAC_DEAL",
+        "EF_ASM"
+      ],
+      "records": [],
+      "money_refs": [
+        "ef_osc_financing_money_0"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The up-to $725M loan commitment is conditional, spans multiple projects and is not loan cash already drawn or capex spent."
+      ],
+      "original_raw_gaps": [
+        "No stage allocation; not capexspent orloanalreadydrawn. VAC $41Mgrant belongsVACpending acquisition atlatestAug28; notcurrentlyEnergyFuelsfreefunding."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "sv_spv_support",
+      "record_type": "context",
+      "name": "Serra Verde Phase1 offtake SPV",
+      "site": "Serra Verde Phase1 offtake SPV · United States-linked; SPV physical delivery geography not verified",
+      "country": "United States-linked; SPV physical delivery geography not verified",
+      "operator": "SPV purchaser / U.S. government and private finance",
+      "stage_ids": [
+        "context"
+      ],
+      "stage_description": "offtake/workingcapital / securityprocurement",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Capitalization arrangements announced 24 August 2026. Bank facility remains conditional. Fifteen-year Phase 1 offtake is not a documented shipment.",
+      "status_date": "2026-08-24",
+      "source_ids": [
+        "USAR_SV_SPV"
+      ],
+      "records": [],
+      "money_refs": [
+        "sv_spv_support_money_0",
+        "sv_spv_support_money_1",
+        "sv_spv_support_money_2",
+        "sv_spv_support_money_3"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "The $1.55B headline combines different instruments; it is not construction capex or a verified physical stockpile.",
+        "Actual SPV customer, separation/metalmaking endpoint and delivery geography remain unverified."
+      ],
+      "original_raw_gaps": [
+        "Headline$1.55B combines different instruments; not$1.55Bconstructioncapex orcurrentphysicalstockpile. ActualSPVcustomer, separatedoxide/metalmaker anddeliveriesunverified."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "qualification_cost_gap",
+      "record_type": "context",
+      "name": "Customer/material/part qualification",
+      "site": "Customer/material/part qualification · United States/allied",
+      "country": "United States/allied",
+      "operator": "customer and supplier specific",
+      "stage_ids": [
+        "magnets"
+      ],
+      "stage_description": "qualification / qualifieddelivery",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "Pilot output, oxide acceptance, magnet commissioning and customer qualification are different milestones. General qualification cost and duration are not disclosed.",
+      "status_date": "2026-10-07",
+      "source_ids": [
+        "MP_Q2",
+        "USAR_10Q26Q2",
+        "EF_QUAL"
+      ],
+      "records": [],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "No universal public cost per qualified part or qualification lead time.",
+        "Optimization requires a fixed budget, horizon, grade/end use, service target, yield and customer-specific qualification inputs; this page does not rank interventions."
+      ],
+      "original_raw_gaps": [
+        "No generalpubliccostperqualifiedpart or universalqualificationleadtime. Userbudget/horizon/servicelevelandtargetgrade/enduse, rejectionyieldandqualificationcostneededforoptimization; noautomaticrank."
+      ],
+      "schedule": []
+    },
+    {
+      "id": "china_magnet_ree_shares2024",
+      "record_type": "context",
+      "name": "China · 2024 stage-concentration context",
+      "site": "China · 2024 stage-concentration context · China",
+      "country": "China",
+      "operator": "national aggregate",
+      "stage_ids": [
+        "mining",
+        "separation",
+        "magnets"
+      ],
+      "stage_description": "mining / refining/separation / sintered magnets",
+      "product": "Combined magnet rare-earth supply chain; not element-specific shares.",
+      "status": "IEA historical estimates",
+      "status_date": "2024",
+      "source_ids": [
+        "IEA_RE_PDF",
+        "IEA_RE_SUM"
+      ],
+      "records": [
+        {
+          "id": "china_magnet_ree_shares2024_metric_0",
+          "measure": "share",
+          "product": "China share · mining",
+          "value": 60,
+          "unit": "percent of global magnet-REE mine production",
+          "period": "2024",
+          "status": "IEA historical estimates",
+          "basis": "Historical combined magnet-REE chain estimate; each stage has its own global product denominator.",
+          "source_ids": [
+            "IEA_RE_PDF",
+            "IEA_RE_SUM"
+          ]
+        },
+        {
+          "id": "china_magnet_ree_shares2024_metric_1",
+          "measure": "share",
+          "product": "China share · refining/separation",
+          "value": 91,
+          "unit": "percent of global magnet-REE refined production",
+          "period": "2024",
+          "status": "IEA historical estimates",
+          "basis": "Historical combined magnet-REE chain estimate; each stage has its own global product denominator.",
+          "source_ids": [
+            "IEA_RE_PDF",
+            "IEA_RE_SUM"
+          ]
+        },
+        {
+          "id": "china_magnet_ree_shares2024_metric_2",
+          "measure": "share",
+          "product": "China share · sintered magnets",
+          "value": 94,
+          "unit": "percent of global sintered permanent-magnet production",
+          "period": "2024",
+          "status": "IEA historical estimates",
+          "basis": "Historical combined magnet-REE chain estimate; each stage has its own global product denominator.",
+          "source_ids": [
+            "IEA_RE_PDF",
+            "IEA_RE_SUM"
+          ]
+        }
+      ],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Shares have different product denominators. Do not multiply the mining share by all-REE tonnes or convert them into 2026 economic value."
+      ],
+      "schedule": [],
+      "ingredients": [
+        "Nd",
+        "Pr",
+        "Dy",
+        "Tb"
+      ]
+    },
+    {
+      "id": "china_all_ree_mine2025",
+      "record_type": "context",
+      "name": "China · all-REE mine-production estimate",
+      "site": "China · all-REE mine-production estimate · China",
+      "country": "China",
+      "operator": "national aggregate",
+      "stage_ids": [
+        "mining"
+      ],
+      "stage_description": "mining",
+      "product": "All-REE aggregate, including yttrium and excluding most scandium; no Nd/Pr/Dy/Tb allocation.",
+      "status": "USGS reported estimate / aggregate proxy",
+      "status_date": "2025 estimate",
+      "source_ids": [
+        "USGS_RE",
+        "USGS_HRE"
+      ],
+      "records": [
+        {
+          "id": "china_all_ree_mine2025_metric_0",
+          "measure": "estimated_output",
+          "product": "rare-earth mine production",
+          "value": 270000,
+          "unit": "metric tonnes REO equivalent",
+          "period": "2025 estimate",
+          "status": "USGS reported estimate / aggregate proxy",
+          "basis": "All-REE mine-production estimate based on reported quotas; includes yttrium and excludes most scandium. No element allocation.",
+          "source_ids": [
+            "USGS_RE",
+            "USGS_HRE"
+          ]
+        }
+      ],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "USGS figure is based on reported production quotas and excludes undocumented production. It is not verified element-specific mine output, feedstock imported into China, reserves, or separation output."
+      ],
+      "schedule": [],
+      "ingredients": []
+    },
+    {
+      "id": "china_all_ree_quota2024",
+      "record_type": "context",
+      "name": "China · 2024 all-REE quotas",
+      "site": "China · 2024 all-REE quotas · China",
+      "country": "China",
+      "operator": "national aggregate",
+      "stage_ids": [
+        "mining",
+        "separation"
+      ],
+      "stage_description": "mining / smelting/separation",
+      "product": "All-REE oxide-equivalent quotas; group allocation and light/heavy families are not Nd/Dy/Tb output.",
+      "status": "quota summarized by USGS",
+      "status_date": "2024",
+      "source_ids": [
+        "USGS_CHINA"
+      ],
+      "records": [
+        {
+          "id": "china_all_ree_quota2024_metric_0",
+          "measure": "quota",
+          "product": "All-REE administrative quota · mining",
+          "value": 270000,
+          "unit": "metric tonnes REO equivalent",
+          "period": "2024",
+          "status": "quota summarized by USGS",
+          "basis": "Annual oxide-equivalent administrative quota, not independently measured achieved production or nameplate capacity.",
+          "source_ids": [
+            "USGS_CHINA"
+          ]
+        },
+        {
+          "id": "china_all_ree_quota2024_metric_1",
+          "measure": "quota",
+          "product": "All-REE administrative quota · smelting/separation",
+          "value": 254000,
+          "unit": "metric tonnes REO equivalent",
+          "period": "2024",
+          "status": "quota summarized by USGS",
+          "basis": "Annual oxide-equivalent administrative quota, not independently measured achieved production or nameplate capacity.",
+          "source_ids": [
+            "USGS_CHINA"
+          ]
+        }
+      ],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Administrative quota is not independently measured achieved output or nameplate capacity. Original full-year MIIT/MNR quota notice was not independently located in this bounded research."
+      ],
+      "schedule": [],
+      "ingredients": []
+    },
+    {
+      "id": "northern_integrated_revenue2025",
+      "record_type": "context",
+      "name": "China Northern Rare Earth · company accounts",
+      "site": "China Northern Rare Earth · company accounts · China",
+      "country": "China",
+      "operator": "China Northern Rare Earth Group High-Tech",
+      "stage_ids": [
+        "context"
+      ],
+      "stage_description": "integrated rare-earth products / materials / applications / trading / environmental services",
+      "product": "Company revenue includes several stages and non-magnet REEs; no element or stage allocation.",
+      "status": "reported company accounts",
+      "status_date": "FY2025",
+      "source_ids": [
+        "NORTHERN_AR"
+      ],
+      "records": [],
+      "money_refs": [
+        "northern_integrated_revenue2025_revenue"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "This is neither Chinese national rare-earth revenue nor GDP/value added. Product categories bundle oxides, metals and functional materials; do not allocate them to mining, separation or metalmaking."
+      ],
+      "schedule": [],
+      "ingredients": []
+    },
+    {
+      "id": "northern_green_smelting_capex",
+      "record_type": "facility_or_chain",
+      "name": "Northern / Huamei · green smelting upgrade",
+      "site": "Northern / Huamei · green smelting upgrade · China",
+      "country": "China",
+      "operator": "China Northern Rare Earth / Huamei",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "smelting/refining upgrade",
+      "product": "Broad rare-earth project; no separate NdPr/Dy/Tb capital allocation or additional element nameplate verified.",
+      "status": "Phase 1 operating; Phase 2 construction/equipment procurement",
+      "status_date": "as of 2025-12-31; report 2026-04-18",
+      "source_ids": [
+        "NORTHERN_AR"
+      ],
+      "records": [],
+      "money_refs": [
+        "northern_green_smelting_capex_budget",
+        "northern_green_smelting_capex_cumulative",
+        "northern_green_smelting_capex_annual"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Source reports amounts in RMB ten-thousands. These are upgrade-project costs, not national stage capex or per-tonne refining costs. Annual spending is part of cumulative spending, not an additional amount."
+      ],
+      "schedule": [],
+      "ingredients": []
+    },
+    {
+      "id": "jlmag_output2025",
+      "record_type": "facility_or_chain",
+      "name": "JL MAG · company output, sales & capacity",
+      "site": "JL MAG · company output, sales & capacity · China",
+      "country": "China",
+      "operator": "JL MAG Rare-Earth group",
+      "stage_ids": [
+        "magnets"
+      ],
+      "stage_description": "NdFeB magnet manufacturing",
+      "product": "NdFeB magnet product family. Do not infer universal Pr/Dy/Tb loading for every grade.",
+      "status": "FY2025 production and sales reported; end-2025 capacity references and an end-2027 target remain separate.",
+      "status_date": "FY2025",
+      "source_ids": [
+        "JLMAG_AR2025",
+        "JLMAG_H12026"
+      ],
+      "records": [
+        {
+          "id": "jlmag_output2025_metric_0",
+          "measure": "actual_output",
+          "product": "magnetic-material blanks",
+          "value": 34400,
+          "unit": "metric tonnes",
+          "period": "FY2025",
+          "status": "Reported magnetic-material blank production; rounded in source.",
+          "basis": "actual production; rounded to 34.4 thousand tonnes",
+          "source_ids": [
+            "JLMAG_AR2025"
+          ]
+        },
+        {
+          "id": "jlmag_output2025_metric_1",
+          "measure": "sales",
+          "product": "finished magnetic-material products",
+          "value": 25282,
+          "unit": "metric tonnes",
+          "period": "FY2025",
+          "status": "Reported finished-product sales, not production or qualified capacity.",
+          "basis": "actual sales",
+          "source_ids": [
+            "JLMAG_AR2025"
+          ]
+        },
+        {
+          "id": "jlmag_capacity2025_2027_metric_0",
+          "measure": "capacity",
+          "product": "high-performance rare-earth permanent magnets",
+          "value": 40000,
+          "unit": "metric tonnes/year",
+          "period": "End-2025",
+          "status": "designed capacity at end 2025",
+          "basis": "designed capacity at end 2025",
+          "source_ids": [
+            "JLMAG_AR2025",
+            "JLMAG_H12026"
+          ]
+        },
+        {
+          "id": "jlmag_capacity2025_2027_metric_1",
+          "measure": "capacity",
+          "product": "high-performance rare-earth permanent magnets",
+          "value": 38000,
+          "unit": "metric tonnes/year",
+          "period": "End-2025",
+          "status": "company's 'actual annual production capacity'; not annual output",
+          "basis": "company's 'actual annual production capacity'; not annual output",
+          "source_ids": [
+            "JLMAG_AR2025",
+            "JLMAG_H12026"
+          ]
+        },
+        {
+          "id": "jlmag_capacity2025_2027_metric_2",
+          "measure": "capacity",
+          "product": "high-performance rare-earth permanent magnets",
+          "value": 60000,
+          "unit": "metric tonnes/year",
+          "period": "Target: end-2027",
+          "status": "target capacity by end 2027",
+          "basis": "target capacity by end 2027",
+          "source_ids": [
+            "JLMAG_AR2025",
+            "JLMAG_H12026"
+          ]
+        }
+      ],
+      "money_refs": [
+        "jlmag_output2025_revenue"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Blanks produced and finished products sold are different measures and cannot be summed. This is a company example with Chinese production sites, not national production or an exact conversion yield.",
+        "The 38,000 capacity statement is distinct from 34,400 tonnes of actual blank production. Reported utilization exceeds 90%, but no uniform finished-part capacity basis is established for comparisons with U.S. plants."
+      ],
+      "schedule": [],
+      "ingredients": [
+        "Nd"
+      ]
+    },
+    {
+      "id": "jlmag_baotou_expansion",
+      "record_type": "facility",
+      "name": "JL MAG Baotou · incremental expansion",
+      "site": "JL MAG Baotou · incremental expansion · China",
+      "country": "China",
+      "operator": "JL MAG Baotou Technology",
+      "stage_ids": [
+        "magnets"
+      ],
+      "stage_description": "magnet manufacturing / R&D/test facilities within project",
+      "product": "High-performance NdFeB family; not a per-element output allocation.",
+      "status": "construction; main structures essentially completed; equipment installed in stages",
+      "status_date": "budget 2025-01-20; actual spend to 2026-06-30",
+      "source_ids": [
+        "JLMAG_BAOTOU_CAPEX",
+        "JLMAG_H12026"
+      ],
+      "records": [
+        {
+          "id": "jlmag_baotou_expansion_metric_0",
+          "measure": "capacity",
+          "product": "high-performance rare-earth permanent-magnet materials",
+          "value": 20000,
+          "unit": "metric tonnes/year",
+          "period": "budget 2025-01-20; actual spend to 2026-06-30",
+          "status": "construction; main structures essentially completed; equipment installed in stages",
+          "basis": "planned incremental project capacity",
+          "source_ids": [
+            "JLMAG_BAOTOU_CAPEX",
+            "JLMAG_H12026"
+          ]
+        },
+        {
+          "id": "jlmag_baotou_expansion_metric_1",
+          "measure": "project_progress",
+          "product": "reported investment progress",
+          "value": 19.75,
+          "unit": "percent",
+          "period": "budget 2025-01-20; actual spend to 2026-06-30",
+          "status": "construction; main structures essentially completed; equipment installed in stages",
+          "basis": "interim report project table",
+          "source_ids": [
+            "JLMAG_BAOTOU_CAPEX",
+            "JLMAG_H12026"
+          ]
+        }
+      ],
+      "money_refs": [
+        "jlmag_baotou_expansion_budget",
+        "jlmag_baotou_expansion_cumulative",
+        "jlmag_baotou_expansion_halfyear"
+      ],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Two-year construction schedule originally stated; group now targets 60,000 tonnes/year by end 2027. Budget covers workshops, utilities, production, packaging and R&D/test equipment. Qualification, upstream metalmaking and equipment costs are not separately itemized."
+      ],
+      "schedule": [],
+      "ingredients": [
+        "Nd"
+      ],
+      "caution": "The 20,000 t/y incremental project is part of the group expansion strategy; it is not added to the 60,000 t/y group target."
+    },
+    {
+      "id": "china_vs_elsewhere_crack_leach_cost",
+      "record_type": "context",
+      "name": "Crack/leach · reported regional cost comparison",
+      "site": "Crack/leach · reported regional cost comparison · China versus locations outside China",
+      "country": "China versus locations outside China",
+      "operator": "IEA project analysis",
+      "stage_ids": [
+        "separation"
+      ],
+      "stage_description": "crack/leach",
+      "product": "Generic rare-earth project comparisons; no element-specific allocation.",
+      "status": "reported comparative range",
+      "status_date": "2026 report",
+      "source_ids": [
+        "IEA_RE_PDF"
+      ],
+      "records": [
+        {
+          "id": "china_vs_elsewhere_crack_leach_cost_metric_0",
+          "measure": "cost_ratio",
+          "product": "crack-leach operation",
+          "value": [
+            2.5,
+            10
+          ],
+          "unit": "outside-China operating cost / China operating cost",
+          "period": "2026 report",
+          "status": "reported comparative range",
+          "basis": "range across projects",
+          "source_ids": [
+            "IEA_RE_PDF"
+          ]
+        }
+      ],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "Stricter environmental controls, chemical input costs, energy prices and management of radioactive by-products.",
+        "This is a selected-stage operating-cost comparison, not a uniform multiplier for mine, metal, alloy, magnet capex or qualified-part costs. Capital-intensity examples in the report pool REE types."
+      ],
+      "schedule": [],
+      "ingredients": []
+    },
+    {
+      "id": "china_stage_economic_gaps",
+      "record_type": "context",
+      "name": "China · national stage-economics gaps",
+      "site": "China · national stage-economics gaps · China",
+      "country": "China",
+      "operator": "national aggregate",
+      "stage_ids": [
+        "mining",
+        "separation",
+        "metal",
+        "magnets"
+      ],
+      "stage_description": "extraction / separation/refining / metal/alloy / magnet manufacturing/qualification",
+      "product": "Product-specific quantitative basis not verified",
+      "status": "not publicly verified in this bounded primary-source collection",
+      "status_date": "research cutoff 2026-10-07",
+      "source_ids": [],
+      "records": [],
+      "money_refs": [],
+      "standalone_project_cost": null,
+      "gaps": [
+        "National element-specific annual tonnes, standalone metal/alloy tonnage and stage value added were not verified.",
+        "National 2026 magnet market value, company-to-national revenue aggregation and economic value of qualification were not verified.",
+        "Company sales at successive stages overlap and must not be added as GDP or market size. Listed-company market capitalization and acquisition valuation are separate measures.",
+        "No defensible national intervention ranking follows from this data alone."
+      ],
+      "schedule": [],
+      "ingredients": [
+        "Nd",
+        "Pr",
+        "Dy",
+        "Tb"
+      ]
+    }
+  ],
+  "money_records": [
+    {
+      "id": "10x_total_investment",
+      "amount": 1250000000,
+      "currency": "USD",
+      "kind": "planned total project investment",
+      "scope": "10X Northlake campus",
+      "period": "Announced 2026-02-26 · project life",
+      "source_id": "mp_10x_feb2026",
+      "comparison": "greater_than",
+      "spent": false,
+      "caution": "Whole campus estimate; do not allocate by machine/stage; not additional to its land purchase.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "project_estimate",
+      "source_ids": [
+        "mp_10x_feb2026"
+      ],
+      "standalone_facility_cost": true,
+      "display_title": "10X campus · estimated total project investment",
+      "display_scope": "10X Northlake campus"
+    },
+    {
+      "id": "10x_land_spend",
+      "amount": 80000000,
+      "currency": "USD",
+      "kind": "actual site acquisition spend",
+      "scope": "120-acre10X land in Northlake",
+      "period": "April 2026",
+      "source_id": "mp_10q_q2_2026",
+      "comparison": "approximately",
+      "spent": true,
+      "caution": "Part of10X development, not full campus expenditure.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "actual_spend",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "10X site acquisition · reported spend",
+      "display_scope": "120-acre 10X land in Northlake; part of the campus project, not its total cost."
+    },
+    {
+      "id": "cash_capex_2025",
+      "amount": 172375000,
+      "currency": "USD",
+      "kind": "cash additions to PP&E",
+      "scope": "MP consolidated; multiple facilities/projects",
+      "period": "FY2025",
+      "source_id": "mp_10k_2025",
+      "spent": true,
+      "net_of_grants": false,
+      "caution": "No project allocation; not same as206.4m capitalized incurred expenditures.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "actual_spend",
+      "source_ids": [
+        "mp_10k_2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "MP consolidated cash additions to PP&E",
+      "display_scope": "MP consolidated; multiple facilities/projects"
+    },
+    {
+      "id": "cash_capex_h1_2026",
+      "amount": 307711000,
+      "currency": "USD",
+      "kind": "cash additions to PP&E",
+      "scope": "MP consolidated; multiple facilities/projects",
+      "period": "2026-H1",
+      "source_id": "mp_10q_q2_2026",
+      "spent": true,
+      "net_of_grants": false,
+      "caution": "Includes several facilities and assets/land; cannot assign entirely to10X.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "actual_spend",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "MP consolidated cash additions to PP&E",
+      "display_scope": "MP consolidated; multiple facilities/projects"
+    },
+    {
+      "id": "materials_capex_h1_2026",
+      "amount": 116319000,
+      "currency": "USD",
+      "kind": "reported segment capital expenditures (cash)",
+      "scope": "Materials segment: Mountain Pass multiple projects",
+      "period": "2026-H1",
+      "source_id": "mp_10q_q2_2026",
+      "spent": true,
+      "caution": "Do not split into mining, light/HREE separation, chlor-alkali or recycling.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "actual_spend",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Materials segment · reported cash capex",
+      "display_scope": "Materials segment: Mountain Pass multiple projects"
+    },
+    {
+      "id": "magnetics_capex_h1_2026",
+      "amount": 190868000,
+      "currency": "USD",
+      "kind": "reported segment capital expenditures (cash)",
+      "scope": "Magnetics segment: Independence and10X",
+      "period": "2026-H1",
+      "source_id": "mp_10q_q2_2026",
+      "spent": true,
+      "caution": "Not Independence-only or10X-only; no machine allocation.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "actual_spend",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Magnetics segment · reported cash capex",
+      "display_scope": "Magnetics segment: Independence and 10X together. No facility or machine allocation."
+    },
+    {
+      "id": "capitalized_ppe_h1_2026",
+      "amount": 287500000,
+      "currency": "USD",
+      "kind": "incurred capitalized PP&E additions",
+      "scope": "MP consolidated",
+      "period": "2026-H1",
+      "source_id": "mp_10q_q2_2026",
+      "spent": false,
+      "caution": "Includes unpaid amounts and excludes equipment financed with notes; differs from cash additions.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "cash_basis": false,
+      "category": "accounting",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "MP consolidated incurred capitalized PP&E additions",
+      "display_scope": "MP consolidated"
+    },
+    {
+      "id": "capital_guidance_2026",
+      "amount": [
+        500000000,
+        600000000
+      ],
+      "currency": "USD",
+      "kind": "planned annual capital spending range",
+      "scope": "MP consolidated multiple investment/maintenance projects",
+      "period": "FY2026 guidance, repeated August 2026",
+      "source_id": "mp_10q_q2_2026",
+      "spent": false,
+      "net_of_grants": true,
+      "caution": "Annual company guidance, not facility total or funding shortfall.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "guidance",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "MP consolidated annual capital spending guidance",
+      "display_scope": "MP consolidated multiple investment/maintenance projects"
+    },
+    {
+      "id": "stage2_historical_budget",
+      "amount": 220000000,
+      "currency": "USD",
+      "kind": "historical planned optimization project budget",
+      "scope": "Stage II Mountain Pass recommissioning/optimization",
+      "period": "Q2 2021 historical estimate · primarily 2021–2022",
+      "source_id": "mp_10q_q2_2021",
+      "comparison": "approximately",
+      "spent": false,
+      "caution": "Historical estimate, not current expansion need or verified final cumulative cost.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "project_estimate",
+      "source_ids": [
+        "mp_10q_q2_2021"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Historical Stage II optimization budget",
+      "display_scope": "Stage II Mountain Pass recommissioning/optimization"
+    },
+    {
+      "id": "texas_local_incentive_package",
+      "amount": 200000000,
+      "currency": "USD",
+      "kind": "state/local incentive package",
+      "scope": "10X; grants, abatements, exemptions",
+      "period": "Approved 2026 · more than a decade",
+      "source_id": "mp_10x_feb2026",
+      "comparison": "approximately",
+      "spent": false,
+      "caution": "Support package, not plant cost or all cash received; includes named TEF/TSIF grants.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "incentive",
+      "source_ids": [
+        "mp_10x_feb2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "State/local incentive package · grants and abatements",
+      "display_scope": "10X: grants, abatements and exemptions over more than a decade. Includes the named TEF / TSIF grants."
+    },
+    {
+      "id": "texas_tef_grant",
+      "amount": 12880500,
+      "currency": "USD",
+      "kind": "Texas Enterprise Fund grant extended",
+      "scope": "10X campus corporate operations",
+      "period": "2026-02-26",
+      "source_id": "texas_10x_feb2026",
+      "spent": false,
+      "caution": "Part of incentive package; receipt/conditions not established here.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "grant",
+      "source_ids": [
+        "texas_10x_feb2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Texas Enterprise Fund grant",
+      "display_scope": "10X campus corporate operations"
+    },
+    {
+      "id": "texas_tsif_grant",
+      "amount": 53457500,
+      "currency": "USD",
+      "kind": "Texas Semiconductor Innovation Fund grant extended",
+      "scope": "10X manufacturing facility",
+      "period": "2026-02-26",
+      "source_id": "texas_10x_feb2026",
+      "spent": false,
+      "caution": "Part of incentive package; no double counting.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "grant",
+      "source_ids": [
+        "texas_10x_feb2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Texas Semiconductor Innovation Fund grant",
+      "display_scope": "10X manufacturing facility"
+    },
+    {
+      "id": "independence_48c_award",
+      "amount": 58500000,
+      "currency": "USD",
+      "kind": "Section48C investment tax credit award",
+      "scope": "Qualified Independence investment",
+      "period": "Awarded March 2024 · disclosed in FY2025 filing",
+      "source_id": "mp_10k_2025",
+      "spent": false,
+      "caution": "Tax credit, not construction cost; do not backsolve total facility capex from30% credit rate.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "tax_credit",
+      "source_ids": [
+        "mp_10k_2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Section 48C investment tax-credit award",
+      "display_scope": "Qualified Independence investment; tax credit is separate from construction cost."
+    },
+    {
+      "id": "dod_hree_grant",
+      "amount": 35000000,
+      "currency": "USD",
+      "kind": "HREE production-project government contract/grant award",
+      "scope": "Mountain Pass HREE facility",
+      "period": "Awarded February 2022",
+      "source_id": "mp_10q_q2_2026",
+      "spent": false,
+      "caution": "Support ceiling, not final facility cost.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "grant",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Heavy-REE government contract/grant award",
+      "display_scope": "Mountain Pass HREE facility"
+    },
+    {
+      "id": "dod_samarium_loan",
+      "amount": 150000000,
+      "currency": "USD",
+      "kind": "government direct loan principal",
+      "scope": "Mountain Pass HREE/samarium separation expansion",
+      "period": "Executed August 2025",
+      "source_id": "dod_osc_aug2025",
+      "spent": false,
+      "caution": "Financing received by company, not project spend; accounting carrying value differs from principal.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "cash_received": true,
+      "category": "loan",
+      "source_ids": [
+        "dod_osc_aug2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Government direct loan · principal",
+      "display_scope": "Mountain Pass HREE/samarium separation expansion"
+    },
+    {
+      "id": "dod_preferred_equity",
+      "amount": 400000000,
+      "currency": "USD",
+      "kind": "preferred-equity cash investment",
+      "scope": "MP company; separation/processing/magnet expansions",
+      "period": "July 2025",
+      "source_id": "mp_dod_jul2025",
+      "spent": false,
+      "caution": "Equity financing, not capex; warrant separate, no invented cash value.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "cash_received": true,
+      "receipt_confirmation_source_id": "mp_10k_2025",
+      "category": "equity",
+      "source_ids": [
+        "mp_dod_jul2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Government preferred-equity cash investment",
+      "display_scope": "MP company; separation/processing/magnet expansions"
+    },
+    {
+      "id": "bank_commitment_2025",
+      "amount": 1000000000,
+      "currency": "USD",
+      "kind": "bank financing commitment letter",
+      "scope": "10X construction/development",
+      "period": "Announced July 10, 2025",
+      "source_id": "mp_dod_jul2025",
+      "spent": false,
+      "status": "historical announced conditional commitment; current draw/availability not verified",
+      "caution": "Do not show as spent or add to project cost.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "loan",
+      "source_ids": [
+        "mp_dod_jul2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Historical bank financing commitment letter",
+      "display_scope": "10X construction/development"
+    },
+    {
+      "id": "apple_commitment",
+      "amount": 500000000,
+      "currency": "USD",
+      "kind": "headline long-term commercial partnership commitment",
+      "scope": "Recycling at Mountain Pass and magnets at Independence",
+      "period": "Announced July 15, 2025",
+      "source_id": "mp_apple_jul2025",
+      "spent": false,
+      "caution": "Supply/commercial commitment, not Apple-funded plant capex or money fully received.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "commercial",
+      "source_ids": [
+        "mp_apple_jul2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Long-term Apple commercial partnership commitment",
+      "display_scope": "Recycling at Mountain Pass and magnets at Independence; multiple-stage commercial agreement."
+    },
+    {
+      "id": "apple_prepayments",
+      "amount": 72000000,
+      "currency": "USD",
+      "kind": "cumulative customer prepayments received",
+      "scope": "Apple magnets agreement",
+      "period": "As of 2026-06-30",
+      "source_id": "mp_10q_q2_2026",
+      "spent": false,
+      "status": "received, deferred revenue",
+      "caution": "Financing/commercial cash inflow, not investment spent; part of up-to200m milestone prepayments.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "cash_received": true,
+      "category": "prepayment",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Cumulative Apple customer prepayments received",
+      "display_scope": "Apple magnets agreement"
+    },
+    {
+      "id": "gm_prepayments",
+      "amount": 150000000,
+      "currency": "USD",
+      "kind": "cumulative customer precursor prepayments received",
+      "scope": "GM NdPr-metal precursor supply",
+      "period": "As of 2026-06-30",
+      "source_id": "mp_10q_q2_2026",
+      "spent": false,
+      "status": "received",
+      "caution": "Commercial prepayments, not factory construction cost.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "cash_received": true,
+      "category": "prepayment",
+      "source_ids": [
+        "mp_10q_q2_2026"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Cumulative GM precursor prepayments received",
+      "display_scope": "GM NdPr-metal precursor supply"
+    },
+    {
+      "id": "dod_price_floor",
+      "amount": 110,
+      "currency": "USD",
+      "unit": "kg of NdPr-equivalent product as contract defined",
+      "kind": "price-floor protection",
+      "scope": "Eligible MP NdPr products",
+      "period": "Approximately ten years, starting 2025-10-01",
+      "source_id": "mp_dod_jul2025",
+      "spent": false,
+      "caution": "Contractual support per kg, not project investment or market quote.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "period_confirmation_source_id": "mp_10q_q2_2026",
+      "category": "price_floor",
+      "source_ids": [
+        "mp_dod_jul2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Contractual NdPr price-floor protection",
+      "display_scope": "Eligible MP NdPr products"
+    },
+    {
+      "id": "dod_magnet_offtake",
+      "amount": null,
+      "kind": "10-year magnet offtake/purchase assurance",
+      "scope": "100% of10X magnets, subject to agreement",
+      "period": "ten years after construction/operations under contract",
+      "source_id": "mp_dod_jul2025",
+      "spent": false,
+      "caution": "Future offtake, not capex or proof of delivered qualified output.",
+      "spent_definition": "True denotes verified cash capital/site expenditure; false denotes another measure, not absence of company cash receipt.",
+      "category": "offtake",
+      "source_ids": [
+        "mp_dod_jul2025"
+      ],
+      "standalone_facility_cost": false,
+      "display_title": "Ten-year 10X magnet offtake / purchase assurance",
+      "display_scope": "100% of 10X magnets subject to the agreement, for ten years after construction/operations."
+    },
+    {
+      "id": "usare_blacksburg_money_0",
+      "amount": 1200000000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "expected campus capital investment",
+      "scope": "combined metal/alloy/magnet campus",
+      "period": "Disclosure dated 2026-09-09",
+      "comparison": null,
+      "status": "forward-looking estimate",
+      "source_ids": [
+        "USAR_BLACKSBURG"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Blacksburg campus · expected capital investment",
+      "display_scope": "combined metal/alloy/magnet campus",
+      "display_status": "Forward-looking estimate",
+      "source_disclosure_date": "2026-09-09"
+    },
+    {
+      "id": "white_mesa_phase1_hre_expansion_money_0",
+      "amount": 104000000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "estimated total capital expenditure",
+      "scope": "HRE expansion and MREC circuit; additional Sm/Eu/Gd products",
+      "period": "Disclosure dated 2026-07-29",
+      "comparison": null,
+      "status": "construction-stage estimate",
+      "source_ids": [
+        "EF_HRE_BUILD",
+        "EF_10Q26Q2"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Phase 1 HRE / MREC expansion · estimated capex",
+      "display_scope": "HRE expansion and MREC circuit; additional Sm/Eu/Gd products",
+      "display_status": "Construction-stage estimate",
+      "source_disclosure_date": "2026-07-29"
+    },
+    {
+      "id": "white_mesa_phase2_money_0",
+      "amount": 410000000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "BFS estimated initial capital",
+      "scope": "Phase2 crack/leach/separation, co-products",
+      "period": "Disclosure dated 2026-08-05",
+      "comparison": null,
+      "status": "AACE Class3 estimate ±15%",
+      "source_ids": [
+        "EF_10Q26Q2",
+        "EF_PHASE2_BFS"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": 15,
+      "display_title": "Phase 2 feasibility-study initial capital estimate",
+      "display_scope": "Phase2 crack/leach/separation, co-products",
+      "display_status": "AACE Class 3 estimate, ±15%",
+      "source_disclosure_date": "2026-08-05"
+    },
+    {
+      "id": "varamada_mine_money_0",
+      "amount": 121000000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "preFID capex estimate",
+      "scope": "whole mineral-sands project",
+      "period": "Disclosure dated 2026-01-08",
+      "comparison": null,
+      "status": "FS forecast",
+      "source_ids": [
+        "EF_VARA_FS",
+        "EF_10Q26Q2"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Vara Mada · pre-FID capex forecast",
+      "display_scope": "whole mineral-sands project",
+      "display_status": "Feasibility-study forecast",
+      "source_disclosure_date": "2026-01-08"
+    },
+    {
+      "id": "varamada_mine_money_1",
+      "amount": 769000000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "postFID Stage1 capex estimate",
+      "scope": "whole mineral-sands project",
+      "period": "Disclosure dated 2026-01-08",
+      "comparison": null,
+      "status": "FS forecast",
+      "source_ids": [
+        "EF_VARA_FS",
+        "EF_10Q26Q2"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Vara Mada · post-FID Stage 1 capex forecast",
+      "display_scope": "whole mineral-sands project",
+      "display_status": "Feasibility-study forecast",
+      "source_disclosure_date": "2026-01-08"
+    },
+    {
+      "id": "varamada_mine_money_2",
+      "amount": 142000000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "Stage2 incremental capex estimate",
+      "scope": "whole mineral-sands expansion",
+      "period": "Disclosure dated 2026-01-08",
+      "comparison": null,
+      "status": "FS forecast",
+      "source_ids": [
+        "EF_VARA_FS",
+        "EF_10Q26Q2"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Vara Mada · incremental Stage 2 capex forecast",
+      "display_scope": "whole mineral-sands expansion",
+      "display_status": "Feasibility-study forecast",
+      "source_disclosure_date": "2026-01-08"
+    },
+    {
+      "id": "round_top_investment_money_0",
+      "amount": 1400000000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "expected project capital investment",
+      "scope": "Round Top project across mine/processing; scope not stage-separated",
+      "period": "Disclosure dated 2026-05-12",
+      "comparison": "greater_than",
+      "status": "greater-than estimate",
+      "source_ids": [
+        "USAR_ROUNDTOP_GRANT",
+        "USAR_10Q26Q2"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Round Top · expected project capital investment",
+      "display_scope": "Round Top project across mine/processing; scope not stage-separated",
+      "display_status": "Greater-than project estimate",
+      "source_disclosure_date": "2026-05-12"
+    },
+    {
+      "id": "round_top_investment_money_1",
+      "amount": 14177600,
+      "currency": "USD",
+      "category": "grant",
+      "kind": "Texas TSIF cost-reimbursement grant",
+      "scope": "Round Top development",
+      "period": "Disclosure dated 2026-05-12",
+      "comparison": null,
+      "status": "award; allowable-cost/performance conditions",
+      "source_ids": [
+        "USAR_ROUNDTOP_GRANT",
+        "USAR_10Q26Q2"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Texas cost-reimbursement grant award",
+      "display_scope": "Round Top development",
+      "display_status": "Award with allowable-cost and performance conditions",
+      "source_disclosure_date": "2026-05-12"
+    },
+    {
+      "id": "usare_sep_pilot_money_0",
+      "amount": 50500000,
+      "currency": "USD",
+      "category": "project_estimate",
+      "kind": "total proposed project value",
+      "scope": "pilot-scale REE separation",
+      "period": "Disclosure dated 2026-08-10",
+      "comparison": null,
+      "status": "negotiation-stage project budget",
+      "source_ids": [
+        "USAR_10Q26Q2"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Pilot-scale separation · total proposed project value",
+      "display_scope": "pilot-scale REE separation",
+      "display_status": "Project budget at negotiation stage",
+      "source_disclosure_date": "2026-08-10"
+    },
+    {
+      "id": "usare_sep_pilot_money_1",
+      "amount": 19300000,
+      "currency": "USD",
+      "category": "grant",
+      "kind": "potential DOE contribution",
+      "scope": "pilot-scale project",
+      "period": "Disclosure dated 2026-08-10",
+      "comparison": null,
+      "status": "selection for negotiations, nonbinding atJune30",
+      "source_ids": [
+        "USAR_10Q26Q2"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Potential DOE budget contribution",
+      "display_scope": "pilot-scale project",
+      "display_status": "Selection for negotiations; nonbinding as of 30 June 2026",
+      "source_disclosure_date": "2026-08-10"
+    },
+    {
+      "id": "usare_sep_pilot_money_2",
+      "amount": 31200000,
+      "currency": "USD",
+      "category": "budget_share",
+      "kind": "nonDOE contribution",
+      "scope": "pilot-scale project",
+      "period": "Disclosure dated 2026-08-10",
+      "comparison": null,
+      "status": "proposed budget share",
+      "source_ids": [
+        "USAR_10Q26Q2"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Proposed non-DOE budget share",
+      "display_scope": "pilot-scale project",
+      "display_status": "Proposed share of the $50.5M project budget",
+      "source_disclosure_date": "2026-08-10"
+    },
+    {
+      "id": "lynas_separated_output_money_0",
+      "amount": 1500000000,
+      "currency": "AUD",
+      "category": "cumulative_investment",
+      "kind": "expansion capital invested",
+      "scope": "Lynas2025 operating assets across stages",
+      "period": "Disclosure dated 2026-08-26",
+      "comparison": null,
+      "status": "company cumulative claim",
+      "source_ids": [
+        "LYNAS_AR"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Lynas · cumulative expansion investment claim",
+      "display_scope": "Lynas 2025 expansion across operating assets and stages; no stage breakdown.",
+      "display_status": "Company cumulative investment claim",
+      "source_disclosure_date": "2026-08-26"
+    },
+    {
+      "id": "lynas_malaysia_hre_money_0",
+      "amount": 294000000,
+      "currency": "AUD",
+      "category": "project_estimate",
+      "kind": "estimated expanded HRE facility capex",
+      "scope": "multiHRE facility",
+      "period": "Disclosure dated 2026-08-26",
+      "comparison": null,
+      "status": "revised estimate including contingency",
+      "source_ids": [
+        "LYNAS_AR"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "Malaysia HRE expansion · revised estimated capex",
+      "display_scope": "multiHRE facility",
+      "display_status": "Revised estimate, including contingency",
+      "source_disclosure_date": "2026-08-26"
+    },
+    {
+      "id": "solvay_la_rochelle_money_0",
+      "amount": [
+        15000000,
+        20000000
+      ],
+      "currency": "EUR",
+      "category": "project_estimate",
+      "kind": "additional strategic separation investment",
+      "scope": "La Rochelle expansion",
+      "period": "Disclosure dated 2026-Q2 publication",
+      "comparison": null,
+      "status": "approved, spend notverified",
+      "source_ids": [
+        "SOLVAY_Q2",
+        "SOLVAY_Q3_2025"
+      ],
+      "standalone_facility_cost": true,
+      "uncertainty_percent": null,
+      "display_title": "La Rochelle · approved additional separation investment",
+      "display_scope": "La Rochelle expansion",
+      "display_status": "Approved; actual spend not verified",
+      "source_disclosure_date": "2026-Q2 publication"
+    },
+    {
+      "id": "lcm_property_money_0",
+      "amount": 7000000,
+      "currency": "GBP",
+      "category": "property_purchase",
+      "kind": "land/building acquisition price",
+      "scope": "formerly leasedLCMsite",
+      "period": "Disclosure dated 2026-08-10",
+      "comparison": null,
+      "status": "reported property purchase",
+      "source_ids": [
+        "USAR_10Q26Q2",
+        "LCM_METAL"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "LCM · land and building acquisition price",
+      "display_scope": "Previously leased LCM site; property purchase is not full process replacement capex.",
+      "display_status": "Reported property purchase",
+      "source_disclosure_date": "2026-08-10"
+    },
+    {
+      "id": "serra_verde_money_0",
+      "amount": 1000000000,
+      "currency": "USD",
+      "category": "cumulative_investment",
+      "kind": "cumulative investment in Serra Verde",
+      "scope": "wholeproject/company, costdefinitionunallocated",
+      "period": "Disclosure dated 2026-09-04",
+      "comparison": "greater_than",
+      "status": "company claim greater than$1B asAug24",
+      "source_ids": [
+        "USAR_SV",
+        "USAR_SV_SPV"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Serra Verde · cumulative investment claim",
+      "display_scope": "wholeproject/company, costdefinitionunallocated",
+      "display_status": "Company claim: greater than $1B as of 24 August 2026",
+      "source_disclosure_date": "2026-09-04"
+    },
+    {
+      "id": "usare_doc_financing_money_0",
+      "amount": 277000000,
+      "currency": "USD",
+      "category": "grant",
+      "kind": "CHIPS direct funding agreement",
+      "scope": "multiple domesticREE/criticalmineralprojects",
+      "period": "Disclosure dated 2026-08-10",
+      "comparison": null,
+      "status": "milestoneconditional; no cash receivedasJune30",
+      "source_ids": [
+        "USAR_10Q26Q2"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Conditional CHIPS direct funding agreement",
+      "display_scope": "Multiple U.S. rare-earth / critical-mineral projects; no stage allocation.",
+      "display_status": "Milestone conditional; no cash received as of 30 June 2026",
+      "source_disclosure_date": "2026-08-10"
+    },
+    {
+      "id": "usare_doc_financing_money_1",
+      "amount": 1300000000,
+      "currency": "USD",
+      "category": "guarantee",
+      "kind": "Commerce guarantee of FFB borrowings",
+      "scope": "portionofprojectcapitalcosts",
+      "period": "Disclosure dated 2026-08-10",
+      "comparison": "up_to",
+      "status": "up-to guarantee/loancapacity; nodrawsasJune30",
+      "source_ids": [
+        "USAR_10Q26Q2"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Commerce guarantee of FFB borrowings",
+      "display_scope": "A portion of project capital costs, with no stage allocation.",
+      "display_status": "Up-to guarantee / loan capacity; no draws as of 30 June 2026",
+      "source_disclosure_date": "2026-08-10"
+    },
+    {
+      "id": "ef_osc_financing_money_0",
+      "amount": 725000000,
+      "currency": "USD",
+      "category": "loan",
+      "kind": "conditional20yearloancommitment",
+      "scope": "WhiteMesaexpansionandAmericanMetalsPlant",
+      "period": "Disclosure dated 2026-06-23",
+      "comparison": "up_to",
+      "status": "upto, additional diligence beforefinancialclose",
+      "source_ids": [
+        "EF_VAC_DEAL",
+        "EF_ASM"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Conditional government loan commitment",
+      "display_scope": "White Mesa expansion and the planned American Metals Plant, together.",
+      "display_status": "Up to the stated amount; diligence and financial-close conditions remain",
+      "source_disclosure_date": "2026-06-23"
+    },
+    {
+      "id": "sv_spv_support_money_0",
+      "amount": 750000000,
+      "currency": "USD",
+      "category": "equity",
+      "kind": "DoW SPVinvestmentcommitment",
+      "scope": "SPVcapitalization",
+      "period": "Disclosure dated 2026-08-24",
+      "comparison": null,
+      "status": "committed; notminecapex",
+      "source_ids": [
+        "USAR_SV_SPV"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Government investment commitment · SPV capitalization",
+      "display_scope": "SPV capitalization, not mine construction capex.",
+      "display_status": "Committed; not mine capex",
+      "source_disclosure_date": "2026-08-24"
+    },
+    {
+      "id": "sv_spv_support_money_1",
+      "amount": 500000000,
+      "currency": "USD",
+      "category": "working_capital",
+      "kind": "seniorsecuredrevolvingcreditcommitment",
+      "scope": "SPVworkingcapitalforpurchases",
+      "period": "Disclosure dated 2026-08-24",
+      "comparison": null,
+      "status": "subjectconditions",
+      "source_ids": [
+        "USAR_SV_SPV"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Conditional revolving credit · SPV working capital",
+      "display_scope": "SPV working capital for purchases, not plant construction capex.",
+      "display_status": "Subject to conditions",
+      "source_disclosure_date": "2026-08-24"
+    },
+    {
+      "id": "sv_spv_support_money_2",
+      "amount": 300000000,
+      "currency": "USD",
+      "category": "commercial",
+      "kind": "forwardpurchasecontract",
+      "scope": "rareearthpayableproducts",
+      "period": "Disclosure dated 2026-08-24",
+      "comparison": "at_least",
+      "status": "atleast overfiveyears",
+      "source_ids": [
+        "USAR_SV_SPV"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Forward purchase contract · payable products",
+      "display_scope": "Rare-earth payable products over five years; commercial purchases, not construction capex.",
+      "display_status": "At least the stated amount over five years",
+      "source_disclosure_date": "2026-08-24"
+    },
+    {
+      "id": "sv_spv_support_money_3",
+      "amount": null,
+      "currency": "USD/kg",
+      "category": "price_floor",
+      "kind": "magnetREEpricefloors",
+      "scope": "Nd,Pr,Dy,TbPhase1offtake",
+      "period": "Disclosure dated 2026-08-24",
+      "comparison": null,
+      "status": "contractual; valuesnotverifiedpublichere",
+      "source_ids": [
+        "USAR_SV_SPV"
+      ],
+      "standalone_facility_cost": false,
+      "uncertainty_percent": null,
+      "display_title": "Contractual magnet-REE price floors",
+      "display_scope": "Nd, Pr, Dy and Tb under the Phase 1 offtake agreement; values not verified publicly here.",
+      "display_status": "Contractual floors; values not verified publicly here",
+      "source_disclosure_date": "2026-08-24"
+    },
+    {
+      "id": "northern_integrated_revenue2025_revenue",
+      "amount": 42563083233.34,
+      "currency": "RMB",
+      "category": "revenue",
+      "kind": "China Northern Rare Earth · FY2025 consolidated revenue",
+      "display_title": "China Northern Rare Earth · FY2025 consolidated revenue",
+      "scope": "Consolidated company group, across multiple rare-earth products, stages, trading and environmental services. Not national revenue, stage value added or GDP.",
+      "display_scope": "Consolidated company group, across multiple rare-earth products, stages, trading and environmental services. Not national revenue, stage value added or GDP.",
+      "period": "FY2025",
+      "source_ids": [
+        "NORTHERN_AR"
+      ],
+      "comparison": null,
+      "standalone_facility_cost": false,
+      "caution": "Revenue at successive supply-chain stages overlaps. No stage allocation, national extrapolation or capex interpretation."
+    },
+    {
+      "id": "northern_green_smelting_capex_budget",
+      "amount": 7799289800,
+      "currency": "RMB",
+      "category": "project_estimate",
+      "kind": "Northern / Huamei green smelting upgrade · planned total",
+      "display_title": "Northern / Huamei green smelting upgrade · planned total",
+      "scope": "Whole upgrade project; no NdPr/Dy/Tb or machine-level cost split.",
+      "display_scope": "Whole upgrade project; no NdPr/Dy/Tb or machine-level cost split.",
+      "period": "as of 2025-12-31; report 2026-04-18",
+      "source_ids": [
+        "NORTHERN_AR"
+      ],
+      "comparison": "no_more_than",
+      "standalone_facility_cost": true,
+      "caution": "Project budget, not national refining investment.",
+      "spent": false
+    },
+    {
+      "id": "northern_green_smelting_capex_cumulative",
+      "amount": 2240634600,
+      "currency": "RMB",
+      "category": "actual_spend",
+      "kind": "Green smelting upgrade · cumulative paid spending",
+      "display_title": "Green smelting upgrade · cumulative paid spending",
+      "scope": "Paid spending on the same upgrade project, as of 31 December 2025.",
+      "display_scope": "Paid spending on the same upgrade project, as of 31 December 2025.",
+      "period": "as of 2025-12-31; report 2026-04-18",
+      "source_ids": [
+        "NORTHERN_AR"
+      ],
+      "comparison": null,
+      "standalone_facility_cost": false,
+      "caution": "Cumulative paid spending includes the 2025 paid amount below. They are not additive.",
+      "spent": true
+    },
+    {
+      "id": "northern_green_smelting_capex_annual",
+      "amount": 759286100,
+      "currency": "RMB",
+      "category": "actual_spend",
+      "kind": "Green smelting upgrade · paid in 2025",
+      "display_title": "Green smelting upgrade · paid in 2025",
+      "scope": "Calendar-2025 paid spending; part of cumulative paid spending.",
+      "display_scope": "Calendar-2025 paid spending; part of cumulative paid spending.",
+      "period": "as of 2025-12-31; report 2026-04-18",
+      "source_ids": [
+        "NORTHERN_AR"
+      ],
+      "comparison": null,
+      "standalone_facility_cost": false,
+      "caution": "A subset of cumulative paid spending, not an additional project cost.",
+      "spent": true
+    },
+    {
+      "id": "jlmag_output2025_revenue",
+      "amount": 7028084000,
+      "currency": "RMB",
+      "category": "revenue",
+      "kind": "JL MAG · FY2025 NdFeB magnet-material / principal-business revenue",
+      "display_title": "JL MAG · FY2025 NdFeB magnet-material / principal-business revenue",
+      "scope": "Group principal-business NdFeB material revenue; different from consolidated total revenue and not a national market value.",
+      "display_scope": "Group principal-business NdFeB material revenue; different from consolidated total revenue and not a national market value.",
+      "period": "FY2025",
+      "source_ids": [
+        "JLMAG_AR2025"
+      ],
+      "comparison": null,
+      "standalone_facility_cost": false,
+      "caution": "Company sales revenue, not construction capex or value added."
+    },
+    {
+      "id": "jlmag_baotou_expansion_budget",
+      "amount": 1050000000,
+      "currency": "RMB",
+      "category": "project_estimate",
+      "kind": "JL MAG Baotou incremental project · total budget",
+      "display_title": "JL MAG Baotou incremental project · total budget",
+      "scope": "Workshops, utilities, production/packaging and R&D/test equipment; no separate qualification or metalmaking costs.",
+      "display_scope": "Workshops, utilities, production/packaging and R&D/test equipment; no separate qualification or metalmaking costs.",
+      "period": "Budget announced 2025-01-20",
+      "source_ids": [
+        "JLMAG_BAOTOU_CAPEX",
+        "JLMAG_H12026"
+      ],
+      "comparison": null,
+      "standalone_facility_cost": true,
+      "caution": null,
+      "spent": false
+    },
+    {
+      "id": "jlmag_baotou_expansion_cumulative",
+      "amount": 207419302,
+      "currency": "RMB",
+      "category": "actual_spend",
+      "kind": "Baotou project · cumulative actual spending",
+      "display_title": "Baotou project · cumulative actual spending",
+      "scope": "Same incremental project, cumulative through 30 June 2026.",
+      "display_scope": "Same incremental project, cumulative through 30 June 2026.",
+      "period": "As of 2026-06-30",
+      "source_ids": [
+        "JLMAG_BAOTOU_CAPEX",
+        "JLMAG_H12026"
+      ],
+      "comparison": null,
+      "standalone_facility_cost": false,
+      "caution": "Includes the H1 2026 amount below; these spending figures are not additive.",
+      "spent": true
+    },
+    {
+      "id": "jlmag_baotou_expansion_halfyear",
+      "amount": 102933302,
+      "currency": "RMB",
+      "category": "actual_spend",
+      "kind": "Baotou project · H1 2026 spending",
+      "display_title": "Baotou project · H1 2026 spending",
+      "scope": "Same incremental project; subset of cumulative spend.",
+      "display_scope": "Same incremental project; subset of cumulative spend.",
+      "period": "2026-H1",
+      "source_ids": [
+        "JLMAG_BAOTOU_CAPEX",
+        "JLMAG_H12026"
+      ],
+      "comparison": null,
+      "standalone_facility_cost": false,
+      "caution": "Not additional to cumulative spending or to the project budget.",
+      "spent": true
+    }
+  ],
+  "mp_company_context_refs": [
+    "10x_total_investment",
+    "10x_land_spend",
+    "cash_capex_2025",
+    "cash_capex_h1_2026",
+    "materials_capex_h1_2026",
+    "magnetics_capex_h1_2026",
+    "capitalized_ppe_h1_2026",
+    "capital_guidance_2026",
+    "stage2_historical_budget",
+    "texas_local_incentive_package",
+    "texas_tef_grant",
+    "texas_tsif_grant",
+    "independence_48c_award",
+    "dod_hree_grant",
+    "dod_samarium_loan",
+    "dod_preferred_equity",
+    "bank_commitment_2025",
+    "apple_commitment",
+    "apple_prepayments",
+    "gm_prepayments",
+    "dod_price_floor",
+    "dod_magnet_offtake"
+  ],
+  "sources": [
+    {
+      "id": "mp_fy2025_release",
+      "title": "MP Q4 and FY2025 results",
+      "date": "2026-02-26",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Fourth-Quarter-and-Full-Year-2025-Results/",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_q2_2026_release",
+      "title": "MP Q2 2026 results",
+      "date": "2026-08-06",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Second-Quarter-2026-Results/",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_10k_2025",
+      "title": "MP FY2025 10-K",
+      "date": "Filed 2026-02-26; year ended 2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_10q_q2_2026",
+      "title": "MP Q2 2026 10-Q",
+      "date": "Filed 2026-08-07; period ended 2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000048/mp-20260630.htm",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_independence_jan2025",
+      "title": "MP restores U.S. rare-earth magnet production",
+      "date": "2025-01-22",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Restores-U.S.-Rare-Earth-Magnet-Production/default.aspx",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_10x_feb2026",
+      "title": "MP selects Northlake for 10X",
+      "date": "2026-02-26",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Selects-Northlake-Texas-as-the-Site-of-10X-a-New-U-S--Rare-Earth-Magnet-Manufacturing-Campus/default.aspx",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "texas_10x_feb2026",
+      "title": "Texas Governor announces MP Northlake expansion",
+      "date": "2026-02-26",
+      "url": "https://gov.texas.gov/news/post/governor-abbott-announces-mp-materials-rare-earth-magnet-manufacturing-expansion-in-northlake",
+      "publisher_type": "government",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_dod_jul2025",
+      "title": "MP DoD public-private partnership",
+      "date": "2025-07-10",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Announces-Transformational-Public-Private-Partnership-with-the-Department-of-Defense-to-Accelerate-U-S--Rare-Earth-Magnet-Independence/default.aspx",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "dod_osc_aug2025",
+      "title": "OSC first direct loan for MP Materials",
+      "date": "2025-08-10",
+      "url": "https://www.defense.gov/News/Releases/Release/Article/4270722/office-of-strategic-capital-announces-first-loan-through-dod-agreement-with-mp/",
+      "publisher_type": "government",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_apple_jul2025",
+      "title": "MP and Apple $500m partnership",
+      "date": "2025-07-15",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-and-Apple-Announce-500-Million-Partnership-to-Produce-Recycled-Rare-Earth-Magnets-in-the-United-States/default.aspx",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_q3_2025_release",
+      "title": "MP Q3 2025 results and HREE capacity update",
+      "date": "2025-11-06",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Reports-Third-Quarter-2025-Results/",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "mp_10q_q2_2021",
+      "title": "MP Q2 2021 10-Q historical Stage II budget",
+      "date": "2021, period ended 2021-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136821000036/mp-20210630.htm",
+      "publisher_type": "company primary disclosure",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "MP_Q2",
+      "title": "MP Materials Q2 2026 results",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Second-Quarter-2026-Results/default.aspx",
+      "date": "2026-08-06",
+      "type": "company quarterly report",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_AR",
+      "title": "Lynas 2026 Annual Report",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/65277/2026/RNS/65277_rns_2026-08-25_10795ee5-2a08-47d4-8bc6-e43e37c5949b.pdf",
+      "date": "2026-08-26",
+      "type": "original company report, publicly mirrored",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_SV",
+      "title": "USA Rare Earth/Serra Verde combination completed",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-completes-combination-serra-verde-group",
+      "date": "2026-09-04",
+      "type": "company closing announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_QUAL",
+      "title": "Energy Fuels oxide qualification in Japan",
+      "url": "https://investors.energyfuels.com/2026-08-19-Heavy-Rare-Earths-Produced-by-Energy-Fuels-Qualified-for-Use-by-Largest-Permanent-Magnet-Manufacturer-in-Japan",
+      "date": "2026-08-19",
+      "type": "company customer-qualification announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_ASM",
+      "title": "Energy Fuels closes ASM acquisition",
+      "url": "https://investors.energyfuels.com/2026-08-28-Energy-Fuels-Completes-Acquisition-of-Australian-Strategic-Materials",
+      "date": "2026-08-28",
+      "type": "company closing announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_PDF",
+      "title": "Rare Earth Elements 2026 report",
+      "url": "https://iea.blob.core.windows.net/assets/88d2b060-4c5b-46cc-8727-c60576cb937d/RareearthelementsPathwaystosecureanddiversifiedsupplychains.pdf",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_SUM",
+      "title": "Rare Earth Elements 2026 executive summary",
+      "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LCM_METAL",
+      "title": "LCM metal-making capabilities",
+      "url": "https://lesscommonmetals.com/metalmaking/",
+      "date": "2026-10-07",
+      "type": "company technical operating description",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_Q2",
+      "title": "Solvay Q2 2026",
+      "url": "https://www.solvay.com/en/press-release/solvay-second-quarter-2026-results",
+      "date": "2026-Q2 publication",
+      "type": "company quarterly results",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_Q3_2025",
+      "title": "Solvay Q3 2025 management transcript",
+      "url": "https://www.solvay.com/sites/g/files/srpend616/files/2025-11/2025Q3%20Transcript%20with%20Q%26A%20for%20Webpage.pdf",
+      "date": "2025-11",
+      "type": "company transcript",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_INVEST_CHART",
+      "title": "IEA investment requirements to 2035 in magnet-REE supply chains",
+      "url": "https://www.iea.org/data-and-statistics/charts/investment-requirements-to-2035-in-magnet-rare-earth-supply-chains-to-meet-projected-demand-in-diversified-regions",
+      "date": "2026-04-08",
+      "type": "official scenario chart",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_BLACKSBURG",
+      "title": "USA Rare Earth breaks ground on Blacksburg metal and magnet campus",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-breaks-ground-advanced-rare-earth-metal-and",
+      "date": "2026-09-09",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_10Q26Q2",
+      "title": "USA Rare Earth Q2 2026 Form10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
+      "date": "2026-08-10",
+      "type": "SEC filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_ROUNDTOP_GRANT",
+      "title": "USA Rare Earth Round Top grant and expected investment",
+      "url": "https://investors.usare.com/node/8886/pdf",
+      "date": "2026-05-12",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_10Q26Q2",
+      "title": "Energy Fuels Q2 2026 Form10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1385849/000138584926000029/efr-20260630.htm",
+      "date": "2026-08-05",
+      "type": "SEC filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_HRE_BUILD",
+      "title": "Commercial-scale heavy-REE plant under construction at White Mesa",
+      "url": "https://investors.energyfuels.com/2026-07-29-Commercial-Scale-Heavy-Rare-Earth-Plant-Now-Under-Construction-in-Utah",
+      "date": "2026-07-29",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_PHASE2_BFS",
+      "title": "White Mesa Phase2 BFS results",
+      "url": "https://investors.energyfuels.com/2026-01-15-Energy-Fuels-U-S-Rare-Earth-Processing-Expansion-Boasts-Lower-Than-Expected-CAPEX%2C-Significant-Annual-EBITDA%2C-and-Among-the-Lowest-Cost-NdPr-Production-in-the-World?submitted=1",
+      "date": "2026-01-15",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_VARA_FS",
+      "title": "Vara Mada updated feasibility study results",
+      "url": "https://investors.energyfuels.com/2026-01-08-Energy-Fuels-Announces-Updated-Feasibility-Study-for-Toliara-Rare-Earth-and-HMS-Project-in-Madagascar-Confirming-World-Class-Scale-and-Economics%2C-Including-1-8-Billion-NPV-and-Ramping-Up-to-Over-500-Million-of-Expected-Annual-EBITDA?submitted=1",
+      "date": "2026-01-08",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_VAC_DEAL",
+      "title": "Energy Fuels VAC proposed acquisition, capacity and financing terms",
+      "url": "https://investors.energyfuels.com/2026-06-23-Energy-Fuels-Announces-Definitive-Agreement-to-Acquire-VAC-for-1-9-Billion-Equity-Value",
+      "date": "2026-06-23",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_SV_SPV",
+      "title": "USA Rare Earth announced Serra Verde SPV capitalization arrangements",
+      "url": "https://www.globenewswire.com/news-release/2026/08/24/3349611/0/en/usa-rare-earth-nasdaq-usar-announces-completion-of-upsized-1-55-billion-capitalization-of-the-u-s-government-backed-special-purpose-vehicle-spv-for-serra-verde-offtake.html",
+      "date": "2026-08-24",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_CHINA",
+      "title": "USGS Minerals Yearbook country page: China, 2024 report",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/china",
+      "date": "2026 publication; data year 2024",
+      "type": "government statistical synthesis",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "JLMAG_AR2025",
+      "title": "JL MAG Rare-Earth 2025 annual report",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502302_c.pdf",
+      "date": "2026-03-25",
+      "type": "original producer annual report",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "JLMAG_H12026",
+      "title": "JL MAG Rare-Earth 2026 interim report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485582.PDF",
+      "date": "2026-08-21",
+      "type": "original producer interim report",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "JLMAG_BAOTOU_CAPEX",
+      "title": "JL MAG Baotou 20,000 tonnes/year project investment announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-20/1222380366.PDF",
+      "date": "2025-01-20",
+      "type": "original producer project disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "NORTHERN_AR",
+      "title": "China Northern Rare Earth 2025 Annual Report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118607.PDF",
+      "date": "2026-04-18",
+      "type": "company annual filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_RE",
+      "title": "USGS Mineral Commodity Summaries 2026: Rare Earths (version 1.2)",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf",
+      "date": "2026-02",
+      "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_HRE",
+      "title": "USGS Mineral Commodity Summaries 2026: Heavy Rare Earths",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "date": "2026-02",
+      "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+      "access": "public",
+      "checked": "2026-10-07"
+    }
+  ],
+  "rules": [
+    "Do not annualize one quarter as observed annual output.",
+    "Do not sum concentrate-contained REO with its separated downstream products.",
+    "Do not equate magnet nameplate capacity, trial manufacture, qualification samples and qualified customer deliveries.",
+    "Do not apportion company/segment/project totals across individual machines.",
+    "Do not add financing/support commitments to facility cost, or double-count package components.",
+    "Null means not disclosed/verified in reviewed public evidence, not zero.",
+    "For money records, spent=true denotes verified capital/site cash expenditure; spent=false does not mean cash financing/prepayments were not received. Check kind and cash_received.",
+    "Keep original currencies. No foreign-exchange normalization or investment totals are calculated.",
+    "Quarterly and half-year output are never annualized, and annual capacity rates are plotted separately from period totals.",
+    "Product and physical basis stay separate: feed mass, contained REO, separated oxide, alloy and finished magnet are different quantities.",
+    "Complementary investments must be evaluated against usable product grades, conversion yields, customer acceptance and delivery deadlines. A capacity announcement alone does not establish available supply or an optimal spending order.",
+    "National all-REE estimates, administrative quotas, company blank production, finished-product sales, capacity and revenue retain separate measures. Company revenue is neither national stage value nor GDP; RMB amounts are not converted or added across stages."
+  ],
+  "provenance": {
+    "mp": "mp-capacity-investment.json, research package checked 2026-10-07",
+    "non_mp": "capacity-investment-non-mp.json, research package checked 2026-10-07",
+    "china": "china-stage-scale.json, research package checked 2026-10-07; raw record definitions preserved in china_stage_evidence."
+  },
+  "china_stage_evidence": {
+    "as_of": "2026-10-07",
+    "scope": "Bounded primary-source China stage scale and economic examples for the NdFeB chain; supplements corrected map and capacity appendices.",
+    "definitions": {
+      "output": "Achieved production, sales, quota, nameplate and planned capacity are separately typed.",
+      "value": "Company sales are not GDP/value added or national market size. Keep original currency and do not sum overlapping stages.",
+      "capital": "Project budget and cumulative/annual spend are distinct. Financing and purchase commitments are not construction cost.",
+      "filters": "Empty ingredients are aggregate / All-only. NdFeB-family rows carry Nd only where other element contents are unspecified."
+    },
+    "records": [
+      {
+        "id": "china_magnet_ree_shares2024",
+        "country": "China",
+        "operator": "national aggregate",
+        "stages": [
+          "mining",
+          "refining/separation",
+          "sintered magnets"
+        ],
+        "ingredients": [
+          "Nd",
+          "Pr",
+          "Dy",
+          "Tb"
+        ],
+        "ingredient_basis": "Combined magnet rare-earth supply chain; not element-specific shares.",
+        "period": "2024",
+        "status": "IEA historical estimates",
+        "metrics": [
+          {
+            "stage": "mining",
+            "value": 60,
+            "unit": "percent of global magnet-REE mine production"
+          },
+          {
+            "stage": "refining/separation",
+            "value": 91,
+            "unit": "percent of global magnet-REE refined production"
+          },
+          {
+            "stage": "sintered magnets",
+            "value": 94,
+            "unit": "percent of global sintered permanent-magnet production"
+          }
+        ],
+        "economic_measure": null,
+        "limits": [
+          "Shares have different product denominators. Do not multiply the mining share by all-REE tonnes or convert them into 2026 economic value."
+        ],
+        "sources": [
+          "IEA_RE_PDF",
+          "IEA_RE_SUM"
+        ]
+      },
+      {
+        "id": "china_all_ree_mine2025",
+        "country": "China",
+        "operator": "national aggregate",
+        "stages": [
+          "mining"
+        ],
+        "ingredients": [],
+        "ingredient_basis": "All-REE aggregate, including yttrium and excluding most scandium; no Nd/Pr/Dy/Tb allocation.",
+        "period": "2025 estimate",
+        "status": "USGS reported estimate / aggregate proxy",
+        "metrics": [
+          {
+            "value": 270000,
+            "unit": "metric tonnes REO equivalent",
+            "product": "rare-earth mine production"
+          }
+        ],
+        "economic_measure": null,
+        "limits": [
+          "USGS figure is based on reported production quotas and excludes undocumented production. It is not verified element-specific mine output, feedstock imported into China, reserves, or separation output."
+        ],
+        "sources": [
+          "USGS_RE",
+          "USGS_HRE"
+        ]
+      },
+      {
+        "id": "china_all_ree_quota2024",
+        "country": "China",
+        "operator": "national aggregate",
+        "stages": [
+          "mining",
+          "smelting/separation"
+        ],
+        "ingredients": [],
+        "ingredient_basis": "All-REE oxide-equivalent quotas; group allocation and light/heavy families are not Nd/Dy/Tb output.",
+        "period": "2024",
+        "status": "quota summarized by USGS",
+        "metrics": [
+          {
+            "stage": "mining",
+            "value": 270000,
+            "unit": "metric tonnes REO equivalent",
+            "product": "annual production quota"
+          },
+          {
+            "stage": "smelting/separation",
+            "value": 254000,
+            "unit": "metric tonnes REO equivalent",
+            "product": "annual production quota"
+          }
+        ],
+        "economic_measure": null,
+        "limits": [
+          "Administrative quota is not independently measured achieved output or nameplate capacity. Original full-year MIIT/MNR quota notice was not independently located in this bounded research."
+        ],
+        "sources": [
+          "USGS_CHINA"
+        ]
+      },
+      {
+        "id": "northern_integrated_revenue2025",
+        "country": "China",
+        "operator": "China Northern Rare Earth Group High-Tech",
+        "stages": [
+          "integrated rare-earth products / materials / applications",
+          "trading",
+          "environmental services"
+        ],
+        "ingredients": [],
+        "ingredient_basis": "Company revenue includes several stages and non-magnet REEs; no element or stage allocation.",
+        "period": "FY2025",
+        "status": "reported company accounts",
+        "metrics": [],
+        "economic_measure": {
+          "type": "company annual revenue",
+          "value": 42563083233.34,
+          "currency": "RMB",
+          "scope": "consolidated group",
+          "segments": [
+            {
+              "name": "industrial",
+              "value": 33087212435.11,
+              "currency": "RMB"
+            },
+            {
+              "name": "commercial/trading",
+              "value": 7794208427.98,
+              "currency": "RMB"
+            },
+            {
+              "name": "environmental",
+              "value": 1469594740.7,
+              "currency": "RMB"
+            }
+          ]
+        },
+        "limits": [
+          "This is neither Chinese national rare-earth revenue nor GDP/value added. Product categories bundle oxides, metals and functional materials; do not allocate them to mining, separation or metalmaking."
+        ],
+        "sources": [
+          "NORTHERN_AR"
+        ]
+      },
+      {
+        "id": "northern_green_smelting_capex",
+        "country": "China",
+        "operator": "China Northern Rare Earth / Huamei",
+        "stages": [
+          "smelting/refining upgrade"
+        ],
+        "ingredients": [],
+        "ingredient_basis": "Broad rare-earth project; no separate NdPr/Dy/Tb capital allocation or additional element nameplate verified.",
+        "period": "as of 2025-12-31; report 2026-04-18",
+        "status": "Phase 1 operating; Phase 2 construction/equipment procurement",
+        "metrics": [],
+        "economic_measure": {
+          "type": "project capital investment and paid spending",
+          "planned_total": {
+            "value": 7799289800,
+            "currency": "RMB",
+            "comparison": "no more than"
+          },
+          "cumulative_paid": {
+            "value": 2240634600,
+            "currency": "RMB"
+          },
+          "paid_2025": {
+            "value": 759286100,
+            "currency": "RMB"
+          }
+        },
+        "limits": [
+          "Source reports amounts in RMB ten-thousands. These are upgrade-project costs, not national stage capex or per-tonne refining costs. Annual spending is part of cumulative spending, not an additional amount."
+        ],
+        "sources": [
+          "NORTHERN_AR"
+        ]
+      },
+      {
+        "id": "jlmag_output2025",
+        "country": "China",
+        "operator": "JL MAG Rare-Earth group",
+        "stages": [
+          "NdFeB magnet manufacturing"
+        ],
+        "ingredients": [
+          "Nd"
+        ],
+        "ingredient_basis": "NdFeB magnet product family. Do not infer universal Pr/Dy/Tb loading for every grade.",
+        "period": "FY2025",
+        "status": "reported company production and sales",
+        "metrics": [
+          {
+            "value": 34400,
+            "unit": "metric tonnes",
+            "product": "magnetic-material blanks",
+            "basis": "actual production; rounded to 34.4 thousand tonnes"
+          },
+          {
+            "value": 25282,
+            "unit": "metric tonnes",
+            "product": "finished magnetic-material products",
+            "basis": "actual sales"
+          }
+        ],
+        "economic_measure": {
+          "type": "company annual revenue from NdFeB magnet materials / principal business",
+          "value": 7028084000,
+          "currency": "RMB",
+          "scope": "Group, FY2025; audited accounts in RMB thousands"
+        },
+        "limits": [
+          "Blanks produced and finished products sold are different measures and cannot be summed. This is a company example with Chinese production sites, not national production or an exact conversion yield."
+        ],
+        "sources": [
+          "JLMAG_AR2025"
+        ]
+      },
+      {
+        "id": "jlmag_capacity2025_2027",
+        "country": "China",
+        "operator": "JL MAG Rare-Earth group",
+        "stages": [
+          "high-performance rare-earth magnet manufacturing"
+        ],
+        "ingredients": [
+          "Nd"
+        ],
+        "ingredient_basis": "NdFeB family; element-by-grade composition unverified.",
+        "period": "end 2025 / plan to end 2027",
+        "status": "reported nameplate and planned expansion",
+        "metrics": [
+          {
+            "value": 40000,
+            "unit": "metric tonnes/year",
+            "product": "high-performance rare-earth permanent magnets",
+            "basis": "designed capacity at end 2025"
+          },
+          {
+            "value": 38000,
+            "unit": "metric tonnes/year",
+            "product": "high-performance rare-earth permanent magnets",
+            "basis": "company's 'actual annual production capacity'; not annual output"
+          },
+          {
+            "value": 60000,
+            "unit": "metric tonnes/year",
+            "product": "high-performance rare-earth permanent magnets",
+            "basis": "target capacity by end 2027"
+          }
+        ],
+        "economic_measure": null,
+        "limits": [
+          "The 38,000 capacity statement is distinct from 34,400 tonnes of actual blank production. Reported utilization exceeds 90%, but no uniform finished-part capacity basis is established for comparisons with U.S. plants."
+        ],
+        "sources": [
+          "JLMAG_AR2025",
+          "JLMAG_H12026"
+        ]
+      },
+      {
+        "id": "jlmag_baotou_expansion",
+        "country": "China",
+        "operator": "JL MAG Baotou Technology",
+        "stages": [
+          "magnet manufacturing",
+          "R&D/test facilities within project"
+        ],
+        "ingredients": [
+          "Nd"
+        ],
+        "ingredient_basis": "High-performance NdFeB family; not a per-element output allocation.",
+        "period": "budget 2025-01-20; actual spend to 2026-06-30",
+        "status": "construction; main structures essentially completed; equipment installed in stages",
+        "metrics": [
+          {
+            "value": 20000,
+            "unit": "metric tonnes/year",
+            "product": "high-performance rare-earth permanent-magnet materials",
+            "basis": "planned incremental project capacity"
+          },
+          {
+            "value": 19.75,
+            "unit": "percent",
+            "product": "reported investment progress",
+            "basis": "interim report project table"
+          }
+        ],
+        "economic_measure": {
+          "type": "project capital investment budget and actual spending",
+          "planned_total": {
+            "value": 1050000000,
+            "currency": "RMB"
+          },
+          "cumulative_spend_to_2026_06_30": {
+            "value": 207419302,
+            "currency": "RMB"
+          },
+          "spend_h1_2026": {
+            "value": 102933302,
+            "currency": "RMB"
+          }
+        },
+        "limits": [
+          "Two-year construction schedule originally stated; group now targets 60,000 tonnes/year by end 2027. Budget covers workshops, utilities, production, packaging and R&D/test equipment. Qualification, upstream metalmaking and equipment costs are not separately itemized."
+        ],
+        "sources": [
+          "JLMAG_BAOTOU_CAPEX",
+          "JLMAG_H12026"
+        ]
+      },
+      {
+        "id": "china_vs_elsewhere_crack_leach_cost",
+        "country": "China versus locations outside China",
+        "operator": "IEA project analysis",
+        "stages": [
+          "crack/leach"
+        ],
+        "ingredients": [],
+        "ingredient_basis": "Generic rare-earth project comparisons; no element-specific allocation.",
+        "period": "2026 report",
+        "status": "reported comparative range",
+        "metrics": [
+          {
+            "value": [
+              2.5,
+              10
+            ],
+            "unit": "outside-China operating cost / China operating cost",
+            "product": "crack-leach operation",
+            "basis": "range across projects"
+          }
+        ],
+        "economic_measure": null,
+        "reported_explanation": "Stricter environmental controls, chemical input costs, energy prices and management of radioactive by-products.",
+        "limits": [
+          "This is a selected-stage operating-cost comparison, not a uniform multiplier for mine, metal, alloy, magnet capex or qualified-part costs. Capital-intensity examples in the report pool REE types."
+        ],
+        "sources": [
+          "IEA_RE_PDF"
+        ]
+      },
+      {
+        "id": "china_stage_economic_gaps",
+        "country": "China",
+        "operator": "national aggregate",
+        "stages": [
+          "extraction",
+          "separation/refining",
+          "metal/alloy",
+          "magnet manufacturing/qualification"
+        ],
+        "ingredients": [
+          "Nd",
+          "Pr",
+          "Dy",
+          "Tb"
+        ],
+        "period": "research cutoff 2026-10-07",
+        "status": "not publicly verified in this bounded primary-source collection",
+        "metrics": [],
+        "economic_measure": null,
+        "limits": [
+          "National element-specific annual tonnes, standalone metal/alloy tonnage and stage value added were not verified.",
+          "National 2026 magnet market value, company-to-national revenue aggregation and economic value of qualification were not verified.",
+          "Company sales at successive stages overlap and must not be added as GDP or market size. Listed-company market capitalization and acquisition valuation are separate measures.",
+          "No defensible national intervention ranking follows from this data alone."
+        ],
+        "sources": []
+      }
+    ],
+    "sources": [
+      {
+        "id": "USGS_CHINA",
+        "title": "USGS Minerals Yearbook country page: China, 2024 report",
+        "url": "https://www.usgs.gov/centers/national-minerals-information-center/china",
+        "date": "2026 publication; data year 2024",
+        "type": "government statistical synthesis",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "JLMAG_AR2025",
+        "title": "JL MAG Rare-Earth 2025 annual report",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502302_c.pdf",
+        "date": "2026-03-25",
+        "type": "original producer annual report",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "JLMAG_H12026",
+        "title": "JL MAG Rare-Earth 2026 interim report",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485582.PDF",
+        "date": "2026-08-21",
+        "type": "original producer interim report",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "JLMAG_BAOTOU_CAPEX",
+        "title": "JL MAG Baotou 20,000 tonnes/year project investment announcement",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-01-20/1222380366.PDF",
+        "date": "2025-01-20",
+        "type": "original producer project disclosure",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "IEA_RE_PDF",
+        "title": "Rare Earth Elements 2026 report",
+        "url": "https://iea.blob.core.windows.net/assets/88d2b060-4c5b-46cc-8727-c60576cb937d/RareearthelementsPathwaystosecureanddiversifiedsupplychains.pdf",
+        "date": "2026-04-08",
+        "type": "IEA public assessment",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "IEA_RE_SUM",
+        "title": "Rare Earth Elements 2026 executive summary",
+        "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+        "date": "2026-04-08",
+        "type": "IEA public assessment",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "NORTHERN_AR",
+        "title": "China Northern Rare Earth 2025 Annual Report",
+        "url": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118607.PDF",
+        "date": "2026-04-18",
+        "type": "company annual filing",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "USGS_RE",
+        "title": "USGS Mineral Commodity Summaries 2026: Rare Earths (version 1.2)",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf",
+        "date": "2026-02",
+        "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+        "access": "public",
+        "checked": "2026-10-07"
+      },
+      {
+        "id": "USGS_HRE",
+        "title": "USGS Mineral Commodity Summaries 2026: Heavy Rare Earths",
+        "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+        "date": "2026-02",
+        "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+        "access": "public",
+        "checked": "2026-10-07"
+      }
+    ],
+    "graph_opportunities": [
+      "Compare 2024 China's stage shares using three separate percentage bars; each tooltip states its denominator.",
+      "Show a China company example panel: JL MAG actual blanks, finished-product sales, and separately labeled capacity; do not plot them as a single fungible series.",
+      "Show project budget versus cumulative paid spending for Baotou and Northern smelting upgrade, with currency preserved and stage scope stated.",
+      "Use a data-gap hatch for national metal/alloy output and stage economic value. Do not infer them from 91% refining or 94% magnets."
+    ],
+    "human_verification_needed": [
+      "Only if the user requests a budget optimization or national monetary comparison: define horizon, usable product/grade and end use, then obtain comparable stage costs, qualified delivery yields and actual committed availability. Public sources collected here do not fill those fields."
+    ]
+  }
+}

@@ -1,0 +1,3326 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-07",
+  "preliminary": false,
+  "title": "Follow the product, not just the element",
+  "scope": "Selected publicly documented pathways and capability islands; not a complete global trade census or shipment ledger.",
+  "ingredient_filters": [
+    {
+      "id": "All",
+      "label": "All ingredients"
+    },
+    {
+      "id": "NdPr",
+      "label": "NdPr",
+      "name": "Neodymium–praseodymium"
+    },
+    {
+      "id": "Nd",
+      "label": "Nd",
+      "name": "Neodymium · combined NdPr routes"
+    },
+    {
+      "id": "Pr",
+      "label": "Pr",
+      "name": "Praseodymium · combined NdPr routes"
+    },
+    {
+      "id": "Dy",
+      "label": "Dy",
+      "name": "Dysprosium"
+    },
+    {
+      "id": "Tb",
+      "label": "Tb",
+      "name": "Terbium"
+    },
+    {
+      "id": "Fe",
+      "label": "Fe",
+      "name": "Iron"
+    },
+    {
+      "id": "B",
+      "label": "B",
+      "name": "Boron"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "hibbing",
+      "label": "Hibbing Taconite",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Hibbing, Minnesota",
+      "operator": "Cleveland-Cliffs / U.S. Steel joint venture",
+      "stage": "origin / concentration",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "taconite → magnetite concentrate",
+      "status": "partially idled",
+      "sources": [
+        "IB_17",
+        "IB_18",
+        "IB_19"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "2026-05",
+        "2026-06-30 reporting period"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "hibbing-pellets",
+      "label": "Hibbing pellet plant",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Hibbing, Minnesota",
+      "operator": "Cleveland-Cliffs / U.S. Steel joint venture",
+      "stage": "pellet manufacture",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "iron ore pellets",
+      "status": "operating route; partial idling",
+      "sources": [
+        "IB_17",
+        "IB_18",
+        "IB_19"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "2026-05",
+        "2026-06-30 reporting period"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "burns-harbor",
+      "label": "Burns Harbor",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Indiana",
+      "operator": "Cleveland-Cliffs",
+      "stage": "steelmaking",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "general flat-rolled steel",
+      "status": "operating",
+      "sources": [
+        "IB_17",
+        "IB_18",
+        "IB_19"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "2026-05",
+        "2026-06-30 reporting period"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "imp-india",
+      "label": "Industrial Metal Powders India",
+      "country": "India",
+      "country_zh": "印度",
+      "location": "Koregaon Bhima, Pune, Maharashtra",
+      "operator": "Industrial Metal Powders India Pvt. Ltd.",
+      "stage": "high-purity iron manufacture",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "electrolytic iron flakes",
+      "status": "commercial product capability",
+      "sources": [
+        "IB_20",
+        "IB_34",
+        "IB_35"
+      ],
+      "note": "Manufacturer explicitly lists NdFeB applications and names Allied Metals in the U.S. as its worldwide distributor. Mine/anode input, actual shipped batch and named magnet-factory customer are not disclosed.",
+      "evidence_dates": [
+        "undated product page, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "jfe-kusano",
+      "label": "JFE Steel / Kusano Sangyo",
+      "country": "Japan",
+      "country_zh": "日本",
+      "location": "Exact manufacturing site not established",
+      "operator": "JFE Steel / Kusano Sangyo",
+      "stage": "high-purity iron product",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "99.9% Fe billets and round bars",
+      "status": "commercial product capability",
+      "sources": [
+        "IB_21"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "undated product page, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "boron-mine",
+      "label": "Boron mine",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Boron, California",
+      "operator": "U.S. Borax / Rio Tinto",
+      "stage": "origin",
+      "ingredients": [
+        "B"
+      ],
+      "product": "borate ore",
+      "status": "operating",
+      "sources": [
+        "IB_22",
+        "IB_23",
+        "IB_24"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07",
+        "USGS MCS 2026, 2025 estimates"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "boron-refining",
+      "label": "Boron refining and fusing",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Boron, California",
+      "operator": "U.S. Borax / Rio Tinto",
+      "stage": "chemical refining",
+      "ingredients": [
+        "B"
+      ],
+      "product": "sodium borates, boric acid; anhydrous borates",
+      "status": "operating",
+      "sources": [
+        "IB_22",
+        "IB_23",
+        "IB_24"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07",
+        "USGS MCS 2026, 2025 estimates"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "wilmington-ca",
+      "label": "Wilmington / Port of Los Angeles",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Wilmington, California",
+      "operator": "U.S. Borax / Rio Tinto",
+      "stage": "refining / export port",
+      "ingredients": [
+        "B"
+      ],
+      "product": "specialty borates and bulk borates",
+      "status": "operating",
+      "sources": [
+        "IB_25",
+        "IB_23"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "borax-export",
+      "label": "Regional export distribution",
+      "country": "Europe / Malaysia / China",
+      "country_zh": "",
+      "location": "Named regions; exact destination customer unavailable",
+      "operator": "U.S. Borax distribution network",
+      "stage": "distribution",
+      "ingredients": [
+        "B"
+      ],
+      "product": "borate cargo",
+      "status": "reported regional export",
+      "sources": [
+        "IB_25",
+        "IB_23"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "kirka",
+      "label": "Kırka-Sarıkaya mine",
+      "country": "Turkey",
+      "country_zh": "土耳其",
+      "location": "Eskişehir-Kırka",
+      "operator": "Eti Maden",
+      "stage": "origin",
+      "ingredients": [
+        "B"
+      ],
+      "product": "tincal / borate ore",
+      "status": "operating",
+      "sources": [
+        "IB_26",
+        "IB_27",
+        "IB_28",
+        "IB_29",
+        "IB_30"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "kirka-etibor",
+      "label": "Kırka processing",
+      "country": "Turkey",
+      "country_zh": "土耳其",
+      "location": "Eskişehir-Kırka",
+      "operator": "Eti Maden",
+      "stage": "refining / product",
+      "ingredients": [
+        "B"
+      ],
+      "product": "Etibor-48 borax pentahydrate",
+      "status": "operating",
+      "sources": [
+        "IB_26",
+        "IB_27",
+        "IB_28",
+        "IB_29",
+        "IB_30"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "etimine-usa",
+      "label": "Etimine USA distribution",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "U.S. distribution network; batch destination not disclosed",
+      "operator": "Etimine USA / Eti Maden",
+      "stage": "sales / distribution",
+      "ingredients": [
+        "B"
+      ],
+      "product": "technical-grade borax pentahydrate",
+      "status": "commercial distribution capability",
+      "sources": [
+        "IB_26",
+        "IB_27",
+        "IB_28",
+        "IB_29",
+        "IB_30"
+      ],
+      "note": "Product page lists a kraft bag option available for material shipped from Wilmington, Delaware. This is not a verified Kırka batch destination.",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "nippon-denko",
+      "label": "Nippon Denko ferroboron",
+      "country": "Japan",
+      "country_zh": "日本",
+      "location": "Toyama Plant, Imizu, Toyama — 3004 Kojima, Imizu-shi, Toyama 939-0274",
+      "operator": "Nippon Denko",
+      "stage": "master-alloy manufacture",
+      "ingredients": [
+        "B"
+      ],
+      "product": "FBMG ferroboron: B ≥20%, C ≤0.05%",
+      "status": "commercial magnet-feed product",
+      "sources": [
+        "IB_31",
+        "IB_32",
+        "IB_40"
+      ],
+      "note": "Toyama Plant lists ferroboron / boron oxide production. Published FBMG for sintered NdFeB specifies B ≥20%, C ≤0.05%, Si ≤1%, Al ≤0.20%. Current upstream borate supplier and U.S. magnet shipment/customer remain unassigned. A higher-carbon ferroboron grade is not automatically interchangeable.",
+      "evidence_dates": [
+        "undated product page and product PDF, accessed 2026-10-07"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "fort-cady",
+      "label": "Fort Cady",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "San Bernardino County, California",
+      "operator": "5E Advanced Materials",
+      "stage": "in-situ extraction / refining",
+      "ingredients": [
+        "B"
+      ],
+      "product": "small-scale boric acid for qualification",
+      "status": "small-scale / qualification",
+      "sources": [
+        "IB_33"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "FY ended 2026-06-30 10-K, filed September 2026, includes August 2026 update"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "fort-cady-feb",
+      "label": "5E ferroboron development",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Laboratory / process location not specified in cited filing",
+      "operator": "5E Advanced Materials",
+      "stage": "master-alloy R&D",
+      "ingredients": [
+        "B"
+      ],
+      "product": "laboratory ferroboron samples",
+      "status": "R&D; no definitive commercial agreement",
+      "sources": [
+        "IB_33"
+      ],
+      "note": "",
+      "evidence_dates": [
+        "FY ended 2026-06-30 10-K, filed September 2026, includes August 2026 update"
+      ],
+      "source_note": "Operator/product capability as publicly reported. No hidden magnet-customer relationship is inferred."
+    },
+    {
+      "id": "mp_mine",
+      "label": "Mountain Pass",
+      "country": "United States",
+      "location": "California",
+      "operator": "MP Materials",
+      "stage": "origin/concentration",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "bastnaesite concentrate",
+      "status": "operating",
+      "sources": [
+        "MP_2025"
+      ],
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "mp_oxide",
+      "label": "Mountain Pass separation",
+      "country": "United States",
+      "location": "California",
+      "operator": "MP Materials",
+      "stage": "separation/oxide",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "finished packaged NdPr oxide",
+      "status": "operating",
+      "sources": [
+        "MP_Q2"
+      ],
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "mp_metal",
+      "label": "Independence metal and alloy",
+      "country": "United States",
+      "location": "Fort Worth, Texas",
+      "operator": "MP Materials",
+      "stage": "metal/master-alloy",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "NdPr metal; strip-cast NdFeB alloy",
+      "status": "operating",
+      "sources": [
+        "MP_SITE",
+        "MP_2025"
+      ],
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "mp_magnets",
+      "label": "Independence magnets",
+      "country": "United States",
+      "location": "Fort Worth, Texas",
+      "operator": "MP Materials",
+      "stage": "magnet manufacturing",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "sintered NdFeB magnets",
+      "status": "qualification",
+      "sources": [
+        "MP_Q2"
+      ],
+      "note": "Commercial equipment and qualification deliveries; serial customer-qualified deliveries not verified.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "gm_us",
+      "label": "General Motors",
+      "country": "United States",
+      "location": "North American vehicle/motor supply chain; exact destination unverified",
+      "operator": "GM",
+      "stage": "U.S. end use",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "EV motor magnets",
+      "status": "contract",
+      "sources": [
+        "MP_2025"
+      ],
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "mt_weld",
+      "label": "Mt Weld",
+      "country": "Australia",
+      "location": "Western Australia",
+      "operator": "Lynas Rare Earths",
+      "stage": "origin/concentration",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "mixed rare earth mineral concentrate",
+      "status": "operating",
+      "sources": [
+        "LYNAS_AR"
+      ],
+      "country_zh": "澳大利亚",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "kalgoorlie",
+      "label": "Kalgoorlie processing",
+      "country": "Australia",
+      "location": "Western Australia",
+      "operator": "Lynas Rare Earths",
+      "stage": "chemical upgrading",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "mixed rare earth carbonate",
+      "status": "operating/ramp-up",
+      "sources": [
+        "LYNAS_AR"
+      ],
+      "country_zh": "澳大利亚",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "lynas_malaysia",
+      "label": "Lynas Malaysia",
+      "country": "Malaysia",
+      "location": "Gebeng/Kuantan",
+      "operator": "Lynas Rare Earths",
+      "stage": "separation/oxide",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "separated NdPr, dysprosium and terbium oxides",
+      "status": "operating",
+      "sources": [
+        "LYNAS_AR"
+      ],
+      "country_zh": "马来西亚",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "us_oxide_offtake",
+      "label": "U.S. government oxide supply",
+      "country": "United States",
+      "location": "destination facility undisclosed",
+      "operator": "Lynas USA / U.S. Department of War",
+      "stage": "U.S. connection",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "light and heavy rare earth oxides",
+      "status": "binding-LOI",
+      "sources": [
+        "LYNAS_US"
+      ],
+      "note": "Four-year planned supply; no element tonnage or delivered shipment asserted.",
+      "ingredient_scope": "NdPr explicitly named; heavy oxide family also included, individual heavy elements undisclosed.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "noveon",
+      "label": "Noveon Magnetics",
+      "country": "United States",
+      "location": "San Marcos, Texas",
+      "operator": "Noveon Magnetics",
+      "stage": "magnet manufacturing",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "sintered rare earth permanent magnets",
+      "status": "operating",
+      "sources": [
+        "LYNAS_NOVEON",
+        "NOVEON_SOLVAY"
+      ],
+      "note": "Operating sintered NdFeB manufacture; named NdPr/Dy/Tb oxide supply contract is prospective, not evidence of realized shipments or all grades containing HREE.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "ls_vietnam",
+      "label": "LS Eco Energy metal facility",
+      "country": "Vietnam",
+      "location": "site unspecified in cited release",
+      "operator": "LS Eco Energy",
+      "stage": "metal/master-alloy",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "planned rare earth metals",
+      "status": "framework/proposed",
+      "sources": [
+        "LYNAS_LS"
+      ],
+      "country_zh": "越南",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "js_korea",
+      "label": "JS Link Yesan",
+      "country": "South Korea",
+      "location": "Yesan",
+      "operator": "JS Link",
+      "stage": "magnet manufacturing",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "NdFeB sintered magnets",
+      "status": "samples/pre-mass-production",
+      "sources": [
+        "LYNAS_JS"
+      ],
+      "ingredient_scope": "Nd is structurally specified by NdFeB; Pr, Dy and Tb content of specific product grades is undisclosed; NdPr filter is a family grouping.",
+      "country_zh": "韩国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "js_malaysia",
+      "label": "JS Link Kuantan",
+      "country": "Malaysia",
+      "location": "Kuantan",
+      "operator": "JS Link",
+      "stage": "magnet manufacturing",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "planned NdFeB sintered magnets",
+      "status": "contract/proposed",
+      "sources": [
+        "LYNAS_JS"
+      ],
+      "ingredient_scope": "Nd is structurally specified by NdFeB; Pr, Dy and Tb content of specific product grades is undisclosed; NdPr filter is a family grouping.",
+      "country_zh": "马来西亚",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "pela_ema",
+      "label": "Serra Verde / Pela Ema",
+      "country": "Brazil",
+      "location": "Goias",
+      "operator": "Serra Verde / USA Rare Earth",
+      "stage": "origin/chemical concentrate",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "mixed rare earth concentrate; TREO-equivalent reporting",
+      "status": "operating/optimization-commissioning",
+      "sources": [
+        "USAR_SV"
+      ],
+      "note": "Production started January 2024; separated element output is not established by TREO figure.",
+      "country_zh": "巴西",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "wheat_ridge",
+      "label": "Wheat Ridge demonstration facility",
+      "country": "United States",
+      "location": "Colorado",
+      "operator": "USA Rare Earth",
+      "stage": "separation/oxide",
+      "ingredients": [
+        "NdPr",
+        "Dy"
+      ],
+      "product": "NdPr and Dy oxide samples from swarf; demonstration processing of Round Top ore and third-party MREC",
+      "status": "demonstration",
+      "sources": [
+        "USAR_Q2"
+      ],
+      "note": "July samples verified for NdPr and Dy from swarf; Tb production not verified.",
+      "ingredient_status": {
+        "NdPr": "oxide sample produced",
+        "Dy": "oxide sample produced",
+        "Tb": "input-source mineral content only; no separated oxide verified"
+      },
+      "filter_note": "Input links may include Tb-containing feed although separated Tb output is unverified.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "lcm_uk",
+      "label": "Less Common Metals",
+      "country": "United Kingdom",
+      "location": "Ellesmere Port / Cheshire",
+      "operator": "USA Rare Earth / LCM",
+      "stage": "metal/master-alloy",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "Nd/NdPr metal, DyFe and Tb metal; NdFeB cast alloys",
+      "status": "operating",
+      "sources": [
+        "LCM_METAL"
+      ],
+      "note": "Own technical page reports Nd/NdPr electrolysis since 2017 and commercial DyFe/Tb expansion in 2023; current named oxide suppliers and onward U.S. deliveries not established.",
+      "country_zh": "英国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "stillwater",
+      "label": "Stillwater magnet facility",
+      "country": "United States",
+      "location": "Oklahoma",
+      "operator": "USA Rare Earth",
+      "stage": "magnet manufacturing",
+      "ingredients": [
+        "Nd"
+      ],
+      "product": "sintered NdFeB magnets",
+      "status": "commissioned/ramp-up",
+      "sources": [
+        "USAR_STILLWATER"
+      ],
+      "note": "March commissioning and ramp-up. Pr/Dy/Tb assay and serial customer-accepted delivery are not established by this source; capacity forecasts and orders are not realized delivery volumes.",
+      "ingredient_scope": "Nd is structurally present in NdFeB. Pr/Dy/Tb composition of source-specific magnets is undisclosed.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "round_top",
+      "label": "Round Top",
+      "country": "United States",
+      "location": "Hudspeth County, Texas",
+      "operator": "USA Rare Earth",
+      "stage": "origin",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "prospective multi-element ore/feedstock",
+      "status": "development",
+      "sources": [
+        "USAR_Q2"
+      ],
+      "note": "Feasibility work, no commercial mine output established.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "us_sands",
+      "label": "Florida and Georgia monazite",
+      "country": "United States",
+      "location": "Florida/Georgia; exact mines not named in cited release",
+      "operator": "mine operators unspecified",
+      "stage": "origin/concentration",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "product": "monazite ore",
+      "status": "regional/reported-feed",
+      "sources": [
+        "EF_PILOT"
+      ],
+      "note": "These pilot feed batches are sourced from Florida/Georgia monazite; NdPr content plausible but this link is verified only for the reported Dy/Tb pilot campaign.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "white_mesa",
+      "label": "White Mesa Mill",
+      "country": "United States",
+      "location": "Utah",
+      "operator": "Energy Fuels",
+      "stage": "separation/oxide",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "NdPr oxide; pilot Dy and Tb oxides",
+      "status": "pilot-HREE",
+      "sources": [
+        "EF_PILOT",
+        "EF_QUAL"
+      ],
+      "note": "HREE oxide qualification is distinct from commercial continuous-volume supply.",
+      "ingredient_status": {
+        "NdPr": "reported commercial oxide",
+        "Dy": "pilot oxide; qualification reported separately",
+        "Tb": "pilot oxide; named-country customer qualification"
+      },
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "japan_qual",
+      "label": "Japanese magnet manufacturer",
+      "country": "Japan",
+      "location": "customer unnamed",
+      "operator": "unnamed customer",
+      "stage": "magnet manufacturing/qualification",
+      "ingredients": [
+        "Tb"
+      ],
+      "product": "oxide qualification for NdFeB magnets",
+      "status": "customer-qualification",
+      "sources": [
+        "EF_QUAL"
+      ],
+      "note": "This Japan-based customer explicitly qualified Tb oxide. Release mentions prior NdPr/Dy qualifications separately; it does not identify the same customer.",
+      "country_zh": "日本",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "kmp",
+      "label": "Korean Metals Plant",
+      "country": "South Korea",
+      "location": "Ochang",
+      "operator": "ASM / Energy Fuels",
+      "stage": "metal/master-alloy",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "commercial NdPr metallization and NdFeB alloy",
+      "status": "operating",
+      "sources": [
+        "EF_ASM"
+      ],
+      "note": "Dy/Tb capability is developing; expansion to 3,600 t/y NdFeB alloy expected as early as end 2026. No White Mesa-to-KMP operating flow established.",
+      "ingredient_status": {
+        "NdPr": "commercial capability",
+        "Dy": "developing metallization",
+        "Tb": "developing metallization"
+      },
+      "country_zh": "韩国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "myanmar_region",
+      "label": "Kachin rare earth region",
+      "country": "Myanmar",
+      "location": "Kachin State",
+      "operator": "regional aggregate; operators not assigned",
+      "stage": "origin",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "product": "ionic clay rare earth raw materials",
+      "status": "regional/aggregate",
+      "sources": [
+        "IEA_RE_PDF"
+      ],
+      "country_zh": "缅甸",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "china_processing",
+      "label": "China rare earth processing",
+      "country": "China",
+      "location": "national aggregate",
+      "operator": "multiple operators",
+      "stage": "separation/oxide",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "magnet rare earth refined products",
+      "status": "aggregate/operating",
+      "sources": [
+        "IEA_RE_PDF",
+        "IEA_RE_SUM"
+      ],
+      "country_zh": "中国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "china_metal",
+      "label": "China metals and alloys",
+      "country": "China",
+      "location": "national aggregate",
+      "operator": "multiple operators",
+      "stage": "metal/master-alloy",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "rare earth metal/alloy magnet inputs",
+      "status": "aggregate/operating",
+      "sources": [
+        "IEA_RE_SUM"
+      ],
+      "country_zh": "中国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "china_magnets",
+      "label": "China sintered magnets",
+      "country": "China",
+      "location": "national aggregate",
+      "operator": "multiple operators",
+      "stage": "magnet manufacturing",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "sintered NdFeB magnets",
+      "status": "aggregate/operating",
+      "sources": [
+        "IEA_RE_SUM"
+      ],
+      "country_zh": "中国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "solvay_fr",
+      "label": "Solvay La Rochelle",
+      "country": "France",
+      "location": "La Rochelle",
+      "operator": "Solvay",
+      "stage": "separation/oxide",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "magnet-grade NdPr oxide; planned industrial Dy/Tb separation",
+      "status": "NdPr-operating/HREE-announced",
+      "ingredient_status": {
+        "NdPr": "commercial production since April 2025",
+        "Dy": "autumn 2026 start announced; completion not verified",
+        "Tb": "autumn 2026 start announced; completion not verified"
+      },
+      "sources": [
+        "SOLVAY_Q3_2025",
+        "SOLVAY_Q2"
+      ],
+      "note": "Q2 report still uses future tense for autumn Dy/Tb start. Do not infer commissioned solely from calendar date.",
+      "country_zh": "法国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "viridis_brazil",
+      "label": "Viridis Brazilian feedstock",
+      "country": "Brazil",
+      "location": "exact supplying facility undisclosed in cited LOI",
+      "operator": "Viridis Mining and Minerals",
+      "stage": "origin/feedstock",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "planned magnetic rare earth feedstock",
+      "status": "LOI/proposed",
+      "sources": [
+        "SOLVAY_VIRIDIS"
+      ],
+      "note": "Supply intended by 2028, subject to definitive documents. Do not merge with Serra Verde.",
+      "country_zh": "巴西",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "bayan_obo_verified",
+      "label": "Bayan Obo / Baogang concentrate",
+      "country": "China",
+      "location": "Inner Mongolia",
+      "operator": "Baogang Group / Baogang Steel Union",
+      "stage": "origin/concentration",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "REE concentrate recovered after iron concentrate from Bayan Obo ore",
+      "status": "operating/reported-2025",
+      "sources": [
+        "NORTHERN_AR"
+      ],
+      "country_zh": "中国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "northern_sep",
+      "label": "China Northern Rare Earth separation",
+      "country": "China",
+      "location": "Baotou group operations; exact batch facility unassigned",
+      "operator": "China Northern Rare Earth",
+      "stage": "separation/oxide",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "NdPr oxide and listed Dy/Tb oxide product capability",
+      "status": "operating/group-capability",
+      "sources": [
+        "NORTHERN_AR"
+      ],
+      "note": "Dy/Tb are named in product catalogue; their feed provenance is not established as Bayan Obo.",
+      "country_zh": "中国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "northern_metal",
+      "label": "China Northern Rare Earth metal operations",
+      "country": "China",
+      "location": "group operations; exact facility unassigned",
+      "operator": "China Northern Rare Earth",
+      "stage": "metal/master-alloy",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "NdPr metal and Nd metal",
+      "status": "operating/group-capability",
+      "sources": [
+        "NORTHERN_AR"
+      ],
+      "country_zh": "中国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "us_tb_import",
+      "label": "U.S. terbium compound/metal imports",
+      "country": "United States",
+      "location": "national aggregate; firms/destination unknown",
+      "operator": "importers unspecified",
+      "stage": "U.S. connection",
+      "ingredients": [
+        "Tb"
+      ],
+      "product": "terbium compounds and metals",
+      "status": "aggregate/2021-2024",
+      "sources": [
+        "USGS_HRE"
+      ],
+      "note": "China 100% of recorded import origin in shipping-record estimate; excludes Tb embedded in finished goods and does not reveal mined origin.",
+      "country_zh": "美国",
+      "source_note": "Operator/group stated in public reporting; this is not an ownership-percentage or ultimate-control audit."
+    },
+    {
+      "id": "usar-sample-customer",
+      "label": "USA Rare Earth commissioning customer",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "Exact receiving facility not named in the cited sample report",
+      "operator": "USA Rare Earth",
+      "stage": "magnet commissioning / sample",
+      "ingredients": [
+        "Nd"
+      ],
+      "product": "100 kg NdFeB alloy commissioning sample",
+      "status": "reported delivered sample, Q2 2025",
+      "sources": [
+        "ASM_SALES"
+      ],
+      "note": "The source names USA Rare Earth. Assigning the shipment to the Stillwater facility would be an inference; this explorer leaves that destination unassigned. Pr/Dy/Tb assay is undisclosed."
+    },
+    {
+      "id": "allied-metals-us",
+      "label": "Allied Metals Corporation",
+      "country": "United States",
+      "country_zh": "美国",
+      "location": "2668 Lapeer Road, Auburn Hills, Michigan 48326",
+      "operator": "Allied Metals Corporation",
+      "stage": "commercial distribution",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "electrolytic iron flakes, standard / low-gas grades; purity up to 99.99% Fe",
+      "status": "documented distributor capability",
+      "sources": [
+        "IB_20",
+        "IB_34",
+        "IB_35"
+      ],
+      "note": "The named manufacturer/distributor relationship does not establish an actual shipment batch, per-SKU origin, delivered quantity or magnet-factory customer.",
+      "evidence_dates": [
+        "undated product page, accessed 2026-10-07"
+      ],
+      "source_note": "U.S. sales/distributor location is not a confirmed manufacturing plant or a named magnet customer."
+    },
+    {
+      "id": "toho-fujioka",
+      "label": "Toho Zinc Fujioka Works",
+      "country": "Japan",
+      "country_zh": "日本",
+      "location": "Fujioka, Gunma",
+      "operator": "Toho Zinc",
+      "stage": "electrolytic refining / pure-iron manufacture",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "MAIRON Flake: Fe ≥99.95%; SHG-0 C ≤20 ppm, O ≤100 ppm",
+      "status": "commercial magnet-feed product capability",
+      "sources": [
+        "IB_36",
+        "IB_37",
+        "IB_38",
+        "IB_39"
+      ],
+      "note": "Rare-earth magnet application is explicitly listed. Current mine/anode source, actual U.S. shipment and magnet-customer identity remain unknown. A 1981 paper describes historical zinc-fuming-residue processing and is not treated as current sourcing.",
+      "evidence_dates": [
+        "2026-02-13 company presentation",
+        "undated specification accessed2026-10-07",
+        "1981 historic process"
+      ],
+      "source_note": "Named current manufacturing capability is distinct from historical process feed or an inferred U.S. shipment."
+    }
+  ],
+  "links": [
+    {
+      "id": "hibbing-process",
+      "from": "hibbing",
+      "to": "hibbing-pellets",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "on-site concentrate to pellets",
+      "status": "documented operating route; Hibbing partially idled",
+      "kind": "reported",
+      "sources": [
+        "IB_17",
+        "IB_18",
+        "IB_19"
+      ],
+      "tonnage": null,
+      "note": ""
+    },
+    {
+      "id": "hibbing-shipment",
+      "from": "hibbing-pellets",
+      "to": "burns-harbor",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "reported pellets shipped to Burns Harbor",
+      "status": "documented operating route; Hibbing partially idled",
+      "kind": "reported",
+      "sources": [
+        "IB_17",
+        "IB_18",
+        "IB_19"
+      ],
+      "tonnage": null,
+      "note": ""
+    },
+    {
+      "id": "boron-refine",
+      "from": "boron-mine",
+      "to": "boron-refining",
+      "ingredients": [
+        "B"
+      ],
+      "product": "on-site crushing, refining and fusing",
+      "status": "operating domestic mine and refinery",
+      "kind": "reported",
+      "sources": [
+        "IB_22",
+        "IB_23",
+        "IB_24"
+      ],
+      "tonnage": null,
+      "note": ""
+    },
+    {
+      "id": "boron-to-wilmington",
+      "from": "boron-refining",
+      "to": "wilmington-ca",
+      "ingredients": [
+        "B"
+      ],
+      "product": "borates shipped by rail",
+      "status": "documented operating domestic-to-export route",
+      "kind": "reported",
+      "sources": [
+        "IB_25",
+        "IB_23"
+      ],
+      "tonnage": null,
+      "note": ""
+    },
+    {
+      "id": "wilmington-export",
+      "from": "wilmington-ca",
+      "to": "borax-export",
+      "ingredients": [
+        "B"
+      ],
+      "product": "bulk borate shipments to named regions",
+      "status": "documented operating domestic-to-export route",
+      "kind": "aggregate",
+      "sources": [
+        "IB_25",
+        "IB_23"
+      ],
+      "tonnage": null,
+      "note": ""
+    },
+    {
+      "id": "kirka-refining",
+      "from": "kirka",
+      "to": "kirka-etibor",
+      "ingredients": [
+        "B"
+      ],
+      "product": "dissolving, filtration, crystallization, drying",
+      "status": "documented commercial mine-to-product and Turkish producer-to-U.S. distribution capability; shipment-specific batch chain not established",
+      "kind": "reported",
+      "sources": [
+        "IB_26",
+        "IB_27",
+        "IB_28",
+        "IB_29",
+        "IB_30"
+      ],
+      "tonnage": null,
+      "note": ""
+    },
+    {
+      "id": "eti-us-capability",
+      "from": "kirka-etibor",
+      "to": "etimine-usa",
+      "ingredients": [
+        "B"
+      ],
+      "product": "Turkish producer → U.S. distribution capability",
+      "status": "documented commercial mine-to-product and Turkish producer-to-U.S. distribution capability; shipment-specific batch chain not established",
+      "kind": "capability",
+      "sources": [
+        "IB_26",
+        "IB_27",
+        "IB_28",
+        "IB_29",
+        "IB_30"
+      ],
+      "tonnage": null,
+      "note": "Corporate distribution relationship; no specific Kırka shipment or customer assigned."
+    },
+    {
+      "id": "fort-cady-research",
+      "from": "fort-cady",
+      "to": "fort-cady-feb",
+      "ingredients": [
+        "B"
+      ],
+      "product": "boric-acid production and ferroboron process-development program",
+      "status": "boric acid small-scale operation; ferroboron R&D only",
+      "kind": "pilot",
+      "sources": [
+        "IB_33"
+      ],
+      "tonnage": null,
+      "note": "Program relationship; this line does not certify a continuous commercial feed stream."
+    },
+    {
+      "id": "re_link_1",
+      "from": "mp_mine",
+      "to": "mp_oxide",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "concentrate to oxide",
+      "status": "operating",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "MP_2025"
+      ],
+      "tonnage": null,
+      "kind": "reported"
+    },
+    {
+      "id": "re_link_2",
+      "from": "mp_oxide",
+      "to": "mp_metal",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "refined materials to metal/alloy",
+      "status": "operating",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "MP_SITE"
+      ],
+      "tonnage": null,
+      "kind": "reported"
+    },
+    {
+      "id": "re_link_3",
+      "from": "mp_metal",
+      "to": "mp_magnets",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "alloy to sintered magnets",
+      "status": "qualification",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "MP_Q2"
+      ],
+      "tonnage": null,
+      "kind": "pilot"
+    },
+    {
+      "id": "re_link_4",
+      "from": "mp_magnets",
+      "to": "gm_us",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "planned GM magnet supply",
+      "status": "contract",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "MP_2025"
+      ],
+      "tonnage": null,
+      "kind": "agreement"
+    },
+    {
+      "id": "re_link_5",
+      "from": "mt_weld",
+      "to": "kalgoorlie",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "concentrate for cracking/leaching",
+      "status": "operating",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "LYNAS_AR"
+      ],
+      "tonnage": null,
+      "kind": "reported"
+    },
+    {
+      "id": "re_link_6",
+      "from": "kalgoorlie",
+      "to": "lynas_malaysia",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "mixed carbonate for separation",
+      "status": "operating",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "LYNAS_AR"
+      ],
+      "tonnage": null,
+      "kind": "reported"
+    },
+    {
+      "id": "re_link_7",
+      "from": "mt_weld",
+      "to": "lynas_malaysia",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "concentrate processing at Malaysia",
+      "status": "operating",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "LYNAS_AR"
+      ],
+      "tonnage": null,
+      "kind": "reported"
+    },
+    {
+      "id": "re_link_8",
+      "from": "lynas_malaysia",
+      "to": "us_oxide_offtake",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "light/heavy oxide supply framework",
+      "status": "binding-LOI",
+      "evidence_kind": "contract-or-proposal",
+      "sources": [
+        "LYNAS_US"
+      ],
+      "tonnage": null,
+      "ingredient_scope": "NdPr explicit; heavy oxides unspecified; Dy/Tb delivery not established",
+      "kind": "agreement",
+      "note": "NdPr explicit; heavy oxides unspecified; Dy/Tb delivery not established"
+    },
+    {
+      "id": "re_link_9",
+      "from": "lynas_malaysia",
+      "to": "noveon",
+      "ingredients": [],
+      "product": "proposed oxide-to-U.S.-magnet collaboration",
+      "status": "nonbinding-MoU",
+      "evidence_kind": "contract-or-proposal",
+      "sources": [
+        "LYNAS_NOVEON"
+      ],
+      "tonnage": null,
+      "ingredient_scope": "source names material families/generic rare earths; per-element scope undisclosed",
+      "display_filter": "All only",
+      "kind": "agreement",
+      "note": "source names material families/generic rare earths; per-element scope undisclosed"
+    },
+    {
+      "id": "re_link_10",
+      "from": "lynas_malaysia",
+      "to": "ls_vietnam",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "proposed oxide-to-metal processing",
+      "status": "framework/proposed",
+      "evidence_kind": "contract-or-proposal",
+      "sources": [
+        "LYNAS_LS"
+      ],
+      "tonnage": null,
+      "kind": "agreement"
+    },
+    {
+      "id": "re_link_11",
+      "from": "lynas_malaysia",
+      "to": "js_korea",
+      "ingredients": [],
+      "product": "rare earth material supply agreement",
+      "status": "contract",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "LYNAS_JS"
+      ],
+      "tonnage": null,
+      "ingredient_scope": "source names material families/generic rare earths; per-element scope undisclosed",
+      "display_filter": "All only",
+      "kind": "agreement",
+      "note": "source names material families/generic rare earths; per-element scope undisclosed"
+    },
+    {
+      "id": "re_link_12",
+      "from": "lynas_malaysia",
+      "to": "js_malaysia",
+      "ingredients": [],
+      "product": "rare earth material supply to planned plant",
+      "status": "contract/proposed",
+      "evidence_kind": "contract-or-proposal",
+      "sources": [
+        "LYNAS_JS"
+      ],
+      "tonnage": null,
+      "ingredient_scope": "source names material families/generic rare earths; per-element scope undisclosed",
+      "display_filter": "All only",
+      "kind": "agreement",
+      "note": "source names material families/generic rare earths; per-element scope undisclosed"
+    },
+    {
+      "id": "re_link_13",
+      "from": "pela_ema",
+      "to": "wheat_ridge",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "MREC demonstration campaign",
+      "status": "demonstration",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "USAR_Q2"
+      ],
+      "tonnage": null,
+      "ingredient_scope": "element-containing feed/source campaign, not proof of separated element product or U.S. commercial flow",
+      "kind": "pilot",
+      "note": "element-containing feed/source campaign, not proof of separated element product or U.S. commercial flow"
+    },
+    {
+      "id": "re_link_14",
+      "from": "round_top",
+      "to": "wheat_ridge",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "ore flowsheet demonstration",
+      "status": "demonstration",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "USAR_Q2"
+      ],
+      "tonnage": null,
+      "ingredient_scope": "element-containing feed/source campaign, not proof of separated element product or U.S. commercial flow",
+      "kind": "pilot",
+      "note": "element-containing feed/source campaign, not proof of separated element product or U.S. commercial flow"
+    },
+    {
+      "id": "re_link_15",
+      "from": "us_sands",
+      "to": "white_mesa",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "product": "U.S.-mined monazite pilot processing",
+      "status": "pilot/reported-feed",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "EF_PILOT"
+      ],
+      "tonnage": null,
+      "kind": "pilot"
+    },
+    {
+      "id": "re_link_16",
+      "from": "white_mesa",
+      "to": "japan_qual",
+      "ingredients": [
+        "Tb"
+      ],
+      "product": "oxide sample qualification",
+      "status": "customer-qualification",
+      "evidence_kind": "reported-link",
+      "sources": [
+        "EF_QUAL"
+      ],
+      "tonnage": null,
+      "kind": "pilot"
+    },
+    {
+      "id": "re_link_17",
+      "from": "myanmar_region",
+      "to": "china_processing",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "product": "raw materials exported for processing/refining",
+      "status": "regional/aggregate",
+      "evidence_kind": "aggregate",
+      "sources": [
+        "IEA_RE_PDF"
+      ],
+      "tonnage": null,
+      "kind": "aggregate"
+    },
+    {
+      "id": "re_link_18",
+      "from": "china_processing",
+      "to": "china_metal",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "illustrative national value-chain continuation",
+      "status": "aggregate/capability",
+      "evidence_kind": "aggregate",
+      "sources": [
+        "IEA_RE_SUM"
+      ],
+      "tonnage": null,
+      "kind": "aggregate"
+    },
+    {
+      "id": "re_link_19",
+      "from": "china_metal",
+      "to": "china_magnets",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "illustrative national value-chain continuation",
+      "status": "aggregate/capability",
+      "evidence_kind": "aggregate",
+      "sources": [
+        "IEA_RE_SUM"
+      ],
+      "tonnage": null,
+      "kind": "aggregate"
+    },
+    {
+      "id": "re_link_20",
+      "from": "solvay_fr",
+      "to": "noveon",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "NdPr, Dy and Tb oxide contract supply beginning 2026",
+      "status": "contract",
+      "evidence_kind": "contract-or-proposal",
+      "tonnage": null,
+      "sources": [
+        "NOVEON_SOLVAY"
+      ],
+      "note": "Named elements and U.S. counterpart; actual deliveries and oxide-to-metal provider not verified.",
+      "kind": "agreement"
+    },
+    {
+      "id": "re_link_21",
+      "from": "viridis_brazil",
+      "to": "solvay_fr",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "product": "proposed Brazil feedstock for French separation by 2028",
+      "status": "LOI/proposed",
+      "evidence_kind": "contract-or-proposal",
+      "tonnage": null,
+      "sources": [
+        "SOLVAY_VIRIDIS"
+      ],
+      "kind": "agreement"
+    },
+    {
+      "id": "re_link_22",
+      "from": "kmp",
+      "to": "usar-sample-customer",
+      "ingredients": [
+        "Nd"
+      ],
+      "product": "100 kg NdFeB alloy sample",
+      "status": "delivered-sample/commissioning",
+      "evidence_kind": "reported-delivery",
+      "tonnage": {
+        "value": 0.1,
+        "unit": "metric tonnes alloy",
+        "period": "Q2 2025",
+        "element_mass": false
+      },
+      "sources": [
+        "ASM_SALES"
+      ],
+      "note": "Source names USA Rare Earth and magnet plant commissioning; Stillwater is its magnet plant, destination assignment is inference. No Dy/Tb/Pr composition disclosed.",
+      "kind": "pilot",
+      "ingredient_scope": "NdFeB family; Pr/Dy/Tb composition undisclosed."
+    },
+    {
+      "id": "re_link_23",
+      "from": "kmp",
+      "to": "noveon",
+      "ingredients": [
+        "Nd"
+      ],
+      "product": "15 t NdFeB alloy purchase order under 100 t agreement",
+      "status": "contract/scheduled-2025",
+      "evidence_kind": "contract-or-proposal",
+      "tonnage": {
+        "value": 15,
+        "unit": "metric tonnes alloy order",
+        "period": "H2 2025 scheduled",
+        "element_mass": false
+      },
+      "sources": [
+        "ASM_SALES"
+      ],
+      "note": "Planned delivery is not realized volume; Nd is structurally present, Pr/Dy/Tb content undisclosed.",
+      "kind": "agreement",
+      "ingredient_scope": "NdFeB family; Pr/Dy/Tb composition undisclosed."
+    },
+    {
+      "id": "re_link_24",
+      "from": "bayan_obo_verified",
+      "to": "northern_sep",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "Baogang concentrate sold to Northern Rare Earth separation",
+      "status": "operating/reported-2025",
+      "evidence_kind": "reported-link",
+      "tonnage": null,
+      "sources": [
+        "NORTHERN_AR"
+      ],
+      "note": "Company annual report names source and supplier; NdPr production explicit. No U.S. destination.",
+      "kind": "reported"
+    },
+    {
+      "id": "re_link_25",
+      "from": "northern_sep",
+      "to": "northern_metal",
+      "ingredients": [
+        "NdPr"
+      ],
+      "product": "some internally separated oxides processed to rare earth metals",
+      "status": "operating/group-link",
+      "evidence_kind": "reported-link",
+      "tonnage": null,
+      "sources": [
+        "NORTHERN_AR"
+      ],
+      "note": "Group operating model and NdPr products; exact batch/facility and onward magnet customer unassigned.",
+      "kind": "reported"
+    },
+    {
+      "id": "re_link_26",
+      "from": "china_processing",
+      "to": "us_tb_import",
+      "ingredients": [
+        "Tb"
+      ],
+      "product": "China-origin Tb compounds/metals imports",
+      "status": "aggregate/2021-2024",
+      "evidence_kind": "aggregate",
+      "tonnage": null,
+      "sources": [
+        "USGS_HRE"
+      ],
+      "note": "Import origin not mine origin or a named plant-to-customer shipment.",
+      "kind": "aggregate"
+    },
+    {
+      "id": "imp-allied-commercial",
+      "from": "imp-india",
+      "to": "allied-metals-us",
+      "ingredients": [
+        "Fe"
+      ],
+      "product": "IMP names Allied as worldwide distributor; Allied offers electrolytic iron flakes",
+      "status": "documented manufacturer-to-U.S.-distributor commercial capability; shipment/customer unverified",
+      "kind": "capability",
+      "sources": [
+        "IB_20",
+        "IB_34",
+        "IB_35"
+      ],
+      "tonnage": null,
+      "note": "Documented commercial relationship. It does not identify an actual shipment batch, mine/anode origin, per-SKU manufacturing origin or magnet-factory sale."
+    }
+  ],
+  "paths": [
+    {
+      "id": "mp-us",
+      "title": "Mountain Pass → a U.S. magnet chain",
+      "ingredients": [
+        "NdPr"
+      ],
+      "steps": [
+        "mp_mine",
+        "mp_oxide",
+        "mp_metal",
+        "mp_magnets",
+        "gm_us"
+      ],
+      "link_ids": [
+        "re_link_1",
+        "re_link_2",
+        "re_link_3",
+        "re_link_4"
+      ],
+      "note": "The physical production chain and GM supply contract are distinct claims. Qualification activity does not establish serial, customer-accepted deliveries.",
+      "us_connection": "qualification / contract",
+      "subtitle": "Concentrate → oxide → metal/alloy → magnets → planned EV use"
+    },
+    {
+      "id": "lynas-us",
+      "title": "Lynas → U.S. oxide supply agreement",
+      "ingredients": [
+        "NdPr"
+      ],
+      "steps": [
+        "mt_weld",
+        "kalgoorlie",
+        "lynas_malaysia",
+        "us_oxide_offtake",
+        {
+          "gap": true,
+          "label": "U.S. metal and magnet destination",
+          "note": "No named oxide-to-metal-to-customer delivery chain established by the binding LOI.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_5",
+        "re_link_6",
+        "re_link_8"
+      ],
+      "note": "NdPr pricing is explicit in the binding LOI. Heavy oxides are family-level, with individual Dy/Tb allocations undisclosed. No delivered shipment is asserted.",
+      "us_connection": "binding LOI",
+      "subtitle": "Australia → Malaysia → planned U.S. oxide supply"
+    },
+    {
+      "id": "lynas-noveon",
+      "title": "Lynas ↔ Noveon collaboration",
+      "ingredients": [],
+      "steps": [
+        "mt_weld",
+        "kalgoorlie",
+        "lynas_malaysia",
+        "noveon"
+      ],
+      "link_ids": [
+        "re_link_5",
+        "re_link_6",
+        "re_link_9"
+      ],
+      "note": "All-only agreement: its elemental scope is undisclosed. Named facilities and rare-earth material families do not establish ingredient-specific shipments, intermediate metal conversion, or delivered tonnage.",
+      "us_connection": "nonbinding MoU",
+      "subtitle": "Operating producers; proposed connection"
+    },
+    {
+      "id": "lynas-direct",
+      "title": "Mt Weld → Malaysia processing route",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        "mt_weld",
+        "lynas_malaysia",
+        {
+          "gap": true,
+          "label": "Metal, magnets and U.S. customer",
+          "note": "Existing processing link is reported; an end-to-end U.S. magnet delivery route is not established here.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_7"
+      ],
+      "note": "This reported processing route is shown separately from the Kalgoorlie path. Line width does not represent throughput.",
+      "us_connection": "not established",
+      "subtitle": "Reported concentrate-processing relationship"
+    },
+    {
+      "id": "lynas-vietnam",
+      "title": "Lynas → proposed Vietnam metalmaking",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        "mt_weld",
+        "kalgoorlie",
+        "lynas_malaysia",
+        "ls_vietnam",
+        {
+          "gap": true,
+          "label": "Customer-qualified magnets / U.S. delivery",
+          "note": "A framework agreement for metalmaking does not demonstrate finished magnets or U.S. customer supply.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_5",
+        "re_link_6",
+        "re_link_10"
+      ],
+      "note": "Do not treat a proposed facility as current spare metal capacity.",
+      "us_connection": "not established",
+      "subtitle": "Oxide → proposed rare-earth metal facility"
+    },
+    {
+      "id": "lynas-korea",
+      "title": "Lynas → JS Link Yesan",
+      "ingredients": [],
+      "steps": [
+        "mt_weld",
+        "kalgoorlie",
+        "lynas_malaysia",
+        "js_korea",
+        {
+          "gap": true,
+          "label": "Named U.S. customer",
+          "note": "Material supply agreement and samples are documented; U.S. delivery is not established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_5",
+        "re_link_6",
+        "re_link_11"
+      ],
+      "note": "All-only agreement: its elemental scope is undisclosed. Named facilities and rare-earth material families do not establish ingredient-specific shipments, intermediate metal conversion, or delivered tonnage.",
+      "us_connection": "not established",
+      "subtitle": "Supply agreement; samples before mass production"
+    },
+    {
+      "id": "lynas-malaysia",
+      "title": "Lynas → planned JS Link Kuantan plant",
+      "ingredients": [],
+      "steps": [
+        "mt_weld",
+        "kalgoorlie",
+        "lynas_malaysia",
+        "js_malaysia",
+        {
+          "gap": true,
+          "label": "Qualified customer delivery",
+          "note": "Planned magnet manufacturing is not current qualified delivery.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_5",
+        "re_link_6",
+        "re_link_12"
+      ],
+      "note": "All-only agreement: its elemental scope is undisclosed. Named facilities and rare-earth material families do not establish ingredient-specific shipments, intermediate metal conversion, or delivered tonnage.",
+      "us_connection": "not established",
+      "subtitle": "Contract for a proposed Malaysian magnet facility"
+    },
+    {
+      "id": "serra-demo",
+      "title": "Pela Ema → U.S. demonstration processing",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        "pela_ema",
+        "wheat_ridge",
+        {
+          "gap": true,
+          "label": "Commercial metal → magnets → customer",
+          "note": "No verified chain from this demonstration campaign through metalmaking to Stillwater or a U.S. customer.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_13"
+      ],
+      "note": "The campaign processes mixed rare earth concentrate. TREO totals are not separate Nd, Pr, Dy or Tb output. Wheat Ridge Tb output is not verified.",
+      "us_connection": "demonstration feed",
+      "subtitle": "Brazil concentrate → Colorado demonstration"
+    },
+    {
+      "id": "roundtop-demo",
+      "title": "Round Top → flowsheet demonstration",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        "round_top",
+        "wheat_ridge",
+        {
+          "gap": true,
+          "label": "Commercial mine and qualified U.S. delivery",
+          "note": "Round Top remains a development project; this test work is not commercial mine output.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_14"
+      ],
+      "note": "Source capability and development plans do not establish commercially available material.",
+      "us_connection": "development / demonstration",
+      "subtitle": "Prospective Texas ore; Colorado test work"
+    },
+    {
+      "id": "white-mesa",
+      "title": "U.S. monazite → Japanese Tb oxide qualification",
+      "ingredients": [
+        "Tb"
+      ],
+      "steps": [
+        "us_sands",
+        "white_mesa",
+        "japan_qual",
+        {
+          "gap": true,
+          "label": "Metal/alloy and U.S. magnet customer",
+          "note": "Japanese oxide qualification does not establish a qualified U.S. magnet delivery chain.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_15",
+        "re_link_16"
+      ],
+      "note": "The Japan-based customer explicitly qualified Tb oxide. NdPr/Dy qualifications are mentioned separately and are not attributed to that same customer. Continuous U.S. magnet supply is not established.",
+      "us_connection": "domestic pilot; Japan qualification",
+      "subtitle": "Regional U.S. monazite → pilot Tb oxide → Japan sample qualification"
+    },
+    {
+      "id": "myanmar-china",
+      "title": "Myanmar → China heavy-rare-earth network",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        "myanmar_region",
+        "china_processing",
+        "china_metal",
+        "china_magnets",
+        {
+          "gap": true,
+          "label": "Named U.S. customer",
+          "note": "The national/regional evidence does not identify a mine-specific supplier, shipment, assay or U.S. factory/customer.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_17",
+        "re_link_18",
+        "re_link_19"
+      ],
+      "note": "These are regional/national aggregate relationships. Nodes are not exact facility coordinates; the value-chain continuation is capability, not a traced batch.",
+      "us_connection": "not established",
+      "subtitle": "Regional upstream exports; national processing and manufacture"
+    },
+    {
+      "id": "china-capability",
+      "title": "China refining → metals → magnets",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Named upstream mine",
+          "note": "This layer is a national capability assessment. It does not assign material to a particular Chinese mine.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "china_processing",
+        "china_metal",
+        "china_magnets",
+        {
+          "gap": true,
+          "label": "Named U.S. customer",
+          "note": "Public aggregate assessments do not identify the final U.S. destination.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_18",
+        "re_link_19"
+      ],
+      "note": "National manufacturing concentration describes exposure, not a mine-to-customer shipment trace.",
+      "us_connection": "not established",
+      "subtitle": "National capability layer; upstream/downstream identities unavailable"
+    },
+    {
+      "id": "lcm-capability",
+      "title": "LCM metal and alloy capability",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Verified feedstock provenance",
+          "note": "Current element-specific origin and connecting shipment not established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "lcm_uk",
+        {
+          "gap": true,
+          "label": "Qualified U.S. customer delivery",
+          "note": "Node capability or group ownership does not prove a connecting physical shipment.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [],
+      "note": "Shown as a separate capability island. Common ownership is not a material-flow link.",
+      "us_connection": "not established",
+      "subtitle": "Nd/NdPr metal, Dy–Fe alloy and Tb metal; provenance/customer gaps"
+    },
+    {
+      "id": "kmp-capability",
+      "title": "Korean Metals Plant capability",
+      "ingredients": [
+        "NdPr"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Verified feedstock provenance",
+          "note": "Current element-specific origin and connecting shipment not established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "kmp",
+        {
+          "gap": true,
+          "label": "Qualified U.S. customer delivery",
+          "note": "Node capability or group ownership does not prove a connecting physical shipment.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [],
+      "note": "Operating NdPr metal and NdFeB alloy capability. Dy/Tb metallization is developing and is not shown as commercial operating output. Separate sample/contract paths do not establish mine provenance.",
+      "us_connection": "not established",
+      "subtitle": "Separate capability; connecting shipments remain unknown"
+    },
+    {
+      "id": "stillwater-capability",
+      "title": "Stillwater magnet commissioning",
+      "ingredients": [
+        "Nd"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Verified feedstock provenance",
+          "note": "Current element-specific origin and connecting shipment not established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "stillwater",
+        {
+          "gap": true,
+          "label": "Qualified U.S. customer delivery",
+          "note": "Node capability or group ownership does not prove a connecting physical shipment.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [],
+      "note": "NdFeB commissioning/ramp-up capability is shown under Nd and All. The cited source does not disclose specific Pr/Dy/Tb composition or a current mine-to-factory batch. Common ownership is not a physical supply link.",
+      "us_connection": "not established",
+      "subtitle": "Separate capability; connecting shipments remain unknown"
+    },
+    {
+      "id": "iron-hibbing-burns-harbor",
+      "title": "Hibbing → U.S. steelmaking",
+      "ingredients": [
+        "Fe"
+      ],
+      "steps": [
+        "hibbing",
+        "hibbing-pellets",
+        "burns-harbor",
+        {
+          "gap": true,
+          "label": "Magnet-grade pure iron → magnet factory",
+          "note": "Steelmaking pellets and steel are not magnet-grade pure iron. No connecting purification or magnet-customer sale is documented.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "hibbing-process",
+        "hibbing-shipment"
+      ],
+      "note": "May 2026 Hibbing fact sheet explicitly states pellets are shipped to Cleveland-Cliffs Burns Harbor in Indiana.",
+      "us_connection": "documented steelmaking route",
+      "subtitle": "Ore → concentrate → pellets → steel; magnet-feed conversion unknown"
+    },
+    {
+      "id": "iron-imp-india-flakes",
+      "title": "India iron flakes → U.S. distributor",
+      "ingredients": [
+        "Fe"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Mine / anode feed",
+          "note": "The manufacturer does not disclose the current mine/anode origin.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "imp-india",
+        "allied-metals-us",
+        {
+          "gap": true,
+          "label": "Named U.S. magnet factory",
+          "note": "Actual shipment batch, quantity, per-SKU origin and named magnet-factory/customer are not established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "imp-allied-commercial"
+      ],
+      "note": "IMP explicitly names Allied as worldwide distributor, country USA; Allied product page gives Auburn Hills, Michigan address and flake specifications. This is commercial capability, not proof of a delivered batch or a specific magnet-factory sale.",
+      "us_connection": "named U.S. distributor capability",
+      "subtitle": "IMP manufacturing → Allied Metals, Michigan; magnet customer remains unknown"
+    },
+    {
+      "id": "iron-jfe-kusano",
+      "title": "Japan high-purity iron products",
+      "ingredients": [
+        "Fe"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Named mine / refining origin",
+          "note": "No named upstream ore route established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "jfe-kusano",
+        {
+          "gap": true,
+          "label": "Magnet-grade specification / U.S. delivery",
+          "note": "Public product capability does not establish a qualified magnet-factory sale or U.S. shipment.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [],
+      "note": "High-purity iron product claims must be matched to impurity limits and actual magnet-factory specifications.",
+      "us_connection": "not established",
+      "subtitle": "Reported pure-iron form; magnet/customer qualification unknown"
+    },
+    {
+      "id": "boron-boron-california",
+      "title": "Boron, California → refined borates",
+      "ingredients": [
+        "B"
+      ],
+      "steps": [
+        "boron-mine",
+        "boron-refining",
+        {
+          "gap": true,
+          "label": "Ferroboron → magnet factory",
+          "note": "No ferroboron converter or magnet-factory sale tied to this mine is established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "boron-refine"
+      ],
+      "note": "Borates and boric acid are upstream boron products. They are not purchased ferroboron.",
+      "us_connection": "operating domestic products",
+      "subtitle": "Domestic mine/refinery; conversion to magnet-feed alloy not established"
+    },
+    {
+      "id": "boron-boron-wilmington-ca",
+      "title": "California borates → global exports",
+      "ingredients": [
+        "B"
+      ],
+      "steps": [
+        "boron-mine",
+        "boron-refining",
+        "wilmington-ca",
+        "borax-export",
+        {
+          "gap": true,
+          "label": "Ferroboron / U.S. magnet return route",
+          "note": "The stated onward route is export. No return-to-U.S. magnet-feed route is established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "boron-refine",
+        "boron-to-wilmington",
+        "wilmington-export"
+      ],
+      "note": "This Wilmington is in California. It is distinct from the Wilmington, Delaware packaging option on Etimine USA product pages.",
+      "us_connection": "domestic-to-export",
+      "subtitle": "California processing/export; not a U.S. magnet import route"
+    },
+    {
+      "id": "boron-kirka-etimine-us",
+      "title": "Kırka → Etimine U.S. distribution",
+      "ingredients": [
+        "B"
+      ],
+      "steps": [
+        "kirka",
+        "kirka-etibor",
+        "etimine-usa",
+        {
+          "gap": true,
+          "label": "Ferroboron → magnet customer",
+          "note": "Specific mine shipment/customer, ferroboron conversion and magnet-factory sale are not established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "kirka-refining",
+        "eti-us-capability"
+      ],
+      "note": "Etimine USA's U.S. distribution network explicitly serves customers from Eti Maden production in Turkey. Etibor-48 packaging page identifies a kraft-paper bag option available for product shipped from Wilmington, Delaware.",
+      "us_connection": "commercial distribution capability",
+      "subtitle": "Turkey refined borax; U.S. distribution without batch traceability"
+    },
+    {
+      "id": "boron-nippon-denko-ferroboron",
+      "title": "Toyama ferroboron → NdFeB feed capability",
+      "ingredients": [
+        "B"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Named boron mine / conversion feed",
+          "note": "The upstream borate mine and conversion supply are unverified.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "nippon-denko",
+        {
+          "gap": true,
+          "label": "U.S. magnet customer",
+          "note": "Magnet application is stated; a U.S. shipment/customer is not established.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [],
+      "note": "Ferroboron (FeB) is a purchased iron–boron master alloy. Borate prices or boric-acid prices are not its factory purchase price.",
+      "us_connection": "not established",
+      "subtitle": "Named Japanese ferroboron plant; upstream mine and U.S. customer unknown"
+    },
+    {
+      "id": "boron-fort-cady-ferroboron-development",
+      "title": "Fort Cady → ferroboron development",
+      "ingredients": [
+        "B"
+      ],
+      "steps": [
+        "fort-cady",
+        "fort-cady-feb",
+        {
+          "gap": true,
+          "label": "Commercial qualified magnet-feed supply",
+          "note": "Further sample/process work is planned. No definitive commercial ferroboron agreement established by the September 2026 filing.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "fort-cady-research"
+      ],
+      "note": "Domestic mine/plant and laboratory development. September 2026 10-K says no definitive commercial agreements for ferroboron; further sample and process work planned.",
+      "us_connection": "domestic qualification / R&D",
+      "subtitle": "Small-scale boric acid; ferroboron remains development"
+    },
+    {
+      "id": "white-mesa-dy",
+      "title": "U.S. monazite → pilot Dy oxide",
+      "ingredients": [
+        "Dy"
+      ],
+      "steps": [
+        "us_sands",
+        "white_mesa",
+        {
+          "gap": true,
+          "label": "Dy metal / Dy–Fe → U.S. customer",
+          "note": "Pilot oxide production and a separate qualification claim do not expose a named onward customer or alloy-conversion route.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_15"
+      ],
+      "note": "Dy pilot production is distinct from the Tb qualification by the Japanese customer. No same-customer identity is inferred.",
+      "us_connection": "domestic pilot",
+      "subtitle": "Regional monazite → pilot dysprosium oxide; downstream identity unavailable"
+    },
+    {
+      "id": "white-mesa-ndpr",
+      "title": "White Mesa NdPr oxide capability",
+      "ingredients": [
+        "NdPr"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Verified batch origin",
+          "note": "The commercial NdPr capability is reported; this view does not assign its output to the particular pilot monazite feed.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "white_mesa",
+        {
+          "gap": true,
+          "label": "Metal / alloy → U.S. magnet customer",
+          "note": "No connecting commercial NdPr shipment to a metalmaker or U.S. magnet customer is established here.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [],
+      "note": "Select the node for ingredient-specific maturity: NdPr oxide is reported commercial; Dy/Tb are pilot heavy-oxide activities.",
+      "us_connection": "domestic oxide capability",
+      "subtitle": "Commercial NdPr oxide capability; batch/customer traceability remains incomplete"
+    },
+    {
+      "id": "solvay-noveon",
+      "title": "France oxide supply → Noveon contract",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Named current mine feed",
+          "note": "This oxide supply contract does not identify its current mine/feed batch.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "solvay_fr",
+        "noveon",
+        {
+          "gap": true,
+          "label": "Named accepted component customer",
+          "note": "The contract does not identify delivered batches, oxide-to-metal converter or accepted final component customers.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_20"
+      ],
+      "note": "Solvay NdPr production is operating. Autumn 2026 Dy/Tb separation was announced; completion is not inferred from the calendar. Named-element contract supply is not verified realized delivery.",
+      "us_connection": "named-element supply contract",
+      "subtitle": "NdPr / Dy / Tb oxide contract; intermediate conversion undisclosed"
+    },
+    {
+      "id": "viridis-solvay",
+      "title": "Brazil → proposed French feedstock",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "steps": [
+        "viridis_brazil",
+        "solvay_fr",
+        {
+          "gap": true,
+          "label": "Realized feed and U.S. magnet delivery",
+          "note": "The LOI intends Brazil supply by 2028, subject to definitive documents. It does not establish current delivered feed or an onward U.S. customer route.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_21"
+      ],
+      "note": "Viridis is a different Brazilian project from Serra Verde/Pela Ema. Proposed feedstock is not merged with current Solvay output.",
+      "us_connection": "not established",
+      "subtitle": "Future Brazilian feedstock LOI → French separation"
+    },
+    {
+      "id": "kmp-usar-sample",
+      "title": "Korean alloy → U.S. commissioning sample",
+      "ingredients": [
+        "Nd"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Verified mine / oxide source",
+          "note": "The commissioning-sample source does not identify the original mineral/oxide batch.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "kmp",
+        "usar-sample-customer",
+        {
+          "gap": true,
+          "label": "Serial accepted customer component",
+          "note": "A 100 kg sample does not establish serial manufacture or continuous qualified delivery.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_22"
+      ],
+      "note": "Reported 100 kg alloy sample, not 100 kg rare earths. NdFeB contains Nd; the sample Pr/Dy/Tb composition is undisclosed. Exact receiving facility is not assigned.",
+      "us_connection": "reported delivered sample",
+      "subtitle": "South Korea → named U.S. customer; facility and alloy assay undisclosed",
+      "ingredient_scope": "NdFeB alloy family; neodymium is structurally present. Pr, Dy and Tb composition undisclosed. Excluded from Pr/NdPr product filter."
+    },
+    {
+      "id": "kmp-noveon-order",
+      "title": "Korean alloy → Noveon purchase order",
+      "ingredients": [
+        "Nd"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Verified mine / oxide source",
+          "note": "The order does not trace its original mineral/oxide batch.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "kmp",
+        "noveon",
+        {
+          "gap": true,
+          "label": "Realized delivery / accepted component",
+          "note": "The cited order scheduled delivery for 2025; realized volume and final customer acceptance are not established here.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_23"
+      ],
+      "note": "A 15 t NdFeB alloy order under a 100 t agreement is not a delivered rare-earth-element tonnage. The NdFeB family does not establish the particular Pr/Dy/Tb assay.",
+      "us_connection": "purchase order / scheduled",
+      "subtitle": "NdFeB alloy purchase order; realized volume unverified",
+      "ingredient_scope": "NdFeB alloy family; neodymium is structurally present. Pr, Dy and Tb composition undisclosed. Excluded from Pr/NdPr product filter."
+    },
+    {
+      "id": "bayan-northern",
+      "title": "Bayan Obo → Northern Rare Earth metals",
+      "ingredients": [
+        "NdPr"
+      ],
+      "steps": [
+        "bayan_obo_verified",
+        "northern_sep",
+        "northern_metal",
+        {
+          "gap": true,
+          "label": "Magnet maker → named U.S. customer",
+          "note": "Exact batch/facility and onward magnet/customer assignments are unavailable.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_24",
+        "re_link_25"
+      ],
+      "note": "The group report documents Baogang concentrate supply and internal oxide-to-metal processing. Dy/Tb product catalogue capability is not assigned to the Bayan Obo feed.",
+      "us_connection": "not established",
+      "subtitle": "Named Chinese concentrate source → NdPr oxide / metal group processing"
+    },
+    {
+      "id": "china-tb-imports",
+      "title": "China-origin terbium → U.S. aggregate imports",
+      "ingredients": [
+        "Tb"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Named mine / producing plant",
+          "note": "Recorded import origin is not a mined origin or a named plant.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "china_processing",
+        "us_tb_import",
+        {
+          "gap": true,
+          "label": "Dy–Fe / Tb alloy / magnet customer",
+          "note": "Shipping-record import estimates do not identify the final metal/alloy converter, magnet factory or customer.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [
+        "re_link_26"
+      ],
+      "note": "This aggregate records terbium compounds/metals, 2021–2024. It excludes Tb embedded in finished goods and is not a traced plant-to-customer shipment.",
+      "us_connection": "aggregate historical imports",
+      "subtitle": "National import origin; upstream mine and downstream customer unknown"
+    },
+    {
+      "id": "iron-toho-fujioka",
+      "title": "Fujioka → MAIRON pure-iron flakes",
+      "ingredients": [
+        "Fe"
+      ],
+      "steps": [
+        {
+          "gap": true,
+          "label": "Current mine / anode feed",
+          "note": "Historical residue feed documented in 1981 is not assigned to current manufacturing.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        },
+        "toho-fujioka",
+        {
+          "gap": true,
+          "label": "U.S. distributor / magnet factory",
+          "note": "No documented U.S. shipment or customer in this source package.",
+          "stage": "Missing evidence",
+          "country": "Not established",
+          "product": "Not established"
+        }
+      ],
+      "link_ids": [],
+      "note": "Toho documents high-purity iron manufacture at Fujioka Works and rare-earth magnet application. Specific current upstream and U.S. downstream relationships remain unassigned.",
+      "us_connection": "not established",
+      "subtitle": "Japan electrolytic iron capability; current feed and U.S. customer unknown"
+    }
+  ],
+  "supplier_forms": [
+    {
+      "id": "NdPr",
+      "name": "NdPr metal",
+      "description": "Neodymium–praseodymium metal: combined factory feed, not two independently traced shipments. Confirm Nd/Pr ratio and assay on the supplier certificate.",
+      "ingredients": [
+        "NdPr"
+      ],
+      "node": "mp_metal"
+    },
+    {
+      "id": "DyFe",
+      "name": "Dy–Fe master alloy",
+      "description": "Dysprosium–iron (ferro-dysprosium): a purchased master alloy. LCM documents commercial capability; the current oxide supplier and U.S. magnet delivery chain remain unverified. Price and batch mass refer to alloy, with Dy assay checked separately.",
+      "ingredients": [
+        "Dy"
+      ],
+      "node": "lcm_uk"
+    },
+    {
+      "id": "Tb",
+      "name": "Terbium-bearing feed",
+      "description": "Terbium can be purchased as metal, alloy or a diffusion source. LCM documents Tb metal capability. This does not certify a connected mine-to-LCM-to-U.S. shipment.",
+      "ingredients": [
+        "Tb"
+      ],
+      "node": "lcm_uk"
+    },
+    {
+      "id": "Fe",
+      "name": "High-purity iron",
+      "description": "Iron flakes, bars or other qualified forms. Bulk iron ore/steel routes do not establish magnet-grade iron supply.",
+      "ingredients": [
+        "Fe"
+      ],
+      "node": "imp-india"
+    },
+    {
+      "id": "FeB",
+      "name": "Ferroboron (FeB)",
+      "description": "Iron–boron master alloy. Check B content, carbon and other impurity limits; technical borax is not this product.",
+      "ingredients": [
+        "B"
+      ],
+      "node": "nippon-denko"
+    }
+  ],
+  "sources": [
+    {
+      "id": "IB_17",
+      "title": "Cleveland-Cliffs · Hibbing Taconite fact sheet (May 2026)",
+      "url": "https://d1io3yog0oux5.cloudfront.net/_091b2a39008cca09a7d6b3b3596751c8/clevelandcliffs/db/1172/10157/fact_sheet/CLF_FactSheet_HibbingTaconite_52026.pdf",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "2026-05",
+        "2026-06-30 reporting period"
+      ],
+      "publisher_host": "d1io3yog0oux5.cloudfront.net"
+    },
+    {
+      "id": "IB_18",
+      "title": "Cleveland-Cliffs · Burns Harbor operations",
+      "url": "https://www.clevelandcliffs.com/operations/steelmaking/burns-harbor",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "2026-05",
+        "2026-06-30 reporting period"
+      ],
+      "publisher_host": "www.clevelandcliffs.com"
+    },
+    {
+      "id": "IB_19",
+      "title": "Cleveland-Cliffs · June 2026 quarterly filing",
+      "url": "https://www.clevelandcliffs.com/investors/sec-filings/all-sec-filings/content/0000764065-26-000100/clf-20260630.htm",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "2026-05",
+        "2026-06-30 reporting period"
+      ],
+      "publisher_host": "www.clevelandcliffs.com"
+    },
+    {
+      "id": "IB_20",
+      "title": "Industrial Metal Powders India · magnet / rare-earth applications",
+      "url": "https://imp-india.com/magnet-rare-earth-element/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated product page, accessed 2026-10-07"
+      ],
+      "publisher_host": "imp-india.com"
+    },
+    {
+      "id": "IB_21",
+      "title": "Kusano Sangyo · JFE high-purity iron products",
+      "url": "https://www.kusanoco.com/en/products/products_06/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated product page, accessed 2026-10-07"
+      ],
+      "publisher_host": "www.kusanoco.com"
+    },
+    {
+      "id": "IB_22",
+      "title": "U.S. Borax · Boron, California operations",
+      "url": "https://www.borax.com/about/borax-operations/boron-california",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07",
+        "USGS MCS 2026, 2025 estimates"
+      ],
+      "publisher_host": "www.borax.com"
+    },
+    {
+      "id": "IB_23",
+      "title": "U.S. Borax · global operations and shipping",
+      "url": "https://www.borax.com/about/borax-operations",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07",
+        "USGS MCS 2026, 2025 estimates"
+      ],
+      "publisher_host": "www.borax.com"
+    },
+    {
+      "id": "IB_24",
+      "title": "USGS · Mineral Commodity Summaries 2026: Boron",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-boron.pdf",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07",
+        "USGS MCS 2026, 2025 estimates"
+      ],
+      "publisher_host": "pubs.usgs.gov"
+    },
+    {
+      "id": "IB_25",
+      "title": "U.S. Borax · Wilmington, California operations",
+      "url": "https://www.borax.com/about/borax-operations/wilmington",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated operator page, accessed 2026-10-07"
+      ],
+      "publisher_host": "www.borax.com"
+    },
+    {
+      "id": "IB_26",
+      "title": "Eti Maden · Kırka mine and processing",
+      "url": "https://www.etimaden.gov.tr/en/kirka",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "publisher_host": "www.etimaden.gov.tr"
+    },
+    {
+      "id": "IB_27",
+      "title": "Eti Maden · Etibor-48 technical sheet, Rev. 2023/01",
+      "url": "https://www.etimaden.gov.tr/storage/pages/March2023/EN-Etibor-48.pdf",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "publisher_host": "www.etimaden.gov.tr"
+    },
+    {
+      "id": "IB_28",
+      "title": "Etimine USA · company and U.S. market",
+      "url": "https://etimineusa.com/etimine-usa/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "publisher_host": "etimineusa.com"
+    },
+    {
+      "id": "IB_29",
+      "title": "Etimine USA · logistics and distribution",
+      "url": "https://etimineusa.com/logistics/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "publisher_host": "etimineusa.com"
+    },
+    {
+      "id": "IB_30",
+      "title": "Etimine USA · Etibor-48 product and Wilmington, Delaware packaging option",
+      "url": "https://etimineusa.com/etibor-48/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "Etibor-48 technical sheet Rev. 2023/01",
+        "undated U.S. sales/logistics pages, accessed 2026-10-07"
+      ],
+      "publisher_host": "etimineusa.com"
+    },
+    {
+      "id": "IB_31",
+      "title": "Nippon Denko · ferroboron products",
+      "url": "https://nippondenko.co.jp/en/ourbusiness/functionalmaterials/boron/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated product page and product PDF, accessed 2026-10-07"
+      ],
+      "publisher_host": "nippondenko.co.jp"
+    },
+    {
+      "id": "IB_32",
+      "title": "Nippon Denko · ferroboron grades and NdFeB application",
+      "url": "https://www.nippondenko.co.jp/shared/pdf/boron.pdf",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated product page and product PDF, accessed 2026-10-07"
+      ],
+      "publisher_host": "nippondenko.co.jp"
+    },
+    {
+      "id": "IB_33",
+      "title": "5E Advanced Materials · FY 2026 Form 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1888654/000119312526394541/feam-20260630.htm",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "FY ended 2026-06-30 10-K, filed September 2026, includes August 2026 update"
+      ],
+      "publisher_host": "www.sec.gov"
+    },
+    {
+      "id": "MP_SITE",
+      "title": "MP Materials Magnetics",
+      "url": "https://www.mpmaterials.com/magnetics",
+      "date": null,
+      "type": "company operating description",
+      "access": "public",
+      "checked": "2026-10-07",
+      "date_note": "Undated operating/technical page; checked date is not a publication date."
+    },
+    {
+      "id": "MP_Q2",
+      "title": "MP Materials Q2 2026 results",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Second-Quarter-2026-Results/default.aspx",
+      "date": "2026-08-06",
+      "type": "company quarterly report",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MP_2025",
+      "title": "MP restores U.S. magnet production",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Restores-U.S.-Rare-Earth-Magnet-Production/default.aspx",
+      "date": "2025-01-22",
+      "type": "company production announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_AR",
+      "title": "Lynas 2026 Annual Report",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/65277/2026/RNS/65277_rns_2026-08-25_10795ee5-2a08-47d4-8bc6-e43e37c5949b.pdf",
+      "date": "2026-08-26",
+      "type": "original company report, publicly mirrored",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_US",
+      "title": "Lynas U.S. oxide supply binding LOI",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03068512.pdf",
+      "date": "2026-03-16",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_NOVEON",
+      "title": "Lynas/Noveon non-binding MoU",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03005309.pdf",
+      "date": "2025-10-08",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_LS",
+      "title": "Lynas/LS Eco Energy framework agreement",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03072369.pdf",
+      "date": "2026-03-26",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_JS",
+      "title": "Lynas/JS Link partnership",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03108378.pdf",
+      "date": "2026-07-07",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_SV",
+      "title": "USA Rare Earth/Serra Verde combination completed",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-completes-combination-serra-verde-group",
+      "date": "2026-09-04",
+      "type": "company closing announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_Q2",
+      "title": "USA Rare Earth Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000056/exhibit991-earningsrelease.htm",
+      "date": "2026-08-10",
+      "type": "SEC-filed company results",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_STILLWATER",
+      "title": "USA Rare Earth Stillwater commissioning",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-achieves-major-operational-and-strategic",
+      "date": "2026-03-26",
+      "type": "company commissioning announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_PILOT",
+      "title": "Energy Fuels first terbium oxide",
+      "url": "https://investors.energyfuels.com/2026-03-25-Energy-Fuels-Announces-First-U-S-Primary-Production-of-Critical-Heavy-Rare-Earth-Material-in-Decades",
+      "date": "2026-03-25",
+      "type": "company pilot-production announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_QUAL",
+      "title": "Energy Fuels oxide qualification in Japan",
+      "url": "https://investors.energyfuels.com/2026-08-19-Heavy-Rare-Earths-Produced-by-Energy-Fuels-Qualified-for-Use-by-Largest-Permanent-Magnet-Manufacturer-in-Japan",
+      "date": "2026-08-19",
+      "type": "company customer-qualification announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_ASM",
+      "title": "Energy Fuels closes ASM acquisition",
+      "url": "https://investors.energyfuels.com/2026-08-28-Energy-Fuels-Completes-Acquisition-of-Australian-Strategic-Materials",
+      "date": "2026-08-28",
+      "type": "company closing announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_PDF",
+      "title": "Rare Earth Elements 2026 report",
+      "url": "https://iea.blob.core.windows.net/assets/88d2b060-4c5b-46cc-8727-c60576cb937d/RareearthelementsPathwaystosecureanddiversifiedsupplychains.pdf",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_SUM",
+      "title": "Rare Earth Elements 2026 executive summary",
+      "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LCM_METAL",
+      "title": "LCM metal-making capabilities",
+      "url": "https://lesscommonmetals.com/metalmaking/",
+      "date": null,
+      "type": "company technical operating description",
+      "access": "public",
+      "checked": "2026-10-07",
+      "date_note": "Undated operating/technical page; checked date is not a publication date."
+    },
+    {
+      "id": "NOVEON_SOLVAY",
+      "title": "Noveon/Solvay oxide supply agreement",
+      "url": "https://noveon.co/noveon-solvay-partnership",
+      "date": "2025-11-12",
+      "type": "company executed agreement announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_Q2",
+      "title": "Solvay Q2 2026",
+      "url": "https://www.solvay.com/en/press-release/solvay-second-quarter-2026-results",
+      "date": "2026-07-29",
+      "type": "company quarterly results",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_Q3_2025",
+      "title": "Solvay Q3 2025 management transcript",
+      "url": "https://www.solvay.com/sites/g/files/srpend616/files/2025-11/2025Q3%20Transcript%20with%20Q%26A%20for%20Webpage.pdf",
+      "date": "2025-11",
+      "type": "company transcript",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_VIRIDIS",
+      "title": "Solvay/Viridis LOI",
+      "url": "https://www.solvay.com/en/press-release/solvay-and-viridis-sign-letter-intent-loi-rare-earth-materials-sourcing",
+      "date": "2026-05-13",
+      "type": "company LOI announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "ASM_SALES",
+      "title": "ASM Korean Metals Plant sales and sample delivery",
+      "url": "https://announcements.asx.com.au/asxpdf/20250616/pdf/06ks64kc2r0j8g.pdf",
+      "date": "2025-06-16",
+      "type": "company ASX presentation",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "NORTHERN_AR",
+      "title": "China Northern Rare Earth 2025 Annual Report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118607.PDF",
+      "date": "2026-04-18",
+      "type": "company annual filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_RE",
+      "title": "USGS Mineral Commodity Summaries 2026: Rare Earths (version 1.2)",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf",
+      "date": "2026-02",
+      "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_HRE",
+      "title": "USGS Mineral Commodity Summaries 2026: Heavy Rare Earths",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "date": "2026-02",
+      "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IB_34",
+      "title": "Industrial Metal Powders India · iron flakes and named worldwide distributor",
+      "url": "https://imp-india.com/electrolytic-iron-flakes/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated product page, accessed 2026-10-07"
+      ]
+    },
+    {
+      "id": "IB_35",
+      "title": "Allied Metals · U.S. electrolytic iron flake specifications",
+      "url": "https://alliedmet.com/ultra-high-purity-electrolytic-iron-flakes/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated product page, accessed 2026-10-07"
+      ]
+    },
+    {
+      "id": "IB_36",
+      "title": "Toho Zinc · MAIRON flake specifications and magnet application",
+      "url": "https://www.toho-zinc.co.jp/eng/business/electronic/iron/mf.html",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "2026-02-13 company presentation",
+        "undated specification accessed2026-10-07",
+        "1981 historic process"
+      ]
+    },
+    {
+      "id": "IB_37",
+      "title": "Toho Zinc · February 2026 presentation: Fujioka high-purity iron",
+      "url": "https://www.toho-zinc.co.jp/eng/ir/library/pdf/news_20260213.pdf",
+      "date": "2026-02-13",
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "2026-02-13 company presentation",
+        "undated specification accessed2026-10-07",
+        "1981 historic process"
+      ]
+    },
+    {
+      "id": "IB_38",
+      "title": "Toho Zinc · Fujioka Works location",
+      "url": "https://www.toho-zinc.co.jp/eng/company/list.html",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "2026-02-13 company presentation",
+        "undated specification accessed2026-10-07",
+        "1981 historic process"
+      ]
+    },
+    {
+      "id": "IB_39",
+      "title": "Toho operator-authored 1981 iron electrorefining study (historical)",
+      "url": "https://www.jstage.jst.go.jp/article/shigentosozai1953/97/1122/97_1122_830/_article/-char/en",
+      "date": "1981",
+      "checked": "2026-10-07",
+      "type": "operator-authored historical process paper",
+      "access": "public",
+      "evidence_dates": [
+        "2026-02-13 company presentation",
+        "undated specification accessed2026-10-07",
+        "1981 historic process"
+      ],
+      "date_note": "Historical process only; not evidence of current feed provenance."
+    },
+    {
+      "id": "IB_40",
+      "title": "Nippon Denko · Toyama Plant location and ferroboron products",
+      "url": "https://www.nippondenko.co.jp/en/company/company-place/",
+      "date": null,
+      "checked": "2026-10-07",
+      "type": "operator / official primary source",
+      "access": "public",
+      "evidence_dates": [
+        "undated product page and product PDF, accessed 2026-10-07"
+      ]
+    }
+  ],
+  "rendering_rules": [
+    "Keep operating, qualification, contracted, demonstration and proposed links visually distinct.",
+    "Country/regional aggregate flows must never imply a named mine or supplier shipped to a named U.S. customer.",
+    "All ingredients is the union of ingredient-tagged nodes/links, not all REEs.",
+    "Draw no missing oxide-to-metal or metal-to-magnet link by inference from common ownership.",
+    "No element-specific tonnage from total REO/TREO or finished-magnet mass.",
+    "Unknown destination stays unknown; country centroid is not facility geography.",
+    "Every connection has equal visual weight; no width represents tonnes.",
+    "Unknown conversion, batch, customer and geography remain visible gaps.",
+    "Operator/group names do not constitute a legal ownership/control audit."
+  ],
+  "gaps": [
+    "No verified element-specific delivered-tonnage chain from Pela Ema through separation/metal/alloy to Stillwater.",
+    "Lynas existing metal-making counterparties not named in cited public source; Vietnam framework is proposed.",
+    "U.S. government Lynas binding LOI does not prove a delivered shipment; latest definitive delivery terms require later filing.",
+    "Named Chinese mine-to-U.S.-customer routes not verified. Use aggregate exports/trade layer separately.",
+    "Pilot/customer qualification of Dy/Tb oxide does not prove end-to-end qualified U.S. magnet availability.",
+    "Current Chinese-origin material supply connects to U.S. only in aggregate Tb trade evidence; no Bayan Obo/Maoniuping/Jiangxi named operator-to-U.S. customer route verified.",
+    "Solvay/Noveon contract directly names all three oxide products but metallization route and actual deliveries are missing.",
+    "Solvay autumn 2026 industrial Dy/Tb start not verified as achieved by Oct 7.",
+    "Generic material contracts must remain All-only; contact is unnecessary for current public-source map, but supplier audit needed for real procurement."
+  ],
+  "provenance": {
+    "package_as_of": "2026-10-07",
+    "integrated_at": "2026-10-07",
+    "note": "Source-reviewed matrix refresh; All-only generic agreements and ingredient-specific maturity retained. No mine-to-customer route or assay filled by assumption.",
+    "matrix_version": 2,
+    "iron_boron_route_count": 9,
+    "iron_boron_refresh": "2026-10-07 final nine-route matrix"
+  }
+}

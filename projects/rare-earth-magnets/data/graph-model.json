@@ -1,0 +1,138 @@
+{
+  "schema_version": "1.0",
+  "node_kinds": [
+    "mine",
+    "separator",
+    "metal_converter",
+    "alloy_plant",
+    "magnet_plant",
+    "component_factory",
+    "end_product_factory",
+    "sector",
+    "country_trade_aggregate",
+    "anonymous_counterparty",
+    "unallocated",
+    "stock"
+  ],
+  "edge_kinds": {
+    "observed_shipment": {
+      "quantity_optional": true,
+      "quantity_unknown_visible": true,
+      "requires": "dated actual shipment/delivery evidence; explicit origin and destination scope",
+      "line": "solid",
+      "animate": false,
+      "geographic_arc": "only with evidence for both endpoints; transport itinerary remains unknown unless sourced"
+    },
+    "reported_operating_relationship": {
+      "quantity_optional": true,
+      "requires": "operator states ongoing feed/supply relation",
+      "line": "dashed",
+      "animate": false,
+      "mass_balance_default": false
+    },
+    "trade_aggregate": {
+      "requires": "reporter/partner/product code/period/unit; countries or regions, not factories",
+      "line": "aggregate band",
+      "animate": false,
+      "mass_balance_default": "only within exact matching trade boundary"
+    },
+    "company_contract": {
+      "quantity_optional": true,
+      "requires": "named counterparties and dated contract/order; planned deliveries labelled",
+      "line": "dotted",
+      "animate": false,
+      "mass_balance_default": false
+    },
+    "historical_relationship": {
+      "requires": "historical dated report; do not infer present continuity",
+      "line": "dashed muted",
+      "animate": false,
+      "mass_balance_default": false
+    },
+    "product_adoption": {
+      "requires": "end product contains/uses company materials; direct procurement unproven",
+      "line": "thin dotted",
+      "animate": false,
+      "mass_balance_default": false
+    },
+    "scenario_route": {
+      "requires": "scenario ID and explicit assumptions separate from observed graph",
+      "line": "distinct scenario style",
+      "animate": false,
+      "mass_balance_default": "scenario only"
+    },
+    "sector_application": {
+      "requires": "application/function evidence; denotes use class, not shipping route",
+      "line": "light category connector",
+      "animate": false,
+      "mass_balance_default": false
+    }
+  },
+  "edge_fields": [
+    "id",
+    "kind",
+    "from_node_id",
+    "to_node_id",
+    "from_scope",
+    "to_scope",
+    "product_form",
+    "material_stage",
+    "period_start",
+    "period_end",
+    "transaction_time_basis",
+    "quantity_record_id",
+    "native_unit",
+    "element_assay_id",
+    "evidence_status",
+    "source_ids",
+    "unknown_fields",
+    "share_denominator_record_id",
+    "share_value_or_null",
+    "unallocated_quantity_or_null",
+    "scenario_id_or_null",
+    "current_continuity_known",
+    "transport_mode_or_null",
+    "itinerary_or_null"
+  ],
+  "guards": [
+    "A factory pin establishes location/capability only, not a material route.",
+    "ABB Fort Smith motor evidence and ABB Shanghai robot capability do not establish a China→U.S. route.",
+    "Contracts at company scope must target company or anonymous-recipient nodes when receiving plant is unverified.",
+    "A component factory can connect to a sector and an end-product factory with different edge types; neither implies the magnet is manufactured there.",
+    "Shipping-country origin is not the original mine provenance. Imported intermediate origin and oxide/metal converter may differ.",
+    "Element filters denote supported product/assay evidence, not a guarantee all delivered grades contain every element.",
+    "No allocation percentage without an explicit same-boundary denominator; unknown fraction stays null. If denominator is known but allocation coverage is incomplete, display residual unallocated once.",
+    "Do not turn planned or anonymous qualification deliveries into series shipments to a named OEM."
+  ],
+  "example_edges": [
+    {
+      "id": "neo_unnamed_tier1_2026",
+      "kind": "observed_shipment",
+      "from_node_id": "neo_narva",
+      "to_node_id": "anonymous_neo_tier1",
+      "to_scope": "unnamed Tier 1 traction-motor customer; site/country unknown",
+      "quantity_record_id": "neo_commercial_event",
+      "source_ids": [
+        "NEO_COMMERCIAL"
+      ],
+      "unknown_fields": [
+        "quantity",
+        "recipient company/site/country",
+        "transport",
+        "element assay"
+      ],
+      "geographic_arc_allowed": false,
+      "physical_flow_animation_allowed": false
+    },
+    {
+      "id": "scenario_feed_to_use",
+      "kind": "scenario_route",
+      "from_node_id": "hypothetical_magnet_system",
+      "to_node_id": "hypothetical_delivered_use",
+      "quantity": 80,
+      "unit": "metric tonnes contained metals",
+      "scenario_id": "illustrative_no_company_or_country",
+      "unknown_fields": []
+    }
+  ]
+}

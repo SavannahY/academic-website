@@ -1,0 +1,1115 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-07",
+  "status": "proposed research directions; evidence and assumptions separated",
+  "scope": "Linked selected supply-stage and U.S. application evidence; not a complete national factory census or calibrated cost optimizer.",
+  "questions": [
+    {
+      "id": "demand",
+      "title_en": "Downstream demand & qualification",
+      "title_zh": "下游需求与客户认证",
+      "question_en": "Where is usable magnet demand, and which chosen applications face disruption or switching constraints?",
+      "question_zh": "合格可用磁体的需求在哪里？哪些已选定的应用面临中断或切换约束？",
+      "description_en": "Separate the magnet or rotor, motor/actuator maker, integrator, application factory and final use. A household, industrial facility, business or infrastructure project may be the endpoint. Annual units or announced factory capacity cannot establish magnet mass without the actual design and material bill.",
+      "description_zh": "区分磁体或转子、电机/执行器厂、集成商、应用工厂与最终用途。终端可能是家庭、工业设施、企业或基础设施项目。没有实际设计及材料清单，年产数量或公布产能不能推出磁体用量。",
+      "status": "proposed research question",
+      "inputs": [
+        {
+          "label_en": "Documented plant/product, buyer role and dated relationship",
+          "label_zh": "具名厂点/产品、采购角色及注明时间的关系",
+          "basis": "evidence",
+          "source_ids": [
+            "APP_ABBCONTRACT",
+            "NEO_NARVA",
+            "APP_YASKAWASERVO"
+          ]
+        },
+        {
+          "label_en": "Actual annual output and planned/design capacity, kept separate",
+          "label_zh": "实际年度产量与计划/设计产能分别记录",
+          "basis": "gap",
+          "source_ids": []
+        },
+        {
+          "label_en": "Magnet chemistry/mass per unit, PM design share and accepted suppliers",
+          "label_zh": "每件产品磁体材质/质量、永磁路线份额及合格供应商",
+          "basis": "gap",
+          "source_ids": []
+        },
+        {
+          "label_en": "Scenario demand and qualification/switching time",
+          "label_zh": "情景需求及认证/切换时间",
+          "basis": "assumption",
+          "source_ids": []
+        }
+      ],
+      "outputs": [
+        {
+          "label_en": "Architecture-specific demand ranges with visible gaps",
+          "label_zh": "注明缺口的具体技术路线需求区间"
+        },
+        {
+          "label_en": "Unmet accepted magnet demand and delivery delays",
+          "label_zh": "未满足的合格磁体需求及交付延误"
+        }
+      ],
+      "limitations_en": [
+        "No blanket NdFeB dependence for all EVs, robots, wind turbines or AI equipment.",
+        "No named supplier route, OEM bill of materials or receiving plant is inferred from company/product adoption."
+      ],
+      "limitations_zh": [
+        "不将所有电动车、机器人、风机或 AI 设备都视为依赖 NdFeB。",
+        "不根据公司或产品采用关系推断具名供应路线、整机材料清单或收货厂点。"
+      ],
+      "source_ids": [
+        "APP_ABBCONTRACT",
+        "NEO_NARVA",
+        "APP_YASKAWASERVO",
+        "US_RIVIAN_FY25",
+        "US_RIVIAN_10K",
+        "US_RIVIAN_Q326",
+        "US_LUCID_10K",
+        "US_LUCID_FINAL25",
+        "US_AGILITY_2026",
+        "US_GXO_DIGIT",
+        "US_BMW_OUTPUT25",
+        "US_BMW_IX5",
+        "US_BMW_DEC26"
+      ],
+      "case_ids": [
+        "rivian-normal-output",
+        "lucid-amp1-scope",
+        "agility-robofab-end-use",
+        "bmw-spartanburg-architecture"
+      ]
+    },
+    {
+      "id": "readiness",
+      "title_en": "Equipment & capability readiness",
+      "title_zh": "设备与能力就绪度",
+      "question_en": "Which process or acceptance stage limits delivery, and what capital and time could change it?",
+      "question_zh": "哪项工序或验收环节限制交付？哪些资本与时间投入可能改变它？",
+      "description_en": "Link the material process to its required equipment and utilities, then identify the equipment maker and actual manufacturing or service location. An operating plant, pilot, construction project and customer-qualified line represent different readiness states.",
+      "description_zh": "将材料工序连接到所需设备及公用工程，再确认设备制造商及实际生产或服务地点。运行工厂、中试、在建项目及客户认证产线是不同的就绪状态。",
+      "status": "proposed research question",
+      "inputs": [
+        {
+          "label_en": "Process, equipment capability and verified operating/planned status",
+          "label_zh": "工序、设备能力及已核实的运行/计划状态",
+          "basis": "gap",
+          "source_ids": [
+            "CONSARC_VULCAN",
+            "ULVAC_ORIGIN",
+            "ULVAC_QA",
+            "EMAT_CONTRACT",
+            "EMAT_PROSPECTUS"
+          ]
+        },
+        {
+          "label_en": "Comparable machine quotation, capacity, yield, service and spares",
+          "label_zh": "可比设备报价、产能、收率、服务及备件",
+          "basis": "gap",
+          "source_ids": []
+        },
+        {
+          "label_en": "Site conditions, utilities, construction, commissioning and qualification",
+          "label_zh": "厂址条件、公用工程、建设、调试及客户认证",
+          "basis": "gap",
+          "source_ids": []
+        },
+        {
+          "label_en": "Assumed build, ramp and acceptance delays in the existing model",
+          "label_zh": "现有模型中的假设建设、爬坡及验收时间",
+          "basis": "assumption",
+          "source_ids": []
+        }
+      ],
+      "outputs": [
+        {
+          "label_en": "Stage-specific readiness and bottleneck sensitivity",
+          "label_zh": "分环节就绪状态与瓶颈敏感性"
+        },
+        {
+          "label_en": "Time until customer-usable output",
+          "label_zh": "到客户可用产出所需的时间"
+        }
+      ],
+      "limitations_en": [
+        "Equipment purchases, material inputs and finished-component transport are different transactions.",
+        "Announced equipment or project capacity is not current qualified output.",
+        "No verified national U.S. investment total or exact plant equipment bill is available here.",
+        "Selected equipment examples establish their stated milestone only; none supplies a calibrated nationwide equipment cost or customer-qualified throughput."
+      ],
+      "limitations_zh": [
+        "设备采购、材料投入及成品部件运输是不同交易。",
+        "公布的设备或项目产能不等于当前合格产出。",
+        "此处没有已核实的全美投资总额或工厂精确设备清单。",
+        "已选设备实例仅证明所披露的节点；不能标定全国设备成本或客户合格产出。"
+      ],
+      "source_ids": [
+        "CONSARC_VULCAN",
+        "ULVAC_ORIGIN",
+        "ULVAC_QA",
+        "EMAT_CONTRACT",
+        "EMAT_PROSPECTUS"
+      ],
+      "case_ids": [
+        "consarc-vulcan-commissioned",
+        "ulvac-production-geography",
+        "ulvac-korea-orders",
+        "ulvac-outstanding-commitment"
+      ]
+    },
+    {
+      "id": "frontier",
+      "title_en": "Cost–security frontier",
+      "title_zh": "成本与供应安全的前沿比较",
+      "question_en": "Under the same budget and delivery deadline, which feasible choices reduce cost, unmet demand or delay?",
+      "question_zh": "在相同预算及交付期限下，哪些可行选择减少成本、短缺或延误？",
+      "description_en": "Compare domestic investment, qualified allied imports, multiple accepted suppliers and finite inventory for one defined product and application. Test Chinese/allied equipment price assumptions rather than assuming one country is cheaper. Retain the options that cannot improve one objective without worsening another; then test whether the frontier survives uncertainty.",
+      "description_zh": "针对一个明确的产品及应用，比较本土投资、合格盟友进口、多个已认可供应商与有限库存。检验中国/盟友设备价格的假设，而不是预设某国更便宜。保留无法在不损害另一目标的前提下继续改进的选择，再检验不确定性是否改变前沿。",
+      "status": "proposed research question",
+      "inputs": [
+        {
+          "label_en": "Matched product/equipment delivered lifecycle cost and cost date",
+          "label_zh": "可比产品/设备的到货全生命周期成本及成本日期",
+          "basis": "gap",
+          "source_ids": []
+        },
+        {
+          "label_en": "Verified transport, duties, service/spares and outage exposure",
+          "label_zh": "核实的运输、税费、服务/备件及停机暴露",
+          "basis": "gap",
+          "source_ids": []
+        },
+        {
+          "label_en": "A common decision date, fixed supply reference, budget and deadline",
+          "label_zh": "共同决策日期、固定供应基准、预算及期限",
+          "basis": "assumption",
+          "source_ids": []
+        },
+        {
+          "label_en": "Finite inventories, build/ramp/qualification and consistent shocks",
+          "label_zh": "有限库存、建设/爬坡/认证及一致的冲击",
+          "basis": "assumption",
+          "source_ids": []
+        }
+      ],
+      "outputs": [
+        {
+          "label_en": "Pareto comparison: lifecycle cost versus unmet qualified tonnes",
+          "label_zh": "帕累托比较：生命周期成本与未满足的合格磁体吨数"
+        },
+        {
+          "label_en": "Late-demand burden and time to qualified delivery",
+          "label_zh": "需求等待负担及合格交付时间"
+        },
+        {
+          "label_en": "Sensitivity to prices, lead times, yields and disruption duration",
+          "label_zh": "对价格、交期、收率及中断时长的敏感性"
+        }
+      ],
+      "limitations_en": [
+        "Existing intervention credits are abstract scenario units, not calibrated U.S. dollars.",
+        "A frontier for a bounded product/program is not a nationwide optimum.",
+        "Do not sum overlapping project capital disclosures or compare incompatible product/cost bases."
+      ],
+      "limitations_zh": [
+        "现有干预积分是抽象情景单位，而不是校准后的美元。",
+        "特定产品或项目的前沿比较不等于全国最优解。",
+        "不累计重叠的项目资本披露，也不比较不兼容的产品或成本口径。"
+      ],
+      "source_ids": [
+        "EMAT_PROSPECTUS",
+        "EMAT_CONTRACT"
+      ],
+      "case_ids": [
+        "ulvac-outstanding-commitment"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "APP_ABBCONTRACT",
+      "title": "ABB announces Noveon supply agreement for industrial motors",
+      "url": "https://new.abb.com/news/detail/128298/abb-selects-noveon-magnetics-for-long-term-agreement-to-supply-us-made-rare-earth-magnets",
+      "date": "2025-08-14",
+      "type": "primary corporate disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "APP_YASKAWASERVO",
+      "title": "Yaskawa SGMXG Sigma-X servo motor NdFeB technology",
+      "url": "https://www.yaskawa.com/products/motion/sigma-x-servo-products/rotary-servo-motors/sgmxg",
+      "date": "undated current page",
+      "type": "primary corporate disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "NEO_NARVA",
+      "title": "Neo Narva commercial qualified magnet deliveries",
+      "url": "https://www.neomaterials.com/neo-advances-commercial-production-magnet-facility/",
+      "date": "2026-09-14",
+      "checked": "2026-10-07",
+      "type": "primary operator/institution disclosure",
+      "access": "public"
+    },
+    {
+      "id": "CONSARC_VULCAN",
+      "title": "Consarc/Vulcan commissioned strip caster",
+      "url": "https://inductothermgroup.com/consarc-corporation-and-vulcan-elements-partner-to-advance-u-s-rare-earth-magnet-production-with-commissioning-of-new-strip-casting-furnace/",
+      "date": "2025-06-04",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Article body",
+      "verification_note": "Names New Jersey manufacture and Research Triangle Park installation.",
+      "checked": "2026-10-07",
+      "review_basis": "Primary source opened and checked for the bounded case; not a full equipment market audit."
+    },
+    {
+      "id": "ULVAC_ORIGIN",
+      "title": "Japan production for rare-earth magnet vacuum melting furnaces",
+      "url": "https://www.ulvac.co.jp/en/news/20260507a/index.html",
+      "date": "2026-05-07",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Background / Japan production table",
+      "verification_note": "Existing China production; planned Japan start is not verified actual start.",
+      "checked": "2026-10-07",
+      "review_basis": "Primary source opened and checked for the bounded case; not a full equipment market audit."
+    },
+    {
+      "id": "ULVAC_QA",
+      "title": "ULVAC IR Seminar Q&A",
+      "url": "https://ir.ulvac.co.jp/en/ir/newsrelease/PressRelease2026040805/main/0/link/%28EN%29QA_for_IR_Seminer_2026.pdf",
+      "date": "2026-04-08",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "PDF p2, item4",
+      "verification_note": "Identifies Chigasaki production structure; manufacturer capacity equivalence is not customer-qualified magnet output.",
+      "checked": "2026-10-07",
+      "review_basis": "Primary source opened and checked for the bounded case; not a full equipment market audit."
+    },
+    {
+      "id": "EMAT_CONTRACT",
+      "title": "ULVAC Korea equipment contract W20260330-001-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026056264/ea029072001ex10-1.htm",
+      "date": "2026-05-13; filed2026-05-14",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Contract pp1–5",
+      "verification_note": "Price redacted; KRW denomination and DDP Korea terms public.",
+      "checked": "2026-10-07",
+      "review_basis": "Primary source opened and checked for the bounded case; not a full equipment market audit."
+    },
+    {
+      "id": "EMAT_PROSPECTUS",
+      "title": "Evolution Metals & Technologies prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026097822/ea0304499-01.htm",
+      "date": "2026-09-08 filing; commitment as of 2026-06-30",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Equipment Supply Contracts pp164–165; commitments p184; Note 19",
+      "verification_note": "Eight contracts;13sets; outstanding commitment is not total equipment price.",
+      "checked": "2026-10-07",
+      "review_basis": "Saved SEC primary HTML/text checked against equipment table, contractual obligations and Note 19; live web fetch unavailable."
+    },
+    {
+      "id": "US_RIVIAN_10K",
+      "title": "Rivian 2025 Form 10-K: Normal capacity and Amazon EDV sales",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000008/rivn-20251231.htm",
+      "source_date": "2026-02-12",
+      "source_date_precision": "day",
+      "claim_period": "year ended 2025-12-31",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "",
+      "date": "2026-02-12",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_RIVIAN_FY25",
+      "title": "Rivian Q4 and full year 2025 production at Normal",
+      "url": "https://www.sec.gov/Archives/edgar/data/1874178/000187417826000007/ex-991pressrelease4q25earn.htm",
+      "source_date": "2026-02-12",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "",
+      "date": "2026-02-12",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_RIVIAN_Q326",
+      "title": "Rivian Q3 2026 production and delivery figures",
+      "url": "https://rivian.com/newsroom/article/rivian-releases-q3-2026-production-and-delivery-figures",
+      "source_date": "2026-10-02",
+      "source_date_precision": "day",
+      "claim_period": "quarter ended 2026-09-30",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Browser text extractor returned no article body; direct public operator HTML contains the article and posted date. Snapshot retained locally.",
+      "date": "2026-10-02",
+      "checked": "2026-10-07",
+      "review_basis": "Saved direct Rivian operator HTML checked for production, Normal location and October 2 posted date; text extractor returned no body."
+    },
+    {
+      "id": "US_LUCID_10K",
+      "title": "Lucid 2025 Form 10-K: AMP-1 and powertrain manufacturing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811210/000162828026011053/lcid-20251231.htm",
+      "source_date": "2026-02-24",
+      "source_date_precision": "day",
+      "claim_period": "year ended 2025-12-31",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "",
+      "date": "2026-02-24",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_LUCID_FINAL25",
+      "title": "Lucid Q4/full-year 2025 financial results with revised production",
+      "url": "https://ir.lucidmotors.com/news-releases/news-release-details/lucid-announces-fourth-quarter-and-full-year-2025-financial",
+      "source_date": "2026-02-24",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Final 17,840 replaces January preliminary 18,378; company-global, not plant-specific.",
+      "date": "2026-02-24",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_AGILITY_2026",
+      "title": "Digit 5 and current RoboFab assembly operations",
+      "url": "https://www.agilityrobotics.com/content/agility-unveils-digit-5-humanoid-robot-built-for-cooperatively-safe-work-at-scale",
+      "source_date": "2026-09-15",
+      "source_date_precision": "day",
+      "claim_period": "Digit 4 current deployments; Digit 5 expected 2027",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "",
+      "date": "2026-09-15",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_GXO_DIGIT",
+      "title": "GXO multi-year RaaS agreement and SPANX deployment",
+      "url": "https://gxo.com/news_article/gxo-signs-industry-first-multi-year-agreement-with-agility-robotics/",
+      "source_date": "2024-06-27",
+      "source_date_precision": "day",
+      "claim_period": "2024 commercial deployment",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "",
+      "date": "2024-06-27",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_BMW_OUTPUT25",
+      "title": "BMW Spartanburg 2025 production and exports",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0456008EN_US?language=en_US",
+      "source_date": "2026-03-05",
+      "source_date_precision": "day",
+      "claim_period": "calendar year 2025",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "",
+      "date": "2026-03-05",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_BMW_IX5",
+      "title": "BMW iX5 Gen6 EESM/ASM traction architecture",
+      "url": "https://www.press.bmwgroup.com/usa/article/detail/T0458814EN_US/the-new-bmw-x5-and-ix5?language=en_US",
+      "source_date": "2026-06-30",
+      "source_date_precision": "day",
+      "claim_period": "iX5 program; Q1 2027 U.S. market introduction",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "",
+      "date": "2026-06-30",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    },
+    {
+      "id": "US_BMW_DEC26",
+      "title": "BMW new X5: iX5 production scheduled December 2026",
+      "url": "https://www.bmwgroup.com/en/news/general/2026/the-new-bmw-x5.html",
+      "source_date": "2026",
+      "source_date_precision": "year",
+      "claim_period": "December 2026 planned start",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "provenance": "primary operator / regulator / statistical publisher",
+      "note": "Date only known at year precision from current operator article.",
+      "date": "2026",
+      "checked": "2026-10-07",
+      "review_basis": "Selected primary claim independently opened and checked; not a full U.S. factory dataset audit."
+    }
+  ],
+  "packages": [
+    {
+      "id": "application-observations",
+      "title_en": "Anonymous practitioner context and public evidence",
+      "title_zh": "匿名从业者背景与公开证据",
+      "status": "anonymous observations; public examples separately sourced",
+      "summary_en": "Buyer roles, specialist sourcing and qualification questions. No factory identity, supplier route or quantitative model input is created by these observations.",
+      "summary_zh": "采购角色、专业采购与认证问题。观察没有建立工厂身份、供应路线或模型定量输入。",
+      "source_ids": [
+        "APP_ABBCONTRACT",
+        "NEO_NARVA",
+        "APP_YASKAWASERVO"
+      ]
+    },
+    {
+      "id": "bounded-equipment-cases",
+      "title_en": "Equipment milestones, not a cost model",
+      "title_zh": "设备节点，而非成本模型",
+      "status_en": "Selected primary sources checked · final evidence packet",
+      "status_zh": "已核实所选原始来源 · 最终证据资料包",
+      "summary_en": "Four cases connect process, maker and manufacturing/seller/installation geography. Orders, planned production and commissioned machinery remain distinct. Open Question B to inspect the cases.",
+      "summary_zh": "四个实例连接工序、制造商及制造/卖方/安装地点，区分订单、计划生产及已调试设备。选择问题B查看细节。",
+      "question_id": "readiness",
+      "source_ids": [
+        "CONSARC_VULCAN",
+        "ULVAC_ORIGIN",
+        "ULVAC_QA",
+        "EMAT_CONTRACT",
+        "EMAT_PROSPECTUS"
+      ],
+      "data_file": "data/equipment-readiness.json"
+    },
+    {
+      "id": "us-demand-cases",
+      "title_en": "Production, design rate and end use",
+      "title_zh": "产量、设计产能与终端用途",
+      "status_en": "Four source-backed cases · final source packet QA passed",
+      "status_zh": "四个有来源的实例 · 原始资料包最终审查已通过",
+      "summary_en": "Selected U.S. examples distinguish plant production, company-global totals, installed/design capacity and the consuming business. No count is converted to magnet tonnes. Open Question A to inspect scopes.",
+      "summary_zh": "已选美国实例区分工厂产量、公司全球总量、安装/设计产能及使用方企业。不将产品计数换算为磁体吨数。选择问题A查看口径。",
+      "question_id": "demand",
+      "source_ids": [
+        "US_RIVIAN_FY25",
+        "US_RIVIAN_10K",
+        "US_RIVIAN_Q326",
+        "US_LUCID_10K",
+        "US_LUCID_FINAL25",
+        "US_AGILITY_2026",
+        "US_GXO_DIGIT",
+        "US_BMW_OUTPUT25",
+        "US_BMW_IX5",
+        "US_BMW_DEC26"
+      ],
+      "data_file": "data/us-application-evidence.json"
+    }
+  ],
+  "boundaries_en": [
+    "Proposed questions are not findings. Actual source anchors stay separate from assumed demand, costs, capacity and shipping.",
+    "The supply map traces materials/process relationships; the application map locates documented downstream examples. A gap remains a gap between them.",
+    "Permanent magnets, NdFeB, SmCo and magnet-free alternatives remain distinct.",
+    "The existing model retains conserved elemental and purchased-product accounts, carrier iron counted once, fixed supply reference, an empty-pipeline choice and common decision/deadline.",
+    "Selected equipment evidence is context, not a calibrated simulation input. Equipment purchases, production feedstock shipments and finished-magnet delivery remain separate transactions.",
+    "No matched China/Japan/U.S. equipment-price ordering is verified; price differences are hypotheses requiring comparable delivered lifecycle quotations."
+  ],
+  "boundaries_zh": [
+    "研究问题是提案，而不是结论。已核实的厂点与假设需求、成本、产能及运输保持分开。",
+    "供应地图追踪材料及工序关系；应用地图展示下游实例。两者之间没有证据的环节仍保持为空缺。",
+    "永久磁体、NdFeB、SmCo 及无磁体替代路线分别处理。",
+    "现有模型保留元素及采购产品守恒、载体铁只计一次、固定供应基准、空管线选项及共同决策/期限。",
+    "所选设备证据是背景，不是经过标定的模拟输入。设备采购、生产原料运输及成品磁体交付保持为不同交易。",
+    "尚未核实中日美可比设备价格排序；价格差异是需要可比到货全生命周期报价检验的假设。"
+  ],
+  "equipment_evidence_review": {
+    "status": "Bounded primary-source check; not a full review of the external packet",
+    "checked": "2026-10-07",
+    "packet": "data/equipment-readiness.json",
+    "packet_schema": "1.0",
+    "packet_structural_validation": "12 equipment records, 34 source references; validation errors empty. This does not establish every claim.",
+    "selected_source_ids": [
+      "CONSARC_VULCAN",
+      "ULVAC_ORIGIN",
+      "ULVAC_QA",
+      "EMAT_CONTRACT",
+      "EMAT_PROSPECTUS"
+    ],
+    "scope": "Four selected equipment cases. Project comparison, tariffs, all-in cost assumptions and unverified manufacturer entries are not imported.",
+    "packet_status": "External source packet final validated; the frontend integration retains its bounded source checks.",
+    "display_scope": "Four introductory cases plus all twelve equipment-stage records, all five project comparisons, the separate aggregate outstanding commitment and the complete 34-source packet registry. No quote derivation, overlap summation or calibrated capital model."
+  },
+  "equipment_cases": [
+    {
+      "id": "consarc-vulcan-commissioned",
+      "title_en": "A commissioned strip caster",
+      "title_zh": "已完成调试的甩带炉",
+      "stage_en": "Melting / strip casting",
+      "stage_zh": "熔炼 / 甩带",
+      "maker_en": "Consarc / Inductotherm Group",
+      "maker_zh": "Consarc / Inductotherm Group",
+      "status_en": "Supplier-reported operational installation · 2025-06-04",
+      "status_zh": "供应商披露已运行的设备 · 2025-06-04",
+      "summary_en": "Consarc reports that its vacuum-induction strip caster was delivered and commissioned at Vulcan Elements. This is an equipment installation, not a measured annual supply of customer-qualified magnets.",
+      "summary_zh": "Consarc 披露其真空感应甩带炉已交付并在 Vulcan Elements 完成调试。这是设备安装的证据，而不是客户合格磁体年供应量。",
+      "geographies": [
+        {
+          "place_en": "New Jersey, United States",
+          "place_zh": "美国新泽西州",
+          "role_en": "Supplier explicitly identifies engineering and manufacture",
+          "role_zh": "供应商明确披露设计及制造地点"
+        },
+        {
+          "place_en": "Research Triangle Park, North Carolina, United States",
+          "place_zh": "美国北卡罗来纳州 Research Triangle Park",
+          "role_en": "Installation; release dateline also names Durham",
+          "role_zh": "安装地点；新闻日期行同时列出 Durham"
+        }
+      ],
+      "price_en": "Machine price, procurement lead time and achieved annual alloy throughput are undisclosed.",
+      "price_zh": "设备价格、采购交期及实际合金年产出未披露。",
+      "limitations_en": [
+        "Commissioning does not establish downstream powder, pressing, coating or customer qualification."
+      ],
+      "limitations_zh": [
+        "设备调试完成不能证明下游制粉、压制、涂层或客户认证已完成。"
+      ],
+      "source_ids": [
+        "CONSARC_VULCAN"
+      ]
+    },
+    {
+      "id": "ulvac-production-geography",
+      "title_en": "Manufacturing geography with a planned milestone",
+      "title_zh": "制造地点与计划中的节点",
+      "stage_en": "Vacuum melting-furnace supply",
+      "stage_zh": "真空熔炼炉供应",
+      "maker_en": "ULVAC",
+      "maker_zh": "ULVAC",
+      "status_en": "Existing China production; Japan start announced as planned",
+      "status_zh": "已有中国生产；日本启动为已公布计划",
+      "summary_en": "ULVAC names a Shenyang equipment base in its April IR Q&A. Its May 7 release adds Japan production, with September 2026 as the planned start and up to 12 furnaces/year. The checked announcement does not confirm startup.",
+      "summary_zh": "ULVAC 四月 IR 问答列出沈阳设备基地。五月七日公告增加日本生产，计划于2026年九月启动，最高每年12台炉。已核实公告没有确认正式启动。",
+      "geographies": [
+        {
+          "place_en": "Shenyang, China",
+          "place_zh": "中国沈阳",
+          "role_en": "Equipment-production base named in April7 IR Q&A",
+          "role_zh": "四月七日 IR 问答披露的设备生产基地"
+        },
+        {
+          "place_en": "Chigasaki, Kanagawa, Japan",
+          "place_zh": "日本神奈川县茅崎",
+          "role_en": "Dedicated melting-furnace factory being redesigned; planned production",
+          "role_zh": "改造中的专用熔炼炉工厂；计划生产"
+        }
+      ],
+      "price_en": "No matched-country machine quotation is established.",
+      "price_zh": "没有建立跨国家可比的设备报价。",
+      "limitations_en": [
+        "12 units/year is equipment-production capacity, not magnet tonnes/year.",
+        "These corporate locations do not identify the serial manufacture origin of a separate Korean order."
+      ],
+      "limitations_zh": [
+        "每年12台是设备生产能力，不是磁体年产量。",
+        "这些企业地点不能确定另一个韩国订单中每台设备的制造来源。"
+      ],
+      "source_ids": [
+        "ULVAC_ORIGIN",
+        "ULVAC_QA"
+      ]
+    },
+    {
+      "id": "ulvac-korea-orders",
+      "title_en": "An order is earlier than usable production",
+      "title_zh": "下单早于可用生产",
+      "stage_en": "Melting / vacuum thermal processing",
+      "stage_zh": "熔炼 / 真空热处理",
+      "maker_en": "ULVAC Korea · named contract seller",
+      "maker_zh": "ULVAC Korea · 合同中的卖方",
+      "status_en": "Eight contracts signed May 13, 2026; delivery / commissioning unverified",
+      "status_zh": "2026年五月十三日签订八份合同；交付及调试尚未核实",
+      "summary_en": "EMAT discloses 13 sets across eight contracts for melting and vacuum thermal furnaces. The published Magcaster contract requires delivery in Korea by November 30, before full installation and commissioning. A seller address or dispatch point is not a build site.",
+      "summary_zh": "EMAT 披露八份合同共13套熔炼及真空热处理炉。公开的 Magcaster 合同要求十一月三十日前在韩国交付，完整安装及调试在此之后。卖方地址或发货地不等于制造厂址。",
+      "geographies": [
+        {
+          "place_en": "Pyeongtaek, South Korea",
+          "place_zh": "韩国平泽",
+          "role_en": "Contract seller address; not assigned as serial build origin",
+          "role_zh": "合同卖方地址；不能指定为设备制造来源"
+        },
+        {
+          "place_en": "Republic of Korea; buyer plant unspecified",
+          "place_zh": "韩国；买方工厂未明确",
+          "role_en": "Required equipment destination",
+          "role_zh": "合同规定的设备目的地"
+        },
+        {
+          "place_en": "Dalian, China",
+          "place_zh": "中国大连",
+          "role_en": "Dispatch reference in prospectus summary; not a proved factory address",
+          "role_zh": "招股书摘要中的发货地；不是已证明的工厂地址"
+        }
+      ],
+      "price_en": "Individual prices are redacted and denominated in KRW.",
+      "price_zh": "个别价格以韩元计价，但已被遮蔽。",
+      "limitations_en": [
+        "Orders do not establish delivered or commissioned equipment.",
+        "The disclosed thermal models do not resolve every sintering-versus-aging process detail.",
+        "No U.S. receiving plant or usable magnet throughput is assigned."
+      ],
+      "limitations_zh": [
+        "订单不能证明设备已经交付或完成调试。",
+        "披露的热处理型号没有解决所有烧结与时效的具体工艺差别。",
+        "不指定美国收货工厂或可用磁体产出。"
+      ],
+      "source_ids": [
+        "EMAT_CONTRACT",
+        "EMAT_PROSPECTUS"
+      ]
+    },
+    {
+      "id": "ulvac-outstanding-commitment",
+      "title_en": "A financial disclosure with a limited denominator",
+      "title_zh": "分母有限的财务披露",
+      "stage_en": "Equipment procurement / financial commitment",
+      "stage_zh": "设备采购 / 财务承诺",
+      "maker_en": "Evolution Metals & Technologies → ULVAC Korea",
+      "maker_zh": "Evolution Metals & Technologies → ULVAC Korea",
+      "status_en": "Outstanding contractual commitment as of June 30, 2026",
+      "status_zh": "截至2026年六月三十日的未履行合同承诺",
+      "summary_en": "EMAT reports approximately $15.9 million outstanding under eight equipment contracts covering 13 sets. It is a remaining obligation at a date, not total purchase consideration, factory capital cost or a unit price.",
+      "summary_zh": "EMAT 披露八份设备合同、共13套设备，未履行承诺约1590万美元。这是特定时点的剩余义务，不是总采购金额、工厂资本成本或单台价格。",
+      "geographies": [],
+      "price_en": "Do not divide by 13 to infer a per-machine price. Individual contract prices remain redacted.",
+      "price_zh": "不能除以13推算单台价格。个别合同价格仍被遮蔽。",
+      "limitations_en": [
+        "No national capital total or China/Japan/U.S. price ordering follows from this figure.",
+        "Compare matched specifications, delivery, installation, service and acceptance before cost conclusions."
+      ],
+      "limitations_zh": [
+        "这个数字不能推出全国资本总额，也不能判断中日美设备价格排序。",
+        "比较成本前需匹配规格、交付、安装、服务及验收条件。"
+      ],
+      "source_ids": [
+        "EMAT_PROSPECTUS",
+        "EMAT_CONTRACT"
+      ]
+    }
+  ],
+  "application_cases": [
+    {
+      "id": "rivian-normal-output",
+      "case_kind": "application",
+      "plant_id": "rivian_normal",
+      "sector_id": "ev_traction",
+      "title_en": "Rivian Normal: production is not capacity",
+      "title_zh": "Rivian Normal：产量不等于产能",
+      "stage_en": "Vehicle / drive-unit manufacturing context",
+      "stage_zh": "整车 / 驱动单元制造背景",
+      "maker_en": "Rivian · manufacturing operator",
+      "maker_zh": "Rivian · 制造运营商",
+      "status_en": "Actual production and installed-rate disclosure; separate periods",
+      "status_zh": "实际生产与安装产能披露；分开时间口径",
+      "summary_en": "Rivian reports 42,284 vehicles made at Normal in 2025. Its year-end capacity is up to 215,000/year at full rate over multiple shifts. Q3 2026 production is 19,751 vehicles for that quarter—not an annual figure.",
+      "summary_zh": "Rivian 披露 Normal 工厂2025年生产42,284辆。年末安装产能在多班次满负荷下最高每年215,000辆。2026年第三季度产量19,751辆是当季数字，不是全年数字。",
+      "geographies": [
+        {
+          "place_en": "Normal, Illinois, United States",
+          "place_zh": "美国伊利诺伊州 Normal",
+          "role_en": "Manufacturing facility named by the operator",
+          "role_zh": "运营商披露的制造工厂"
+        }
+      ],
+      "metrics": [
+        {
+          "label_en": "Actual production",
+          "label_zh": "实际生产",
+          "value": 42284,
+          "unit_en": "vehicles",
+          "unit_zh": "辆",
+          "period_en": "Calendar 2025",
+          "period_zh": "2025全年",
+          "scope_en": "Normal plant",
+          "scope_zh": "Normal 工厂",
+          "source_ids": [
+            "US_RIVIAN_FY25"
+          ]
+        },
+        {
+          "label_en": "Installed annual rate",
+          "label_zh": "安装年产能",
+          "value": 215000,
+          "unit_en": "vehicles/year, up to",
+          "unit_zh": "辆/年，最高",
+          "period_en": "2025 year-end disclosure",
+          "period_zh": "2025年末披露",
+          "scope_en": "Full-rate multi-shift Normal; upgraded late September/October 2025",
+          "scope_zh": "Normal 多班次满负荷；2025年九月末/十月升级",
+          "source_ids": [
+            "US_RIVIAN_10K"
+          ]
+        },
+        {
+          "label_en": "Actual quarter production",
+          "label_zh": "实际季度生产",
+          "value": 19751,
+          "unit_en": "vehicles",
+          "unit_zh": "辆",
+          "period_en": "Q3 2026",
+          "period_zh": "2026年第三季度",
+          "scope_en": "Normal plant; not annualized",
+          "scope_zh": "Normal 工厂；不年化",
+          "source_ids": [
+            "US_RIVIAN_Q326"
+          ]
+        }
+      ],
+      "material_note_en": "Exact magnet material, mass per eligible product, design mix, supplier allocation and customer acceptance remain unreported here. No magnet-tonnage conversion is made.",
+      "material_note_zh": "具体磁体材质、每件合格产品的磁体质量、设计占比、供应商分配及客户验收尚未在此披露。不换算磁体吨数。",
+      "limitations_en": [
+        "Full-year output and an upgraded year-end rate do not establish a like-for-like annual utilization ratio.",
+        "R2, R1 and van line maxima are alternative allocations, not additive capacities."
+      ],
+      "limitations_zh": [
+        "全年产量与升级后的年末产能不能建立同口径的年度利用率。",
+        "R2、R1和货车产线的最大值是可调分配，不可相加。"
+      ],
+      "source_ids": [
+        "US_RIVIAN_FY25",
+        "US_RIVIAN_10K",
+        "US_RIVIAN_Q326"
+      ]
+    },
+    {
+      "id": "lucid-amp1-scope",
+      "case_kind": "application",
+      "plant_id": "lucid_amp1",
+      "sector_id": "ev_traction",
+      "title_en": "Lucid: plant capacity, global output",
+      "title_zh": "Lucid：工厂产能、全球产量",
+      "stage_en": "Vehicle / powertrain manufacturing context",
+      "stage_zh": "整车 / 动力系统制造背景",
+      "maker_en": "Lucid · AMP-1 manufacturing operator",
+      "maker_zh": "Lucid · AMP-1 制造运营商",
+      "status_en": "Installed plant capacity; revised company-global production",
+      "status_zh": "安装的工厂产能；修订后的公司全球产量",
+      "summary_en": "Lucid reports 90,000 vehicles/year installed at AMP-1. Its final 2025 production count is 17,840 across the company, replacing 18,378 preliminary. The company-wide count is not assigned to AMP-1.",
+      "summary_zh": "Lucid 披露 AMP-1 安装产能为每年90,000辆。公司最终2025年产量为全球17,840辆，替代初步的18,378辆。公司总量不指定给 AMP-1。",
+      "geographies": [
+        {
+          "place_en": "Casa Grande, Arizona, United States",
+          "place_zh": "美国亚利桑那州 Casa Grande",
+          "role_en": "AMP-1 vehicle and dedicated powertrain manufacturing; Saudi assembly is separate",
+          "role_zh": "AMP-1 整车及专用动力系统制造；沙特装配另行区分"
+        }
+      ],
+      "metrics": [
+        {
+          "label_en": "Installed annual rate",
+          "label_zh": "安装年产能",
+          "value": 90000,
+          "unit_en": "vehicles/year",
+          "unit_zh": "辆/年",
+          "period_en": "2025 year-end disclosure",
+          "period_zh": "2025年末披露",
+          "scope_en": "AMP-1 site capacity",
+          "scope_zh": "AMP-1 工厂产能",
+          "source_ids": [
+            "US_LUCID_10K"
+          ]
+        },
+        {
+          "label_en": "Final revised production",
+          "label_zh": "最终修订产量",
+          "value": 17840,
+          "unit_en": "vehicles",
+          "unit_zh": "辆",
+          "period_en": "Calendar 2025",
+          "period_zh": "2025全年",
+          "scope_en": "Company-global; not plant actual",
+          "scope_zh": "公司全球；非工厂实际产量",
+          "source_ids": [
+            "US_LUCID_FINAL25"
+          ]
+        },
+        {
+          "label_en": "AMP-1 annual actual",
+          "label_zh": "AMP-1 实际年度产量",
+          "value": null,
+          "unit_en": "vehicles",
+          "unit_zh": "辆",
+          "period_en": "Calendar 2025",
+          "period_zh": "2025全年",
+          "scope_en": "Not separately reported in the checked records",
+          "scope_zh": "所核实记录未单独披露",
+          "source_ids": []
+        }
+      ],
+      "material_note_en": "Exact magnet material, mass per eligible product, design mix, supplier allocation and customer acceptance remain unreported here. No magnet-tonnage conversion is made.",
+      "material_note_zh": "具体磁体材质、每件合格产品的磁体质量、设计占比、供应商分配及客户验收尚未在此披露。不换算磁体吨数。",
+      "limitations_en": [
+        "Do not divide company-global output by AMP-1 capacity or plot them as plant utilization.",
+        "Final production revision concerns internal validation; neither the count nor vehicle acceptance proves a specific magnet supplier or part qualification."
+      ],
+      "limitations_zh": [
+        "不能用公司全球产量除以 AMP-1 产能，也不能将两者画为工厂利用率。",
+        "最终产量修订与内部验证有关；车辆计数或验收不证明特定磁体供应商或部件认证。"
+      ],
+      "source_ids": [
+        "US_LUCID_10K",
+        "US_LUCID_FINAL25"
+      ]
+    },
+    {
+      "id": "agility-robofab-end-use",
+      "case_kind": "application",
+      "plant_id": "agility_robofab",
+      "sector_id": "robot_automation",
+      "title_en": "RoboFab: a design rate and a real end user",
+      "title_zh": "RoboFab：设计产能与真实终端用户",
+      "stage_en": "Robot assembly → business warehouse use",
+      "stage_zh": "机器人装配 → 企业仓库使用",
+      "maker_en": "Agility Robotics · robot OEM; GXO · logistics operator",
+      "maker_zh": "Agility Robotics · 机器人整机厂；GXO · 物流运营商",
+      "status_en": "RoboFab assembly and commercial Digit deployment documented",
+      "status_zh": "RoboFab 装配与 Digit 商业部署有记录",
+      "summary_en": "RoboFab is designed for up to 10,000 Digit robots/year at full capacity; actual annual output is undisclosed. GXO documents commercial Digit use in its SPANX warehouse program. A business workflow is the end use, without an identified magnet supplier.",
+      "summary_zh": "RoboFab 满产设计能力最高每年10,000台 Digit 机器人，实际年度产量未披露。GXO 记录其 SPANX 仓库项目中的 Digit 商业使用。终端是企业工作流，但未确认磁体供应商。",
+      "geographies": [
+        {
+          "place_en": "Salem, Oregon, United States",
+          "place_zh": "美国俄勒冈州 Salem",
+          "role_en": "RoboFab robot assembly",
+          "role_zh": "RoboFab 机器人装配"
+        },
+        {
+          "place_en": "Flowery Branch, Georgia, United States",
+          "place_zh": "美国佐治亚州 Flowery Branch",
+          "role_en": "GXO Digit 4 deployment described by Agility; business end user",
+          "role_zh": "Agility 披露的 GXO Digit 4 部署；企业终端用户"
+        }
+      ],
+      "metrics": [
+        {
+          "label_en": "Designed annual rate",
+          "label_zh": "设计年产能",
+          "value": 10000,
+          "unit_en": "robots/year, up to",
+          "unit_zh": "台/年，最高",
+          "period_en": "September 2026 disclosure",
+          "period_zh": "2026年九月披露",
+          "scope_en": "RoboFab at full capacity; not realized output",
+          "scope_zh": "RoboFab 满产设计；非已实现产量",
+          "source_ids": [
+            "US_AGILITY_2026"
+          ]
+        },
+        {
+          "label_en": "Annual actual output",
+          "label_zh": "实际年度产量",
+          "value": null,
+          "unit_en": "robots",
+          "unit_zh": "台",
+          "period_en": "2025/2026",
+          "period_zh": "2025/2026",
+          "scope_en": "Not disclosed in the checked records",
+          "scope_zh": "所核实记录未披露",
+          "source_ids": []
+        }
+      ],
+      "material_note_en": "Exact magnet material, mass per eligible product, design mix, supplier allocation and customer acceptance remain unreported here. No magnet-tonnage conversion is made.",
+      "material_note_zh": "具体磁体材质、每件合格产品的磁体质量、设计占比、供应商分配及客户验收尚未在此披露。不换算磁体吨数。",
+      "limitations_en": [
+        "Commercial warehouse deployment does not reveal actuator topology, magnet chemistry or kilograms per robot.",
+        "Cumulative totes moved and announced robot orders are not annual robot output."
+      ],
+      "limitations_zh": [
+        "仓库商业部署不披露执行器架构、磁体材质或每台机器人磁体质量。",
+        "累计搬运料箱与公布的机器人订单不是机器人年度产量。"
+      ],
+      "source_ids": [
+        "US_AGILITY_2026",
+        "US_GXO_DIGIT"
+      ]
+    },
+    {
+      "id": "bmw-spartanburg-architecture",
+      "case_kind": "application",
+      "plant_id": "bmw_spartanburg",
+      "sector_id": "ev_traction",
+      "title_en": "Spartanburg: architecture changes the question",
+      "title_zh": "Spartanburg：技术架构改变问题",
+      "stage_en": "Mixed vehicle assembly / planned BEV program",
+      "stage_zh": "混合车型装配 / 计划中的纯电项目",
+      "maker_en": "BMW · Spartanburg manufacturing operator",
+      "maker_zh": "BMW · Spartanburg 制造运营商",
+      "status_en": "2025 actual X-model production; iX5 start planned December 2026",
+      "status_zh": "2025年 X 车型实际生产；iX5 计划2026年十二月启动",
+      "summary_en": "Spartanburg made 412,799 BMW X models in 2025, including combustion and plug-in hybrid models. The planned iX5 uses rear EESM and front ASM traction: no permanent traction magnets in that specified architecture. This is not a claim about every auxiliary motor.",
+      "summary_zh": "Spartanburg 2025年生产412,799辆 BMW X 车型，包括燃油与插电混动车型。计划中的 iX5 使用后轴 EESM 和前轴 ASM 驱动，此指定架构不使用永磁牵引电机，但不能外推到所有辅助电机。",
+      "geographies": [
+        {
+          "place_en": "Spartanburg area, South Carolina, United States",
+          "place_zh": "美国南卡罗来纳州 Spartanburg 地区",
+          "role_en": "Mixed-model production; iX5 production is a later planned milestone",
+          "role_zh": "混合车型生产；iX5 生产是较后的计划节点"
+        }
+      ],
+      "metrics": [
+        {
+          "label_en": "Actual X-model production",
+          "label_zh": "X 车型实际产量",
+          "value": 412799,
+          "unit_en": "vehicles",
+          "unit_zh": "辆",
+          "period_en": "Calendar 2025",
+          "period_zh": "2025全年",
+          "scope_en": "All X models, including ICE/PHEV; not BEV output",
+          "scope_zh": "全部 X 车型，包括燃油/插混；非纯电产量",
+          "source_ids": [
+            "US_BMW_OUTPUT25"
+          ]
+        },
+        {
+          "label_en": "Planned iX5 production start",
+          "label_zh": "计划 iX5 生产启动",
+          "value": null,
+          "unit_en": "annual output not yet assigned",
+          "unit_zh": "尚未指定年度产量",
+          "period_en": "December 2026 planned",
+          "period_zh": "计划2026年十二月",
+          "scope_en": "EESM rear / ASM front architecture; not an annual volume",
+          "scope_zh": "后轴 EESM / 前轴 ASM 架构；非年产量",
+          "source_ids": [
+            "US_BMW_DEC26",
+            "US_BMW_IX5"
+          ]
+        }
+      ],
+      "material_note_en": "Do not convert all 412,799 X models into rare-earth traction-magnet demand. The specified iX5 traction architecture avoids permanent magnets; auxiliary and other-program material requirements remain separate.",
+      "material_note_zh": "不能将全部412,799辆 X 车型换算为稀土牵引磁体需求。指定的 iX5 驱动架构不采用永磁体；辅助电机及其他项目的材料要求另行核实。",
+      "limitations_en": [
+        "December 2026 is a planned start, not achieved annual output as of October 7.",
+        "No iX5 annual volume, incoming drive-unit factory/batch or magnet material bill is assigned."
+      ],
+      "limitations_zh": [
+        "截至十月七日，2026年十二月仍是计划启动，而非已实现的年度产量。",
+        "不指定 iX5 年产量、驱动单元来料工厂/批次或磁体材料清单。"
+      ],
+      "source_ids": [
+        "US_BMW_OUTPUT25",
+        "US_BMW_IX5",
+        "US_BMW_DEC26"
+      ]
+    }
+  ],
+  "application_evidence_review": {
+    "status": "Four selected primary-source cases checked; source packet final date/unit/scope QA passed",
+    "checked": "2026-10-07",
+    "packet": "data/us-application-evidence.json",
+    "selected_source_ids": [
+      "US_RIVIAN_FY25",
+      "US_RIVIAN_10K",
+      "US_RIVIAN_Q326",
+      "US_LUCID_10K",
+      "US_LUCID_FINAL25",
+      "US_AGILITY_2026",
+      "US_GXO_DIGIT",
+      "US_BMW_OUTPUT25",
+      "US_BMW_IX5",
+      "US_BMW_DEC26"
+    ],
+    "scope": "Four cases only. Full packet contains15 named sites; this page does not display or claim to independently audit every field. No national magnet-tonnage estimate or model input added.",
+    "plot_boundary": "Metric ledgers retain site/global, actual/capacity and annual/quarter scope. No unmatched utilization ratios or bars.",
+    "packet_validation": {
+      "source_references_checked": true,
+      "ids_unique_checked": true,
+      "units_dates_scope_checked": true,
+      "checked_at": "2026-10-07",
+      "geographic_routes_checked": true,
+      "manual_scope_notes": "Actual/capacity/plan/rate/company-wide/quarterly/cumulative values remain separately typed; no annualization, additive flexible capacities, ton-unit conversion or magnet-tonnage extrapolation."
+    },
+    "display_scope": "Four introductory cases plus all five sector-demand contexts, all fifteen site dossiers and the complete final packet source registry. The full index preserves original source wording; no mass extrapolation or model calibration."
+  },
+  "evidence_indexes": {
+    "demand": {
+      "data_file": "data/us-application-evidence.json",
+      "scope_en": "All five sector-demand contexts and fifteen site dossiers from the final bounded U.S. packet. Primary source records retain publication dates separately from dates checked. No product-to-magnet mass extrapolation.",
+      "scope_zh": "最终美国有限资料包中的全部五类行业需求背景和十五个地点资料。来源发布日期与核查日期分别保留，不由产品数量推断磁体质量。",
+      "context_titles": {
+        "us_ev_sales_2025": {
+          "title_en": "EVs: U.S. sales, not domestic factory output",
+          "title_zh": "电动车：美国销量，不是美国工厂产量"
+        },
+        "us_robot_installations_2025": {
+          "title_en": "Robotics: annual installations, not magnet manufacture",
+          "title_zh": "机器人：年度安装量，不是磁体制造量"
+        },
+        "us_motor_installed_stock_context": {
+          "title_en": "Industrial motors: installed stock and electricity",
+          "title_zh": "工业电机：在用存量与耗电量"
+        },
+        "us_wind_plan_context": {
+          "title_en": "Wind: planned GW, unknown permanent-magnet share",
+          "title_zh": "风电：计划吉瓦数，永磁占比未知"
+        },
+        "us_household_washer_factory_context": {
+          "title_en": "Appliances: one factory’s undated annual-rate statement",
+          "title_zh": "家电：单厂未注明日期的年度速率表述"
+        }
+      },
+      "site_aliases": {
+        "gm_factory_zero": "gm_factory_zero",
+        "gm_toledo": "gm_toledo",
+        "tesla_fremont": "tesla_fremont",
+        "tesla_texas": "tesla_austin",
+        "rivian_normal": "rivian_normal",
+        "lucid_amp1": "lucid_amp1",
+        "hyundai_metaplant": "hyundai_metaplant",
+        "abb_auburn_hills": "abb_auburn_hills",
+        "abb_fort_smith": "abb_fort_smith",
+        "agility_robofab": "agility_robofab",
+        "kollmorgen_radford": "kollmorgen_radford",
+        "maxon_taunton": "maxon_taunton",
+        "whirlpool_clyde": "whirlpool_clyde",
+        "bmw_spartanburg": "bmw_spartanburg",
+        "gxo_spanx_flowery_branch": "gxo_spanx_flowery_branch"
+      },
+      "map_link_boundary": "Existing application record references only; no incoming magnet supplier, grade, batch or surveyed coordinates inferred."
+    },
+    "readiness": {
+      "data_file": "data/equipment-readiness.json",
+      "scope_en": "All twelve stage records, five project comparisons, the separate outstanding equipment commitment and all thirty-four source records from the final equipment packet. Complete original fields remain inspectable.",
+      "scope_zh": "最终设备资料包中的全部十二项工序记录、五项项目比较、单独的设备合同剩余承诺与三十四项来源。可展开查看全部原始字段。",
+      "map_aliases": {
+        "equip_sep_ndpr_mp": "mountain-pass",
+        "equip_sep_hree_whitemesa": "white_mesa",
+        "equip_metal_mp": "independence",
+        "project_evac": "evac_sumter",
+        "project_white_mesa_hree": "white_mesa",
+        "project_usar_blacksburg": "blacksburg",
+        "project_noveon": "noveon"
+      },
+      "map_link_boundary": "Only existing named facility anchors are linked. Mountain Pass is the colocated separation context; its mine marker is not a surveyed separation-machine pin. Consarc/Vulcan RTP and Northlake do not acquire invented pins; their source dossiers remain accessible. Factory tour links are explanatory process context, not verified installed-machine reconstructions.",
+      "monetary_boundary": "Project investment, capex, financing and outstanding contractual commitment are separate types. Records are not additive; no per-machine quote, country cost multiplier or national investment total is derived."
+    }
+  }
+}

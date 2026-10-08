@@ -1,0 +1,2483 @@
+{
+  "schema_version": "1.0",
+  "title": "Steven J. Davis public-source PhD advisee roster",
+  "language": "zh-CN report; structured evidence in English",
+  "checked_at": "2026-10-07",
+  "identity": "Steven J. Davis, Stanford Sustainable Solutions Lab and Earth System Science; UC Irvine faculty 2012–2024; Carnegie Global Ecology postdoctoral scholar 2008–2012",
+  "scope": {
+    "checked_at": "2026-10-07",
+    "identity": "Steven J. Davis, Stanford Sustainable Solutions Lab and Earth System Science; UC Irvine faculty 2012–2024; Carnegie Global Ecology postdoctoral scholar 2008–2012",
+    "confirmed_count": 6,
+    "confirmed_completed_phds": 4,
+    "confirmed_current_phds": 2,
+    "classification": {
+      "completed_primary_adviser": 3,
+      "completed_coadviser": 1,
+      "current_coadviser": 2
+    },
+    "completeness": "Most complete confirmed roster located in public sources; not a certified exhaustive administrative mentoring history",
+    "coverage": [
+      {
+        "period": "2008–2012, Carnegie / before UCI faculty appointment",
+        "result": "CV and Carnegie 2009 newsletter establish postdoctoral status. Targeted searches found no affirmative primary or formal co-PhD adviser relationship during this period. Absence of a found record does not prove absence of supervision.",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://carnegiescience.edu/sites/carnegiescience.edu/files/yearbooks/2009%20Spring.pdf"
+        ]
+      },
+      {
+        "period": "2012–2024, UCI faculty; completed UCI PhDs documented 2020–2025",
+        "result": "Cross-checked historical CVs, shared lab roster, four dissertation records and committee-only candidates. No additional confirmed primary/co-advised PhD found.",
+        "gaps": "Not all annual rosters/CVs for 2012–2015 are available. Dissertation search indexes can omit records, and adviser metadata is not a complete institutional administrative census."
+      },
+      {
+        "period": "2024–2026-10-07, Stanford",
+        "result": "Current Davis CV updated 2026-10-06, lab roster, E-IPER student list and relevant co-adviser profiles confirm two current co-advised doctoral students entering autumn 2025. Lauren Moody degree/status conflicts are kept separate."
+      }
+    ],
+    "historical_sources_reviewed": [
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2016.pdf",
+        "date": "2016-11-21",
+        "result": "Robert listed as doctoral student; no additional confirmed PhD"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2017.pdf",
+        "date": "2017-12-22",
+        "result": "Robert listed; several postdoctoral trainees distinguished"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2018.pdf",
+        "date": "2018-12-20",
+        "result": "Robert listed; Dawn not listed despite later verified co-advised dissertation"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2019.pdf",
+        "date": "2019-12-19",
+        "result": "Julianne and Robert listed; Dawn not listed"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2020.pdf",
+        "date": "2020-12-23",
+        "result": "Julianne and Robert listed; Dawn not listed"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sustsys/people.html",
+        "date_context": "Copyright 2021 on shared UCI lab page",
+        "result": "Robert and Julianne in Davis group; Ada Na'Bila Acobta and Kyle Manley explicitly in Egoh group"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2022.pdf",
+        "date": "2022-12-23",
+        "result": "Four completed/current degree-advised PhD names; Can Cui is visiting doctoral student"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2023.pdf",
+        "result": "Same four main names; no added confirmed degree-advised PhD"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2024.pdf",
+        "result": "Same four main names; separates visiting PhD, master's and postdoctoral trainees"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+        "date": "2026-10-06",
+        "result": "Four past doctoral students, two current co-advised doctoral students, Lauren Moody explicitly master's"
+      }
+    ],
+    "key_coverage_warning": {
+      "fact": "Dawn Woodard is omitted from 2016–2020 Davis CV adviser lists but her 2020 dissertation explicitly names Davis Co-chair. CVs alone demonstrably fail to establish exhaustive lifetime coverage.",
+      "evidence": [
+        "https://www.ess.uci.edu/~sjdavis/DavisCV2018.pdf",
+        "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+      ]
+    },
+    "excluded_or_unresolved": [
+      {
+        "name": "Lauren Moody",
+        "status": "unresolved degree/status; excluded from confirmed PhD count",
+        "reason": "2026-10-06 CV explicitly says master's student in Earth System Science; lab card and Stanford advisee classification say doctoral. No completed doctoral dissertation or unambiguous degree-adviser record found.",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://sustainablesolutions.stanford.edu/people/lauren-moody",
+          "https://profiles.stanford.edu/steve-davis"
+        ]
+      },
+      {
+        "name": "Siavash Ebrahimi",
+        "status": "committee-only",
+        "reason": "UCI 2019 mechanical/aerospace dissertation names Jack Brouwer Chair and Davis ordinary committee member.",
+        "source_url": "https://escholarship.org/content/qt2d29z7cf/qt2d29z7cf.pdf"
+      },
+      {
+        "name": "Omid Mazdiyasni",
+        "status": "committee-only",
+        "reason": "UCI 2018 dissertation names Amir AghaKouchak Chair and Davis ordinary committee member.",
+        "source_url": "https://escholarship.org/content/qt2nw9q45b/qt2nw9q45b.pdf"
+      },
+      {
+        "name": "Alireza Farahmand",
+        "status": "committee-only",
+        "reason": "UCI 2016 dissertation names Amir AghaKouchak Chair and Davis ordinary committee member.",
+        "source_url": "https://escholarship.org/content/qt5x29g304/qt5x29g304.pdf"
+      },
+      {
+        "name": "Rob Buechler",
+        "status": "dissertation reader, not confirmed degree adviser",
+        "reason": "Davis profile names dissertation-reader role; S3L bio names Arun Majumdar and Ram Rajagopal as co-advisers.",
+        "sources": [
+          "https://profiles.stanford.edu/steve-davis",
+          "https://s3l.stanford.edu/people/rob-buechler"
+        ]
+      },
+      {
+        "name": "Dimitri Saad",
+        "status": "reader/collaborator, not confirmed degree adviser",
+        "reason": "Official Stanford news names Adam Brandt and Inês Azevedo as advisers; no evidence of Davis primary/co-adviser role.",
+        "sources": [
+          "https://sustainability.stanford.edu/news/people-side-energy",
+          "https://eao.stanford.edu/people/dimitri-saad"
+        ]
+      },
+      {
+        "names": [
+          "Can Cui",
+          "Rui Zhong",
+          "Yuxin Chen",
+          "Dongsheng Zheng"
+        ],
+        "status": "visiting doctoral trainees",
+        "reason": "Official CV/lab records identify visiting doctoral students; degree-adviser status to Davis not established.",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://sustainablesolutions.stanford.edu/people"
+        ]
+      },
+      {
+        "names": [
+          "Ada Na'Bila Acobta",
+          "Kyle Manley"
+        ],
+        "status": "other PI's PhD students on shared roster",
+        "reason": "2021 UCI roster explicitly labels them Egoh Group.",
+        "source_url": "https://www.ess.uci.edu/~sustsys/people.html"
+      },
+      {
+        "names": [
+          "Dan Tong",
+          "Chaopeng Hong",
+          "Yue Qin",
+          "Christine Shearer",
+          "Jing Cheng",
+          "Pablo Busch",
+          "Jacqueline Dowling",
+          "Shi Chen",
+          "Koen van Greevenbroek",
+          "Lyssa Freese",
+          "Alicia Wongel",
+          "Lamprini Papargyri",
+          "Will McNeil"
+        ],
+        "status": "postdoctoral trainees, excluded from doctoral degree-advisee roster",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://sustainablesolutions.stanford.edu/people"
+        ]
+      },
+      {
+        "name": "Anna LoPresti",
+        "status": "master's advisee",
+        "source_url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view"
+      },
+      {
+        "name": "Mojtaba Sadegh",
+        "status": "exclude: different adviser and no Davis committee role",
+        "dissertation_year": 2015,
+        "dissertation_title": "Towards Improved Model Evaluation: Diagnostic, Likelihood-free, Bayesian Inference",
+        "reason": "Dissertation title page names Jasper A. Vrugt Chair and Amir AghaKouchak/Soroosh Sorooshian members; Davis is absent.",
+        "source_url": "https://escholarship.org/content/qt067809rq/qt067809rq.pdf"
+      },
+      {
+        "name": "Shahrbanou Madadgar",
+        "status": "exclude: different institution/adviser; UCI postdoc",
+        "dissertation_year": 2014,
+        "dissertation_title": "Towards Improving Drought Forecasts Across Different Spatial and Temporal Scales",
+        "reason": "Portland State dissertation first adviser is Hamid Moradkhani; UCI AghaKouchak group lists her as postdoc.",
+        "source_url": "https://pdxscholar.library.pdx.edu/open_access_etds/1516/",
+        "additional_source_url": "https://amir.eng.uci.edu/group.php"
+      },
+      {
+        "name": "Ali Mehran",
+        "status": "unconfirmed Davis role; do not include",
+        "dissertation_year": 2015,
+        "primary_chair": "Amir AghaKouchak",
+        "reason": "AghaKouchak official group/CV lists Ali Mehran as his chair-advised PhD2015. Exact Davis committee/co-chair status is not yet verified. The identified repository PDF exceeds the web fetch size limit (36,189,610 bytes) and direct retrieval yields WAF challenge/empty content.",
+        "source_url": "https://amir.eng.uci.edu/group.php",
+        "official_cv_url": "https://bpb-us-e2.wpmucdn.com/sites.uci.edu/dist/5/5803/files/2025/05/cv_amir.pdf",
+        "dissertation_repository_url": "https://escholarship.org/uc/item/0z76c4cc",
+        "dissertation_pdf_url": "https://escholarship.org/content/qt0z76c4cc/qt0z76c4cc.pdf"
+      }
+    ],
+    "human_verification_needed_only_if": [
+      "A certified zero-omission lifetime census is required: ask Davis or program administrators for a full formal PhD adviser/co-adviser list",
+      "Resolve Lauren Moody degree/status",
+      "Resolve Abigail's inconsistent co-adviser webpages",
+      "Resolve any unreadable/embargoed committee composition, including Bergero exact chair/co-chair roles and Ali Mehran if necessary"
+    ],
+    "public_sources_sufficient_for": "A public-source, evidence-qualified roster with academic backgrounds, current research, representative work and minimum publication counts"
+  },
+  "publication_count_policy": {
+    "as_of": "2026-10-07",
+    "unit": "Distinct final journal works, deduplicated by normalized DOI or title",
+    "research_articles": "Peer-reviewed research and technical/model-development articles; Arjun also has a separately labeled scholarly synthesis article",
+    "other_items": "Letter, Commentary and News & Views reported separately",
+    "excluded_from_published_count": [
+      "Dissertations",
+      "Preprints duplicating final journal articles",
+      "Corrections",
+      "Conference presentations",
+      "Submitted/in-review papers",
+      "Funded projects without a final journal paper"
+    ],
+    "full_lifetime_totals": "Not established for any of the six from currently accessible complete disambiguated CV/author bibliographies; all career counts are explicitly confirmed minima",
+    "publication_phase": "Publication timing relative to degree is recorded where evidence permits; this does not prove when the underlying research was done",
+    "joint_inventory": "Captured 192-entry Davis lab bibliography gives only identified joint items; abbreviated author lists can undercount"
+  },
+  "people": [
+    {
+      "name": "Dawn Leigh Woodard",
+      "display_name": "Dawn Woodard",
+      "aliases": [
+        "Dawn L. Woodard",
+        "Dawn Leigh Woodard",
+        "Dawn Woodard"
+      ],
+      "relationship": "Completed PhD co-advised by Steven J. Davis and James T. Randerson",
+      "adviser_role": "Co-chair",
+      "relationship_confidence": "confirmed by dissertation title page",
+      "relationship_quote": "Professor James T. Randerson, Chair; Professor Steven J. Davis, Co-chair",
+      "dissertation": {
+        "title": "Fossil Fuel Emissions of Carbon Dioxide: Feedbacks and Forecasting",
+        "year": 2020,
+        "degree": "Ph.D. in Earth System Science",
+        "institution": "University of California, Irvine",
+        "url": "https://escholarship.org/uc/item/2xs8w01x",
+        "pdf_url": "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf",
+        "evidence_location": "PDF page 1 (title page, zero-based), page 13 (abstract); vitae page 9"
+      },
+      "committee": [
+        {
+          "name": "James T. Randerson",
+          "role": "Chair"
+        },
+        {
+          "name": "Steven J. Davis",
+          "role": "Co-chair"
+        },
+        {
+          "name": "Michael L. Goulden",
+          "role": "Committee member"
+        },
+        {
+          "name": "Nathan M. Mueller",
+          "role": "Committee member"
+        }
+      ],
+      "previous_degrees": [
+        {
+          "degree": "B.S. in Mathematics",
+          "institution": "Appalachian State University",
+          "year": 2014,
+          "source_url": "https://mathsci.appstate.edu/sites/mathsci.appstate.edu/files/spring_2014_dawn_woodard_honors_thesis.pdf",
+          "dissertation_reported_year": 2010,
+          "date_caveat": "Use May 2014 from the contemporaneous original honors-thesis title page. The 2020 UCI dissertation vitae prints 2010, inconsistent with the original degree document and 2014 university honors newsletters; retain the conflict rather than silently treating the vitae year as correct.",
+          "month": "May",
+          "year_resolution_quote": "Bachelor of Science; May 2014",
+          "undergraduate_thesis": "Characterizing Uncertainty in Anthropogenic Point Source Emissions of CO2"
+        },
+        {
+          "degree": "M.S. in Earth System Science",
+          "institution": "University of California, Irvine",
+          "year": 2018,
+          "source_url": "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+        }
+      ],
+      "current_or_last_verified_position": {
+        "title": "Staff Scientist, Nature",
+        "employer": "Natural Resources Defense Council (NRDC)",
+        "location": "Washington, D.C.",
+        "status": "current official employer profile",
+        "source_url": "https://www.nrdc.org/bio/dawn-woodard",
+        "previous_role": "Three years as postdoctoral researcher at Joint Global Change Research Institute of Pacific Northwest National Laboratory and University of Maryland",
+        "checked_at": "2026-10-07"
+      },
+      "research_summary": "Climate and carbon-cycle modeling; feedbacks between human activity and the Earth system; forecasts of fossil-fuel CO2 emissions; climate effects of energy infrastructure and policy.",
+      "representative_work": [
+        {
+          "title": "Economic carbon cycle feedbacks may offset additional warming from natural feedbacks",
+          "year": 2019,
+          "venue": "Proceedings of the National Academy of Sciences",
+          "role": "First author",
+          "doi": "10.1073/pnas.1805187115",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6338829/",
+          "project": "Models how climate damages to economic activity can alter fossil-fuel CO2 emissions and interact with natural carbon-cycle feedbacks.",
+          "type": "research_article",
+          "contribution": "Models how climate damages to economic activity can alter fossil-fuel CO2 emissions and interact with natural carbon-cycle feedbacks.",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "A permafrost implementation in the simple carbon–climate model Hector v.2.3pf",
+          "year": 2021,
+          "venue": "Geoscientific Model Development",
+          "role": "First author",
+          "doi": "10.5194/gmd-14-4751-2021",
+          "url": "https://gmd.copernicus.org/articles/14/4751/2021/",
+          "project": "Adds a permafrost carbon component to the open-source reduced-complexity Hector climate model.",
+          "type": "research_article",
+          "contribution": "Adds a permafrost carbon component to the open-source reduced-complexity Hector climate model.",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "Scenario Discovery Analysis of Drivers of Solar and Wind Energy Transitions Through 2050",
+          "year": 2023,
+          "venue": "Earth's Future",
+          "role": "First author",
+          "doi": "10.1029/2022EF003442",
+          "url": "https://dgi.umd.edu/research-impact/publications/scenario-discovery-analysis-drivers-solar-and-wind-energy-transitions",
+          "project": "Uses nearly 4,000 GCAM scenarios and scenario discovery to identify socioeconomic and technological drivers of solar and wind deployment through 2050.",
+          "type": "research_article",
+          "contribution": "Uses nearly 4,000 GCAM scenarios and scenario discovery to identify socioeconomic and technological drivers of solar and wind deployment through 2050.",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        }
+      ],
+      "additional_sources": [
+        "https://honors.appstate.edu/sites/honors.appstate.edu/files/sum_14_v_17_laurus_honorum.pdf",
+        "https://honors.appstate.edu/sites/honors.appstate.edu/files/laurus_honorum_spring_2014_sm.pdf",
+        "https://mathsci.appstate.edu/sites/mathsci.appstate.edu/files/spring_2014_dawn_woodard_honors_thesis.pdf"
+      ],
+      "doctoral_period_evidence": {
+        "period": "Fall 2014–Winter 2020",
+        "source_url": "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf",
+        "location": "vitae, PDF zero-based page 9",
+        "quote": "Graduate Student Researcher Fall 2014 - Winter 2020"
+      },
+      "id": "dawn-woodard",
+      "category": "completed_coadvised_phd",
+      "verified_at": "2026-10-07",
+      "phd": {
+        "institution": "University of California, Irvine",
+        "program": "Earth System Science",
+        "completion_year": 2020,
+        "status": "completed"
+      },
+      "research_topics": [
+        "Carbon-cycle and economic feedbacks",
+        "Uncertainty and spatial distribution of fossil CO2 emissions",
+        "Reduced-complexity climate-model development",
+        "Scenario discovery for renewable energy deployment"
+      ],
+      "research_methods": [
+        "Coupled economic/carbon-cycle modeling",
+        "Hector climate model",
+        "GCAM integrated assessment",
+        "Spatial emissions uncertainty analysis"
+      ],
+      "relationship_sources": [
+        {
+          "url": "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf",
+          "checked_at": "2026-10-07",
+          "evidence": "Professor James T. Randerson, Chair; Professor Steven J. Davis, Co-chair",
+          "location": "PDF page 1 (title page, zero-based), page 13 (abstract); vitae page 9"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "source_date": "2026-10-06",
+          "checked_at": "2026-10-07",
+          "evidence": "Named among past doctoral student advisees, CV page 2"
+        }
+      ],
+      "publication_counts": {
+        "as_of": "2026-10-07",
+        "scope": "Confirmed minimum of distinct published journal pieces across career, including publications before/during/after the PhD; not a verified complete lifetime count.",
+        "deduplication_rule": "One final journal article per DOI; preprints, accepted manuscripts, corrections and doctoral dissertations are not separate research articles. Letters/commentaries are counted separately.",
+        "confirmed_minimum_research_articles": 9,
+        "confirmed_minimum_other_published_pieces": {},
+        "confirmed_minimum_all_published_pieces": 9,
+        "complete_lifetime_count": null,
+        "bibliography_source_urls": [
+          "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf",
+          "https://gmd.copernicus.org/articles/14/4751/2021/",
+          "https://gmd.copernicus.org/articles/17/4855/2024/",
+          "https://dgi.umd.edu/research-impact/publications/scenario-discovery-analysis-drivers-solar-and-wind-energy-transitions",
+          "https://pubmed.ncbi.nlm.nih.gov/34222555/"
+        ],
+        "coverage_caveat": "Five published research papers are listed in the 2020 dissertation vitae, plus four independently verified subsequent journal papers. A complete current author-maintained CV was not found. The ResearchGate 12-item count includes preprints/duplicate versions and is not used as a lifetime total. Dawn B. Woodard, the Cornell/Uber statistician, is a different person.",
+        "confirmed_scholarly_journal_articles_minimum": 9,
+        "davis_lab_inventory_identified_coauthored_items": {
+          "identified_count": 2,
+          "scope": "Davis/lab listed joint journal pieces identified in a captured 192-entry bibliography (2008–September 2026), not a lifetime count and not a complete Davis coauthorship census",
+          "source_url": "https://sustainablesolutions.stanford.edu/publications",
+          "checked_at": "2026-10-07",
+          "caveat": "Some lab bylines abbreviate long author lists. This is a count of identified items; omissions are possible. Zero means no match found in the captured inventory, not zero career publications.",
+          "article_type_caveat": "Includes separately identified Letter/Commentary items where present; not necessarily all original research articles.",
+          "works": [
+            {
+              "title": "Economic carbon cycle feedbacks may offset additional warming from natural feedbacks",
+              "year": "2018",
+              "doi": "10.1073/pnas.1805187115",
+              "paper_url": "https://doi.org/10.1073/pnas.1805187115",
+              "authors": "Dawn L. Woodard | Steven J. Davis | James T. Randerson"
+            },
+            {
+              "title": "Rate and velocity of climate change caused by cumulative carbon emissions",
+              "year": "2015",
+              "doi": "10.1088/1748-9326/10/9/095001/meta",
+              "paper_url": "https://doi.org/10.1088/1748-9326/10/9/095001/meta",
+              "authors": "Anna LoPresti | Allison Charland | Dawn Woodard | James Randerson | Noah S. Diffenbaugh | Steven J. Davis"
+            }
+          ]
+        }
+      },
+      "counted_works": [
+        {
+          "title": "The role of CO2 emissions from large point sources in emissions totals, responsibility, and policy",
+          "year": 2014,
+          "venue": "Environmental Science & Policy",
+          "doi": "10.1016/j.envsci.2014.08.001",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "2014 transition year; exact online publication timing relative to Fall 2014 enrollment not verified",
+          "source_urls": [
+            "https://www.sciencedirect.com/science/article/pii/S1462901114001506",
+            "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+          ],
+          "research_origin": "Appalachian State undergraduate research affiliation; published in PhD enrollment year."
+        },
+        {
+          "title": "A spatial uncertainty metric for anthropogenic CO2 emissions",
+          "year": 2014,
+          "venue": "Greenhouse Gas Measurement and Management",
+          "doi": "10.1080/20430779.2014.1000793",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://www.tandfonline.com/doi/full/10.1080/20430779.2014.1000793",
+            "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+          ],
+          "online_publication_date": "2015-01-28",
+          "year_caveat": "Journal volume year is 2014; first online publication was 2015. Count once.",
+          "research_origin": "Appalachian State undergraduate research; paper received June 3, 2014, before Fall 2014 graduate enrollment."
+        },
+        {
+          "title": "Rate and velocity of climate change caused by cumulative carbon emissions",
+          "year": 2015,
+          "venue": "Environmental Research Letters",
+          "doi": "10.1088/1748-9326/10/9/095001",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://doi.org/10.1088/1748-9326/10/9/095001",
+            "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+          ]
+        },
+        {
+          "title": "Uncertainty in gridded CO2 emissions estimates",
+          "year": 2016,
+          "venue": "Earth's Future",
+          "doi": "10.1002/2015EF000343",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2015EF000343",
+            "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+          ]
+        },
+        {
+          "title": "Economic carbon cycle feedbacks may offset additional warming from natural feedbacks",
+          "year": 2019,
+          "venue": "PNAS",
+          "doi": "10.1073/pnas.1805187115",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://pmc.ncbi.nlm.nih.gov/articles/PMC6338829/",
+            "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+          ]
+        },
+        {
+          "title": "Reduced Complexity Model Intercomparison Project Phase 2: Synthesizing Earth System Knowledge for Probabilistic Climate Projections",
+          "year": 2021,
+          "venue": "Earth's Future",
+          "doi": "10.1029/2020EF001900",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020EF001900",
+            "https://pubmed.ncbi.nlm.nih.gov/34222555/"
+          ]
+        },
+        {
+          "title": "A permafrost implementation in the simple carbon–climate model Hector v.2.3pf",
+          "year": 2021,
+          "venue": "Geoscientific Model Development",
+          "doi": "10.5194/gmd-14-4751-2021",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://gmd.copernicus.org/articles/14/4751/2021/"
+          ]
+        },
+        {
+          "title": "Scenario Discovery Analysis of Drivers of Solar and Wind Energy Transitions Through 2050",
+          "year": 2023,
+          "venue": "Earth's Future",
+          "doi": "10.1029/2022EF003442",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://dgi.umd.edu/research-impact/publications/scenario-discovery-analysis-drivers-solar-and-wind-energy-transitions",
+            "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2022EF003442"
+          ]
+        },
+        {
+          "title": "Hector V3.2.0: functionality and performance of a reduced-complexity climate model",
+          "year": 2024,
+          "venue": "Geoscientific Model Development",
+          "doi": "10.5194/gmd-17-4855-2024",
+          "type": "development and technical paper; counted with research journal articles",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://gmd.copernicus.org/articles/17/4855/2024/"
+          ]
+        }
+      ],
+      "current_research_topics": [
+        "Forest policy and forest-derived biomass energy",
+        "GIS and mapping of federal public lands, wildfire, freshwater, oil/gas and mining issues"
+      ],
+      "current_research_source": "https://www.nrdc.org/bio/dawn-woodard"
+    },
+    {
+      "name": "Robert Alexander Fofrich",
+      "display_name": "Robert Fofrich Navarro",
+      "aliases": [
+        "Robert A. Fofrich Navarro",
+        "Robert Fofrich",
+        "Robert A. Fofrich",
+        "Robert Alexander Fofrich",
+        "Robert Fofrich Navarro"
+      ],
+      "relationship": "Completed PhD advised by Steven J. Davis",
+      "adviser_role": "Chair",
+      "relationship_confidence": "confirmed by dissertation title page and UC President’s Postdoctoral Fellowship profile",
+      "relationship_quote": "Professor Steven J. Davis, Chair",
+      "dissertation": {
+        "title": "Constraints to Climate Change Mitigation and Adaptation",
+        "year": 2022,
+        "degree": "Ph.D. in Earth System Science",
+        "institution": "University of California, Irvine",
+        "url": "https://escholarship.org/uc/item/82m655xp",
+        "pdf_url": "https://escholarship.org/content/qt82m655xp/qt82m655xp.pdf",
+        "evidence_location": "PDF page 1 (title page, zero-based), vitae page 10"
+      },
+      "committee": [
+        {
+          "name": "Steven J. Davis",
+          "role": "Chair"
+        },
+        {
+          "name": "James T. Randerson",
+          "role": "Committee member"
+        },
+        {
+          "name": "Paulo Brando",
+          "role": "Committee member"
+        }
+      ],
+      "previous_degrees": [
+        {
+          "degree": "A.A. in Liberal Arts & Science: Math, Sciences & Computer Science",
+          "institution": "West Los Angeles College",
+          "year": 2014,
+          "honors": "magna cum laude",
+          "source_url": "https://escholarship.org/content/qt82m655xp/qt82m655xp.pdf"
+        },
+        {
+          "degree": "B.S. in Earth System Science",
+          "institution": "University of California, Irvine",
+          "year": 2016,
+          "source_url": "https://escholarship.org/content/qt82m655xp/qt82m655xp.pdf"
+        },
+        {
+          "degree": "M.S. in Earth System Science",
+          "institution": "University of California, Irvine",
+          "year": 2019,
+          "source_url": "https://escholarship.org/content/qt82m655xp/qt82m655xp.pdf"
+        }
+      ],
+      "current_or_last_verified_position": {
+        "title": "Postdoctoral Research Associate",
+        "employer": "Dartmouth College, Department of Geography, Climate Modeling & Impacts Group",
+        "status": "current official institutional profile",
+        "source_url": "https://geography.dartmouth.edu/people/robert-fofrich",
+        "corroborating_personal_source": "https://rfofrich.github.io/",
+        "supervisor": "Justin Mankin",
+        "previous_roles": [
+          "UC President’s Postdoctoral Fellow at UCLA with Elsa Ordway",
+          "Postdoctoral researcher at Rutgers University with Robert Kopp and Kelly McCusker"
+        ],
+        "checked_at": "2026-10-07"
+      },
+      "research_summary": "Energy decarbonization, stranded power-plant assets, climate risks to agriculture, sustainable carbon removal and attribution of climate damages.",
+      "representative_work": [
+        {
+          "title": "Early retirement of power plants in climate mitigation scenarios",
+          "year": 2020,
+          "venue": "Environmental Research Letters",
+          "role": "First author",
+          "doi": "10.1088/1748-9326/ab96d3",
+          "url": "https://pure.iiasa.ac.at/id/eprint/16501/",
+          "project": "Uses 171 integrated-assessment-model scenarios to estimate the power-plant retirement schedules required by climate targets.",
+          "type": "research_article",
+          "contribution": "Uses 171 integrated-assessment-model scenarios to estimate the power-plant retirement schedules required by climate targets.",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "Ownership of power plants stranded by climate mitigation",
+          "year": 2026,
+          "online_publication_date": "2025-12-11",
+          "venue": "Nature Sustainability",
+          "role": "First author",
+          "doi": "10.1038/s41893-025-01707-5",
+          "url": "https://www.nature.com/articles/s41893-025-01707-5",
+          "project": "Maps financial transition risk from fossil-fired power plants to their corporate and state owners. Bibliographic volume is 2026 although published online in 2025.",
+          "type": "research_article",
+          "contribution": "Maps financial transition risk from fossil-fired power plants to their corporate and state owners. Bibliographic volume is 2026 although published online in 2025.",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "Climate and ecological constraints of cultivating bioenergy crops for climate mitigation in tropical regions",
+          "year": 2026,
+          "venue": "PNAS Nexus",
+          "role": "First author",
+          "doi": "10.1093/pnasnexus/pgag123",
+          "url": "https://doi.org/10.1093/pnasnexus/pgag123",
+          "project": "Assesses warming-related crop-yield constraints and carbon/biodiversity trade-offs when bioenergy cultivation expands into tropical ecosystems.",
+          "type": "research_article",
+          "contribution": "Assesses warming-related crop-yield constraints and carbon/biodiversity trade-offs when bioenergy cultivation expands into tropical ecosystems.",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        }
+      ],
+      "additional_sources": [
+        "https://ppfp.ucop.edu/info/fellowship-recipients/fellows-pages/fofrich-robert.html",
+        "https://geography.dartmouth.edu/sites/geography/files/2026-01/rfofrich%20CV.pdf"
+      ],
+      "id": "robert-fofrich-navarro",
+      "category": "completed_primary_advised_phd",
+      "verified_at": "2026-10-07",
+      "phd": {
+        "institution": "University of California, Irvine",
+        "program": "Earth System Science",
+        "completion_year": 2022,
+        "status": "completed"
+      },
+      "research_topics": [
+        "Power-plant retirement, committed emissions and stranded-asset ownership",
+        "Climate constraints on crop production and bioenergy",
+        "Attribution of climate risks and impacts"
+      ],
+      "research_methods": [
+        "Plant-level datasets and ownership mapping",
+        "Comparison of 171 integrated-assessment scenarios",
+        "Spatial climate/crop-risk analysis"
+      ],
+      "relationship_sources": [
+        {
+          "url": "https://escholarship.org/content/qt82m655xp/qt82m655xp.pdf",
+          "checked_at": "2026-10-07",
+          "evidence": "Professor Steven J. Davis, Chair",
+          "location": "PDF page 1 (title page, zero-based), vitae page 10"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "source_date": "2026-10-06",
+          "checked_at": "2026-10-07",
+          "evidence": "Named among past doctoral student advisees, CV page 2"
+        }
+      ],
+      "publication_counts": {
+        "as_of": "2026-10-07",
+        "scope": "Confirmed minimum of distinct published journal pieces across career, including publications before/during/after the PhD; not a verified complete lifetime count.",
+        "deduplication_rule": "One final journal article per DOI; preprints, accepted manuscripts, corrections and doctoral dissertations are not separate research articles. Letters/commentaries are counted separately.",
+        "confirmed_minimum_research_articles": 6,
+        "confirmed_minimum_other_published_pieces": {
+          "Letter": 1
+        },
+        "confirmed_minimum_all_published_pieces": 7,
+        "complete_lifetime_count": null,
+        "bibliography_source_urls": [
+          "https://rfofrich.github.io/publications/",
+          "https://geography.dartmouth.edu/sites/geography/files/2026-01/rfofrich%20CV.pdf"
+        ],
+        "coverage_caveat": "Current author website explicitly calls its seven-item list selected. January 7, 2026 Dartmouth-hosted author CV listed six published pieces and four submitted/forthcoming manuscripts; its newly published PNAS Nexus paper is now verified separately. Science tribal-energy piece is a Letter, not a research article. Submitted/revision manuscripts are not counted; no complete career total is asserted.",
+        "confirmed_scholarly_journal_articles_minimum": 6,
+        "davis_lab_inventory_identified_coauthored_items": {
+          "identified_count": 5,
+          "scope": "Davis/lab listed joint journal pieces identified in a captured 192-entry bibliography (2008–September 2026), not a lifetime count and not a complete Davis coauthorship census",
+          "source_url": "https://sustainablesolutions.stanford.edu/publications",
+          "checked_at": "2026-10-07",
+          "caveat": "Some lab bylines abbreviate long author lists. This is a count of identified items; omissions are possible. Zero means no match found in the captured inventory, not zero career publications.",
+          "article_type_caveat": "Includes separately identified Letter/Commentary items where present; not necessarily all original research articles.",
+          "works": [
+            {
+              "title": "Ownership of power plants stranded by climate mitigation",
+              "year": "2025",
+              "doi": "10.1038/s41893-025-01707-5",
+              "paper_url": "https://doi.org/10.1038/s41893-025-01707-5",
+              "authors": "Robert Fofrich Navarro | Lauren Liebermann | Frances C. Moore | Christine Shearer | Steven J. Davis"
+            },
+            {
+              "title": "A path to US Tribal energy sovereignty",
+              "year": "2025",
+              "doi": "10.1126/science.adt7820",
+              "paper_url": "https://doi.org/10.1126/science.adt7820",
+              "authors": "Shane Seibel | Richard Luarkie | Daniel Cardenas | Cody Mayer | Ramon Sanchez | Matt Dannenberg | Bazile M. Panek | Albert Bond | Zane Gordon | Demi Morishige | Kourtney Hadrick | Graham Stahnke | Robert Fofrich Navarro | Steve Davis | Richard Tallman | Brooke Bowser | Morgan D. Bazilian"
+            },
+            {
+              "title": "Committed Emissions of the U.S. Power Sector, 2000–2018",
+              "year": "2020",
+              "doi": "",
+              "paper_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020AV000162",
+              "authors": "Christine Shearer | Dan Tong | Robert Fofrich Navarro | Steven J. Davis"
+            },
+            {
+              "title": "Early retirement of power plants in climate mitigation scenarios",
+              "year": "2020",
+              "doi": "10.1088/1748-9326/ab96d3/meta",
+              "paper_url": "https://doi.org/10.1088/1748-9326/ab96d3/meta",
+              "authors": "Robert Fofrich Navarro | D. Tong | K. Calvin | H. Sytze de Boer | J. Emmerling | O. Fricko | S. Fujimori | G. Luderer | J. Rogelj | S.J. Davis"
+            },
+            {
+              "title": "Future CO₂ emissions and electricity generation from proposed coal-fired power plants in India",
+              "year": "2017",
+              "doi": "10.1002/2017EF000542",
+              "paper_url": "https://doi.org/10.1002/2017EF000542",
+              "authors": "Christine Shearer | Steven J. Davis | Robert Fofrich Navarro"
+            }
+          ]
+        }
+      },
+      "counted_works": [
+        {
+          "title": "Future CO2 emissions and electricity generation from proposed coal-fired power plants in India",
+          "year": 2017,
+          "venue": "Earth's Future",
+          "doi": "10.1002/2017EF000542",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://doi.org/10.1002/2017EF000542",
+            "https://rfofrich.github.io/publications/"
+          ]
+        },
+        {
+          "title": "Early retirement of power plants in climate mitigation scenarios",
+          "year": 2020,
+          "venue": "Environmental Research Letters",
+          "doi": "10.1088/1748-9326/ab96d3",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://doi.org/10.1088/1748-9326/ab96d3",
+            "https://rfofrich.github.io/publications/"
+          ]
+        },
+        {
+          "title": "Committed emissions of the U.S. power sector, 2000–2018",
+          "year": 2020,
+          "venue": "AGU Advances",
+          "doi": "10.1029/2020AV000162",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://doi.org/10.1029/2020AV000162",
+            "https://rfofrich.github.io/publications/"
+          ]
+        },
+        {
+          "title": "Electricity Climate-Compatibility Index: Measuring global progress towards decarbonizing the electricity sector",
+          "year": 2024,
+          "venue": "Journal of Economy and Technology",
+          "doi": "10.1016/j.ject.2024.04.005",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://doi.org/10.1016/j.ject.2024.04.005",
+            "https://rfofrich.github.io/publications/"
+          ]
+        },
+        {
+          "title": "A path to US Tribal energy sovereignty",
+          "year": 2025,
+          "venue": "Science",
+          "doi": "10.1126/science.adt7820",
+          "type": "Letter",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://pubmed.ncbi.nlm.nih.gov/39847633/",
+            "https://www.science.org/doi/10.1126/science.adt7820",
+            "https://rfofrich.github.io/publications/"
+          ]
+        },
+        {
+          "title": "Ownership of power plants stranded by climate mitigation",
+          "year": 2026,
+          "venue": "Nature Sustainability",
+          "doi": "10.1038/s41893-025-01707-5",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://doi.org/10.1038/s41893-025-01707-5",
+            "https://rfofrich.github.io/publications/"
+          ],
+          "online_publication_date": "2025-12-11",
+          "year_caveat": "Online year 2025; journal issue year 2026."
+        },
+        {
+          "title": "Climate and ecological constraints of cultivating bioenergy crops for climate mitigation in tropical regions",
+          "year": 2026,
+          "venue": "PNAS Nexus",
+          "doi": "10.1093/pnasnexus/pgag123",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://doi.org/10.1093/pnasnexus/pgag123",
+            "https://sites.lifesci.ucla.edu/eeb-ordway/publications/",
+            "https://pubmed.ncbi.nlm.nih.gov/42131087/",
+            "https://rfofrich.github.io/publications/"
+          ],
+          "online_publication_date": "2026-05-12"
+        }
+      ]
+    },
+    {
+      "name": "Julianne T. DeAngelo",
+      "display_name": "Julianne DeAngelo",
+      "relationship": "Completed PhD advised by Steven J. Davis",
+      "adviser_role": "Chair",
+      "relationship_confidence": "confirmed by dissertation title page",
+      "relationship_quote": "Professor Steven J. Davis, Chair",
+      "dissertation": {
+        "title": "Opportunities and Challenges for Net-Zero Emissions Energy and Food Systems",
+        "year": 2023,
+        "degree": "Ph.D. in Earth System Science",
+        "institution": "University of California, Irvine",
+        "url": "https://escholarship.org/uc/item/1906k350",
+        "pdf_url": "https://escholarship.org/content/qt1906k350/qt1906k350.pdf",
+        "evidence_location": "PDF page 1 (title page, zero-based), vitae page 8"
+      },
+      "committee": [
+        {
+          "name": "Steven J. Davis",
+          "role": "Chair"
+        },
+        {
+          "name": "Kristen A. Davis",
+          "role": "Committee member"
+        },
+        {
+          "name": "Angela J. Rigden",
+          "role": "Committee member"
+        }
+      ],
+      "previous_degrees": [
+        {
+          "degree": "B.A. in Earth Sciences with Honors",
+          "institution": "Dartmouth College",
+          "year": 2019,
+          "honors": "cum laude; Warren F. Upham 1871 Geology Prize for outstanding senior thesis",
+          "source_url": "https://escholarship.org/content/qt1906k350/qt1906k350.pdf"
+        },
+        {
+          "degree": "M.S. in Earth System Science",
+          "institution": "University of California, Irvine",
+          "year": 2021,
+          "source_url": "https://escholarship.org/content/qt1906k350/qt1906k350.pdf"
+        }
+      ],
+      "current_or_last_verified_position": {
+        "title": "Postdoctoral Scholar",
+        "employer": "Stanford University, Sustainable Solutions Lab",
+        "start": "2026-07",
+        "status": "current official lab profile",
+        "source_url": "https://sustainablesolutions.stanford.edu/people/julianne-deangelo",
+        "previous_role": "Joined Watershed as Carbon Expert in September 2023; official Davis 2024 CV says then at Watershed",
+        "checked_at": "2026-10-07"
+      },
+      "research_summary": "Net-zero energy scenarios, techno-economic and biophysical assessment of seaweed farming and carbon dioxide removal, net-zero food systems.",
+      "representative_work": [
+        {
+          "title": "Energy systems in scenarios at net-zero CO2 emissions",
+          "year": 2021,
+          "venue": "Nature Communications",
+          "role": "First author",
+          "doi": "10.1038/s41467-021-26356-y",
+          "url": "https://www.nature.com/articles/s41467-021-26356-y",
+          "primary_accessible_url": "https://escholarship.org/content/qt7r15t6gs/qt7r15t6gs.pdf",
+          "project": "Compares common features and trade-offs of energy systems in 177 net-zero CO2 scenarios.",
+          "type": "research_article",
+          "contribution": "Compares common features and trade-offs of energy systems in 177 net-zero CO2 scenarios.",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "Economic and biophysical limits to seaweed farming for climate change mitigation",
+          "year": 2023,
+          "online_publication_date": "2022-12-23",
+          "venue": "Nature Plants",
+          "role": "First author",
+          "doi": "10.1038/s41477-022-01305-9",
+          "url": "https://www.nature.com/articles/s41477-022-01305-9",
+          "project": "Couples seaweed growth and techno-economic models to quantify costs and potential climate benefits. Journal issue year is 2023; online publication was 2022.",
+          "type": "research_article",
+          "contribution": "Couples seaweed growth and techno-economic models to quantify costs and potential climate benefits. Journal issue year is 2023; online publication was 2022.",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "Uses and limits of national decarbonization scenarios to inform net-zero transitions",
+          "year": 2024,
+          "venue": "Joule",
+          "doi": "10.1016/j.joule.2024.09.005",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2542435124004239",
+          "type": "Commentary",
+          "role": "Coauthor; individual task allocation not established",
+          "contribution": "Discusses how national decarbonization scenarios can and cannot inform decision making",
+          "publication_phase_relative_to_PhD": "after PhD"
+        }
+      ],
+      "previous_degree_conflict": {
+        "source_url": "https://www.ess.uci.edu/~sustsys/people.html",
+        "conflicting_claim": "B.S. Earth System Science, Dartmouth 2018",
+        "preferred_evidence": "2023 doctoral dissertation vitae and author ORCID specify B.A. Earth Sciences, Dartmouth 2019; use those over the stale shared lab roster."
+      },
+      "id": "julianne-deangelo",
+      "category": "completed_primary_advised_phd",
+      "verified_at": "2026-10-07",
+      "aliases": [
+        "Julianne T. DeAngelo",
+        "Julianne DeAngelo"
+      ],
+      "phd": {
+        "institution": "University of California, Irvine",
+        "program": "Earth System Science",
+        "completion_year": 2023,
+        "status": "completed"
+      },
+      "research_topics": [
+        "Net-zero energy system scenarios",
+        "Seaweed farming for food and carbon dioxide removal",
+        "Biophysical and economic limits of climate solutions"
+      ],
+      "research_methods": [
+        "Comparison of 177 integrated-assessment scenarios",
+        "Seaweed-growth modeling",
+        "Techno-economic analysis"
+      ],
+      "relationship_sources": [
+        {
+          "url": "https://escholarship.org/content/qt1906k350/qt1906k350.pdf",
+          "checked_at": "2026-10-07",
+          "evidence": "Professor Steven J. Davis, Chair",
+          "location": "PDF page 1 (title page, zero-based), vitae page 8"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "source_date": "2026-10-06",
+          "checked_at": "2026-10-07",
+          "evidence": "Named among past doctoral student advisees, CV page 2"
+        }
+      ],
+      "publication_counts": {
+        "as_of": "2026-10-07",
+        "scope": "Confirmed minimum of distinct published journal pieces across career, including publications before/during/after the PhD; not a verified complete lifetime count.",
+        "deduplication_rule": "One final journal article per DOI; preprints, accepted manuscripts, corrections and doctoral dissertations are not separate research articles. Letters/commentaries are counted separately.",
+        "confirmed_minimum_research_articles": 3,
+        "confirmed_minimum_other_published_pieces": {
+          "Commentary": 1
+        },
+        "confirmed_minimum_all_published_pieces": 4,
+        "complete_lifetime_count": null,
+        "bibliography_source_urls": [
+          "https://sustainablesolutions.stanford.edu/people/julianne-deangelo",
+          "https://orcid.org/0000-0001-9801-3288"
+        ],
+        "coverage_caveat": "Official lab bibliography has four distinct published pieces; publisher labels Joule 2024 item Commentary, leaving three original research articles plus one commentary. The ORCID works snapshot has original papers and two author corrections; corrections are not new research papers. No complete current author bibliography or CV was found, so four is a minimum for all published journal pieces.",
+        "confirmed_scholarly_journal_articles_minimum": 3,
+        "davis_lab_inventory_identified_coauthored_items": {
+          "identified_count": 4,
+          "scope": "Davis/lab listed joint journal pieces identified in a captured 192-entry bibliography (2008–September 2026), not a lifetime count and not a complete Davis coauthorship census",
+          "source_url": "https://sustainablesolutions.stanford.edu/publications",
+          "checked_at": "2026-10-07",
+          "caveat": "Some lab bylines abbreviate long author lists. This is a count of identified items; omissions are possible. Zero means no match found in the captured inventory, not zero career publications.",
+          "article_type_caveat": "Includes separately identified Letter/Commentary items where present; not necessarily all original research articles.",
+          "works": [
+            {
+              "title": "Uses and limits of national decarbonization scenarios to inform net-zero transitions",
+              "year": "2024",
+              "doi": "",
+              "paper_url": "https://www.cell.com/joule/abstract/S2542-4351(24)00423-9?uuid=uuid%3A19fcda59-26f6-4f27-9eed-c348ec0778a6",
+              "authors": "John Bistline | Morgan Browning | Julianne DeAngelo | Daniel Huppmann | Ryan Jones | James McFarland | Anahi Molar-Cruz | Steven Rose | Steven J. Davis"
+            },
+            {
+              "title": "Large global variations in the carbon dioxide removal potential of seaweed farming due to biophysical constraints",
+              "year": "2023",
+              "doi": "10.1038/s43247-023-00833-2",
+              "paper_url": "https://doi.org/10.1038/s43247-023-00833-2",
+              "authors": "Isabella B. Arzeno-Soltero | Benjamin T. Saenz | Christina A. Frieder | Matthew C. Long | Julianne DeAngelo | Steven J. Davis | Kristen A. Davis"
+            },
+            {
+              "title": "Economic and biophysical limits to seaweed farming for climate change mitigation",
+              "year": "2022",
+              "doi": "10.1038/s41477-022-01305-9",
+              "paper_url": "https://doi.org/10.1038/s41477-022-01305-9",
+              "authors": "Julianne DeAngelo | Benjamin T. Saenz | Isabella B. Arzeno-Soltero | Christina A. Frieder | Matthew C. Long | Joseph Hamman | Kristen A. Davis | Steven J. Davis"
+            },
+            {
+              "title": "Energy systems in scenarios at net-zero CO₂ emissions",
+              "year": "2021",
+              "doi": "10.1038/s41467-021-26356-y",
+              "paper_url": "https://doi.org/10.1038/s41467-021-26356-y",
+              "authors": "Julianne DeAngelo | Inês Azevedo | John Bistline | Leon Clarke | Gunnar Luderer | Edward Byers | Steven J. Davis"
+            }
+          ]
+        }
+      },
+      "counted_works": [
+        {
+          "title": "Energy systems in scenarios at net-zero CO2 emissions",
+          "year": 2021,
+          "venue": "Nature Communications",
+          "doi": "10.1038/s41467-021-26356-y",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://doi.org/10.1038/s41467-021-26356-y",
+            "https://sustainablesolutions.stanford.edu/people/julianne-deangelo"
+          ]
+        },
+        {
+          "title": "Economic and biophysical limits to seaweed farming for climate change mitigation",
+          "year": 2023,
+          "venue": "Nature Plants",
+          "doi": "10.1038/s41477-022-01305-9",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://doi.org/10.1038/s41477-022-01305-9",
+            "https://sustainablesolutions.stanford.edu/people/julianne-deangelo"
+          ],
+          "online_publication_date": "2022-12-23",
+          "year_caveat": "Journal issue year 2023; first online 2022, during PhD."
+        },
+        {
+          "title": "Large global variations in the carbon dioxide removal potential of seaweed farming due to biophysical constraints",
+          "year": 2023,
+          "venue": "Communications Earth & Environment",
+          "doi": "10.1038/s43247-023-00833-2",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "PhD graduation year; exact publication-versus-degree-award timing not resolved",
+          "source_urls": [
+            "https://doi.org/10.1038/s43247-023-00833-2",
+            "https://sustainablesolutions.stanford.edu/people/julianne-deangelo"
+          ]
+        },
+        {
+          "title": "Uses and limits of national decarbonization scenarios to inform net-zero transitions",
+          "year": 2024,
+          "venue": "Joule",
+          "doi": "10.1016/j.joule.2024.09.005",
+          "type": "Commentary",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://www.sciencedirect.com/science/article/pii/S2542435124004239",
+            "https://pure.iiasa.ac.at/id/eprint/20348/",
+            "https://sustainablesolutions.stanford.edu/people/julianne-deangelo"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maria Candelaria Bergero",
+      "display_name": "Candelaria Bergero",
+      "relationship": "Completed PhD advised by Steven J. Davis",
+      "adviser_role": "Advisor (repository metadata); exact chair/co-chair wording unavailable",
+      "relationship_confidence": "confirmed primary adviser relationship by official dissertation repository, official lab roster and faculty CV",
+      "relationship_quote": "Advisor(s): Davis, Steven J",
+      "dissertation": {
+        "title": "Carbon dioxide removals in net-zero emissions scenarios",
+        "year": 2025,
+        "degree": "Ph.D. in Earth System Science",
+        "institution": "University of California, Irvine",
+        "url": "https://escholarship.org/uc/item/58c9n2bg",
+        "full_text_embargo_until": "2028-08-08",
+        "defense_date": "2025-06-13",
+        "defense_source_url": "https://www.ess.uci.edu/events/1504",
+        "evidence_location": "eScholarship metadata explicitly names adviser; public record says full text is embargoed"
+      },
+      "committee": null,
+      "committee_caveat": "Repository full text is embargoed until August 8, 2028. Do not infer sole-adviser or committee composition from the adviser field.",
+      "previous_degrees": [
+        {
+          "degree": "B.A. in Political Science and International Relations",
+          "institution": "Universidad Católica Argentina",
+          "year": 2016,
+          "source_url": "https://climatehub.emory.edu/get-involved/who-global-conference-air-pollution-and-health",
+          "year_source_url": "https://etd.library.emory.edu/downloads/2n49t265d?locale=en"
+        },
+        {
+          "degree": "M.S. in Environmental Sciences",
+          "institution": "Emory University",
+          "year": 2019,
+          "source_url": "https://etd.library.emory.edu/downloads/2n49t265d?locale=en",
+          "thesis": "Understanding the Mechanisms of Diffusion of National Renewable Energy Targets",
+          "thesis_adviser": "Eri Saikawa"
+        }
+      ],
+      "current_or_last_verified_position": {
+        "title": "Postdoctoral Fellow",
+        "employer": "University of Wisconsin–Madison, La Follette School of Public Affairs / Nelson Institute Center for Sustainability and the Global Environment (SAGE)",
+        "status": "current official institutional research-staff roster; affiliations corroborated in 2026 paper",
+        "source_url": "https://sage.nelson.wisc.edu/research-staff/",
+        "corroborating_source_url": "https://www.stateofcdr.org/people",
+        "official_lab_alumni_source": "https://sustainablesolutions.stanford.edu/people",
+        "research_focus": "Jobs in the net-zero transition, per State of Carbon Dioxide Removal author profile",
+        "checked_at": "2026-10-07"
+      },
+      "research_summary": "Net-zero emissions scenarios, carbon dioxide removal deployment, hard-to-abate aviation, environmental justice and the climate consequences of failed carbon management.",
+      "representative_work": [
+        {
+          "title": "Pathways to net-zero emissions from aviation",
+          "year": 2023,
+          "venue": "Nature Sustainability",
+          "role": "First author",
+          "doi": "10.1038/s41893-022-01046-9",
+          "url": "https://www.nature.com/articles/s41893-022-01046-9",
+          "project": "Compares nine aviation pathways involving demand, energy efficiency, fuel carbon intensity and carbon dioxide removal.",
+          "type": "research_article",
+          "contribution": "Compares nine aviation pathways involving demand, energy efficiency, fuel carbon intensity and carbon dioxide removal.",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
+          "year": 2026,
+          "venue": "Nature Climate Change",
+          "role": "First author",
+          "doi": "10.1038/s41558-026-02675-0",
+          "url": "https://www.nature.com/articles/s41558-026-02675-0",
+          "project": "Assesses how reliance on carbon dioxide removal changes residual emissions, air pollution and its distribution across US communities.",
+          "type": "research_article",
+          "contribution": "Assesses how reliance on carbon dioxide removal changes residual emissions, air pollution and its distribution across US communities.",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        },
+        {
+          "title": "Biochar as a carbon dioxide removal strategy in integrated long-run mitigation scenarios",
+          "year": 2024,
+          "venue": "Environmental Research Letters",
+          "role": "First author",
+          "doi": "10.1088/1748-9326/ad52ab",
+          "url": "https://candelariabergero.com/biochar-1",
+          "project": "Adds biochar to the GCAM integrated assessment model and compares its long-run carbon-removal potential with competing uses of biomass and other removal technologies.",
+          "type": "research_article",
+          "contribution": "Adds biochar to the GCAM integrated assessment model and compares its long-run carbon-removal potential with competing uses of biomass and other removal technologies.",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "individual_contribution_caveat": "First authorship is verified; exhaustive individual task allocation is not inferred from author order."
+        }
+      ],
+      "additional_sources": [
+        "https://www.stateofcdr.org/people",
+        "https://climatehub.emory.edu/get-involved/who-global-conference-air-pollution-and-health",
+        "https://emory-envs.blog/2019/04/30/congratulations-to-envs-students-completing-honors-and-masters-theses-may-2019/"
+      ],
+      "subsequent_project": {
+        "title": "Employment impacts of the energy transition",
+        "description": "With Morgan Edwards, integrates energy-economic models, infrastructure mapping and employment-impact analysis to study workforce and green jobs in the net-zero transition.",
+        "year": 2026,
+        "source_url": "https://lafollette.wisc.edu/news/2026-kohl-competition-funds-four-innovative-projects/"
+      },
+      "id": "candelaria-bergero",
+      "category": "completed_primary_advised_phd",
+      "verified_at": "2026-10-07",
+      "aliases": [
+        "Maria Candelaria Bergero",
+        "Candelaria Bergero"
+      ],
+      "phd": {
+        "institution": "University of California, Irvine",
+        "program": "Earth System Science",
+        "completion_year": 2025,
+        "status": "completed"
+      },
+      "research_topics": [
+        "Carbon dioxide removal in net-zero scenarios",
+        "Aviation and biofuel supply chains",
+        "Energy-water-land trade-offs",
+        "Residual air pollution and community inequality",
+        "Jobs in the net-zero transition"
+      ],
+      "research_methods": [
+        "GCAM integrated assessment",
+        "Technology/supply-chain modeling including GCAM–BSM comparisons",
+        "Spatial air-pollution assessment",
+        "Earlier renewable-target diffusion analysis using qualitative comparative analysis"
+      ],
+      "relationship_sources": [
+        {
+          "url": "https://escholarship.org/uc/item/58c9n2bg",
+          "checked_at": "2026-10-07",
+          "evidence": "Advisor(s): Davis, Steven J",
+          "location": "eScholarship metadata explicitly names adviser; public record says full text is embargoed"
+        },
+        {
+          "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "source_date": "2026-10-06",
+          "checked_at": "2026-10-07",
+          "evidence": "Named among past doctoral student advisees, CV page 2"
+        }
+      ],
+      "publication_counts": {
+        "as_of": "2026-10-07",
+        "scope": "Confirmed minimum of distinct published journal pieces across career, including publications before/during/after the PhD; not a verified complete lifetime count.",
+        "deduplication_rule": "One final journal article per DOI; preprints, accepted manuscripts, corrections and doctoral dissertations are not separate research articles. Letters/commentaries are counted separately.",
+        "confirmed_minimum_research_articles": 10,
+        "confirmed_minimum_other_published_pieces": {
+          "News & Views": 1
+        },
+        "confirmed_minimum_all_published_pieces": 11,
+        "complete_lifetime_count": null,
+        "bibliography_source_urls": [
+          "https://candelariabergero.com/",
+          "https://www.nature.com/articles/s41558-026-02675-0",
+          "https://www.nature.com/articles/s41893-025-01675-w"
+        ],
+        "coverage_caveat": "Author-maintained website lists nine distinct journal research articles through 2024. Verified 2026 residual-emissions research article and 2025 News & Views are newer than that website bibliography and added once. This confirms at least ten research articles plus one commentary; incomplete current bibliography prevents a complete lifetime total. ResearchGate counts mix preprints/duplicate versions and are not adopted.",
+        "confirmed_scholarly_journal_articles_minimum": 10,
+        "davis_lab_inventory_identified_coauthored_items": {
+          "identified_count": 2,
+          "scope": "Davis/lab listed joint journal pieces identified in a captured 192-entry bibliography (2008–September 2026), not a lifetime count and not a complete Davis coauthorship census",
+          "source_url": "https://sustainablesolutions.stanford.edu/publications",
+          "checked_at": "2026-10-07",
+          "caveat": "Some lab bylines abbreviate long author lists. This is a count of identified items; omissions are possible. Zero means no match found in the captured inventory, not zero career publications.",
+          "article_type_caveat": "Includes separately identified Letter/Commentary items where present; not necessarily all original research articles.",
+          "works": [
+            {
+              "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
+              "year": "2026",
+              "doi": "10.1038/s41558-026-02675-0",
+              "paper_url": "https://www.nature.com/articles/s41558-026-02675-0#citeas",
+              "authors": "Candelaria Bergero | Jing Cheng | Qiang Zhang | Yang Ou | Haewon McJeon | Morgan R. Edwards | Destenie Nock | Inês Azevedo | Steven J. Davis"
+            },
+            {
+              "title": "Pathways to net-zero emissions from aviation",
+              "year": "2023",
+              "doi": "10.1038/s41893-022-01046-9",
+              "paper_url": "https://doi.org/10.1038/s41893-022-01046-9",
+              "authors": "Candelaria Bergero | Greer Gosnell | Dolf Gielen | Seungwoo Kang | Morgan Bazilian | Steven J. Davis"
+            }
+          ]
+        }
+      },
+      "counted_works": [
+        {
+          "title": "An integrated assessment of a low coal low nuclear future energy system for Taiwan",
+          "year": 2021,
+          "venue": "Energy and Climate Change",
+          "doi": "10.1016/j.egycc.2020.100022",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://candelariabergero.com/taiwan",
+            "https://doi.org/10.1016/j.egycc.2020.100022"
+          ]
+        },
+        {
+          "title": "Insights for Canadian electricity generation planning from an integrated assessment model: Should we be more cautious about hydropower cost overruns?",
+          "year": 2021,
+          "venue": "Energy Policy",
+          "doi": "10.1016/j.enpol.2021.112138",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://www.osti.gov/servlets/purl/1762268",
+            "https://candelariabergero.com/",
+            "https://doi.org/10.1016/j.enpol.2021.112138"
+          ]
+        },
+        {
+          "title": "All roads lead to Paris: the eight pathways to renewable energy target adoption",
+          "year": 2021,
+          "venue": "Energy Research & Social Science",
+          "doi": "10.1016/j.erss.2021.102215",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://candelariabergero.com/qca-pathways",
+            "https://doi.org/10.1016/j.erss.2021.102215"
+          ],
+          "research_origin": "Builds on Emory 2019 master thesis on renewable-energy target diffusion; publication occurs during UCI doctoral period."
+        },
+        {
+          "title": "Integrated assessment modeling of Korea’s 2050 carbon neutrality technology pathways",
+          "year": 2022,
+          "venue": "Energy and Climate Change",
+          "doi": "10.1016/j.egycc.2022.100075",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://candelariabergero.com/korea",
+            "https://doi.org/10.1016/j.egycc.2022.100075"
+          ]
+        },
+        {
+          "title": "Technology, technology, technology: an integrated assessment of deep decarbonization pathways for the Canadian oil sands",
+          "year": 2022,
+          "venue": "Energy Strategy Reviews",
+          "doi": "10.1016/j.esr.2022.100804",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://www.osti.gov/pages/servlets/purl/1862346",
+            "https://candelariabergero.com/",
+            "https://doi.org/10.1016/j.esr.2022.100804"
+          ]
+        },
+        {
+          "title": "Pathways to net-zero emissions from aviation",
+          "year": 2023,
+          "venue": "Nature Sustainability",
+          "doi": "10.1038/s41893-022-01046-9",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://doi.org/10.1038/s41893-022-01046-9"
+          ]
+        },
+        {
+          "title": "Diverse carbon dioxide removal approaches could reduce impacts on the energy-water-land system",
+          "year": 2023,
+          "venue": "Nature Climate Change",
+          "doi": "10.1038/s41558-023-01604-9",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://candelariabergero.com/cdr-approaches",
+            "https://doi.org/10.1038/s41558-023-01604-9"
+          ]
+        },
+        {
+          "title": "Deep decarbonization and U.S. biofuels production: a coordinated analysis with a detailed structural model and an integrated multisectoral model",
+          "year": 2023,
+          "venue": "Environmental Research Letters",
+          "doi": "10.1088/1748-9326/acf146",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://candelariabergero.com/gcam-bsm",
+            "https://doi.org/10.1088/1748-9326/acf146"
+          ]
+        },
+        {
+          "title": "Biochar as a carbon dioxide removal strategy in integrated long-run mitigation scenarios",
+          "year": 2024,
+          "venue": "Environmental Research Letters",
+          "doi": "10.1088/1748-9326/ad52ab",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "during PhD",
+          "source_urls": [
+            "https://candelariabergero.com/biochar-1",
+            "https://doi.org/10.1088/1748-9326/ad52ab"
+          ]
+        },
+        {
+          "title": "From trash to jet fuel",
+          "year": 2025,
+          "venue": "Nature Sustainability",
+          "doi": "10.1038/s41893-025-01675-w",
+          "type": "News & Views",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://www.nature.com/articles/s41893-025-01675-w"
+          ],
+          "online_publication_date": "2025-11-03"
+        },
+        {
+          "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
+          "year": 2026,
+          "venue": "Nature Climate Change",
+          "doi": "10.1038/s41558-026-02675-0",
+          "type": "research article",
+          "publication_phase_relative_to_PhD": "after PhD",
+          "source_urls": [
+            "https://doi.org/10.1038/s41558-026-02675-0"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arjun-hausner",
+      "name": "Arjun Lev Pillai Hausner",
+      "display_name": "Arjun Hausner",
+      "aliases": [
+        "Arjun L. P. Hausner",
+        "Arjun L.P. Hausner",
+        "A. L. P. Hausner"
+      ],
+      "category": "current_coadvised_phd",
+      "relationship": "Current PhD student co-advised by Steven J. Davis, Rob Jackson and Nicole Ardoin",
+      "relationship_quote": "co-advised with Rob Jackson and Nicole Ardoin",
+      "relationship_sources": [
+        {
+          "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "source_date": "2026-10-06",
+          "location": "CV page 2",
+          "evidence": "Explicit PhD student and co-adviser names",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "url": "https://eiper.stanford.edu/people/phd-students",
+          "evidence": "Ph.D. Student in Environment and Resources, admitted Autumn 2025",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "url": "https://sustainablesolutions.stanford.edu/people/arjun-hausner",
+          "evidence": "PhD Student; in lab since 2025-09",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "phd": {
+        "institution": "Stanford University",
+        "program": "Emmett Interdisciplinary Program in Environment and Resources (E-IPER)",
+        "entry": "Autumn 2025",
+        "status": "current",
+        "completion_year": null
+      },
+      "dissertation": {
+        "title": null,
+        "status": "No completed dissertation or public final dissertation title established"
+      },
+      "previous_degrees": [
+        {
+          "degree": "B.S.; majors in Environmental and Sustainability Sciences and Earth and Atmospheric Sciences",
+          "institution": "Cornell University",
+          "date": "2019-12",
+          "source_url": "https://ecommons.cornell.edu/bitstreams/c14f7142-3dae-4f3a-8b10-1ac83ed50a20/download"
+        },
+        {
+          "degree": "M.S. in Atmospheric Sciences / Meteorology",
+          "institution": "Cornell University",
+          "date": "2021-12",
+          "source_url": "https://ecommons.cornell.edu/bitstreams/c14f7142-3dae-4f3a-8b10-1ac83ed50a20/download",
+          "thesis": "Dynamic strategies offer potential to reduce lethal ship collisions with large whales under changing climate conditions",
+          "adviser": "Charles H. Greene"
+        }
+      ],
+      "professional_background": [
+        {
+          "role": "Impact Strategy Lead, Office of the CEO",
+          "organization": "Impossible Foods",
+          "source_url": "https://socialecology.stanford.edu/people/arjun-hausner-0"
+        },
+        {
+          "role": "Senior Associate",
+          "organization": "Renewable Resources Group",
+          "source_url": "https://socialecology.stanford.edu/people/arjun-hausner-0"
+        }
+      ],
+      "research_topics": [
+        "Automating techno-economic analysis of carbon projects, costs and co-benefits",
+        "Markets for emerging climate commodities",
+        "Cognitive and behavioral drivers of climate investment decisions in high-emission firms"
+      ],
+      "research_methods": [
+        "Techno-economic analysis",
+        "Market analysis",
+        "Behavioral and institutional analysis",
+        "Earlier work: habitat models and simulated dynamic marine management"
+      ],
+      "research_source_url": "https://socialecology.stanford.edu/people/arjun-hausner-0",
+      "current_or_last_verified_position": {
+        "title": "PhD student",
+        "employer": "Stanford University, E-IPER",
+        "source_url": "https://eiper.stanford.edu/people/phd-students",
+        "checked_at": "2026-10-07"
+      },
+      "representative_work": [
+        {
+          "title": "Dynamic strategies offer potential to reduce lethal ship collisions with large whales under changing climate conditions",
+          "year": 2021,
+          "venue": "Marine Policy",
+          "doi": "10.1016/j.marpol.2021.104565",
+          "url": "https://repository.library.noaa.gov/view/noaa/62791",
+          "type": "research_article",
+          "role": "First author; publisher CRediT names conceptualization and formal analysis",
+          "contribution": "Compares daily, seasonal and fixed vessel-speed management over a 17-year period, including a marine heatwave, to quantify whale protection and shipping trade-offs.",
+          "phase": "before Stanford PhD and Davis supervision"
+        },
+        {
+          "title": "Transforming the Future of Marine Aquaculture: A Circular Economy Approach",
+          "year": 2022,
+          "venue": "Oceanography",
+          "doi": "10.5670/oceanog.2022.213",
+          "url": "https://tos.org/oceanography/article/transforming-the-future-of-marine-aquaculture-a-circular-economy-approach",
+          "type": "journal_synthesis_article",
+          "role": "Coauthor; individual task allocation not publicly established",
+          "contribution": "Examines marine algae aquaculture and circular resource flows as an option to supply food while reducing land, freshwater and climate pressures.",
+          "phase": "before Stanford PhD and Davis supervision"
+        }
+      ],
+      "publication_counts": {
+        "as_of": "2026-10-07",
+        "career_count_status": "confirmed_minimum; no complete disambiguated author-maintained bibliography established",
+        "confirmed_scholarly_journal_articles_minimum": 2,
+        "research_articles_minimum": 1,
+        "journal_synthesis_articles_minimum": 1,
+        "count_sources": [
+          "https://repository.library.noaa.gov/view/noaa/62791",
+          "https://tos.org/oceanography/article/transforming-the-future-of-marine-aquaculture-a-circular-economy-approach"
+        ],
+        "before_current_phd_confirmed_minimum": 2,
+        "current_phd_published_count": "Not reliably established; no published Davis coauthorship identified in the 192-entry lab inventory",
+        "in_review_items": [
+          "Financial markets are betting on failure of the Paris Agreement",
+          "The Iran war could accelerate climate mitigation by a decade"
+        ],
+        "in_review_source": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+        "in_review_caveat": "Listed in Davis CV's in-review section; excluded from publication count. No claim that these are publicly available preprints.",
+        "orcid": "https://orcid.org/0000-0002-3483-5642",
+        "orcid_caveat": "Public ORCID list is incomplete relative to the two verified journal articles.",
+        "complete_lifetime_count": null,
+        "confirmed_minimum_all_published_pieces": 2,
+        "davis_lab_inventory_identified_coauthored_items": {
+          "identified_count": 0,
+          "scope": "Davis/lab listed joint journal pieces identified in a captured 192-entry bibliography (2008–September 2026), not a lifetime count and not a complete Davis coauthorship census",
+          "source_url": "https://sustainablesolutions.stanford.edu/publications",
+          "checked_at": "2026-10-07",
+          "caveat": "Some lab bylines abbreviate long author lists. This is a count of identified items; omissions are possible. Zero means no match found in the captured inventory, not zero career publications.",
+          "article_type_caveat": "Includes separately identified Letter/Commentary items where present; not necessarily all original research articles.",
+          "works": []
+        }
+      },
+      "verified_at": "2026-10-07",
+      "counted_works": [
+        {
+          "title": "Dynamic strategies offer potential to reduce lethal ship collisions with large whales under changing climate conditions",
+          "year": 2021,
+          "venue": "Marine Policy",
+          "doi": "10.1016/j.marpol.2021.104565",
+          "url": "https://repository.library.noaa.gov/view/noaa/62791",
+          "type": "research_article",
+          "phase": "before Stanford PhD and Davis supervision"
+        },
+        {
+          "title": "Transforming the Future of Marine Aquaculture: A Circular Economy Approach",
+          "year": 2022,
+          "venue": "Oceanography",
+          "doi": "10.5670/oceanog.2022.213",
+          "url": "https://tos.org/oceanography/article/transforming-the-future-of-marine-aquaculture-a-circular-economy-approach",
+          "type": "journal_synthesis_article",
+          "phase": "before Stanford PhD and Davis supervision"
+        }
+      ]
+    },
+    {
+      "id": "abigail-fitzgibbon",
+      "name": "Abigail Fitzgibbon",
+      "display_name": "Abigail Fitzgibbon",
+      "aliases": [
+        "Abby Fitzgibbon"
+      ],
+      "category": "current_coadvised_phd",
+      "relationship": "Current PhD student co-advised by Steven J. Davis and Jen Burney according to the current Davis CV and King Center profile; Woods profile differs",
+      "relationship_quote": "co-advised with Jen Burney",
+      "relationship_sources": [
+        {
+          "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "source_date": "2026-10-06",
+          "location": "CV page 2",
+          "evidence": "Explicit PhD student and co-adviser Jen Burney",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon",
+          "evidence": "Co-advised by Steve Davis and Jen Burney",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "url": "https://cap.stanford.edu/profiles/frdActionServlet?choiceId=printerprofile&profileId=9587&profileversion=full",
+          "evidence": "Jen Burney Stanford profile lists Abigail under Doctoral Dissertation Co-Advisor (AC)",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "url": "https://woods.stanford.edu/people/abigail-fitzgibbon",
+          "evidence": "Names Steve Davis and Jane Willenbring as co-advisers; conflicts with current CV and King Center",
+          "checked_at": "2026-10-07"
+        },
+        {
+          "url": "https://eiper.stanford.edu/people/phd-students",
+          "evidence": "Admitted Autumn 2025",
+          "checked_at": "2026-10-07"
+        }
+      ],
+      "source_disagreement": "Woods still names Jane Willenbring. Public sources do not establish whether this reflects an adviser change, stale text, or simultaneous arrangements. Davis supervision itself is consistent.",
+      "phd": {
+        "institution": "Stanford University",
+        "program": "E-IPER",
+        "entry": "Autumn 2025",
+        "status": "current",
+        "completion_year": null
+      },
+      "dissertation": {
+        "title": null,
+        "status": "No completed dissertation or public final dissertation title established"
+      },
+      "previous_degrees": [
+        {
+          "degree": "B.A. in Physical Geography and Geospatial Science",
+          "institution": "University of California, Los Angeles",
+          "year": 2021,
+          "source_url": "https://burney-lab.org/people/",
+          "year_source_url": "https://mountwashington.org/first-week-on-the-summit/"
+        },
+        {
+          "degree": "Master's in Environmental Policy, concentrating in agriculture and economics",
+          "institution": "Sciences Po, Paris School of International Affairs",
+          "year": null,
+          "honors": "Eiffel Excellence Scholar",
+          "source_url": "https://woods.stanford.edu/people/abigail-fitzgibbon",
+          "date_caveat": "Completed before autumn 2025; exact graduation year not established from primary public sources"
+        }
+      ],
+      "professional_background": [
+        {
+          "role": "Product engineer; crop yields and machine learning",
+          "organization": "Esri",
+          "duration": "Two years per Woods bio",
+          "source_url": "https://woods.stanford.edu/people/abigail-fitzgibbon"
+        },
+        {
+          "role": "Food commodity-market research in West Africa",
+          "organization": "OECD",
+          "source_url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon"
+        },
+        {
+          "role": "Agricultural trade / market development",
+          "organization": "USDA Foreign Agricultural Service, US Embassy in Kazakhstan",
+          "source_url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon"
+        },
+        {
+          "role": "Carbon removal startup work",
+          "organization": "Flux, Kenya",
+          "source_url": "https://woods.stanford.edu/people/abigail-fitzgibbon"
+        }
+      ],
+      "research_topics": [
+        "Emissions from food loss and waste",
+        "Waste-stream fermentation and food-loss upcycling",
+        "Biochar",
+        "Enhanced rock weathering on croplands",
+        "Translation of carbon-removal science into investments and policy"
+      ],
+      "research_methods": [
+        "Life-cycle assessment",
+        "Geospatial machine learning",
+        "Field mapping and enterprise interviews",
+        "Evaluation of economic and environmental trade-offs"
+      ],
+      "research_sources": [
+        "https://burney-lab.org/people/",
+        "https://kingcenter.stanford.edu/people/abigail-fitzgibbon",
+        "https://wyss.harvard.edu/news/pulling-carbon-into-seawater-using-engineered-bacteria/"
+      ],
+      "current_or_last_verified_position": {
+        "title": "PhD student",
+        "employer": "Stanford University, E-IPER",
+        "source_url": "https://eiper.stanford.edu/people/phd-students",
+        "checked_at": "2026-10-07"
+      },
+      "representative_work": [
+        {
+          "title": "Evaluation of Maximum Entropy (Maxent) Machine Learning Model to Assess Relationships between Climate and Corn Suitability",
+          "year": 2022,
+          "venue": "Land",
+          "doi": "10.3390/land11091382",
+          "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=396424",
+          "type": "research_article",
+          "role": "First author",
+          "contribution": "Models climate–corn suitability relationships using Maxent and compares them with Random Forest approaches.",
+          "phase": "before Stanford PhD and Davis supervision"
+        },
+        {
+          "title": "Engineered bacterial siderophore production accelerates rock weathering for carbon removal",
+          "year": 2026,
+          "online_publication_date": "2026-08-28",
+          "venue": "Nature Biotechnology",
+          "doi": "10.1038/s41587-026-03288-w",
+          "url": "https://www.nature.com/articles/s41587-026-03288-w",
+          "type": "research_article",
+          "role": "Coauthor; Harvard Wyss Institute explicitly identifies Fitzgibbon/Davis collaboration on life-cycle analysis",
+          "contribution": "Assesses the system's net carbon balance and process parameters relevant to industrial scale, alongside Harvard-led engineered-bacteria and olivine-weathering experiments.",
+          "contribution_source_url": "https://wyss.harvard.edu/news/pulling-carbon-into-seawater-using-engineered-bacteria/",
+          "phase": "during current Stanford PhD"
+        },
+        {
+          "title": "Closing the Circle: Innovation in Food Loss Upcycling for Development, Employment, and Food Security in East Africa",
+          "year": 2026,
+          "type": "funded_field_project_not_a_published_paper",
+          "url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon",
+          "contribution": "King Center 2025–26 funded project in Kenya and Rwanda: characterize market/processing losses, interview enterprise operators, and prototype a pathway-evaluation tool.",
+          "phase": "during current Stanford PhD"
+        }
+      ],
+      "publication_counts": {
+        "as_of": "2026-10-07",
+        "career_count_status": "confirmed_minimum; no complete disambiguated author-maintained bibliography established",
+        "confirmed_scholarly_journal_articles_minimum": 2,
+        "research_articles_minimum": 2,
+        "count_sources": [
+          "https://www.ars.usda.gov/research/publications/publication/?seqNo115=396424",
+          "https://www.nature.com/articles/s41587-026-03288-w"
+        ],
+        "before_current_phd_confirmed_minimum": 1,
+        "current_phd_confirmed_minimum": 1,
+        "preprints_conference_count": "Not reliably established; no exhaustive list found",
+        "complete_lifetime_count": null,
+        "confirmed_minimum_all_published_pieces": 2,
+        "davis_lab_inventory_identified_coauthored_items": {
+          "identified_count": 1,
+          "scope": "Davis/lab listed joint journal pieces identified in a captured 192-entry bibliography (2008–September 2026), not a lifetime count and not a complete Davis coauthorship census",
+          "source_url": "https://sustainablesolutions.stanford.edu/publications",
+          "checked_at": "2026-10-07",
+          "caveat": "Some lab bylines abbreviate long author lists. This is a count of identified items; omissions are possible. Zero means no match found in the captured inventory, not zero career publications.",
+          "article_type_caveat": "Includes separately identified Letter/Commentary items where present; not necessarily all original research articles.",
+          "works": [
+            {
+              "title": "Engineered bacterial siderophore production accelerates rock weathering for carbon removal",
+              "year": "2026",
+              "doi": "10.1038/s41587-026-03288-w",
+              "paper_url": "https://www.nature.com/articles/s41587-026-03288-w",
+              "authors": "Neil C. Dalvie | Amogh P. Jalihal | Abigail Fitzgibbon | Jan-Tobias Böhnke | Mohammed Hijaz | Quincey A. Justman | Steven J. Davis | Pamela A. Silver | Michael Spring"
+            }
+          ]
+        }
+      },
+      "verified_at": "2026-10-07",
+      "counted_works": [
+        {
+          "title": "Evaluation of Maximum Entropy (Maxent) Machine Learning Model to Assess Relationships between Climate and Corn Suitability",
+          "year": 2022,
+          "venue": "Land",
+          "doi": "10.3390/land11091382",
+          "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=396424",
+          "type": "research_article",
+          "phase": "before Stanford PhD and Davis supervision"
+        },
+        {
+          "title": "Engineered bacterial siderophore production accelerates rock weathering for carbon removal",
+          "year": 2026,
+          "venue": "Nature Biotechnology",
+          "doi": "10.1038/s41587-026-03288-w",
+          "url": "https://www.nature.com/articles/s41587-026-03288-w",
+          "type": "research_article",
+          "phase": "during current Stanford PhD"
+        }
+      ]
+    }
+  ],
+  "meeting_relevance": {
+    "status": "Analytic inference from documented methods, not a claim that these students currently research NdFeB magnets or rare-earth supply",
+    "background_range": [
+      "Mathematics",
+      "Earth system/geoscience",
+      "Political science and international relations followed by environmental science",
+      "Atmospheric/ocean science plus corporate climate strategy",
+      "Geography/geospatial machine learning followed by environmental policy"
+    ],
+    "common_work": "Construct datasets; connect physical/process constraints, cost and environmental consequences to system scenarios and actor decisions; quantify trade-offs and uncertainty",
+    "material_supply_analogies": [
+      {
+        "students": [
+          "Julianne DeAngelo",
+          "Candelaria Bergero"
+        ],
+        "idea": "Connect nominal technical potential to realizable supply through costs, biophysical constraints and detailed supply-chain dynamics"
+      },
+      {
+        "students": [
+          "Abigail Fitzgibbon"
+        ],
+        "idea": "Translate process/experimental performance into full-system life-cycle outcomes; industrial scale may change the net benefit"
+      },
+      {
+        "students": [
+          "Robert Fofrich Navarro",
+          "Arjun Hausner"
+        ],
+        "idea": "Connect assets and bottlenecks to owners, investment incentives and institutional decisions"
+      },
+      {
+        "students": [
+          "Dawn Woodard"
+        ],
+        "idea": "Represent feedbacks and propagate uncertainty instead of reporting one static forecast"
+      }
+    ],
+    "suggested_meeting_pitch_zh": "把稀土—合格磁体供应建成可用于决策的系统模型：用真实产能、收率、产品认证和爬坡约束连接供应链节点，再比较政策或投资对可交付量、成本、排放与风险的影响。"
+  },
+  "website_schema_version": "1.0",
+  "original_report_zh": "Steven J. Davis 的历届及在读博士学生：公开证据名单\n核实日期：2026 年 10 月 7 日。对象为 Stanford 地球系统科学／Sustainable Solutions Lab 的 Steven J. Davis，原 UC Irvine 教授。\n\n目前能够确认 6 位正式博士学位指导对象：3 位以 Davis 为主要导师的毕业生，1 位共同指导的毕业生，以及 2 位在读、共同指导的博士生。最新依据是 Davis 2026 年 10 月 6 日更新的 [CV](https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view)，并与博士论文、历年 CV、实验室名单及 Stanford 项目记录交叉核对。这里给出的是“公开来源可确认的最完整名单”，尚不能保证行政记录意义上的历届零遗漏。\n\n论文数量以截至核实日能逐篇确认、按 DOI／题名去重的已发表期刊成果为单位。下表全是最低数，不是已证明完整的职业生涯总数；预印本与正式版本合并，勘误、学位论文、会议报告、审稿中稿件和项目不计入。评论、Letter、News & Views 单列。与 Davis 共同署名的数量另给捕获的 192 条实验室目录中的“已识别数”：目录部分长作者名单缩写，可能漏项，不能当作其全部合著数。\n\n| 学生 | 博士学位／状态、导师关系 | 已核实的个人期刊成果最低数 | Davis 目录已识别合著项 |\n|---|---|---|---:|\n| Dawn Woodard | UCI 地球系统科学，2020；Davis 为 Co-chair，James Randerson 为 Chair | ≥9 篇研究／模型技术论文 | 2 |\n| Robert Fofrich Navarro | UCI 地球系统科学，2022；Davis 为 Chair | ≥6 篇研究论文，另 1 篇 Letter，合计 ≥7 项 | 5，含 Letter |\n| Julianne DeAngelo | UCI 地球系统科学，2023；Davis 为 Chair | ≥3 篇研究论文，另 1 篇 Commentary，合计 ≥4 项 | 4，含 Commentary |\n| Candelaria Bergero | UCI 地球系统科学，2025；仓库明确列 Davis 为 adviser | ≥10 篇研究论文，另 1 篇 News & Views，合计 ≥11 项 | 2 |\n| Arjun Hausner | Stanford E-IPER，2025 秋入学、在读；Davis／Rob Jackson／Nicole Ardoin 共同指导 | ≥2 篇学术期刊文章：1 篇研究、1 篇综合分析 | 0 项被识别；不表示个人零发表 |\n| Abigail Fitzgibbon | Stanford E-IPER，2025 秋入学、在读；当前 CV 与 King Center 列 Davis／Jen Burney | ≥2 篇研究论文 | 1 |\n\n1. Dawn Leigh Woodard（发表时也写 Dawn L. Woodard）\n\n数学转入气候与社会系统建模。Appalachian State University 数学 B.S.，2014；UCI 地球系统科学 M.S.，2018，Ph.D.，2020。她的 [2014 年 5 月本科荣誉论文](https://mathsci.appstate.edu/sites/mathsci.appstate.edu/files/spring_2014_dawn_woodard_honors_thesis.pdf)可核实本科年份；博士 vitae 另列 2010，与原件冲突，报告保留这个冲突而采用当年的本科原件。\n\n博士论文《Fossil Fuel Emissions of Carbon Dioxide: Feedbacks and Forecasting》研究化石燃料 CO₂ 排放的预测与反馈，连接人类经济活动、气候损害和碳循环；论文封面明确标出 Randerson 主持、Davis 共同主持。她的方法包括耦合经济—碳循环模型、排放空间不确定性、简化气候模型及 GCAM 情景探索。[博士论文及 vitae](https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf)\n\n博士毕业后在 PNNL／University of Maryland 的 Joint Global Change Research Institute 做约三年博士后，现为 NRDC 的 Staff Scientist, Nature。现职聚焦森林政策、森林生物质能源、野火及公共土地议题，包括采矿，使用 GIS 制图、气候及人地系统模型。[NRDC 现职介绍](https://www.nrdc.org/bio/dawn-woodard)，核实于 2026-10-07。\n\n代表成果：\n\n- 第一作者 [Economic carbon cycle feedbacks may offset additional warming from natural feedbacks](https://pmc.ncbi.nlm.nih.gov/articles/PMC6338829/)（PNAS，2018 年在线／2019 年卷期，博士期间）：量化经济损害减少排放的反馈如何与自然碳循环反馈相互作用。\n- 第一作者 [A permafrost implementation in the simple carbon–climate model Hector v.2.3pf](https://gmd.copernicus.org/articles/14/4751/2021/)（2021，毕业后）：给开放气候模型 Hector 增加冻土碳过程。\n- 第一作者 [Scenario Discovery Analysis of Drivers of Solar and Wind Energy Transitions Through 2050](https://dgi.umd.edu/research-impact/publications/scenario-discovery-analysis-drivers-solar-and-wind-energy-transitions)（2023，毕业后）：用近 4,000 个 GCAM 情景识别风光部署的社会经济和技术驱动因素。\n\n≥9 的依据是博士 vitae 的 5 篇已发表文章，加上 4 篇随后核实的期刊论文，其中包括 [2024 年 Hector V3.2.0 模型技术论文](https://gmd.copernicus.org/articles/17/4855/2024/)。最早两项来自本科研究；发表于博士入学年或随后，不能全部算成博士阶段产生的研究。未找到完整的现行个人书目，因此不宣称总数恰好为 9。Cornell／Uber 的统计学家 Dawn B. Woodard 是另一人，未混入。\n\n2. Robert Alexander Fofrich／Robert A. Fofrich Navarro\n\n从社区学院进入地球系统科学。West Los Angeles College 2014 年 A.A.（数学、科学和计算机科学方向）；UCI 地球系统科学 B.S. 2016、M.S. 2019、Ph.D. 2022。博士论文《Constraints to Climate Change Mitigation and Adaptation》由 Davis 主持，讨论电力设施、气候目标与适应的约束。[博士论文、委员会和学历](https://escholarship.org/content/qt82m655xp/qt82m655xp.pdf)\n\n研究从电厂承诺排放、提前退役和资产搁浅，扩展到作物与生物能源的气候约束及气候影响归因。常用电厂／所有权数据库、综合评估模型情景、空间气候与作物风险分析。曾在 UCLA 跟随 Elsa Ordway、在 Rutgers 跟随 Robert Kopp 和 Kelly McCusker 做博士后；现为 Dartmouth Geography 的 Climate Modeling & Impacts Group 博士后研究员，合作导师 Justin Mankin。[Dartmouth 现职](https://geography.dartmouth.edu/people/robert-fofrich)，核实于 2026-10-07。Davis 最新 CV 中仍写 UCLA，采用当前雇主页面更新现职。\n\n代表成果：\n\n- 第一作者 [Early retirement of power plants in climate mitigation scenarios](https://pure.iiasa.ac.at/id/eprint/16501/)（2020，博士期间）：比较 171 个模型情景，估算达成气候目标需要怎样的电厂退役进程。\n- 第一作者 [Ownership of power plants stranded by climate mitigation](https://www.nature.com/articles/s41893-025-01707-5)（2025 年 12 月在线／2026 年卷期，毕业后）：把电厂转型风险对应到企业及国家所有者，而不止汇总技术规模。\n- 第一作者 [Climate and ecological constraints of cultivating bioenergy crops for climate mitigation in tropical regions](https://doi.org/10.1093/pnasnexus/pgag123)（2026，毕业后）：量化热带生物能源种植的气候适宜性，以及扩张造成的碳储量和生物多样性代价。\n\n本人 [精选书目](https://rfofrich.github.io/publications/)可确认 7 项：6 篇研究论文和 [Science 的部落能源主权 Letter](https://pubmed.ncbi.nlm.nih.gov/39847633/)。3 篇研究发表于博士期间，另 3 篇研究和 Letter 发表于毕业后。书目明确写 selected，因此 7 仍是最低数；[2026 年 1 月官方托管 CV](https://geography.dartmouth.edu/sites/geography/files/2026-01/rfofrich%20CV.pdf)中的投稿／修订稿不另计发表。\n\n3. Julianne T. DeAngelo\n\nDartmouth Earth Sciences B.A.，2019，荣誉毕业并获优秀毕业论文奖；UCI 地球系统科学 M.S. 2021、Ph.D. 2023。博士论文《Opportunities and Challenges for Net-Zero Emissions Energy and Food Systems》封面列 Davis 为 Chair。[博士论文及学历](https://escholarship.org/content/qt1906k350/qt1906k350.pdf)；旧共享实验室卡片另写本科 2018／B.S.，此处采用学位论文 vitae。\n\n研究净零能源情景、海藻养殖用于食物／减排／移除碳的潜力，以及这些方案的经济和生物物理边界。她将综合评估情景比较、海藻生长模型和技术经济分析结合。2023 年 9 月进入 Watershed 做 Carbon Expert；2026 年 7 月起回到 Stanford Sustainable Solutions Lab 做博士后，由 Davis 和 Ken Caldeira 共同指导。[现职实验室介绍](https://sustainablesolutions.stanford.edu/people/julianne-deangelo)，核实于 2026-10-07。\n\n代表成果：\n\n- 第一作者 [Energy systems in scenarios at net-zero CO₂ emissions](https://www.nature.com/articles/s41467-021-26356-y)（2021，博士期间）：比较 177 个净零情景，分析共同特征及不同技术组合的权衡。\n- 第一作者 [Economic and biophysical limits to seaweed farming for climate change mitigation](https://www.nature.com/articles/s41477-022-01305-9)（2022 年在线／2023 年卷期，博士期间）：将生长和成本模型耦合，检验海藻气候效益的可行规模和成本。\n- 合著 [Uses and limits of national decarbonization scenarios to inform net-zero transitions](https://www.sciencedirect.com/science/article/pii/S2542435124004239)（Joule，2024，毕业后）：讨论国家脱碳情景对实际决策的用途与边界，出版方明确标为 Commentary。\n\n能核实 ≥3 篇研究论文 +1 篇评论。第三篇研究是 [2023 年全球海藻移除碳潜力的生物物理约束](https://www.nature.com/articles/s43247-023-00833-2)，发表于毕业年，未将其硬归为毕业前或后；ORCID 中的作者勘误不重复算新论文。未找到完整现行 CV，≥4 项不能当作完整生涯总数。\n\n4. Maria Candelaria Bergero／Candelaria Bergero\n\n政治与国际关系转入环境系统建模。Universidad Católica Argentina 2016 年 B.A.；Emory Environmental Sciences M.S. 2019，硕士论文研究国家可再生能源目标如何扩散，导师 Eri Saikawa。[Emory 学历背景](https://climatehub.emory.edu/get-involved/who-global-conference-air-pollution-and-health)、[硕士论文原件](https://etd.library.emory.edu/downloads/2n49t265d?locale=en)。公开 UCI 介绍还记录 Carter Center、PNNL 等实习／研究经历。[2024 年 UCI 介绍](https://airuci.uci.edu/content/next-wave-%E2%80%94-candelaria-bergero-1)\n\nUCI 地球系统科学 Ph.D. 2025，论文《Carbon dioxide removals in net-zero emissions scenarios》，2025 年 6 月 13 日答辩；[论文仓库](https://escholarship.org/uc/item/58c9n2bg)明确列 Davis 为 adviser，[答辩通知](https://www.ess.uci.edu/events/1504)交叉核实。正文禁公开至 2028-08-08，所以可以确认主要导师关系，无法进一步证明“唯一导师”或完整委员会组成。\n\n研究航空和生物燃料的脱碳路径、净零情景里的碳移除、能源—水—土地权衡、残余污染与社区不平等。方法以 GCAM 综合评估、细化技术／供应链模型和空间污染分析为主；早期还用定性比较分析研究政策扩散。现为 Wisconsin–Madison La Follette／SAGE 博士后，跟随 Morgan Edwards；2026 年参与以能源经济模型、设施地图和就业影响分析净零转型中的就业机会。[官方研究人员名单](https://sage.nelson.wisc.edu/research-staff/)、[2026 年项目介绍](https://lafollette.wisc.edu/news/2026-kohl-competition-funds-four-innovative-projects/)，核实于 2026-10-07。\n\n代表成果：\n\n- 第一作者 [Pathways to net-zero emissions from aviation](https://www.nature.com/articles/s41893-022-01046-9)（2023，博士期间）：比较需求、效率、燃料碳强度和碳移除组成的九条航空净零路径。\n- 第一作者 [Biochar as a carbon dioxide removal strategy in integrated long-run mitigation scenarios](https://doi.org/10.1088/1748-9326/ad52ab)（2024，博士期间）：将生物炭纳入 GCAM，分析长期移除潜力及与其他生物质用途的竞争。\n- 第一作者 [Residual emissions may perpetuate community-scale inequalities in US air pollution](https://www.nature.com/articles/s41558-026-02675-0)（2026，毕业后）：分析依赖碳移除的净零路径可能保留哪些排放，以及社区污染分布。\n\n本人 [论文网站](https://candelariabergero.com/)列出截至 2024 年的 9 篇不同研究文章，另确认 2026 年残余污染研究与 2025 年 [From trash to jet fuel](https://www.nature.com/articles/s41893-025-01675-w)（News & Views），因此 ≥10 研究 +1 评论。9 篇研究发表于 UCI 博士期间，但其中政策扩散论文来源于 Emory 硕士研究，不能按发表年份认定全部产生于博士项目。网站未同步全部新作品，所以不是完整总数。\n\n5. Arjun Lev Pillai Hausner／Arjun Hausner\n\nCornell 2019 年 12 月 B.S.，双专业 Environmental and Sustainability Sciences 与 Earth and Atmospheric Sciences；2021 年 12 月大气科学／气象学 M.S.。硕士研究动态管理如何减少船舶撞击大型鲸类，导师 Charles Greene。[Cornell 硕士论文及简历](https://ecommons.cornell.edu/bitstreams/c14f7142-3dae-4f3a-8b10-1ac83ed50a20/download)\n\n入学前任 Impossible Foods CEO 办公室 Impact Strategy Lead，以及 Renewable Resources Group Senior Associate。现在研究三个问题：自动化技术经济分析以比较碳项目的成本和共同效益、新兴气候商品的市场动态，以及高排放企业投资气候方案的认知／行为动因。[Stanford Social Ecology Lab 介绍](https://socialecology.stanford.edu/people/arjun-hausner-0)\n\nStanford E-IPER 2025 秋入学，在 Davis 组自 2025-09 起；最新 CV 明确共同导师为 Davis、Rob Jackson 和 Nicole Ardoin。[E-IPER 在读名单](https://eiper.stanford.edu/people/phd-students)、[Davis 组记录](https://sustainablesolutions.stanford.edu/people/arjun-hausner)。截至核实日尚无完成博士论文或公开最终论文题目。\n\n代表成果：\n\n- 第一作者 [Dynamic strategies offer potential to reduce lethal ship collisions with large whales under changing climate conditions](https://repository.library.noaa.gov/view/noaa/62791)（Marine Policy，2021，加入 Davis 前）：用 17 年数据和模拟比较每日、季节和固定限速策略，分析生态保护与航运的权衡；出版方贡献说明明确包含其概念设计与正式分析。\n- 合著 [Transforming the Future of Marine Aquaculture: A Circular Economy Approach](https://tos.org/oceanography/article/transforming-the-future-of-marine-aquaculture-a-circular-economy-approach)（Oceanography，2022，加入 Davis 前）：综合分析海洋藻类养殖与循环资源流对食物供给、土地、水及气候的意义；未据署名顺序猜测个人任务分工。\n\n已确认 ≥2 篇期刊文章，均发表于 Stanford 博士之前。Davis CV 另列两篇共同署名审稿中稿件，不计已发表数。公开 ORCID 本身漏列已知论文，因此不能用其条目数作完整生涯总数；Davis 目录没有找到已发表合作项也不意味着个人零发表。\n\n6. Abigail／Abby Fitzgibbon\n\nUCLA Physical Geography and Geospatial Science B.A.，2021；后在 Sciences Po Paris School of International Affairs 获环境政策硕士，侧重农业与经济，为 Eiffel Scholar；硕士准确毕业年未从一手公开记录确认。她曾在 Esri 用机器学习研究作物产量，随后在 OECD、USDA Foreign Agricultural Service 驻哈萨克斯坦使馆及 Kenya 碳移除创业公司 Flux 工作。[Stanford Woods 背景介绍](https://woods.stanford.edu/people/abigail-fitzgibbon)、[2021 年毕业后的工作介绍](https://mountwashington.org/first-week-on-the-summit/)\n\nStanford E-IPER 2025 秋入学。Davis 最新 CV、King Center 页面以及 Jen Burney 的 Stanford 指导记录均支持 Davis／Burney 共同指导；Woods 页面却写 Davis／Jane Willenbring。Davis 的指导身份一致，但另一共同导师的网页存在矛盾，不能据此自行断言发生了导师变更。[King Center](https://kingcenter.stanford.edu/people/abigail-fitzgibbon)、[Burney 指导记录](https://cap.stanford.edu/profiles/frdActionServlet?choiceId=printerprofile&profileId=9587&profileversion=full)\n\n当前研究食物损失／浪费排放、废物流发酵和升级利用、生物炭、农田增强岩石风化，以及如何把移除碳科学转为投资与政策；方法连接 GIS／机器学习、生命周期评估、市场和加工环节调查。[Burney 实验室研究介绍](https://burney-lab.org/people/)。截至核实日尚无完成博士论文或公开最终论文题目。\n\n代表成果：\n\n- 第一作者 [Evaluation of Maximum Entropy (Maxent) Machine Learning Model to Assess Relationships between Climate and Corn Suitability](https://www.ars.usda.gov/research/publications/publication/?seqNo115=396424)（Land，2022，加入 Davis 前）：评估 Maxent 对气候—玉米适宜性关系的刻画，并与 Random Forest 方法比较；USDA 明确记录为同行评审期刊文章。\n- 合著 [Engineered bacterial siderophore production accelerates rock weathering for carbon removal](https://www.nature.com/articles/s41587-026-03288-w)（Nature Biotechnology，2026-08-28，博士期间）：Harvard 团队做工程菌和橄榄石风化实验，Abigail／Davis 参与生命周期评估，核算系统净碳平衡与工业规模关键参数。[Wyss 的明确贡献说明](https://wyss.harvard.edu/news/pulling-carbon-into-seawater-using-engineered-bacteria/)\n- [Closing the Circle](https://kingcenter.stanford.edu/people/abigail-fitzgibbon)（2025–26 学年获资助项目，不是已发表论文）：在 Kenya／Rwanda 调查食物损失和副产物升级利用企业，结合市场／加工环节测量和经营者访谈，开发路径评价工具。\n\n已确认 ≥2 篇研究论文：加入 Davis 前 1 篇、当前博士期间 1 篇。没有完整个人书目，无法可靠建立职业生涯总数；获资助项目未充作第三篇论文。\n\n历史覆盖和未纳入对象\n\n历史核查覆盖 Davis 的 UCI 任教期 2012–2024 与 Stanford 任教期 2024 至核实日，使用可访问的 [2016 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2016.pdf)、[2017 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2017.pdf)、[2018 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2018.pdf)、[2019 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2019.pdf)、[2020 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2020.pdf)、[2022 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2022.pdf)、[2023 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2023.pdf)、[2024 CV](https://www.ess.uci.edu/~sjdavis/DavisCV2024.pdf)、[约 2021 年共享实验室名单](https://www.ess.uci.edu/~sustsys/people.html)，以及四份博士论文。部分旧 PDF 间歇返回 403，2012–2015 缺少连续年度的可读学生名册；2021 CV 仅取得部分元数据，不声称读完其指导学生章节。\n\n关键反例是 Dawn：2016–2020 年 Davis CV 没有列她，但博士论文明确证实其共同指导关系。说明即使历年 CV 没有出现其他名字，也不能据此证明“历届全部”。此次审计未找到第七位有明确主导师／共同导师证据的正式博士。\n\nUCI 任教之前，CV 与 [Carnegie 2009 年记录](https://carnegiescience.edu/sites/carnegiescience.edu/files/yearbooks/2009%20Spring.pdf)支持 Davis 2008–2012 为 Caldeira 组博士后；针对这一时期未找到其正式主导／共同指导博士学位的肯定记录。这是“未发现”，不能表述为已证明没有。\n\n以下对象不能合并进六人主名单：\n\n- Lauren Moody：最新 CV 写地球系统科学硕士生，[实验室卡片](https://sustainablesolutions.stanford.edu/people/lauren-moody)及部分 Stanford 分类却写博士。学位／状态待明确，暂不计入已确认博士数。\n- [Siavash Ebrahimi](https://escholarship.org/content/qt2d29z7cf/qt2d29z7cf.pdf)、[Omid Mazdiyasni](https://escholarship.org/content/qt2nw9q45b/qt2nw9q45b.pdf)、[Alireza Farahmand](https://escholarship.org/content/qt5x29g304/qt5x29g304.pdf)：论文封面中 Davis 为普通委员会成员；主导师分别为 Jack Brouwer 或 Amir AghaKouchak。\n- [Rob Buechler](https://s3l.stanford.edu/people/rob-buechler)与 [Dimitri Saad](https://sustainability.stanford.edu/news/people-side-energy)：Davis 的论文 reader／合作关系不等于其学位导师；一手介绍另列各自导师。\n- Can Cui、Rui Zhong、Yuxin Chen、Dongsheng Zheng：CV／实验室明确写 visiting PhD student，未建立 Davis 为其正式学位导师的证据。共享 UCI 名单上的 Ada Na’Bila Acobta、Kyle Manley 属 Egoh Group。\n- Dan Tong、Chaopeng Hong、Yue Qin、Christine Shearer、Jing Cheng 等为 Davis 指导的博士后；Anna LoPresti 是硕士生。这些培养关系真实，但不是博士学位学生关系。\n- [Ali Mehran](https://escholarship.org/uc/item/0z76c4cc)：[AghaKouchak 官方组记录](https://amir.eng.uci.edu/group.php)可确认其为主导师。博士 PDF 过大且访问受限，Davis 是否担任普通委员／共同导师尚未核实，因此未计入。Mojtaba Sadegh、Shahrbanou Madadgar 的论文另有明确主要导师，也未纳入。\n\n对稀土／磁体供应课题的启发（以下为方法类比）\n\n这些学生并非都来自同一本科专业，实际共同点是把物理过程、技术成本、供应／生态约束和行为选择连成可以比较的系统模型。学生往往从一个具体部门或技术出发，建立数据、测算可行边界，再回答政策、投资或部署决策。\n\n与候选课题最接近的方法线索是：Julianne 将“潜力”变成受生长和成本约束的可实现量；Candelaria 的 [GCAM–生物燃料供应链联合分析](https://doi.org/10.1088/1748-9326/acf146)连接长期情景与短期供给瓶颈；Abigail 的过程 LCA 把实验性能换算为完整系统收益；Robert 把技术资产对应到所有者风险；Arjun 关注企业和市场为何投资。没有找到这六人公开记录中直接研究 NdFeB／稀土磁体供应的项目。\n\n一个候选研究问题是：“如何把稀土—合格磁体供应建成决策模型：用产能、收率、认证和爬坡约束连接节点，再比较投资或政策怎样改变可交付量、成本、环境影响和中断风险。”这与他们已有工作的方法相通，比仅展示储量或名义产能更容易讨论可执行研究问题。\n\n公开资料足以用于建立带证据边界的研究概览。只有需要保证绝对无遗漏的行政全名单、解决 Lauren 的学位状态，或确认 Abigail 的共同导师变化及不可读委员会记录时，才需要 Davis／项目办公室人工核实。逐篇计数、关系证据与公开来源包含在本站的结构化证据中。\n",
+  "full_historical_audit": {
+    "checked_at": "2026-10-07",
+    "identity": "Steven J. Davis, Stanford Sustainable Solutions Lab and Earth System Science; UC Irvine faculty 2012–2024; Carnegie Global Ecology postdoctoral scholar 2008–2012",
+    "confirmed_count": 6,
+    "confirmed_completed_phds": 4,
+    "confirmed_current_phds": 2,
+    "classification": {
+      "completed_primary_adviser": 3,
+      "completed_coadviser": 1,
+      "current_coadviser": 2
+    },
+    "completeness": "Most complete confirmed roster located in public sources; not a certified exhaustive administrative mentoring history",
+    "coverage": [
+      {
+        "period": "2008–2012, Carnegie / before UCI faculty appointment",
+        "result": "CV and Carnegie 2009 newsletter establish postdoctoral status. Targeted searches found no affirmative primary or formal co-PhD adviser relationship during this period. Absence of a found record does not prove absence of supervision.",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://carnegiescience.edu/sites/carnegiescience.edu/files/yearbooks/2009%20Spring.pdf"
+        ]
+      },
+      {
+        "period": "2012–2024, UCI faculty; completed UCI PhDs documented 2020–2025",
+        "result": "Cross-checked historical CVs, shared lab roster, four dissertation records and committee-only candidates. No additional confirmed primary/co-advised PhD found.",
+        "gaps": "Not all annual rosters/CVs for 2012–2015 are available. Dissertation search indexes can omit records, and adviser metadata is not a complete institutional administrative census."
+      },
+      {
+        "period": "2024–2026-10-07, Stanford",
+        "result": "Current Davis CV updated 2026-10-06, lab roster, E-IPER student list and relevant co-adviser profiles confirm two current co-advised doctoral students entering autumn 2025. Lauren Moody degree/status conflicts are kept separate."
+      }
+    ],
+    "historical_sources_reviewed": [
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2016.pdf",
+        "date": "2016-11-21",
+        "result": "Robert listed as doctoral student; no additional confirmed PhD"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2017.pdf",
+        "date": "2017-12-22",
+        "result": "Robert listed; several postdoctoral trainees distinguished"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2018.pdf",
+        "date": "2018-12-20",
+        "result": "Robert listed; Dawn not listed despite later verified co-advised dissertation"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2019.pdf",
+        "date": "2019-12-19",
+        "result": "Julianne and Robert listed; Dawn not listed"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2020.pdf",
+        "date": "2020-12-23",
+        "result": "Julianne and Robert listed; Dawn not listed"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sustsys/people.html",
+        "date_context": "Copyright 2021 on shared UCI lab page",
+        "result": "Robert and Julianne in Davis group; Ada Na'Bila Acobta and Kyle Manley explicitly in Egoh group"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2022.pdf",
+        "date": "2022-12-23",
+        "result": "Four completed/current degree-advised PhD names; Can Cui is visiting doctoral student"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2023.pdf",
+        "result": "Same four main names; no added confirmed degree-advised PhD"
+      },
+      {
+        "url": "https://www.ess.uci.edu/~sjdavis/DavisCV2024.pdf",
+        "result": "Same four main names; separates visiting PhD, master's and postdoctoral trainees"
+      },
+      {
+        "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+        "date": "2026-10-06",
+        "result": "Four past doctoral students, two current co-advised doctoral students, Lauren Moody explicitly master's"
+      }
+    ],
+    "key_coverage_warning": {
+      "fact": "Dawn Woodard is omitted from 2016–2020 Davis CV adviser lists but her 2020 dissertation explicitly names Davis Co-chair. CVs alone demonstrably fail to establish exhaustive lifetime coverage.",
+      "evidence": [
+        "https://www.ess.uci.edu/~sjdavis/DavisCV2018.pdf",
+        "https://escholarship.org/content/qt2xs8w01x/qt2xs8w01x.pdf"
+      ]
+    },
+    "excluded_or_unresolved": [
+      {
+        "name": "Lauren Moody",
+        "status": "unresolved degree/status; excluded from confirmed PhD count",
+        "reason": "2026-10-06 CV explicitly says master's student in Earth System Science; lab card and Stanford advisee classification say doctoral. No completed doctoral dissertation or unambiguous degree-adviser record found.",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://sustainablesolutions.stanford.edu/people/lauren-moody",
+          "https://profiles.stanford.edu/steve-davis"
+        ]
+      },
+      {
+        "name": "Siavash Ebrahimi",
+        "status": "committee-only",
+        "reason": "UCI 2019 mechanical/aerospace dissertation names Jack Brouwer Chair and Davis ordinary committee member.",
+        "source_url": "https://escholarship.org/content/qt2d29z7cf/qt2d29z7cf.pdf"
+      },
+      {
+        "name": "Omid Mazdiyasni",
+        "status": "committee-only",
+        "reason": "UCI 2018 dissertation names Amir AghaKouchak Chair and Davis ordinary committee member.",
+        "source_url": "https://escholarship.org/content/qt2nw9q45b/qt2nw9q45b.pdf"
+      },
+      {
+        "name": "Alireza Farahmand",
+        "status": "committee-only",
+        "reason": "UCI 2016 dissertation names Amir AghaKouchak Chair and Davis ordinary committee member.",
+        "source_url": "https://escholarship.org/content/qt5x29g304/qt5x29g304.pdf"
+      },
+      {
+        "name": "Rob Buechler",
+        "status": "dissertation reader, not confirmed degree adviser",
+        "reason": "Davis profile names dissertation-reader role; S3L bio names Arun Majumdar and Ram Rajagopal as co-advisers.",
+        "sources": [
+          "https://profiles.stanford.edu/steve-davis",
+          "https://s3l.stanford.edu/people/rob-buechler"
+        ]
+      },
+      {
+        "name": "Dimitri Saad",
+        "status": "reader/collaborator, not confirmed degree adviser",
+        "reason": "Official Stanford news names Adam Brandt and Inês Azevedo as advisers; no evidence of Davis primary/co-adviser role.",
+        "sources": [
+          "https://sustainability.stanford.edu/news/people-side-energy",
+          "https://eao.stanford.edu/people/dimitri-saad"
+        ]
+      },
+      {
+        "names": [
+          "Can Cui",
+          "Rui Zhong",
+          "Yuxin Chen",
+          "Dongsheng Zheng"
+        ],
+        "status": "visiting doctoral trainees",
+        "reason": "Official CV/lab records identify visiting doctoral students; degree-adviser status to Davis not established.",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://sustainablesolutions.stanford.edu/people"
+        ]
+      },
+      {
+        "names": [
+          "Ada Na'Bila Acobta",
+          "Kyle Manley"
+        ],
+        "status": "other PI's PhD students on shared roster",
+        "reason": "2021 UCI roster explicitly labels them Egoh Group.",
+        "source_url": "https://www.ess.uci.edu/~sustsys/people.html"
+      },
+      {
+        "names": [
+          "Dan Tong",
+          "Chaopeng Hong",
+          "Yue Qin",
+          "Christine Shearer",
+          "Jing Cheng",
+          "Pablo Busch",
+          "Jacqueline Dowling",
+          "Shi Chen",
+          "Koen van Greevenbroek",
+          "Lyssa Freese",
+          "Alicia Wongel",
+          "Lamprini Papargyri",
+          "Will McNeil"
+        ],
+        "status": "postdoctoral trainees, excluded from doctoral degree-advisee roster",
+        "sources": [
+          "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "https://sustainablesolutions.stanford.edu/people"
+        ]
+      },
+      {
+        "name": "Anna LoPresti",
+        "status": "master's advisee",
+        "source_url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view"
+      }
+    ],
+    "human_verification_needed_only_if": [
+      "A certified zero-omission lifetime census is required: ask Davis or program administrators for a full formal PhD adviser/co-adviser list",
+      "Resolve Lauren Moody degree/status",
+      "Resolve Abigail's inconsistent co-adviser webpages",
+      "Resolve any unreadable/embargoed committee composition, including Bergero exact chair/co-chair roles and Ali Mehran if necessary"
+    ],
+    "public_sources_sufficient_for": "A public-source, evidence-qualified roster with academic backgrounds, current research, representative work and minimum publication counts"
+  },
+  "full_lab_count_audit": {
+    "source": "https://sustainablesolutions.stanford.edu/publications",
+    "scope": "192 lab-indexed Davis byline articles, 2008–September2026; student matches manually disambiguated aliases, DOI/title deduplication. Counts are lab-listed Davis coauthored papers, not total lifetime publications.",
+    "checked_at": "2026-10-07",
+    "people": {
+      "Dawn Woodard": {
+        "count": 2,
+        "papers": [
+          {
+            "title": "Economic carbon cycle feedbacks may offset additional warming from natural feedbacks",
+            "year": "2018",
+            "doi": "10.1073/pnas.1805187115",
+            "paper_url": "https://doi.org/10.1073/pnas.1805187115",
+            "authors": "Dawn L. Woodard | Steven J. Davis | James T. Randerson"
+          },
+          {
+            "title": "Rate and velocity of climate change caused by cumulative carbon emissions",
+            "year": "2015",
+            "doi": "10.1088/1748-9326/10/9/095001/meta",
+            "paper_url": "https://doi.org/10.1088/1748-9326/10/9/095001/meta",
+            "authors": "Anna LoPresti | Allison Charland | Dawn Woodard | James Randerson | Noah S. Diffenbaugh | Steven J. Davis"
+          }
+        ]
+      },
+      "Robert Fofrich Navarro": {
+        "count": 5,
+        "papers": [
+          {
+            "title": "Ownership of power plants stranded by climate mitigation",
+            "year": "2025",
+            "doi": "10.1038/s41893-025-01707-5",
+            "paper_url": "https://doi.org/10.1038/s41893-025-01707-5",
+            "authors": "Robert Fofrich Navarro | Lauren Liebermann | Frances C. Moore | Christine Shearer | Steven J. Davis"
+          },
+          {
+            "title": "A path to US Tribal energy sovereignty",
+            "year": "2025",
+            "doi": "10.1126/science.adt7820",
+            "paper_url": "https://doi.org/10.1126/science.adt7820",
+            "authors": "Shane Seibel | Richard Luarkie | Daniel Cardenas | Cody Mayer | Ramon Sanchez | Matt Dannenberg | Bazile M. Panek | Albert Bond | Zane Gordon | Demi Morishige | Kourtney Hadrick | Graham Stahnke | Robert Fofrich Navarro | Steve Davis | Richard Tallman | Brooke Bowser | Morgan D. Bazilian"
+          },
+          {
+            "title": "Committed Emissions of the U.S. Power Sector, 2000–2018",
+            "year": "2020",
+            "doi": "",
+            "paper_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2020AV000162",
+            "authors": "Christine Shearer | Dan Tong | Robert Fofrich Navarro | Steven J. Davis"
+          },
+          {
+            "title": "Early retirement of power plants in climate mitigation scenarios",
+            "year": "2020",
+            "doi": "10.1088/1748-9326/ab96d3/meta",
+            "paper_url": "https://doi.org/10.1088/1748-9326/ab96d3/meta",
+            "authors": "Robert Fofrich Navarro | D. Tong | K. Calvin | H. Sytze de Boer | J. Emmerling | O. Fricko | S. Fujimori | G. Luderer | J. Rogelj | S.J. Davis"
+          },
+          {
+            "title": "Future CO₂ emissions and electricity generation from proposed coal-fired power plants in India",
+            "year": "2017",
+            "doi": "10.1002/2017EF000542",
+            "paper_url": "https://doi.org/10.1002/2017EF000542",
+            "authors": "Christine Shearer | Steven J. Davis | Robert Fofrich Navarro"
+          }
+        ]
+      },
+      "Julianne DeAngelo": {
+        "count": 4,
+        "papers": [
+          {
+            "title": "Uses and limits of national decarbonization scenarios to inform net-zero transitions",
+            "year": "2024",
+            "doi": "",
+            "paper_url": "https://www.cell.com/joule/abstract/S2542-4351(24)00423-9?uuid=uuid%3A19fcda59-26f6-4f27-9eed-c348ec0778a6",
+            "authors": "John Bistline | Morgan Browning | Julianne DeAngelo | Daniel Huppmann | Ryan Jones | James McFarland | Anahi Molar-Cruz | Steven Rose | Steven J. Davis"
+          },
+          {
+            "title": "Large global variations in the carbon dioxide removal potential of seaweed farming due to biophysical constraints",
+            "year": "2023",
+            "doi": "10.1038/s43247-023-00833-2",
+            "paper_url": "https://doi.org/10.1038/s43247-023-00833-2",
+            "authors": "Isabella B. Arzeno-Soltero | Benjamin T. Saenz | Christina A. Frieder | Matthew C. Long | Julianne DeAngelo | Steven J. Davis | Kristen A. Davis"
+          },
+          {
+            "title": "Economic and biophysical limits to seaweed farming for climate change mitigation",
+            "year": "2022",
+            "doi": "10.1038/s41477-022-01305-9",
+            "paper_url": "https://doi.org/10.1038/s41477-022-01305-9",
+            "authors": "Julianne DeAngelo | Benjamin T. Saenz | Isabella B. Arzeno-Soltero | Christina A. Frieder | Matthew C. Long | Joseph Hamman | Kristen A. Davis | Steven J. Davis"
+          },
+          {
+            "title": "Energy systems in scenarios at net-zero CO₂ emissions",
+            "year": "2021",
+            "doi": "10.1038/s41467-021-26356-y",
+            "paper_url": "https://doi.org/10.1038/s41467-021-26356-y",
+            "authors": "Julianne DeAngelo | Inês Azevedo | John Bistline | Leon Clarke | Gunnar Luderer | Edward Byers | Steven J. Davis"
+          }
+        ]
+      },
+      "Candelaria Bergero": {
+        "count": 2,
+        "papers": [
+          {
+            "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
+            "year": "2026",
+            "doi": "10.1038/s41558-026-02675-0",
+            "paper_url": "https://www.nature.com/articles/s41558-026-02675-0#citeas",
+            "authors": "Candelaria Bergero | Jing Cheng | Qiang Zhang | Yang Ou | Haewon McJeon | Morgan R. Edwards | Destenie Nock | Inês Azevedo | Steven J. Davis"
+          },
+          {
+            "title": "Pathways to net-zero emissions from aviation",
+            "year": "2023",
+            "doi": "10.1038/s41893-022-01046-9",
+            "paper_url": "https://doi.org/10.1038/s41893-022-01046-9",
+            "authors": "Candelaria Bergero | Greer Gosnell | Dolf Gielen | Seungwoo Kang | Morgan Bazilian | Steven J. Davis"
+          }
+        ]
+      },
+      "Arjun Hausner": {
+        "count": 0,
+        "papers": []
+      },
+      "Abigail Fitzgibbon": {
+        "count": 1,
+        "papers": [
+          {
+            "title": "Engineered bacterial siderophore production accelerates rock weathering for carbon removal",
+            "year": "2026",
+            "doi": "10.1038/s41587-026-03288-w",
+            "paper_url": "https://www.nature.com/articles/s41587-026-03288-w",
+            "authors": "Neil C. Dalvie | Amogh P. Jalihal | Abigail Fitzgibbon | Jan-Tobias Böhnke | Mohammed Hijaz | Quincey A. Justman | Steven J. Davis | Pamela A. Silver | Michael Spring"
+          }
+        ]
+      }
+    }
+  },
+  "full_current_student_audit": {
+    "checked_at": "2026-10-07",
+    "people": [
+      {
+        "id": "arjun-hausner",
+        "name": "Arjun Lev Pillai Hausner",
+        "display_name": "Arjun Hausner",
+        "aliases": [
+          "Arjun L. P. Hausner",
+          "Arjun L.P. Hausner",
+          "A. L. P. Hausner"
+        ],
+        "category": "current_coadvised_phd",
+        "relationship": "Current PhD student co-advised by Steven J. Davis, Rob Jackson and Nicole Ardoin",
+        "relationship_quote": "co-advised with Rob Jackson and Nicole Ardoin",
+        "relationship_sources": [
+          {
+            "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+            "source_date": "2026-10-06",
+            "location": "CV page 2",
+            "evidence": "Explicit PhD student and co-adviser names",
+            "checked_at": "2026-10-07"
+          },
+          {
+            "url": "https://eiper.stanford.edu/people/phd-students",
+            "evidence": "Ph.D. Student in Environment and Resources, admitted Autumn 2025",
+            "checked_at": "2026-10-07"
+          },
+          {
+            "url": "https://sustainablesolutions.stanford.edu/people/arjun-hausner",
+            "evidence": "PhD Student; in lab since 2025-09",
+            "checked_at": "2026-10-07"
+          }
+        ],
+        "phd": {
+          "institution": "Stanford University",
+          "program": "Emmett Interdisciplinary Program in Environment and Resources (E-IPER)",
+          "entry": "Autumn 2025",
+          "status": "current",
+          "completion_year": null
+        },
+        "dissertation": {
+          "title": null,
+          "status": "No completed dissertation or public final dissertation title established"
+        },
+        "previous_degrees": [
+          {
+            "degree": "B.S.; majors in Environmental and Sustainability Sciences and Earth and Atmospheric Sciences",
+            "institution": "Cornell University",
+            "date": "2019-12",
+            "source_url": "https://ecommons.cornell.edu/bitstreams/c14f7142-3dae-4f3a-8b10-1ac83ed50a20/download"
+          },
+          {
+            "degree": "M.S. in Atmospheric Sciences / Meteorology",
+            "institution": "Cornell University",
+            "date": "2021-12",
+            "source_url": "https://ecommons.cornell.edu/bitstreams/c14f7142-3dae-4f3a-8b10-1ac83ed50a20/download",
+            "thesis": "Dynamic strategies offer potential to reduce lethal ship collisions with large whales under changing climate conditions",
+            "adviser": "Charles H. Greene"
+          }
+        ],
+        "professional_background": [
+          {
+            "role": "Impact Strategy Lead, Office of the CEO",
+            "organization": "Impossible Foods",
+            "source_url": "https://socialecology.stanford.edu/people/arjun-hausner-0"
+          },
+          {
+            "role": "Senior Associate",
+            "organization": "Renewable Resources Group",
+            "source_url": "https://socialecology.stanford.edu/people/arjun-hausner-0"
+          }
+        ],
+        "research_topics": [
+          "Automating techno-economic analysis of carbon projects, costs and co-benefits",
+          "Markets for emerging climate commodities",
+          "Cognitive and behavioral drivers of climate investment decisions in high-emission firms"
+        ],
+        "research_methods": [
+          "Techno-economic analysis",
+          "Market analysis",
+          "Behavioral and institutional analysis",
+          "Earlier work: habitat models and simulated dynamic marine management"
+        ],
+        "research_source_url": "https://socialecology.stanford.edu/people/arjun-hausner-0",
+        "current_or_last_verified_position": {
+          "title": "PhD student",
+          "employer": "Stanford University, E-IPER",
+          "source_url": "https://eiper.stanford.edu/people/phd-students",
+          "checked_at": "2026-10-07"
+        },
+        "representative_work": [
+          {
+            "title": "Dynamic strategies offer potential to reduce lethal ship collisions with large whales under changing climate conditions",
+            "year": 2021,
+            "venue": "Marine Policy",
+            "doi": "10.1016/j.marpol.2021.104565",
+            "url": "https://repository.library.noaa.gov/view/noaa/62791",
+            "type": "research_article",
+            "role": "First author; publisher CRediT names conceptualization and formal analysis",
+            "contribution": "Compares daily, seasonal and fixed vessel-speed management over a 17-year period, including a marine heatwave, to quantify whale protection and shipping trade-offs.",
+            "phase": "before Stanford PhD and Davis supervision"
+          },
+          {
+            "title": "Transforming the Future of Marine Aquaculture: A Circular Economy Approach",
+            "year": 2022,
+            "venue": "Oceanography",
+            "doi": "10.5670/oceanog.2022.213",
+            "url": "https://tos.org/oceanography/article/transforming-the-future-of-marine-aquaculture-a-circular-economy-approach",
+            "type": "journal_synthesis_article",
+            "role": "Coauthor; individual task allocation not publicly established",
+            "contribution": "Examines marine algae aquaculture and circular resource flows as an option to supply food while reducing land, freshwater and climate pressures.",
+            "phase": "before Stanford PhD and Davis supervision"
+          }
+        ],
+        "publication_counts": {
+          "as_of": "2026-10-07",
+          "career_count_status": "confirmed_minimum; no complete disambiguated author-maintained bibliography established",
+          "confirmed_scholarly_journal_articles_minimum": 2,
+          "research_articles_minimum": 1,
+          "journal_synthesis_articles_minimum": 1,
+          "count_sources": [
+            "https://repository.library.noaa.gov/view/noaa/62791",
+            "https://tos.org/oceanography/article/transforming-the-future-of-marine-aquaculture-a-circular-economy-approach"
+          ],
+          "before_current_phd_confirmed_minimum": 2,
+          "current_phd_published_count": "Not reliably established; no published Davis coauthorship identified in the 192-entry lab inventory",
+          "in_review_items": [
+            "Financial markets are betting on failure of the Paris Agreement",
+            "The Iran war could accelerate climate mitigation by a decade"
+          ],
+          "in_review_source": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+          "in_review_caveat": "Listed in Davis CV's in-review section; excluded from publication count. No claim that these are publicly available preprints.",
+          "orcid": "https://orcid.org/0000-0002-3483-5642",
+          "orcid_caveat": "Public ORCID list is incomplete relative to the two verified journal articles."
+        }
+      },
+      {
+        "id": "abigail-fitzgibbon",
+        "name": "Abigail Fitzgibbon",
+        "display_name": "Abigail Fitzgibbon",
+        "aliases": [
+          "Abby Fitzgibbon"
+        ],
+        "category": "current_coadvised_phd",
+        "relationship": "Current PhD student co-advised by Steven J. Davis and Jen Burney according to the current Davis CV and King Center profile; Woods profile differs",
+        "relationship_quote": "co-advised with Jen Burney",
+        "relationship_sources": [
+          {
+            "url": "https://drive.google.com/file/d/1UWDx3qU18WWdC3etQWJ3EBNincRIWuIY/view",
+            "source_date": "2026-10-06",
+            "location": "CV page 2",
+            "evidence": "Explicit PhD student and co-adviser Jen Burney",
+            "checked_at": "2026-10-07"
+          },
+          {
+            "url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon",
+            "evidence": "Co-advised by Steve Davis and Jen Burney",
+            "checked_at": "2026-10-07"
+          },
+          {
+            "url": "https://cap.stanford.edu/profiles/frdActionServlet?choiceId=printerprofile&profileId=9587&profileversion=full",
+            "evidence": "Jen Burney Stanford profile lists Abigail under Doctoral Dissertation Co-Advisor (AC)",
+            "checked_at": "2026-10-07"
+          },
+          {
+            "url": "https://woods.stanford.edu/people/abigail-fitzgibbon",
+            "evidence": "Names Steve Davis and Jane Willenbring as co-advisers; conflicts with current CV and King Center",
+            "checked_at": "2026-10-07"
+          },
+          {
+            "url": "https://eiper.stanford.edu/people/phd-students",
+            "evidence": "Admitted Autumn 2025",
+            "checked_at": "2026-10-07"
+          }
+        ],
+        "source_disagreement": "Woods still names Jane Willenbring. Public sources do not establish whether this reflects an adviser change, stale text, or simultaneous arrangements. Davis supervision itself is consistent.",
+        "phd": {
+          "institution": "Stanford University",
+          "program": "E-IPER",
+          "entry": "Autumn 2025",
+          "status": "current",
+          "completion_year": null
+        },
+        "dissertation": {
+          "title": null,
+          "status": "No completed dissertation or public final dissertation title established"
+        },
+        "previous_degrees": [
+          {
+            "degree": "B.A. in Physical Geography and Geospatial Science",
+            "institution": "University of California, Los Angeles",
+            "year": 2021,
+            "source_url": "https://burney-lab.org/people/",
+            "year_source_url": "https://mountwashington.org/first-week-on-the-summit/"
+          },
+          {
+            "degree": "Master's in Environmental Policy, concentrating in agriculture and economics",
+            "institution": "Sciences Po, Paris School of International Affairs",
+            "year": null,
+            "honors": "Eiffel Excellence Scholar",
+            "source_url": "https://woods.stanford.edu/people/abigail-fitzgibbon",
+            "date_caveat": "Completed before autumn 2025; exact graduation year not established from primary public sources"
+          }
+        ],
+        "professional_background": [
+          {
+            "role": "Product engineer; crop yields and machine learning",
+            "organization": "Esri",
+            "duration": "Two years per Woods bio",
+            "source_url": "https://woods.stanford.edu/people/abigail-fitzgibbon"
+          },
+          {
+            "role": "Food commodity-market research in West Africa",
+            "organization": "OECD",
+            "source_url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon"
+          },
+          {
+            "role": "Agricultural trade / market development",
+            "organization": "USDA Foreign Agricultural Service, US Embassy in Kazakhstan",
+            "source_url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon"
+          },
+          {
+            "role": "Carbon removal startup work",
+            "organization": "Flux, Kenya",
+            "source_url": "https://woods.stanford.edu/people/abigail-fitzgibbon"
+          }
+        ],
+        "research_topics": [
+          "Emissions from food loss and waste",
+          "Waste-stream fermentation and food-loss upcycling",
+          "Biochar",
+          "Enhanced rock weathering on croplands",
+          "Translation of carbon-removal science into investments and policy"
+        ],
+        "research_methods": [
+          "Life-cycle assessment",
+          "Geospatial machine learning",
+          "Field mapping and enterprise interviews",
+          "Evaluation of economic and environmental trade-offs"
+        ],
+        "research_sources": [
+          "https://burney-lab.org/people/",
+          "https://kingcenter.stanford.edu/people/abigail-fitzgibbon",
+          "https://wyss.harvard.edu/news/pulling-carbon-into-seawater-using-engineered-bacteria/"
+        ],
+        "current_or_last_verified_position": {
+          "title": "PhD student",
+          "employer": "Stanford University, E-IPER",
+          "source_url": "https://eiper.stanford.edu/people/phd-students",
+          "checked_at": "2026-10-07"
+        },
+        "representative_work": [
+          {
+            "title": "Evaluation of Maximum Entropy (Maxent) Machine Learning Model to Assess Relationships between Climate and Corn Suitability",
+            "year": 2022,
+            "venue": "Land",
+            "doi": "10.3390/land11091382",
+            "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=396424",
+            "type": "research_article",
+            "role": "First author",
+            "contribution": "Models climate–corn suitability relationships using Maxent and compares them with Random Forest approaches.",
+            "phase": "before Stanford PhD and Davis supervision"
+          },
+          {
+            "title": "Engineered bacterial siderophore production accelerates rock weathering for carbon removal",
+            "year": 2026,
+            "online_publication_date": "2026-08-28",
+            "venue": "Nature Biotechnology",
+            "doi": "10.1038/s41587-026-03288-w",
+            "url": "https://www.nature.com/articles/s41587-026-03288-w",
+            "type": "research_article",
+            "role": "Coauthor; Harvard Wyss Institute explicitly identifies Fitzgibbon/Davis collaboration on life-cycle analysis",
+            "contribution": "Assesses the system's net carbon balance and process parameters relevant to industrial scale, alongside Harvard-led engineered-bacteria and olivine-weathering experiments.",
+            "contribution_source_url": "https://wyss.harvard.edu/news/pulling-carbon-into-seawater-using-engineered-bacteria/",
+            "phase": "during current Stanford PhD"
+          },
+          {
+            "title": "Closing the Circle: Innovation in Food Loss Upcycling for Development, Employment, and Food Security in East Africa",
+            "year": 2026,
+            "type": "funded_field_project_not_a_published_paper",
+            "url": "https://kingcenter.stanford.edu/people/abigail-fitzgibbon",
+            "contribution": "King Center 2025–26 funded project in Kenya and Rwanda: characterize market/processing losses, interview enterprise operators, and prototype a pathway-evaluation tool.",
+            "phase": "during current Stanford PhD"
+          }
+        ],
+        "publication_counts": {
+          "as_of": "2026-10-07",
+          "career_count_status": "confirmed_minimum; no complete disambiguated author-maintained bibliography established",
+          "confirmed_scholarly_journal_articles_minimum": 2,
+          "research_articles_minimum": 2,
+          "count_sources": [
+            "https://www.ars.usda.gov/research/publications/publication/?seqNo115=396424",
+            "https://www.nature.com/articles/s41587-026-03288-w"
+          ],
+          "before_current_phd_confirmed_minimum": 1,
+          "current_phd_confirmed_minimum": 1,
+          "preprints_conference_count": "Not reliably established; no exhaustive list found"
+        }
+      }
+    ]
+  },
+  "reading_frame_en": "Six formal doctoral relationships are documented in this public-source audit: three completed PhDs with Davis as primary adviser, one completed co-advised PhD, and two current co-advised PhDs. This is an evidence-qualified roster, not a certified exhaustive administrative history. Postdoctoral supervision, coauthorship, committee membership, dissertation reading and visiting status are different relationships and are kept separate.",
+  "count_frame_en": "Every personal publication number is a confirmed minimum across the career, including work before, during or after the PhD. Final journal works are deduplicated by DOI or title. Letters, Commentary, News & Views and scholarly synthesis are labeled separately. A published work in a doctoral year does not prove the research originated in that doctorate. The captured 192-entry lab index gives identified joint items only, with possible omissions in abbreviated bylines.",
+  "meeting_pitch_en": "Build a decision model for rare-earth-to-qualified-magnet supply: connect nodes with capacity, yield, qualification and ramp-up constraints, then compare how investments or policies change deliverable supply, cost, environmental impact and disruption risk.",
+  "provenance": {
+    "report": "Completed public-source advisee audit, checked 7 October 2026. No new biographical research was added for this webpage.",
+    "translation": "Public English and Chinese evidence preserves academic relationships, count/coverage boundaries and primary sources; private preparation context is omitted.",
+    "original_sha256": {}
+  }
+}

@@ -1,0 +1,1820 @@
+{
+  "schemaVersion": "1.0",
+  "title": "NdFeB process equipment and OEM evidence",
+  "updated": "2026-10-05",
+  "coverage": {
+    "processIds": [
+      "melt",
+      "hydrogen",
+      "mill",
+      "press",
+      "sinter",
+      "age",
+      "finish",
+      "magnetize"
+    ],
+    "equipmentExamples": 17,
+    "manufacturers": 10,
+    "scope": "Illustrative documented OEM options, not installed equipment or customer/OEM contracts at a specific magnet factory.",
+    "unfilled": [
+      "No directly verified magnet-specific coating-line OEM example in this review.",
+      "No site-metered machine-building factory electricity or full equipment bill of materials is disclosed in the inspected sources."
+    ]
+  },
+  "methodology": {
+    "locationRule": "Company nationality, headquarters, sales/service offices, processing sites, component manufacturing and final assembly are different claims.",
+    "powerRule": "kW nameplate/output, kVA supply, amperes, stored-pulse joules and measured kWh are kept separate; no plant energy is derived automatically from OEM ratings.",
+    "specRule": "Numerical specs apply only to the named configuration and listed source scope.",
+    "coordinates": "City-centroid coordinates are approximate display anchors, not exact factory sites.",
+    "procurementRule": "An OEM product example does not prove supply to any named magnet plant."
+  },
+  "sources": [
+    {
+      "id": "oem-ulvac-profile",
+      "title": "ULVAC company profile and factory locations",
+      "url": "https://www.ulvac.co.jp/en/company/outline/",
+      "publisher": "ULVAC",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Head office and plant in Chigasaki; other listed factories do not establish the production location of a particular magnet-equipment model."
+      ]
+    },
+    {
+      "id": "oem-ulvac-chigasaki-2026",
+      "title": "ULVAC IR Seminar 2026 Q&A: melting-furnace production structure",
+      "url": "https://ir.ulvac.co.jp/en/ir/newsrelease/PressRelease2026040805/main/0/link/%28EN%29QA_for_IR_Seminer_2026.pdf",
+      "publisher": "ULVAC",
+      "date": "2026-04-08",
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Chigasaki factory is being reconfigured for melting-furnace production; OEM says planned simultaneous assembly of four systems and twelve units per year. These are equipment factory capacities, not measured electricity."
+      ]
+    },
+    {
+      "id": "oem-ulvac-magnet-furnaces",
+      "title": "Industrial Furnaces for Magnets, Technical Journal 83E",
+      "url": "https://www.ulvac.co.jp/en/research_development/technical_journal/83E/TJ83E_6.pdf",
+      "publisher": "ULVAC",
+      "date": "2020-01",
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Magcaster-600 strip casting, FHH hydrogen treatment, FSC sintering, and Magrise grain-boundary diffusion explicitly address neodymium magnets. FHH hydrogen pressure up to 290 kPa absolute. Manufacturing-site mapping and operating kWh are absent."
+      ]
+    },
+    {
+      "id": "oem-ulvac-fmi",
+      "title": "FMI Series / Magcaster vacuum induction melting furnaces",
+      "url": "https://www.ulvac.co.jp/en/products/vacuum_furnace/_fmi/index.html",
+      "publisher": "ULVAC",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "FMI family lists NdFeB/SmCo applications and strip casting. FMI-1 standard Fe/Ni configuration: 5–100 kg melt, 25–100 kW output, 30–60 minutes melt, 3–12 t/h cooling water. Standard configuration ratings cannot be transferred directly to Magcaster or NdFeB batches."
+      ]
+    },
+    {
+      "id": "oem-ulvac-fsc",
+      "title": "FSC Series vacuum sintering furnaces",
+      "url": "https://www.ulvac.co.jp/en/products/vacuum_furnace/_fsc_series/",
+      "publisher": "ULVAC",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "FSC inline vacuum sintering has rare-earth magnet applications; no published power rating on this product page."
+      ]
+    },
+    {
+      "id": "oem-ulvac-fhh317",
+      "title": "FHH-317 vacuum heat-treatment furnace",
+      "url": "https://www.ulvac.co.jp/en/products/vacuum_furnace/fhh-317/index.html",
+      "publisher": "ULVAC",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "FHH-317C: 1000 kg loading, 310×1300×1700 mm uniform zone, 1100 ±3 °C five-section heating uniformity; magnet sintering application listed. No rated kW."
+      ]
+    },
+    {
+      "id": "oem-ulvac-heat-applications",
+      "title": "ULVAC thermal process applications",
+      "url": "https://www.ulvac.co.jp/special/vacuum-furnace/",
+      "publisher": "ULVAC",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Magcaster, FSC and FHH families are offered for melting, hydrogen processing, sintering and aging neodymium magnets; family applicability is not a specific FHH-317 aging recipe."
+      ]
+    },
+    {
+      "id": "oem-ulvac-eco",
+      "title": "ULVAC Environment-Oriented Products: magnet process equipment",
+      "url": "https://www.ulvac.co.jp/eng/data/solution/pdf/21_eco_e.pdf",
+      "publisher": "ULVAC",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Generic magnet-process illustration gives vacuum dehydrogenation around 600 °C, sintering around 1100 °C and aging around 500 °C. These are illustrative process temperatures, not every model's operating recipe."
+      ]
+    },
+    {
+      "id": "oem-consarc-rancocas",
+      "title": "Consarc Corporation February construction update",
+      "url": "https://inductothermgroup.com/consarc-corporation-february-construction-update/",
+      "publisher": "Inductotherm Group",
+      "date": "2026-03",
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Manufacturing expansion at Rancocas, New Jersey, is explicitly related to neodymium magnet VIM-SC strip-casting furnace capacity."
+      ]
+    },
+    {
+      "id": "oem-consarc-profile",
+      "title": "Consarc Corp. company and product profile",
+      "url": "https://inductothermgroup.com/companies/consarc-corp/",
+      "publisher": "Inductotherm Group",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Consarc designs and manufactures VIM-SC and other vacuum furnaces; US corporate location is Rancocas."
+      ]
+    },
+    {
+      "id": "oem-consarc-vim",
+      "title": "Consarc VIM brochure: US and UK engineering locations",
+      "url": "https://consarc.com/wp-content/uploads/sites/9/2024/01/Consarc_VIM_web.pdf",
+      "publisher": "Consarc",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "US and UK companies design vacuum-induction furnaces. UK address in Eurocentral establishes an office/engineering location, not model-specific VIM-SC assembly."
+      ]
+    },
+    {
+      "id": "oem-bqd-profile",
+      "title": "Baiqida company profile and factory-development history",
+      "url": "https://www.nbbqd.com/about/company-profile?tp=1",
+      "publisher": "Baiqida",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Manufacturer of magnetic presses and hydrogen furnaces; factory completion in Ningbo Fenghua Binhai in 2014 and headquarters relocation in 2015. Baotou and Yantai subsidiaries are not automatically equipment-building sites."
+      ]
+    },
+    {
+      "id": "oem-bqd-hd",
+      "title": "BQDHD rail-type hydrogen decrepitation furnace",
+      "url": "https://www.nbbqd.com/en/products-and-services/product/hydrogen-decripitation-furnace/single-cell-platform/354",
+      "publisher": "Baiqida",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "BQDHD-600GC: 600 kg per cylinder, ultimate vacuum 0.1 Pa, operating temperature ≤600 °C, inert-protected discharge, hydrogen absorption/dehydrogenation. Published page contains no heater kW."
+      ]
+    },
+    {
+      "id": "oem-bqd-lab-hd",
+      "title": "Baiqida laboratory hydrogen-decrepitation machine",
+      "url": "https://www.nbbqd.com/en/products-and-services/product/hydrogen-decripitation-furnace/single-cell-platform/285",
+      "publisher": "Baiqida",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Lab system: 10 kg maximum load, 600 or 800 °C rated heating configuration, 0.1 MPa working pressure, vacuum dehydrogenation. Not production-scale throughput."
+      ]
+    },
+    {
+      "id": "oem-bqd-electric-press",
+      "title": "Baiqida fully electric magnetic-field forming press",
+      "url": "https://www.nbbqd.com/en/products-and-services/product/pressed-machine/all-electric-series-press/220",
+      "publisher": "Baiqida",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "DES-450 and BDES-600 tables list average 20 kW and maximum 120 kW; DES-450 field ≥2 T /60 mm. These are OEM equipment claims; duration, duty and measured plant kWh are not disclosed. Thick sealing plates and O-ring flanges are described."
+      ]
+    },
+    {
+      "id": "oem-bqd-forming",
+      "title": "Baiqida forming-process solutions",
+      "url": "https://www.nbbqd.com/en/solution/press-solution-for-forming-process",
+      "publisher": "Baiqida",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Magnetic pressing uses servo-electric or hydraulic actuation; OEM describes water-cooled coils and IGBT alignment/demagnetizing circuitry."
+      ]
+    },
+    {
+      "id": "oem-bqd-processing-sites",
+      "title": "Baiqida New Materials Service Center",
+      "url": "https://www.nbbqd.com/en/products-and-services/hd-center",
+      "publisher": "Baiqida",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Ningbo, Baotou and Yantai are hydrogen-processing service bases. This does not prove magnet-equipment manufacturing in all three cities."
+      ]
+    },
+    {
+      "id": "oem-hosokawa-raree",
+      "title": "Hosokawa Alpine rare-earth processing equipment",
+      "url": "https://www.hosokawa-alpine.com/powder-particle-processing/industries/minerals-and-metals/rare-earths/",
+      "publisher": "Hosokawa Alpine",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "AFG-R counter-jet mill explicitly processes NdFeB under sealed nitrogen/argon; particle target d50 below 3–5 µm; controlled passivation for opening."
+      ]
+    },
+    {
+      "id": "oem-hosokawa-brochure",
+      "title": "Jet milling for high-performance permanent magnets",
+      "url": "https://www.hosokawa-alpine.com/fileadmin/ON_Hosokawa/Used_Content/EPMs/Rare_Earths/0244-EN-2024-11_rare-earths.pdf",
+      "publisher": "Hosokawa Alpine",
+      "date": "2024-11",
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "AFG-R system includes feeder, classifier, cyclone, dust filter, pressure tank and compressor; line scale up to 250 kg/h depends on configuration/material; Augsburg trials available."
+      ]
+    },
+    {
+      "id": "oem-hosokawa-manufacturing",
+      "title": "Hosokawa Alpine company and manufacturing",
+      "url": "https://www.hosokawa-alpine.com/hosokawa-alpine/",
+      "publisher": "Hosokawa Alpine",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Company develops and manufactures machines; Augsburg headquarters has production and assembly buildings. The brochure does not identify the assembly site of each shipped AFG-R."
+      ]
+    },
+    {
+      "id": "oem-netzsch-mjet",
+      "title": "NETZSCH m-Jet high-density bed jet mill",
+      "url": "https://grinding.netzsch.com/en/products-and-solutions/dry-grinding/m-jet-high-density-bed-jet-mill/",
+      "publisher": "NETZSCH",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "m-Jet explicitly designed for NdFeB magnetic powder dry fine grinding."
+      ]
+    },
+    {
+      "id": "oem-netzsch-raree",
+      "title": "NETZSCH rare-earth alloys application",
+      "url": "https://grinding.netzsch.com/en/chemicals-minerals/rare-earth-alloys",
+      "publisher": "NETZSCH",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "m-Jet integrates a dynamic classifier, uses inert grinding gas and rejects hard-to-grind components; no published compressor kW in this page."
+      ]
+    },
+    {
+      "id": "oem-netzsch-location",
+      "title": "NETZSCH Trockenmahltechnik locations and activities",
+      "url": "https://grinding.netzsch.com/en/meta-nav/about-us/business-unit-grinding-and-dispersing-of-the-netzsch-group/netzsch-trockenmahltechnik",
+      "publisher": "NETZSCH",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Hanau is headquarters, development, application lab and toll-processing location. Stockach explicitly manufactures custom jet-nozzle hose filters. Hanau model-specific m-Jet assembly remains undisclosed."
+      ]
+    },
+    {
+      "id": "oem-ndk-press",
+      "title": "Nihon Denji Sokki magnetic-field press / RIP",
+      "url": "https://j-ndk.co.jp/en/product/chakuji/direct_current.html",
+      "publisher": "Nihon Denji Sokki",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "NdFeB rubber-isostatic press integrates powder fill, orientation, pressing and extraction. Published system has 100-ton press, pulsed field over 6.5 T, 200 V three-phase 150 A supply. Supply rating is not real kW."
+      ]
+    },
+    {
+      "id": "oem-ndk-tachikawa",
+      "title": "Nihon Denji Sokki EV magnetization and manufacturing",
+      "url": "https://www.j-ndk.co.jp/sp5/",
+      "publisher": "Nihon Denji Sokki",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Company states it develops and manufactures magnetic application equipment in Tachikawa, Tokyo; Shanghai and Bangkok are service/business hubs."
+      ]
+    },
+    {
+      "id": "oem-ndk-factory",
+      "title": "Nihon Denji Sokki head office and factory contact",
+      "url": "https://www.j-ndk.co.jp/ENGLISH/contact/contact.htm",
+      "publisher": "Nihon Denji Sokki",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Separate head office 8-59-2 Sunagawa-cho and factory 8-61-3 Sunagawa-cho, Tachikawa."
+      ]
+    },
+    {
+      "id": "oem-daxing-md7640",
+      "title": "Daxing MD7640 CNC double-disc magnet grinder",
+      "url": "https://www.nbdxsb.com/m/productsd.php?pid=2&tid=2",
+      "publisher": "Ningbo Daxing",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "MD7640 explicitly grinds NdFeB/SmCo/ferrite; two 11 kW grinding-head motors, 1–5 m/min feed. These are component motor ratings."
+      ]
+    },
+    {
+      "id": "oem-daxing-catalog",
+      "title": "Daxing automation and precision-grinding catalog",
+      "url": "https://nbdxsb.com/upload/AUTO.pdf",
+      "publisher": "Ningbo Daxing",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "MD7640: two 11 kW head motors, 0.55 kW feeder, resin-bond diamond grinding wheel 80–150 mesh. Catalog identifies Ningbo Yinzhou Daxing Non-standard Equipment Manufacturing Factory."
+      ]
+    },
+    {
+      "id": "oem-daxing-factory",
+      "title": "Daxing manufacturing-factory contact",
+      "url": "https://nbdxsb.com/m/contact.php",
+      "publisher": "Ningbo Daxing",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Factory contact is Lishutang, Dongwu Town, Yinzhou District, Ningbo."
+      ]
+    },
+    {
+      "id": "oem-fengfan-4650",
+      "title": "Fengfan FFDXSG-4650 multi-wire cutter",
+      "url": "https://www.fengfanjx.com/product/duo-xian-qie-ge-xi-lie/duo-xian-qie-ge-ji-ffdxsg4650-76.html",
+      "publisher": "Zhejiang Fengfan",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Diamond-wire cutting magnetic materials; maximum workpiece 160×650×160 mm. English page mixes 38 and 45 kW total-power variants; exact option mapping is unclear, so no power number is used."
+      ]
+    },
+    {
+      "id": "oem-fengfan-factory",
+      "title": "Fengfan company profile and production workshops",
+      "url": "https://cn.fengfanjx.com/about/",
+      "publisher": "Zhejiang Fengfan",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Company locates CNC-machine production in Si'an, Changxing, Huzhou, Zhejiang, with plant/workshop descriptions. Chinese and English street addresses differ; only city-level location used."
+      ]
+    },
+    {
+      "id": "oem-magphys-magnetizer",
+      "title": "MAGNET-PHYSIK impulse magnetizers",
+      "url": "https://www.magnet-physik.de/en/magnetizing-technology/magnetizer/",
+      "publisher": "MAGNET-PHYSIK",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "U-series 1400/2800 J systems typically magnetize NdFeB rotors approximately ≤60 mm; 2000 V charge, pulse current up to 60 kA. Joules per stored pulse are not continuous electrical load."
+      ]
+    },
+    {
+      "id": "oem-magphys-profile",
+      "title": "MAGNET-PHYSIK company and regional roles",
+      "url": "https://www.magnet-physik.de/en/company/about-us/",
+      "publisher": "MAGNET-PHYSIK",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "German OEM's main contact is Cologne; China is explicitly sales-office representation. An inspected official page did not prove model assembly city."
+      ]
+    },
+    {
+      "id": "oem-magphys-home",
+      "title": "MAGNET-PHYSIK main company/contact",
+      "url": "https://www.magnet-physik.de/en/",
+      "publisher": "MAGNET-PHYSIK",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Cologne head contact and calibration lab; USA sales/testing presence does not establish manufacturing."
+      ]
+    },
+    {
+      "id": "oem-magphys-permagraph",
+      "title": "PERMAGRAPH C permanent-magnet hysteresis measurement brochure",
+      "url": "https://www.magnet-physik.de/wp-content/uploads/2023/03/18658002-Permagraph-C-e-3115.pdf",
+      "publisher": "MAGNET-PHYSIK",
+      "date": "2018",
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "NdFeB characterization includes remanence/coercivity/energy product; optional heated measurement up to 200 °C. Rare-earth saturation needs separate pulse magnetizer. Poles use soft magnetic steel or FeCo options."
+      ]
+    },
+    {
+      "id": "oem-maginst-home",
+      "title": "Magnetic Instrumentation company and contact",
+      "url": "https://maginst.com/",
+      "publisher": "Magnetic Instrumentation",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "Manufacturer offers built-to-order magnetizing systems; contact and laboratory Indianapolis. Official inspected pages do not explicitly identify the model assembly factory."
+      ]
+    },
+    {
+      "id": "oem-maginst-3000",
+      "title": "Magnetic Instrumentation Model 3000",
+      "url": "https://maginst.com/products/standard-magnetizers/model-3000/",
+      "publisher": "Magnetic Instrumentation",
+      "date": null,
+      "accessed": "2026-10-05",
+      "type": "primary-oem",
+      "claims": [
+        "3000-1: 8500 J at 3000 V, 1890 µF bank. Model family uses oil-filled capacitors, SCR output and NEMA 12 enclosure; page gives differing input options, so none converted to kW."
+      ]
+    }
+  ],
+  "manufacturers": [
+    {
+      "id": "ulvac",
+      "name": "ULVAC, Inc.",
+      "nameZh": "爱发科",
+      "country": "Japan",
+      "countryCode": "JP",
+      "HQ": {
+        "city": "Chigasaki",
+        "region": "Kanagawa",
+        "country": "Japan",
+        "countryCode": "JP",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-ulvac-profile"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Chigasaki",
+          "region": "Kanagawa",
+          "country": "Japan",
+          "countryCode": "JP",
+          "status": "verified-manufacturing-site",
+          "evidenceScope": "OEM explicitly identifies Chigasaki melting-furnace assembly and a 2026 reconfiguration. Site is established; redesign/12-unit capacity is planned. Other listed magnet furnace models are not allocated to a plant.",
+          "sourceIds": [
+            "oem-ulvac-profile",
+            "oem-ulvac-chigasaki-2026"
+          ],
+          "latitude": 35.334,
+          "longitude": 139.404,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "Factory proof applies to melting furnaces, not every ULVAC magnet-process model.",
+      "sourceIds": [
+        "oem-ulvac-profile"
+      ]
+    },
+    {
+      "id": "consarc",
+      "name": "Consarc Corporation / Consarc Engineering Ltd.",
+      "nameZh": "康萨克",
+      "country": "United States",
+      "countryCode": "US",
+      "HQ": {
+        "city": "Rancocas",
+        "region": "New Jersey",
+        "country": "United States",
+        "countryCode": "US",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-consarc-profile",
+          "oem-consarc-vim"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Rancocas",
+          "region": "New Jersey",
+          "country": "United States",
+          "countryCode": "US",
+          "status": "verified-manufacturing-site",
+          "evidenceScope": "Parent company explicitly ties Rancocas manufacturing expansion to rare-earth magnet VIM-SC systems.",
+          "sourceIds": [
+            "oem-consarc-rancocas"
+          ],
+          "latitude": 40.008,
+          "longitude": -74.869,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        },
+        {
+          "city": "Holytown / Eurocentral",
+          "region": "North Lanarkshire, Scotland",
+          "country": "United Kingdom",
+          "countryCode": "GB",
+          "status": "engineering-location-only",
+          "evidenceScope": "UK engineering-company address is verified; the reviewed primary sources do not allocate VIM-SC equipment assembly to this site.",
+          "sourceIds": [
+            "oem-consarc-vim"
+          ],
+          "latitude": 55.813,
+          "longitude": -3.99,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "US furnace manufacturing and UK engineering are separate evidence scopes.",
+      "sourceIds": [
+        "oem-consarc-profile",
+        "oem-consarc-vim"
+      ]
+    },
+    {
+      "id": "baiqida",
+      "name": "Baiqida Intelligent Technology (Ningbo)",
+      "nameZh": "百琪达智能科技（宁波）",
+      "country": "China",
+      "countryCode": "CN",
+      "HQ": {
+        "city": "Ningbo",
+        "region": "Fenghua, Zhejiang",
+        "country": "China",
+        "countryCode": "CN",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-bqd-profile"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Ningbo",
+          "region": "Fenghua, Zhejiang",
+          "country": "China",
+          "countryCode": "CN",
+          "status": "verified-manufacturing-site",
+          "evidenceScope": "Factory construction/completion and equipment-maker history establish Ningbo production; individual shipment assembly not traced.",
+          "sourceIds": [
+            "oem-bqd-profile"
+          ],
+          "latitude": 29.868,
+          "longitude": 121.544,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        },
+        {
+          "city": "Baotou",
+          "region": "Inner Mongolia",
+          "country": "China",
+          "countryCode": "CN",
+          "status": "processing-service-site",
+          "evidenceScope": "Hydrogen processing service base; not verified equipment-build location.",
+          "sourceIds": [
+            "oem-bqd-processing-sites"
+          ],
+          "latitude": 40.658,
+          "longitude": 109.84,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        },
+        {
+          "city": "Yantai",
+          "region": "Shandong",
+          "country": "China",
+          "countryCode": "CN",
+          "status": "processing-service-site",
+          "evidenceScope": "Hydrogen processing service base; not verified equipment-build location.",
+          "sourceIds": [
+            "oem-bqd-processing-sites"
+          ],
+          "latitude": 37.464,
+          "longitude": 121.447,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "Do not count all three processing bases as machinery manufacturing factories.",
+      "sourceIds": [
+        "oem-bqd-profile"
+      ]
+    },
+    {
+      "id": "hosokawa-alpine",
+      "name": "Hosokawa Alpine AG",
+      "nameZh": "细川阿尔派",
+      "country": "Germany",
+      "countryCode": "DE",
+      "HQ": {
+        "city": "Augsburg",
+        "region": "Bavaria",
+        "country": "Germany",
+        "countryCode": "DE",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-hosokawa-manufacturing"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Augsburg",
+          "region": "Bavaria",
+          "country": "Germany",
+          "countryCode": "DE",
+          "status": "verified-manufacturing-site",
+          "evidenceScope": "OEM explicitly describes production and assembly buildings at Augsburg. No individual AFG-R serial-number plant allocation.",
+          "sourceIds": [
+            "oem-hosokawa-manufacturing"
+          ],
+          "latitude": 48.37,
+          "longitude": 10.898,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "Part of Japanese Hosokawa Micron Group; German plant evidence is distinct from parent nationality.",
+      "sourceIds": [
+        "oem-hosokawa-manufacturing"
+      ]
+    },
+    {
+      "id": "netzsch",
+      "name": "NETZSCH Trockenmahltechnik GmbH",
+      "nameZh": "耐驰干法研磨技术",
+      "country": "Germany",
+      "countryCode": "DE",
+      "HQ": {
+        "city": "Hanau",
+        "region": "Hesse",
+        "country": "Germany",
+        "countryCode": "DE",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-netzsch-location"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Hanau",
+          "region": "Hesse",
+          "country": "Germany",
+          "countryCode": "DE",
+          "status": "hq-development-test-location-only",
+          "evidenceScope": "Verified headquarters, development, application laboratory and toll grinding; reviewed source does not explicitly identify m-Jet assembly location.",
+          "sourceIds": [
+            "oem-netzsch-location"
+          ],
+          "latitude": 50.126,
+          "longitude": 8.917,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        },
+        {
+          "city": "Stockach",
+          "region": "Baden-Württemberg",
+          "country": "Germany",
+          "countryCode": "DE",
+          "status": "verified-component-manufacturing-site",
+          "evidenceScope": "OEM explicitly identifies manufacture of jet-nozzle hose filters here. This is component production, not proven m-Jet final assembly.",
+          "sourceIds": [
+            "oem-netzsch-location"
+          ],
+          "latitude": 47.852,
+          "longitude": 9.008,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "A toll-grinding factory is not automatically a machine-building factory.",
+      "sourceIds": [
+        "oem-netzsch-location"
+      ]
+    },
+    {
+      "id": "nihon-denji-sokki",
+      "name": "Nihon Denji Sokki Co., Ltd.",
+      "nameZh": "日本电磁测器",
+      "country": "Japan",
+      "countryCode": "JP",
+      "HQ": {
+        "city": "Tachikawa",
+        "region": "Tokyo",
+        "country": "Japan",
+        "countryCode": "JP",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-ndk-factory",
+          "oem-ndk-tachikawa"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Tachikawa",
+          "region": "Tokyo",
+          "country": "Japan",
+          "countryCode": "JP",
+          "status": "verified-manufacturing-site",
+          "evidenceScope": "OEM explicitly states development/manufacture in Tachikawa and separately publishes a factory address.",
+          "sourceIds": [
+            "oem-ndk-factory",
+            "oem-ndk-tachikawa"
+          ],
+          "latitude": 35.714,
+          "longitude": 139.408,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "Nihon Denji Sokki is distinct from the quartz-oscillator company Nihon Dempa Kogyo, also abbreviated NDK.",
+      "sourceIds": [
+        "oem-ndk-factory",
+        "oem-ndk-tachikawa"
+      ]
+    },
+    {
+      "id": "daxing",
+      "name": "Ningbo Yinzhou Daxing Non-standard Equipment Manufacturing Factory",
+      "nameZh": "宁波鄞州大兴非标设备制造厂",
+      "country": "China",
+      "countryCode": "CN",
+      "HQ": {
+        "city": "Ningbo",
+        "region": "Yinzhou, Zhejiang",
+        "country": "China",
+        "countryCode": "CN",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-daxing-factory"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Ningbo",
+          "region": "Dongwu, Yinzhou, Zhejiang",
+          "country": "China",
+          "countryCode": "CN",
+          "status": "verified-manufacturing-site",
+          "evidenceScope": "OEM catalog and factory contact identify equipment factory at Lishutang, Dongwu, Yinzhou.",
+          "sourceIds": [
+            "oem-daxing-catalog",
+            "oem-daxing-factory"
+          ],
+          "latitude": 29.868,
+          "longitude": 121.544,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "Motor-nameplate ratings do not include coolant filtration, chiller, exhaust and building utilities.",
+      "sourceIds": [
+        "oem-daxing-factory"
+      ]
+    },
+    {
+      "id": "fengfan",
+      "name": "Zhejiang Fengfan NC Machinery Co., Ltd.",
+      "nameZh": "浙江丰帆数控机械",
+      "country": "China",
+      "countryCode": "CN",
+      "HQ": {
+        "city": "Changxing (Huzhou)",
+        "region": "Si'an, Zhejiang",
+        "country": "China",
+        "countryCode": "CN",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-fengfan-factory"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": "Changxing (Huzhou)",
+          "region": "Si'an, Zhejiang",
+          "country": "China",
+          "countryCode": "CN",
+          "status": "verified-manufacturing-site",
+          "evidenceScope": "CNC machinery OEM publishes plant/workshop and production-base history in Si'an, Changxing; product-specific workshop allocation is not disclosed.",
+          "sourceIds": [
+            "oem-fengfan-factory"
+          ],
+          "latitude": 30.857,
+          "longitude": 119.899,
+          "coordinateScope": "approximate-city-centroid-not-factory-address"
+        }
+      ],
+      "notes": "City-level location used because Chinese/English site street addresses differ. Magnetic-material application does not prove every NdFeB grade qualified.",
+      "sourceIds": [
+        "oem-fengfan-factory"
+      ]
+    },
+    {
+      "id": "magnet-physik",
+      "name": "MAGNET-PHYSIK Dr. Steingroever GmbH",
+      "nameZh": "德国磁物理",
+      "country": "Germany",
+      "countryCode": "DE",
+      "HQ": {
+        "city": "Cologne",
+        "region": "North Rhine-Westphalia",
+        "country": "Germany",
+        "countryCode": "DE",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-magphys-home"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": null,
+          "region": null,
+          "country": "Germany",
+          "countryCode": "DE",
+          "status": "manufacturing-city-undisclosed",
+          "evidenceScope": "Reviewed primary company/contact/product pages establish German OEM and Cologne headquarters/calibration; they do not explicitly establish model assembly city.",
+          "sourceIds": [
+            "oem-magphys-profile",
+            "oem-magphys-home"
+          ],
+          "latitude": null,
+          "longitude": null,
+          "coordinateScope": "not-mapped"
+        }
+      ],
+      "notes": "Cologne contact is not promoted to factory proof. USA branch and China sales representation are not manufacturing sites.",
+      "sourceIds": [
+        "oem-magphys-home"
+      ]
+    },
+    {
+      "id": "magnetic-instrumentation",
+      "name": "Magnetic Instrumentation",
+      "nameZh": "美国磁性仪器公司",
+      "country": "United States",
+      "countryCode": "US",
+      "HQ": {
+        "city": "Indianapolis",
+        "region": "Indiana",
+        "country": "United States",
+        "countryCode": "US",
+        "status": "oem-published-contact",
+        "sourceIds": [
+          "oem-maginst-home"
+        ]
+      },
+      "manufacturingSites": [
+        {
+          "city": null,
+          "region": null,
+          "country": "United States",
+          "countryCode": "US",
+          "status": "manufacturing-city-undisclosed",
+          "evidenceScope": "Reviewed OEM pages establish manufacturer role and Indianapolis contact/testing; exact equipment assembly site is not explicitly disclosed.",
+          "sourceIds": [
+            "oem-maginst-home"
+          ],
+          "latitude": null,
+          "longitude": null,
+          "coordinateScope": "not-mapped"
+        }
+      ],
+      "notes": "Indianapolis is shown as contact/HQ only until direct factory evidence is obtained.",
+      "sourceIds": [
+        "oem-maginst-home"
+      ]
+    }
+  ],
+  "equipment": [
+    {
+      "id": "ulvac-magcaster600",
+      "processIds": [
+        "melt"
+      ],
+      "name": "Vacuum induction melting and strip-casting furnace",
+      "nameZh": "真空感应熔炼及速凝炉",
+      "manufacturerId": "ulvac",
+      "model": "Magcaster-600",
+      "status": "oem-published-example",
+      "relevance": "Explicit NdFeB-alloy equipment with roll casting, load lock and controlled ribbon cooling.",
+      "limitations": "No published model kW or measured batch electricity; 600 in model name is not treated as a verified kg capacity.",
+      "specifications": [],
+      "operatingConditions": [
+        {
+          "text": "Water-cooled casting roll, tundish maintenance and sealed vacuum chambers.",
+          "sourceIds": [
+            "oem-ulvac-magnet-furnaces"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-ulvac-magnet-furnaces",
+        "oem-ulvac-chigasaki-2026"
+      ]
+    },
+    {
+      "id": "consarc-vim-sc",
+      "processIds": [
+        "melt"
+      ],
+      "name": "Vacuum induction melting strip-casting system",
+      "nameZh": "真空感应速凝熔炼系统",
+      "manufacturerId": "consarc",
+      "model": "VIM-SC",
+      "status": "oem-published-example",
+      "relevance": "OEM explicitly identifies equipment for rare-earth magnet alloy flake.",
+      "limitations": "No public VIM-SC configuration-specific kW or batch capacity used; general Consarc VIM heat sizes are not transferred to magnet strip casting.",
+      "specifications": [],
+      "operatingConditions": [
+        {
+          "text": "Vacuum/controlled-atmosphere induction melting and controlled strip casting.",
+          "sourceIds": [
+            "oem-consarc-profile"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-consarc-profile",
+        "oem-consarc-rancocas"
+      ]
+    },
+    {
+      "id": "ulvac-fmi1",
+      "processIds": [
+        "melt"
+      ],
+      "name": "Vacuum induction melting: standard rating comparator",
+      "nameZh": "真空感应熔炼：标准配置功率参考",
+      "manufacturerId": "ulvac",
+      "model": "FMI-1",
+      "status": "oem-published-example",
+      "relevance": "Family lists NdFeB applications; standard Fe/Ni table provides an equipment power example.",
+      "limitations": "Specifications below apply to the stated Fe/Ni standard configuration, not a verified NdFeB Magcaster batch. Do not feed them automatically into magnet plant electricity.",
+      "specifications": [
+        {
+          "label": "Standard melt capacity",
+          "value": "5–100",
+          "unit": "kg",
+          "sourceIds": [
+            "oem-ulvac-fmi"
+          ],
+          "scope": "FMI-1 standard iron/nickel or Fe/Ni-alloy configuration"
+        },
+        {
+          "label": "Induction output",
+          "value": "25–100",
+          "unit": "kW",
+          "sourceIds": [
+            "oem-ulvac-fmi"
+          ],
+          "scope": "FMI-1 standard configuration output, not metered mains energy"
+        },
+        {
+          "label": "Time to melt",
+          "value": "30–60",
+          "unit": "min",
+          "sourceIds": [
+            "oem-ulvac-fmi"
+          ],
+          "scope": "FMI-1 standard thermal-furnace melting period; excludes complete cycle and utilities"
+        },
+        {
+          "label": "Cooling-water flow",
+          "value": "3–12",
+          "unit": "t/h",
+          "sourceIds": [
+            "oem-ulvac-fmi"
+          ],
+          "scope": "FMI-1 stated utility range"
+        },
+        {
+          "label": "Standard pressure after melting",
+          "value": 0.13,
+          "unit": "Pa",
+          "sourceIds": [
+            "oem-ulvac-fmi"
+          ],
+          "scope": "FMI-1 standard configuration"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-ulvac-fmi"
+      ]
+    },
+    {
+      "id": "ulvac-fhh-hydrogen",
+      "processIds": [
+        "hydrogen"
+      ],
+      "name": "Sealed hydrogen treatment and dehydrogenation line",
+      "nameZh": "密闭氢处理及脱氢线",
+      "manufacturerId": "ulvac",
+      "model": "FHH hydrogen-processing series",
+      "status": "oem-published-example",
+      "relevance": "NdFeB ribbons are hydrogenated, heated to remove hydrogen, cooled and collected without air exposure.",
+      "limitations": "Not the same model/configuration as the generic FHH-317 heat-treatment system; no published heater kW.",
+      "specifications": [
+        {
+          "label": "Hydrogen pressure limit",
+          "value": 290,
+          "unit": "kPa absolute",
+          "sourceIds": [
+            "oem-ulvac-magnet-furnaces"
+          ],
+          "scope": "Hydrogen-process series described in 2020 technical journal"
+        }
+      ],
+      "operatingConditions": [
+        {
+          "text": "Argon leak checks, double door seals, hydrogen detection and oxygen-excluding transfer.",
+          "sourceIds": [
+            "oem-ulvac-magnet-furnaces"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-ulvac-magnet-furnaces"
+      ]
+    },
+    {
+      "id": "bqd-hd600gc",
+      "processIds": [
+        "hydrogen"
+      ],
+      "name": "Rail-type hydrogen-decrepitation / dehydrogenation furnace",
+      "nameZh": "地轨式氢碎及脱氢炉",
+      "manufacturerId": "baiqida",
+      "model": "BQDHD-600GC",
+      "status": "oem-published-example",
+      "relevance": "Dedicated magnetic-material HD with external heating and protected discharge.",
+      "limitations": "Load per cylinder is not hourly throughput; no rated heater power or measured kWh published.",
+      "specifications": [
+        {
+          "label": "Maximum cylinder load",
+          "value": 600,
+          "unit": "kg",
+          "sourceIds": [
+            "oem-bqd-hd"
+          ],
+          "scope": "BQDHD-600GC"
+        },
+        {
+          "label": "Maximum operating temperature",
+          "value": 600,
+          "unit": "°C",
+          "sourceIds": [
+            "oem-bqd-hd"
+          ],
+          "scope": "BQDHD-600GC page says ≤600 °C"
+        },
+        {
+          "label": "Ultimate vacuum",
+          "value": 0.1,
+          "unit": "Pa",
+          "sourceIds": [
+            "oem-bqd-hd"
+          ],
+          "scope": "BQDHD-600GC published specification"
+        }
+      ],
+      "operatingConditions": [
+        {
+          "text": "Hydrogen reaction/vacuum dehydrogenation, inert-protected unloading; argon protection on power failure.",
+          "sourceIds": [
+            "oem-bqd-hd"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-bqd-hd"
+      ]
+    },
+    {
+      "id": "bqd-lab-hd",
+      "processIds": [
+        "hydrogen"
+      ],
+      "name": "Laboratory hydrogen treatment furnace",
+      "nameZh": "实验室氢处理炉",
+      "manufacturerId": "baiqida",
+      "model": "Laboratory HD furnace, 10 kg",
+      "status": "oem-published-example",
+      "relevance": "Pilot/laboratory magnetic-material HD, nitriding and HDDR example.",
+      "limitations": "Laboratory configuration; no production-plant energy inference.",
+      "specifications": [
+        {
+          "label": "Maximum load",
+          "value": 10,
+          "unit": "kg",
+          "sourceIds": [
+            "oem-bqd-lab-hd"
+          ],
+          "scope": "OEM laboratory configuration"
+        },
+        {
+          "label": "Rated heating options",
+          "value": "600 or 800",
+          "unit": "°C",
+          "sourceIds": [
+            "oem-bqd-lab-hd"
+          ],
+          "scope": "Configuration alternatives, not one NdFeB processing recipe"
+        },
+        {
+          "label": "Working pressure",
+          "value": 0.1,
+          "unit": "MPa",
+          "sourceIds": [
+            "oem-bqd-lab-hd"
+          ],
+          "scope": "OEM table does not label gauge/absolute"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-bqd-lab-hd"
+      ]
+    },
+    {
+      "id": "hosokawa-afgr",
+      "processIds": [
+        "mill"
+      ],
+      "name": "Inert-gas fluidized-bed counter-jet mill and classifier",
+      "nameZh": "惰性气体流化床对喷气流磨及分级机",
+      "manufacturerId": "hosokawa-alpine",
+      "model": "AFG-R",
+      "status": "oem-published-example",
+      "relevance": "Explicit NdFeB powder mill with sealed inert-gas and controlled passivation.",
+      "limitations": "Throughput depends on model/material/fineness; compressor and gas-loop power not disclosed, so no plant kWh derived.",
+      "specifications": [
+        {
+          "label": "Product particle-size target",
+          "value": "<3–5",
+          "unit": "µm, d50",
+          "sourceIds": [
+            "oem-hosokawa-raree"
+          ],
+          "scope": "Application-level typical fineness"
+        },
+        {
+          "label": "Maximum scale-up throughput",
+          "value": 250,
+          "unit": "kg/h",
+          "sourceIds": [
+            "oem-hosokawa-brochure"
+          ],
+          "scope": "Line-family upper scale; not any arbitrary AFG-R setting"
+        }
+      ],
+      "operatingConditions": [
+        {
+          "text": "Gas-tight operation under nitrogen or argon; controlled passivation before opening.",
+          "sourceIds": [
+            "oem-hosokawa-raree"
+          ]
+        },
+        {
+          "text": "Complete line includes feed, cyclone/filter, pressure vessel and compressor.",
+          "sourceIds": [
+            "oem-hosokawa-brochure"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-hosokawa-raree",
+        "oem-hosokawa-brochure"
+      ]
+    },
+    {
+      "id": "netzsch-mjet",
+      "processIds": [
+        "mill"
+      ],
+      "name": "Spiral jet mill with dynamic classifier",
+      "nameZh": "带动态分级机的螺旋气流磨",
+      "manufacturerId": "netzsch",
+      "model": "m-Jet",
+      "status": "oem-published-example",
+      "relevance": "Purpose-designed for NdFeB and other rare-earth magnetic powders.",
+      "limitations": "No published model-specific compressor consumption; OEM headquarters/toll-processing location is not a final machine assembly claim.",
+      "specifications": [],
+      "operatingConditions": [
+        {
+          "text": "Inert gas, dynamic air classifier and controlled extraction of difficult-to-grind components.",
+          "sourceIds": [
+            "oem-netzsch-raree"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-netzsch-mjet",
+        "oem-netzsch-raree"
+      ]
+    },
+    {
+      "id": "bqd-des450",
+      "processIds": [
+        "press"
+      ],
+      "name": "Servo-electric magnetic alignment forming press",
+      "nameZh": "伺服电动磁场成型压机",
+      "manufacturerId": "baiqida",
+      "model": "DES-450 series",
+      "status": "oem-published-example",
+      "relevance": "Magnetic-material die pressing with electric-cylinder actuation and alignment.",
+      "limitations": "OEM average/maximum power claims do not define cycle duration, recipe, ancillary loads or plant energy. Family table contains several force options.",
+      "specifications": [
+        {
+          "label": "OEM claimed average equipment power",
+          "value": 20,
+          "unit": "kW",
+          "sourceIds": [
+            "oem-bqd-electric-press"
+          ],
+          "scope": "DES-450 published family table; operating duty unspecified"
+        },
+        {
+          "label": "OEM maximum equipment power",
+          "value": 120,
+          "unit": "kW",
+          "sourceIds": [
+            "oem-bqd-electric-press"
+          ],
+          "scope": "DES-450 published family table; transient/nameplate scope"
+        },
+        {
+          "label": "Alignment field",
+          "value": "≥2",
+          "unit": "T at 60 mm gap",
+          "sourceIds": [
+            "oem-bqd-electric-press"
+          ],
+          "scope": "DES-450 family table"
+        },
+        {
+          "label": "Pressing-force options",
+          "value": "400 / 600 / 800",
+          "unit": "kN",
+          "sourceIds": [
+            "oem-bqd-electric-press"
+          ],
+          "scope": "DES-450 family options"
+        }
+      ],
+      "operatingConditions": [
+        {
+          "text": "Protected powder enclosure and water-cooled alignment coils; servo-electric cylinders and IGBT drive.",
+          "sourceIds": [
+            "oem-bqd-forming",
+            "oem-bqd-electric-press"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [
+        {
+          "text": "OEM describes thick sealing plates, flanges/O-ring seals and water-cooled coils; metal grade/BOM mass not disclosed.",
+          "sourceIds": [
+            "oem-bqd-electric-press",
+            "oem-bqd-forming"
+          ]
+        }
+      ],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-bqd-electric-press",
+        "oem-bqd-forming"
+      ]
+    },
+    {
+      "id": "ndk-rip",
+      "processIds": [
+        "press"
+      ],
+      "name": "Rubber-isostatic press with pulsed alignment",
+      "nameZh": "脉冲定向橡胶等静压成型系统",
+      "manufacturerId": "nihon-denji-sokki",
+      "model": "RIP integrated system",
+      "status": "oem-published-example",
+      "relevance": "OEM explicitly developed system for sintered NdFeB powder compacting.",
+      "limitations": "Not interchangeable with every die-press production recipe; 200 V/150 A supply is not measured real power.",
+      "specifications": [
+        {
+          "label": "Press capacity",
+          "value": 100,
+          "unit": "ton-force (OEM wording: tons)",
+          "sourceIds": [
+            "oem-ndk-press"
+          ],
+          "scope": "Published integrated RIP system"
+        },
+        {
+          "label": "Pulsed alignment field",
+          "value": ">6.5",
+          "unit": "T",
+          "sourceIds": [
+            "oem-ndk-press"
+          ],
+          "scope": "Published RIP configuration"
+        },
+        {
+          "label": "Supply voltage",
+          "value": 200,
+          "unit": "V, three phase",
+          "sourceIds": [
+            "oem-ndk-press"
+          ],
+          "scope": "PD-1 controller/supply requirement"
+        },
+        {
+          "label": "Supply current",
+          "value": 150,
+          "unit": "A",
+          "sourceIds": [
+            "oem-ndk-press"
+          ],
+          "scope": "Connection requirement, not kWh"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [
+        {
+          "text": "Rubber molds compress powder from several directions; specific elastomer formulation and machine BOM undisclosed.",
+          "sourceIds": [
+            "oem-ndk-press"
+          ]
+        }
+      ],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-ndk-press"
+      ]
+    },
+    {
+      "id": "ulvac-fsc",
+      "processIds": [
+        "sinter"
+      ],
+      "name": "Inline multichamber vacuum sintering furnace",
+      "nameZh": "连续式多室真空烧结炉",
+      "manufacturerId": "ulvac",
+      "model": "FSC series",
+      "status": "oem-published-example",
+      "relevance": "Dedicated NdFeB powder-compact sintering with separated treatment chambers.",
+      "limitations": "No model kW, metered kWh/kg or proven factory-location allocation for FSC in reviewed source.",
+      "specifications": [
+        {
+          "label": "Illustrative sintering temperature",
+          "value": "approximately 1100",
+          "unit": "°C",
+          "sourceIds": [
+            "oem-ulvac-eco"
+          ],
+          "scope": "ULVAC generic rare-earth magnet process illustration; not a model limit/recipe"
+        }
+      ],
+      "operatingConditions": [
+        {
+          "text": "Separated debinding, degassing, sintering and cooling chambers; vacuum atmosphere and temperature uniformity.",
+          "sourceIds": [
+            "oem-ulvac-magnet-furnaces"
+          ]
+        }
+      ],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-ulvac-fsc",
+        "oem-ulvac-magnet-furnaces"
+      ]
+    },
+    {
+      "id": "ulvac-fhh317",
+      "processIds": [
+        "sinter",
+        "age"
+      ],
+      "name": "Modular vacuum heat-treatment furnace",
+      "nameZh": "模块化真空热处理炉",
+      "manufacturerId": "ulvac",
+      "model": "FHH-317C",
+      "status": "oem-published-example",
+      "relevance": "Product page lists magnet sintering; broader FHH family is offered for NdFeB aging.",
+      "limitations": "Aging applicability is family-level. 1100 °C uniformity is equipment performance, not a prescribed magnet-aging temperature. No rated kW published.",
+      "specifications": [
+        {
+          "label": "Load capacity",
+          "value": 1000,
+          "unit": "kg",
+          "sourceIds": [
+            "oem-ulvac-fhh317"
+          ],
+          "scope": "FHH-317C"
+        },
+        {
+          "label": "Uniform-zone dimensions",
+          "value": "310 × 1300 × 1700",
+          "unit": "mm (W × H × L)",
+          "sourceIds": [
+            "oem-ulvac-fhh317"
+          ],
+          "scope": "FHH-317C"
+        },
+        {
+          "label": "Stated thermal uniformity",
+          "value": "1100 ±3",
+          "unit": "°C",
+          "sourceIds": [
+            "oem-ulvac-fhh317"
+          ],
+          "scope": "Five heating zones described on FHH-317 page"
+        },
+        {
+          "label": "Illustrative magnet aging temperature",
+          "value": "approximately 500",
+          "unit": "°C",
+          "sourceIds": [
+            "oem-ulvac-eco"
+          ],
+          "scope": "Generic magnet-process illustration, not FHH-317 recipe"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-ulvac-fhh317",
+        "oem-ulvac-heat-applications"
+      ]
+    },
+    {
+      "id": "daxing-md7640",
+      "processIds": [
+        "finish"
+      ],
+      "name": "CNC through-feed double-disc magnet grinder",
+      "nameZh": "数控直通式双端面磁材磨床",
+      "manufacturerId": "daxing",
+      "model": "MD7640",
+      "status": "oem-published-example",
+      "relevance": "Explicit NdFeB/SmCo/ferrite finishing equipment.",
+      "limitations": "Component motor ratings exclude utilities and cannot be labeled measured total process energy; catalog and webpage machine dimensions differ, so omitted.",
+      "specifications": [
+        {
+          "label": "Grinding-head motors",
+          "value": "2 × 11",
+          "unit": "kW",
+          "sourceIds": [
+            "oem-daxing-md7640"
+          ],
+          "scope": "Motor nameplate output, not complete machine metered draw"
+        },
+        {
+          "label": "Feeder motor",
+          "value": 0.55,
+          "unit": "kW",
+          "sourceIds": [
+            "oem-daxing-catalog"
+          ],
+          "scope": "Catalog MD7640 component motor"
+        },
+        {
+          "label": "Feed speed",
+          "value": "1–5",
+          "unit": "m/min",
+          "sourceIds": [
+            "oem-daxing-md7640"
+          ],
+          "scope": "MD7640 feed setting"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [
+        {
+          "text": "Resin-bond diamond grinding wheels, specified 80–150 mesh.",
+          "sourceIds": [
+            "oem-daxing-catalog"
+          ]
+        }
+      ],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-daxing-md7640",
+        "oem-daxing-catalog"
+      ]
+    },
+    {
+      "id": "fengfan-4650",
+      "processIds": [
+        "finish"
+      ],
+      "name": "Diamond multi-wire magnetic-material cutter",
+      "nameZh": "金刚石多线磁材切割机",
+      "manufacturerId": "fengfan",
+      "model": "FFDXSG-4650",
+      "status": "oem-published-example",
+      "relevance": "OEM describes magnetic-material slicing with diamond-wire motion.",
+      "limitations": "Magnetic-material application requires NdFeB grade/geometry trials. English page combines 38/45 kW variants without clear configuration mapping; those figures excluded.",
+      "specifications": [
+        {
+          "label": "Maximum workpiece",
+          "value": "160 × 650 × 160",
+          "unit": "mm (W × L × H)",
+          "sourceIds": [
+            "oem-fengfan-4650"
+          ],
+          "scope": "FFDXSG-4650 product page"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [
+        {
+          "text": "Diamond wire is the cutting consumable; guide rollers, bearings and precision control form the machine. No published mass BOM.",
+          "sourceIds": [
+            "oem-fengfan-4650"
+          ]
+        }
+      ],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-fengfan-4650"
+      ]
+    },
+    {
+      "id": "magphys-u2800",
+      "processIds": [
+        "magnetize"
+      ],
+      "name": "Capacitor-discharge impulse magnetizer",
+      "nameZh": "电容放电脉冲充磁机",
+      "manufacturerId": "magnet-physik",
+      "model": "U-series, 2800 J class",
+      "status": "oem-published-example",
+      "relevance": "OEM describes NdFeB rotor magnetization with geometry-specific fixture.",
+      "limitations": "2800 J is stored pulse energy, not 2800 W or metered electrical consumption; fixture, saturation field and charging losses vary.",
+      "specifications": [
+        {
+          "label": "Stored pulse energy",
+          "value": 2800,
+          "unit": "J (Ws)",
+          "sourceIds": [
+            "oem-magphys-magnetizer"
+          ],
+          "scope": "U-series upper energy class"
+        },
+        {
+          "label": "Charge voltage",
+          "value": 2000,
+          "unit": "V",
+          "sourceIds": [
+            "oem-magphys-magnetizer"
+          ],
+          "scope": "U-series"
+        },
+        {
+          "label": "Peak pulse current",
+          "value": "up to 60",
+          "unit": "kA",
+          "sourceIds": [
+            "oem-magphys-magnetizer"
+          ],
+          "scope": "Fixture dependent U-series"
+        },
+        {
+          "label": "Typical NdFeB rotor diameter",
+          "value": "up to approximately 60",
+          "unit": "mm",
+          "sourceIds": [
+            "oem-magphys-magnetizer"
+          ],
+          "scope": "OEM typical application, not universal limit"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-magphys-magnetizer"
+      ]
+    },
+    {
+      "id": "maginst-3000-1",
+      "processIds": [
+        "magnetize"
+      ],
+      "name": "High-energy capacitor-discharge magnetizer",
+      "nameZh": "高能量电容放电充磁机",
+      "manufacturerId": "magnetic-instrumentation",
+      "model": "3000-1",
+      "status": "oem-published-example",
+      "relevance": "Production magnetizer suitable for rare-earth materials with custom fixture.",
+      "limitations": "8500 J is capacitor-bank energy. The family page lists inconsistent input options; none is converted to total kW or kWh.",
+      "specifications": [
+        {
+          "label": "Stored bank energy",
+          "value": 8500,
+          "unit": "J",
+          "sourceIds": [
+            "oem-maginst-3000"
+          ],
+          "scope": "Model 3000-1 at 3000 V"
+        },
+        {
+          "label": "Maximum charge voltage",
+          "value": 3000,
+          "unit": "V DC",
+          "sourceIds": [
+            "oem-maginst-3000"
+          ],
+          "scope": "Model 3000 family"
+        },
+        {
+          "label": "Bank capacitance",
+          "value": 1890,
+          "unit": "µF",
+          "sourceIds": [
+            "oem-maginst-3000"
+          ],
+          "scope": "Model 3000-1"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [
+        {
+          "text": "Oil-filled capacitors, SCR discharge and NEMA 12 cabinet are explicitly described; material masses and full supplier BOM are undisclosed.",
+          "sourceIds": [
+            "oem-maginst-3000"
+          ]
+        }
+      ],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-maginst-3000"
+      ]
+    },
+    {
+      "id": "magphys-permagraph-c",
+      "processIds": [
+        "magnetize"
+      ],
+      "name": "Hysteresisgraph and permanent-magnet inspection",
+      "nameZh": "磁滞回线及永磁性能检测仪",
+      "manufacturerId": "magnet-physik",
+      "model": "PERMAGRAPH C",
+      "status": "oem-published-example",
+      "relevance": "NdFeB remanence, coercivity and maximum-energy-product measurement.",
+      "limitations": "Inspection is distinct from magnetization; rare-earth saturation requires a separate pulse magnetizer. No instrument power figure is used.",
+      "specifications": [
+        {
+          "label": "Optional heated measurement",
+          "value": "up to 200",
+          "unit": "°C",
+          "sourceIds": [
+            "oem-magphys-permagraph"
+          ],
+          "scope": "With heating poles/temperature coils"
+        }
+      ],
+      "operatingConditions": [],
+      "buildMaterialNotes": [
+        {
+          "text": "Measurement poles can be soft magnetic steel or FeCo alloy; surrounding coils and calibrated electronics form the inspection system.",
+          "sourceIds": [
+            "oem-magphys-permagraph"
+          ]
+        }
+      ],
+      "powerEvidence": {
+        "measuredPlantKwh": null,
+        "measuredSpecificEnergyKwhPerKg": null,
+        "status": "not-disclosed-in-reviewed-oem-source",
+        "note": "Equipment ratings and process specifications do not establish actual factory electricity."
+      },
+      "sourceIds": [
+        "oem-magphys-permagraph"
+      ]
+    }
+  ]
+}

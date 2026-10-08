@@ -1,0 +1,43 @@
+{
+  "title": "Illustrative Nd/Dy deployment and supply-chain baseline",
+  "status": "research-prototype-not-calibrated-forecast",
+  "units": {
+    "wind_intensity": "kg of contained element per MW of new wind capacity",
+    "vehicle_intensity": "kg of contained element per permanent-magnet passenger vehicle",
+    "material_flows": "tonnes of contained Nd or Dy; never tonnes of finished magnets",
+    "budget": "abstract comparison units, not dollars"
+  },
+  "design_intensities": {
+    "direct-drive-pm": {"Nd": 180.0, "Dy": 17.0},
+    "geared-pm": {"Nd": 51.0, "Dy": 6.0},
+    "passenger_pm_vehicle_ranges": {"Nd": [0.309, 0.464], "Dy": [0.041, 0.136]},
+    "passenger_pm_vehicle_selected_midpoint": {"Nd": 0.3865, "Dy": 0.0885}
+  },
+  "production_share_proxies": {
+    "year": 2024,
+    "China": {"mining": 0.60, "refining": 0.91, "manufacturing": 0.94},
+    "scope": "IEA stage shares have different denominators: magnet rare-earth mining, refining, and sintered magnet production. Applying the same shares to Nd and Dy capacity in a fixed basket is an explicit modeling assumption. These are not measured element-specific capacities or observed bilateral flows."
+  },
+  "sources": [
+    {
+      "id": "cheng2025",
+      "citation": "Cheng et al. (2025), Trade risks to energy security in net-zero emissions scenarios, Nature Climate Change; Supplementary Table 1.",
+      "url": "https://doi.org/10.1038/s41558-025-02305-1",
+      "supports": "Selected wind designs and passenger PM-car intensity ranges. The midpoint choice and this monthly disruption model are ours, not a full replication of the paper."
+    },
+    {
+      "id": "iea2026",
+      "citation": "IEA (2026), Rare Earth Elements, Executive summary, 2024 production baseline.",
+      "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+      "supports": "China 60% mining, 91% refining, 94% sintered magnet production in 2024; separate stage denominators."
+    }
+  ],
+  "assumptions": {
+    "deployment": "1 GW/year selected-design PM wind and 1 million PM passenger vehicles/year are a hypothetical constant portfolio, not a US or global forecast.",
+    "network": "Two capacity regions, China and Rest of world, with fungible global intermediate stocks. No asserted trade routes or supplier contracts.",
+    "technology_mix": "Fixed proportional Nd/Dy basket; no substitute motors or grades, no Pr/Tb, no explicit finished-magnet mass.",
+    "operations": "One-month stage lead times, 25% of a month of intermediate working stock, selected yields, 10% headroom, one month finished inventory; all uncalibrated assumptions.",
+    "qualification": "Additional non-shocked-region process capacity becomes usable after a six-month qualification/ramp lag; not an empirical qualification estimate.",
+    "costs": "100 abstract units add 30%/25%/20% of baseline global output capacity in mining/refining/manufacturing, respectively, or two months finished stock. No real monetary cost-benefit conclusion is supported."
+  }
+}

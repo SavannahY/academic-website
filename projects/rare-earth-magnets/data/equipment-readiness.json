@@ -1,0 +1,1612 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-07",
+  "scope": "Researchonly;noacceptedartwork/repository/site/publicationchanges",
+  "definitions": {
+    "usable_output": "acceptedanddeliveredtoidentifiedcustomer/partfamily;notoxide/alloy/nameplate",
+    "money": "capex,commitment,financing,grant,taxcredit,acquisitionvalueareseparatetypes",
+    "origin": "machinebuildsiteandcomponentchainnotinferredfromseller/operatornationality",
+    "unknown": "nullmeansunverified,neverzero",
+    "shipments": "material,procurementandfinishedproductedgesareseparate"
+  },
+  "equipment_stage_records": [
+    {
+      "id": "equip_sep_ndpr_mp",
+      "stage_id": "separation_oxide",
+      "label_en": "Mountain Pass NdPr separation and finishing",
+      "output_or_function": "Separated and packaged NdPr oxide from rare-earth feed.",
+      "equipment_maker": "Specific separation equipment makers undisclosed.",
+      "geography": [
+        {
+          "place": "Mountain Pass, California, USA",
+          "role": "Operating installation",
+          "country": "US"
+        }
+      ],
+      "confirmed_installation": {
+        "operator": "MP Materials",
+        "location": "Mountain Pass,California",
+        "maker_order_public": false
+      },
+      "status": "Operating and ramping as of Q2 2026.",
+      "capacity_or_output": [
+        {
+          "value": 840,
+          "unit": "t NdPr oxide",
+          "period": "2026Q2",
+          "basis": "actual production"
+        },
+        {
+          "value": 2599,
+          "unit": "t NdPr oxide",
+          "period": "2025",
+          "basis": "actual production"
+        },
+        {
+          "value": 6075,
+          "unit": "t NdPr oxide/year",
+          "basis": "Anticipated designed production rate after ramp; not current output."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "production_began": "2023",
+        "steady_design_rate_date": null
+      },
+      "dependencies": [
+        "Separation purity and recovery",
+        "Feed chemistry",
+        "Packaging and downstream conversion to metal"
+      ],
+      "unknowns": [
+        "Specific machine maker, origin and price are undisclosed.",
+        "Current usable magnet-equivalent output and final Stage II cost are unknown."
+      ],
+      "source_ids": [
+        "MP_Q2",
+        "MP_10K"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_sep_hree_whitemesa",
+      "stage_id": "separation_hree",
+      "label_en": "White Mesa heavy rare-earth separation expansion",
+      "output_or_function": "Dy/Tb oxides for downstream metals and alloys.",
+      "equipment_maker": "Specific equipment makers undisclosed.",
+      "geography": [
+        {
+          "place": "Near Blanding, Utah, USA",
+          "role": "Construction site",
+          "country": "US"
+        }
+      ],
+      "confirmed_installation": {
+        "operator": "Energy Fuels",
+        "location": "White Mesa Mill,Utah",
+        "maker_order_public": false
+      },
+      "status": "Commercial expansion under construction; approval of pilot oxides is a separate milestone.",
+      "capacity_or_output": [
+        {
+          "value": 20,
+          "unit": "t Tb oxide/year",
+          "basis": "Planned maximum, dependent on feed composition and recovery."
+        },
+        {
+          "value": 120,
+          "unit": "t Dy oxide/year",
+          "basis": "Planned maximum, dependent on feed composition and recovery."
+        }
+      ],
+      "public_cost": {
+        "value": 104000000,
+        "currency": "USD",
+        "kind": "Estimated project capex",
+        "cost_year": "2026 announcement",
+        "scope": "HREE expansion, MREC circuit and Sm/Eu/Gd products; not a machine quote."
+      },
+      "timeline": {
+        "construction_announced": "2026-07-29",
+        "Tb_Dy_completion_target": "end 2027",
+        "other_circuits_target": "end 2028, depending on market needs",
+        "qualified_commercial_delivery_date": null
+      },
+      "dependencies": [
+        "Feedstock distribution and recovery",
+        "Monazite/MREC availability",
+        "Downstream metallization",
+        "Circuit commissioning and purity"
+      ],
+      "unknowns": [
+        "No operating annual commercial Dy/Tb tonnage established.",
+        "No equipment origin or stage cost split.",
+        "Oxide approval does not qualify finished magnets."
+      ],
+      "source_ids": [
+        "EF_HREE",
+        "EF_QUAL"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_metal_mp",
+      "stage_id": "metallization",
+      "label_en": "Independence electrowinning",
+      "output_or_function": "NdPr oxide to metal by electrowinning; subsequent alloy flakes by strip casting.",
+      "equipment_maker": "Specific electrowinning equipment maker undisclosed.",
+      "geography": [
+        {
+          "place": "Fort Worth, Texas, USA",
+          "role": "Operating installation",
+          "country": "US"
+        }
+      ],
+      "confirmed_installation": {
+        "operator": "MP Materials",
+        "location": "Independence,Fort Worth",
+        "maker_order_public": false
+      },
+      "status": "Commercial NdPr metal since late 2024; alloy flakes added in 2025.",
+      "capacity_or_output": [
+        {
+          "value": null,
+          "unit": "t metal/year",
+          "basis": "Separate achieved throughput not publicly verified."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "commercial_metal": "late 2024",
+        "precursor_sales": "2025 Q1",
+        "qualified_magnet_delivery": null
+      },
+      "dependencies": [
+        "Oxide purity",
+        "Metal chemistry",
+        "Consumables and process control",
+        "Following alloy, powder and finishing stages"
+      ],
+      "unknowns": [
+        "Metal revenue and oxide-equivalent sales are not physical metal tonnes.",
+        "Specific maker/origin and annual metal capacity are undisclosed."
+      ],
+      "source_ids": [
+        "MP_10K",
+        "MP_10Q"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_strip_consarc_vulcan",
+      "stage_id": "melt_strip_cast",
+      "label_en": "Consarc VIM-SC at Vulcan",
+      "output_or_function": "Vacuum/inert induction melting and rapid solidification of NdFeB alloy.",
+      "equipment_maker": "Consarc Corporation / Inductotherm Group",
+      "geography": [
+        {
+          "place": "New Jersey, USA",
+          "role": "Explicit machine engineering and manufacture",
+          "country": "US"
+        },
+        {
+          "place": "Rancocas, New Jersey",
+          "role": "Manufacturing facility/service base",
+          "country": "US"
+        }
+      ],
+      "confirmed_installation": {
+        "operator": "Vulcan Elements",
+        "location": "Research Triangle Park, North Carolina, USA",
+        "maker_order_public": true
+      },
+      "status": "Delivered, commissioned and operational by June 2025.",
+      "capacity_or_output": [
+        {
+          "value": null,
+          "unit": "t alloy/year",
+          "basis": "Separate achieved throughput not publicly verified."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "commissioned_by": "2025-06-04",
+        "procurement_start": null,
+        "customer_magnet_qualification": null
+      },
+      "dependencies": [
+        "Vacuum/inert gas",
+        "Casting and cooling control",
+        "Alloy chemistry and microstructure",
+        "Technical support"
+      ],
+      "unknowns": [
+        "No installed batch size, annual tonnage, price or procurement lead time disclosed.",
+        "Commissioned caster is not proof of annual qualified magnet output."
+      ],
+      "source_ids": [
+        "CONSARC_VULCAN",
+        "CONSARC_PROCESS",
+        "CONSARC_EXPAND"
+      ],
+      "site_step_hint": 5
+    },
+    {
+      "id": "equip_strip_ulvac",
+      "stage_id": "melt_strip_cast",
+      "label_en": "ULVAC Magcaster / continuous vacuum melting",
+      "output_or_function": "Melting and casting magnet alloy; model charge is not annual magnet throughput.",
+      "equipment_maker": "ULVAC Group; ULVAC Korea is the named contract seller.",
+      "geography": [
+        {
+          "place": "China; city unspecified",
+          "role": "Existing rare-earth melting-furnace manufacture",
+          "country": "CN"
+        },
+        {
+          "place": "Chigasaki, Kanagawa, Japan",
+          "role": "New melting-furnace production planned September 2026; startup unverified",
+          "country": "JP"
+        },
+        {
+          "place": "Pyeongtaek, South Korea",
+          "role": "Contract seller address",
+          "country": "KR"
+        },
+        {
+          "place": "Dalian, China",
+          "role": "Contract-summary shipment dispatch; not proven factory address",
+          "country": "CN"
+        }
+      ],
+      "confirmed_installation": {
+        "operator": "Evolution Metals LLC",
+        "location": "Republic of Korea; exact buyer plant not identified in cited contract",
+        "maker_order_public": true
+      },
+      "status": "Public 2026 equipment orders; delivery and commissioning unverified.",
+      "capacity_or_output": [
+        {
+          "value": 600,
+          "unit": "kg meltcharge",
+          "basis": "Magcaster-600C model charge designation; not annual output."
+        },
+        {
+          "value": 12,
+          "unit": "meltingfurnaces/year",
+          "basis": "Planned Japan equipment-production capacity; not magnet output."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": "KRW",
+        "kind": "unit/contractprice",
+        "reason": "Individual KRW prices redacted; aggregate outstanding commitment is a separate record."
+      },
+      "timeline": {
+        "contracts_signed": "2026-05-13",
+        "DDP_delivery_deadline": "2026-11-30",
+        "Japan_production_target": "September 2026",
+        "full_commissioning": null
+      },
+      "dependencies": [
+        "Factory Acceptance Test and site Inspection Test Plan",
+        "Export license",
+        "DDP delivery precedes commissioning",
+        "Consumables excluded from warranty",
+        "Vacuum, cooling, liner and process integration"
+      ],
+      "unknowns": [
+        "Individual prices are redacted.",
+        "Seller headquarters do not identify machine origin.",
+        "Japan startup is unverified.",
+        "No specific ULVAC equipment order for a U.S. magnet plant verified."
+      ],
+      "source_ids": [
+        "ULVAC_ORIGIN",
+        "ULVAC_QA",
+        "EMAT_CONTRACT",
+        "EMAT_PROSPECTUS"
+      ],
+      "site_step_hint": 5
+    },
+    {
+      "id": "equip_hd_baiqida",
+      "stage_id": "hydrogen_decrepitation",
+      "label_en": "Baiqida rail-type hydrogen decrepitation furnace",
+      "output_or_function": "Hydrogen absorption/desorption breaks alloy into coarse powder; recycling applications are also offered.",
+      "equipment_maker": "Baiqida Intelligent Technology(Ningbo)Co.,Ltd.",
+      "geography": [
+        {
+          "place": "Fenghua, Ningbo, Zhejiang, China",
+          "role": "Supplier address/R&D/manufacturing context: 108 Xinghai Road",
+          "country": "CN"
+        },
+        {
+          "place": "Baotou, Yantai and Mianyang, China",
+          "role": "Branches; not unique machine-build locations",
+          "country": "CN"
+        }
+      ],
+      "confirmed_installation": null,
+      "status": "Manufacturer product capability; no verified U.S. installation.",
+      "capacity_or_output": [
+        {
+          "value": 200,
+          "unit": "kg/cylinder",
+          "basis": "BQDHD-200GC maximum cylinder loading; not annual output."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "order_leadtime": null,
+        "commissioning_time": null
+      },
+      "dependencies": [
+        "Hydrogen, inert gas and sealed handling",
+        "Vacuum and heating",
+        "Power-failure argon protection",
+        "Automated material transfer"
+      ],
+      "unknowns": [
+        "No U.S. customer, shipment, price, service/spares SLA or achieved throughput verified.",
+        "Ambiguous 50,000-ton company claim excluded from capacity data."
+      ],
+      "source_ids": [
+        "BAIQIDA_HD",
+        "BAIQIDA_PROFILE"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_jet_hosokawa",
+      "stage_id": "jet_milling",
+      "label_en": "Hosokawa Alpine AFG-R",
+      "output_or_function": "Fine NdFeB powder with controlled particle-size distribution.",
+      "equipment_maker": "Hosokawa Alpine AG; parentHosokawaMicronGroup",
+      "geography": [
+        {
+          "place": "Augsburg, Germany",
+          "role": "AFG-R supplier/test centre",
+          "country": "DE"
+        },
+        {
+          "place": "Summit, New Jersey, USA",
+          "role": "Group service/sales/test location; not AFG-R manufacture proof",
+          "country": "US"
+        }
+      ],
+      "confirmed_installation": null,
+      "status": "Established product family; named U.S. magnet-factory buyer unverified.",
+      "capacity_or_output": [
+        {
+          "value": 250,
+          "unit": "kg/hour",
+          "basis": "Advertised maximum, dependent on feed and size target; not usable magnets/year."
+        },
+        {
+          "value": "<3–5",
+          "unit": "micrometres d50",
+          "basis": "Manufacturer powder-fineness claim."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "order_leadtime": null,
+        "installation_qualification_time": null
+      },
+      "dependencies": [
+        "Sealed nitrogen or argon operation",
+        "Compressor and closed loop",
+        "Particle classification",
+        "Pyrophoric powder containment",
+        "Feed oxidation and impurities"
+      ],
+      "unknowns": [
+        "Serial-number manufacturing origin and named U.S. installation unknown.",
+        "No machine price or gas/kWh per kilogram verified.",
+        "Do not convert 250 kg/h automatically into annual usable magnet capacity."
+      ],
+      "source_ids": [
+        "HOSOKAWA_RARE",
+        "HOSOKAWA_NEWS",
+        "HOSOKAWA_SERVICE"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_press_dorst",
+      "stage_id": "field_oriented_press",
+      "label_en": "DORST EP30MAG press",
+      "output_or_function": "Compact and align magnet powder under a transverse magnetic field.",
+      "equipment_maker": "DORST Technologies GmbH",
+      "geography": [
+        {
+          "place": "Kochel am See, Germany",
+          "role": "Manufacturer address and technology centre; serial build route unverified",
+          "country": "DE"
+        }
+      ],
+      "confirmed_installation": null,
+      "status": "Manufacturer-authored production-equipment capability.",
+      "capacity_or_output": [
+        {
+          "value": 30,
+          "unit": "tonnespressforce",
+          "basis": "EP30MAG force rating; not material throughput."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "quote_to_delivery": null,
+        "tooling_change_qualification": null
+      },
+      "dependencies": [
+        "Tooling and part geometry",
+        "Field uniformity and alignment",
+        "Inert enclosure and oxygen monitoring",
+        "Handling fragile green parts",
+        "Powder-to-press integration"
+      ],
+      "unknowns": [
+        "No named U.S. buyer, model-specific build origin, cycle throughput or price verified.",
+        "Press force is not annual material tonnage."
+      ],
+      "source_ids": [
+        "DORST_PRESS"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_sinter_ulvac",
+      "stage_id": "vacuum_sinter_age",
+      "label_en": "ULVAC continuous vacuum sintering and aging",
+      "output_or_function": "Densify green compacts; separate lower-temperature post-treatment changes magnetic properties.",
+      "equipment_maker": "ULVAC Group; ULVAC Korea is the named contract seller.",
+      "geography": [
+        {
+          "place": "Pyeongtaek, South Korea",
+          "role": "Contract seller",
+          "country": "KR"
+        },
+        {
+          "place": "Dalian, China",
+          "role": "Shipment dispatch reference; serial factory unverified",
+          "country": "CN"
+        }
+      ],
+      "confirmed_installation": {
+        "operator": "Evolution Metals LLC",
+        "location": "Republic of Korea; exact buyer plant not identified in cited contract",
+        "maker_order_public": true
+      },
+      "status": "Two FSC-6150C-8 sets and two FHH-6150C-6 sets ordered; installation unverified.",
+      "capacity_or_output": [
+        {
+          "value": null,
+          "unit": "t sintered/agedproduct/year",
+          "basis": "Separate achieved throughput not publicly verified."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "signed": "2026-05-13",
+        "delivery_due": "2026-11-30",
+        "commissioning_qualified_delivery": null
+      },
+      "dependencies": [
+        "Vacuum/inert atmosphere",
+        "Carrier transport and thermal uniformity",
+        "Grade-specific recipes and process expertise",
+        "Oxygen-free upstream transfer",
+        "Pump maintenance and consumables"
+      ],
+      "unknowns": [
+        "Individual price and output capacity undisclosed.",
+        "Japan melting-furnace announcement does not establish Japan manufacture of sintering/aging units.",
+        "Sintering and aging are distinct; public contract labels do not resolve every FHH process detail."
+      ],
+      "source_ids": [
+        "EMAT_PROSPECTUS",
+        "ULVAC_ECO",
+        "ULVAC_IR"
+      ],
+      "site_step_hint": 9
+    },
+    {
+      "id": "equip_gbd_shinetsu",
+      "stage_id": "grain_boundary_diffusion",
+      "label_en": "Shin-Etsu grain boundary diffusion",
+      "output_or_function": "Coat sintered bodies with rare-earth compounds, then heat-treat to place heavy rare earths near grain boundaries.",
+      "equipment_maker": "Processdeveloper/operatorShin-EtsuChemical; actualequipmentmakerundisclosed",
+      "geography": [
+        {
+          "place": "Japan",
+          "role": "Process developer jurisdiction; specific installation unverified",
+          "country": "JP"
+        }
+      ],
+      "confirmed_installation": null,
+      "status": "Verified producer technology; no U.S. installation established.",
+      "capacity_or_output": [
+        {
+          "value": null,
+          "unit": "t qualifieddiffusedmagnets/year",
+          "basis": "Separate achieved throughput not publicly verified."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "process_note": "2007-03-28",
+        "US_deployment_date": null
+      },
+      "dependencies": [
+        "HREE chemistry",
+        "Diffusion depth and part thickness",
+        "Heat-treatment process control",
+        "Current intellectual-property/license verification",
+        "Grade and customer approval"
+      ],
+      "unknowns": [
+        "Machine price, maker and specific installation location unknown.",
+        "Historic patents and permission notice do not establish present freedom to operate.",
+        "Do not assume every grade uses Dy/Tb or the same diffusion process."
+      ],
+      "source_ids": [
+        "SHINETSU_GBD"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_finish_arnold",
+      "stage_id": "machine_coat",
+      "label_en": "Machining/coating capability and tooling tradeoff",
+      "output_or_function": "Diamond/special-abrasive machining, edge preparation and corrosion protection of NdFeB.",
+      "equipment_maker": "Arnold is evidenceoperator; actualmachine/coatinglinemakersundisclosed",
+      "geography": [],
+      "confirmed_installation": null,
+      "status": "Producer documents the stage; assignment to a specific factory is unverified.",
+      "capacity_or_output": [
+        {
+          "value": null,
+          "unit": "finishedparts/year",
+          "basis": "Separate achieved throughput not publicly verified."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "stock_vs_tooling": "Producer says limited quantities from stock blocks are likely faster than new press tooling.",
+        "numerical_lead_time": null
+      },
+      "dependencies": [
+        "Hard and brittle material; chipping/cracking losses",
+        "Coating adhesion and corrosion requirements",
+        "Geometry and dimensional tolerances",
+        "Stock form and tooling selection"
+      ],
+      "unknowns": [
+        "Actual machinery makers, origins, installations and prices unknown.",
+        "Finished yield requires customer part data.",
+        "Machined/coated does not establish magnetized or qualified output."
+      ],
+      "source_ids": [
+        "ARNOLD_PROCESS"
+      ],
+      "site_step_hint": null
+    },
+    {
+      "id": "equip_mag_test",
+      "stage_id": "magnetize_test_qualify",
+      "label_en": "Magnetization, metrology and qualification gate",
+      "output_or_function": "Custom magnetization fixtures and magnetic metrology support a distinct customer-acceptance gate.",
+      "equipment_maker": "MAGNET-PHYSIK;BROCKHAUSMeasurements",
+      "geography": [
+        {
+          "place": "Cologne, Germany",
+          "role": "MAGNET-PHYSIK headquarters/accredited calibration",
+          "country": "DE"
+        },
+        {
+          "place": "United States; city unverified here",
+          "role": "MAGNET-PHYSIK accredited calibration branch",
+          "country": "US"
+        },
+        {
+          "place": "Germany",
+          "role": "BROCKHAUS declares Made in Germany",
+          "country": "DE"
+        }
+      ],
+      "confirmed_installation": null,
+      "status": "Equipment and accredited calibration available; customer product approval remains specific.",
+      "capacity_or_output": [
+        {
+          "value": null,
+          "unit": "acceptedmagnets/year",
+          "basis": "Separate achieved throughput not publicly verified."
+        }
+      ],
+      "public_cost": {
+        "value": null,
+        "currency": null,
+        "kind": "machine purchase price",
+        "reason": "No comparable public machine quote verified; null means unknown."
+      },
+      "timeline": {
+        "fixture_delivery_and_OEM_approval": null,
+        "public_US_example": "MP Independence qualification deliveries continued in Q2 2026."
+      },
+      "dependencies": [
+        "Fixture and assembly magnetic pattern",
+        "Traceable calibration",
+        "Temperature and demagnetization performance",
+        "Customer/regulatory testing and change control"
+      ],
+      "unknowns": [
+        "Calibration accreditation is not OEM part approval.",
+        "No named U.S. magnet-plant equipment order verified.",
+        "Routine customer-qualified tonnage and qualification cost unknown."
+      ],
+      "source_ids": [
+        "MAGNETPHYSIK",
+        "MAGNETPHYSIK_M",
+        "BROCKHAUS",
+        "MP_Q2"
+      ],
+      "site_step_hint": null
+    }
+  ],
+  "us_project_comparison": [
+    {
+      "id": "project_10x",
+      "node_id": "10x_northlake",
+      "location": "Northlake, Texas",
+      "scope": "New magnet manufacturing campus",
+      "capacity": [
+        {
+          "value": 7000,
+          "unit": "t magnets/year",
+          "basis": "Planned once completed and scaled."
+        }
+      ],
+      "money": {
+        "value": 1250000000,
+        "comparison": ">",
+        "currency": "USD",
+        "year": "2026",
+        "type": "Planned total campus investment"
+      },
+      "readiness": "Construction accelerated in Q2 2026; commissioning begins in 2028",
+      "usableannualoutput": null,
+      "source_ids": [
+        "MP_10X",
+        "MP_10K",
+        "MP_Q2"
+      ]
+    },
+    {
+      "id": "project_evac",
+      "node_id": "evac_sumter",
+      "location": "Sumter, South Carolina",
+      "scope": "NdFeB magnet facility",
+      "capacity": [
+        {
+          "value": 2000,
+          "unit": "t magnets/year",
+          "basis": "nameplate"
+        }
+      ],
+      "money": {
+        "value": 500000000,
+        "comparison": ">",
+        "currency": "USD",
+        "year": "2023announcement",
+        "type": "Investment over the course of the project; not verified final capex."
+      },
+      "readiness": "Commercial production since 2025; first shipment December 12, 2025; scaling July 2026",
+      "usableannualoutput": null,
+      "equipmentmakers": "Not disclosed in these sources",
+      "source_ids": [
+        "EVAC_COST",
+        "EVAC_SHIP",
+        "EVAC_2026"
+      ]
+    },
+    {
+      "id": "project_white_mesa_hree",
+      "node_id": "white_mesa",
+      "location": "Near Blanding, Utah",
+      "scope": "HREE, MREC and additional Sm/Eu/Gd expansion",
+      "capacity": [
+        {
+          "value": 20,
+          "unit": "t Tb oxide/year",
+          "basis": "Planned maximum"
+        },
+        {
+          "value": 120,
+          "unit": "t Dy oxide/year",
+          "basis": "Planned maximum"
+        }
+      ],
+      "money": {
+        "value": 104000000,
+        "currency": "USD",
+        "year": "2026",
+        "type": "Estimated total expansion capex"
+      },
+      "readiness": "Construction July 2026; Dy/Tb circuits target end 2027",
+      "usableannualoutput": null,
+      "source_ids": [
+        "EF_HREE"
+      ]
+    },
+    {
+      "id": "project_usar_blacksburg",
+      "node_id": "blacksburg",
+      "location": "Blacksburg, South Carolina",
+      "scope": "Combined metal/alloy/magnet campus",
+      "capacity": [
+        {
+          "value": 6400,
+          "unit": "t magnets/year",
+          "basis": "planned"
+        },
+        {
+          "value": 5000,
+          "unit": "t strip-castmetal/alloy/year",
+          "basis": "Planned alloy mass; separate basis from finished magnets."
+        }
+      ],
+      "money": {
+        "value": 1200000000,
+        "currency": "USD",
+        "year": "2026",
+        "type": "Expected capital investment"
+      },
+      "readiness": "Groundbreaking September 9, 2026; commissioning targeted to begin in 2028. This is not current accepted output.",
+      "usableannualoutput": null,
+      "source_ids": [
+        "USAR_BLACK"
+      ],
+      "editorial_correction": {
+        "field": "location",
+        "original_packet_value": "Blacksburg, Virginia",
+        "corrected": "Blacksburg, South Carolina",
+        "basis": "Operator September 9, 2026 release explicitly locates campus in Blacksburg SC, Cherokee County; agrees with existing map.",
+        "source_ids": [
+          "USAR_BLACK"
+        ],
+        "checked_at": "2026-10-07"
+      }
+    },
+    {
+      "id": "project_noveon",
+      "node_id": "noveon",
+      "location": "San Marcos, Texas",
+      "scope": "Operating magnet manufacturer and expansion",
+      "capacity": [
+        {
+          "value": 2000,
+          "unit": "tons/year",
+          "basis": "Baseline expansion reference; growth beyond announced; not actual usable output."
+        }
+      ],
+      "money": {
+        "value": 215000000,
+        "currency": "USD",
+        "year": "2026",
+        "type": "Series C financing including secondary share sale; not project capex"
+      },
+      "readiness": "Operating; expansion financing January 2026",
+      "usableannualoutput": null,
+      "source_ids": [
+        "NOVEON_FIN"
+      ]
+    }
+  ],
+  "aggregate_equipment_commitment": {
+    "id": "ulvac_korea_aggregate_commitment",
+    "value": 15900000,
+    "currency": "USD",
+    "asof": "2026-06-30",
+    "kind": "Outstanding contractual commitment",
+    "scope": "Eight contracts / 13 furnace sets for Korean operations",
+    "counts": {
+      "600 kg Magcaster including A variants": 6,
+      "50 kg FVI including A variant": 3,
+      "FSC-6150C-8": 2,
+      "FHH-6150C-6": 2
+    },
+    "contract_price_currency": "KRW; individual prices redacted",
+    "not_allowed": [
+      "Divide by 13 to infer a unit price",
+      "Treat as whole magnet-plant capex",
+      "Equate outstanding commitment with total purchase consideration",
+      "Infer China/Japan/U.S. equipment price ordering"
+    ],
+    "source_ids": [
+      "EMAT_PROSPECTUS",
+      "EMAT_CONTRACT"
+    ]
+  },
+  "graph_nodes": [
+    {
+      "id": "eq_consarc_rancocas",
+      "label_en": "Consarc manufacturing",
+      "label_zh": "Consarc 设备制造",
+      "country": "US",
+      "place": "Rancocas,New Jersey",
+      "node_kind": "equipment_manufacturing",
+      "status": "Operating; expansion targeted early 2027",
+      "source_ids": [
+        "CONSARC_VULCAN",
+        "CONSARC_EXPAND"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "vulcan_rtp",
+      "label_en": "Vulcan RTP installed strip caster",
+      "label_zh": "Vulcan RTP 已安装甩带炉",
+      "country": "US",
+      "place": "Research Triangle Park,North Carolina",
+      "node_kind": "magnet_operator",
+      "status": "Caster operating by June 2025",
+      "source_ids": [
+        "CONSARC_VULCAN"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_ulvac_china",
+      "label_en": "ULVAC China melting-equipment manufacture",
+      "label_zh": "ULVAC 中国熔炼设备制造",
+      "country": "CN",
+      "place": "City unverified",
+      "node_kind": "equipment_manufacturing",
+      "status": "Existing production facility; exact city unverified",
+      "source_ids": [
+        "ULVAC_ORIGIN"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_ulvac_chigasaki",
+      "label_en": "ULVAC Chigasaki melting-equipment assembly",
+      "label_zh": "ULVAC 茅崎熔炼设备装配",
+      "country": "JP",
+      "place": "Chigasaki,Kanagawa",
+      "node_kind": "equipment_manufacturing",
+      "status": "September 2026 planned start; actual start unverified",
+      "source_ids": [
+        "ULVAC_QA",
+        "ULVAC_ORIGIN"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_ulvac_korea_seller",
+      "label_en": "ULVAC Korea contractseller",
+      "label_zh": "ULVAC 韩国合同销售方",
+      "country": "KR",
+      "place": "Pyeongtaek",
+      "node_kind": "equipment_sales",
+      "status": "Binding equipment contracts",
+      "source_ids": [
+        "EMAT_CONTRACT"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_ulvac_dalian_dispatch",
+      "label_en": "ULVAC Dalian shipment reference",
+      "label_zh": "ULVAC 大连发运记录",
+      "country": "CN",
+      "place": "Dalian",
+      "node_kind": "equipment_dispatch",
+      "status": "Contract payment terms reference dispatch",
+      "source_ids": [
+        "EMAT_PROSPECTUS"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "emat_korea_destination",
+      "label_en": "EMAT equipment destination",
+      "label_zh": "EMAT 韩国设备目的地",
+      "country": "KR",
+      "place": "Exact plant unknown",
+      "node_kind": "equipment_buyer_installation",
+      "status": "Ordered; delivery unverified",
+      "source_ids": [
+        "EMAT_CONTRACT"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_baiqida_ningbo",
+      "label_en": "Baiqida equipment",
+      "label_zh": "百琪达设备",
+      "country": "CN",
+      "place": "Fenghua,Ningbo",
+      "node_kind": "equipment_supplier",
+      "status": "Product capability",
+      "source_ids": [
+        "BAIQIDA_PROFILE",
+        "BAIQIDA_HD"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_hosokawa_augsburg",
+      "label_en": "Hosokawa Alpine / test centre",
+      "label_zh": "Hosokawa Alpine / 试验中心",
+      "country": "DE",
+      "place": "Augsburg",
+      "node_kind": "equipment_supplier_test",
+      "status": "Product/test capability",
+      "source_ids": [
+        "HOSOKAWA_RARE"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_hosokawa_summit_service",
+      "label_en": "Hosokawa U.S. group service",
+      "label_zh": "Hosokawa 美国集团服务",
+      "country": "US",
+      "place": "Summit,New Jersey",
+      "node_kind": "equipment_service",
+      "status": "Service location; not AFG-R manufacture proof",
+      "source_ids": [
+        "HOSOKAWA_SERVICE"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_dorst_kochel",
+      "label_en": "DORST / technology centre",
+      "label_zh": "DORST / 技术中心",
+      "country": "DE",
+      "place": "Kochel am See",
+      "node_kind": "equipment_supplier_test",
+      "status": "Press/test capability",
+      "source_ids": [
+        "DORST_PRESS"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    },
+    {
+      "id": "eq_magnetphysik_cologne",
+      "label_en": "MAGNET-PHYSIK / metrology",
+      "label_zh": "MAGNET-PHYSIK / 磁测量",
+      "country": "DE",
+      "place": "Cologne",
+      "node_kind": "equipment_supplier_calibration",
+      "status": "Calibration and product capability",
+      "source_ids": [
+        "MAGNETPHYSIK"
+      ],
+      "coordinates": null,
+      "geography_precision": "Published place; no invented coordinates."
+    }
+  ],
+  "graph_links": [
+    {
+      "id": "consarc_vulcan_equipment",
+      "source": "eq_consarc_rancocas",
+      "target": "vulcan_rtp",
+      "flow_type": "equipment_delivered_and_commissioned",
+      "material_flow": false,
+      "status": "Confirmed June 4, 2025",
+      "source_ids": [
+        "CONSARC_VULCAN"
+      ]
+    },
+    {
+      "id": "ulvac_korea_machine_order",
+      "source": "eq_ulvac_korea_seller",
+      "target": "emat_korea_destination",
+      "flow_type": "machine_procurement_contract",
+      "material_flow": false,
+      "status": "Ordered May 13, 2026; not delivery proof",
+      "source_ids": [
+        "EMAT_CONTRACT",
+        "EMAT_PROSPECTUS"
+      ]
+    },
+    {
+      "id": "ulvac_dalian_dispatch_contract",
+      "source": "eq_ulvac_dalian_dispatch",
+      "target": "emat_korea_destination",
+      "flow_type": "contractual_shipping_reference",
+      "material_flow": false,
+      "status": "Payment term references shipment ex Dalian; actual shipment unverified",
+      "source_ids": [
+        "EMAT_PROSPECTUS"
+      ]
+    },
+    {
+      "id": "ulvac_dualsite",
+      "source": "eq_ulvac_china",
+      "target": "eq_ulvac_chigasaki",
+      "flow_type": "manufacturing_diversification_plan",
+      "material_flow": false,
+      "status": "Corporate diversification plan; not a physical shipment",
+      "source_ids": [
+        "ULVAC_ORIGIN"
+      ]
+    },
+    {
+      "id": "hosokawa_service_relationship",
+      "source": "eq_hosokawa_augsburg",
+      "target": "eq_hosokawa_summit_service",
+      "flow_type": "group_service_network",
+      "material_flow": false,
+      "status": "Service network; not a material shipment",
+      "source_ids": [
+        "HOSOKAWA_SERVICE"
+      ]
+    }
+  ],
+  "existing_node_references": [
+    "mp_mine",
+    "mp_oxide",
+    "white_mesa",
+    "evac_sumter",
+    "noveon",
+    "blacksburg"
+  ],
+  "experiment_spec": {
+    "objective": "Use a common customer-qualified usable magnet target and deadline; show the cost versus unmet/late demand frontier.",
+    "common_inputs": [
+      "Grade, geometry, tolerance, coating and temperature/demagnetization performance",
+      "Identified customer/OEM approval scope",
+      "Annual accepted tonnes or part count, deadline and budget",
+      "Identical initial inventories, supplier qualifications, allocations and contracts; separate the true cold-start case"
+    ],
+    "alternatives": [
+      "Domestic capacity with domestic or imported equipment",
+      "Qualified allied finished-magnet imports and multiple sourcing",
+      "Qualified China imports where permitted",
+      "Imported oxide/metal/alloy feeding U.S. manufacture",
+      "A stock bridge with grade, shelf-life and traceability constraints",
+      "Service, spares and redundant equipment"
+    ],
+    "lifecycle_cost_components": [
+      "Machine quote, engineering, integration, buildings, utilities and permits",
+      "Shipment, insurance, confirmed duties, installation, FAT/SAT and training",
+      "Feedstock, yield loss, rework, scrap, energy, inert gas and consumables",
+      "Maintenance, spare parts, service visits, outages and backup capacity",
+      "Qualification/test lots, tooling, working capital and carrying inventory",
+      "Replacement/decommissioning and residual value where relevant"
+    ],
+    "readiness_times": [
+      "Order/export license/manufacture",
+      "Dispatch and delivery",
+      "Civil works and utilities",
+      "Installation and commissioning",
+      "Yield ramp and process validation",
+      "Customer/regulatory qualification",
+      "Accepted routine delivery"
+    ],
+    "capacity_method": "Solve stage flows after correct mass-basis conversions, with stage yields, operating availability, ramp and customer acceptance. The bottleneck constrains accepted output; incompatible units cannot be multiplied or summed.",
+    "switching_conditions": [
+      "A domestic line cannot meet a deadline before construction, commissioning, ramp and qualification finish; qualified imports/stock must bridge that interval.",
+      "Imports or multiple sourcing are preferable when their delivered lifecycle premium is below avoided late/unmet-demand loss plus capital and service costs within the shared budget.",
+      "Redundancy or extra service becomes valuable when avoided outage/qualification losses exceed its cost; shared upstream feed or spares dependencies remain.",
+      "Extra casting capacity reduces unmet demand only when feed, metal conversion, powder, tooling, coating, testing and customer approval also clear."
+    ],
+    "sensitivity_axes": [
+      "Construction, commissioning and qualification time",
+      "Stage recovery/yield and scrap-return time",
+      "Utilization, maintenance and outage length",
+      "Qualified import allocation, lead time and export disruption",
+      "Machine origin and service/spares dependency",
+      "Quoted freight/insurance, verified tariff layers and FX",
+      "Energy, nitrogen, argon and consumables",
+      "Grade-specific stocks/carrying cost",
+      "Deadline, budget and consequences of unmet/late demand"
+    ],
+    "country_price_hypothesis": "Untested: no matched specification, delivery, acceptance and service comparison of China/Japan/U.S. quotations verified. Do not use uniform country cost multipliers.",
+    "calibration_boundary": "Project capex and nameplate are context anchors, not machine quotes or a national U.S. investment total. Preserve illustrative capital credits until coherent quotes and operating data exist."
+  },
+  "trade_cost_policy": {
+    "streams": [
+      "Upstream material or ore",
+      "Machine/equipment procurement",
+      "Finished magnets"
+    ],
+    "historical_adopted_component": {
+      "product": "Covered Chinese metallic permanent magnets under 8505.11.00",
+      "additional_section301_percent": 25,
+      "effective": "2026-01-01",
+      "source_id": "USTR_301",
+      "warning": "This adopted notice is not verification of the current total duty. Do not apply it to unspecified machines or feedstock."
+    },
+    "required_inputs": [
+      "Actual product specification and chemical form",
+      "Verified HTS classification",
+      "Origin, entry date and applicable Chapter 99 layers/exclusions",
+      "Quote Incoterm, destination, freight, insurance and handling"
+    ],
+    "freight": {
+      "value": null,
+      "policy": "Use an editable quote/sensitivity parameter, not an invented freight quote."
+    },
+    "tariff_total": null,
+    "source_ids": [
+      "USTR_301",
+      "USITC_DUTY",
+      "USITC_HTS"
+    ]
+  },
+  "future_research": [
+    {
+      "id": "FR_EQ1",
+      "question_en": "For identical magnet grade, geometry and customer deadline, what matched equipment bids satisfy the same FAT/SAT, yield, warranty, spares and on-site service obligations?",
+      "question_zh": "相同磁体牌号、几何尺寸与客户期限下，哪些设备报价满足同一FAT/SAT、良率、保修、备件与现场服务义务？",
+      "needed_evidence": "Matched public tenders or binding contracts specifying machine origin and priced inclusions."
+    },
+    {
+      "id": "FR_EQ2",
+      "question_en": "Which U.S. or allied sites can deliver routine customer-approved tonnes for the required part family, rather than nameplate or qualification samples, and on what ramp schedule?",
+      "question_zh": "哪些美国或盟友工厂能为所需零件族稳定交付客户批准的吨数，而不只是铭牌产能或认证样品？爬坡日程是什么？",
+      "needed_evidence": "Dated accepted shipments, allocations/offtake, grade-specific yield and qualification change control."
+    },
+    {
+      "id": "FR_EQ3",
+      "question_en": "At a common budget and deadline, when do qualified imports plus stock and service redundancy outperform a new domestic line, and when does that ordering reverse?",
+      "question_zh": "共同预算和期限下，合格进口、库存与服务冗余何时优于新建美国生产线？哪些条件会使排序反转？",
+      "needed_evidence": "Quoted landed prices, mass-balanced flows, qualification duration, finite inventories, delay cost and shared-disruption scenarios."
+    }
+  ],
+  "sources": [
+    {
+      "id": "CONSARC_VULCAN",
+      "title": "Consarc/Vulcan commissioned strip caster",
+      "url": "https://inductothermgroup.com/consarc-corporation-and-vulcan-elements-partner-to-advance-u-s-rare-earth-magnet-production-with-commissioning-of-new-strip-casting-furnace/",
+      "date": "2025-06-04",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Article body",
+      "verification_note": "Names New Jersey manufacture and Research Triangle Park installation."
+    },
+    {
+      "id": "CONSARC_EXPAND",
+      "title": "Consarc manufacturing facility expansion",
+      "url": "https://inductothermgroup.com/consarc-expansion/",
+      "date": "2026-01-26",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Article body",
+      "verification_note": ""
+    },
+    {
+      "id": "CONSARC_PROCESS",
+      "title": "Vacuum induction melting strip casting furnaces",
+      "url": "https://inductothermgroup.com/products/vacuum-induction-melting-strip-casting-furnaces/",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Product description",
+      "verification_note": ""
+    },
+    {
+      "id": "ULVAC_ORIGIN",
+      "title": "Japan production for rare-earth magnet vacuum melting furnaces",
+      "url": "https://www.ulvac.co.jp/en/news/20260507a/index.html",
+      "date": "2026-05-07",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Background / Japan production table",
+      "verification_note": "Existing China production; planned Japan start is not verified actual start."
+    },
+    {
+      "id": "ULVAC_QA",
+      "title": "ULVAC IR Seminar Q&A",
+      "url": "https://ir.ulvac.co.jp/en/ir/newsrelease/PressRelease2026040805/main/0/link/%28EN%29QA_for_IR_Seminer_2026.pdf",
+      "date": "2026-04-08",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "PDF p2, item4",
+      "verification_note": "Identifies Chigasaki production structure; manufacturer capacity equivalence is not customer-qualified magnet output."
+    },
+    {
+      "id": "ULVAC_ECO",
+      "title": "ULVAC environment-oriented products",
+      "url": "https://www.ulvac.co.jp/eng/data/solution/pdf/21_eco_e.pdf",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "PDF p2",
+      "verification_note": "Melting, hydrogen decrepitation, sintering and aging are separate furnace functions."
+    },
+    {
+      "id": "ULVAC_IR",
+      "title": "ULVAC IR seminar presentation",
+      "url": "https://ir.ulvac.co.jp/en/ir/newsrelease/PressRelease-2026040702/main/0/link/EN_Presentation_Material_for_ULVAC_IR_Seminar_2026.pdf",
+      "date": "2026-04-07",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Slides13,15–18,20",
+      "verification_note": "Existing local primary PDF also at parent material-markets directory."
+    },
+    {
+      "id": "EMAT_CONTRACT",
+      "title": "ULVAC Korea equipment contract W20260330-001-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026056264/ea029072001ex10-1.htm",
+      "date": "2026-05-13; filed2026-05-14",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Contract pp1–5",
+      "verification_note": "Price redacted; KRW denomination and DDP Korea terms public."
+    },
+    {
+      "id": "EMAT_PROSPECTUS",
+      "title": "Evolution Metals & Technologies prospectus",
+      "url": "https://www.sec.gov/Archives/edgar/data/1866226/000121390026097822/ea0304499-01.htm",
+      "date": "2026-09 filing; commitment as of 2026-06-30",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Equipment Supply Contracts pp164–165; contractual commitments p184; financial note Equipment Purchase Contracts",
+      "verification_note": "Eight contracts;13sets; outstanding commitment is not total equipment price."
+    },
+    {
+      "id": "BAIQIDA_HD",
+      "title": "Baiqida rail-type hydrogen decrepitation furnace",
+      "url": "https://www.nbbqd.com/en/products-and-services/product/hydrogen-decripitation-furnace/single-cell-platform/354",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Product description and BQDHD-200GC table",
+      "verification_note": ""
+    },
+    {
+      "id": "BAIQIDA_PROFILE",
+      "title": "Baiqida company profile",
+      "url": "https://www.nbbqd.com/en/about.php",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Company profile / R&D / published address",
+      "verification_note": "Claimed50,000ton output is ambiguously defined and not used as machine throughput."
+    },
+    {
+      "id": "HOSOKAWA_RARE",
+      "title": "Jet milling for high-performance permanent magnets",
+      "url": "https://www.hosokawa-alpine.com/fileadmin/ON_Hosokawa/Used_Content/EPMs/Rare_Earths/0244-EN-2024-11_rare-earths.pdf",
+      "date": "2024-11 document identifier",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Product / test-centre description",
+      "verification_note": ""
+    },
+    {
+      "id": "HOSOKAWA_NEWS",
+      "title": "High-performance magnets made from rare earths",
+      "url": "https://www.on-hosokawa.com/news/detail/high-performance-magnets-made-from-rare-earths/",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "AFG-R description",
+      "verification_note": ""
+    },
+    {
+      "id": "HOSOKAWA_SERVICE",
+      "title": "Hosokawa services",
+      "url": "https://www.hosokawa-alpine.com/services/solutions/",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Solutions / locations",
+      "verification_note": "Listed U.S. service location does not establish AFG-R U.S. manufacture or a magnet-factory installation."
+    },
+    {
+      "id": "DORST_PRESS",
+      "title": "DORST authored: Presses for magnet production",
+      "url": "https://www.dorst-technologies.com/fileadmin/pdf/MPT-magazine_Dorst-presses-for-magnets.pdf",
+      "date": "Summer2025",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "PDF pp87–95; EP30MAG / inert enclosure",
+      "verification_note": "Manufacturer-authored technical article hosted by manufacturer."
+    },
+    {
+      "id": "SHINETSU_GBD",
+      "title": "Shin-Etsu grain boundary diffusion process",
+      "url": "https://www.shinetsu-rare-earth-magnet.jp/e/notice/",
+      "date": "technology note2007-03-28; current patent notice Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "About technology / patents",
+      "verification_note": "Historic process account supports function, not current machine location or legal freedom to operate."
+    },
+    {
+      "id": "ARNOLD_PROCESS",
+      "title": "Arnold magnet manufacturing process",
+      "url": "https://www.arnoldmagnetics.com/resources/magnet-manufacturing-process/",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Finishing / magnetizing / stabilization",
+      "verification_note": ""
+    },
+    {
+      "id": "MAGNETPHYSIK",
+      "title": "MAGNET-PHYSIK magnetizing and measuring equipment",
+      "url": "https://www.magnet-physik.de/en/",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Products / calibration laboratories",
+      "verification_note": "Cologne and U.S. service/calibration roles; actual model manufacture not established."
+    },
+    {
+      "id": "MAGNETPHYSIK_M",
+      "title": "MAGNET-PHYSIK magnetizing technology",
+      "url": "https://www.magnet-physik.de/en/magnetizing-technology/",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Product families",
+      "verification_note": ""
+    },
+    {
+      "id": "BROCKHAUS",
+      "title": "BROCKHAUS Measurements about us",
+      "url": "https://brockhaus.com/en/measurements/about-us/",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Magnetic Measurements—Made in Germany",
+      "verification_note": ""
+    },
+    {
+      "id": "MP_Q2",
+      "title": "MP second-quarter2026 results",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Second-Quarter-2026-Results/",
+      "date": "2026-08-06",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Operational KPIs / qualification discussion",
+      "verification_note": ""
+    },
+    {
+      "id": "MP_10K",
+      "title": "MP FY2025 10-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000008/mp-20251231.htm",
+      "date": "2026-02-26",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Business: midstream, Independence,10X",
+      "verification_note": "Reuses previously verified research at ../mp-capacity-investment.json."
+    },
+    {
+      "id": "MP_10Q",
+      "title": "MP Q2 2026 10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1801368/000180136826000048/mp-20260630.htm",
+      "date": "2026-08-07",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Business / capital expenditures",
+      "verification_note": "Reuses previously verified research at ../mp-capacity-investment.json."
+    },
+    {
+      "id": "MP_10X",
+      "title": "MP selects Northlake for10X",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Selects-Northlake-Texas-as-the-Site-of-10X-a-New-U-S--Rare-Earth-Magnet-Manufacturing-Campus/default.aspx",
+      "date": "2026-02-26",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Investment / commissioning",
+      "verification_note": ""
+    },
+    {
+      "id": "EF_HREE",
+      "title": "White Mesa commercial heavy-REE construction",
+      "url": "https://investors.energyfuels.com/2026-07-29-Commercial-Scale-Heavy-Rare-Earth-Plant-Now-Under-Construction-in-Utah",
+      "date": "2026-07-29",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Capacity / timetable / capex / footnotes",
+      "verification_note": ""
+    },
+    {
+      "id": "EF_QUAL",
+      "title": "Energy Fuels HREE qualified by Japanese magnet manufacturer",
+      "url": "https://investors.energyfuels.com/2026-08-19-Heavy-Rare-Earths-Produced-by-Energy-Fuels-Qualified-for-Use-by-Largest-Permanent-Magnet-Manufacturer-in-Japan",
+      "date": "2026-08-19",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Qualification announcement",
+      "verification_note": "Oxide sample approval is not finished magnet OEM approval."
+    },
+    {
+      "id": "EVAC_SHIP",
+      "title": "eVAC first magnet shipment",
+      "url": "https://evac-magnetics.com/shared/eVAC-news-first-magnets",
+      "date": "2025-12-12",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "First shipment / nameplate plan",
+      "verification_note": ""
+    },
+    {
+      "id": "EVAC_2026",
+      "title": "eVAC Sumter opening and scaling",
+      "url": "https://vacuumschmelze.com/Newsroom/evac-magnetics-holds-opening-ceremony-for-sumter-south-carolina-rare-earth-magnet-manufacturing-facility-n2902",
+      "date": "2026-07-16",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Commercial production / nameplate",
+      "verification_note": "Company claims of first/only producer are not adopted as nationwide facts."
+    },
+    {
+      "id": "EVAC_COST",
+      "title": "South Carolina eVAC investment announcement",
+      "url": "https://www.sccommerce.com/es/node/7947",
+      "date": "2023-12-13 (date displayed in downloaded primary HTML)",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Project investment / federal and state support",
+      "verification_note": "Historical announcement-date dollars; not final actual cost."
+    },
+    {
+      "id": "NOVEON_FIN",
+      "title": "Noveon Series C financing",
+      "url": "https://noveon.co/noveon-completes-series-c",
+      "date": "2026-01-19",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Financing / capacity expansion",
+      "verification_note": "Funding includes secondary share sale; not construction capex."
+    },
+    {
+      "id": "USAR_BLACK",
+      "title": "USA Rare Earth Blacksburg groundbreaking",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-breaks-ground-advanced-rare-earth-metal-and",
+      "date": "2026-09-09",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Campus investment / capacities / commissioning",
+      "verification_note": "Reuses previously verified research at ../capacity-investment-non-mp.json."
+    },
+    {
+      "id": "USTR_301",
+      "title": "USTR adopted2024 tariff modification",
+      "url": "https://ustr.gov/sites/default/files/89%20FR%2076581%20%28September%2018%2C%202024%29.pdf",
+      "date": "2024-09-18",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "FR76581,76592; permanent-magnet tariff item",
+      "verification_note": "Scheduled25% additional Sec301 on coveredChinese8505.11.00 fromJan1,2026. Current total duties unverified."
+    },
+    {
+      "id": "USITC_DUTY",
+      "title": "USITC classification and duty guidance",
+      "url": "https://www.usitc.gov/faq/question/what_classification_good_i_am_trying_import_or.htm",
+      "date": "Undated",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Classification / Chapter99 / CBP authority",
+      "verification_note": ""
+    },
+    {
+      "id": "USITC_HTS",
+      "title": "USITC HTS rare-earth metals search",
+      "url": "https://hts.usitc.gov/search?query=2805",
+      "date": "live2026-10-07",
+      "publisher_type": "primary manufacturer/operator/government/SEC",
+      "accessed": "2026-10-07",
+      "locator": "Heading2805; consult2846 for compounds",
+      "verification_note": "No unspecified feedstock or machine assigned an exact code."
+    }
+  ],
+  "explicit_unknowns": [
+    "No national U.S. total investment or optimal build budget verified.",
+    "No matched country equipment-price ordering verified.",
+    "Exact freight and current all-in customs rates are unverified.",
+    "Most machine prices, specific plant machinery makers, annual accepted outputs and time to OEM approval remain unpublished.",
+    "Planned Japan equipment-production start is not verified completed; orders are not delivered machines.",
+    "Machine origin, allied suppliers and U.S. installation each require separate contract-specific evidence."
+  ],
+  "stage_record_to_map_anchor": {
+    "equip_sep_ndpr_mp": "mp_oxide",
+    "equip_sep_hree_whitemesa": "white_mesa",
+    "equip_metal_mp": "independence_fortworth",
+    "equip_strip_consarc_vulcan": "vulcan_rtp"
+  },
+  "proposed_facility_nodes": [
+    {
+      "id": "independence_fortworth",
+      "label_en": "MP Independence — metal, alloy and magnets",
+      "label_zh": "MP Independence — 金属、合金与磁体",
+      "place": "Fort Worth, Texas, USA",
+      "node_kind": "facility",
+      "stage_ids": [
+        "metallization",
+        "melt_strip_cast",
+        "magnet_manufacturing_qualification"
+      ],
+      "status": "Metal/alloy operating; magnet customer qualification ongoing in Q2 2026",
+      "source_ids": [
+        "MP_10K",
+        "MP_Q2"
+      ],
+      "coordinates": null,
+      "reuse_note": "Owner must check existing marker before adding; co-located stages share one marker."
+    },
+    {
+      "id": "10x_northlake",
+      "label_en": "MP 10X — planned magnet campus",
+      "label_zh": "MP 10X — 建设中磁体校园",
+      "place": "Northlake, Texas, USA",
+      "node_kind": "facility",
+      "status": "Construction in Q2 2026; commissioning begins 2028",
+      "source_ids": [
+        "MP_10X",
+        "MP_Q2"
+      ],
+      "coordinates": null,
+      "reuse_note": "Owner must check existing marker before adding."
+    }
+  ]
+}

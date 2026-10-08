@@ -1,0 +1,81 @@
+{
+  "verified_on": "2026-10-07",
+  "sources": [
+    {
+      "id": "cheng-2025",
+      "title": "Trade risks to energy security in net-zero emissions energy scenarios",
+      "authors": "Jing Cheng, Dan Tong, Hongyan Zhao, Ruochong Xu, Yue Qin, Qiang Zhang, Karan Bhuwalka, Ken Caldeira, Steven J. Davis",
+      "year": 2025,
+      "publication_date": "2025-04-09",
+      "url": "https://doi.org/10.1038/s41558-025-02305-1",
+      "type": "peer-reviewed research",
+      "status": "verified from original Methods PDF and publisher record",
+      "locators": ["Methods equations 1-3", "Methods equations 4-9", "Changes in critical material intensity and recycling rates", "Discussion"],
+      "units": ["dimensionless commodity TRI", "contained element mass per deployment unit"],
+      "use": "Independent implementation of commodity-level HHI, domestic dependency term and TRI; deployment-driven demand and retirement/recycling accounting.",
+      "scope": "A partial methodology implementation. The downstream delivery experiment and all chosen deployment scenarios are new work, not reproduced national results."
+    },
+    {
+      "id": "cheng-2025-si",
+      "title": "Supplementary information for Trade risks to energy security in net-zero emissions energy scenarios",
+      "year": 2025,
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41558-025-02305-1/MediaObjects/41558_2025_2305_MOESM1_ESM.pdf",
+      "type": "published research supplement",
+      "status": "verified from original supplementary tables",
+      "locators": ["Table 1, printed pp. 30-31: DD-PMSG and GB-PMSG", "Table 1, printed p. 43: passenger car magnet inputs", "Table 5: wind end-of-life recovery", "Table 12: lifetime and capacity factors"],
+      "units": ["kg Nd/MW", "kg Dy/MW", "kg Nd/car", "kg Dy/car", "years", "dimensionless capacity factor", "fraction recovered at end of life"],
+      "selected_values": {
+        "dd_pmsg_nd_kg_per_mw": 180,
+        "dd_pmsg_dy_kg_per_mw": 17,
+        "geared_pmsg_nd_kg_per_mw": 51,
+        "geared_pmsg_dy_kg_per_mw": 6,
+        "passenger_pm_car_nd_kg_range": [0.309, 0.464],
+        "passenger_pm_car_dy_kg_range": [0.041, 0.136],
+        "wind_lifetime_years": 24,
+        "vehicle_lifetime_years": 15,
+        "onshore_wind_capacity_factor": 0.27,
+        "offshore_wind_capacity_factor": 0.35,
+        "wind_nd_eol_recovery": 0,
+        "wind_dy_eol_recovery": 0
+      },
+      "scope": "Selected design rows, not the complete compiled mean intensity matrix. Passenger car midpoints are model choices. EV magnet recovery has no separate Table 5 row. Element mass is not finished-magnet mass."
+    },
+    {
+      "id": "cheng-code-archive",
+      "title": "Code for Trade risks to energy security in net-zero emissions energy scenarios",
+      "year": 2024,
+      "url": "https://zenodo.org/records/11000460",
+      "concept_url": "https://doi.org/10.5281/zenodo.8165867",
+      "type": "author-deposited source archive",
+      "status": "metadata and eight scripts inspected; not executable end-to-end without omitted inputs",
+      "units": ["dimensionless index"],
+      "scope": "The resolved version is dated 19 April 2024. Scripts refer to missing input workbooks. A first-14-items material selection differs from the paper's stated 16 materials. No archived code is redistributed in this repository."
+    },
+    {
+      "id": "cheng-figure-data",
+      "title": "Trade risks to energy security in net-zero emissions energy scenarios: source data",
+      "year": 2025,
+      "url": "https://doi.org/10.6084/m9.figshare.28466435.v1",
+      "type": "author-deposited figure source data",
+      "status": "metadata and original figure workbooks inspected",
+      "units": ["reported TRI differences", "material composition shares", "scenario sensitivity values"],
+      "scope": "Published output controls, not the complete underlying model input database. These data are not a measured supply-chain flow matrix."
+    },
+    {
+      "id": "iea-ree-2026",
+      "title": "Rare Earth Elements: executive summary",
+      "year": 2026,
+      "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+      "type": "intergovernmental agency report",
+      "status": "2024 production-concentration figures verified from primary report",
+      "reference_year": 2024,
+      "units": ["share of magnet rare-earth mining", "share of magnet rare-earth refining", "share of sintered permanent magnet production"],
+      "selected_values": {
+        "china_mining_share": 0.6,
+        "china_refining_share": 0.91,
+        "china_sintered_magnet_production_share": 0.94
+      },
+      "scope": "Stage-specific production denominators. Used only as geographical proxies in a stylized disruption experiment. They are not element-specific operating capacities, importing-country supplier shares, qualified supply or bilateral routes."
+    }
+  ]
+}

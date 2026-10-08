@@ -1,0 +1,3165 @@
+{
+  "schema_version": 1,
+  "subject": {
+    "name": "Steven J. Davis",
+    "orcid": "0000-0002-9338-0844",
+    "profile": "https://profiles.stanford.edu/steve-davis"
+  },
+  "verified_on": "2026-10-07",
+  "selection_basis_en": "Twelve principal relationships and two materials/process research bridges, selected by pivotal or sustained public work—not frequency, friendship or network-centrality rank. Thirteen core papers, five companions and one recent extension are a reading selection, not a career impact ranking.",
+  "interpretation_en": "A useful reading of Davis’s work is to ask whose decision changes when an accounting boundary or physical constraint changes. Consumption accounting, infrastructure commitments, daily emissions, reliable electricity and material trade connect through that question structure. This is an evidence-grounded interpretation, not a claim that every project follows one workflow.",
+  "interpretation_source": "https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities",
+  "collaborators": [
+    {
+      "collaborator_id": "C01",
+      "selection": "core",
+      "name": "Ken Caldeira",
+      "identity_zh": "大气科学/气候与碳循环研究者；Stanford访问学者、Davis实验室Conceptual Investigations Unit负责人；Gates Ventures Senior Scientist。",
+      "affiliation_status": "current lab profile; retrieved2026-10-07",
+      "topics_zh": "碳核算、承诺排放、净零系统、可靠电力和贸易安全。",
+      "earliest_verified_joint_paper": {
+        "date": "2010-03-08",
+        "title": "Consumption-based accounting of CO₂ emissions",
+        "doi": "10.1073/pnas.0906974107",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/20212122/",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P08",
+        "P09",
+        "P13",
+        "P16"
+      ],
+      "development_zh": "从2010消费核算、基础设施承诺，到2011排放供应链；2016共同组织净零研讨会、2018系统综述，延续到2025贸易安全和2026电力/过程热研究。",
+      "documented_roles_zh": "2011与Davis共同设计研究、与Peters共同分析写作；2016与Davis/Lewis共同担任AGCI会议主席；2025参与能源安全评估和贸易情景的讨论输入。",
+      "formation": {
+        "status": "explicit personal-origin account",
+        "account_zh": "Davis在2024 Stanford第一人称采访说：博士最后一年与同学创办产品碳足迹非营利组织，组建顾问委员会时结识Caldeira；后者建议他做覆盖国际贸易商品的博士后研究。",
+        "first_meeting_date": null,
+        "caveat": "采访只给博士最后一年相对时期；未据此补出日历日期。"
+      },
+      "sources": [
+        {
+          "url": "https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities",
+          "supports": "Davis firsthand collaboration origin",
+          "publication_date": "2024-09-27",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://sustainablesolutions.stanford.edu/people/ken-caldeira",
+          "supports": "current roles/background",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/",
+          "supports": "2011 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20",
+          "supports": "2016 co-chair",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02305-1",
+          "supports": "2025 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Atmospheric, climate and carbon-cycle researcher; Stanford visiting scholar, head of the lab’s Conceptual Investigations Unit, and Senior Scientist at Gates Ventures.",
+      "topics_en": "Carbon accounting, committed emissions, net-zero systems, reliable electricity and trade security.",
+      "development_en": "Consumption accounting and infrastructure commitments in 2010 led to the 2011 emissions supply-chain study, co-organization of the 2016 net-zero workshop and the 2018 systems review, continuing into 2025 trade security and 2026 electricity/process-heat work.",
+      "documented_roles_en": "Co-designed the 2011 study with Davis and analyzed/wrote it with Davis and Peters; co-chaired the 2016 AGCI workshop with Davis and Lewis; supplied discussion input on the 2025 energy-security assessment and trade scenarios.",
+      "formation_en": "Davis’s 2024 Stanford interview describes meeting Caldeira while recruiting advisers for a product-carbon-footprint nonprofit during his final PhD year. Caldeira proposed postdoctoral work on goods in international trade. The interview gives a relative period, not an exact calendar date.",
+      "topic_ids": [
+        "accounting",
+        "infrastructure",
+        "energy",
+        "materials"
+      ]
+    },
+    {
+      "collaborator_id": "C02",
+      "selection": "core",
+      "name": "Glen P. Peters",
+      "identity_zh": "CICERO研究教授；研究全球碳循环、排放情景、消费/贸易与气候政策。",
+      "affiliation_status": "current official heading Research Professor; body senior researcher; not assumed current research director",
+      "topics_zh": "排放链、贸易核算、碳预算和减排情景。",
+      "earliest_verified_joint_paper": {
+        "date": "2011-10-17",
+        "title": "The supply chain of CO₂ emissions",
+        "doi": "10.1073/pnas.1107409108",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P03",
+        "P04",
+        "P05"
+      ],
+      "development_zh": "2011排放供应链→2012国际贸易碳综合→2013贸易依赖与气候政策→负排放/碳预算和后续排放资料合作。",
+      "documented_roles_zh": "2011贡献分析工具并与Davis实施研究；与Davis/Caldeira共同分析写作。2015中国清单论文是完整24人署名中的共同作者，不能因实验室简写漏名判为未参与。",
+      "formation": {
+        "status": "origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。"
+      },
+      "sources": [
+        {
+          "url": "https://cicero.oslo.no/en/employees/glen-peters",
+          "supports": "current title, expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/",
+          "supports": "first verified paper and contributions",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://bg.copernicus.org/articles/9/3247/2012/",
+          "supports": "2012 joint review",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/nature14677",
+          "supports": "complete byline",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://doi.org/10.1088/1748-9326/8/3/034011",
+          "supports": "2013 trade-policy paper",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Research Professor at CICERO, studying the global carbon cycle, emissions scenarios, consumption/trade and climate policy.",
+      "topics_en": "Emissions supply chains, trade accounting, carbon budgets and mitigation scenarios.",
+      "development_en": "The 2011 emissions supply chain connects to the 2012 trade-carbon synthesis and 2013 trade-dependence/climate-policy work, followed by negative-emissions, carbon-budget and emissions-data collaborations.",
+      "documented_roles_en": "Provided analytical tools and performed the 2011 research with Davis; analyzed and wrote it with Davis and Caldeira. Peters is also on the full 24-author 2015 China-inventory byline; an abbreviated lab list omitting him is not evidence of nonparticipation.",
+      "formation_en": "No verified public firsthand account of their first meeting or invitation was found. Joint papers establish research connections, not a personal origin story.",
+      "topic_ids": [
+        "accounting",
+        "land"
+      ]
+    },
+    {
+      "collaborator_id": "C03",
+      "selection": "core",
+      "name": "Qiang Zhang",
+      "chinese_name": "张强",
+      "identity_zh": "清华大学地球系统科学系教授；大气科学、排放清单、化学传输与气候/空气质量政策。",
+      "affiliation_status": "official faculty biography; exclude same-name scholars",
+      "topics_zh": "贸易污染、健康、机组清单、退役、材料与贸易安全。",
+      "earliest_verified_joint_paper": {
+        "date": "2014-01-21",
+        "title": "China’s international trade and air pollution in the United States",
+        "doi": "10.1073/pnas.1312860111",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24449863/",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P04",
+        "P07",
+        "P09",
+        "P13"
+      ],
+      "development_zh": "2014中美贸易污染→2016气溶胶辐射强迫→2017跨境健康；2018–2021转到机组/退役协同效益，2025贸易安全与2026健康不平等继续合作。",
+      "documented_roles_zh": "2017与Lin/He构思、牵头健康研究；2019与Tong/Davis共同设计并支持数据和方法；2025与Cheng/Tong/Davis共同设计。",
+      "formation": {
+        "status": "origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.dess.tsinghua.edu.cn/zhangqiang/en/index.htm",
+          "supports": "identity/current title/expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24449863/",
+          "supports": "first verified joint paper",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://ueaeprints.uea.ac.uk/id/eprint/63249/1/Accepted_manuscript.pdf",
+          "supports": "2017 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-019-1364-3",
+          "supports": "2019 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02305-1",
+          "supports": "2025 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-026-02675-0",
+          "supports": "continuing2026 collaboration",
+          "publication_date": "2026-06-30",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Professor in Tsinghua University’s Department of Earth System Science; atmospheric science, emissions inventories, chemical transport and climate/air-quality policy.",
+      "topics_en": "Trade-linked pollution, health, power-unit inventories, retirement, materials and trade security.",
+      "development_en": "The 2014 China–U.S. trade/pollution study continued through 2016 aerosol forcing and 2017 transboundary health work; 2018–2021 power-unit/retirement co-benefits connect to 2025 trade security and 2026 health inequality.",
+      "documented_roles_en": "Conceived and led the 2017 health study with Lin and He; co-designed the 2019 study with Tong and Davis and supported its data/methods; co-designed the 2025 study with Cheng, Tong and Davis.",
+      "formation_en": "No verified public firsthand account of their first meeting or invitation was found. A shared institution or coauthored paper does not establish how the relationship began.",
+      "topic_ids": [
+        "health",
+        "infrastructure",
+        "materials"
+      ]
+    },
+    {
+      "collaborator_id": "C04",
+      "selection": "core",
+      "name": "Dan Tong",
+      "chinese_name": "童丹",
+      "identity_zh": "清华大学地球系统科学系副教授；Davis实验室校友，研究能源—环境—经济系统建模。",
+      "affiliation_status": "current official faculty and lab alumni listing; not current Davis postdoc",
+      "topics_zh": "机组排放、承诺排放、战略退役、气候健康协同、贸易安全。",
+      "earliest_verified_joint_paper": {
+        "date": "2016-09-05",
+        "title": "Global climate forcing of aerosols embodied in international trade",
+        "doi": "10.1038/ngeo2798",
+        "url": "https://www.nature.com/articles/ngeo2798",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P07",
+        "P09",
+        "P13"
+      ],
+      "development_zh": "2016贸易气溶胶中计算排放→2017健康合作→2018超级排放机组与2019全球基础设施分析主导→2021退役和2025材料贸易安全。",
+      "documented_roles_zh": "2016参与排放计算；2019执行分析并与Davis牵头写作；2025设计研究、供应处理资料并参与写作。",
+      "formation": {
+        "status": "formal lab relationship documented; meeting origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。实验室校友身份提供正式关系证据，但不能自动当作首次接触日期。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.dess.tsinghua.edu.cn/tongdan/en/index.htm",
+          "supports": "current title",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://faculty.dess.tsinghua.edu.cn/tongdan/en/yjfx/5569/content/1050.htm",
+          "supports": "research expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://sustainablesolutions.stanford.edu/people",
+          "supports": "alumna/current Tsinghua status",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/ngeo2798",
+          "supports": "date/full byline/roles",
+          "publication_date": "2016-09-05",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-019-1364-3",
+          "supports": "2019 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02305-1",
+          "supports": "2025 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Associate Professor in Tsinghua’s Department of Earth System Science and a Davis-lab alumna; energy–environment–economy modeling.",
+      "topics_en": "Power-unit emissions, committed emissions, strategic retirement, climate/health co-benefits and trade security.",
+      "development_en": "Emissions calculations in the 2016 trade/aerosol paper were followed by 2017 health work, leading analyses of 2018 super-emitting units and 2019 global infrastructure, then 2021 retirement and 2025 material-trade security.",
+      "documented_roles_en": "Contributed emissions calculations in 2016; performed the 2019 analysis and led its writing with Davis; co-designed the 2025 study, supplied/processed data and contributed to writing.",
+      "formation_en": "Lab-alumni status documents a formal relationship. No public firsthand account establishes their first contact; it is not inferred from the alumni listing or institutional affiliation.",
+      "topic_ids": [
+        "health",
+        "infrastructure",
+        "materials"
+      ]
+    },
+    {
+      "collaborator_id": "C05",
+      "selection": "core",
+      "name": "Zhu Liu",
+      "chinese_name": "刘竹",
+      "identity_zh": "清华大学地球系统科学系教授；产业生态/碳排放核算研究者；此人并非同音或其他姓刘共同作者。",
+      "affiliation_status": "current official faculty chronology Professor since2023; old Harvard/Caltech affiliations historical",
+      "topics_zh": "中国/全球碳清单、经济贸易、Carbon Monitor日尺度数据。",
+      "earliest_verified_joint_paper": {
+        "date": "2013-06-10",
+        "title": "Outsourcing CO₂ within China",
+        "doi": "10.1073/pnas.1219918110",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23754377/",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P04",
+        "P07",
+        "P10",
+        "P14"
+      ],
+      "development_zh": "2013省际外包排放→2015中国清单校正→2020Carbon Monitor→后续全球/电力日尺度数据和2026长期日尺度CO₂资料。",
+      "documented_roles_zh": "2015与Guan设计中国修订研究并负责煤矿活动资料；2020与Ciais设计Carbon Monitor疫情论文、Deng协调数据，Davis参与收集/分析/写作。",
+      "formation": {
+        "status": "origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.dess.tsinghua.edu.cn/liuzhu/en/index.htm",
+          "supports": "identity/background",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://faculty.dess.tsinghua.edu.cn/liuzhu/en/index/5825/list/index.htm",
+          "supports": "faculty chronology",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23754377/",
+          "supports": "2013 joint paper/date",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/nature14677",
+          "supports": "2015 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-020-18922-7",
+          "supports": "2020 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41597-026-06621-9",
+          "supports": "2026 joint data resource",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Professor in Tsinghua’s Department of Earth System Science; industrial ecology and carbon-emissions accounting. Historical Harvard/Caltech affiliations are not presented as current posts.",
+      "topics_en": "China/global emissions inventories, economic trade and Carbon Monitor daily data.",
+      "development_en": "Provincial outsourcing in 2013 was followed by the 2015 China-inventory revision, Carbon Monitor in 2020 and later global/electricity daily datasets, including long-term daily CO₂ data in 2026.",
+      "documented_roles_en": "Co-designed the 2015 revision with Guan and handled coal-mine activity information; co-designed the 2020 pandemic/Carbon Monitor study with Ciais. Deng coordinated data processing; Davis participated in collection, analysis and writing.",
+      "formation_en": "No verified public firsthand account of their first meeting or invitation was found. The verified joint-paper timeline is not an acquaintance history.",
+      "topic_ids": [
+        "accounting",
+        "daily",
+        "health"
+      ]
+    },
+    {
+      "collaborator_id": "C06",
+      "selection": "core",
+      "name": "Philippe Ciais",
+      "identity_zh": "CEA研究主任、LSCE/IPSL碳循环研究者；自然碳源汇、监测与全球模型。",
+      "affiliation_status": "current title supported by2026-01-07 LSCE press release; not inferred CNRS employment from joint-lab affiliation",
+      "topics_zh": "化石排放清单、负排放、Carbon Monitor与碳预算。",
+      "earliest_verified_joint_paper": {
+        "date": "2012-05-25",
+        "title": "A synthesis of carbon dioxide emissions from fossil-fuel combustion",
+        "doi": "10.5194/bg-9-1845-2012",
+        "url": "https://bg.copernicus.org/articles/9/1845/2012/",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P04",
+        "P05",
+        "P10",
+        "P14"
+      ],
+      "development_zh": "2012清单综合→2015中国排放与负排放→2020近实时监测→2026日尺度历史资料等持续合作。",
+      "documented_roles_zh": "2015中国研究中参与分析；2020与Liu设计研究，Davis共同参与数据/分析/写作。碳循环经验有官方背景证据，但不因此推定所有联合论文使用同一碳循环模型。",
+      "formation": {
+        "status": "origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。"
+      },
+      "sources": [
+        {
+          "url": "https://www.lsce.ipsl.fr/wp-content/uploads/2026/01/2026_01_07_CP_Nature_LSCE_vdef-2.pdf",
+          "supports": "current CEA title",
+          "publication_date": "2026-01-07",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.lsce.ipsl.fr/en/pisp/philippe-ciais/",
+          "supports": "expertise; old career section not current rank",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://bg.copernicus.org/articles/9/1845/2012/",
+          "supports": "first verified peer-reviewed joint paper/date",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/nature14677",
+          "supports": "2015 contributions",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-020-18922-7",
+          "supports": "2020 research design",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "CEA research director and LSCE/IPSL carbon-cycle researcher; natural carbon sources/sinks, monitoring and global models. The CEA title is supported by a January 2026 LSCE release, not inferred from the joint laboratory’s institutions.",
+      "topics_en": "Fossil-emissions inventories, negative emissions, Carbon Monitor and carbon budgets.",
+      "development_en": "The 2012 inventory synthesis connects to 2015 China/negative-emissions work, near-real-time monitoring in 2020 and historical daily-data collaborations in 2026.",
+      "documented_roles_en": "Participated in the 2015 China analysis and co-designed the 2020 study with Liu; Davis participated in data, analysis and writing. Ciais’s carbon-cycle expertise does not mean every joint paper used the same carbon-cycle model.",
+      "formation_en": "No verified public firsthand account of their first meeting or invitation was found. The formal 2012 publication date is distinguished from its earlier discussion manuscript.",
+      "topic_ids": [
+        "accounting",
+        "daily",
+        "land"
+      ]
+    },
+    {
+      "collaborator_id": "C07",
+      "selection": "core",
+      "name": "Dabo Guan",
+      "chinese_name": "关大博",
+      "identity_zh": "清华大学地球系统科学系教授；生态经济学、环境投入产出与排放数据研究。",
+      "affiliation_status": "current faculty biography; Leeds2007 PhD and earlier UK affiliations historical",
+      "topics_zh": "省际/国际贸易足迹、中国清单、经济冲击、环境与健康。",
+      "earliest_verified_joint_paper": {
+        "date": "2013-06-10",
+        "title": "Outsourcing CO₂ within China",
+        "doi": "10.1073/pnas.1219918110",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23754377/",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P04",
+        "P07",
+        "P10"
+      ],
+      "development_zh": "2013省际隐含排放→2015本地排放因子/清单→2017健康、2018结构性减排与CEADs数据→2020疫情供应链与监测合作。",
+      "documented_roles_zh": "2013与Davis等参与分析/写作；2015与Liu设计研究；官方清华CEADs合作报道确认其团队对中国多尺度排放数据的持续建设。",
+      "formation": {
+        "status": "origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。IIASA报道中的Hubacek/Sun等关系史不能转写成Davis与Guan的相识史。"
+      },
+      "sources": [
+        {
+          "url": "https://faculty.dess.tsinghua.edu.cn/guandabo/en/index.htm",
+          "supports": "current identity/background",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23754377/",
+          "supports": "first joint paper",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://scholar.harvard.edu/files/zhu/files/pnas-2013-feng-11654-9_0.pdf",
+          "supports": "2013 contributions",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/nature14677",
+          "supports": "2015 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.dess.tsinghua.edu.cn/en/info/1226/1429.htm",
+          "supports": "CEADs and structural-emissions joint project",
+          "publication_date": "2018-08-08",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41562-020-0896-8",
+          "supports": "2020 joint supply-chain shock study",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Professor in Tsinghua’s Department of Earth System Science; ecological economics, environmental input–output modeling and emissions data.",
+      "topics_en": "Provincial/international trade footprints, China inventories, economic shocks, environment and health.",
+      "development_en": "Provincial embodied emissions in 2013 connect to 2015 local emissions factors/inventories, 2017 health and 2018 structural reductions/CEADs, then pandemic supply-chain and monitoring collaborations in 2020.",
+      "documented_roles_en": "Participated in the 2013 analysis/writing with Davis and others; co-designed the 2015 study with Liu. Official Tsinghua reporting documents the team’s sustained multiscale China-emissions-data work.",
+      "formation_en": "No public firsthand account establishes Guan’s first meeting with Davis. An IIASA account of Guan’s relationships with Hubacek/Sun cannot be reassigned to Davis.",
+      "topic_ids": [
+        "accounting",
+        "health",
+        "daily"
+      ]
+    },
+    {
+      "collaborator_id": "C08",
+      "selection": "core",
+      "name": "Nathan S. Lewis",
+      "identity_zh": "Caltech George L. Argyros Professor及化学教授；太阳能燃料、光电化学、半导体与能源系统。",
+      "affiliation_status": "current Caltech directory",
+      "topics_zh": "净零能源、风光可靠性、储能与能量转换。",
+      "earliest_verified_joint_paper": {
+        "date": "2017-01-09",
+        "title": "Achieving a Near-Zero Carbon Emissions Energy System",
+        "doi": "10.1029/2017EO064017",
+        "url": "https://eos.org/science-updates/achieving-a-near-zero-carbon-emissions-energy-system",
+        "basis": "joint first-person meeting report; separate from earliest peer-reviewed study"
+      },
+      "earliest_verified_peer_reviewed_joint_paper": {
+        "date": "2018-02-27",
+        "title": "Geophysical constraints on the reliability of solar and wind power in the United States",
+        "doi": "10.1039/C7EE03029K",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2018/ee/c7ee03029k",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "earliest_verified_joint_project": {
+        "date": "2016-07-31",
+        "project": "AGCI Getting Near Zero workshop",
+        "source": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20"
+      },
+      "joint_work_ids": [
+        "P08",
+        "P16"
+      ],
+      "development_zh": "2016共同主持跨学科会议→2017三人会议报告→2018可靠性分析和净零综述→2020长时储能等研究。",
+      "documented_roles_zh": "2016与Davis/Caldeira为会议共同主席；报告加州能源系统及太阳能燃料；2018共同通讯作者。没有逐人章节分工声明，不能把其专长转为实际独自完成的实验。",
+      "formation": {
+        "status": "specific project assembly documented; personal meeting origin unknown",
+        "account_zh": "AGCI官方记录和2018致谢将净零综述追溯至2016-07-31至08-05的跨学科研讨会。首次相识未公开。"
+      },
+      "sources": [
+        {
+          "url": "https://directory.caltech.edu/personnel/nslewis",
+          "supports": "current title",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://nsl.caltech.edu/home/people/nathan-s-lewis/",
+          "supports": "expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20",
+          "supports": "project assembly, co-chair, presentations",
+          "publication_date": "2016-07-31",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://eos.org/science-updates/achieving-a-near-zero-carbon-emissions-energy-system",
+          "supports": "first verified joint publication",
+          "publication_date": "2017-01-09",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://energyinnovation.org/wp-content/uploads/2018/07/Davis-et-al_Science2018_net-zero-emissions-energy-with-Suppl.pdf",
+          "supports": "corresponding authorship and acknowledgement",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "George L. Argyros Professor and Professor of Chemistry at Caltech; solar fuels, photoelectrochemistry, semiconductors and energy systems.",
+      "topics_en": "Net-zero energy, wind/solar reliability, storage and energy conversion.",
+      "development_en": "Co-chaired the 2016 interdisciplinary workshop, coauthored its 2017 report and the 2018 reliability analysis/net-zero review, followed by long-duration-storage research in 2020.",
+      "documented_roles_en": "Co-chaired the AGCI workshop with Davis and Caldeira; presented California energy systems and solar fuels; was a corresponding author of the 2018 review. No individual chapter-contribution statement supports assigning all experiments or technical sections by expertise.",
+      "formation_en": "AGCI records and the 2018 acknowledgements trace the review to the July 31–August 5, 2016 workshop. This documents a project’s assembly, not their first personal meeting.",
+      "topic_ids": [
+        "energy"
+      ]
+    },
+    {
+      "collaborator_id": "C09",
+      "selection": "core",
+      "name": "Inês M. L. Azevedo",
+      "identity_zh": "Stanford能源科学与工程教授、地球系统科学礼聘教授，Woods/Precourt高级研究员；技术、经济、环境与政策的决策评估。",
+      "affiliation_status": "current official Stanford profile; consolidated Inês/Ines and initials variants",
+      "topics_zh": "净零情景、健康/成本取舍、可靠电力和AI数据中心。",
+      "earliest_verified_joint_paper": {
+        "date": "2018-06-29",
+        "title": "Net-zero emissions energy systems",
+        "doi": "10.1126/science.aas9793",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/29954954/",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "earliest_verified_joint_project": {
+        "date": "2016-07-31",
+        "project": "AGCI net-zero workshop participation; Aug2 transport LCA talk",
+        "source": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20"
+      },
+      "joint_work_ids": [
+        "P08"
+      ],
+      "development_zh": "2016会议→2018净零综述→2020美国电力气候/健康优化→2021净零情景→2026地方健康公平和AI供电决策种子项目。",
+      "documented_roles_zh": "2016呈现电动车/汽油车生命周期分析；2026AI供电项目PI，Davis与Carlos Díaz Marín、Edgar Virgüez为共同PI。资助确认合作，不证明工具已经完成。",
+      "formation": {
+        "status": "specific project assembly documented; personal meeting origin unknown",
+        "account_zh": "可证2016共同参与AGCI会议以及其交通LCA报告；会议产出包括2018论文。未查到两人第一次见面或受邀合作的个人叙述。"
+      },
+      "sources": [
+        {
+          "url": "https://profiles.stanford.edu/ines-azevedo",
+          "supports": "current title/expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20",
+          "supports": "workshop role",
+          "publication_date": "2016-07-31",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29954954/",
+          "supports": "2018 byline",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://doi.org/10.1021/acs.est.9b06936",
+          "supports": "2020 electricity health/climate paper",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41467-021-26356-y",
+          "supports": "2021 scenarios",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://bitsandwatts.stanford.edu/news/bits-watts-adds-eight-new-research-projects-its-sustainable-ai-infrastructure-research",
+          "supports": "2026 joint project",
+          "publication_date": "2026-08-18",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-026-02675-0",
+          "supports": "2026 health equity",
+          "publication_date": "2026-06-30",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Professor of Energy Science and Engineering at Stanford, by courtesy in Earth System Science, and senior fellow at Woods/Precourt; decision assessment across technology, economics, environment and policy.",
+      "topics_en": "Net-zero scenarios, health/cost trade-offs, reliable electricity and AI data centers.",
+      "development_en": "The 2016 workshop connects to the 2018 review, 2020 U.S. power climate/health optimization, 2021 net-zero scenarios and 2026 local health equity/AI power-decision seed funding.",
+      "documented_roles_en": "Presented electric-versus-gasoline transport lifecycle analysis at AGCI in 2016. PI of the 2026 AI-power project; Davis, Carlos Díaz Marín and Edgar Virgüez are co-PIs. Funding confirms collaboration, not a completed tool.",
+      "formation_en": "Participation and the transport-LCA presentation at the 2016 workshop are documented. No personal first-meeting or invitation account was found.",
+      "topic_ids": [
+        "energy",
+        "health"
+      ]
+    },
+    {
+      "collaborator_id": "C10",
+      "selection": "core",
+      "name": "Chaopeng Hong",
+      "chinese_name": "洪超鹏",
+      "identity_zh": "现清华大学教师，Davis实验室博士后2017-11至2021-06；大气/气候、清单、农业与土地排放研究。",
+      "affiliation_status": "current lab alumni and official Tsinghua directory; conservative rank wording faculty",
+      "topics_zh": "空气污染、基础设施、土地GHG与贸易。",
+      "earliest_verified_joint_paper": {
+        "date": "2015-08-19",
+        "title": "Reduced carbon emission estimates from fossil fuel combustion and cement production in China",
+        "doi": "10.1038/nature14677",
+        "url": "https://www.nature.com/articles/nature14677",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P04",
+        "P09",
+        "P11",
+        "P15"
+      ],
+      "development_zh": "2015完整署名已共同研究，早于2017加入Davis实验室；后参与基础设施方法，2021牵头土地驱动分析、2022牵头土地贸易论文。",
+      "documented_roles_zh": "2015为分析参与者；2021与Davis/Burney执行分析，与Davis牵头写作，Pongratz/Nabel提供土地变化数据支持。其历史实验室介绍说明参与Davis领导的INFEWS农业/空气污染研究。",
+      "formation": {
+        "status": "formal postdoc relationship documented; meeting origin unknown",
+        "account_zh": "实验室入职和联合项目清楚；首次相识/为何招聘未公开。不能从2017博士后开始倒推2015论文合作的起点。"
+      },
+      "sources": [
+        {
+          "url": "https://sustainablesolutions.stanford.edu/people/chaopeng-hong",
+          "supports": "lab tenure/current affiliation",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.sigs.tsinghua.edu.cn/en/facutly/list.htm",
+          "supports": "current faculty directory",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/nature14677",
+          "supports": "full24-person2015 byline",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41586-020-03138-y",
+          "supports": "2021 explicit roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.ess.uci.edu/~sustsys/hong.html",
+          "supports": "historical INFEWS and expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.science.org/doi/10.1126/science.abj1572",
+          "supports": "2022 joint work",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Tsinghua faculty member; Davis-lab postdoc from November 2017 to June 2021. Research spans atmosphere/climate, inventories, agriculture and land emissions; the current rank is described conservatively.",
+      "topics_en": "Air pollution, infrastructure, land greenhouse gases and trade.",
+      "development_en": "The full 2015 byline verifies joint work before joining Davis’s lab in 2017. Infrastructure-method collaborations were followed by lead authorship of the 2021 land-drivers analysis and 2022 land/trade study.",
+      "documented_roles_en": "Participated in the 2015 analysis. In 2021 Hong, Davis and Burney performed analyses; Hong/Davis led writing; Pongratz/Nabel supported land-change data. The historical lab profile documents participation in Davis-led INFEWS agriculture/air-pollution research.",
+      "formation_en": "Postdoctoral tenure and joint projects are documented; first meeting/recruitment motives are not. The 2017 appointment is not the beginning of the earlier 2015 publication relationship.",
+      "topic_ids": [
+        "health",
+        "infrastructure",
+        "land"
+      ]
+    },
+    {
+      "collaborator_id": "C11",
+      "selection": "core",
+      "name": "Jing Cheng",
+      "chinese_name": null,
+      "identity_zh": "现Peking University教师；Davis实验室博士后2022-03至2026-03；能源/空气质量、材料贸易与安全评估。",
+      "affiliation_status": "current lab page; exact current faculty rank/department not independently verified; Chinese character name not assigned without identity source",
+      "topics_zh": "碳中和与空气质量、机组退役、钢铁脱碳、材料贸易安全、健康公平。",
+      "earliest_verified_joint_paper": {
+        "date": "2021-04-29",
+        "title": "Pathways of China’s PM₂.₅ air quality 2015–2060 in the context of carbon neutrality",
+        "doi": "10.1093/nsr/nwab078",
+        "url": "https://academic.oup.com/nsr/article/8/12/nwab078/6258436",
+        "basis": "earliest here; advance-access date29Apr; finalvolumeDec2021"
+      },
+      "joint_work_ids": [
+        "P13"
+      ],
+      "development_zh": "2021空气质量路径已与Davis联合，早于博士后入职；2022–2026正式实验室合作中扩展至全球钢铁与能源安全，2026仍共同发表健康公平研究。",
+      "documented_roles_zh": "2025不仅提供数据：共同设计研究，与Davis开发评估/未来贸易情景，执行安全计算和敏感性模拟并共同写作。",
+      "formation": {
+        "status": "formal postdoc relationship documented; personal origin unknown",
+        "account_zh": "博士后时间和联合论文可证；首次相识及邀请经过未公开。2025论文中的Stanford署名是发表时历史单位，不应当作2026现职。"
+      },
+      "sources": [
+        {
+          "url": "https://sustainablesolutions.stanford.edu/people/jing-cheng",
+          "supports": "current Peking status and tenure",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://academic.oup.com/nsr/article/8/12/nwab078/6258436",
+          "supports": "2021 full byline/date",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.meklesm.tsinghua.edu.cn/info/1077/1964.htm",
+          "supports": "author institution paper account",
+          "publication_date": "2021-05-06",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02305-1",
+          "supports": "2025 roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-026-02675-0",
+          "supports": "continuing2026 paper",
+          "publication_date": "2026-06-30",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1093/nsr/nwab078",
+          "supports": "publisher-deposited online date2021-04-29 and final issue2021-12-22",
+          "publication_date": "2021-04-29",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Peking University faculty member; Davis-lab postdoc from March 2022 to March 2026. Exact current rank/department and Chinese-character name were not independently verified.",
+      "topics_en": "Carbon neutrality/air quality, power-unit retirement, steel decarbonization, material-trade security and health equity.",
+      "development_en": "The 2021 air-quality-pathways paper predates postdoctoral entry. Formal 2022–2026 lab work extended into global steel and energy security; joint health-equity research continued in 2026.",
+      "documented_roles_en": "The 2025 role extends beyond supplying data: co-designed the study, developed the assessment and future-trade scenarios with Davis, performed security calculations/sensitivity simulations and contributed to writing.",
+      "formation_en": "Postdoctoral dates and joint papers are documented; first meeting/invitation details are unknown. The 2025 Stanford byline is a publication-time affiliation, not Cheng’s current 2026 post.",
+      "topic_ids": [
+        "health",
+        "infrastructure",
+        "materials"
+      ]
+    },
+    {
+      "collaborator_id": "C12",
+      "selection": "core",
+      "name": "Pete Smith",
+      "identity_zh": "Aberdeen教授、Plant & Soil Science讲席；土壤/生物碳汇、负排放、土地与减排模型。",
+      "affiliation_status": "current university appointment heading; biography also uses Soils and Global Change",
+      "topics_zh": "负排放资源约束、地球系统响应、食物反弹和碳移除。",
+      "earliest_verified_joint_paper": {
+        "date": "2015-12-07",
+        "title": "Biophysical and economic limits to negative CO₂ emissions",
+        "doi": "10.1038/nclimate2870",
+        "url": "https://www.nature.com/articles/nclimate2870",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "earliest_verified_joint_project": {
+        "date": "2013-04",
+        "project": "GCP NETs analysis launched at Laxenburg meeting",
+        "source": "https://jacksonlab.stanford.edu/sites/g/files/sbiybj20871/files/media/file/nclimate2870.pdf"
+      },
+      "joint_work_ids": [
+        "P05"
+      ],
+      "development_zh": "2013GCP项目构思→2015/2016资源约束综述→2016负排放地球系统响应→2023食物损耗/浪费反弹及2025木质残体碳移除合作。",
+      "documented_roles_zh": "Smith牵头NETs论文写作与分析；Davis贡献重要分析、图形构思制作；其他作者提供不同技术/模型专业能力。",
+      "formation": {
+        "status": "specific project origin explicitly documented; personal meeting origin unknown",
+        "account_zh": "分析于GCP Laxenburg2013年4月负排放会议启动；这是团队研究起源，不能宣称Smith与Davis第一次在那里认识。"
+      },
+      "sources": [
+        {
+          "url": "https://abdn.elsevierpure.com/en/persons/pete-smith/",
+          "supports": "current identity/expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://jacksonlab.stanford.edu/sites/g/files/sbiybj20871/files/media/file/nclimate2870.pdf",
+          "supports": "acknowledgement and contributions",
+          "publication_date": "2015-12-07",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://doi.org/10.1088/1748-9326/11/9/095012",
+          "supports": "2016 follow-on",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s43016-023-00792-z",
+          "supports": "2023 joint food rebound",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41561-025-01731-2",
+          "supports": "2025 joint carbon-removal work",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Professor at Aberdeen, with a Plant & Soil Science appointment; soils/biological sinks, negative emissions, land and mitigation modeling.",
+      "topics_en": "Negative-emissions resource constraints, Earth-system responses, food rebound and carbon removal.",
+      "development_en": "An April 2013 GCP analysis launch led to the 2015/2016 resource-constraints review and 2016 Earth-system responses, then 2023 food-loss/waste rebound and 2025 woody-residue carbon removal.",
+      "documented_roles_en": "Smith led the negative-emissions paper’s writing and analysis. Davis supplied substantial analysis and conceived/produced figures; other authors contributed technology/model expertise.",
+      "formation_en": "The paper states that analysis began at the April 2013 GCP negative-emissions meeting in Laxenburg. This is a documented project origin, not proof that Smith and Davis first met there.",
+      "topic_ids": [
+        "land"
+      ]
+    },
+    {
+      "collaborator_id": "C13",
+      "selection": "meeting_bridge",
+      "name": "Seaver Wang",
+      "identity_zh": "Breakthrough Institute Climate and Energy主任；材料/制造链、重工业、东亚能源政策。",
+      "affiliation_status": "current official biography",
+      "topics_zh": "能源情景的材料需求、材料生产排放与数据输入。",
+      "earliest_verified_joint_paper": {
+        "date": "2023-01",
+        "title": "Future demand for electricity generation materials under different climate mitigation scenarios",
+        "doi": "10.1016/j.joule.2023.01.001",
+        "url": "https://www.sciencedirect.com/science/article/pii/S2542435123000016",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P12"
+      ],
+      "development_zh": "2023第一作者材料情景研究；2025贸易安全论文致谢其详细材料需求数据与估算建议，形成可核实的方法/数据承接。",
+      "documented_roles_zh": "2023第一作者；2025为被致谢的数据/建议贡献者，不应加进2025作者名单。",
+      "formation": {
+        "status": "research linkage documented; meeting origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。"
+      },
+      "sources": [
+        {
+          "url": "https://thebreakthrough.org/people/seaver-wang",
+          "supports": "current role/expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://thebreakthrough.org/issues/energy/future-demand-for-electricity-generation-materials-under-different-climate-mitigation-scenarios",
+          "supports": "author institution research account",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2542435123000016",
+          "supports": "2023 byline",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02305-1",
+          "supports": "2025 specific acknowledgement",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "identity_en": "Director of Climate and Energy at the Breakthrough Institute; materials/manufacturing chains, heavy industry and East Asian energy policy.",
+      "topics_en": "Materials demand in energy scenarios, production emissions and model inputs.",
+      "development_en": "First author of the 2023 materials/scenarios study; acknowledged in the 2025 trade-security paper for detailed material-demand data and estimation advice. This documents a methodological/data connection.",
+      "documented_roles_en": "First author in 2023. Acknowledged data/advice contributor in 2025, not an author of that 2025 paper.",
+      "formation_en": "No verified public firsthand account of first meeting/invitation was found. The documented research/data linkage does not establish personal origins or an ongoing NdFeB project.",
+      "topic_ids": [
+        "materials",
+        "energy"
+      ]
+    },
+    {
+      "collaborator_id": "C14",
+      "selection": "meeting_bridge",
+      "name": "Karan Bhuwalka",
+      "identity_zh": "现Citadel量化研究者，STEER校友，2025-11离开；历史Stanford工作为工程—经济—不确定性结合的关键材料供应链建模。",
+      "affiliation_status": "current STEER roster supersedes older Research Engineer biography",
+      "topics_zh": "材料储量/贸易数据、过程成本、供应链决策与敏感性。",
+      "earliest_verified_joint_paper": {
+        "date": "2025-04-09",
+        "title": "Trade risks to energy security in net-zero emissions energy scenarios",
+        "doi": "10.1038/s41558-025-02305-1",
+        "url": "https://www.nature.com/articles/s41558-025-02305-1",
+        "basis": "earliest joint peer-reviewed paper verified in this bounded audit; not proof of actual first collaboration"
+      },
+      "joint_work_ids": [
+        "P13"
+      ],
+      "development_zh": "2025同行评议贸易安全论文；另与Davis/Benson/Chueh/Boies等共同撰写石墨过程供应成本预印本（arXiv2025-03、SSRN2026-05仍明确未审稿）。",
+      "documented_roles_zh": "2025供应/处理能源、材料、储量和贸易数据，并对安全评估和未来贸易情景提供输入。石墨预印本采用过程成本模型，不能当作已发表NdFeB工程模型。",
+      "formation": {
+        "status": "origin unknown",
+        "account_zh": "首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。共同STEER背景不能代替其与Davis如何首次合作的叙述。"
+      },
+      "sources": [
+        {
+          "url": "https://steer.stanford.edu/team",
+          "supports": "current alumni/Citadel status",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://energy.stanford.edu/people/karan-bhuwalka",
+          "supports": "historical research expertise",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02305-1",
+          "supports": "2025 explicit roles",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://arxiv.org/abs/2503.21521",
+          "supports": "2025 joint preprint",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6804354",
+          "supports": "2026 unreviewed posting",
+          "publication_date": "2026-05-21",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "earliest_verified_joint_preprint": {
+        "date": "2025-03",
+        "title": "Process-based graphite supply-chain cost study",
+        "url": "https://arxiv.org/abs/2503.21521",
+        "status": "not peer reviewed; separate from earliest peer-reviewed joint paper"
+      },
+      "identity_en": "Quantitative researcher at Citadel and a STEER alumnus, leaving in November 2025. Historical Stanford work combined engineering, economics and uncertainty in critical-material supply-chain models.",
+      "topics_en": "Material reserves/trade data, process costs, supply-chain decisions and sensitivity analysis.",
+      "development_en": "Coauthored the 2025 peer-reviewed trade-security paper and a graphite process/supply-cost preprint with Davis, Benson, Chueh, Boies and others. The March 2025 arXiv and May 2026 SSRN postings are explicitly unreviewed.",
+      "documented_roles_en": "Supplied/processed energy, material, reserve and trade inputs in 2025 and provided assessment/future-scenario input. The process-cost graphite preprint is not a published NdFeB engineering model.",
+      "formation_en": "No public firsthand account of first meeting/invitation was found. Shared STEER context does not establish how the collaboration began; current alumni/Citadel records supersede an older Stanford Research Engineer biography.",
+      "topic_ids": [
+        "materials"
+      ]
+    }
+  ],
+  "papers": [
+    {
+      "paper_id": "P01",
+      "selection": "core",
+      "doi": "10.1073/pnas.0906974107",
+      "title": "Consumption-based accounting of CO₂ emissions",
+      "publication_date": "2010-03-08",
+      "date_basis": "online; issue2010-03-23",
+      "question_zh": "碳排放由生产地承担还是追随最终消费者，全球责任分布会怎样改变？",
+      "contribution_zh": "把2004年经济贸易与化石燃料CO₂清单连接到消费端；估计23%的全球CO₂排放内含于国际贸易。",
+      "significance_zh": "研究边界改变国家责任与外包排放判断；是其后贸易、污染和土地研究的核心方法脉络。不是消费核算方法的首次发明。",
+      "key_collaborators": [
+        "Ken Caldeira"
+      ],
+      "davis_or_team_roles_zh": "两人联合论文；此处不按署名顺序推定完整劳动分工。",
+      "scope_and_limit_zh": "2004年全球化石燃料CO₂与国际贸易；不是2026现状。",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20212122/",
+          "section": "Abstract, authors, dates",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.0906974107",
+          "section": "publisher",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 2611
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How does global responsibility change when emissions follow final consumers rather than the place of production?",
+      "contribution_en": "Links 2004 economic trade and fossil-fuel CO₂ inventories to consumption; estimates 23% of global CO₂ was embodied in international trade.",
+      "significance_en": "Changing the accounting boundary changes national responsibility and outsourcing judgments. This is a central thread for later trade, pollution and land work, not the first invention of consumption accounting.",
+      "davis_or_team_roles_en": "A joint two-author paper with Caldeira. Author order is not used to infer a complete division of labor.",
+      "scope_and_limit_en": "2004 global fossil-fuel CO₂ and international trade; not the 2026 situation."
+    },
+    {
+      "paper_id": "P02",
+      "selection": "core",
+      "doi": "10.1126/science.1188566",
+      "title": "Future CO₂ emissions and climate change from existing energy infrastructure",
+      "publication_date": "2010-09-10",
+      "date_basis": "journal publication",
+      "question_zh": "今天安装的能源设备，假定继续运行，会锁定多少未来排放和气候变化？",
+      "contribution_zh": "将当时已有能源基础设施与运行寿命、未来排放和气候响应连接，区分已建设资产与未来新增建设。",
+      "significance_zh": "将当期流量问题改写为资本存量与寿命问题；为后续承诺排放、提前退役和碳锁定研究提供量化框架。",
+      "key_collaborators": [
+        "Ken Caldeira",
+        "H. Damon Matthews"
+      ],
+      "davis_or_team_roles_zh": "公开摘要确认三人共同研究；此处不将模型劳动细分给某一作者。",
+      "scope_and_limit_zh": "未来排放取决于设备寿命、利用与替换等假设；不是不可改变的命运预测。",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20829483/",
+          "section": "Abstract, authors, dates",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.science.org/doi/10.1126/science.1188566",
+          "section": "publisher",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1779
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How much future emissions and climate change follow if existing energy equipment continues operating?",
+      "contribution_en": "Connects then-existing infrastructure to operating lifetimes, future emissions and climate response, distinguishing installed assets from future construction.",
+      "significance_en": "Reframes current flows as capital stocks and lifetimes, providing a quantitative framework for later commitment, early-retirement and lock-in work.",
+      "davis_or_team_roles_en": "The public abstract confirms joint research by Davis, Caldeira and Matthews; individual modeling tasks are not assigned by inference.",
+      "scope_and_limit_en": "Future emissions depend on lifetime, utilization and replacement assumptions; they are not inevitable."
+    },
+    {
+      "paper_id": "P03",
+      "selection": "core",
+      "doi": "10.1073/pnas.1107409108",
+      "title": "The supply chain of CO₂ emissions",
+      "publication_date": "2011-10-17",
+      "date_basis": "online; issue2011-11-08",
+      "question_zh": "同一碳排放沿开采、燃烧、最终消费链条移动时，哪个环节适合政策干预？",
+      "contribution_zh": "把化石资源来源、燃烧与消费联系起来；用GTAP贸易/投入产出数据追踪2004年112个国家/区域、58个部门。",
+      "significance_zh": "显示排放发生地、获益地和可监管点并不相同；与今天矿物供应链研究有直接的边界思想联系。",
+      "key_collaborators": [
+        "Glen P. Peters",
+        "Ken Caldeira"
+      ],
+      "davis_or_team_roles_zh": "Davis/Caldeira设计；Davis/Peters实施研究并提供分析工具；三人分析、写作。",
+      "scope_and_limit_zh": "2004年排放链，经济负担与监管点不同；不是稀土工业物流数据库。",
+      "sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/",
+          "section": "Author contributions, methods, discussion",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.1107409108",
+          "section": "publisher",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 683
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "Where along extraction, combustion and final consumption can policy intervene in the emissions chain?",
+      "contribution_en": "Connects fossil-resource origins, combustion and consumption, using GTAP trade/input–output data for 112 countries/regions and 58 sectors in 2004.",
+      "significance_en": "Emissions locations, benefits and regulatory points differ. This boundary logic connects to mineral-supply research.",
+      "davis_or_team_roles_en": "Davis/Caldeira designed the study; Davis/Peters performed research and provided analytical tools; all three analyzed and wrote.",
+      "scope_and_limit_en": "A 2004 emissions account distinguishing burdens and regulatory points, not a rare-earth industrial-logistics database."
+    },
+    {
+      "paper_id": "P04",
+      "selection": "core",
+      "doi": "10.1038/nature14677",
+      "title": "Reduced carbon emission estimates from fossil fuel combustion and cement production in China",
+      "publication_date": "2015-08-19",
+      "date_basis": "online",
+      "question_zh": "中国能源统计与本地煤炭排放因子修正后，排放清单会怎样改变？",
+      "contribution_zh": "协调能源和熟料数据，结合煤矿数据与602份煤样测量，修正中国化石燃料燃烧和水泥排放估计。",
+      "significance_zh": "说明情景分析的基线必须经过底层活动与排放因子校验；不是仅对不同数据库做平均。",
+      "key_collaborators": [
+        "Zhu Liu",
+        "Dabo Guan",
+        "Philippe Ciais",
+        "Qiang Zhang",
+        "Chaopeng Hong",
+        "Glen P. Peters",
+        "Wei Wei",
+        "Jin Bai"
+      ],
+      "davis_or_team_roles_zh": "Davis提供参考数据、参与分析和图形/写作；煤样测量由Wei Wei/Jin Bai负责，不应归给Davis。",
+      "scope_and_limit_zh": "煤炭化学样本与全国清单有明确分工；此处不将碳质量单位误作CO₂质量。出版社完整24人署名比实验室缩写10人更完整。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nature14677",
+          "section": "Authors, abstract, contributions",
+          "publication_date": "2015-08-19",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1870
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How do China’s inventories change after reconciling energy statistics and local coal-emissions factors?",
+      "contribution_en": "Reconciles energy/clinker information with coal-mine data and measurements of 602 coal samples to revise fossil-combustion and cement estimates.",
+      "significance_en": "Scenario baselines need validation of underlying activity and emissions factors, rather than simply averaging databases.",
+      "davis_or_team_roles_en": "Davis provided reference data and participated in analysis, figures and writing. Wei Wei/Jin Bai performed coal-sample measurements; these are not assigned to Davis.",
+      "scope_and_limit_en": "Coal chemistry and national-inventory work have distinct roles. Carbon mass is not CO₂ mass. The publisher’s 24-author list is fuller than the lab’s ten-name abbreviation."
+    },
+    {
+      "paper_id": "P05",
+      "selection": "core",
+      "doi": "10.1038/nclimate2870",
+      "title": "Biophysical and economic limits to negative CO₂ emissions",
+      "publication_date": "2015-12-07",
+      "date_basis": "online2015; final journal volume2016",
+      "question_zh": "气候情景中的大规模负排放，需要多少土地、水、养分、能源和成本？",
+      "contribution_zh": "跨技术量化负排放的资源、经济约束和副作用，将情景依赖转成可检验的物理需求。",
+      "significance_zh": "高引用的跨学科约束综述；与材料供应研究共同强调“模型需要”不能自动变成“可部署供给”。",
+      "key_collaborators": [
+        "Pete Smith",
+        "Felix Creutzig",
+        "Sabine Fuss",
+        "Jan Minx",
+        "Philippe Ciais",
+        "Glen P. Peters",
+        "Robert B. Jackson"
+      ],
+      "davis_or_team_roles_zh": "Smith牵头写作/分析；Davis参与重要分析并构思、制作图形；全体参与研究构思与稿件。",
+      "scope_and_limit_zh": "2013年4月GCP Laxenburg NETs会议启动该分析；这只证明项目形成，不能证明两人初次见面。文中的MaGNET为负排放研究项目，与NdFeB磁铁无关。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nclimate2870",
+          "section": "Abstract, acknowledgements, contributions",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.globalcarbonproject.org/global/pdf/Smith_2015_Biophysical%20and%20economic%20limits%20to%20negative%20CO2%20emissions.NatureCC.pdf",
+          "section": "author/project archive",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.pbl.nl/en/publications/biophysical-and-economic-limits-to-negative-co2-emissions",
+          "section": "author institution metadata",
+          "publication_date": "2015-12-07",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1904
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "What land, water, nutrient, energy and cost constraints accompany large-scale negative emissions?",
+      "contribution_en": "Quantifies resource/economic constraints and side effects across technologies, making scenario reliance testable as physical requirements.",
+      "significance_en": "A widely cited interdisciplinary constraints review: what a model requires is not automatically deployable supply.",
+      "davis_or_team_roles_en": "Smith led writing/analysis; Davis contributed important analysis and conceived/produced figures; all authors contributed to the study and manuscript.",
+      "scope_and_limit_en": "The analysis began at the April 2013 GCP Laxenburg NETs meeting, not necessarily a first personal meeting. MaGNET is a negative-emissions project, unrelated to NdFeB magnets."
+    },
+    {
+      "paper_id": "P06",
+      "selection": "core",
+      "doi": "10.1146/annurev-environ-110615-085934",
+      "title": "Carbon Lock-In: Types, Causes, and Policy Implications",
+      "publication_date": "2016-09-02",
+      "date_basis": "Review in Advance; volumeOct2016",
+      "question_zh": "为什么有替代技术仍难以摆脱高碳体系？",
+      "contribution_zh": "整合基础设施/技术、制度、行为三类锁定及其相互强化关系。",
+      "significance_zh": "把设备寿命问题扩展到社会经济惯性，帮助判断干预窗口与长期影响；并非Davis原创“carbon lock-in”术语。",
+      "key_collaborators": [
+        "Karen C. Seto",
+        "Ronald B. Mitchell",
+        "Eleanor C. Stokes",
+        "Gregory Unruh",
+        "Diana Ürge-Vorsatz"
+      ],
+      "davis_or_team_roles_zh": "联合综述；没有据公开贡献声明细分每位作者的章节职责。",
+      "scope_and_limit_zh": "概念综合而非一个新设备实验；继承包括Unruh在内的既有锁定研究。",
+      "sources": [
+        {
+          "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-environ-110615-085934",
+          "section": "Abstract, authors, dates",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1751
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "Why can high-carbon systems persist even when alternative technologies exist?",
+      "contribution_en": "Synthesizes technological/infrastructure, institutional and behavioral lock-in and their reinforcing relationships.",
+      "significance_en": "Extends equipment-lifetime questions to socioeconomic inertia and intervention windows. Davis did not originate the term “carbon lock-in.”",
+      "davis_or_team_roles_en": "A joint review; no public contribution statement supports assigning each author’s individual sections.",
+      "scope_and_limit_en": "Conceptual synthesis, not a new equipment experiment; builds on earlier lock-in work, including Unruh’s."
+    },
+    {
+      "paper_id": "P07",
+      "selection": "core",
+      "doi": "10.1038/nature21712",
+      "title": "Transboundary health impacts of transported global air pollution and international trade",
+      "publication_date": "2017-03-30",
+      "date_basis": "journal publication",
+      "question_zh": "污染跨境飘来，和本地为国外消费者生产而造成的健康损害，各有多大？",
+      "contribution_zh": "耦合排放、经济贸易、化学传输和健康模型，区分物理大气传输与消费导致的排放转移。",
+      "significance_zh": "把碳贸易核算扩展至健康后果；展示如何围绕一个问题组合多学科模型。",
+      "key_collaborators": [
+        "Qiang Zhang",
+        "Xujia Jiang",
+        "Dan Tong",
+        "Hongyan Zhao",
+        "Jintai Lin",
+        "Kebin He",
+        "Dabo Guan"
+      ],
+      "davis_or_team_roles_zh": "Zhang/Lin/He构思；Zhang牵头；Tong等计算排放，Geng做GEOS-Chem、Jiang估健康；Davis参与解释与写作。",
+      "scope_and_limit_zh": "2007年PM₂.₅相关模型估算；贸易关联死亡不是污染全部物理飘过国境，更不是医学临床试验。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/nature21712",
+          "section": "Abstract, full byline, contributions",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://ueaeprints.uea.ac.uk/id/eprint/63249/1/Accepted_manuscript.pdf",
+          "section": "author accepted manuscript, contribution statement",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1193
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How do health impacts of physically transported pollution differ from local production for foreign consumers?",
+      "contribution_en": "Couples emissions, economic trade, chemical-transport and health models, distinguishing atmospheric transport from consumption-linked emissions relocation.",
+      "significance_en": "Extends trade accounting into health consequences and combines disciplinary models around one question.",
+      "davis_or_team_roles_en": "Zhang/Lin/He conceived the study and Zhang led it; Tong and others calculated emissions, Geng performed GEOS-Chem work, Jiang estimated health; Davis interpreted and wrote.",
+      "scope_and_limit_en": "Modeled PM₂.₅ impacts for 2007. Trade-associated deaths do not mean all pollution crossed borders physically; this is not a clinical trial."
+    },
+    {
+      "paper_id": "P08",
+      "selection": "core",
+      "doi": "10.1126/science.aas9793",
+      "title": "Net-zero emissions energy systems",
+      "publication_date": "2018-06-29",
+      "date_basis": "journal publication",
+      "question_zh": "接近全面净零时，可靠电力、长途运输和钢铁水泥等服务如何一起实现？",
+      "contribution_zh": "综合可靠电力、能量密集燃料、工业过程与跨部门系统整合，说明难减排部分需要技术组合和研发。",
+      "significance_zh": "本次实验室显示引用最高的精选论文；从逐步减排转向完整净零服务，是后续储能、航空、工业与材料问题的共同框架。",
+      "key_collaborators": [
+        "Nathan S. Lewis",
+        "Ken Caldeira",
+        "Inês L. Azevedo",
+        "Matthew Shaner",
+        "Sally M. Benson",
+        "Jessika E. Trancik"
+      ],
+      "davis_or_team_roles_zh": "Davis/Lewis/Caldeira为通讯作者；公开版本未见逐人贡献声明，不按排序分配所有技术章节。",
+      "scope_and_limit_zh": "综述起源于2016-07-31至08-05 AGCI跨学科研讨会；不是NdFeB交付或供应短缺论文。",
+      "sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29954954/",
+          "section": "Abstract, byline, date",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.science.org/doi/10.1126/science.aas9793",
+          "section": "publisher",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://eos.org/science-updates/achieving-a-near-zero-carbon-emissions-energy-system",
+          "section": "Davis/Lewis/Caldeira first-person meeting report",
+          "publication_date": "2017-01-09",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://energyinnovation.org/wp-content/uploads/2018/07/Davis-et-al_Science2018_net-zero-emissions-energy-with-Suppl.pdf",
+          "section": "coauthor organization archived full paper",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20",
+          "section": "Official agenda, co-chairs, presentations and workshop outcomes",
+          "publication_date": "2016-07-31–2016-08-05",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 2996
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How can reliable electricity, long-distance transport, steel/cement and other services jointly approach net zero?",
+      "contribution_en": "Synthesizes reliable electricity, energy-dense fuels, industrial processes and cross-sector integration, highlighting technology portfolios and research needs.",
+      "significance_en": "The highest lab-displayed count within this selected snapshot. Moving from incremental mitigation to complete net-zero services connects later storage, aviation, industry and materials questions.",
+      "davis_or_team_roles_en": "Davis, Lewis and Caldeira were corresponding authors. The public version lacks individual contribution statements, so technical chapters are not assigned by author order.",
+      "scope_and_limit_en": "The review grew from the July 31–August 5, 2016 AGCI workshop; not an NdFeB-delivery or supply-shortage study."
+    },
+    {
+      "paper_id": "P09",
+      "selection": "core",
+      "doi": "10.1038/s41586-019-1364-3",
+      "title": "Committed emissions from existing energy infrastructure jeopardize 1.5 °C climate target",
+      "publication_date": "2019-07-01",
+      "date_basis": "online; volumeAug2019",
+      "question_zh": "2018年已建/拟建能源基础设施按历史方式运行，与1.5°C碳预算是否相容？",
+      "contribution_zh": "用设备数据更新承诺排放，并检验运行寿命、利用率、拟建项目和资产价值。",
+      "significance_zh": "把气候目标转成新增建设、改造和提前退役的具体资产决策；是2010框架的扩展，不能忽略基年/预算变化直接比较两文结论。",
+      "key_collaborators": [
+        "Dan Tong",
+        "Qiang Zhang",
+        "Ken Caldeira",
+        "Yixuan Zheng",
+        "Christine Shearer",
+        "Chaopeng Hong",
+        "Yue Qin"
+      ],
+      "davis_or_team_roles_zh": "Davis/Tong/Zhang设计；Tong分析；Zhang/Zheng/Shearer支持数据；Davis等支持方法；Tong/Davis牵头写作。",
+      "scope_and_limit_zh": "承诺是条件估计，寿命/利用率大幅改变结果；部分原始数据库需许可或不能共享。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-019-1364-3",
+          "section": "Abstract, data availability, contributions",
+          "publication_date": "2019-07-01",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1105
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "Are 2018 existing/proposed energy assets compatible with a 1.5°C budget if operated in historical ways?",
+      "contribution_en": "Updates equipment-based commitments and tests operating lifetime, utilization, proposed projects and asset value.",
+      "significance_en": "Translates climate targets into construction, retrofit and early-retirement decisions. The 2010 and 2019 conclusions require their different base years/budgets to be considered.",
+      "davis_or_team_roles_en": "Davis/Tong/Zhang designed; Tong analyzed; Zhang/Zheng/Shearer supported data; Davis and others supported methods; Tong/Davis led writing.",
+      "scope_and_limit_en": "Conditional commitments change greatly with lifetime/utilization. Some original databases are licensed or cannot be shared."
+    },
+    {
+      "paper_id": "P10",
+      "selection": "core",
+      "doi": "10.1038/s41467-020-18922-7",
+      "title": "Near-real-time monitoring of global CO₂ emissions reveals the effects of the COVID-19 pandemic",
+      "publication_date": "2020-10-14",
+      "date_basis": "journal publication",
+      "question_zh": "年度统计来不及揭示疫情冲击时，如何按日观察全球排放变化？",
+      "contribution_zh": "以电力、交通、工业等活动数据建立近实时排放估算，识别冲击、部门变化和恢复。",
+      "significance_zh": "不只发表结论，还构建能持续支撑问题的监测数据体系；“年均量→按日”是边界改变的时间维度。",
+      "key_collaborators": [
+        "Zhu Liu",
+        "Philippe Ciais",
+        "Zhu Deng",
+        "Bo Zheng",
+        "Dabo Guan"
+      ],
+      "davis_or_team_roles_zh": "Liu/Ciais设计，Deng协调数据处理；Davis参与收集、分析和写作，不应称其独自创办Carbon Monitor。",
+      "scope_and_limit_zh": "活动代理与排放因子估算，不是全球每个排口的连续直接测量；8.8%为2020上半年相对2019同期，不是全年值。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-020-18922-7",
+          "section": "Methods, contributions, publication date",
+          "publication_date": "2020-10-14",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://zheng-bo.com/wp-content/uploads/2020/10/s41467-020-18922-7.pdf",
+          "section": "coauthor archive",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1272
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How can daily global emissions changes be estimated when annual statistics miss a sudden pandemic shock?",
+      "contribution_en": "Uses electricity, transport, industry and other activity data for near-real-time estimates of shocks, sector changes and recovery.",
+      "significance_en": "Builds a reusable monitoring system as well as results; annual-to-daily resolution changes the temporal boundary.",
+      "davis_or_team_roles_en": "Liu/Ciais designed; Deng coordinated data processing; Davis collected/analyzed/wrote. Davis is not described as the sole founder of Carbon Monitor.",
+      "scope_and_limit_en": "Activity proxies and emissions factors, not continuous direct measurement of every outlet. The 8.8% decrease is first-half 2020 versus first-half 2019, not a full-year value."
+    },
+    {
+      "paper_id": "P11",
+      "selection": "core",
+      "doi": "10.1126/science.abj1572",
+      "title": "Land-use emissions embodied in international trade",
+      "publication_date": "2022-05-06",
+      "date_basis": "issue date; authors' research brief; online may precede issue",
+      "question_zh": "消费地与农业/土地变化排放地点分离后，哪些商品和贸易关系承担足迹？",
+      "contribution_zh": "将2004–2017农业与土地利用变化GHG清单连接国际贸易，追踪消费端排放。",
+      "significance_zh": "把早期消费核算推广到土地、食物与多种温室气体；为商品链与地方土地治理之间建立可核算联系。",
+      "key_collaborators": [
+        "Chaopeng Hong",
+        "Hongyan Zhao",
+        "Yue Qin",
+        "Jennifer A. Burney",
+        "Julia Pongratz",
+        "Qiang Zhang",
+        "Robert B. Jackson"
+      ],
+      "davis_or_team_roles_zh": "Hong为第一作者、Davis为资深共同作者；2021配套论文明确Hong/Davis/Burney做分析，不能无贡献声明将该分工逐字转用于2022论文。",
+      "scope_and_limit_zh": "CO₂-equivalent包括农业GHG及土地变化；不等同化石CO₂或全部进口的物理碳流。",
+      "sources": [
+        {
+          "url": "https://www.science.org/doi/10.1126/science.abj1572",
+          "section": "publisher",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://par.nsf.gov/servlets/purl/10423085",
+          "section": "official public research archive",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://www.ess.uci.edu/~sjdavis/briefs/ResearchBrief_Hong_LUtrade.pdf",
+          "section": "Davis-authored brief",
+          "publication_date": "2022-05",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 246
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "Which commodities and trade relationships link consumption to agricultural/land-change emissions elsewhere?",
+      "contribution_en": "Connects 2004–2017 agriculture and land-use-change greenhouse-gas inventories to international trade and consumption.",
+      "significance_en": "Extends early consumption accounting to land, food and multiple gases, connecting commodity chains with local land governance.",
+      "davis_or_team_roles_en": "Hong was first author and Davis a senior coauthor. Explicit 2021 roles for Hong/Davis/Burney are not mechanically assigned to the 2022 paper without a contribution statement.",
+      "scope_and_limit_en": "CO₂-equivalent includes agricultural gases and land change, not only fossil CO₂ or physical carbon in all imports."
+    },
+    {
+      "paper_id": "P12",
+      "selection": "core",
+      "doi": "10.1016/j.joule.2023.01.001",
+      "title": "Future demand for electricity generation materials under different climate mitigation scenarios",
+      "publication_date": "2023-01",
+      "date_basis": "online monthJanuary2023 from lab/author research account; final issueFebruary2023 in publisher-deposited Crossref metadata",
+      "question_zh": "电力脱碳情景在2020–2050年需要多少材料，地质储量与生产扩张是否足够？",
+      "contribution_zh": "连接75个气候能源情景与15类材料需求和材料生产排放，区分累计地质可用性与年度产量扩张。",
+      "significance_zh": "与候选磁材研究问题直接相关的已发表入口：Nd/Dy可能需显著扩产，但储量足够不自动意味着制造和交付有保障。",
+      "key_collaborators": [
+        "Seaver Wang",
+        "Zeke Hausfather",
+        "Juzel Lloyd",
+        "Erik B. Olson",
+        "Lauren Liebermann",
+        "Guido D. Núñez-Mujica",
+        "Jameson McBride"
+      ],
+      "davis_or_team_roles_zh": "多机构材料/情景研究；此处仅按署名与数据说明识别合作，不推定逐人处理哪个元素。",
+      "scope_and_limit_zh": "电力发电设施范围；不能推广为全行业、全部NdFeB用途或具体合格磁体供给预测。公开代码/数据可用。",
+      "sources": [
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S2542435123000016",
+          "section": "Abstract, authors",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://thebreakthrough.org/issues/energy/future-demand-for-electricity-generation-materials-under-different-climate-mitigation-scenarios",
+          "section": "author institution account",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://doi.org/10.5281/zenodo.7023703",
+          "section": "research data/code",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1016/j.joule.2023.01.001",
+          "section": "publisher-deposited final issue dateFebruary2023; no online-date field",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 187
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "What materials does power decarbonization require in 2020–2050, and can geological stocks and production expansion meet that requirement?",
+      "contribution_en": "Connects 75 climate/energy scenarios to demand for 15 materials and production emissions, separating cumulative geological availability from annual output expansion.",
+      "significance_en": "The most direct published entry for the magnet discussion: Nd/Dy may require major expansion, but adequate reserves do not ensure manufacturing or delivery.",
+      "davis_or_team_roles_en": "A multi-institution materials/scenarios study. Bylines and data notes identify collaboration; individual element-processing tasks are not inferred.",
+      "scope_and_limit_en": "Electricity-generation facilities only, not all sectors, all NdFeB uses or customer-qualified magnet supply. Public code/data are available."
+    },
+    {
+      "paper_id": "P13",
+      "selection": "core",
+      "doi": "10.1038/s41558-025-02305-1",
+      "title": "Trade risks to energy security in net-zero emissions energy scenarios",
+      "publication_date": "2025-04-09",
+      "date_basis": "online",
+      "question_zh": "化石燃料依赖转成关键材料依赖后，各国能源安全贸易风险如何改变？",
+      "contribution_zh": "耦合能源情景、材料需求、储量地点与贸易网络，比较聚合风险与电力/交通风险并测试情景。",
+      "significance_zh": "引用积累时间短，但决策相关且直接承接2023材料输入；不能因引用少而称不重要，也不能把宏观指数称作已验证的工厂中断模型。",
+      "key_collaborators": [
+        "Jing Cheng",
+        "Dan Tong",
+        "Qiang Zhang",
+        "Hongyan Zhao",
+        "Ruochong Xu",
+        "Yue Qin",
+        "Karan Bhuwalka",
+        "Ken Caldeira"
+      ],
+      "davis_or_team_roles_zh": "Davis/Cheng/Tong/Zhang设计；Cheng等供应处理数据；Cheng/Davis建设评估和未来贸易情景；Cheng计算与敏感性分析。",
+      "scope_and_limit_zh": "矿产储量/贸易暴露指标；未来情景不是预测。分离、金属、合格磁体交付扩展为候选研究，未核实为Davis正在进行的项目。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41558-025-02305-1",
+          "section": "Methods, contributions, acknowledgement of S.Wang",
+          "publication_date": "2025-04-09",
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://doi.org/10.5281/zenodo.8165867",
+          "section": "code",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 38
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How does trade risk change when fossil-fuel dependence shifts toward critical-material dependence?",
+      "contribution_en": "Couples energy scenarios, material demand, reserve geography and trade networks, comparing aggregate and electricity/transport risks and testing scenarios.",
+      "significance_en": "It directly uses the 2023 material inputs and has decision relevance despite a short citation-accumulation period. A macro index is not a validated factory-interruption model.",
+      "davis_or_team_roles_en": "Davis/Cheng/Tong/Zhang designed; Cheng and others supplied/processed data; Cheng/Davis built the assessment and future-trade scenarios; Cheng performed calculations and sensitivity analysis.",
+      "scope_and_limit_en": "Reserve-location/trade-exposure indicators and scenarios, not predictions. Separation, metal and qualified-magnet delivery are proposed extensions, not verified current Davis projects."
+    },
+    {
+      "paper_id": "P14",
+      "selection": "companion",
+      "doi": "10.1038/s41597-020-00708-7",
+      "title": "Carbon Monitor, a near-real-time daily dataset of global CO₂ emission from fossil fuel and cement production",
+      "publication_date": "2020-11-09",
+      "date_basis": "data descriptor",
+      "question_zh": "Carbon Monitor的数据定义、覆盖、更新和不确定性是什么？",
+      "contribution_zh": "数据描述论文，交代日尺度化石燃料/水泥CO₂估算。",
+      "significance_zh": "支撑P10的数据资源贡献；为持续复用与透明更新提供入口。",
+      "key_collaborators": [
+        "Zhu Liu",
+        "Philippe Ciais",
+        "Zhu Deng"
+      ],
+      "davis_or_team_roles_zh": "Davis共同作者；不能合并到P10并相加引用。",
+      "scope_and_limit_zh": "同一项目的独立数据论文，不是P10重复版本；353引用只属此DOI。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41597-020-00708-7",
+          "section": "Data descriptor",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33168822/",
+          "section": "date, byline",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 353
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "What are Carbon Monitor’s definitions, coverage, updates and uncertainty?",
+      "contribution_en": "A data descriptor for daily fossil-fuel/cement CO₂ estimates.",
+      "significance_en": "A reusable, transparent data resource supporting P10.",
+      "davis_or_team_roles_en": "Davis is a coauthor. This DOI is not merged into P10 and their citations are not added.",
+      "scope_and_limit_en": "A separate data paper within the same project, not another version of P10; the observed 353 count belongs only to this DOI."
+    },
+    {
+      "paper_id": "P15",
+      "selection": "companion",
+      "doi": "10.1038/s41586-020-03138-y",
+      "title": "Global and regional drivers of land-use emissions in 1961–2017",
+      "publication_date": "2021-01-27",
+      "date_basis": "online",
+      "question_zh": "不同地区、产品和技术变化如何驱动长期土地排放？",
+      "contribution_zh": "建立国别/过程/GHG/产品清单，分解人口、生产与土地强度等驱动并测试核算假设。",
+      "significance_zh": "P11的清单/方法前作，也是Hong与Davis共同研究的清晰劳动分工例子。",
+      "key_collaborators": [
+        "Chaopeng Hong",
+        "Jennifer A. Burney",
+        "Julia Pongratz",
+        "Julia E. M. S. Nabel",
+        "Nathaniel D. Mueller",
+        "Robert B. Jackson"
+      ],
+      "davis_or_team_roles_zh": "Davis/Hong/Burney/Pongratz构思；Hong/Davis/Burney分析；Pongratz/Nabel支持数据；Hong/Davis牵头写作。",
+      "scope_and_limit_zh": "多GHG、土地变化与农业；1961–2017历史，不是最新实时清单。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41586-020-03138-y",
+          "section": "Abstract, contributions, data/code",
+          "publication_date": "2021-01-27",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 679
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How do regional, product and technology changes drive long-term land emissions?",
+      "contribution_en": "Builds country/process/gas/product inventories, decomposes population, production and land-intensity drivers, and tests accounting assumptions.",
+      "significance_en": "The inventory/method precursor to P11 and a clear documented division-of-labor example.",
+      "davis_or_team_roles_en": "Davis/Hong/Burney/Pongratz conceived; Hong/Davis/Burney analyzed; Pongratz/Nabel supported data; Hong/Davis led writing.",
+      "scope_and_limit_en": "Multiple gases, agriculture and land change over 1961–2017, not a current real-time inventory. Driver decomposition is not universal causal identification."
+    },
+    {
+      "paper_id": "P16",
+      "selection": "companion",
+      "doi": "10.1039/C7EE03029K",
+      "title": "Geophysical constraints on the reliability of solar and wind power in the United States",
+      "publication_date": "2018-02-27",
+      "date_basis": "online",
+      "question_zh": "全年风光能量足够，是否意味着每小时都能可靠供电？",
+      "contribution_zh": "用长期天气资源与储能/组合假设检验美国风光可靠性。",
+      "significance_zh": "P08可靠电力部分的具体定量入口，连接Lewis合作与后续储能研究。",
+      "key_collaborators": [
+        "Matthew R. Shaner",
+        "Nathan S. Lewis",
+        "Ken Caldeira"
+      ],
+      "davis_or_team_roles_zh": "四人共同作者；未按背景把优化/天气分析专属分给某一人。",
+      "scope_and_limit_zh": "地理/资源可变性模型边界；不是每种实际电网技术组合的完整工程结论。",
+      "sources": [
+        {
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2018/ee/c7ee03029k",
+          "section": "Abstract, authors, publication date",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 446
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "Does sufficient annual wind/solar energy mean electricity is reliable every hour?",
+      "contribution_en": "Tests U.S. wind/solar reliability using long-term weather resources and storage/mix assumptions.",
+      "significance_en": "A quantitative entry to P08’s reliability question, Lewis’s collaboration and later storage research.",
+      "davis_or_team_roles_en": "Four joint authors; background is not used to assign optimization or weather analysis exclusively to one.",
+      "scope_and_limit_en": "A geographical/resource-variability model, not a complete engineering result for every actual grid-technology portfolio."
+    },
+    {
+      "paper_id": "P17",
+      "selection": "companion",
+      "doi": "10.1073/pnas.0914216107",
+      "title": "Greenhouse gas mitigation by agricultural intensification",
+      "publication_date": "2010",
+      "date_basis": "journal publication",
+      "question_zh": "提高农业产量与避免扩大土地开发之间，温室气体净效应是什么？",
+      "contribution_zh": "比较农业强化排放与避免土地转化排放的历史情景。",
+      "significance_zh": "高引用早期食物/土地论文，提醒其研究并非从碳会计直线转向能源后才涉及食物。",
+      "key_collaborators": [
+        "Jennifer A. Burney",
+        "David B. Lobell"
+      ],
+      "davis_or_team_roles_zh": "三人联合论文；不据作者排序虚构具体实验角色。",
+      "scope_and_limit_zh": "反事实土地扩张情景与农业GHG；不是农业强化所有社会/生态后果的评价。",
+      "sources": [
+        {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.0914216107",
+          "section": "Abstract, authors",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1609
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "What is the net greenhouse-gas effect of increasing agricultural output while avoiding further land conversion?",
+      "contribution_en": "Compares agricultural-intensification emissions with avoided land-conversion emissions in historical scenarios.",
+      "significance_en": "Important early food/land work: these topics were not simply added after a linear shift from carbon accounting to energy.",
+      "davis_or_team_roles_en": "A three-author paper; no experimental role is invented from author order.",
+      "scope_and_limit_en": "Counterfactual land expansion and agricultural greenhouse gases, not every social/ecological consequence of intensification."
+    },
+    {
+      "paper_id": "P18",
+      "selection": "companion",
+      "doi": "10.1126/science.1258832",
+      "title": "Systems integration for global sustainability",
+      "publication_date": "2015-02-27",
+      "date_basis": "journal publication",
+      "question_zh": "如何同时处理跨地区、部门和自然/人类系统的连接？",
+      "contribution_zh": "综合系统整合与远程耦合，讨论跨系统后果、方法和治理。",
+      "significance_zh": "高引用的集体方法综述；体现跨系统研究的背景，不能将整套概念归Davis独创。",
+      "key_collaborators": [
+        "Jianguo Liu",
+        "Harold Mooney",
+        "Vanessa Hull",
+        "Thomas Hertel",
+        "Karen C. Seto",
+        "Jane Lubchenco"
+      ],
+      "davis_or_team_roles_zh": "多学科共同作者；此处未找到可分配其具体章节的贡献证据。",
+      "scope_and_limit_zh": "综述，而非某一次地理干预的因果实证。",
+      "sources": [
+        {
+          "url": "https://www.science.org/doi/10.1126/science.1258832",
+          "section": "Abstract, authors",
+          "publication_date": null,
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": 1637
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How can links across regions, sectors and natural/human systems be addressed together?",
+      "contribution_en": "Synthesizes systems integration and telecoupling, discussing cross-system consequences, methods and governance.",
+      "significance_en": "A collective methodological review and background to cross-system research; the framework is not attributed solely to Davis.",
+      "davis_or_team_roles_en": "Multidisciplinary coauthors; no evidence assigns Davis specific chapters.",
+      "scope_and_limit_en": "A review, not causal evidence for a particular geographical intervention."
+    },
+    {
+      "paper_id": "P19",
+      "selection": "current_extension",
+      "doi": "10.1038/s41467-025-67759-5",
+      "title": "The importance of multiregional accounting for corporate carbon emissions",
+      "publication_date": "2025-12-20",
+      "date_basis": "online2025; finalvolume2026",
+      "question_zh": "企业Scope3核算忽略供应地差异，会怎样改变排放与减排优先级？",
+      "contribution_zh": "比较多地区投入产出核算与聚合核算的企业供应链估计。",
+      "significance_zh": "把P01/P03边界问题带入企业决策；新作引用仍低，宜按问题与方法相关性阅读。",
+      "key_collaborators": [
+        "Andrew Dumit",
+        "Mo Li",
+        "Yohanna Maldonado",
+        "Sangwon Suh"
+      ],
+      "davis_or_team_roles_zh": "Davis参与概念设计、图形和写作；Dumit投入产出建模等，不应称所有数据公开。",
+      "scope_and_limit_zh": "CEDA/CDP等输入有许可限制；不能承诺无许可证完全复现。",
+      "sources": [
+        {
+          "url": "https://www.nature.com/articles/s41467-025-67759-5",
+          "section": "Abstract, contributions, data availability",
+          "publication_date": "2025-12-20",
+          "verified_on": "2026-10-07"
+        }
+      ],
+      "citation_observation": {
+        "metric": "author-maintained lab-displayed total citations",
+        "source": "https://sustainablesolutions.stanford.edu/publications",
+        "retrieved_on": "2026-10-07",
+        "underlying_provider": null,
+        "underlying_refresh_date": null,
+        "verification_status": "HTML metadata field0 and no citation chart/label in saved entry; no validated count obtained; not interpreted as zero real-world citations",
+        "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure",
+        "value": null,
+        "raw_metadata_field": 0
+      },
+      "significance_status": "researcher synthesis grounded in paper/source; not a universal ranking",
+      "key_collaborator_list_status": "selected names, not asserted complete byline",
+      "verified_on": "2026-10-07",
+      "question_en": "How do supplier-location differences change corporate Scope 3 estimates and mitigation priorities?",
+      "contribution_en": "Compares multiregional input–output accounting with aggregate corporate-supply-chain accounting.",
+      "significance_en": "Extends P01/P03’s boundary questions to corporate decisions. Read this recent extension for question/method fit; no reliable citation count was obtained.",
+      "davis_or_team_roles_en": "Davis contributed conceptualization, figures and writing; Dumit performed input–output modeling and other work. Inputs are not all public.",
+      "scope_and_limit_en": "CEDA/CDP and other inputs have license restrictions; full reproduction without licenses is not promised."
+    }
+  ],
+  "metric": {
+    "metric": "author-maintained lab-displayed total citations",
+    "source": "https://sustainablesolutions.stanford.edu/publications",
+    "retrieved_on": "2026-10-07",
+    "underlying_provider": null,
+    "underlying_refresh_date": null,
+    "verification_status": "Observed public author-maintained webpage field; underlying bibliographic coverage/provider and update date not independently established",
+    "ranking_use": "Descriptive snapshot only; not an independently verified global influence ranking or field/age-normalized measure"
+  },
+  "sources": [
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20212122/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P01",
+          "supports": "Abstract, authors, dates",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0906974107",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P01",
+          "supports": "publisher",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20829483/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P02",
+          "supports": "Abstract, authors, dates",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/science.1188566",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P02",
+          "supports": "publisher",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P03",
+          "supports": "Author contributions, methods, discussion",
+          "source_date": null
+        },
+        {
+          "record_id": "C01",
+          "supports": "2011 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C02",
+          "supports": "first verified paper and contributions",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.pnas.org/doi/10.1073/pnas.1107409108",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P03",
+          "supports": "publisher",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nature14677",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P04",
+          "supports": "Authors, abstract, contributions",
+          "source_date": "2015-08-19"
+        },
+        {
+          "record_id": "C02",
+          "supports": "complete byline",
+          "source_date": null
+        },
+        {
+          "record_id": "C05",
+          "supports": "2015 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C06",
+          "supports": "2015 contributions",
+          "source_date": null
+        },
+        {
+          "record_id": "C07",
+          "supports": "2015 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C10",
+          "supports": "full24-person2015 byline",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nclimate2870",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P05",
+          "supports": "Abstract, acknowledgements, contributions",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.globalcarbonproject.org/global/pdf/Smith_2015_Biophysical%20and%20economic%20limits%20to%20negative%20CO2%20emissions.NatureCC.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P05",
+          "supports": "author/project archive",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.pbl.nl/en/publications/biophysical-and-economic-limits-to-negative-co2-emissions",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P05",
+          "supports": "author institution metadata",
+          "source_date": "2015-12-07"
+        }
+      ]
+    },
+    {
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-environ-110615-085934",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P06",
+          "supports": "Abstract, authors, dates",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/nature21712",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P07",
+          "supports": "Abstract, full byline, contributions",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://ueaeprints.uea.ac.uk/id/eprint/63249/1/Accepted_manuscript.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P07",
+          "supports": "author accepted manuscript, contribution statement",
+          "source_date": null
+        },
+        {
+          "record_id": "C03",
+          "supports": "2017 roles",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29954954/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P08",
+          "supports": "Abstract, byline, date",
+          "source_date": null
+        },
+        {
+          "record_id": "C09",
+          "supports": "2018 byline",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/science.aas9793",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P08",
+          "supports": "publisher",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://eos.org/science-updates/achieving-a-near-zero-carbon-emissions-energy-system",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P08",
+          "supports": "Davis/Lewis/Caldeira first-person meeting report",
+          "source_date": "2017-01-09"
+        },
+        {
+          "record_id": "C08",
+          "supports": "first verified joint publication",
+          "source_date": "2017-01-09"
+        }
+      ]
+    },
+    {
+      "url": "https://energyinnovation.org/wp-content/uploads/2018/07/Davis-et-al_Science2018_net-zero-emissions-energy-with-Suppl.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P08",
+          "supports": "coauthor organization archived full paper",
+          "source_date": null
+        },
+        {
+          "record_id": "C08",
+          "supports": "corresponding authorship and acknowledgement",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P08",
+          "supports": "Official agenda, co-chairs, presentations and workshop outcomes",
+          "source_date": "2016-07-31–2016-08-05"
+        },
+        {
+          "record_id": "C01",
+          "supports": "2016 co-chair",
+          "source_date": null
+        },
+        {
+          "record_id": "C08",
+          "supports": "project assembly, co-chair, presentations",
+          "source_date": "2016-07-31"
+        },
+        {
+          "record_id": "C09",
+          "supports": "workshop role",
+          "source_date": "2016-07-31"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-019-1364-3",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P09",
+          "supports": "Abstract, data availability, contributions",
+          "source_date": "2019-07-01"
+        },
+        {
+          "record_id": "C03",
+          "supports": "2019 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C04",
+          "supports": "2019 roles",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-020-18922-7",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P10",
+          "supports": "Methods, contributions, publication date",
+          "source_date": "2020-10-14"
+        },
+        {
+          "record_id": "C05",
+          "supports": "2020 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C06",
+          "supports": "2020 research design",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://zheng-bo.com/wp-content/uploads/2020/10/s41467-020-18922-7.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P10",
+          "supports": "coauthor archive",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/science.abj1572",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P11",
+          "supports": "publisher",
+          "source_date": null
+        },
+        {
+          "record_id": "C10",
+          "supports": "2022 joint work",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://par.nsf.gov/servlets/purl/10423085",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P11",
+          "supports": "official public research archive",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.ess.uci.edu/~sjdavis/briefs/ResearchBrief_Hong_LUtrade.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P11",
+          "supports": "Davis-authored brief",
+          "source_date": "2022-05"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2542435123000016",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P12",
+          "supports": "Abstract, authors",
+          "source_date": null
+        },
+        {
+          "record_id": "C13",
+          "supports": "2023 byline",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://thebreakthrough.org/issues/energy/future-demand-for-electricity-generation-materials-under-different-climate-mitigation-scenarios",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P12",
+          "supports": "author institution account",
+          "source_date": null
+        },
+        {
+          "record_id": "C13",
+          "supports": "author institution research account",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.7023703",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P12",
+          "supports": "research data/code",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.joule.2023.01.001",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P12",
+          "supports": "publisher-deposited final issue dateFebruary2023; no online-date field",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41558-025-02305-1",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P13",
+          "supports": "Methods, contributions, acknowledgement of S.Wang",
+          "source_date": "2025-04-09"
+        },
+        {
+          "record_id": "C01",
+          "supports": "2025 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C03",
+          "supports": "2025 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C04",
+          "supports": "2025 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C11",
+          "supports": "2025 roles",
+          "source_date": null
+        },
+        {
+          "record_id": "C13",
+          "supports": "2025 specific acknowledgement",
+          "source_date": null
+        },
+        {
+          "record_id": "C14",
+          "supports": "2025 explicit roles",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.5281/zenodo.8165867",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P13",
+          "supports": "code",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41597-020-00708-7",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P14",
+          "supports": "Data descriptor",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33168822/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P14",
+          "supports": "date, byline",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41586-020-03138-y",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P15",
+          "supports": "Abstract, contributions, data/code",
+          "source_date": "2021-01-27"
+        },
+        {
+          "record_id": "C10",
+          "supports": "2021 explicit roles",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://pubs.rsc.org/en/content/articlelanding/2018/ee/c7ee03029k",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P16",
+          "supports": "Abstract, authors, publication date",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.pnas.org/doi/10.1073/pnas.0914216107",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P17",
+          "supports": "Abstract, authors",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.science.org/doi/10.1126/science.1258832",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P18",
+          "supports": "Abstract, authors",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-025-67759-5",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "P19",
+          "supports": "Abstract, contributions, data availability",
+          "source_date": "2025-12-20"
+        }
+      ]
+    },
+    {
+      "url": "https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C01",
+          "supports": "Davis firsthand collaboration origin",
+          "source_date": "2024-09-27"
+        }
+      ]
+    },
+    {
+      "url": "https://sustainablesolutions.stanford.edu/people/ken-caldeira",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C01",
+          "supports": "current roles/background",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://cicero.oslo.no/en/employees/glen-peters",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C02",
+          "supports": "current title, expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://bg.copernicus.org/articles/9/3247/2012/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C02",
+          "supports": "2012 joint review",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1088/1748-9326/8/3/034011",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C02",
+          "supports": "2013 trade-policy paper",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://faculty.dess.tsinghua.edu.cn/zhangqiang/en/index.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C03",
+          "supports": "identity/current title/expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24449863/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C03",
+          "supports": "first verified joint paper",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41558-026-02675-0",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C03",
+          "supports": "continuing2026 collaboration",
+          "source_date": "2026-06-30"
+        },
+        {
+          "record_id": "C09",
+          "supports": "2026 health equity",
+          "source_date": "2026-06-30"
+        },
+        {
+          "record_id": "C11",
+          "supports": "continuing2026 paper",
+          "source_date": "2026-06-30"
+        }
+      ]
+    },
+    {
+      "url": "https://faculty.dess.tsinghua.edu.cn/tongdan/en/index.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C04",
+          "supports": "current title",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://faculty.dess.tsinghua.edu.cn/tongdan/en/yjfx/5569/content/1050.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C04",
+          "supports": "research expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://sustainablesolutions.stanford.edu/people",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C04",
+          "supports": "alumna/current Tsinghua status",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/ngeo2798",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C04",
+          "supports": "date/full byline/roles",
+          "source_date": "2016-09-05"
+        }
+      ]
+    },
+    {
+      "url": "https://faculty.dess.tsinghua.edu.cn/liuzhu/en/index.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C05",
+          "supports": "identity/background",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://faculty.dess.tsinghua.edu.cn/liuzhu/en/index/5825/list/index.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C05",
+          "supports": "faculty chronology",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23754377/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C05",
+          "supports": "2013 joint paper/date",
+          "source_date": null
+        },
+        {
+          "record_id": "C07",
+          "supports": "first joint paper",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41597-026-06621-9",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C05",
+          "supports": "2026 joint data resource",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.lsce.ipsl.fr/wp-content/uploads/2026/01/2026_01_07_CP_Nature_LSCE_vdef-2.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C06",
+          "supports": "current CEA title",
+          "source_date": "2026-01-07"
+        }
+      ]
+    },
+    {
+      "url": "https://www.lsce.ipsl.fr/en/pisp/philippe-ciais/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C06",
+          "supports": "expertise; old career section not current rank",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://bg.copernicus.org/articles/9/1845/2012/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C06",
+          "supports": "first verified peer-reviewed joint paper/date",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://faculty.dess.tsinghua.edu.cn/guandabo/en/index.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C07",
+          "supports": "current identity/background",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://scholar.harvard.edu/files/zhu/files/pnas-2013-feng-11654-9_0.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C07",
+          "supports": "2013 contributions",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.dess.tsinghua.edu.cn/en/info/1226/1429.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C07",
+          "supports": "CEADs and structural-emissions joint project",
+          "source_date": "2018-08-08"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41562-020-0896-8",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C07",
+          "supports": "2020 joint supply-chain shock study",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://directory.caltech.edu/personnel/nslewis",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C08",
+          "supports": "current title",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://nsl.caltech.edu/home/people/nathan-s-lewis/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C08",
+          "supports": "expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://profiles.stanford.edu/ines-azevedo",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C09",
+          "supports": "current title/expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1021/acs.est.9b06936",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C09",
+          "supports": "2020 electricity health/climate paper",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41467-021-26356-y",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C09",
+          "supports": "2021 scenarios",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://bitsandwatts.stanford.edu/news/bits-watts-adds-eight-new-research-projects-its-sustainable-ai-infrastructure-research",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C09",
+          "supports": "2026 joint project",
+          "source_date": "2026-08-18"
+        }
+      ]
+    },
+    {
+      "url": "https://sustainablesolutions.stanford.edu/people/chaopeng-hong",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C10",
+          "supports": "lab tenure/current affiliation",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.sigs.tsinghua.edu.cn/en/facutly/list.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C10",
+          "supports": "current faculty directory",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.ess.uci.edu/~sustsys/hong.html",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C10",
+          "supports": "historical INFEWS and expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://sustainablesolutions.stanford.edu/people/jing-cheng",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C11",
+          "supports": "current Peking status and tenure",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/nsr/article/8/12/nwab078/6258436",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C11",
+          "supports": "2021 full byline/date",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.meklesm.tsinghua.edu.cn/info/1077/1964.htm",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C11",
+          "supports": "author institution paper account",
+          "source_date": "2021-05-06"
+        }
+      ]
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1093/nsr/nwab078",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C11",
+          "supports": "publisher-deposited online date2021-04-29 and final issue2021-12-22",
+          "source_date": "2021-04-29"
+        }
+      ]
+    },
+    {
+      "url": "https://abdn.elsevierpure.com/en/persons/pete-smith/",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C12",
+          "supports": "current identity/expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://jacksonlab.stanford.edu/sites/g/files/sbiybj20871/files/media/file/nclimate2870.pdf",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C12",
+          "supports": "acknowledgement and contributions",
+          "source_date": "2015-12-07"
+        }
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1088/1748-9326/11/9/095012",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C12",
+          "supports": "2016 follow-on",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s43016-023-00792-z",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C12",
+          "supports": "2023 joint food rebound",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://www.nature.com/articles/s41561-025-01731-2",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C12",
+          "supports": "2025 joint carbon-removal work",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://thebreakthrough.org/people/seaver-wang",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C13",
+          "supports": "current role/expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://steer.stanford.edu/team",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C14",
+          "supports": "current alumni/Citadel status",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://energy.stanford.edu/people/karan-bhuwalka",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C14",
+          "supports": "historical research expertise",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2503.21521",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C14",
+          "supports": "2025 joint preprint",
+          "source_date": null
+        }
+      ]
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6804354",
+      "verified_on": "2026-10-07",
+      "uses": [
+        {
+          "record_id": "C14",
+          "supports": "2026 unreviewed posting",
+          "source_date": "2026-05-21"
+        }
+      ]
+    }
+  ],
+  "origins": [
+    {
+      "title": "A personal connection, in Davis’s own account",
+      "title_zh": "本人叙述的相识经过",
+      "text": "In his final PhD year, Davis helped create a product-footprint nonprofit. Recruiting its advisers led him to Caldeira, who proposed postdoctoral work on traded goods. The interview also describes Chamberlain as his doctoral adviser. A relative period is not an exact first-meeting date; the historical adviser is not represented as a current magnet collaborator.",
+      "url": "https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities",
+      "label": "Stanford interview · 27 September 2024"
+    },
+    {
+      "title": "A team assembled around the last hard-to-decarbonize services",
+      "title_zh": "围绕难减排服务组成的论文团队",
+      "text": "Davis, Lewis and Caldeira co-chaired the July 31–August 5, 2016 AGCI workshop. Lewis presented California energy/solar fuels; Azevedo presented electric/gasoline transport lifecycle analysis. The workshop outputs and the 2018 review’s acknowledgements document this project origin, not everyone’s first personal meeting.",
+      "url": "https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20",
+      "label": "AGCI agenda and outputs",
+      "companion_url": "https://eos.org/science-updates/achieving-a-near-zero-carbon-emissions-energy-system"
+    },
+    {
+      "title": "A project origin recorded in acknowledgements",
+      "title_zh": "致谢中明确记录的项目起点",
+      "text": "The negative-emissions review says analysis began at the April 2013 GCP NETs meeting in Laxenburg. Smith led analysis/writing; Davis supplied substantial analysis and figures. The meeting is the project’s documented starting point, not proof of their first acquaintance. MaGNET here refers to negative emissions, not rare-earth magnets.",
+      "url": "https://jacksonlab.stanford.edu/sites/g/files/sbiybj20871/files/media/file/nclimate2870.pdf",
+      "label": "Public author archive · acknowledgements/contributions"
+    }
+  ],
+  "formative_advisor_note": {
+    "name": "C. Page Chamberlain",
+    "role": "Davis's Stanford doctoral advisor in isotope paleohydrology; historical formative relationship, not ranked here as current magnet collaborator",
+    "documented_origin_zh": "Davis第一人称说服Chamberlain接收其为博士生；没有补出未公开申请/会面细节。",
+    "source": "https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities",
+    "verified_on": "2026-10-07"
+  },
+  "reading_priority": [
+    "P01",
+    "P08",
+    "P09",
+    "P12",
+    "P13"
+  ],
+  "reading_note_en": "For a focused reading sequence, read P01, P08, P09, P12 and P13 first, then P03, P10 or P11 as the decision becomes clearer. P17/P18 remain important collective work; this reading order is based on question fit, not citation rank.",
+  "meeting": {
+    "label": "Proposed research connection",
+    "label_zh": "候选研究连接",
+    "question": "Can the 2023 distinction between geological stocks and annual expansion, and the 2025 material-trade exposure analysis, be extended through separation, metal/alloy conversion, magnet manufacturing and customer qualification to identify which parameter changes a supply-security decision under a defined budget and service deadline?",
+    "boundary": "This is a candidate research question, not an established finding or claim about unpublished lab scope. Define the decision-maker, application/grade, budget, deadline and outcome. Manufacturing evidence may help validate yield, usable capacity and qualification times.",
+    "questions": [
+      "Which manufacturing or qualification assumption, if measured more accurately, could most change the 2025 trade-exposure decision?",
+      "Would a materials-demand dataset or a process-cost/deliverable-capacity model for one end use better resolve the selected decision?",
+      "For a public-data pilot, which outcome should be prioritized: cost, delivery-recovery time, unmet demand or energy-deployment loss?"
+    ],
+    "material_bridge_note": "Wang and Bhuwalka connect material scenarios, trade inputs and process economics with the Cheng/Tong/Zhang/Caldeira 2025 team. This does not mean they all conduct NdFeB research. Azevedo’s announced AI-power project is another documented connection to energy/data-center experience; it is funded work, not a finished tool or paper.",
+    "ai_project_url": "https://bitsandwatts.stanford.edu/news/bits-watts-adds-eight-new-research-projects-its-sustainable-ai-infrastructure-research"
+  },
+  "limitations": [
+    "This bounded audit reused 192 lab-index entries from 2008 through September 2026, not a lifetime bibliography. The 968 raw name labels are not 968 disambiguated people. Unchecked coauthor totals are not measures of collaboration strength; no PhD-advisee census is included.",
+    "Full publisher bylines override shortened lab lists. The 2015 China paper has 24 authors rather than the lab’s ten-name abbreviation: Hong’s earliest verified collaboration is August 19, 2015, before his 2017 postdoc. Cheng’s April 2021 paper predates the 2022 appointment. Ciais’s January discussion manuscript is distinct from formal publication on May 25, 2012; Tong’s aerosol paper was online September 5, 2016.",
+    "Current affiliations are anchored to the report’s October 7, 2026 cutoff: Cheng at Peking, Hong/Tong at Tsinghua, Bhuwalka a STEER alumnus/Citadel researcher. Cheng’s exact current rank/department and Chinese-character name remain unverified; historical Stanford bylines are not current appointments.",
+    "Contribution statements take precedence over author-order, institution and expertise guesses. The 2018 net-zero review lacks individual chapter assignments. A conference role does not prove who wrote each chapter. The 2017 health study is modeled, not clinical; land-driver decomposition is not universal causal identification.",
+    "Recent and old papers have different time to accumulate citations. The lab counts are an auditable webpage snapshot with unknown provider, coverage and refresh date, not a uniform impact ranking. No independently consistent, deduplicated lifetime database was obtained; no H-index or definitive Top 10 is published.",
+    "Public papers do not guarantee all original inputs are public. The 2019 infrastructure and 2025 corporate-accounting work have licensing/sharing restrictions. No data purchase is needed to formulate a research question, and author code/data links do not promise license-free full reproduction.",
+    "Unverified first meetings, invitations, friendship and private motives remain unknown. No author contact was inferred or requested. This page adapts the completed report; it does not establish a collaboration or verify unpublished project scope."
+  ],
+  "original_report_zh": "# Steven J. Davis：重要论文与合作关系\n\n核查截止：2026年10月7日。对象是Stanford地球系统科学教授、原UC Irvine的Steven J. Davis（ORCID 0000-0002-9338-0844），[官方档案](https://profiles.stanford.edu/steve-davis)。同名Hoover经济学家的/steven-davis页面不属于本研究对象。\n\n最值得带进研究讨论的认识是：Davis常把一个问题改写成“换了核算边界或物理约束以后，谁的决策会改变”。消费核算、基础设施承诺、近实时排放、可靠电力和材料贸易研究的连接，主要在于这个问题结构。这个概括是基于公开作品和第一人称采访的研究者解读，不是其全部项目的统一工作流程。[本人叙述](https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities)\n\n## 如何理解“最有影响”\n\n本报告选13篇核心作品，兼顾引用积累、方法/科学问题的重要性和本次磁材研究讨论的关联。另列5篇配套阅读、1篇近期延伸。它不是生涯论文排名，也不把新作引用较少解释为价值较低。\n\n公开[实验室书目](https://sustainablesolutions.stanford.edu/publications)显示每篇“total citations”；本次保存了网页快照与188个有规范页面ID的计数字段。其底层提供商、覆盖范围和刷新日期未披露。因此下表只能读作“2026-10-07访问时，作者维护网站显示的累计引用”，不能标为Google Scholar/OpenAlex统计，不能与出版社不同的引用计数混排，也没有做年份/学科归一化。近期公司核算论文的字段为0而没有可见引用图/标签，已标为缺失，不把它当作真实零引用。13篇均按DOI区分；同一项目的不同论文各自计数，不相加成项目引用数。\n\n## 核心论文：问题、贡献与边界\n\n### P01 · 2010-03-08 · Consumption-based accounting of CO₂ emissions\n\n问题：碳排放由生产地承担还是追随最终消费者，全球责任分布会怎样改变？\n\n贡献：把2004年经济贸易与化石燃料CO₂清单连接到消费端；估计23%的全球CO₂排放内含于国际贸易。 意义：研究边界改变国家责任与外包排放判断；是其后贸易、污染和土地研究的核心方法脉络。不是消费核算方法的首次发明。\n\n关键共同作者：Ken Caldeira。两人联合论文；此处不按署名顺序推定完整劳动分工。\n\n边界：2004年全球化石燃料CO₂与国际贸易；不是2026现状。 日期口径：online; issue2010-03-23。实验室显示引用：2,611（上述限定适用）。[原论文](https://pubmed.ncbi.nlm.nih.gov/20212122/)；[补充的一手依据](https://www.pnas.org/doi/10.1073/pnas.0906974107)\n\n### P02 · 2010-09-10 · Future CO₂ emissions and climate change from existing energy infrastructure\n\n问题：今天安装的能源设备，假定继续运行，会锁定多少未来排放和气候变化？\n\n贡献：将当时已有能源基础设施与运行寿命、未来排放和气候响应连接，区分已建设资产与未来新增建设。 意义：将当期流量问题改写为资本存量与寿命问题；为后续承诺排放、提前退役和碳锁定研究提供量化框架。\n\n关键共同作者：Ken Caldeira、H. Damon Matthews。公开摘要确认三人共同研究；此处不将模型劳动细分给某一作者。\n\n边界：未来排放取决于设备寿命、利用与替换等假设；不是不可改变的命运预测。 日期口径：journal publication。实验室显示引用：1,779（上述限定适用）。[原论文](https://pubmed.ncbi.nlm.nih.gov/20829483/)；[补充的一手依据](https://www.science.org/doi/10.1126/science.1188566)\n\n### P03 · 2011-10-17 · The supply chain of CO₂ emissions\n\n问题：同一碳排放沿开采、燃烧、最终消费链条移动时，哪个环节适合政策干预？\n\n贡献：把化石资源来源、燃烧与消费联系起来；用GTAP贸易/投入产出数据追踪2004年112个国家/区域、58个部门。 意义：显示排放发生地、获益地和可监管点并不相同；与今天矿物供应链研究有直接的边界思想联系。\n\n关键共同作者：Glen P. Peters、Ken Caldeira。Davis/Caldeira设计；Davis/Peters实施研究并提供分析工具；三人分析、写作。\n\n边界：2004年排放链，经济负担与监管点不同；不是稀土工业物流数据库。 日期口径：online; issue2011-11-08。实验室显示引用：683（上述限定适用）。[原论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/)；[补充的一手依据](https://www.pnas.org/doi/10.1073/pnas.1107409108)\n\n### P04 · 2015-08-19 · Reduced carbon emission estimates from fossil fuel combustion and cement production in China\n\n问题：中国能源统计与本地煤炭排放因子修正后，排放清单会怎样改变？\n\n贡献：协调能源和熟料数据，结合煤矿数据与602份煤样测量，修正中国化石燃料燃烧和水泥排放估计。 意义：说明情景分析的基线必须经过底层活动与排放因子校验；不是仅对不同数据库做平均。\n\n关键共同作者：Zhu Liu、Dabo Guan、Philippe Ciais、Qiang Zhang、Chaopeng Hong、Glen P. Peters、Wei Wei、Jin Bai。Davis提供参考数据、参与分析和图形/写作；煤样测量由Wei Wei/Jin Bai负责，不应归给Davis。\n\n边界：煤炭化学样本与全国清单有明确分工；此处不将碳质量单位误作CO₂质量。出版社完整24人署名比实验室缩写10人更完整。 日期口径：online。实验室显示引用：1,870（上述限定适用）。[原论文](https://www.nature.com/articles/nature14677)\n\n### P05 · 2015-12-07 · Biophysical and economic limits to negative CO₂ emissions\n\n问题：气候情景中的大规模负排放，需要多少土地、水、养分、能源和成本？\n\n贡献：跨技术量化负排放的资源、经济约束和副作用，将情景依赖转成可检验的物理需求。 意义：高引用的跨学科约束综述；与材料供应研究共同强调“模型需要”不能自动变成“可部署供给”。\n\n关键共同作者：Pete Smith、Felix Creutzig、Sabine Fuss、Jan Minx、Philippe Ciais、Glen P. Peters、Robert B. Jackson。Smith牵头写作/分析；Davis参与重要分析并构思、制作图形；全体参与研究构思与稿件。\n\n边界：2013年4月GCP Laxenburg NETs会议启动该分析；这只证明项目形成，不能证明两人初次见面。文中的MaGNET为负排放研究项目，与NdFeB磁铁无关。 日期口径：online2015; final journal volume2016。实验室显示引用：1,904（上述限定适用）。[原论文](https://www.nature.com/articles/nclimate2870)；[补充的一手依据](https://www.globalcarbonproject.org/global/pdf/Smith_2015_Biophysical%20and%20economic%20limits%20to%20negative%20CO2%20emissions.NatureCC.pdf)\n\n### P06 · 2016-09-02 · Carbon Lock-In: Types, Causes, and Policy Implications\n\n问题：为什么有替代技术仍难以摆脱高碳体系？\n\n贡献：整合基础设施/技术、制度、行为三类锁定及其相互强化关系。 意义：把设备寿命问题扩展到社会经济惯性，帮助判断干预窗口与长期影响；并非Davis原创“carbon lock-in”术语。\n\n关键共同作者：Karen C. Seto、Ronald B. Mitchell、Eleanor C. Stokes、Gregory Unruh、Diana Ürge-Vorsatz。联合综述；没有据公开贡献声明细分每位作者的章节职责。\n\n边界：概念综合而非一个新设备实验；继承包括Unruh在内的既有锁定研究。 日期口径：Review in Advance; volumeOct2016。实验室显示引用：1,751（上述限定适用）。[原论文](https://www.annualreviews.org/content/journals/10.1146/annurev-environ-110615-085934)\n\n### P07 · 2017-03-30 · Transboundary health impacts of transported global air pollution and international trade\n\n问题：污染跨境飘来，和本地为国外消费者生产而造成的健康损害，各有多大？\n\n贡献：耦合排放、经济贸易、化学传输和健康模型，区分物理大气传输与消费导致的排放转移。 意义：把碳贸易核算扩展至健康后果；展示如何围绕一个问题组合多学科模型。\n\n关键共同作者：Qiang Zhang、Xujia Jiang、Dan Tong、Hongyan Zhao、Jintai Lin、Kebin He、Dabo Guan。Zhang/Lin/He构思；Zhang牵头；Tong等计算排放，Geng做GEOS-Chem、Jiang估健康；Davis参与解释与写作。\n\n边界：2007年PM₂.₅相关模型估算；贸易关联死亡不是污染全部物理飘过国境，更不是医学临床试验。 日期口径：journal publication。实验室显示引用：1,193（上述限定适用）。[原论文](https://www.nature.com/articles/nature21712)；[补充的一手依据](https://ueaeprints.uea.ac.uk/id/eprint/63249/1/Accepted_manuscript.pdf)\n\n### P08 · 2018-06-29 · Net-zero emissions energy systems\n\n问题：接近全面净零时，可靠电力、长途运输和钢铁水泥等服务如何一起实现？\n\n贡献：综合可靠电力、能量密集燃料、工业过程与跨部门系统整合，说明难减排部分需要技术组合和研发。 意义：本次实验室显示引用最高的精选论文；从逐步减排转向完整净零服务，是后续储能、航空、工业与材料问题的共同框架。\n\n关键共同作者：Nathan S. Lewis、Ken Caldeira、Inês L. Azevedo、Matthew Shaner、Sally M. Benson、Jessika E. Trancik。Davis/Lewis/Caldeira为通讯作者；公开版本未见逐人贡献声明，不按排序分配所有技术章节。\n\n边界：综述起源于2016-07-31至08-05 AGCI跨学科研讨会；不是NdFeB交付或供应短缺论文。 日期口径：journal publication。实验室显示引用：2,996（上述限定适用）。[原论文](https://pubmed.ncbi.nlm.nih.gov/29954954/)；[补充的一手依据](https://www.science.org/doi/10.1126/science.aas9793)\n\n### P09 · 2019-07-01 · Committed emissions from existing energy infrastructure jeopardize 1.5 °C climate target\n\n问题：2018年已建/拟建能源基础设施按历史方式运行，与1.5°C碳预算是否相容？\n\n贡献：用设备数据更新承诺排放，并检验运行寿命、利用率、拟建项目和资产价值。 意义：把气候目标转成新增建设、改造和提前退役的具体资产决策；是2010框架的扩展，不能忽略基年/预算变化直接比较两文结论。\n\n关键共同作者：Dan Tong、Qiang Zhang、Ken Caldeira、Yixuan Zheng、Christine Shearer、Chaopeng Hong、Yue Qin。Davis/Tong/Zhang设计；Tong分析；Zhang/Zheng/Shearer支持数据；Davis等支持方法；Tong/Davis牵头写作。\n\n边界：承诺是条件估计，寿命/利用率大幅改变结果；部分原始数据库需许可或不能共享。 日期口径：online; volumeAug2019。实验室显示引用：1,105（上述限定适用）。[原论文](https://www.nature.com/articles/s41586-019-1364-3)\n\n### P10 · 2020-10-14 · Near-real-time monitoring of global CO₂ emissions reveals the effects of the COVID-19 pandemic\n\n问题：年度统计来不及揭示疫情冲击时，如何按日观察全球排放变化？\n\n贡献：以电力、交通、工业等活动数据建立近实时排放估算，识别冲击、部门变化和恢复。 意义：不只发表结论，还构建能持续支撑问题的监测数据体系；“年均量→按日”是边界改变的时间维度。\n\n关键共同作者：Zhu Liu、Philippe Ciais、Zhu Deng、Bo Zheng、Dabo Guan。Liu/Ciais设计，Deng协调数据处理；Davis参与收集、分析和写作，不应称其独自创办Carbon Monitor。\n\n边界：活动代理与排放因子估算，不是全球每个排口的连续直接测量；8.8%为2020上半年相对2019同期，不是全年值。 日期口径：journal publication。实验室显示引用：1,272（上述限定适用）。[原论文](https://www.nature.com/articles/s41467-020-18922-7)；[补充的一手依据](https://zheng-bo.com/wp-content/uploads/2020/10/s41467-020-18922-7.pdf)\n\n### P11 · 2022-05-06 · Land-use emissions embodied in international trade\n\n问题：消费地与农业/土地变化排放地点分离后，哪些商品和贸易关系承担足迹？\n\n贡献：将2004–2017农业与土地利用变化GHG清单连接国际贸易，追踪消费端排放。 意义：把早期消费核算推广到土地、食物与多种温室气体；为商品链与地方土地治理之间建立可核算联系。\n\n关键共同作者：Chaopeng Hong、Hongyan Zhao、Yue Qin、Jennifer A. Burney、Julia Pongratz、Qiang Zhang、Robert B. Jackson。Hong为第一作者、Davis为资深共同作者；2021配套论文明确Hong/Davis/Burney做分析，不能无贡献声明将该分工逐字转用于2022论文。\n\n边界：CO₂-equivalent包括农业GHG及土地变化；不等同化石CO₂或全部进口的物理碳流。 日期口径：issue date; authors' research brief; online may precede issue。实验室显示引用：246（上述限定适用）。[原论文](https://www.science.org/doi/10.1126/science.abj1572)；[补充的一手依据](https://par.nsf.gov/servlets/purl/10423085)\n\n### P12 · 2023-01 · Future demand for electricity generation materials under different climate mitigation scenarios\n\n问题：电力脱碳情景在2020–2050年需要多少材料，地质储量与生产扩张是否足够？\n\n贡献：连接75个气候能源情景与15类材料需求和材料生产排放，区分累计地质可用性与年度产量扩张。 意义：与本次磁材研究讨论最直接的已发表入口：Nd/Dy可能需显著扩产，但储量足够不自动意味着制造和交付有保障。\n\n关键共同作者：Seaver Wang、Zeke Hausfather、Juzel Lloyd、Erik B. Olson、Lauren Liebermann、Guido D. Núñez-Mujica、Jameson McBride。多机构材料/情景研究；此处仅按署名与数据说明识别合作，不推定逐人处理哪个元素。\n\n边界：电力发电设施范围；不能推广为全行业、全部NdFeB用途或具体合格磁体供给预测。公开代码/数据可用。 日期口径：在线月份为2023年1月；出版社存入Crossref的最终期次为2023年2月。实验室显示引用：187（上述限定适用）。[原论文](https://www.sciencedirect.com/science/article/pii/S2542435123000016)；[补充的一手依据](https://thebreakthrough.org/issues/energy/future-demand-for-electricity-generation-materials-under-different-climate-mitigation-scenarios)\n\n### P13 · 2025-04-09 · Trade risks to energy security in net-zero emissions energy scenarios\n\n问题：化石燃料依赖转成关键材料依赖后，各国能源安全贸易风险如何改变？\n\n贡献：耦合能源情景、材料需求、储量地点与贸易网络，比较聚合风险与电力/交通风险并测试情景。 意义：引用积累时间短，但决策相关且直接承接2023材料输入；不能因引用少而称不重要，也不能把宏观指数称作已验证的工厂中断模型。\n\n关键共同作者：Jing Cheng、Dan Tong、Qiang Zhang、Hongyan Zhao、Ruochong Xu、Yue Qin、Karan Bhuwalka、Ken Caldeira。Davis/Cheng/Tong/Zhang设计；Cheng等供应处理数据；Cheng/Davis建设评估和未来贸易情景；Cheng计算与敏感性分析。\n\n边界：矿产储量/贸易暴露指标；未来情景不是预测。分离、金属、合格磁体交付扩展为候选研究，未核实为Davis正在进行的项目。 日期口径：online。实验室显示引用：38（上述限定适用）。[原论文](https://www.nature.com/articles/s41558-025-02305-1)；[补充的一手依据](https://doi.org/10.5281/zenodo.8165867)\n\n## 配套阅读与近期延伸\n\n- P14 · 2020-11-09 · [Carbon Monitor, a near-real-time daily dataset of global CO₂ emission from fossil fuel and cement production](https://www.nature.com/articles/s41597-020-00708-7)：支撑P10的数据资源贡献；为持续复用与透明更新提供入口。 实验室显示引用353。同一项目的独立数据论文，不是P10重复版本；353引用只属此DOI。\n- P15 · 2021-01-27 · [Global and regional drivers of land-use emissions in 1961–2017](https://www.nature.com/articles/s41586-020-03138-y)：P11的清单/方法前作，也是Hong与Davis共同研究的清晰劳动分工例子。 实验室显示引用679。多GHG、土地变化与农业；1961–2017历史，不是最新实时清单。\n- P16 · 2018-02-27 · [Geophysical constraints on the reliability of solar and wind power in the United States](https://pubs.rsc.org/en/content/articlelanding/2018/ee/c7ee03029k)：P08可靠电力部分的具体定量入口，连接Lewis合作与后续储能研究。 实验室显示引用446。地理/资源可变性模型边界；不是每种实际电网技术组合的完整工程结论。\n- P17 · 2010 · [Greenhouse gas mitigation by agricultural intensification](https://www.pnas.org/doi/10.1073/pnas.0914216107)：高引用早期食物/土地论文，提醒其研究并非从碳会计直线转向能源后才涉及食物。 实验室显示引用1609。反事实土地扩张情景与农业GHG；不是农业强化所有社会/生态后果的评价。\n- P18 · 2015-02-27 · [Systems integration for global sustainability](https://www.science.org/doi/10.1126/science.1258832)：高引用的集体方法综述；体现跨系统研究的背景，不能将整套概念归Davis独创。 实验室显示引用1637。综述，而非某一次地理干预的因果实证。\n- P19 · 2025-12-20 · [The importance of multiregional accounting for corporate carbon emissions](https://www.nature.com/articles/s41467-025-67759-5)：把P01/P03边界问题带入企业决策；新作引用仍低，宜按问题与方法相关性阅读。 未取得可靠引用计数；网页元数据为0但没有显示引用图/标签，不能据此推断真实零引用。CEDA/CDP等输入有许可限制；不能承诺无许可证完全复现。\n\n这一选择没有排除高引用的集体研究：例如农业强化（P17）和系统整合（P18）也很重要，但不是此次研究讨论必须首先精读的材料。若时间有限，先读P01、P08、P09、P12、P13，再依据所选研究问题补读P03、P10或P11。\n\n## 合作是怎样形成的：三类证据\n\n1. **个人相识有本人叙述：Caldeira。** Davis说，博士最后一年与同学做产品碳足迹非营利组织，寻找顾问时认识Caldeira；Caldeira提出国际贸易商品核算的博士后方向。Davis与Chamberlain的博士指导关系也有本人叙述，属于其早期同位素古水文学训练。本报告没有把历史导师当作现阶段磁材合作者。[Stanford本人采访，2024-09-27](https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities)\n\n2. **具体论文团队的形成有会议记录：净零综述。** 2016-07-31至08-05，Davis、Lewis、Caldeira共同担任AGCI研讨会主席，召集能源技术、气候和社会科学专家讨论最后难减排的能源服务；Lewis讲加州能源与太阳能燃料，Azevedo讲电动/汽油交通生命周期分析。会议产出列出2018净零综述，论文致谢也确认这一来源。这能说明一个研究团队怎样围绕问题组合专长，不能证明Davis与Lewis/Azevedo首次见面就在这里。[AGCI原始议程与产出](https://www.agci.org/workshops/7014x000000EF57AAG/getting-near-zero-decarbonizing-the-last-20)；[三位组织者2017报告](https://eos.org/science-updates/achieving-a-near-zero-carbon-emissions-energy-system)\n\n3. **项目起源有论文致谢：负排放综述。** P05说明分析于2013年4月GCP在Laxenburg的NETs会议启动；Smith牵头分析/写作，Davis做重要分析与图形。会议是该分析的起点，仍不能写成两人第一次相识。MaGNET是负排放研究项目，名称与稀土磁体无关。[公开作者档案全文](https://jacksonlab.stanford.edu/sites/g/files/sbiybj20871/files/media/file/nclimate2870.pdf)\n\n其他关系目前多数只能给共同论文、正式实验室关系和分工的时间线。没有公开相识史本身就是证据边界，不应补写“因为同校成为朋友”“某人引荐”或个人动机。\n\n## 十二个重要合作关系\n\n以下按研究脉络排列，不按亲疏或共同作者次数排序。所有“最早”均指本次公开资料审计最早核实的关系，可能有更早工作未被覆盖。\n\n### Ken Caldeira\n\n大气科学/气候与碳循环研究者；Stanford访问学者、Davis实验室Conceptual Investigations Unit负责人；Gates Ventures Senior Scientist。\n\n最早核实联合论文：2010-03-08，[Consumption-based accounting of CO₂ emissions](https://pubmed.ncbi.nlm.nih.gov/20212122/)。\n\n发展：从2010消费核算、基础设施承诺，到2011排放供应链；2016共同组织净零研讨会、2018系统综述，延续到2025贸易安全和2026电力/过程热研究。 分工：2011与Davis共同设计研究、与Peters共同分析写作；2016与Davis/Lewis共同担任AGCI会议主席；2025参与能源安全评估和贸易情景的讨论输入。\n\n起源状态：Davis在2024 Stanford第一人称采访说：博士最后一年与同学创办产品碳足迹非营利组织，组建顾问委员会时结识Caldeira；后者建议他做覆盖国际贸易商品的博士后研究。 [身份/现职依据](https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Glen P. Peters\n\nCICERO研究教授；研究全球碳循环、排放情景、消费/贸易与气候政策。\n\n最早核实联合论文：2011-10-17，[The supply chain of CO₂ emissions](https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/)。\n\n发展：2011排放供应链→2012国际贸易碳综合→2013贸易依赖与气候政策→负排放/碳预算和后续排放资料合作。 分工：2011贡献分析工具并与Davis实施研究；与Davis/Caldeira共同分析写作。2015中国清单论文是完整24人署名中的共同作者，不能因实验室简写漏名判为未参与。\n\n起源状态：首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。 [身份/现职依据](https://cicero.oslo.no/en/employees/glen-peters)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Qiang Zhang（张强）\n\n清华大学地球系统科学系教授；大气科学、排放清单、化学传输与气候/空气质量政策。\n\n最早核实联合论文：2014-01-21，[China’s international trade and air pollution in the United States](https://pubmed.ncbi.nlm.nih.gov/24449863/)。\n\n发展：2014中美贸易污染→2016气溶胶辐射强迫→2017跨境健康；2018–2021转到机组/退役协同效益，2025贸易安全与2026健康不平等继续合作。 分工：2017与Lin/He构思、牵头健康研究；2019与Tong/Davis共同设计并支持数据和方法；2025与Cheng/Tong/Davis共同设计。\n\n起源状态：首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。 [身份/现职依据](https://faculty.dess.tsinghua.edu.cn/zhangqiang/en/index.htm)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Dan Tong（童丹）\n\n清华大学地球系统科学系副教授；Davis实验室校友，研究能源—环境—经济系统建模。\n\n最早核实联合论文：2016-09-05，[Global climate forcing of aerosols embodied in international trade](https://www.nature.com/articles/ngeo2798)。\n\n发展：2016贸易气溶胶中计算排放→2017健康合作→2018超级排放机组与2019全球基础设施分析主导→2021退役和2025材料贸易安全。 分工：2016参与排放计算；2019执行分析并与Davis牵头写作；2025设计研究、供应处理资料并参与写作。\n\n起源状态：首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。实验室校友身份提供正式关系证据，但不能自动当作首次接触日期。 [身份/现职依据](https://faculty.dess.tsinghua.edu.cn/tongdan/en/index.htm)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Zhu Liu（刘竹）\n\n清华大学地球系统科学系教授；产业生态/碳排放核算研究者；此人并非同音或其他姓刘共同作者。\n\n最早核实联合论文：2013-06-10，[Outsourcing CO₂ within China](https://pubmed.ncbi.nlm.nih.gov/23754377/)。\n\n发展：2013省际外包排放→2015中国清单校正→2020Carbon Monitor→后续全球/电力日尺度数据和2026长期日尺度CO₂资料。 分工：2015与Guan设计中国修订研究并负责煤矿活动资料；2020与Ciais设计Carbon Monitor疫情论文、Deng协调数据，Davis参与收集/分析/写作。\n\n起源状态：首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。 [身份/现职依据](https://faculty.dess.tsinghua.edu.cn/liuzhu/en/index.htm)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Philippe Ciais\n\nCEA研究主任、LSCE/IPSL碳循环研究者；自然碳源汇、监测与全球模型。\n\n最早核实联合论文：2012-05-25，[A synthesis of carbon dioxide emissions from fossil-fuel combustion](https://bg.copernicus.org/articles/9/1845/2012/)。\n\n发展：2012清单综合→2015中国排放与负排放→2020近实时监测→2026日尺度历史资料等持续合作。 分工：2015中国研究中参与分析；2020与Liu设计研究，Davis共同参与数据/分析/写作。碳循环经验有官方背景证据，但不因此推定所有联合论文使用同一碳循环模型。\n\n起源状态：首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。 [身份/现职依据](https://www.lsce.ipsl.fr/wp-content/uploads/2026/01/2026_01_07_CP_Nature_LSCE_vdef-2.pdf)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Dabo Guan（关大博）\n\n清华大学地球系统科学系教授；生态经济学、环境投入产出与排放数据研究。\n\n最早核实联合论文：2013-06-10，[Outsourcing CO₂ within China](https://pubmed.ncbi.nlm.nih.gov/23754377/)。\n\n发展：2013省际隐含排放→2015本地排放因子/清单→2017健康、2018结构性减排与CEADs数据→2020疫情供应链与监测合作。 分工：2013与Davis等参与分析/写作；2015与Liu设计研究；官方清华CEADs合作报道确认其团队对中国多尺度排放数据的持续建设。\n\n起源状态：首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。IIASA报道中的Hubacek/Sun等关系史不能转写成Davis与Guan的相识史。 [身份/现职依据](https://faculty.dess.tsinghua.edu.cn/guandabo/en/index.htm)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Nathan S. Lewis\n\nCaltech George L. Argyros Professor及化学教授；太阳能燃料、光电化学、半导体与能源系统。\n\n最早核实联合论文：2017-01-09，[Achieving a Near-Zero Carbon Emissions Energy System](https://eos.org/science-updates/achieving-a-near-zero-carbon-emissions-energy-system)。这是联合会议报告；最早核实的同行评议研究为2018-02-27，Geophysical constraints on the reliability of solar and wind power in the United States。另有2016-07-31共同项目证据。\n\n发展：2016共同主持跨学科会议→2017三人会议报告→2018可靠性分析和净零综述→2020长时储能等研究。 分工：2016与Davis/Caldeira为会议共同主席；报告加州能源系统及太阳能燃料；2018共同通讯作者。没有逐人章节分工声明，不能把其专长转为实际独自完成的实验。\n\n起源状态：AGCI官方记录和2018致谢将净零综述追溯至2016-07-31至08-05的跨学科研讨会。首次相识未公开。 [身份/现职依据](https://directory.caltech.edu/personnel/nslewis)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Inês M. L. Azevedo\n\nStanford能源科学与工程教授、地球系统科学礼聘教授，Woods/Precourt高级研究员；技术、经济、环境与政策的决策评估。\n\n最早核实联合论文：2018-06-29，[Net-zero emissions energy systems](https://pubmed.ncbi.nlm.nih.gov/29954954/)。另有2016-07-31共同项目证据。\n\n发展：2016会议→2018净零综述→2020美国电力气候/健康优化→2021净零情景→2026地方健康公平和AI供电决策种子项目。 分工：2016呈现电动车/汽油车生命周期分析；2026AI供电项目PI，Davis与Carlos Díaz Marín、Edgar Virgüez为共同PI。资助确认合作，不证明工具已经完成。\n\n起源状态：可证2016共同参与AGCI会议以及其交通LCA报告；会议产出包括2018论文。未查到两人第一次见面或受邀合作的个人叙述。 [身份/现职依据](https://profiles.stanford.edu/ines-azevedo)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Chaopeng Hong（洪超鹏）\n\n现清华大学教师，Davis实验室博士后2017-11至2021-06；大气/气候、清单、农业与土地排放研究。\n\n最早核实联合论文：2015-08-19，[Reduced carbon emission estimates from fossil fuel combustion and cement production in China](https://www.nature.com/articles/nature14677)。\n\n发展：2015完整署名已共同研究，早于2017加入Davis实验室；后参与基础设施方法，2021牵头土地驱动分析、2022牵头土地贸易论文。 分工：2015为分析参与者；2021与Davis/Burney执行分析，与Davis牵头写作，Pongratz/Nabel提供土地变化数据支持。其历史实验室介绍说明参与Davis领导的INFEWS农业/空气污染研究。\n\n起源状态：实验室入职和联合项目清楚；首次相识/为何招聘未公开。不能从2017博士后开始倒推2015论文合作的起点。 [身份/现职依据](https://sustainablesolutions.stanford.edu/people/chaopeng-hong)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Jing Cheng\n\n现Peking University教师；Davis实验室博士后2022-03至2026-03；能源/空气质量、材料贸易与安全评估。\n\n最早核实联合论文：2021-04-29，[Pathways of China’s PM₂.₅ air quality 2015–2060 in the context of carbon neutrality](https://academic.oup.com/nsr/article/8/12/nwab078/6258436)。\n\n发展：2021空气质量路径已与Davis联合，早于博士后入职；2022–2026正式实验室合作中扩展至全球钢铁与能源安全，2026仍共同发表健康公平研究。 分工：2025不仅提供数据：共同设计研究，与Davis开发评估/未来贸易情景，执行安全计算和敏感性模拟并共同写作。\n\n起源状态：博士后时间和联合论文可证；首次相识及邀请经过未公开。2025论文中的Stanford署名是发表时历史单位，不应当作2026现职。 [身份/现职依据](https://sustainablesolutions.stanford.edu/people/jing-cheng)。该人完整逐项来源、日期与限制见collaborators.json。\n\n### Pete Smith\n\nAberdeen教授、Plant & Soil Science讲席；土壤/生物碳汇、负排放、土地与减排模型。\n\n最早核实联合论文：2015-12-07，[Biophysical and economic limits to negative CO₂ emissions](https://www.nature.com/articles/nclimate2870)。另有2013-04共同项目证据。\n\n发展：2013GCP项目构思→2015/2016资源约束综述→2016负排放地球系统响应→2023食物损耗/浪费反弹及2025木质残体碳移除合作。 分工：Smith牵头NETs论文写作与分析；Davis贡献重要分析、图形构思制作；其他作者提供不同技术/模型专业能力。\n\n起源状态：分析于GCP Laxenburg2013年4月负排放会议启动；这是团队研究起源，不能宣称Smith与Davis第一次在那里认识。 [身份/现职依据](https://abdn.elsevierpure.com/en/persons/pete-smith/)。该人完整逐项来源、日期与限制见collaborators.json。\n\n## 与磁材研究讨论最直接的两座桥\n\n**Seaver Wang**：Breakthrough Institute Climate and Energy主任；材料/制造链、重工业、东亚能源政策。 2023第一作者材料情景研究；2025贸易安全论文致谢其详细材料需求数据与估算建议，形成可核实的方法/数据承接。 2023第一作者；2025为被致谢的数据/建议贡献者，不应加进2025作者名单。 首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。 [现职依据](https://thebreakthrough.org/people/seaver-wang)；[研究依据](https://www.sciencedirect.com/science/article/pii/S2542435123000016)。\n\n**Karan Bhuwalka**：现Citadel量化研究者，STEER校友，2025-11离开；历史Stanford工作为工程—经济—不确定性结合的关键材料供应链建模。 2025同行评议贸易安全论文；另与Davis/Benson/Chueh/Boies等共同撰写石墨过程供应成本预印本（arXiv2025-03、SSRN2026-05仍明确未审稿）。 2025供应/处理能源、材料、储量和贸易数据，并对安全评估和未来贸易情景提供输入。石墨预印本采用过程成本模型，不能当作已发表NdFeB工程模型。 首次相识/邀请经过未见可核实的公开一手叙述；以下仅为共同论文/项目时间线，不据共同机构推断起源。共同STEER背景不能代替其与Davis如何首次合作的叙述。 [现职依据](https://steer.stanford.edu/team)；[研究依据](https://www.nature.com/articles/s41558-025-02305-1)。\n\n这两人与Cheng/Tong/Zhang/Caldeira的2025团队形成材料情景、贸易数据和过程经济学之间的公开连接，但不能据此声称这些人都在做NdFeB研究。Azevedo与Davis的2026数据中心供电项目是能源与数据中心研究的另一个公开连接；它属于已宣布资助的工作，不是已完成的工具或论文。[2026-08-18项目公告](https://bitsandwatts.stanford.edu/news/bits-watts-adds-eight-new-research-projects-its-sustainable-ai-infrastructure-research)\n\n## 候选研究问题\n\n2023研究区分地质储量与年度扩产；2025研究比较能源与材料贸易暴露。一个候选研究问题是：把这一分析延伸到分离、金属/合金、磁体制造和客户资格验证后，在明确预算和服务期限下，哪些参数会改变供应安全决策？\n\n这是**候选研究题目**，不代表已经建立合作，也不对未公开研究的范围作出判断。研究应先明确决策者、应用/牌号、预算、期限和核心结果。制造证据的价值可能在于验证敏感参数，如真实良率、可用产能、替代产品的资格时间，而不是再列一遍全球矿点。这个判断是研究设计建议，不能当作对现有论文缺陷的结论。\n\n三个具体提问：\n\n- “2025贸易暴露结果里，哪一种制造或资格验证假设如果测得更准确，会最可能改变决策？”\n- “材料需求数据集与针对一个终端应用的过程成本及可交付能力模型，哪一种更能回答所选决策问题？”\n- “一个公开数据试算应优先比较成本、交付恢复时间、未满足需求，还是能源部署损失？”\n\n## 核查范围、修正和仍然未知\n\n- 重用192条实验室书目（2008至2026年9月）及先前报告，但它不是完整生涯书目。968个原始姓名标签不是968个消歧后的人；本报告不采用未经完整作者列表校验的联合论文总数来衡量合作强度。\n- 实验室有缩略署名：2015中国排放论文只显示10人，而出版社完整24人包含Hong/Peters等。因此Hong最早核实合作修正到2015-08-19，早于其2017博士后职位。Cheng最早核实合作为2021年4月空气质量路径论文，早于2022入职。Ciais论文讨论稿2012年1月不能代替正式发表2012-05-25；Tong气溶胶论文正式在线为2016-09-05。\n- 目前Cheng为Peking教师、Hong/Tong为Tsinghua教师；Bhuwalka为STEER校友/Citadel研究者，不能沿用旧网页称其当前Stanford工程师。Cheng现职的具体职级/院系仍未独立核实；中文姓名不凭英文拼写猜测。\n- 公开贡献声明优先于作者排序、机构或专长推断。2018净零全文没有逐人贡献声明；会议提供实际报告/组织角色，却不能据此指定谁写了每个章节。2017健康研究是模型估算，不是临床实验；土地驱动分解不等于所有驱动的因果识别。\n- 低引用新作与高引用老作不可直接比较。网站计数只作可审计观察；本报告未取得独立一致、版本去重的全生涯引用数据库，因此不公布H指数或“Top10”的确定排名。\n- 论文公开不代表全部原始输入公开：2019基础设施、2025公司核算等存在授权/许可限制。公开来源可用于初步问题与边界分析，但不代表全部数据均可免费取得。\n- 没有公开证据支持的首次相识、邀请、友情和私人动机全部留空；没有据此要求联系作者或同事。\n\n所有主表记录均有verified_on=2026-10-07和逐项一手链接。源代码/数据链接只标示作者发布入口，不承诺完整无许可证复现。\n",
+  "provenance": {
+    "translation": "Public English and Chinese research reading preserves source references, scientific boundaries and observed publication quantities. Private preparation context is omitted.",
+    "source_report": "Primary-source research compilation, editorially adapted for public reading.",
+    "original_sha256": {}
+  }
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101614">
+  <meta name="description" content="An exploratory laboratory for rare-earth magnet supply-chain resilience. Trace material, test disruptions, and compare interventions.">
+  <title>Rare Earth — A Material Observatory</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=20261007-4">
+  <script defer src="lib/plotly-4.1.1.min.js"></script>
+  <script defer src="runtime.js?v=20261007-5"></script>
+  <script defer src="app.js"></script>
+<link rel="stylesheet" href="global-nav.css?v=20261007-1"><script defer src="global-nav.js?v=20261007-1"></script></head>
+<body>
+  <a class="skip-link" href="#experiment">Skip to the experiment</a>
+  <header class="masthead">
+    <a href="#" class="brand" aria-label="Rare Earth home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>RARE EARTH<small>A MATERIAL OBSERVATORY</small></span></a>
+    <nav aria-label="Main navigation"><a data-nav-route="supply" href="grades.html?layer=facilities#origins">Supply chain</a><a data-nav-route="flows" href="flows.html">Flows &amp; balance</a><a data-nav-route="applications" href="grades.html?layer=applications&amp;application_country=United%20States#origins">Applications &amp; demand</a><a data-nav-route="future" href="future.html">Future research</a><a data-nav-route="knowledge" href="knowledge.html">Davis knowledge</a><a data-nav-route="process" href="process.html">Factory tour</a><a data-nav-route="chain" href="chain.html">Supply laboratory</a></nav>
+    <span class="research-status"><i></i> Exploratory research · 01</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-ornament" aria-hidden="true"><div class="orbital-ring ring-one"></div><div class="orbital-ring ring-two"></div><div class="orbital-ring ring-three"></div><div class="orbital-cross"></div><span class="orbit-label label-n">RESOURCE</span><span class="orbit-label label-s">DELIVERY</span><span class="orbit-label label-e">CAPABILITY</span><span class="orbit-label label-w">RESILIENCE</span></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-line"></span> From earth to motion</p>
+        <h1 id="hero-title">Where does<br><em>resilience</em> break?</h1>
+        <p class="hero-description">More mines do not automatically mean more usable magnets. Explore the passages between a mineral resource and a machine that can finally move.</p>
+        <a class="hero-cta" href="#supply-board">Enter the supply chain</a>
+        <p class="hero-caption">Neodymium & dysprosium · a preliminary physical supply model</p>
+      </div>
+      <div class="hero-diagram" aria-label="Supply chain from resource to delivery">
+        <div class="hero-diagram-label">THE NINE-PASSAGE SYSTEM</div>
+        <div class="small-board" aria-hidden="true"><span>01<b>Mining</b></span><span>02<b>Upgrading</b></span><span>03<b>Separation</b></span><span>06<b>Powder</b></span><span class="board-center">Nd<small>+ Dy</small><i>05 / ALLOYING</i></span><span>04<b>Reduction</b></span><span>07<b>Sintering</b></span><span>08<b>Qualification</b></span><span>09<b>Deployment</b></span></div>
+        <div class="diagram-coordinate"><span>FINITE STOCKS</span><span>REAL PASSAGE OF TIME</span></div>
+      </div>
+      <div class="hero-bottom"><span>DESIGNED TO QUESTION ASSUMPTIONS</span><span>SCROLL TO INVESTIGATE <b>↓</b></span><span>MODEL v0.1 / OCT 2026</span></div>
+    </section>
+
+    <section id="questions" class="questions section-wrap">
+      <div class="section-heading"><p class="eyebrow">01 / The research lens</p><h2>A resource is not<br>yet a capability.</h2><p>Three questions turn a concentration statistic into a testable supply-chain problem.</p></div>
+      <div class="question-list">
+        <article><span>01</span><div><h3>When can independent capability deliver?</h3><p>Test when available material becomes an accepted NdFeB component. Vary downstream availability and qualification against a specified delivery deadline.</p></div><b aria-hidden="true">↗</b></article>
+        <article><span>02</span><div><h3>When does the preferred intervention change?</h3><p>Explore a matched abstract budget. Inventory is pre-positioned; capacity starts after a decision and qualification lag. Their different availability dates affect the comparison.</p></div><b aria-hidden="true">↗</b></article>
+        <article><span>03</span><div><h3>When does a buffer become a bottleneck?</h3><p>Vary shock duration, stock cover and qualification time to see when a temporary interruption becomes delayed deployment.</p></div><b aria-hidden="true">↗</b></article>
+      </div>
+    </section>
+
+    <section id="supply-board" class="system-section section-wrap">
+      <div class="section-top"><div><p class="eyebrow">02 / The supply-chain board</p><h2>Nine passages.<br><em>One connected system.</em></h2></div><p>Choose a passage to inspect what happens there. Nine explanatory operations map to three aggregate production groups. The experiment divides capacity between China and the rest of the world.</p></div>
+      <div class="system-grid">
+        <aside class="system-key"><p class="micro-label">MODEL GROUPS</p><button class="group-key" data-group="mining"><i class="key-dot mining"></i><span>Mining<small>Resource → concentrate</small></span><b>01–02</b></button><button class="group-key" data-group="refining"><i class="key-dot refining"></i><span>Refining<small>Concentrate → metal</small></span><b>03–04</b></button><button class="group-key" data-group="manufacturing"><i class="key-dot manufacturing"></i><span>Manufacturing<small>Metal → qualified magnet</small></span><b>05–08</b></button><div class="system-footnote"><span class="vertical-line"></span>Geometry inspired by the Chinese nine-palace board. Here, every passage refers to a physical industrial process.</div></aside>
+        <div class="palace-board" id="palace-board" aria-label="Explore nine supply-chain operations"></div>
+        <aside class="stage-detail" id="stage-detail" aria-live="polite"></aside>
+      </div>
+      <div class="board-legend"><span><i></i> Selected passage</span><span><i></i> Disrupted model group</span><span>Nine explanatory operations ≠ nine separately calibrated production models.</span></div>
+    </section>
+
+    <section id="experiment" class="experiment-section">
+      <div class="section-wrap">
+        <div class="section-top"><div><p class="eyebrow">03 / The live experiment</p><h2>Change the conditions.<br><em>Follow the consequences.</em></h2></div><div class="experiment-label"><i></i><span>LOCAL SIMULATION<small>Conditional results, not a forecast</small></span></div></div>
+        <div class="scenario-presets" aria-label="Example scenarios"><span>START WITH A QUESTION</span><button data-preset="buffered" class="active">Can a buffer absorb it? <small>3-month partial shock</small></button><button data-preset="severe">What if the interruption persists? <small>6-month regional stoppage</small></button><button data-preset="upstream">Does mining solve a downstream shock? <small>Same shock, more mine capacity</small></button></div>
+        <div class="workbench">
+          <form id="config-form" class="control-panel">
+            <div class="panel-title"><span>EXPERIMENT SETTINGS</span><b>↘</b></div>
+            <fieldset><legend><i>01</i> Deployment portfolio</legend>
+              <label for="wind_mw_per_year">Wind additions <span>MW / year</span></label><input type="number" id="wind_mw_per_year" name="wind_mw_per_year" min="0" max="10000000" step="100" value="1000">
+              <label for="wind_design">Generator design</label><select id="wind_design" name="wind_design"><option value="direct-drive-pm">Direct-drive permanent magnet</option><option value="geared-pm">Geared permanent magnet</option></select>
+              <label for="ev_per_year">PM passenger vehicles <span>vehicles / year</span></label><input type="number" id="ev_per_year" name="ev_per_year" min="0" max="100000000" step="100000" value="1000000">
+              <p class="control-note">A hypothetical technology portfolio. This is not a U.S. fleet estimate. All selected vehicles use the specified PM design.</p>
+            </fieldset>
+            <fieldset><legend><i>02</i> Disruption</legend>
+              <label for="shock_stage">Disrupted production group</label><select id="shock_stage" name="shock_stage"><option value="mining">Mining</option><option value="refining" selected>Refining</option><option value="manufacturing">Manufacturing</option></select>
+              <label for="shock_region">Disrupted region</label><select id="shock_region" name="shock_region"><option value="China">China</option><option value="Rest of world">Rest of world</option></select>
+              <label for="shock_duration_months">Shock duration <output for="shock_duration_months" id="duration-value">3 months</output></label><input type="range" id="shock_duration_months" name="shock_duration_months" min="0" max="12" step="1" value="3">
+              <label for="shock_retention">Regional capacity retained <output for="shock_retention" id="retention-value">50%</output></label><input type="range" id="shock_retention" name="shock_retention" min="0" max="1" step="0.05" value="0.5">
+              <label for="shock_element">Affected material</label><select id="shock_element" name="shock_element"><option value="both">Both Nd and Dy</option><option value="Nd">Neodymium only</option><option value="Dy">Dysprosium only</option></select>
+            </fieldset>
+            <fieldset><legend><i>03</i> Response & buffers</legend>
+              <label for="intervention">Selected intervention</label><select id="intervention" name="intervention"><option value="none">No new investment</option><option value="mining">Additional mining capacity</option><option value="refining">Additional refining capacity</option><option value="manufacturing">Additional manufacturing capacity</option><option value="finished-inventory">Pre-positioned finished inventory</option></select>
+              <label for="budget">Matched budget <span>abstract units</span></label><input type="number" id="budget" name="budget" min="0" max="10000" step="10" value="100">
+              <label for="inventory_months">Finished stock cover <output for="inventory_months" id="inventory-value">1.0 months</output></label><input type="range" id="inventory_months" name="inventory_months" min="0" max="6" step="0.25" value="1">
+              <label for="qualification_months">Capacity qualification delay <span>months</span></label><input type="number" id="qualification_months" name="qualification_months" min="0" max="36" step="1" value="6">
+            </fieldset>
+            <details class="advanced-settings"><summary>Inspect model assumptions <span>+</span></summary>
+              <label for="capacity_headroom">Baseline capacity headroom <output for="capacity_headroom" id="headroom-value">10%</output></label><input type="range" id="capacity_headroom" name="capacity_headroom" min="0" max="1" step="0.05" value="0.1">
+              <label for="horizon_months">Simulation horizon <span>months</span></label><input type="number" id="horizon_months" name="horizon_months" min="6" max="120" step="1" value="24">
+              <label for="shock_start_month">Shock begins <span>month</span></label><input type="number" id="shock_start_month" name="shock_start_month" min="1" max="120" step="1" value="4">
+              <p class="control-note">Stage shares are geographical proxies, not measured operating capacities. Yields, stocks, costs and lead times are assumptions. Download the run to inspect every input.</p>
+            </details>
+            <button class="run-button" type="submit" id="run-button" disabled>Preparing the model…</button><div id="run-status" role="status">Preparing the research model. The first load may take a few seconds.</div>
+          </form>
+
+          <div class="results-panel" id="results-panel" aria-busy="true">
+            <div class="result-topline"><p class="micro-label">THE SELECTED SCENARIO</p><span id="scenario-title">Refining interruption</span><button id="download-run" disabled title="Download full inputs, results and audit">Export run</button></div>
+            <div class="material-strip"><div class="material-symbol"><span>60</span><b>Nd</b><small>NEODYMIUM</small></div><div class="material-value"><strong id="nd-demand">—</strong><span>contained tonnes / year</span><small id="nd-split">Wind + PM vehicles</small></div><div class="material-symbol dy"><span>66</span><b>Dy</b><small>DYSPROSIUM</small></div><div class="material-value"><strong id="dy-demand">—</strong><span>contained tonnes / year</span><small id="dy-split">Wind + PM vehicles</small></div></div>
+            <div class="metric-grid"><div><span>DELIVERED BY HORIZON</span><strong id="service-metric">—</strong><small>of cumulative portfolio demand</small></div><div><span>PEAK DEPLOYMENT BACKLOG</span><strong id="backlog-metric">—</strong><small>months of the fixed portfolio</small></div><div><span>DELAY BURDEN</span><strong id="burden-metric">—</strong><small>portfolio-months × months delayed</small></div></div>
+            <article class="finding" id="finding"><span class="finding-dot"></span><div><p class="micro-label">WHAT THIS RUN SAYS</p><p id="finding-text">Results will appear after the model runs.</p></div></article>
+            <section class="chart-card"><div class="chart-heading"><div><span class="micro-label">01 / TIME & DELIVERY</span><h3>A shock travels through the system.</h3></div><span class="chart-unit">Portfolio-month equivalents</span></div><div class="plot" id="delivery-chart" role="img" aria-label="Monthly delivery and backlog"></div><p class="chart-note">One portfolio-month is one month of the selected wind and PM-vehicle demand. Shading marks the production shock; delivery can be affected later.</p></section>
+            <section class="chart-card"><div class="chart-heading"><div><span class="micro-label">02 / MATCHED-BUDGET COMPARISON</span><h3>Which passage is worth opening?</h3></div><span class="chart-unit">Lower delay burden is better</span></div><div class="plot short-plot" id="comparison-chart" role="img" aria-label="Delay burden across equal abstract budget interventions"></div><p class="chart-note">Four interventions spend the same abstract budget. Inventory is bought before month 1; capacity follows a month-1 decision and qualification lag. Timing, cost conversion and gains are assumed; this is not an equally timed emergency-response or dollar-return ranking.</p></section>
+            <section class="chart-card"><div class="chart-heading"><div><span class="micro-label">03 / DURATION SENSITIVITY</span><h3>Time changes the answer.</h3></div><span class="chart-unit">Cumulative delay burden</span></div><div class="plot short-plot" id="sensitivity-chart" role="img" aria-label="Intervention results for one, three and six month shocks"></div><p class="chart-note">30, 90 and 180 days are discretized as 1, 3 and 6 model months. This sweep retains the other selected inputs.</p></section>
+            <details class="audit-panel"><summary><span id="audit-badge">MATERIAL BALANCE</span><span>Inspect the physical ledger +</span></summary><p>Initial material + external feed = deliveries + process losses + ending stocks and pipeline.</p><div id="audit-content"></div><p>Neodymium and dysprosium are tracked separately. Both are needed to deliver the fixed technology basket; neither is used as a substitute for the other.</p></details>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="method" class="method-section section-wrap"><div class="section-heading"><p class="eyebrow">04 / A transparent method</p><h2>Evidence underneath.<br><em>Assumptions in view.</em></h2><p>An independent exploratory implementation, informed by Cheng, Davis and colleagues’ 2025 trade-risk study.</p></div><div class="method-cards"><article><span>FROM THE PAPER</span><h3>Deployment × material intensity</h3><p>Selected wind designs and passenger-motor inputs determine annual contained neodymium and dysprosium demand. The source distinguishes direct-drive and geared permanent-magnet designs.</p><a href="https://doi.org/10.1038/s41558-025-02305-1" target="_blank" rel="noopener">Read Cheng et al. (2025)</a></article><article><span>OUR EXTENSION</span><h3>A monthly delivery experiment</h3><p>Three aggregate production groups split capacity across China and the rest of the world. Finite stocks, yields, lead times and qualification delay translate a shock into delivery backlog. Nine board passages explain the industry; they are not nine independently modeled capacities.</p><p class="method-tag">Not a reproduction of national trade-risk results</p></article><article><span>THE NEXT RESEARCH STEP</span><h3>Test when relocation is feasible</h3><p>The trade study locates risk at reserve owners and allows manufacturing to relocate more readily than geology. Test that assumption for one accepted NdFeB grade, with common decision, shock and delivery dates, construction, ramp and customer qualification.</p><p class="method-tag">Investment rankings remain conditional</p></article></div></section>
+
+    <section id="sources" class="sources-section section-wrap"><div class="source-heading"><div><p class="eyebrow">05 / The evidence ledger</p><h2>Follow every number<br><em>back to its origin.</em></h2></div><p>Published inputs and explicit model choices are different kinds of evidence. This ledger keeps their boundaries visible.</p></div><div id="source-list" class="source-list"><p>Loading primary sources…</p></div><div class="limitations"><span>MODEL BOUNDARY</span><p>This first experiment covers a fixed Nd/Dy technology portfolio, not all rare earths or all magnet demand. It does not yet include Pr/Tb, grade-specific chemistry, trade routes, customer competition, substitution or recycling feed. Results do not estimate the probability of a national shortage.</p></div></section>
+  </main>
+  <footer class="section-wrap"><div class="brand footer-brand"><span>RARE EARTH<small>FROM RESOURCE TO RESILIENCE</small></span></div><p>An exploratory research workbench.<br>Science in the model. A nine-palace geometry in the visual language.</p><a href="#">Back to the beginning</a></footer>
+</body>
+</html>

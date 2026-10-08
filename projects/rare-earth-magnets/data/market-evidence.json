@@ -1,0 +1,2771 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-07",
+  "scope": "Curated reusable public facts; historical price definitions remain separate. No licensed SMM price observations or forecast points.",
+  "materials": [
+    {
+      "id": "NdPr",
+      "label": "Nd + Pr · combined products",
+      "purchase_form": "NdPr metal alloy"
+    },
+    {
+      "id": "Nd",
+      "label": "Nd · neodymium",
+      "purchase_form": "Pure Nd metal or combined NdPr alloy"
+    },
+    {
+      "id": "Pr",
+      "label": "Pr · praseodymium",
+      "purchase_form": "Pure Pr metal or combined NdPr alloy"
+    },
+    {
+      "id": "Dy",
+      "label": "Dy · dysprosium",
+      "purchase_form": "DyFe master alloy, Dy metal or diffusion source"
+    },
+    {
+      "id": "Tb",
+      "label": "Tb · terbium",
+      "purchase_form": "Tb metal or diffusion source"
+    },
+    {
+      "id": "Fe",
+      "label": "Fe · iron",
+      "purchase_form": "High-purity iron / electrolytic flakes"
+    },
+    {
+      "id": "B",
+      "label": "B · boron",
+      "purchase_form": "Ferroboron master alloy"
+    }
+  ],
+  "views": [
+    {
+      "id": "ndpr-purchase-annual",
+      "material": "NdPr",
+      "label": "NdPr metal · issuer purchases · 2018–2020",
+      "title": "What one magnet maker actually paid",
+      "series": [
+        {
+          "id": "jlmag_actual_purchase_ndpr_non_related_annual",
+          "label": "Unrelated suppliers",
+          "benchmark": {
+            "benchmark_id": "jlmag_actual_purchase_ndpr_non_related",
+            "product": "NdPr metal alloy",
+            "chemical_form": "mixed rare-earth metal alloy",
+            "grade_or_assay": "not disclosed",
+            "statistic": "issuer actual total purchase cost / purchase volume",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "JL MAG procurement, China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "VAT excluded",
+            "nominal_or_real": "nominal",
+            "provider": "JL MAG issuer purchase accounts",
+            "reuse": "Public financial filing",
+            "party_class": "non_related",
+            "comparability_warning": "Company purchase timing, volume and supplier mix affect average; not a spot benchmark. Do not combine related/non-related APPs without purchase weights."
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_non_related:2018:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_non_related",
+              "period": "2018",
+              "value": 363000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 363,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_non_related:2019:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_non_related",
+              "period": "2019",
+              "value": 325000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 325,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_non_related:2020:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_non_related",
+              "period": "2020",
+              "value": 334000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 334,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "annual"
+            }
+          ]
+        },
+        {
+          "id": "jlmag_actual_purchase_ndpr_related_annual",
+          "label": "Related suppliers",
+          "benchmark": {
+            "benchmark_id": "jlmag_actual_purchase_ndpr_related",
+            "product": "NdPr metal alloy",
+            "chemical_form": "mixed rare-earth metal alloy",
+            "grade_or_assay": "not disclosed",
+            "statistic": "issuer actual total purchase cost / purchase volume",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "JL MAG procurement, China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "VAT excluded",
+            "nominal_or_real": "nominal",
+            "provider": "JL MAG issuer purchase accounts",
+            "reuse": "Public financial filing",
+            "party_class": "related",
+            "comparability_warning": "Company purchase timing, volume and supplier mix affect average; not a spot benchmark. Do not combine related/non-related APPs without purchase weights."
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_related:2018:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_related",
+              "period": "2018",
+              "value": 350000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 350,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_related:2019:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_related",
+              "period": "2019",
+              "value": 330000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 330,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_related:2020:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_related",
+              "period": "2020",
+              "value": 368000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 368,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "JL MAG reports average purchase price as total purchase cost divided by volume, excluding VAT. Timing, quantities and supplier mix affect these averages; the two supplier classes are not combined without volume weights.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "ndpr-purchase-h1",
+      "material": "NdPr",
+      "label": "NdPr metal · issuer purchases · H1 2021",
+      "title": "A half-year purchase snapshot",
+      "series": [
+        {
+          "id": "jlmag_actual_purchase_ndpr_non_related_half-year",
+          "label": "Unrelated suppliers",
+          "benchmark": {
+            "benchmark_id": "jlmag_actual_purchase_ndpr_non_related",
+            "product": "NdPr metal alloy",
+            "chemical_form": "mixed rare-earth metal alloy",
+            "grade_or_assay": "not disclosed",
+            "statistic": "issuer actual total purchase cost / purchase volume",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "JL MAG procurement, China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "VAT excluded",
+            "nominal_or_real": "nominal",
+            "provider": "JL MAG issuer purchase accounts",
+            "reuse": "Public financial filing",
+            "party_class": "non_related",
+            "comparability_warning": "Company purchase timing, volume and supplier mix affect average; not a spot benchmark. Do not combine related/non-related APPs without purchase weights."
+          },
+          "period_type": "half-year",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_non_related:2021-H1:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_non_related",
+              "period": "2021-H1",
+              "value": 537000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 537,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "half-year"
+            }
+          ]
+        },
+        {
+          "id": "jlmag_actual_purchase_ndpr_related_half-year",
+          "label": "Related suppliers",
+          "benchmark": {
+            "benchmark_id": "jlmag_actual_purchase_ndpr_related",
+            "product": "NdPr metal alloy",
+            "chemical_form": "mixed rare-earth metal alloy",
+            "grade_or_assay": "not disclosed",
+            "statistic": "issuer actual total purchase cost / purchase volume",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "JL MAG procurement, China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "VAT excluded",
+            "nominal_or_real": "nominal",
+            "provider": "JL MAG issuer purchase accounts",
+            "reuse": "Public financial filing",
+            "party_class": "related",
+            "comparability_warning": "Company purchase timing, volume and supplier mix affect average; not a spot benchmark. Do not combine related/non-related APPs without purchase weights."
+          },
+          "period_type": "half-year",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_actual_purchase_ndpr_related:2021-H1:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_actual_purchase_ndpr_related",
+              "period": "2021-H1",
+              "value": 565000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed349/PDF359; APP definition printed45/PDF55",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 565,
+              "printed_unit": "RMB'000/tonne",
+              "normalization": "Printed table value ×1000; unit conversion only",
+              "period_type": "half-year"
+            }
+          ]
+        }
+      ],
+      "explanation": "This is January–June 2021, not a completed annual average. Keep it separate from 2018–2020 annual purchasing averages. The alloy ratio, purity and delivery terms are not disclosed.",
+      "mode": "bar",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "ndpr-market-2015",
+      "material": "NdPr",
+      "label": "NdPr metal · China market · 2015–2020",
+      "title": "The market reference behind an alloy purchase",
+      "series": [
+        {
+          "id": "jlmag_china_market_ndpr",
+          "label": "NdPr metal alloy",
+          "benchmark": {
+            "benchmark_id": "jlmag_china_market_ndpr",
+            "product": "NdPr metal alloy",
+            "chemical_form": "mixed rare-earth metal alloy",
+            "grade_or_assay": "not stated",
+            "statistic": "calendar-year average, as chart title labels average price",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "China Rare Earth Association; Frost & Sullivan analysis",
+            "reuse": "Public financial filing factual labels; chart graphic reuse not established",
+            "comparability_warning": "Not actual JL MAG purchases; Nd/Pr ratio, total assay, VAT and delivery basis are not stated. A combined NdPr metal quote is not a pure-Nd, pure-Pr or oxide quote."
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_china_market_ndpr:2015:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_ndpr",
+              "period": "2015",
+              "value": 347300.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 347.3,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; Nd/Pr ratio, total assay, VAT and delivery basis are not stated. A combined NdPr metal quote is not a pure-Nd, pure-Pr or oxide quote."
+            },
+            {
+              "point_id": "jlmag_china_market_ndpr:2016:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_ndpr",
+              "period": "2016",
+              "value": 329500.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 329.5,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; Nd/Pr ratio, total assay, VAT and delivery basis are not stated. A combined NdPr metal quote is not a pure-Nd, pure-Pr or oxide quote."
+            },
+            {
+              "point_id": "jlmag_china_market_ndpr:2017:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_ndpr",
+              "period": "2017",
+              "value": 442900.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 442.9,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; Nd/Pr ratio, total assay, VAT and delivery basis are not stated. A combined NdPr metal quote is not a pure-Nd, pure-Pr or oxide quote."
+            },
+            {
+              "point_id": "jlmag_china_market_ndpr:2018:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_ndpr",
+              "period": "2018",
+              "value": 425900.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 425.9,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; Nd/Pr ratio, total assay, VAT and delivery basis are not stated. A combined NdPr metal quote is not a pure-Nd, pure-Pr or oxide quote."
+            },
+            {
+              "point_id": "jlmag_china_market_ndpr:2019:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_ndpr",
+              "period": "2019",
+              "value": 391400.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 391.4,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; Nd/Pr ratio, total assay, VAT and delivery basis are not stated. A combined NdPr metal quote is not a pure-Nd, pure-Pr or oxide quote."
+            },
+            {
+              "point_id": "jlmag_china_market_ndpr:2020:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_ndpr",
+              "period": "2020",
+              "value": 393100.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 393.1,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; Nd/Pr ratio, total assay, VAT and delivery basis are not stated. A combined NdPr metal quote is not a pure-Nd, pure-Pr or oxide quote."
+            }
+          ]
+        }
+      ],
+      "explanation": "Exact historical number labels in the 2021 prospectus, attributed to China Rare Earth Association and Frost & Sullivan. The chart also contains later forecasts, which are excluded here. Assay, VAT and delivery are not stated.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "ndpr-market-2023",
+      "material": "NdPr",
+      "label": "NdPr metal · tax-inclusive market · 2023–2025",
+      "title": "A later NdPr metal benchmark",
+      "series": [
+        {
+          "id": "jlmag_association_ndpr_metal_annual",
+          "label": "NdPr metal alloy",
+          "benchmark": {
+            "benchmark_id": "jlmag_association_ndpr_metal_annual",
+            "product": "NdPr metal alloy",
+            "chemical_form": "mixed rare-earth metal alloy",
+            "grade_or_assay": "not stated",
+            "statistic": "calendar-year average",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "tax inclusive; VAT not separately specified",
+            "nominal_or_real": "nominal",
+            "provider": "Association of China Rare Earth Industry",
+            "reuse": "Public financial filing factual statements"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_association_ndpr_metal_annual:2023:jlmag_ar2024",
+              "benchmark_id": "jlmag_association_ndpr_metal_annual",
+              "period": "2023",
+              "value": 650000,
+              "source_id": "jlmag_ar2024",
+              "source_locator": "Printed19/PDF20",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_association_ndpr_metal_annual:2024:jlmag_ar2025",
+              "benchmark_id": "jlmag_association_ndpr_metal_annual",
+              "period": "2024",
+              "value": 490000,
+              "source_id": "jlmag_ar2025",
+              "source_locator": "Printed60/PDF61, corroborated in AR2024 printed19/PDF20",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_association_ndpr_metal_annual:2025:jlmag_ar2025",
+              "benchmark_id": "jlmag_association_ndpr_metal_annual",
+              "period": "2025",
+              "value": 601300,
+              "source_id": "jlmag_ar2025",
+              "source_locator": "Printed49/PDF50 and printed60/PDF61",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Association of China Rare Earth Industry market averages as reported by JL MAG. This tax-inclusive definition is a separate segment from the prospectus history and from the VAT-exclusive purchase accounts; 2021–2022 are unavailable in this segment.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "ndpr-oxide-2021",
+      "material": "NdPr",
+      "label": "Oxide · USGS annual · 2021–2025e",
+      "title": "Neodymium-praseodymium oxide",
+      "series": [
+        {
+          "id": "usgs_mcs2026_ndpr_oxide",
+          "label": "Neodymium-praseodymium oxide",
+          "benchmark": {
+            "benchmark_id": "usgs_mcs2026_ndpr_oxide",
+            "product": "Neodymium-praseodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "calendar-year average",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "not specified",
+            "incoterm_or_delivery_basis": "FOB; location not stated in this source",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Argus Non-Ferrous Markets; heavy chapter also cites Asian Metal",
+            "publication_vintage": "MCS 2026 data release",
+            "reuse": "CC0 official data release"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_mcs2026_ndpr_oxide:2021:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_ndpr_oxide",
+              "period": "2021",
+              "value": 92.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium-praseodymium (NdPr) oxide, 99% minimum; Year=2021",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_ndpr_oxide:2022:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_ndpr_oxide",
+              "period": "2022",
+              "value": 124.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium-praseodymium (NdPr) oxide, 99% minimum; Year=2022",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_ndpr_oxide:2023:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_ndpr_oxide",
+              "period": "2023",
+              "value": 75.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium-praseodymium (NdPr) oxide, 99% minimum; Year=2023",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_ndpr_oxide:2024:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_ndpr_oxide",
+              "period": "2024",
+              "value": 55.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium-praseodymium (NdPr) oxide, 99% minimum; Year=2024",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_ndpr_oxide:2025:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_ndpr_oxide",
+              "period": "2025",
+              "value": 69.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium-praseodymium (NdPr) oxide, 99% minimum; Year=2025",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": true,
+              "source_note": "Estimated. -- Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Official USGS MCS 2026 data release (CC0). 2025 is estimated. FOB location and tax basis are not specified; the table’s United States country field is not proof of the benchmark’s geography. An oxide price does not price a metal or master alloy.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "nd-oxide-2021",
+      "material": "Nd",
+      "label": "Oxide · USGS annual · 2021–2025e",
+      "title": "Neodymium oxide",
+      "series": [
+        {
+          "id": "usgs_mcs2026_nd_oxide",
+          "label": "Neodymium oxide",
+          "benchmark": {
+            "benchmark_id": "usgs_mcs2026_nd_oxide",
+            "product": "Neodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99.5%",
+            "statistic": "calendar-year average",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "not specified",
+            "incoterm_or_delivery_basis": "FOB; location not stated in this source",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Argus Non-Ferrous Markets; heavy chapter also cites Asian Metal",
+            "publication_vintage": "MCS 2026 data release",
+            "reuse": "CC0 official data release"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_mcs2026_nd_oxide:2021:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_nd_oxide",
+              "period": "2021",
+              "value": 98.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium oxide, 99.5% minimum; Year=2021",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_nd_oxide:2022:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_nd_oxide",
+              "period": "2022",
+              "value": 134.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium oxide, 99.5% minimum; Year=2022",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_nd_oxide:2023:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_nd_oxide",
+              "period": "2023",
+              "value": 78.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium oxide, 99.5% minimum; Year=2023",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_nd_oxide:2024:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_nd_oxide",
+              "period": "2024",
+              "value": 56.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium oxide, 99.5% minimum; Year=2024",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_nd_oxide:2025:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_nd_oxide",
+              "period": "2025",
+              "value": 73.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Neodymium oxide, 99.5% minimum; Year=2025",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": true,
+              "source_note": "Estimated. -- Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Official USGS MCS 2026 data release (CC0). 2025 is estimated. FOB location and tax basis are not specified; the table’s United States country field is not proof of the benchmark’s geography. An oxide price does not price a metal or master alloy.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "pr-oxide-2021",
+      "material": "Pr",
+      "label": "Oxide · USGS annual · 2021–2025e",
+      "title": "Praseodymium oxide",
+      "series": [
+        {
+          "id": "usgs_mcs2026_pr_oxide",
+          "label": "Praseodymium oxide",
+          "benchmark": {
+            "benchmark_id": "usgs_mcs2026_pr_oxide",
+            "product": "Praseodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99.99%",
+            "statistic": "calendar-year average",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "not specified",
+            "incoterm_or_delivery_basis": "FOB; location not stated in this source",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Argus Non-Ferrous Markets; heavy chapter also cites Asian Metal",
+            "publication_vintage": "MCS 2026 data release",
+            "reuse": "CC0 official data release"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_mcs2026_pr_oxide:2021:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_pr_oxide",
+              "period": "2021",
+              "value": 93.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Praseodymium oxide, 99.99% minimum; Year=2021",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_pr_oxide:2022:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_pr_oxide",
+              "period": "2022",
+              "value": 128.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Praseodymium oxide, 99.99% minimum; Year=2022",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_pr_oxide:2023:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_pr_oxide",
+              "period": "2023",
+              "value": 76.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Praseodymium oxide, 99.99% minimum; Year=2023",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_pr_oxide:2024:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_pr_oxide",
+              "period": "2024",
+              "value": 56.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Praseodymium oxide, 99.99% minimum; Year=2024",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_pr_oxide:2025:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_pr_oxide",
+              "period": "2025",
+              "value": 74.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS; Statistics_detail=Price, average, dollars per kilogram: Praseodymium oxide, 99.99% minimum; Year=2025",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": true,
+              "source_note": "Estimated. -- Free on board. Source: Argus Media group, Argus Non-Ferrous Markets.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Official USGS MCS 2026 data release (CC0). 2025 is estimated. FOB location and tax basis are not specified; the table’s United States country field is not proof of the benchmark’s geography. An oxide price does not price a metal or master alloy.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "dy-oxide-2021",
+      "material": "Dy",
+      "label": "Oxide · USGS annual · 2021–2025e",
+      "title": "Dysprosium oxide",
+      "series": [
+        {
+          "id": "usgs_mcs2026_dy_oxide",
+          "label": "Dysprosium oxide",
+          "benchmark": {
+            "benchmark_id": "usgs_mcs2026_dy_oxide",
+            "product": "Dysprosium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99.5%",
+            "statistic": "calendar-year average",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "not specified",
+            "incoterm_or_delivery_basis": "FOB; location not stated in this source",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Argus Non-Ferrous Markets; heavy chapter also cites Asian Metal",
+            "publication_vintage": "MCS 2026 data release",
+            "reuse": "CC0 official data release"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_mcs2026_dy_oxide:2021:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_dy_oxide",
+              "period": "2021",
+              "value": 410.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Dysprosium oxide, 99.5% minimum; Year=2021",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_dy_oxide:2022:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_dy_oxide",
+              "period": "2022",
+              "value": 382.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Dysprosium oxide, 99.5% minimum; Year=2022",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_dy_oxide:2023:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_dy_oxide",
+              "period": "2023",
+              "value": 330.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Dysprosium oxide, 99.5% minimum; Year=2023",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_dy_oxide:2024:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_dy_oxide",
+              "period": "2024",
+              "value": 257.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Dysprosium oxide, 99.5% minimum; Year=2024",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_dy_oxide:2025:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_dy_oxide",
+              "period": "2025",
+              "value": 239.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Dysprosium oxide, 99.5% minimum; Year=2025",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": true,
+              "source_note": "Estimated. -- Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Official USGS MCS 2026 data release (CC0). 2025 is estimated. FOB location and tax basis are not specified; the table’s United States country field is not proof of the benchmark’s geography. An oxide price does not price a metal or master alloy.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "tb-oxide-2021",
+      "material": "Tb",
+      "label": "Oxide · USGS annual · 2021–2025e",
+      "title": "Terbium oxide",
+      "series": [
+        {
+          "id": "usgs_mcs2026_tb_oxide",
+          "label": "Terbium oxide",
+          "benchmark": {
+            "benchmark_id": "usgs_mcs2026_tb_oxide",
+            "product": "Terbium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99.99%",
+            "statistic": "calendar-year average",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "not specified",
+            "incoterm_or_delivery_basis": "FOB; location not stated in this source",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Argus Non-Ferrous Markets; heavy chapter also cites Asian Metal",
+            "publication_vintage": "MCS 2026 data release",
+            "reuse": "CC0 official data release"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_mcs2026_tb_oxide:2021:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_tb_oxide",
+              "period": "2021",
+              "value": 1340.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Terbium oxide, 99.99% minimum; Year=2021",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_tb_oxide:2022:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_tb_oxide",
+              "period": "2022",
+              "value": 2050.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Terbium oxide, 99.99% minimum; Year=2022",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_tb_oxide:2023:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_tb_oxide",
+              "period": "2023",
+              "value": 1300.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Terbium oxide, 99.99% minimum; Year=2023",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_tb_oxide:2024:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_tb_oxide",
+              "period": "2024",
+              "value": 812.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Terbium oxide, 99.99% minimum; Year=2024",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": false,
+              "source_note": "Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_mcs2026_tb_oxide:2025:usgs_mcs2026_data",
+              "benchmark_id": "usgs_mcs2026_tb_oxide",
+              "period": "2025",
+              "value": 1010.0,
+              "source_id": "usgs_mcs2026_data",
+              "source_locator": "MCS2026_Commodities_Data.csv; chapter=RARE EARTHS (Heavy); Statistics_detail=Price, average, dollars per kilogram: Terbium oxide, 99.99% minimum; Year=2025",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "estimated": true,
+              "source_note": "Estimated. -- Free on board. Sources: Argus Media group, Argus Non-Ferrous Markets and Asian Metal Ltd.",
+              "source_table_country": "United States",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Official USGS MCS 2026 data release (CC0). 2025 is estimated. FOB location and tax basis are not specified; the table’s United States country field is not proof of the benchmark’s geography. An oxide price does not price a metal or master alloy.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "nd-metal-2006",
+      "material": "Nd",
+      "label": "Pure metal · USGS year-end · 2006–2010",
+      "title": "Neodymium metal · historical",
+      "series": [
+        {
+          "id": "usgs_sir_nd_metal_annual",
+          "label": "Neodymium metal",
+          "benchmark": {
+            "benchmark_id": "usgs_sir_nd_metal",
+            "product": "Neodymium metal",
+            "chemical_form": "pure metal",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "year-end price",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "FOB China",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Metal-Pages Ltd., as published by USGS",
+            "reuse": "USGS publication"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_sir_nd_metal:2006:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_nd_metal",
+              "period": "2006",
+              "value": 28.55,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 6; printed page 146; PDF page 152",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_nd_metal:2007:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_nd_metal",
+              "period": "2007",
+              "value": 34.75,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 6; printed page 146; PDF page 152",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_nd_metal:2008:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_nd_metal",
+              "period": "2008",
+              "value": 18.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 6; printed page 146; PDF page 152",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_nd_metal:2009:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_nd_metal",
+              "period": "2009",
+              "value": 29.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 6; printed page 146; PDF page 152",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_nd_metal:2010:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_nd_metal",
+              "period": "2010",
+              "value": 113.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 6; printed page 146; PDF page 152",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "USGS historical table: minimum 99% pure metal, FOB China, year-end prices. These are not annual averages or actual company purchases. This comparable historical segment ends in 2010.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "pr-metal-2006",
+      "material": "Pr",
+      "label": "Pure metal · USGS year-end · 2006–2010",
+      "title": "Praseodymium metal · historical",
+      "series": [
+        {
+          "id": "usgs_sir_pr_metal_annual",
+          "label": "Praseodymium metal",
+          "benchmark": {
+            "benchmark_id": "usgs_sir_pr_metal",
+            "product": "Praseodymium metal",
+            "chemical_form": "pure metal",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "year-end price",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "FOB China",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Metal-Pages Ltd., as published by USGS",
+            "reuse": "USGS publication"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_sir_pr_metal:2006:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_pr_metal",
+              "period": "2006",
+              "value": 25.75,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 7; printed page 147; PDF page 153",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_pr_metal:2007:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_pr_metal",
+              "period": "2007",
+              "value": 34.25,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 7; printed page 147; PDF page 153",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_pr_metal:2008:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_pr_metal",
+              "period": "2008",
+              "value": 18.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 7; printed page 147; PDF page 153",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_pr_metal:2009:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_pr_metal",
+              "period": "2009",
+              "value": 29.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 7; printed page 147; PDF page 153",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_pr_metal:2010:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_pr_metal",
+              "period": "2010",
+              "value": 111.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 7; printed page 147; PDF page 153",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "USGS historical table: minimum 99% pure metal, FOB China, year-end prices. These are not annual averages or actual company purchases. This comparable historical segment ends in 2010.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "dy-metal-2006",
+      "material": "Dy",
+      "label": "Pure metal · USGS year-end · 2006–2010",
+      "title": "Dysprosium metal · historical",
+      "series": [
+        {
+          "id": "usgs_sir_dy_metal_annual",
+          "label": "Dysprosium metal",
+          "benchmark": {
+            "benchmark_id": "usgs_sir_dy_metal",
+            "product": "Dysprosium metal",
+            "chemical_form": "pure metal",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "year-end price",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "FOB China",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Metal-Pages Ltd., as published by USGS",
+            "reuse": "USGS publication"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_sir_dy_metal:2006:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_dy_metal",
+              "period": "2006",
+              "value": 100,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 2; printed page 142; PDF page 148",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_dy_metal:2007:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_dy_metal",
+              "period": "2007",
+              "value": 123,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 2; printed page 142; PDF page 148",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_dy_metal:2008:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_dy_metal",
+              "period": "2008",
+              "value": 144.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 2; printed page 142; PDF page 148",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_dy_metal:2009:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_dy_metal",
+              "period": "2009",
+              "value": 147.5,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 2; printed page 142; PDF page 148",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_dy_metal:2010:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_dy_metal",
+              "period": "2010",
+              "value": 400,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 2; printed page 142; PDF page 148",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "USGS historical table: minimum 99% pure metal, FOB China, year-end prices. These are not annual averages or actual company purchases. This comparable historical segment ends in 2010.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "tb-metal-2006",
+      "material": "Tb",
+      "label": "Pure metal · USGS year-end · 2006–2010",
+      "title": "Terbium metal · historical",
+      "series": [
+        {
+          "id": "usgs_sir_tb_metal_annual",
+          "label": "Terbium metal",
+          "benchmark": {
+            "benchmark_id": "usgs_sir_tb_metal",
+            "product": "Terbium metal",
+            "chemical_form": "pure metal",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "year-end price",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "FOB China",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Metal-Pages Ltd., as published by USGS",
+            "reuse": "USGS publication"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "usgs_sir_tb_metal:2006:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_tb_metal",
+              "period": "2006",
+              "value": 660,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 10; printed page 150; PDF page 156",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_tb_metal:2007:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_tb_metal",
+              "period": "2007",
+              "value": 750,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 10; printed page 150; PDF page 156",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_tb_metal:2008:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_tb_metal",
+              "period": "2008",
+              "value": 600,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 10; printed page 150; PDF page 156",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_tb_metal:2009:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_tb_metal",
+              "period": "2009",
+              "value": 540,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 10; printed page 150; PDF page 156",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "usgs_sir_tb_metal:2010:usgs_sir2012_5188",
+              "benchmark_id": "usgs_sir_tb_metal",
+              "period": "2010",
+              "value": 770,
+              "source_id": "usgs_sir2012_5188",
+              "source_locator": "Table 10; printed page 150; PDF page 156",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "USGS historical table: minimum 99% pure metal, FOB China, year-end prices. These are not annual averages or actual company purchases. This comparable historical segment ends in 2010.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "nd-market-2015",
+      "material": "Nd",
+      "label": "Nd metal · China market · 2015–2020",
+      "title": "Neodymium metal",
+      "series": [
+        {
+          "id": "jlmag_china_market_nd",
+          "label": "Neodymium metal",
+          "benchmark": {
+            "benchmark_id": "jlmag_china_market_nd",
+            "product": "Neodymium metal",
+            "chemical_form": "pure metal",
+            "grade_or_assay": "not stated",
+            "statistic": "calendar-year average, as chart title labels average price",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "China Rare Earth Association; Frost & Sullivan analysis",
+            "reuse": "Public financial filing factual labels; chart graphic reuse not established",
+            "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Neodymium metal is a different purchased form from neodymium oxide or mixed NdPr alloy."
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_china_market_nd:2015:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_nd",
+              "period": "2015",
+              "value": 347300.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 347.3,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Neodymium metal is a different purchased form from neodymium oxide or mixed NdPr alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_nd:2016:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_nd",
+              "period": "2016",
+              "value": 324100.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 324.1,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Neodymium metal is a different purchased form from neodymium oxide or mixed NdPr alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_nd:2017:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_nd",
+              "period": "2017",
+              "value": 430000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 430,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Neodymium metal is a different purchased form from neodymium oxide or mixed NdPr alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_nd:2018:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_nd",
+              "period": "2018",
+              "value": 423900.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 423.9,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Neodymium metal is a different purchased form from neodymium oxide or mixed NdPr alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_nd:2019:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_nd",
+              "period": "2019",
+              "value": 391700.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 391.7,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Neodymium metal is a different purchased form from neodymium oxide or mixed NdPr alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_nd:2020:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_nd",
+              "period": "2020",
+              "value": 422200.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 422.2,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Neodymium metal is a different purchased form from neodymium oxide or mixed NdPr alloy."
+            }
+          ]
+        }
+      ],
+      "explanation": "Exact historical chart labels in JL MAG’s public prospectus, with its market-source attribution. Assay, tax and delivery are not stated. This is a market reference rather than an actual procurement account.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "tb-market-2015",
+      "material": "Tb",
+      "label": "Tb metal · China market · 2015–2020",
+      "title": "Terbium metal",
+      "series": [
+        {
+          "id": "jlmag_china_market_tb",
+          "label": "Terbium metal",
+          "benchmark": {
+            "benchmark_id": "jlmag_china_market_tb",
+            "product": "Terbium metal",
+            "chemical_form": "pure metal",
+            "grade_or_assay": "not stated",
+            "statistic": "calendar-year average, as chart title labels average price",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "China Rare Earth Association; Frost & Sullivan analysis",
+            "reuse": "Public financial filing factual labels; chart graphic reuse not established",
+            "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Terbium metal is a different purchased form from terbium oxide or a Tb-containing alloy."
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_china_market_tb:2015:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_tb",
+              "period": "2015",
+              "value": 4250000,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 4250,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Terbium metal is a different purchased form from terbium oxide or a Tb-containing alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_tb:2016:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_tb",
+              "period": "2016",
+              "value": 3545800.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 3545.8,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Terbium metal is a different purchased form from terbium oxide or a Tb-containing alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_tb:2017:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_tb",
+              "period": "2017",
+              "value": 4511300.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 4511.3,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Terbium metal is a different purchased form from terbium oxide or a Tb-containing alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_tb:2018:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_tb",
+              "period": "2018",
+              "value": 4005400.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 4005.4,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Terbium metal is a different purchased form from terbium oxide or a Tb-containing alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_tb:2019:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_tb",
+              "period": "2019",
+              "value": 4529200.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 4529.2,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Terbium metal is a different purchased form from terbium oxide or a Tb-containing alloy."
+            },
+            {
+              "point_id": "jlmag_china_market_tb:2020:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_tb",
+              "period": "2020",
+              "value": 5803100.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 5803.1,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual",
+              "comparability_warning": "Not actual JL MAG purchases; metal purity, VAT and delivery basis are not stated. Terbium metal is a different purchased form from terbium oxide or a Tb-containing alloy."
+            }
+          ]
+        }
+      ],
+      "explanation": "Exact historical chart labels in JL MAG’s public prospectus, with its market-source attribution. Assay, tax and delivery are not stated. This is a market reference rather than an actual procurement account.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "dyfe-market-2015",
+      "material": "Dy",
+      "label": "DyFe master alloy · China market · 2015–2020",
+      "title": "Dysprosium-iron alloy",
+      "series": [
+        {
+          "id": "jlmag_china_market_dyfe",
+          "label": "Dysprosium-iron alloy",
+          "benchmark": {
+            "benchmark_id": "jlmag_china_market_dyfe",
+            "product": "Dysprosium-iron alloy",
+            "chemical_form": "master alloy",
+            "grade_or_assay": "not stated",
+            "statistic": "calendar-year average, as chart title labels average price",
+            "currency": "CNY",
+            "price_per_unit": "tonne",
+            "geography": "China",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "China Rare Earth Association; Frost & Sullivan analysis",
+            "reuse": "Public financial filing factual labels; chart graphic reuse not established",
+            "comparability_warning": "Not actual JL MAG purchases; no stated purity, ratio, VAT or delivery. DyFe cannot be equated with pure Dy."
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "jlmag_china_market_dyfe:2015:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_dyfe",
+              "period": "2015",
+              "value": 1531700.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 1531.7,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_china_market_dyfe:2016:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_dyfe",
+              "period": "2016",
+              "value": 1273300.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 1273.3,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_china_market_dyfe:2017:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_dyfe",
+              "period": "2017",
+              "value": 1237200.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 1237.2,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_china_market_dyfe:2018:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_dyfe",
+              "period": "2018",
+              "value": 1183700.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 1183.7,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_china_market_dyfe:2019:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_dyfe",
+              "period": "2019",
+              "value": 1644800.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 1644.8,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual"
+            },
+            {
+              "point_id": "jlmag_china_market_dyfe:2020:jlmag_prospectus2021",
+              "benchmark_id": "jlmag_china_market_dyfe",
+              "period": "2020",
+              "value": 1792700.0,
+              "source_id": "jlmag_prospectus2021",
+              "source_locator": "Printed130/PDF140, explicit historical chart label",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "printed_value": 1792.7,
+              "printed_unit": "thousand RMB/tonne",
+              "normalization": "Printed numeric label ×1000; unit conversion only",
+              "forecast": false,
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Exact historical chart labels in JL MAG’s public prospectus, with its market-source attribution. Assay, tax and delivery are not stated. This is a market reference rather than an actual procurement account. Price is per tonne of DyFe alloy, not pure dysprosium; this source does not disclose the Dy assay.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "ndpr-oxide-quarter-2011",
+      "material": "NdPr",
+      "label": "NdPr oxide · Lynas 2011 report · quarterly",
+      "title": "NdPr oxide · China export versus domestic",
+      "series": [
+        {
+          "id": "lynas2011_ndpr_oxide_export",
+          "label": "FOB China",
+          "benchmark": {
+            "benchmark_id": "lynas2011_ndpr_oxide_export",
+            "product": "Neodymium-praseodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "published quarterly price; average basis not explicitly stated",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China export",
+            "incoterm_or_delivery_basis": "FOB China",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Lynas published market table",
+            "reuse": "Public corporate report",
+            "ratio": "Nd/Pr ratio not stated"
+          },
+          "period_type": "quarter",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "lynas2011_ndpr_oxide_export:2010-Q1:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_export",
+              "period": "2010-Q1",
+              "value": 25,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_export:2010-Q2:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_export",
+              "period": "2010-Q2",
+              "value": 30,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_export:2010-Q3:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_export",
+              "period": "2010-Q3",
+              "value": 47,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_export:2010-Q4:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_export",
+              "period": "2010-Q4",
+              "value": 72,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_export:2011-Q1:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_export",
+              "period": "2011-Q1",
+              "value": 117,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_export:2011-Q2:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_export",
+              "period": "2011-Q2",
+              "value": 218,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            }
+          ]
+        },
+        {
+          "id": "lynas2011_ndpr_oxide_domestic",
+          "label": "China domestic · CIF",
+          "benchmark": {
+            "benchmark_id": "lynas2011_ndpr_oxide_domestic",
+            "product": "Neodymium-praseodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "published quarterly price; average basis not explicitly stated",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China domestic",
+            "incoterm_or_delivery_basis": "CIF China domestic, as labeled",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Lynas published market table",
+            "reuse": "Public corporate report",
+            "ratio": "Nd/Pr ratio not stated"
+          },
+          "period_type": "quarter",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "lynas2011_ndpr_oxide_domestic:2010-Q1:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_domestic",
+              "period": "2010-Q1",
+              "value": 21,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_domestic:2010-Q2:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_domestic",
+              "period": "2010-Q2",
+              "value": 23.8,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_domestic:2010-Q3:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_domestic",
+              "period": "2010-Q3",
+              "value": 27.9,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_domestic:2010-Q4:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_domestic",
+              "period": "2010-Q4",
+              "value": 31.2,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_domestic:2011-Q1:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_domestic",
+              "period": "2011-Q1",
+              "value": 44.7,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2011_ndpr_oxide_domestic:2011-Q2:lynas_ar2011",
+              "benchmark_id": "lynas2011_ndpr_oxide_domestic",
+              "period": "2011-Q2",
+              "value": 121.1,
+              "source_id": "lynas_ar2011",
+              "source_locator": "Printed page 23; PDF page 25",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            }
+          ]
+        }
+      ],
+      "explanation": "Published quarterly prices, not explicitly described as quarterly averages. Minimum 99% oxide; Nd/Pr ratio and tax are not stated. The domestic delivery definition changes in the 2012 report, so the report segments remain separate.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "ndpr-oxide-quarter-2012",
+      "material": "NdPr",
+      "label": "NdPr oxide · Lynas 2012 report · quarterly",
+      "title": "NdPr oxide · China export versus domestic",
+      "series": [
+        {
+          "id": "lynas2012_ndpr_oxide_export",
+          "label": "FOB China",
+          "benchmark": {
+            "benchmark_id": "lynas2012_ndpr_oxide_export",
+            "product": "Neodymium-praseodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "published quarterly price; average basis not explicitly stated",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China export",
+            "incoterm_or_delivery_basis": "FOB China",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Metal Pages, as published by Lynas",
+            "reuse": "Public corporate report",
+            "ratio": "Nd/Pr ratio not stated"
+          },
+          "period_type": "quarter",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "lynas2012_ndpr_oxide_export:2011-Q3:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_export",
+              "period": "2011-Q3",
+              "value": 265,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2012_ndpr_oxide_export:2011-Q4:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_export",
+              "period": "2011-Q4",
+              "value": 200,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2012_ndpr_oxide_export:2012-Q1:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_export",
+              "period": "2012-Q1",
+              "value": 144,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2012_ndpr_oxide_export:2012-Q2:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_export",
+              "period": "2012-Q2",
+              "value": 100,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            }
+          ]
+        },
+        {
+          "id": "lynas2012_ndpr_oxide_domestic",
+          "label": "China domestic · DLVD",
+          "benchmark": {
+            "benchmark_id": "lynas2012_ndpr_oxide_domestic",
+            "product": "Neodymium-praseodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "minimum 99%",
+            "statistic": "published quarterly price; average basis not explicitly stated",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "China domestic",
+            "incoterm_or_delivery_basis": "Delivered China domestic, as labeled DLVD",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Metal Pages, as published by Lynas",
+            "reuse": "Public corporate report",
+            "ratio": "Nd/Pr ratio not stated"
+          },
+          "period_type": "quarter",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "lynas2012_ndpr_oxide_domestic:2011-Q3:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_domestic",
+              "period": "2011-Q3",
+              "value": 154.5,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2012_ndpr_oxide_domestic:2011-Q4:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_domestic",
+              "period": "2011-Q4",
+              "value": 93.2,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2012_ndpr_oxide_domestic:2012-Q1:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_domestic",
+              "period": "2012-Q1",
+              "value": 60.3,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            },
+            {
+              "point_id": "lynas2012_ndpr_oxide_domestic:2012-Q2:lynas_ar2012",
+              "benchmark_id": "lynas2012_ndpr_oxide_domestic",
+              "period": "2012-Q2",
+              "value": 65.9,
+              "source_id": "lynas_ar2012",
+              "source_locator": "Printed page 21; PDF page 23",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "quarter"
+            }
+          ]
+        }
+      ],
+      "explanation": "Published quarterly prices, not explicitly described as quarterly averages. Minimum 99% oxide; Nd/Pr ratio and tax are not stated. The 2012 report labels domestic prices delivered (DLVD), unlike the earlier CIF table.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "ndpr-oxide-2016-2018",
+      "material": "NdPr",
+      "label": "NdPr oxide · two historical annuals · 2016/2018",
+      "title": "Two exact observations; a real gap between",
+      "series": [
+        {
+          "id": "arafura_asianmetal_ndpr_oxide",
+          "label": "Neodymium-praseodymium oxide",
+          "benchmark": {
+            "benchmark_id": "arafura_asianmetal_ndpr_oxide",
+            "product": "Neodymium-praseodymium oxide",
+            "chemical_form": "oxide",
+            "grade_or_assay": "not stated",
+            "statistic": "calendar-year average",
+            "currency": "USD",
+            "price_per_unit": "kg",
+            "geography": "not specified",
+            "incoterm_or_delivery_basis": "not specified",
+            "tax_basis": "not specified",
+            "nominal_or_real": "nominal",
+            "provider": "Asian Metal, attributed by Arafura",
+            "reuse": "Public corporate technical report",
+            "comparability_warning": "Unspecified historical purity, delivery and taxes; separate segment from USGS Argus annuals"
+          },
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Selected factual government statistics or explicitly numbered public issuer disclosure; no designed source graphic reproduced.",
+          "points": [
+            {
+              "point_id": "arafura_asianmetal_ndpr_oxide:2016:arafura_dfs2019",
+              "benchmark_id": "arafura_asianmetal_ndpr_oxide",
+              "period": "2016",
+              "value": 39,
+              "source_id": "arafura_dfs2019",
+              "source_locator": "Section14.3; printed133–134; PDF141–142",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            },
+            {
+              "point_id": "arafura_asianmetal_ndpr_oxide:2018:arafura_dfs2019",
+              "benchmark_id": "arafura_asianmetal_ndpr_oxide",
+              "period": "2018",
+              "value": 50,
+              "source_id": "arafura_dfs2019",
+              "source_locator": "Section14.3; printed133–134; PDF141–142",
+              "verification": "exact printed table/text/label or official CSV; not inferred from an unlabeled graph",
+              "period_type": "annual"
+            }
+          ]
+        }
+      ],
+      "explanation": "Arafura’s Nolans study explicitly reports 2016 and 2018 annual averages, citing Asian Metal. Purity, taxes and delivery are not stated. 2017 remains missing here; its reported September peak is a different statistic and is not substituted for the annual mean.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained rare-earth element and not a current delivered factory quote."
+    },
+    {
+      "id": "iron-ore-annual",
+      "material": "Fe",
+      "label": "Iron ore · 2023–2025 annuals",
+      "title": "Upstream iron ore, before pure-iron conversion",
+      "series": [
+        {
+          "id": "wb_iron_ore_oct2026-annual",
+          "label": "Iron ore fines · 62% Fe",
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "World Bank default dataset CC BY4.0 with attribution/provider exceptions.",
+          "benchmark": {
+            "product": "Iron ore fines",
+            "chemical_form": "ore fines",
+            "grade_or_assay": "62% Fe",
+            "statistic": "annual average",
+            "currency": "USD",
+            "price_per_unit": "dry metric ton",
+            "geography": "Any origin, spot CFR China",
+            "incoterm_or_delivery_basis": "spot CFR China",
+            "tax_basis": "not specified",
+            "provider": "World Bank Pink Sheet",
+            "publication_vintage": "2026-10-02",
+            "reuse": "World Bank default dataset CC BY4.0 with attribution/provider exceptions."
+          },
+          "points": [
+            {
+              "period": "2023",
+              "period_type": "annual",
+              "value": 120.6,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2024",
+              "period_type": "annual",
+              "value": 109.4,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2025",
+              "period_type": "annual",
+              "value": 100.2,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            }
+          ]
+        }
+      ],
+      "explanation": "World Bank October 2026 benchmark: any-origin fines, 62% Fe, spot CFR China. Annual, quarterly and monthly averaging windows are selected separately. This cannot fill an electrolytic iron-flake or high-purity iron purchase quote.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained element and not a current delivered factory quote."
+    },
+    {
+      "id": "iron-ore-quarter",
+      "material": "Fe",
+      "label": "Iron ore · 2025 Q3–2026 Q3 quarters",
+      "title": "Upstream iron ore, before pure-iron conversion",
+      "series": [
+        {
+          "id": "wb_iron_ore_oct2026-quarter",
+          "label": "Iron ore fines · 62% Fe",
+          "period_type": "quarter",
+          "publishable_by_default": true,
+          "eligibility_basis": "World Bank default dataset CC BY4.0 with attribution/provider exceptions.",
+          "benchmark": {
+            "product": "Iron ore fines",
+            "chemical_form": "ore fines",
+            "grade_or_assay": "62% Fe",
+            "statistic": "quarter average",
+            "currency": "USD",
+            "price_per_unit": "dry metric ton",
+            "geography": "Any origin, spot CFR China",
+            "incoterm_or_delivery_basis": "spot CFR China",
+            "tax_basis": "not specified",
+            "provider": "World Bank Pink Sheet",
+            "publication_vintage": "2026-10-02",
+            "reuse": "World Bank default dataset CC BY4.0 with attribution/provider exceptions."
+          },
+          "points": [
+            {
+              "period": "2025-Q3",
+              "period_type": "quarter",
+              "value": 100.1,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2025-Q4",
+              "period_type": "quarter",
+              "value": 103.5,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2026-Q1",
+              "period_type": "quarter",
+              "value": 102.9,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2026-Q2",
+              "period_type": "quarter",
+              "value": 105.2,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2026-Q3",
+              "period_type": "quarter",
+              "value": 97.4,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            }
+          ]
+        }
+      ],
+      "explanation": "World Bank October 2026 benchmark: any-origin fines, 62% Fe, spot CFR China. Annual, quarterly and monthly averaging windows are selected separately. This cannot fill an electrolytic iron-flake or high-purity iron purchase quote.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained element and not a current delivered factory quote."
+    },
+    {
+      "id": "iron-ore-month",
+      "material": "Fe",
+      "label": "Iron ore · July–September 2026 months",
+      "title": "Upstream iron ore, before pure-iron conversion",
+      "series": [
+        {
+          "id": "wb_iron_ore_oct2026-month",
+          "label": "Iron ore fines · 62% Fe",
+          "period_type": "month",
+          "publishable_by_default": true,
+          "eligibility_basis": "World Bank default dataset CC BY4.0 with attribution/provider exceptions.",
+          "benchmark": {
+            "product": "Iron ore fines",
+            "chemical_form": "ore fines",
+            "grade_or_assay": "62% Fe",
+            "statistic": "month average",
+            "currency": "USD",
+            "price_per_unit": "dry metric ton",
+            "geography": "Any origin, spot CFR China",
+            "incoterm_or_delivery_basis": "spot CFR China",
+            "tax_basis": "not specified",
+            "provider": "World Bank Pink Sheet",
+            "publication_vintage": "2026-10-02",
+            "reuse": "World Bank default dataset CC BY4.0 with attribution/provider exceptions."
+          },
+          "points": [
+            {
+              "period": "2026-07",
+              "period_type": "month",
+              "value": 98.2,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2026-08",
+              "period_type": "month",
+              "value": 96.3,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            },
+            {
+              "period": "2026-09",
+              "period_type": "month",
+              "value": 97.7,
+              "source_id": "wb_pink_oct2026",
+              "source_locator": "Pink Sheet October 2026, printed p.2; definitions p.3"
+            }
+          ]
+        }
+      ],
+      "explanation": "World Bank October 2026 benchmark: any-origin fines, 62% Fe, spot CFR China. Annual, quarterly and monthly averaging windows are selected separately. This cannot fill an electrolytic iron-flake or high-purity iron purchase quote.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained element and not a current delivered factory quote."
+    },
+    {
+      "id": "boron-import-value",
+      "material": "B",
+      "label": "Borate products · U.S. import unit value · 2021–2025e",
+      "title": "An upstream boron-products basket",
+      "series": [
+        {
+          "id": "usgs_boron_import_unitvalue_2021_2025",
+          "label": "Combined boron imports",
+          "period_type": "annual",
+          "publishable_by_default": true,
+          "eligibility_basis": "Attributed U.S. government factual statistics.",
+          "benchmark": {
+            "product": "Combined U.S. boron-product imports",
+            "chemical_form": "mixed borates / boric acid products",
+            "grade_or_assay": "mixed; no single assay",
+            "statistic": "annual aggregate import unit value",
+            "currency": "USD",
+            "price_per_unit": "metric ton of combined imported products",
+            "geography": "U.S. imports, cost/insurance/freight",
+            "incoterm_or_delivery_basis": "CIF United States",
+            "tax_basis": "not separately specified",
+            "provider": "USGS",
+            "publication_vintage": "2026, revised May27",
+            "reuse": "U.S. government factual statistics"
+          },
+          "points": [
+            {
+              "period": "2021",
+              "period_type": "annual",
+              "value": 394,
+              "estimated": false,
+              "source_id": "usgs_boron2026",
+              "source_locator": "Salient statistics, average unit value of imports"
+            },
+            {
+              "period": "2022",
+              "period_type": "annual",
+              "value": 485,
+              "estimated": false,
+              "source_id": "usgs_boron2026",
+              "source_locator": "Salient statistics, average unit value of imports"
+            },
+            {
+              "period": "2023",
+              "period_type": "annual",
+              "value": 606,
+              "estimated": false,
+              "source_id": "usgs_boron2026",
+              "source_locator": "Salient statistics, average unit value of imports"
+            },
+            {
+              "period": "2024",
+              "period_type": "annual",
+              "value": 574,
+              "estimated": false,
+              "source_id": "usgs_boron2026",
+              "source_locator": "Salient statistics, average unit value of imports"
+            },
+            {
+              "period": "2025",
+              "period_type": "annual",
+              "value": 540,
+              "estimated": true,
+              "source_id": "usgs_boron2026",
+              "source_locator": "Salient statistics, average unit value of imports"
+            }
+          ]
+        }
+      ],
+      "explanation": "Mixed product/assay composition; neither elemental-B, boric-acid spot nor ferroboron price. Product mix can move this average even if individual product prices do not. 2025 is estimated.",
+      "mode": "lines",
+      "scope_note": "Nominal source currency per mass of the named product. Not per kg of contained element and not a current delivered factory quote."
+    },
+    {
+      "id": "iron-quote-gap",
+      "material": "Fe",
+      "label": "Magnet-grade pure iron · quote unavailable",
+      "title": "Pure iron needs its own purchase evidence",
+      "series": [],
+      "mode": "gap",
+      "explanation": "Electrolytic iron flakes and low-gas high-purity iron are real magnet feedstocks. No public firm delivered factory quote was verified. Ore and bulk-steel benchmarks describe different products.",
+      "scope_note": "Obtain a dated lot-specific quote, COA, delivery/tax terms and approved grade."
+    },
+    {
+      "id": "feb-quote-gap",
+      "material": "B",
+      "label": "Magnet-grade ferroboron · quote unavailable",
+      "title": "Ferroboron is the factory feed",
+      "series": [],
+      "mode": "gap",
+      "explanation": "A supplier example is Nippon Denko FBMG for sintered NdFeB: B ≥20%, C ≤0.05%. This is not interchangeable with every generic ferroboron assessment. No reusable public firm purchase-price series was verified.",
+      "scope_note": "A borate import value cannot price FeB conversion, grade control or factory delivery."
+    }
+  ],
+  "context_views": [
+    {
+      "id": "refined_borax-trade",
+      "label": "Boron · U.S. refined borax trade",
+      "title": "U.S. refined borax imports and exports",
+      "unit": "thousand metric tons of named product",
+      "geography": "United States",
+      "measure": "Recorded merchandise trade by named product",
+      "period_type": "annual",
+      "caveat": "W withheld; E net exporter. Product tonnage differs from elemental-B content; trade is not demand. U.S. production and apparent consumption are withheld, so they are not graphed.",
+      "source_ids": [
+        "usgs_boron2026"
+      ],
+      "publishable_by_default": true,
+      "series": [
+        {
+          "label": "Imports",
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "values": [
+            232,
+            168,
+            156,
+            150,
+            120
+          ],
+          "estimated_periods": [
+            "2025"
+          ]
+        },
+        {
+          "label": "Exports",
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "values": [
+            607,
+            651,
+            604,
+            655,
+            600
+          ],
+          "estimated_periods": [
+            "2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boric_acid-trade",
+      "label": "Boron · U.S. boric acid trade",
+      "title": "U.S. boric acid imports and exports",
+      "unit": "thousand metric tons of named product",
+      "geography": "United States",
+      "measure": "Recorded merchandise trade by named product",
+      "period_type": "annual",
+      "caveat": "W withheld; E net exporter. Product tonnage differs from elemental-B content; trade is not demand. U.S. production and apparent consumption are withheld, so they are not graphed.",
+      "source_ids": [
+        "usgs_boron2026"
+      ],
+      "publishable_by_default": true,
+      "series": [
+        {
+          "label": "Imports",
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "values": [
+            54,
+            48,
+            38,
+            43,
+            45
+          ],
+          "estimated_periods": [
+            "2025"
+          ]
+        },
+        {
+          "label": "Exports",
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "values": [
+            280,
+            239,
+            253,
+            246,
+            260
+          ],
+          "estimated_periods": [
+            "2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "us-steel-output-use",
+      "label": "Iron · U.S. aggregate steel output/use",
+      "title": "Steel is a broader material system",
+      "unit": "million metric tons, metal",
+      "geography": "United States",
+      "measure": "Annual aggregate steel output and apparent mill-product consumption",
+      "period_type": "annual",
+      "caveat": "Aggregate steel; capacity separate; not magnet-grade pure-iron supply/demand. This comparison is not a steel mass balance: production is raw steel, while apparent consumption concerns mill products.",
+      "source_ids": [
+        "usgs_steel2026"
+      ],
+      "publishable_by_default": true,
+      "series": [
+        {
+          "label": "Raw-steel output",
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "values": [
+            85.8,
+            80.5,
+            81.4,
+            79.5,
+            82
+          ],
+          "estimated_periods": [
+            "2025"
+          ]
+        },
+        {
+          "label": "Apparent mill-product consumption",
+          "periods": [
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025"
+          ],
+          "values": [
+            100,
+            96.2,
+            92.4,
+            91.1,
+            95
+          ],
+          "estimated_periods": [
+            "2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "borates-producer-output",
+      "label": "Boron · one producer’s quarterly output",
+      "title": "U.S. Borates operating output",
+      "unit": "thousand metric tons B2O3 content",
+      "geography": "U.S. Borates operations",
+      "measure": "operating production, Rio Tinto100%interest",
+      "period_type": "quarter",
+      "caveat": "One producer's output; not total U.S./world, capacity, demand, sales or FeB. Do not add overlapping quarter/half-year periods.",
+      "source_ids": [
+        "rio_q2_2026"
+      ],
+      "publishable_by_default": true,
+      "series": [
+        {
+          "label": "Rio Tinto · U.S. Borates",
+          "periods": [
+            "2025-Q2",
+            "2025-Q3",
+            "2025-Q4",
+            "2026-Q1",
+            "2026-Q2"
+          ],
+          "values": [
+            132,
+            128,
+            124,
+            128,
+            137
+          ],
+          "estimated_periods": []
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "period": "2010–2011",
+      "title": "Demand recovery met tighter export supply",
+      "text": "Lynas linked the price surge to recovering demand after the financial crisis and tighter Chinese export supply. Its 2010 report also explained how export tariffs and VAT widened export-versus-domestic prices.",
+      "source_ids": [
+        "lynas_ar2011",
+        "lynas_ar2010"
+      ],
+      "scope": "Producer interpretation of this historical episode; not an independently estimated policy effect."
+    },
+    {
+      "period": "2012",
+      "title": "Inventories and manufacturing demand changed",
+      "text": "Lynas attributed the retracement to manufacturing-efficiency changes, customer inventory de-stocking and softer macroeconomic conditions.",
+      "source_ids": [
+        "lynas_ar2012"
+      ],
+      "scope": "A contemporaneous producer account; it does not quantify each driver’s contribution."
+    },
+    {
+      "period": "2017",
+      "title": "Supply enforcement and spot buying interacted",
+      "text": "Arafura’s study attributed the NdPr rebound to quota pressure, reduced illegal mining/processing, environmental inspections and speculative spot purchases.",
+      "source_ids": [
+        "arafura_dfs2019"
+      ],
+      "scope": "Reported explanation in a 2019 project study, not a causal model or a present-day forecast."
+    },
+    {
+      "period": "April 2026",
+      "title": "Iron ore responds to a different demand system",
+      "text": "The World Bank linked iron-ore weakness to Chinese property and construction demand, port inventories and ample Australian/Brazilian supply; new West African capacity was prospective pressure.",
+      "source_ids": [
+        "wb_cmo_apr2026"
+      ],
+      "scope": "Dated analysis and outlook; it does not establish the cause of September’s observed price."
+    },
+    {
+      "period": "Q2 2026",
+      "title": "Operating output is not market demand",
+      "text": "Rio Tinto attributed stronger borate output to robust market conditions and disclosed a strategic review of Borates. Its quarterly tonnes remain one producer’s B₂O₃ output.",
+      "source_ids": [
+        "rio_q2_2026"
+      ],
+      "scope": "Producer commentary, not measured global boron demand or magnet-grade FeB output."
+    }
+  ],
+  "external_references": [
+    {
+      "material": "NdPr",
+      "title": "Current NdPr alloy assessment · SMM",
+      "url": "https://www-old.metal.com/Rare-Earth-Metals/201102250182",
+      "reason": "Publisher consent is required to reproduce prices; external reference only."
+    },
+    {
+      "material": "Dy",
+      "title": "Current DyFe assessment · SMM",
+      "url": "https://www-old.metal.com/Rare-Earth-Metals/201102250413",
+      "reason": "Publisher consent is required to reproduce prices; external reference only."
+    },
+    {
+      "material": "Fe",
+      "title": "Pure iron assessment · SMM",
+      "url": "https://www-old.metal.com/other-ndfeb-raw-materials/202408210001",
+      "reason": "Publisher consent required; price values are not reproduced."
+    },
+    {
+      "material": "B",
+      "title": "Ferroboron assessment · SMM",
+      "url": "https://www-old.metal.com/other-ndfeb-raw-materials/202409040002",
+      "reason": "Publisher consent required; price values are not reproduced."
+    },
+    {
+      "material": "B",
+      "title": "FeB20C0.05 assessment · Mysteel",
+      "url": "https://www.mysteel.net/daily-prices/6986156-ferroboron-prices-china",
+      "reason": "Numeric prices are gated; link only."
+    },
+    {
+      "material": "B",
+      "title": "Magnet-grade FBMG specification · Nippon Denko",
+      "url": "https://www.nippondenko.co.jp/shared/pdf/boron.pdf",
+      "reason": "Supplier product reference; not a purchase quote."
+    },
+    {
+      "material": "Fe",
+      "title": "Electrolytic iron-flake specification · Allied Metals",
+      "url": "https://alliedmet.com/ultra-high-purity-electrolytic-iron-flakes/",
+      "reason": "Supplier product reference; not a purchase quote."
+    }
+  ],
+  "sources": [
+    {
+      "id": "arafura_dfs2019",
+      "title": "Arafura Nolans Project Definitive Feasibility Study, February 7 2019",
+      "url": "https://wcsecure.weblink.com.au/pdf/ARU/02073274.pdf",
+      "source_type": "original corporate technical/ASX filing; cites Asian Metal market data",
+      "date": "NdPr oxide graph Jan2010–2018; text exact annual2016=39, annual2018=50, September2017 high=78 USD/kg",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "jlmag_ar2024",
+      "title": "JL MAG Annual Report 2024, filed March 28 2025",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2025/0328/2025032804656.pdf",
+      "source_type": "original corporate financial filing; market prices attributed to Association of China Rare Earth Industry",
+      "date": "NdPr metal monthly chart Jan2020–Feb2025; explicit annual2023 and2024, monthJan2024 andFeb2025",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "jlmag_ar2025",
+      "title": "JL MAG Annual Report 2025, filed March25 2026",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502302_c.pdf",
+      "source_type": "original corporate financial filing; market prices attributed to Association of China Rare Earth Industry",
+      "date": "NdPr metal/oxide monthly chart Jan2020–Dec2025; explicit NdPr metal2025 average601300 CNY/t",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "jlmag_prospectus2021",
+      "title": "JL MAG Rare-Earth Co., Ltd., prospectus December 31 2021",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2021/1231/2021123100023.pdf",
+      "source_type": "original financial filing; market analysis credited to China Rare Earth Association and Frost & Sullivan; actual purchase table reported by issuer",
+      "date": "Annual China market NdPr metal, Nd metal, Tb metal, DyFe2015–2020; actual NdPr purchase averages2018–2020 and H12021",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "lynas_ar2010",
+      "title": "Lynas Annual Report 2010",
+      "url": "https://lynasrareearths.com/wp-content/uploads/2019/05/Annual-Report-2010.pdf",
+      "source_type": "original producer report, published market-price table",
+      "date": "June 2005–June 2010 snapshots and August 2010 snapshot",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "lynas_ar2011",
+      "title": "Lynas Annual Report 2011",
+      "url": "https://lynasrareearths.com/wp-content/uploads/2019/05/Annual-Report-2011.pdf",
+      "source_type": "original producer report, market prices",
+      "date": "Q1 2010–Q2 2011 NdPr and Dy oxides, domestic CIF and export FOB",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "lynas_ar2012",
+      "title": "Lynas Annual Report 2012",
+      "url": "https://lynasrareearths.com/wp-content/uploads/2019/05/Annual-Report-2012.pdf",
+      "source_type": "original producer report; table credits Metal Pages",
+      "date": "Q1 2011–Q2 2012 NdPr and Dy oxides, domestic delivered and export FOB",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "rio_q2_2026",
+      "title": "Rio Tinto Q22026 operations review SEC exhibit99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/863064/000086306426000035/ex991results.htm",
+      "source_type": "operator regulatory filing",
+      "date": "2026-07-15",
+      "rights": "Replot factual producer-output points with attribution; no designed figure copied.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "usgs_boron2026",
+      "title": "USGS MCS2026 Boron",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-boron.pdf",
+      "source_type": "government statistics",
+      "date": "2026,2025 estimates",
+      "rights": "U.S. government factual statistics; attribute USGS.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "usgs_mcs2026_data",
+      "title": "USGS Mineral Commodity Summaries 2026 data release",
+      "url": "https://www.usgs.gov/data/mineral-commodity-summaries-2026-data-release",
+      "source_type": "official data release",
+      "date": "2021–2025 annual averages; 2025 estimated",
+      "rights": "CC0-1.0, as explicitly stated by official ScienceBase item",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "usgs_sir2012_5188",
+      "title": "USGS Metal Prices in the United States Through 2010 (posted March 5, 2013)",
+      "url": "https://pubs.usgs.gov/sir/2012/5188/",
+      "source_type": "official historical price tables and graphs",
+      "date": "Tables extend 1959–2010; extracted comparable 2001–2010 minimum-99% FOB-China section only",
+      "rights": "Selected factual disclosures only; original publisher rights retained.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "usgs_steel2026",
+      "title": "USGS MCS2026 Iron and Steel",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-iron-steel.pdf",
+      "source_type": "government statistics",
+      "date": "2026,2025 estimates",
+      "rights": "U.S. government factual statistics; attribute USGS.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "wb_cmo_apr2026",
+      "title": "World Bank Commodity Markets Outlook April2026",
+      "url": "https://thedocs.worldbank.org/en/doc/f3138644a1e8e2bb631399ae11d6c408-0050012026/original/CMO-April-2026.pdf",
+      "source_type": "official market analysis",
+      "date": "2026-04",
+      "rights": "Link original report graphs; underlying dataset terms apply.",
+      "accessed_on": "2026-10-07"
+    },
+    {
+      "id": "wb_pink_oct2026",
+      "title": "World Bank Pink Sheet October2026",
+      "url": "https://thedocs.worldbank.org/en/doc/74e8be41ceb20fa0da750cda2f6b9e4e-0050012026/related/CMO-Pink-Sheet-October-2026.pdf",
+      "source_type": "official benchmark compilation",
+      "date": "2026-10-02",
+      "rights": "World Bank dataset default CC BY4.0 with source/provider attribution and third-party exceptions.",
+      "accessed_on": "2026-10-07"
+    }
+  ],
+  "gaps": [
+    "No continuous public annual NdPr oxide history for 2006–2020 was verified.",
+    "No unrestricted complete rare-earth monthly price archive was obtained; annual data cannot reveal seasonality.",
+    "No verified actual-purchase DyFe table or reusable magnet-grade ferroboron purchase-price series was obtained.",
+    "No current delivered-U.S. magnet-feed quote is inferred from oxide, ore or mixed-borate benchmarks."
+  ],
+  "validation": {
+    "restricted_price_values_included": false,
+    "forecast_prices_included": false,
+    "interpolation_used": false,
+    "currency_conversion_used": false,
+    "purchase_quote_fields_filled": false,
+    "series_separated_by_benchmark_and_averaging_window": true
+  }
+}

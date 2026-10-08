@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101614">
+  <title>Supply Chain Flows / Material Balance — Rare Earth</title>
+  <meta name="description" content="Explore sourced finished-magnet demand, the illustrative normalized supply-chain prototype, and distinct material-balance evidence without inferring shipments or missing quantities.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=20261007-4"><link rel="stylesheet" href="global-nav.css?v=20261007-1"><link rel="stylesheet" href="flows.css?v=20261007-2"><link rel="stylesheet" href="production-quantities.css?v=20261007-1">
+  <script defer src="global-nav.js?v=20261007-1"></script><script defer src="lib/plotly-4.1.1.min.js"></script><script defer src="flows.js?v=20261007-3"></script><script defer src="production-quantities.js?v=20261007-1"></script>
+</head>
+<body class="flows-page">
+  <a class="skip-link" href="#flow-workspace">Skip to flow evidence</a>
+  <header class="masthead"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>RARE EARTH<small>A MATERIAL OBSERVATORY</small></span></a><nav aria-label="Main navigation"><a href="grades.html?layer=facilities#origins">Supply map</a><a href="grades.html?layer=applications&amp;application_country=United%20States#origins">U.S. application map</a><a href="future.html">Future Research</a><a href="chain.html">Scenario laboratory</a></nav></header>
+  <main>
+    <section class="section-wrap flow-intro"><div><p class="eyebrow">Supply Chain Flows / Material Balance</p><h1>Follow the quantity.<br><em>Keep its basis.</em></h1></div><div><p>A finished-magnet demand total, a normalized supply-chain illustration and a national production figure answer different questions. Explore each with its own material form, geography and denominator.</p><p id="flow-load-status" class="flow-load-status" role="status">Loading the evidence packet…</p></div></section>
+    <section class="section-wrap flow-section" id="flow-workspace">
+      <div class="flow-view-picker" role="group" aria-label="Choose a flow evidence view">
+        <button type="button" data-flow-view="demand" aria-pressed="true"><span>01 / Sourced demand</span><strong>2020 finished magnets</strong><small>Global and U.S. demand by the source’s seven categories</small></button>
+        <button type="button" data-flow-view="prototype" aria-pressed="false"><span>02 / Illustrative prototype</span><strong>The original 100-unit system</strong><small>Four columns · explicitly assumed bands</small></button>
+        <button type="button" data-flow-view="balance" aria-pressed="false"><span>03 / Material balance</span><strong>Evidence & an element lot</strong><small>Separate product boundaries · explicit gaps</small></button>
+      </div>
+      <article class="flow-workspace">
+        <div class="flow-panel-heading"><div><p id="flow-panel-eyebrow" class="eyebrow">01 / Sourced finished-magnet demand</p><h2 id="flow-panel-title">Demand by application.</h2></div><p id="flow-panel-description">The chart is a breakdown of one finished-magnet demand total. It does not connect mines, factories or trade routes.</p></div>
+        <div class="flow-controls">
+          <div id="flow-demand-controls" class="flow-mode-controls"><label>Demand geography<select id="flow-region"><option value="global">Global</option><option value="us">United States</option></select></label><div class="flow-unit-picker" role="group" aria-label="Demand display unit"><button type="button" data-demand-unit="tonnes" aria-pressed="true">Absolute tonnes</button><button type="button" data-demand-unit="share" aria-pressed="false">% of demand total</button></div></div>
+          <div id="flow-prototype-controls" class="flow-mode-controls" hidden><div class="flow-unit-picker" role="group" aria-label="Prototype display unit"><button type="button" data-prototype-unit="units" aria-pressed="true">Normalized units</button><button type="button" data-prototype-unit="share" aria-pressed="false">% of 100-unit basis</button></div><p>Tonnes are unavailable for this prototype.</p></div>
+          <div id="flow-balance-controls" class="flow-mode-controls" hidden><label>Separate scenario<select id="flow-balance-example"><option value="lot">Purchased forms → elements</option><option value="ledger">Inventory ledger</option></select></label><div id="flow-lot-unit-controls" class="flow-unit-picker" role="group" aria-label="Illustrative charge display unit"><button type="button" data-lot-unit="kg" aria-pressed="true">Absolute kilograms</button><button type="button" data-lot-unit="share" aria-pressed="false">% of declared charge</button></div><div id="flow-ledger-controls" class="flow-mode-controls" hidden><label>Declared mixture / element<select id="flow-ledger-element"><option value="mixture">Whole assayed mixture</option></select></label><div class="flow-unit-picker" role="group" aria-label="Inventory ledger display unit"><button type="button" data-ledger-unit="tonnes" aria-pressed="true">Absolute tonnes</button><button type="button" data-ledger-unit="share" aria-pressed="false">% of available mass</button></div></div></div>
+          <div id="flow-presentation-controls" class="flow-presentation-picker" role="group" aria-label="Chart or table display"><button type="button" data-flow-presentation="chart" aria-pressed="true">Flow bands</button><button type="button" data-flow-presentation="table" aria-pressed="false">Data table</button></div>
+        </div>
+        <dl id="flow-basis" class="flow-basis" aria-label="Quantity basis"></dl>
+        <p id="flow-boundary" class="flow-boundary"></p>
+        <div id="flow-totals" class="flow-totals"></div>
+        <div id="flow-balance-content" class="flow-balance-content" hidden></div>
+        <div id="flow-network-layout" class="flow-network-layout">
+          <div class="flow-chart-shell"><div class="flow-chart-topline"><span id="flow-chart-caption">One demand total → source categories</span><span>Click a node or band to inspect its basis</span></div><div id="flow-chart" class="flow-chart" role="img" aria-label="Flow breakdown; exact values and evidence are also available in the data table"></div><p id="flow-chart-status" class="flow-chart-status" role="status"></p></div>
+          <aside id="flow-click-detail" class="flow-click-detail" aria-live="polite"><p class="micro-label">Inspect a quantity</p><h3>Every band keeps its scope.</h3><p>Select a node or a table row to inspect its quantity, denominator and evidence.</p></aside>
+        </div>
+        <div id="flow-data-table" class="flow-data-table"></div>
+        <details id="flow-evidence-drawer" class="flow-evidence-drawer"><summary>Sources & evidence boundaries</summary><div id="flow-evidence"></div></details>
+      </article>
+    </section>
+    <section class="section-wrap flow-next-section"><p class="eyebrow">Connect the quantities to places and questions</p><div class="flow-next-links"><a href="grades.html?layer=applications&amp;application_country=United%20States#origins"><span>Applications & Demand</span><strong>Inspect the U.S. application map ↗</strong><p>Factory activity, product use, customer evidence and unknown magnet inputs.</p></a><a href="grades.html?layer=facilities#origins"><span>Supply places & relationships</span><strong>Inspect the supply map ↗</strong><p>Material forms, operating status and documented relationships at named sites.</p></a><a href="future.html"><span>Future Research</span><strong>Open the proposed research questions ↗</strong><p>Qualified demand, equipment readiness and the cost-security frontier.</p></a></div></section>
+  </main>
+  <footer class="section-wrap"><a class="footer-brand" href="index.html">RARE EARTH</a><p>Traceable quantities. Explicit assumptions. Missing evidence remains missing.</p><a href="data/flow-evidence.json">Download flow evidence ↗</a></footer>
+</body>
+</html>

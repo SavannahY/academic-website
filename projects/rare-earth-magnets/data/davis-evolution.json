@@ -1,0 +1,1129 @@
+{
+  "as_of": "2026-10-07",
+  "title": "Steven J. Davis: evolving research questions, 2008–2026",
+  "scope": "Representative source-audited research in each publication year from 2008 through September 2026, plus a separately labeled 2026 funded-project announcement. Nineteen year selectors do not mean nineteen separate career pivots or an exhaustive bibliography.",
+  "interpretation": "Across these overlapping branches, a recurring question is what an accounting boundary or headline target conceals about real consequences and constraints. This is our interpretation of published work, not a quotation or universal description of Davis's research.",
+  "chapters": [
+    {
+      "id": "y2008",
+      "scene": "water",
+      "years": "2008",
+      "year": 2008,
+      "tag": "Read the river",
+      "tag_zh": "读懂古河流",
+      "title": "How does drainage reorganization affect estimates of ancient elevation?",
+      "question_zh": "河流改道会怎样影响古山高的估算？",
+      "branch": "Paleohydrology",
+      "summary": "The team used oxygen, carbon and strontium isotopes in ancient lake sediments to show how drainage changes can confound isotope-based elevation interpretations.",
+      "summary_zh": "团队用氧、碳、锶同位素分析古湖沉积，说明大尺度水系变化会干扰只依赖有限同位素资料的古高度解释。",
+      "visual": "A fixed mountain and moving river establish drainage context. An anonymous field scientist and gloved laboratory hand examine ancient lake-sediment specimens. No uplift, measured isotope values or documented field trip is reconstructed.",
+      "beats": [
+        [
+          "Read multiple isotope records",
+          "读取多种同位素记录"
+        ],
+        [
+          "A different drainage route changes the evidence",
+          "河流改道改变证据来源"
+        ],
+        [
+          "Reconsider ancient-elevation estimates",
+          "重新判断古山高估算"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "The effect of drainage reorganization on paleoaltimetry studies: An example from the Paleogene Laramide foreland",
+          "date": "2008-11-15",
+          "kind": "peer-reviewed paper",
+          "url": "https://doi.org/10.1016/j.epsl.2008.08.009"
+        },
+        {
+          "title": "Stanford Terrestrial Paleoclimate publication record",
+          "date": "2008",
+          "kind": "official university bibliography",
+          "url": "https://paleoclimate.stanford.edu/publications/effect-drainage-reorganization-paleoaltimetry-studies-example-paleogene-laramide"
+        },
+        {
+          "title": "Publisher abstract and issue date",
+          "date": "2008-11-15",
+          "kind": "publisher bibliography/abstract",
+          "url": "https://www.sciencedirect.com/author/7202435595/alan-r-carroll"
+        }
+      ],
+      "continuity": "Drainage changes can alter an elevation interpretation without physically changing the mountain’s height. The scene therefore leaves the mountain fixed in this year.",
+      "caveat_zh": "颜色代表同位素示意；不能把河流改道直接画成山体高度改变。",
+      "background": "assets/davis-anime/01-paleohydrology-mountains-drainage.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2009",
+      "scene": "water",
+      "years": "2009",
+      "year": 2009,
+      "tag": "Connect the basins",
+      "tag_zh": "重建流域",
+      "title": "How do rivers and lake basins reorganize as mountains form?",
+      "question_zh": "山脉形成时，河网和湖盆怎样重组？",
+      "branch": "Paleohydrology",
+      "summary": "New basin isotope records were integrated with a regional dataset to reconstruct evolving rivers, lakes and connected catchments.",
+      "summary_zh": "团队把新流域同位素记录放入区域数据集，重建河流贯通、湖盆阻断和流域整合的演变。",
+      "visual": "Paired fixed-camera basin plates show separated catchments and an illustrative connecting gorge, with moving water confined to the connection. There are no sediment-vial collection scenes or animated mountain uplift. Terrain, timing and connections are representative rather than measured Laramide history.",
+      "beats": [
+        [
+          "Start with separate basins",
+          "从不同湖盆出发"
+        ],
+        [
+          "Mountain building reorganizes their drainage",
+          "造山过程重组水系"
+        ],
+        [
+          "Reconnect the regional paleohydrology",
+          "重建区域古水文"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Synorogenic evolution of large-scale drainage patterns: Isotope paleohydrology of sequential Laramide basins",
+          "date": "2009-09",
+          "kind": "peer-reviewed paper/publisher PDF",
+          "url": "https://ajsonline.org/api/v1/articles/61783-synorogenic-evolution-of-large-scale-drainage-patterns-isotope-paleohydrology-of-sequential-laramide-basins.pdf"
+        }
+      ],
+      "continuity": "A direct continuation of isotope paleohydrology. The paired basin states illustrate drainage integration, not measured Laramide terrain, timing or mountain heights.",
+      "caveat_zh": "",
+      "background": "assets/davis-anime/01-paleohydrology-mountains-drainage.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2010",
+      "scene": "carbon",
+      "years": "2010",
+      "year": 2010,
+      "tag": "Two questions, in parallel",
+      "tag_zh": "两条问题线启动",
+      "title": "How does consumption connect to emissions, and how much future CO2 is committed by existing infrastructure?",
+      "question_zh": "消费如何关联排放？现有设施又承诺了多少未来排放？",
+      "branch": "Carbon accounting and trade · Energy systems",
+      "summary": "One study traced production emissions to final consumption; another estimated future emissions from installed energy infrastructure under operating-life and replacement assumptions.",
+      "summary_zh": "一项研究把生产排放追溯到最终消费；另一项在设备寿命与替换假设下估算现有能源设施的未来排放。",
+      "visual": "A crane moves a container onto a vessel, followed by generic installed industrial equipment and an energy-services landscape. These illustrate parallel consumption-accounting and infrastructure-commitment questions.",
+      "beats": [
+        [
+          "Trace production to consumption",
+          "从生产追溯到消费"
+        ],
+        [
+          "A parallel question asks about installed devices",
+          "并行问题关注已安装的设备"
+        ],
+        [
+          "Inspect both accounting and future commitment",
+          "共同检验核算与未来排放承诺"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Consumption-based accounting of CO2 emissions",
+          "date": "2010-03-08",
+          "kind": "peer-reviewed paper/indexed abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20212122/",
+          "note": "Online publication; issue 2010-03-23."
+        },
+        {
+          "title": "Future CO2 emissions and climate change from existing energy infrastructure",
+          "date": "2010-09-10",
+          "kind": "peer-reviewed paper/indexed abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20829483/"
+        }
+      ],
+      "continuity": "Consumption accounting and infrastructure commitment appear in parallel. Use the question cards to inspect both.",
+      "caveat_zh": "贸易连线代表隐含排放归属，不是CO2随商品实物漂洋过海；排放承诺依赖寿命和使用假设。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 12000,
+      "cards": [
+        {
+          "card_label": "Consumption accounting",
+          "scene": "carbon",
+          "title": "How does consumption connect to emissions across borders?",
+          "question_zh": "消费如何关联跨境排放？",
+          "tag": "Follow consumption",
+          "tag_zh": "追踪消费",
+          "summary": "Consumption-based accounting and extraction-to-consumption supply chains follow carbon across borders..",
+          "papers": [
+            {
+              "title": "Consumption-based accounting of CO2 emissions",
+              "date": "2010-03-08",
+              "kind": "peer-reviewed paper/indexed abstract",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20212122/",
+              "note": "Online publication; issue 2010-03-23."
+            }
+          ],
+          "visual": "A loaded vessel arrives; the crane transfers a container onto its deck, and the vessel leaves with the goods. Consumption accounting links manufactured goods to production elsewhere; production emissions do not move inside the container.",
+          "beats": [
+            [
+              "A factory emits; goods leave",
+              "工厂排放，商品出口"
+            ],
+            [
+              "Follow the goods to their consumers",
+              "沿商品追踪到消费者"
+            ],
+            [
+              "One carbon flow, different accounting boundaries",
+              "同一碳流，不同核算边界"
+            ]
+          ]
+        },
+        {
+          "card_label": "Infrastructure commitment",
+          "scene": "infrastructure",
+          "title": "How much future CO₂ is committed by existing energy infrastructure?",
+          "question_zh": "现有能源设施承诺了多少未来排放？",
+          "tag": "Look into the future",
+          "tag_zh": "看见未来承诺",
+          "summary": "The study estimates future emissions from installed devices under assumptions about continued operation and replacement. It is a conditional estimate, not an inevitable forecast.",
+          "papers": [
+            {
+              "title": "Future CO2 emissions and climate change from existing energy infrastructure",
+              "date": "2010-09-10",
+              "kind": "peer-reviewed paper/indexed abstract",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/20829483/"
+            }
+          ],
+          "visual": "Generic installed industrial equipment, a cement delivery and energy services illustrate conditional operating lives of existing infrastructure. Proposed infrastructure belongs to the separate 2019 question; no future emissions total is drawn.",
+          "beats": [
+            [
+              "Existing devices continue operating",
+              "现有设施继续运行"
+            ],
+            [
+              "Operating assumptions set the commitment",
+              "运行假设决定排放承诺"
+            ],
+            [
+              "Compare lifetimes, use and replacement",
+              "比较寿命、利用率与替换"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "y2011",
+      "scene": "carbonchain",
+      "years": "2011",
+      "year": 2011,
+      "tag": "Follow the carbon chain",
+      "tag_zh": "追踪整个碳链",
+      "title": "Where can policy act along the carbon chain from extraction to final consumption?",
+      "question_zh": "同一条碳链，从开采到消费，在哪里可以干预？",
+      "branch": "Carbon accounting and trade",
+      "summary": "The paper connected fuel extraction, combustion and final consumption to examine policy intervention at different points in the chain.",
+      "summary_zh": "论文把燃料来源、燃烧地点和最终消费连接起来，比较从供应链不同环节实施碳政策的意义。",
+      "visual": "Four composed views follow bulk carbon-bearing fuel extraction/loading, industrial production, manufactured-goods cargo and final powered service. The same carbon is not added at every accounting boundary. Generic machinery, quantities and routes are not observed national flows.",
+      "beats": [
+        [
+          "Begin at fuel extraction",
+          "从燃料开采出发"
+        ],
+        [
+          "Follow combustion and final consumption",
+          "继续追踪燃烧与最终消费"
+        ],
+        [
+          "Ask where policy can intervene",
+          "追问政策能在哪里干预"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "The supply chain of CO2 emissions",
+          "date": "2011-10-17",
+          "kind": "peer-reviewed paper/full text",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3215011/",
+          "note": "Online date; issue 2011-11-08."
+        }
+      ],
+      "continuity": "Extraction, combustion and consumption are positions along one chain; summing their attributed emissions would double count.",
+      "caveat_zh": "开采、燃烧和消费是同一排放链的不同核算位置，不能把各环节数值相加成总排放。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2012",
+      "scene": "ledger",
+      "years": "2012",
+      "year": 2012,
+      "tag": "Harmonize the accounts",
+      "tag_zh": "统一账本",
+      "title": "How can international trade-carbon accounts be made consistent?",
+      "question_zh": "怎样统一核算国际贸易中的碳？",
+      "branch": "Carbon accounting and trade",
+      "summary": "The synthesis harmonized definitions, models and data, distinguishing embodied emissions from carbon physically contained in traded products.",
+      "summary_zh": "团队统一定义、模型和数据，区分商品生产引发的排放与燃料、作物等实际携带的碳，解释不同研究估计为何不同。",
+      "visual": "Bulk-fuel loading leads to a records table: closed source folders open side by side and matching sheets are physically aligned before a manufactured-cargo view. The pages contain no reconstructed values. Fuel physically contains carbon; production emissions are attributed to ordinary manufactured goods through accounting.",
+      "beats": [
+        [
+          "Different definitions produce different accounts",
+          "不同定义产生不同账本"
+        ],
+        [
+          "Align the definitions and data",
+          "统一定义与数据"
+        ],
+        [
+          "Keep physical carbon and embodied emissions distinct",
+          "区分实体碳与隐含排放"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "A synthesis of carbon in international trade",
+          "date": "2012-08-23",
+          "kind": "peer-reviewed paper",
+          "url": "https://bg.copernicus.org/articles/9/3247/2012/"
+        },
+        {
+          "title": "Corrigendum to the 2012 synthesis",
+          "date": "2013",
+          "kind": "publisher corrigendum",
+          "url": "https://bg.copernicus.org/articles/10/4845/2013/"
+        }
+      ],
+      "continuity": "The synthesis has a published corrigendum. This film presents methods and questions without reproducing uncorrected numerical results.",
+      "caveat_zh": "综合研究有勘误；如后续添加数值或原图，须使用校正版本。动画只呈现方法与问题。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2013",
+      "scene": "regional",
+      "years": "2013",
+      "year": 2013,
+      "tag": "Zoom within a country",
+      "tag_zh": "把镜头推入一国之内",
+      "title": "Do consuming regions outsource emissions to other provinces within the same country?",
+      "question_zh": "消费地区是否把排放转移到别的省份？",
+      "branch": "Carbon accounting and trade",
+      "summary": "A provincial input-output analysis traced production and consumption to reveal emissions transfers within China.",
+      "summary_zh": "论文用省际投入产出核算追踪消费与生产，揭示中国省份间贸易关联的排放转移。",
+      "visual": "Industrial production and physical cargo transfers connect generic producing and consuming places. They do not identify observed Chinese provincial routes or reproduce a provincial emissions map.",
+      "beats": [
+        [
+          "A national total is only one boundary",
+          "全国总量只是一个边界"
+        ],
+        [
+          "Follow trade among consuming and producing regions",
+          "追踪消费与生产地区之间的贸易"
+        ],
+        [
+          "Resolve provincial accounting perspectives",
+          "细分省级核算视角"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Outsourcing CO2 within China",
+          "date": "2013-06-10",
+          "kind": "peer-reviewed paper/indexed abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23754377/",
+          "note": "Online date; issue 2013-07-09."
+        }
+      ],
+      "continuity": "The selected study concerns historical provincial trade and emissions. Its schematic does not substitute for current provincial data.",
+      "caveat_zh": "显示研究当年的贸易与排放关系；不能替代当前省份数据。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2014",
+      "scene": "health",
+      "years": "2014",
+      "year": 2014,
+      "tag": "Separate air and trade",
+      "tag_zh": "贸易与空气相连",
+      "title": "How do trade-linked production and trans-Pacific pollution transport affect air quality?",
+      "question_zh": "贸易生产与跨洋污染输送怎样共同影响空气质量？",
+      "branch": "Carbon accounting and trade · Health impacts",
+      "summary": "Trade-linked emissions were coupled to atmospheric chemistry modeling to assess effects on US air quality.",
+      "summary_zh": "团队将出口关联排放与大气化学模型结合，评估中国国际贸易相关污染对美国空气质量的影响。",
+      "visual": "A cargo transfer and a separate painted atmospheric band lead to a representative neighborhood. Visible aerosol/cloud imagery is not CO₂ or a calculated trans-Pacific concentration field.",
+      "beats": [
+        [
+          "Trade and wind are different cross-border links",
+          "贸易与风是不同的跨境联系"
+        ],
+        [
+          "Couple economic accounts with atmospheric chemistry",
+          "把经济核算连接到大气化学"
+        ],
+        [
+          "Assess air quality where people live",
+          "评估人们居住地区的空气质量"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "China's international trade and air pollution in the United States",
+          "date": "2014-01-21",
+          "kind": "peer-reviewed paper/indexed abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24449863/",
+          "note": "Online date; issue 2014-02-04."
+        }
+      ],
+      "continuity": "Economic attribution and physical air-pollution transport are different mechanisms. CO₂ is not physically transported inside the cargo boxes.",
+      "caveat_zh": "经济归属与物理污染输送必须使用不同图例；不要画成所有隐含CO2都会随风回到进口国。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2015",
+      "scene": "targeted",
+      "years": "2015",
+      "year": 2015,
+      "tag": "Target an intervention",
+      "tag_zh": "寻找精准干预点",
+      "title": "Which regions and industries offer targeted opportunities to cut export-related emissions?",
+      "question_zh": "出口减排应瞄准哪些地区和行业？",
+      "branch": "Carbon accounting and trade",
+      "summary": "The study linked export-related emissions to the coal-based energy mix and especially emissions-intensive provinces and sectors, identifying targeted mitigation opportunities.",
+      "summary_zh": "研究发现中国出口隐含排放与煤炭能源结构及少数高排放强度地区、行业密切相关，因此干预可以有针对性。",
+      "visual": "Generic production and energy-system shots compare intervention contexts. No illustrated machine is assigned a measured regional abatement outcome.",
+      "beats": [
+        [
+          "Regions and sectors are not uniform",
+          "地区与行业并不相同"
+        ],
+        [
+          "Focus on a specific intervention point",
+          "聚焦具体干预点"
+        ],
+        [
+          "Compare energy and technology opportunities",
+          "比较能源结构与技术机会"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Targeted opportunities to address the climate–trade dilemma in China",
+          "date": "2015-09-28",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/nclimate2800",
+          "note": "Online 2015; Nature Climate Change volume6/pages201–206 is dated2016."
+        }
+      ],
+      "continuity": "Online publication was 2015; the final Nature Climate Change volume is 2016. Selection follows the online date.",
+      "caveat_zh": "按在线发表年份放在2015；流线变化是机制示意，不是动画重新计算的研究数值。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2016",
+      "scene": "cement",
+      "years": "2016",
+      "year": 2016,
+      "tag": "Count the lifecycle",
+      "tag_zh": "材料也有完整生命周期",
+      "title": "How much CO2 does cement absorb during use and after disposal?",
+      "question_zh": "水泥在使用和废弃过程中又吸收了多少CO2？",
+      "branch": "Materials · Carbon accounting and trade",
+      "summary": "The team estimated CO2 uptake through cement carbonation across lifecycle stages, adding an often-overlooked sink to material carbon accounts.",
+      "summary_zh": "团队估算水泥在不同生命周期阶段通过碳化吸收的CO2，将常被漏计的碳汇纳入材料碳账。",
+      "visual": "A grounded cement delivery and smaller concrete worker progress through placement, smoothing, later-life sampling and a visible concrete tray. There is no sediment laboratory scene, visible CO₂ sink, measured carbonation rate or cancellation of production emissions.",
+      "beats": [
+        [
+          "Material production is one stage",
+          "材料生产只是一个阶段"
+        ],
+        [
+          "Follow use, aging and later lifecycle stages",
+          "继续追踪使用、老化与后续阶段"
+        ],
+        [
+          "Add the overlooked carbonation flow",
+          "补上被遗漏的碳化过程"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Substantial global carbon uptake by cement carbonation",
+          "date": "2016",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/ngeo2840"
+        }
+      ],
+      "continuity": "Carbonation is not presented as canceling all production emissions or making cement carbon neutral.",
+      "caveat_zh": "碳化吸收不能画成抵消全部生产排放，也不表示水泥已经碳中和。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2017",
+      "scene": "health",
+      "years": "2017",
+      "year": 2017,
+      "tag": "Connect impacts to people",
+      "tag_zh": "把影响落到人身上",
+      "title": "Who bears the health impacts of international trade and transported air pollution?",
+      "question_zh": "跨境贸易与污染输送的健康代价由谁承担？",
+      "branch": "Health impacts · Carbon accounting and trade",
+      "summary": "Linked economic, emissions, air-pollution and health models distinguished trade-related health impacts from those caused by cross-border atmospheric transport.",
+      "summary_zh": "团队组合经济、排放、空气污染和健康模型，区分贸易消费关联的健康影响与污染跨境输送的健康影响。",
+      "visual": "A moving cargo chain and a distinct atmospheric/community view separate trade from pollution transport. No individual health case, exposure value or geographic burden estimate is pictured.",
+      "beats": [
+        [
+          "Combine economic, emissions and atmospheric models",
+          "结合经济、排放与大气模型"
+        ],
+        [
+          "Distinguish trade from pollution transport",
+          "区分贸易联系与污染输送"
+        ],
+        [
+          "Connect the estimates to human health",
+          "把估算连接到健康影响"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Transboundary health impacts of transported global air pollution and international trade",
+          "date": "2017-03-30",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/nature21712"
+        }
+      ],
+      "continuity": "Population icons illustrate a modeled health-impact boundary, not invented individual cases.",
+      "caveat_zh": "以人群图标表达估算的健康风险，避免虚构个体病例。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2018",
+      "scene": "system",
+      "years": "2018",
+      "year": 2018,
+      "tag": "Make net zero work",
+      "tag_zh": "冲向完整净零系统",
+      "title": "How can net-zero energy deliver reliable power and hard-to-abate services?",
+      "question_zh": "净零能源怎样保持可靠，并覆盖难减排行业？",
+      "branch": "Energy systems · Materials",
+      "summary": "A system review examined the difficult components of net-zero energy, while an hourly-weather analysis tested reliability constraints for wind, solar, storage and capacity.",
+      "summary_zh": "一项综述梳理净零能源系统的难点；另一项用长期逐小时天气记录检验风光、储能和容量配置的可靠性约束。",
+      "visual": "Wind rotors and a material-handling vehicle operate amid a moving weather cloud, with a separate hard-to-abate industrial view. This is not calculated dispatch or proof that one battery guarantees reliability.",
+      "beats": [
+        [
+          "Annual energy is not hourly reliability",
+          "年度能量不等于逐小时可靠性"
+        ],
+        [
+          "Weather, storage and other services interact",
+          "天气、储能与其他服务相互关联"
+        ],
+        [
+          "Test the complete net-zero system",
+          "检验完整的净零系统"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Net-zero emissions energy systems",
+          "date": "2018-06-29",
+          "kind": "peer-reviewed review/indexed abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29954954/"
+        },
+        {
+          "title": "Geophysical constraints on the reliability of solar and wind power",
+          "date": "2018-02-27",
+          "kind": "peer-reviewed paper",
+          "url": "https://pubs.rsc.org/en/content/articlelanding/2018/ee/c7ee03029k"
+        }
+      ],
+      "continuity": "This simplified sequence does not establish one universal power-system design or demonstrate that a single battery ensures reliability.",
+      "caveat_zh": "年度发电量足够不等于每小时可靠；不要把风光研究的简化系统结论画成所有现实电网的唯一方案。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 12000
+    },
+    {
+      "id": "y2019",
+      "scene": "infrastructure",
+      "years": "2019",
+      "year": 2019,
+      "tag": "Reveal time inertia",
+      "tag_zh": "看见基础设施的时间惯性",
+      "title": "How much future CO2 is committed by existing and proposed infrastructure?",
+      "question_zh": "现有和计划中的设施会承诺多少未来排放？",
+      "branch": "Energy systems · Carbon accounting and trade",
+      "summary": "Infrastructure inventories, lifetimes and utilization assumptions were used to compare committed emissions with the 1.5°C carbon budget available at the time.",
+      "summary_zh": "研究结合设施清单、寿命和利用率假设，将现有与拟建基础设施的未来排放和当时的1.5°C碳预算进行比较。",
+      "visual": "An operating industrial delivery is followed by the same empty site as a conditional stopped-operation alternative, then a separate replacement power context. This is not instantaneous conversion of an entire plant or inevitable future operation.",
+      "beats": [
+        [
+          "Existing and planned devices extend into the future",
+          "现有与计划设施延伸到未来"
+        ],
+        [
+          "Operating assumptions set the commitment",
+          "运行假设决定排放承诺"
+        ],
+        [
+          "Compare lifetimes, use and replacement",
+          "比较寿命、利用率与替换"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Committed emissions from existing energy infrastructure jeopardize 1.5°C climate target",
+          "date": "2019-07-01",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/s41586-019-1364-3"
+        }
+      ],
+      "continuity": "Committed emissions depend on lifetime, utilization and replacement assumptions. The paper’s historical carbon budget is not a current 2026 remaining budget.",
+      "caveat_zh": "承诺排放是条件估计；历史碳预算不能标为2026当前剩余预算。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2020",
+      "scene": "daily",
+      "years": "2020",
+      "year": 2020,
+      "tag": "Change the clock",
+      "tag_zh": "把一年拆成每一天",
+      "title": "Can we estimate global CO2 emissions day by day?",
+      "question_zh": "能否逐日看见全球排放怎样变化？",
+      "branch": "Carbon accounting and trade",
+      "summary": "Carbon Monitor converted activity data from power, industry, transport and other sectors into daily emissions estimates.",
+      "summary_zh": "Carbon Monitor把电力、工业、交通、航空等活动数据转成每日排放估计，展示年度总量遮住的变化。",
+      "visual": "A power-activity context leads to physical source-record checking: separate folders become aligned sheets and an organized activity binder with an unlabeled calendar, then an industrial-activity context. This is an illustration of activity-to-daily-estimate work, not measured time-series data, direct CO₂ sensing or an event attribution.",
+      "beats": [
+        [
+          "Start with an annual aggregate",
+          "从年度总量出发"
+        ],
+        [
+          "Turn activity data into daily estimates",
+          "把活动数据转为每日估算"
+        ],
+        [
+          "Reveal timing that an annual total conceals",
+          "揭示年度总量遮住的时序"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Carbon Monitor, a near-real-time daily dataset of global CO2 emission from fossil fuel and cement production",
+          "date": "2020-11-09",
+          "kind": "peer-reviewed data descriptor/indexed abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33168822/"
+        }
+      ],
+      "continuity": "Daily values are activity-based estimates, not a direct worldwide CO₂ sensor network. The physical folders and calendar illustrate record handling without reproducing numerical time-series values.",
+      "caveat_zh": "这是基于活动数据的排放估计，不能画成覆盖全球的直接CO2传感器测量。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2021",
+      "scene": "cementtech",
+      "years": "2021",
+      "year": 2021,
+      "tag": "Combine material solutions",
+      "tag_zh": "让难减排材料接力",
+      "title": "Which combinations of technologies can deeply reduce cement-production emissions?",
+      "question_zh": "哪些技术组合可以深度降低水泥生产排放？",
+      "branch": "Materials · Energy systems",
+      "summary": "The analysis examined combinations of fuel and clinker substitution, efficiency and carbon capture, distinguishing process emissions from energy-related emissions.",
+      "summary_zh": "该分析讨论燃料和熟料替代、效率与碳捕集的组合，区分工艺化学与能源使用产生的排放。",
+      "visual": "Generic industrial production, a separate energy-service context and a return to production distinguish intervention scopes. No sediment-vial laboratory protocol, observed technology combination or measured capture performance is pictured.",
+      "beats": [
+        [
+          "Separate process chemistry from energy use",
+          "区分工艺化学与能源使用"
+        ],
+        [
+          "Combine different technological levers",
+          "组合不同的技术手段"
+        ],
+        [
+          "Test which sources each option addresses",
+          "检验每种技术针对哪些排放源"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Decarbonizing cement production",
+          "date": "2021-05-20",
+          "kind": "peer-reviewed analysis",
+          "url": "https://doi.org/10.1016/j.joule.2021.04.011",
+          "note": "Publication date confirmed by the authors' university."
+        },
+        {
+          "title": "Best ways to cut carbon emissions from the cement industry explored",
+          "date": "2021-05-20",
+          "kind": "official author-university research announcement",
+          "url": "https://www.imperial.ac.uk/news/221654/best-ways-carbon-emissions-from-cement/amp/"
+        }
+      ],
+      "continuity": "The analysis compares production interventions. Its direct-production scope is distinct from a complete lifecycle account and a measured factory trial.",
+      "caveat_zh": "不是新建工厂的实测成果；直接生产排放分析不能替代完整生命周期核算。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2022",
+      "scene": "landtrade",
+      "years": "2022",
+      "year": 2022,
+      "tag": "Follow land and food",
+      "tag_zh": "跟随食物与土地的足迹",
+      "title": "Where does international trade transfer land-use emissions?",
+      "question_zh": "商品贸易把土地利用排放转移到哪里？",
+      "branch": "Carbon accounting and trade · Food and land",
+      "summary": "New emissions estimates and a multiregional input-output model traced trade-related agriculture and land-use-change emissions over 2004–2017.",
+      "summary_zh": "团队用新的排放估计和多区域投入产出模型，追踪2004–2017年农业与土地利用变化排放的生产消费关系。",
+      "visual": "A crop truck follows the farm path toward processing; a port handoff follows consumption, then returns to the production landscape. The forest remains intact, and no shipment is assigned a deforestation history.",
+      "beats": [
+        [
+          "Resolve agricultural and land-use-change emissions",
+          "细分农业与土地利用变化排放"
+        ],
+        [
+          "Follow goods to their consumers",
+          "沿商品追踪到消费者"
+        ],
+        [
+          "Extend the trade-accounting boundary",
+          "拓展贸易核算边界"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Land-use emissions embodied in international trade",
+          "date": "2022-05-06",
+          "kind": "peer-reviewed paper/indexed abstract",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35511968/"
+        }
+      ],
+      "continuity": "Agriculture and land-use change are separate emissions sources. Trade does not imply that all production required new deforestation.",
+      "caveat_zh": "核算既包括农业排放，也包括土地利用变化；避免画成全部贸易都导致新砍伐。",
+      "background": "assets/davis-anime/02-trade-carbon-hidden-impacts.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2023",
+      "scene": "materials",
+      "years": "2023",
+      "year": 2023,
+      "tag": "From stocks to flows",
+      "tag_zh": "从电力目标到材料清单",
+      "title": "How much material does clean power require, and how far must production expand?",
+      "question_zh": "净零电力需要多少材料，意味着多大的生产扩张？",
+      "branch": "Materials · Energy systems",
+      "summary": "The study combined 75 climate-energy scenarios with generation-technology material intensities, distinguishing cumulative geological availability from annual production-growth requirements.",
+      "summary_zh": "研究将75个气候能源情景与发电技术材料强度连接，区分累计地质资源需求与逐年生产扩张要求。",
+      "visual": "A forklift carries and deposits a material pallet; a separate geological outcrop and excavator loading cycle distinguish a qualitative stock from physical throughput; the equipment context returns. Strata color does not identify an element or assay, and no reserve tonnage, annual production quantity or shortage is encoded.",
+      "beats": [
+        [
+          "Translate energy deployment into materials",
+          "把能源部署换算为材料需求"
+        ],
+        [
+          "A geological stock differs from annual production",
+          "地下储量不同于年产量"
+        ],
+        [
+          "Ask how much production must expand",
+          "追问生产需要扩张多少"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Future demand for electricity generation materials under different climate mitigation scenarios",
+          "date": "2023",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2542435123000016"
+        },
+        {
+          "title": "Public data and code archive",
+          "date": "archive release date not reverified",
+          "kind": "research data/code archive",
+          "url": "https://doi.org/10.5281/zenodo.7023703",
+          "note": "Associated with the 2023 paper; archive release date is distinct from paper publication. Exact archive date omitted."
+        }
+      ],
+      "continuity": "The scope is electricity-generation infrastructure, not every NdFeB application. Demand estimates do not themselves prove a shortage or validate deliveries.",
+      "caveat_zh": "论文范围是发电基础设施；它估算需求与扩产规模，不证明所有材料短缺必然发生，也不覆盖全部磁体用途。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2024",
+      "scene": "scenarios",
+      "years": "2024",
+      "year": 2024,
+      "tag": "Compare the pathways",
+      "tag_zh": "让情景服务具体决策",
+      "title": "What can net-zero scenarios tell decision makers, and which regional differences do national totals hide?",
+      "question_zh": "净零情景能指导什么，国家总量又掩盖哪些差异？",
+      "branch": "Energy systems",
+      "summary": "The study compared US net-zero scenarios and US results from global models, showing substantial differences in technologies and regional pathways under the same target.",
+      "summary_zh": "研究比较美国净零情景和全球模型中的美国结果，说明同一目标下技术路径与地区变化很不相同。",
+      "visual": "Different energy and agricultural/land settings compare the constraints within a shared target. Neither alternative has an assigned probability or is shown as an observed future.",
+      "beats": [
+        [
+          "Start with a shared net-zero target",
+          "从共同的净零目标出发"
+        ],
+        [
+          "Compare different technology pathways",
+          "比较不同的技术路径"
+        ],
+        [
+          "Resolve regions and the limits of scenarios",
+          "细分地区差异与情景方法的局限"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Uses and limits of national decarbonization scenarios to inform net-zero transitions",
+          "date": "2024",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2542435124004239"
+        },
+        {
+          "title": "Author-institution publication and abstract record",
+          "date": "2024",
+          "kind": "official research-institute repository",
+          "url": "https://pure.iiasa.ac.at/id/eprint/20348/"
+        }
+      ],
+      "continuity": "Scenario ensembles are comparisons, not probability distributions or a single inevitable forecast. Earlier accounting and materials branches continue.",
+      "caveat_zh": "情景集合不是概率分布或唯一预测；这一年并不表示所有旧研究分支结束。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 8000
+    },
+    {
+      "id": "y2025",
+      "scene": "risk",
+      "years": "2025",
+      "year": 2025,
+      "tag": "Test trade exposure",
+      "tag_zh": "净零与贸易风险相遇",
+      "title": "How does the net-zero transition reshape energy-related trade risks?",
+      "question_zh": "净零转型会怎样重塑能源贸易风险？",
+      "branch": "Materials · Energy systems · Carbon accounting and trade",
+      "summary": "Net-zero scenarios were linked to materials and trade-risk indicators, revealing differing changes as fossil-fuel dependence declines and critical-material imports grow.",
+      "summary_zh": "论文把净零情景、材料和贸易风险指标连接，显示减少化石燃料依赖和增加关键材料进口可能带来不同方向的风险变化。",
+      "visual": "Cargo and energy-equipment actions illustrate changing import and material dependence. There is no simulated blockade, observed outage or inferred customer-qualified magnet shortage.",
+      "beats": [
+        [
+          "Decarbonization changes import dependence",
+          "减碳改变进口依赖"
+        ],
+        [
+          "Compare networks, materials and assumptions",
+          "比较网络、材料与假设"
+        ],
+        [
+          "Trade exposure is distinct from delivered supply",
+          "贸易暴露不同于可用交付"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "Trade risks to energy security in net-zero emissions energy scenarios",
+          "date": "2025-04-09",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/s41558-025-02305-1"
+        },
+        {
+          "title": "The importance of multiregional accounting for corporate carbon emissions",
+          "date": "2025-12-20",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/s41467-025-67759-5",
+          "note": "Online 2025-12-20; final Nature Communications volume17/article1014 is2026."
+        }
+      ],
+      "continuity": "The national trade-risk index follows resource geography and broad material proxies; it is not a customer-qualified magnet shortage probability. Corporate accounting continues the earlier boundary question.",
+      "caveat_zh": "贸易风险指标不是磁体断供概率或可用交付量；研究按储量所在国处理材料来源，不解析所有冶炼和制造位置。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 12000,
+      "cards": [
+        {
+          "card_label": "Corporate accounting",
+          "scene": "corporate",
+          "tag": "Resolve supplier geography",
+          "tag_zh": "细分供应商地理",
+          "title": "How does supplier geography change corporate carbon-footprint estimates?",
+          "question_zh": "供应商地理位置会怎样改写企业碳足迹？",
+          "summary": "Matched single-region and multiregional accounting models compare corporate carbon-footprint estimates and priorities. These are modeled accounts, not direct company audits.",
+          "papers": [
+            {
+              "title": "The importance of multiregional accounting for corporate carbon emissions",
+              "date": "2025-12-20",
+              "kind": "peer-reviewed paper",
+              "url": "https://www.nature.com/articles/s41467-025-67759-5",
+              "note": "Online 2025-12-20; final Nature Communications volume17/article1014 is2026."
+            }
+          ],
+          "visual": "A physical port cargo handoff accompanies supplier-geography accounting. The illustration is not a firm-specific supply route, measured footprint or identified supplier.",
+          "beats": [
+            [
+              "Keep the company output comparable",
+              "保持公司产出可比"
+            ],
+            [
+              "Resolve where suppliers produce",
+              "细分供应商在哪里生产"
+            ],
+            [
+              "Compare modeled accounts and priorities",
+              "比较建模核算与优先事项"
+            ]
+          ],
+          "continuity": "Corporate multiregional accounting returns to the earlier boundary question: supplier geography can alter modeled footprints and priorities. These matched-model comparisons are not a national resource-risk index or a direct company audit."
+        }
+      ]
+    },
+    {
+      "id": "y2026",
+      "scene": "frontier",
+      "years": "2026",
+      "year": 2026,
+      "tag": "Resolve real consequences",
+      "tag_zh": "当前：把现实代价纳入决策",
+      "title": "How do location and technology choices change the real-world consequences of the same target?",
+      "question_zh": "同一目标下，地点和技术选择会改变哪些现实代价？",
+      "branch": "Energy systems · Materials · Health impacts",
+      "summary": "Published work assessed solar land-cost tradeoffs and health distribution under different carbon-removal pathways; a newly funded AI project plans to compare data-center locations and power options.",
+      "summary_zh": "已发表研究分析太阳能土地成本的技术与材料影响，以及不同碳移除路径的健康分配；新资助的AI项目拟比较数据中心地点与供电方案。",
+      "visual": "Distinct land, community and operating-energy scenes accompany separately sourced design, health, funded-AI-plan and weather questions. These do not combine them into a single published result.",
+      "beats": [
+        [
+          "The same target can contain different designs",
+          "同一目标之下，设计仍可不同"
+        ],
+        [
+          "Resolve local costs, impacts and reliability",
+          "细分地方成本、影响与可靠性"
+        ],
+        [
+          "Separate published results from new research plans",
+          "区分已发表成果与新研究计划"
+        ]
+      ],
+      "papers": [
+        {
+          "title": "The effect of land costs on the economic and sustainability performance of solar photovoltaics in China",
+          "date": "2026",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2512930123"
+        },
+        {
+          "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
+          "date": "2026-06-30",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/s41558-026-02675-0"
+        },
+        {
+          "title": "Bits & Watts adds eight new research projects to its sustainable AI infrastructure research",
+          "date": "2026-08-18",
+          "kind": "official funded-project announcement",
+          "url": "https://bitsandwatts.stanford.edu/news/bits-watts-adds-eight-new-research-projects-its-sustainable-ai-infrastructure-research",
+          "note": "Date verified from official news index; Davis is co-PI, not sole project leader."
+        },
+        {
+          "title": "Official Bits & Watts news index",
+          "date": "2026-08-18",
+          "kind": "official news date record",
+          "url": "https://bitsandwatts.stanford.edu/events-news/news"
+        },
+        {
+          "title": "Flash energy droughts in solar and wind resources under climate change",
+          "date": "2026-09-21",
+          "kind": "peer-reviewed paper",
+          "url": "https://www.nature.com/articles/s41558-026-02753-3"
+        }
+      ],
+      "continuity": "The year contains distinct team studies and a separately labeled grant. The AI tool is planned, with Davis as co-PI; no completed tool or comparison outcome is claimed.",
+      "caveat_zh": "2026主问题是编辑归纳，不是Davis逐字说过的一句话；三张子卡必须分别标出来源与成果状态。没有公开验证的磁体投资研究不得加入为他的既有成果。",
+      "background": "assets/davis-anime/03-energy-materials-data-center-reliability.png",
+      "duration_ms": 18000,
+      "cards": [
+        {
+          "card_label": "Solar land choices · paper",
+          "scene": "frontier",
+          "tag": "Land and technology",
+          "tag_zh": "土地与技术",
+          "title": "How do land costs change solar technology choices and material needs?",
+          "question_zh": "土地价格会怎样改变太阳能技术选择和材料需求？",
+          "summary": "The China study examines how land costs change the economic comparison of fixed-tilt and tracking solar systems and the material requirements associated with a given electricity output.",
+          "papers": [
+            {
+              "title": "The effect of land costs on the economic and sustainability performance of solar photovoltaics in China",
+              "date": "2026",
+              "kind": "peer-reviewed paper",
+              "url": "https://www.pnas.org/doi/10.1073/pnas.2512930123"
+            }
+          ],
+          "visual": "A stationary fixed-tilt array and a separate four-orientation tracker row share a representative land setting. The tracker footing remains registered while its panels change orientation. Neither row encodes a China site, output, land price, yield, LCOE or winning technology.",
+          "beats": [
+            [
+              "A given electricity output can use different layouts",
+              "同样的发电量可以采用不同布局"
+            ],
+            [
+              "Land costs change the design comparison",
+              "土地成本改变设计比较"
+            ],
+            [
+              "Resolve land and material trade-offs",
+              "细分土地与材料权衡"
+            ]
+          ],
+          "continuity": "This published China study compares land-cost, solar-design and material-use tradeoffs. The scene is an illustration of its design question, separate from the health, AI-plan and energy-drought branches."
+        },
+        {
+          "card_label": "Health and equity · paper",
+          "scene": "equity",
+          "tag": "Compare local consequences",
+          "tag_zh": "比较地方后果",
+          "title": "Who receives air-quality and health benefits under different paths to net zero?",
+          "question_zh": "同样达到净零，谁获得更多空气质量和健康收益？",
+          "summary": "Energy, air-quality and health models compare residual emissions and their health distribution under pathways with different levels of carbon removal. Sharing a net-zero CO₂ target does not imply identical local air-quality benefits.",
+          "papers": [
+            {
+              "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
+              "date": "2026-06-30",
+              "kind": "peer-reviewed paper",
+              "url": "https://www.nature.com/articles/s41558-026-02675-0"
+            }
+          ],
+          "visual": "Industrial production and power-service scenes precede a representative community/aerosol view. The question concerns residual emissions and carbon-removal reliance under net-zero pathways, not a trade-health paper. No calculated removal, exposure or individual health outcome is shown.",
+          "beats": [
+            [
+              "Start with a shared net-zero CO₂ target",
+              "从共同的净零 CO₂ 目标出发"
+            ],
+            [
+              "Separate removal from residual pollution",
+              "区分碳移除与剩余污染"
+            ],
+            [
+              "Compare local health and distribution",
+              "比较地方健康影响与分配"
+            ]
+          ],
+          "continuity": "This published study compares health consequences across pathways with different residual emissions and carbon-removal reliance. It is separate from the AI grant, solar-design study and resource-drought study."
+        },
+        {
+          "card_label": "AI power · funded plan",
+          "scene": "ai",
+          "tag": "A new research plan",
+          "tag_zh": "新研究计划",
+          "title": "Where and how can AI data centers obtain reliable, affordable, secure and sustainable power?",
+          "question_zh": "AI数据中心在哪里、用什么供电方案，能兼顾可靠、可负担、安全与可持续？",
+          "summary": "The August 18 grant plans a tool comparing U.S. data-center locations and power strategies across cost, greenhouse gases, resilience, air quality and reliability. Inês Azevedo is PI; Davis, Carlos Díaz-Marín and Edgar Virgüez are co-PIs.",
+          "papers": [
+            {
+              "title": "Bits & Watts adds eight new research projects to its sustainable AI infrastructure research",
+              "date": "2026-08-18",
+              "kind": "official funded-project announcement",
+              "url": "https://bitsandwatts.stanford.edu/news/bits-watts-adds-eight-new-research-projects-its-sustainable-ai-infrastructure-research",
+              "note": "Date verified from official news index; Davis is co-PI, not sole project leader."
+            },
+            {
+              "title": "Official Bits & Watts news index",
+              "date": "2026-08-18",
+              "kind": "official news date record",
+              "url": "https://bitsandwatts.stanford.edu/events-news/news"
+            }
+          ],
+          "visual": "Four distinct contexts follow an anonymous engineer from candidate-site connection to power-room inspection, an integral operator/pipe-fixture grip-turn-sight-window-notes sequence, and physically opened/aligned comparison folders. All are generic engineering illustrations for the August 2026 funded plan, with no completed tool, numeric scores, cooling-performance result or selected site.",
+          "beats": [
+            [
+              "Compare site and power options",
+              "比较选址与供电方案"
+            ],
+            [
+              "Define five comparison dimensions",
+              "定义五个比较维度"
+            ],
+            [
+              "A funded research plan, not a completed result",
+              "已获资助的研究计划，并非已完成成果"
+            ]
+          ],
+          "continuity": "A separately labeled August 2026 funded research plan will compare U.S. data-center locations and power options. The scenes are representative; the tool and its comparison results are not claimed complete."
+        },
+        {
+          "card_label": "Energy droughts · September paper",
+          "scene": "system",
+          "tag": "Study resource droughts",
+          "tag_zh": "研究能源资源干旱",
+          "title": "How can flash energy droughts in solar and wind resources challenge energy systems?",
+          "question_zh": "风光资源的突发能源干旱，会怎样挑战能源系统？",
+          "summary": "The September 2026 team paper studies flash energy droughts in solar and wind resources under climate change. This scene illustrates weather variability; it does not reproduce the study’s event thresholds, maps or projections.",
+          "papers": [
+            {
+              "title": "Flash energy droughts in solar and wind resources under climate change",
+              "date": "2026-09-21",
+              "kind": "peer-reviewed paper",
+              "url": "https://www.nature.com/articles/s41558-026-02753-3"
+            }
+          ],
+          "visual": "A crew-free power landscape shows a moving weather cloud and qualitatively slowing/recovering wind rotors. Cloud cover and varying wind illustrate separate resource mechanisms; no forklift, computed dispatch, storage rescue, measured event threshold, map or projection is reproduced.",
+          "beats": [
+            [
+              "Renewable resources vary with weather",
+              "可再生能源资源随天气变化"
+            ],
+            [
+              "Inspect short-lived resource deficits",
+              "检验短期资源不足"
+            ],
+            [
+              "Compare system exposure and resilience",
+              "比较系统暴露与韧性"
+            ]
+          ],
+          "continuity": "The published September 2026 paper studies resource drought events in wind and solar under climate change. It extends the weather-resource question; it is not the funded AI tool or a tested storage/dispatch solution."
+        }
+      ]
+    }
+  ],
+  "context": [
+    {
+      "label": "A documented personal account",
+      "date": "2024-09-27",
+      "kind": "Stanford profile",
+      "text": "Davis describes wanting research that matters to decisions, encountering lifecycle analysis through a student nonprofit and proposing international-goods carbon accounting after meeting Ken Caldeira. This supports the connection between early and later work; it does not supply a motive for every paper.",
+      "url": "https://sustainability.stanford.edu/news/unraveling-ties-emissions-and-human-activities"
+    },
+    {
+      "label": "A documented net-zero framing",
+      "date": "2025-11-03 seminar",
+      "kind": "Seminar abstract",
+      "text": "The Tough Stuff frames a shift around 2018 toward reaching net zero and the hardest-to-abate services. The seminar framing is distinct from empirical results.",
+      "url": "https://energy.stanford.edu/events/lecturepresentationtalk/stanford-energy-seminar-tough-stuff-steve-davis-earth-system-science"
+    },
+    {
+      "label": "A materials process-economics branch",
+      "date": "2025-03 arXiv; 2026-05-21 SSRN version",
+      "kind": "Preprint; not peer reviewed in the checked version",
+      "text": "The public graphite supply-security preprint is a process-economics precedent, not an NdFeB finding. The later abstract reports structured expert input. It should not be merged with published magnet or trade-security results.",
+      "url": "https://arxiv.org/abs/2503.21521",
+      "companion_url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6804354"
+    }
+  ],
+  "connection": {
+    "label": "Proposed research connection",
+    "question": "Would resolving manufacturing stages and customer-qualified magnet output change an important material-security decision?",
+    "question_zh": "细分制造工序与客户认可的磁体产出，会不会改变关键的材料安全决策？",
+    "note": "Candidate extension from material demand and trade exposure to stage-constrained, specification-compatible magnet delivery. This is proposed research, not a published finding or description of unpublished lab work."
+  }
+}

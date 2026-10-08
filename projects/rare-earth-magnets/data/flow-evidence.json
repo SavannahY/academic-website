@@ -1,0 +1,1551 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-07",
+  "scope": "Observed source quantities, historical demand estimates and illustrative allocations remain separate. No complete current global element-to-customer mass balance is claimed.",
+  "sources": [
+    {
+      "id": "doe-magnets-2022",
+      "label": "DOE · Rare Earth Permanent Magnets Supply Chain Deep Dive Assessment",
+      "url": "https://www.energy.gov/sites/default/files/2022-02/Neodymium%20Magnets%20Supply%20Chain%20Report%20-%20Final.pdf",
+      "publication_date": "2022-02-24",
+      "checked_at": "2026-10-07",
+      "locator": "Tables 9–10, printed pages 31–32 / PDF pages 45–46"
+    },
+    {
+      "id": "iea-stages-2024",
+      "label": "IEA · 2024 magnet rare-earth and sintered magnet production shares",
+      "url": "https://www.iea.org/data-and-statistics/charts/share-of-global-supply-of-magnet-rare-earths-and-magnet-manufacturing-2024",
+      "publication_date": null,
+      "checked_at": "2026-10-07",
+      "locator": "Independent stage marginals, not observed trade links"
+    },
+    {
+      "id": "illustrative-prototype",
+      "label": "Original normalized prototype · illustrative assumptions",
+      "url": "flows.html?view=prototype#flow-workspace",
+      "kind": "author-created exploratory allocation",
+      "checked_at": "2026-10-07",
+      "locator": "100-unit basis; independent stage margins and hypothetical end-use weights"
+    },
+    {
+      "id": "ndpr-product",
+      "label": "Otto Chemie · nominal NdPr product",
+      "url": "https://www.ottokemi.com/specsheet/Neodymium-praseodymium-alloy.aspx",
+      "publication_date": null,
+      "checked_at": "2026-10-07",
+      "locator": "Nominal 75/25; actual assay/tolerances not ideal binary composition"
+    },
+    {
+      "id": "dyfe-product",
+      "label": "Epoch · DyFe product assay fields",
+      "url": "https://www.epomaterial.com/dysprosium-iron-alloy-dyfe-ingots-manufacturer-product/",
+      "publication_date": null,
+      "checked_at": "2026-10-07",
+      "locator": "RE 80±1 wt%; Dy/RE≥99.5%; not ideal pure binary"
+    },
+    {
+      "id": "ferroboron-product",
+      "label": "Nippon Denko · ferroboron specification",
+      "url": "https://www.nippondenko.co.jp/shared/pdf/boron.pdf",
+      "publication_date": null,
+      "checked_at": "2026-10-07",
+      "locator": "Page 2 FBMG: B≥20%, typical 20.80%; ideal 20/80 used only in illustration"
+    },
+    {
+      "id": "USGS_RE_2026",
+      "title": "USGS MCS2026 Rare Earths, version 1.3",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+      "publication_date": "2026-02-06",
+      "revision_date": "2026-05-27",
+      "locator": "printed pp152–153; full PDF pp156–157",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "USGS_HRE_2026",
+      "title": "USGS MCS2026 Rare Earths (Heavy)",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths-heavy.pdf",
+      "publication_date": "2026-02-06",
+      "locator": "pp1–2",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "MP_FY25",
+      "title": "MP Materials FY2025 results",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Fourth-Quarter-and-Full-Year-2025-Results/default.aspx",
+      "publication_date": "2026-02-26",
+      "locator": "Materials segment KPI table; KPI definitions",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "MP_Q226",
+      "title": "MP Materials Q2 2026 results",
+      "url": "https://www.mpmaterials.com/news/mp-materials-reports-second-quarter-2026-results",
+      "publication_date": "2026-08-06",
+      "locator": "Materials segment KPI table; KPI definitions",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "MP_10K25",
+      "title": "MP Materials 2025 Form 10-K",
+      "url": "https://s25.q4cdn.com/570172628/files/doc_financials/2025/q4/MP-Materials-2025-10K-FINAL.pdf",
+      "publication_date": "2026-02-26",
+      "locator": "PDF pp6–7 / printed pp2–3",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "MP_JAN25",
+      "title": "MP restores U.S. magnet production",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Restores-U.S.-Rare-Earth-Magnet-Production/default.aspx",
+      "publication_date": "2025-01-22",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "JLMAG_FY25",
+      "title": "JL MAG FY2025 annual report",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502302_c.pdf",
+      "publication_date": "2026-03-25",
+      "locator": "PDF p34 / printed p33: Industry Position",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "NEO_OPEN",
+      "title": "Neo Narva opening",
+      "url": "https://www.neomaterials.com/neo-opens-state-of-the-art-magnet-facility-europe/",
+      "publication_date": "2025-09-22",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "NEO_COMMERCIAL",
+      "title": "Neo Narva commercial production",
+      "url": "https://www.neomaterials.com/neo-advances-commercial-production-magnet-facility/",
+      "publication_date": "2026-09-14",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "EVAC_CAP",
+      "title": "eVAC Sumter opening and nameplate",
+      "url": "https://vacuumschmelze.com/Newsroom/evac-magnetics-holds-opening-ceremony-for-sumter-south-carolina-rare-earth-magnet-manufacturing-facility-n2902",
+      "publication_date": "2026-07-16",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "EF_PILOT",
+      "title": "Energy Fuels White Mesa pilot Dy/Tb oxides",
+      "url": "https://investors.energyfuels.com/2026-03-25-Energy-Fuels-Announces-First-U-S-Primary-Production-of-Critical-Heavy-Rare-Earth-Material-in-Decades",
+      "publication_date": "2026-03-25",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    },
+    {
+      "id": "CIAAW",
+      "title": "CIAAW Standard Atomic Weights 2024",
+      "url": "https://ciaaw.org/atomic-weights.htm",
+      "publication_date": null,
+      "locator": "Nd, Pr, Dy, Tb, Fe, B, O rows",
+      "checked_at": "2026-10-07",
+      "access": "public",
+      "primary_source": true
+    }
+  ],
+  "demand_2020": {
+    "year": 2020,
+    "publication_year": 2022,
+    "form": "Finished NdFeB magnets, including sintered and bonded source categories",
+    "unit": "tonnes/year",
+    "denominator_label": "Total modeled annual demand in the selected geography",
+    "source_ids": [
+      "doe-magnets-2022"
+    ],
+    "regions": [
+      {
+        "id": "global",
+        "label": "Global",
+        "total_tonnes": 119200,
+        "scope": "Global annual modeled demand including sintered and bonded magnets. A historical estimate, not a current market census.",
+        "source_ids": [
+          "doe-magnets-2022"
+        ],
+        "locator": "Table9 / printed page31",
+        "sectors": [
+          {
+            "id": "sector-0",
+            "label": "Industrial motors",
+            "tonnes": 36000,
+            "share_pct": 30.201342281879196,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-1",
+            "label": "Electronics, including HDD",
+            "tonnes": 35100,
+            "share_pct": 29.446308724832214,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-2",
+            "label": "Offshore wind",
+            "tonnes": 16900,
+            "share_pct": 14.177852348993289,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-3",
+            "label": "Vehicle auxiliary motors",
+            "tonnes": 9400,
+            "share_pct": 7.885906040268456,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-4",
+            "label": "Bonded magnets",
+            "tonnes": 8000,
+            "share_pct": 6.7114093959731544,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-5",
+            "label": "Electric vehicles",
+            "tonnes": 7300,
+            "share_pct": 6.124161073825504,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-6",
+            "label": "Other sintered magnets",
+            "tonnes": 6500,
+            "share_pct": 5.453020134228188,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "us",
+        "label": "United States",
+        "total_tonnes": 16100,
+        "scope": "U.S. final demand includes directly imported magnets and magnets embedded in imported intermediate/final products. Not the magnet input of U.S. factories. Offshore-only wind category excludes onshore wind.",
+        "source_ids": [
+          "doe-magnets-2022"
+        ],
+        "locator": "Table10 / printed page32",
+        "sectors": [
+          {
+            "id": "sector-0",
+            "label": "Industrial motors",
+            "tonnes": 4900,
+            "share_pct": 30.434782608695656,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-1",
+            "label": "Electronics, including HDD",
+            "tonnes": 7200,
+            "share_pct": 44.72049689440994,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-2",
+            "label": "Offshore wind",
+            "tonnes": 0,
+            "share_pct": 0.0,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-3",
+            "label": "Vehicle auxiliary motors",
+            "tonnes": 1500,
+            "share_pct": 9.316770186335404,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-4",
+            "label": "Bonded magnets",
+            "tonnes": 600,
+            "share_pct": 3.7267080745341614,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-5",
+            "label": "Electric vehicles",
+            "tonnes": 1800,
+            "share_pct": 11.180124223602485,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          },
+          {
+            "id": "sector-6",
+            "label": "Other sintered magnets",
+            "tonnes": 100,
+            "share_pct": 0.6211180124223602,
+            "source_ids": [
+              "doe-magnets-2022"
+            ]
+          }
+        ]
+      }
+    ],
+    "boundaries": [
+      "Robotics and cloud HDDs are not separate quantified categories.",
+      "Bonded magnets are a technology bucket in the original taxonomy; categories are preserved as published.",
+      "Historical estimated sector demand is not observed factory-to-customer shipments.",
+      "Country production shares and present equipment/project capacity cannot assign the origin of this demand.",
+      "No actual national contained-element quantities are inferred from this aggregate magnet total."
+    ]
+  },
+  "prototype_100": {
+    "year": 2024,
+    "scope": "Original two-region one-period exploratory allocation; explicitly illustrative assumptions",
+    "form": "Normalized embodied magnet rare-earth-equivalent reference",
+    "unit": "normalized units",
+    "denominator": 100,
+    "columns": [
+      {
+        "id": "mining",
+        "label": "Mining & concentration",
+        "nodes": [
+          {
+            "id": "mining-china",
+            "label": "China",
+            "value": 60,
+            "kind": "China"
+          },
+          {
+            "id": "mining-row",
+            "label": "Other countries",
+            "value": 40,
+            "kind": "Other"
+          }
+        ]
+      },
+      {
+        "id": "refining",
+        "label": "Separation & refining",
+        "nodes": [
+          {
+            "id": "refining-china",
+            "label": "China",
+            "value": 91,
+            "kind": "China"
+          },
+          {
+            "id": "refining-row",
+            "label": "Other countries",
+            "value": 9,
+            "kind": "Other"
+          }
+        ]
+      },
+      {
+        "id": "magnets",
+        "label": "Sintered-magnet manufacturing",
+        "nodes": [
+          {
+            "id": "magnets-china",
+            "label": "China",
+            "value": 94,
+            "kind": "China"
+          },
+          {
+            "id": "magnets-row",
+            "label": "Other countries",
+            "value": 6,
+            "kind": "Other"
+          }
+        ]
+      },
+      {
+        "id": "applications",
+        "label": "Assumed end-use allocation",
+        "nodes": [
+          {
+            "id": "end-ev",
+            "label": "EV traction motors",
+            "value": 40,
+            "kind": "Assumed application"
+          },
+          {
+            "id": "end-wind",
+            "label": "PM wind generators",
+            "value": 15,
+            "kind": "Assumed application"
+          },
+          {
+            "id": "end-industrial",
+            "label": "Industrial motors / robotics",
+            "value": 20,
+            "kind": "Assumed application"
+          },
+          {
+            "id": "end-electronics",
+            "label": "Electronics / other HDDs",
+            "value": 15,
+            "kind": "Assumed application"
+          },
+          {
+            "id": "end-cloud",
+            "label": "Cloud-storage HDDs",
+            "value": 3,
+            "kind": "Assumed application"
+          },
+          {
+            "id": "end-other",
+            "label": "Aerospace / other",
+            "value": 7,
+            "kind": "Assumed application"
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "source": "mining-china",
+        "target": "refining-china",
+        "value": 60,
+        "status": "scenario allocation; not measured shipment"
+      },
+      {
+        "source": "mining-row",
+        "target": "refining-china",
+        "value": 31,
+        "status": "scenario allocation; not measured shipment"
+      },
+      {
+        "source": "mining-row",
+        "target": "refining-row",
+        "value": 9,
+        "status": "scenario allocation; not measured shipment"
+      },
+      {
+        "source": "refining-china",
+        "target": "magnets-china",
+        "value": 91,
+        "status": "scenario allocation; not measured shipment"
+      },
+      {
+        "source": "refining-row",
+        "target": "magnets-china",
+        "value": 3,
+        "status": "scenario allocation; not measured shipment"
+      },
+      {
+        "source": "refining-row",
+        "target": "magnets-row",
+        "value": 6,
+        "status": "scenario allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-china",
+        "target": "end-ev",
+        "value": 37.599999999999994,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-row",
+        "target": "end-ev",
+        "value": 2.4,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-china",
+        "target": "end-wind",
+        "value": 14.1,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-row",
+        "target": "end-wind",
+        "value": 0.8999999999999999,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-china",
+        "target": "end-industrial",
+        "value": 18.799999999999997,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-row",
+        "target": "end-industrial",
+        "value": 1.2,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-china",
+        "target": "end-electronics",
+        "value": 14.1,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-row",
+        "target": "end-electronics",
+        "value": 0.8999999999999999,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-china",
+        "target": "end-cloud",
+        "value": 2.82,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-row",
+        "target": "end-cloud",
+        "value": 0.18,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-china",
+        "target": "end-other",
+        "value": 6.58,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      },
+      {
+        "source": "magnets-row",
+        "target": "end-other",
+        "value": 0.42,
+        "status": "assumed proportional end-use allocation; not measured shipment"
+      }
+    ],
+    "source_ids": [
+      "iea-stages-2024",
+      "illustrative-prototype"
+    ],
+    "boundaries": [
+      "The independent 60%/91%/94% stage statistics are mapped to a common 100-unit basis with zero conversion losses only as an allocator assumption.",
+      "All six end-use weights are hypothetical, including EV40 and cloud HDD3. They are not empirical market shares.",
+      "Domestic-first routing matches stage margins; it does not reconstruct actual imports, exports or destinations.",
+      "Net scenario transfer into China refining is31units and into magnet manufacturing3units. These are mathematical allocation margins, not measured net trade.",
+      "End-use geography is unspecified; China-to-sector bands do not mean China-to-U.S. exports.",
+      "Recycling, inventory changes and losses are not represented in this illustrative reference. A complete physical balance needs those inputs.",
+      "No absolute-tonne conversion of this100-unit reference is supported."
+    ]
+  },
+  "material_balance": {
+    "year": 2025,
+    "geography": "United States",
+    "cards": [
+      {
+        "id": "us_mine_2025",
+        "label": "Mineral concentrate production",
+        "value": 51000,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "mining/concentration",
+        "form": "REO contained in concentrate; excludes monazite concentrates",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_compounds_metals_2025",
+        "label": "Compounds and metals production",
+        "value": 8900,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "separation/compounds-and-metals",
+        "form": "compounds from California and Utah; rounded two significant digits",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_import_compounds_2025",
+        "label": "Imports: compounds",
+        "value": 21000,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "trade/compounds",
+        "form": "mixed rare-earth compounds",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_apparent_2025",
+        "label": "Apparent consumption: compounds and metals",
+        "value": 27000,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "apparent-consumption/compounds-and-metals",
+        "form": "aggregate compounds and metals; not magnet demand",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_net_import_reliance_2025",
+        "label": "Net import reliance: compounds and metals",
+        "value": 67,
+        "unit": "percent of apparent consumption",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "apparent-consumption/compounds-and-metals",
+        "form": "aggregate compounds and metals",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "No element-specific assay or factory allocation is established."
+        ]
+      }
+    ],
+    "closure_supported": false,
+    "status": "Reported 2025 aggregates with different product boundaries; no closed national element balance",
+    "missing_inputs": [
+      "Comparable element-specific imports and exports for the same traded form, year and geographical boundary.",
+      "Opening and closing stocks and qualifying recycling quantities.",
+      "Verified assays, oxide-to-metal conversion yields and process losses.",
+      "Plant-level magnet consumption, actual receiving plants and grade-specific delivered quantities."
+    ],
+    "lot_example": {
+      "id": "illustrative-purchased-charge",
+      "label": "An ideal purchased-material charge",
+      "status": "Scenario assumption; not a manufacturer recipe or national average",
+      "batch_kg": 1000,
+      "form": "Qualified purchased metal/master-alloy charge before processing",
+      "unit": "kg of charge",
+      "denominator_label": "The specified 1,000 kg charge; not worldwide demand",
+      "inputs": [
+        {
+          "id": "NdPr",
+          "label": "NdPr alloy",
+          "kg": 300,
+          "elements": {
+            "Nd": 0.75,
+            "Pr": 0.25
+          }
+        },
+        {
+          "id": "DyFe",
+          "label": "Dy–Fe master alloy",
+          "kg": 10,
+          "elements": {
+            "Dy": 0.8,
+            "Fe": 0.2
+          }
+        },
+        {
+          "id": "Tb",
+          "label": "Specified ideal Tb metal",
+          "kg": 2,
+          "elements": {
+            "Tb": 1
+          }
+        },
+        {
+          "id": "FeB",
+          "label": "Ferroboron",
+          "kg": 50,
+          "elements": {
+            "B": 0.2,
+            "Fe": 0.8
+          }
+        },
+        {
+          "id": "Fe",
+          "label": "Separate iron",
+          "kg": 638,
+          "elements": {
+            "Fe": 1
+          }
+        }
+      ],
+      "elements_kg": {
+        "Nd": 225.0,
+        "Pr": 75.0,
+        "Dy": 8.0,
+        "Tb": 2,
+        "Fe": 680.0,
+        "B": 10.0
+      },
+      "source_ids": [
+        "ndpr-product",
+        "dyfe-product",
+        "ferroboron-product"
+      ],
+      "boundaries": [
+        "All assays are ideal illustrations; actual products have assay tolerances and impurities.",
+        "Pure Tb is a specified scenario input, not a generic diffusion-source assay.",
+        "Separate iron 638 kg is explicitly assumed; DyFe supplies 2 kg carrier Fe and FeB supplies 40 kg carrier Fe, counted once.",
+        "Processing losses, minor additions, coatings and inventory are outside this charge example. No finished grade or performance is predicted.",
+        "These illustrative element fractions must not be applied to all global sector demand as measured requirements."
+      ]
+    },
+    "trade_cards": [
+      {
+        "id": "us_import_ferrocerium_2025",
+        "label": "Imports: ferrocerium and alloys",
+        "value": 1100,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "trade/alloys",
+        "form": "ferrocerium and other pyrophoric alloys",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_import_metals_alloys_2025",
+        "label": "Imports: rare-earth metals and alloys",
+        "value": 350,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "trade/metals-and-alloys",
+        "form": "rare-earth metals and alloys",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_export_ores_compounds_2025",
+        "label": "Exports: ores and compounds",
+        "value": 14000,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "trade/ores-and-compounds",
+        "form": "aggregate ores and compounds; not compounds-only",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established.",
+          "Ores and compounds is a broader export boundary than compounds-only imports; do not subtract these to create a compounds ledger."
+        ]
+      },
+      {
+        "id": "us_export_ferrocerium_2025",
+        "label": "Exports: ferrocerium and alloys",
+        "value": 890,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "trade/alloys",
+        "form": "ferrocerium and other pyrophoric alloys",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_export_metals_alloys_2025",
+        "label": "Exports: rare-earth metals and alloys",
+        "value": 430,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "trade/metals-and-alloys",
+        "form": "rare-earth metals and alloys",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_RE_2026"
+        ],
+        "notes": [
+          "Header: metric tonnes REO equivalent unless otherwise specified. Footnote 4: REO equivalent or content estimated from Census data. Retain USGS measure; do not substitute gross customs weight.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      },
+      {
+        "id": "us_hre_import_2025",
+        "label": "Heavy rare-earth compounds/metals imports",
+        "value": 100,
+        "unit": "metric tonnes; USGS REO-equivalent/content estimate",
+        "period": "2025 calendar year",
+        "geography": "United States",
+        "stage": "trade/compounds-and-metals",
+        "form": "Tb/Dy/Ho/Er/Tm/Yb/Lu aggregate; excludes Y",
+        "scope": "Country aggregate; individual elements and factories unallocated",
+        "status": "observed estimate",
+        "source_ids": [
+          "USGS_HRE_2026"
+        ],
+        "notes": [
+          "Shipping-record estimate; exact national element quantities and quantitative exports unavailable. Do not add to the grouped rare-earth import totals.",
+          "No element-specific assay or factory allocation is established."
+        ]
+      }
+    ],
+    "ledger_example": {
+      "id": "illustrative_no_company_or_country",
+      "evidence_kind": "illustrative_scenario",
+      "boundary": {
+        "geography": "Hypothetical region",
+        "period": "one illustrative accounting year",
+        "stage": "magnet-making boundary; external feed once, internal processing excluded",
+        "mass_basis": "contained-element mass in metal/alloy feed and magnets",
+        "unit": "metric tonnes",
+        "includes_in_transit_by_control": true
+      },
+      "disclaimer_en": "Invented numbers solely to explain accounting. No actual plant, national flow, grade recommendation or universal recipe.",
+      "disclaimer_zh": "纯演示情景；不代表任何工厂、国家、牌号或通用配方。",
+      "composition_assumption": {
+        "Nd": 0.25,
+        "Pr": 0.05,
+        "Dy": 0.01,
+        "Tb": 0.002,
+        "Fe": 0.678,
+        "B": 0.01
+      },
+      "composition_note": "Illustrative assayed metal/alloy mixture. Same element fractions assumed for each flow and stock solely to make the example transparent; actual yields/recipes/losses are element-specific.",
+      "flows_tonnes": {
+        "opening_stock": 10,
+        "primary_external_virgin_feed": 60,
+        "recycled_external_feed": 10,
+        "imports": 20,
+        "exports": 10,
+        "delivered_use": 80,
+        "unrecoverable_loss": 2,
+        "closing_stock": 8
+      },
+      "closing_stock_components_tonnes": {
+        "finished_or_raw_stock": 5,
+        "process_WIP": 3
+      },
+      "opening_stock_components_tonnes": {
+        "finished_or_raw_stock": 7,
+        "process_WIP": 3
+      },
+      "element_ledgers": {
+        "Nd": {
+          "opening_stock": 2.5,
+          "primary_external_virgin_feed": 15.0,
+          "recycled_external_feed": 2.5,
+          "imports": 5.0,
+          "exports": 2.5,
+          "delivered_use": 20.0,
+          "unrecoverable_loss": 0.5,
+          "closing_stock": 2.0
+        },
+        "Pr": {
+          "opening_stock": 0.5,
+          "primary_external_virgin_feed": 3.0,
+          "recycled_external_feed": 0.5,
+          "imports": 1.0,
+          "exports": 0.5,
+          "delivered_use": 4.0,
+          "unrecoverable_loss": 0.1,
+          "closing_stock": 0.4
+        },
+        "Dy": {
+          "opening_stock": 0.1,
+          "primary_external_virgin_feed": 0.6,
+          "recycled_external_feed": 0.1,
+          "imports": 0.2,
+          "exports": 0.1,
+          "delivered_use": 0.8,
+          "unrecoverable_loss": 0.02,
+          "closing_stock": 0.08
+        },
+        "Tb": {
+          "opening_stock": 0.02,
+          "primary_external_virgin_feed": 0.12,
+          "recycled_external_feed": 0.02,
+          "imports": 0.04,
+          "exports": 0.02,
+          "delivered_use": 0.16,
+          "unrecoverable_loss": 0.004,
+          "closing_stock": 0.016
+        },
+        "Fe": {
+          "opening_stock": 6.78,
+          "primary_external_virgin_feed": 40.68,
+          "recycled_external_feed": 6.78,
+          "imports": 13.56,
+          "exports": 6.78,
+          "delivered_use": 54.24,
+          "unrecoverable_loss": 1.356,
+          "closing_stock": 5.424
+        },
+        "B": {
+          "opening_stock": 0.1,
+          "primary_external_virgin_feed": 0.6,
+          "recycled_external_feed": 0.1,
+          "imports": 0.2,
+          "exports": 0.1,
+          "delivered_use": 0.8,
+          "unrecoverable_loss": 0.02,
+          "closing_stock": 0.08
+        }
+      },
+      "net_imports_tonnes": 10,
+      "stock_change_tonnes": -2,
+      "gross_current_period_inflows_tonnes": 90,
+      "available_mass_denominator_tonnes": 100,
+      "percent_denominator": "opening stock + external primary + external recycled + imports = 100 t",
+      "inflow_percent": {
+        "opening_stock": 10,
+        "primary_external_virgin_feed": 60,
+        "recycled_external_feed": 10,
+        "imports": 20
+      },
+      "outflow_and_retention_percent": {
+        "exports": 10,
+        "delivered_use": 80,
+        "unrecoverable_loss": 2,
+        "closing_stock": 8
+      },
+      "flow_inflow_net_inflow_outflow": {
+        "gross_inflow_excludes_opening_stock": 90,
+        "net_inflow_definition": "external primary + external recycled + imports − exports",
+        "net_inflow_tonnes": 80,
+        "net_imports_definition": "imports − exports",
+        "net_imports_tonnes": 10,
+        "outflow_definition": "exports + delivered use + loss",
+        "outflow_tonnes": 92,
+        "stock_change_equals_net_inflow_minus_use_minus_loss": -2
+      }
+    },
+    "identity": "opening_stock + primary_external + recycled_external + imports = exports + delivered_use + unrecoverable_loss + closing_stock",
+    "accounting_rules": [
+      "Choose a conserved element basis for chemical transformations; oxide gross mass changes when oxygen is removed. A product-mass balance is valid only inside a fixed product/form boundary or with all reactants/byproducts explicitly included.",
+      "Domestic stage production is an internal transfer when all stages are inside the chosen boundary. Add it only at the entry boundary, never again at separation, metal, alloy and magnet stages.",
+      "Primary/recycled terms are external arrivals at the selected plant/system. Internal scrap recirculation is an internal loop and cancels in the whole-system balance. Imported recycled feed belongs to imports with recycled-origin metadata, not both import and recycled terms.",
+      "Opening and closing stocks include raw feed, process WIP, goods, and in-transit material consistently. Specify ownership/control transfer once, retain shipment date and receipt date, and do not equate same-year production with delivery.",
+      "An output from stage A may arrive in B later; WIP/in-transit stock bridges periods. Revenue recognition is not a physical-flow timestamp.",
+      "Exports and final delivery/use are disjoint boundary exits. A sold magnet is not counted again as delivered motor, vehicle, installed robot and in-use magnet within the same mass boundary.",
+      "Keep loss, external recycling, and retained/recoverable scrap distinct. Count elemental carrier Fe from DyFe and FeB once in the complete assay, and deduct it from any separately specified pure-Fe input.",
+      "NdPr oxide mass requires its Nd/Pr composition and exact oxide convention for individual metal conversion. Do not assign a universal 75/25 mix or apply a universal grade recipe.",
+      "Stoichiometric conversion requires exact formula, dry/wet basis, and purity/assay interpretation. An assay quoted relative to total rare-earth content differs from whole-product purity. Certificates of analysis take precedence.",
+      "If any required term is unknown, report balance residual/unallocated as unknown. Do not invent missing amounts or force a 100% closure. Null is not zero.",
+      "Net imports = same-boundary imports minus exports; net inflow must state which external feeds and exits are included. Percent denominator must be explicit, nonzero, and common to every term.",
+      "Capacity is a rate, actual production is an amount over a period. Planned/nameplate rates do not enter actual material balances."
+    ],
+    "world_mining": {
+      "year": 2025,
+      "unit": "tonnes REO-equivalent/content",
+      "denominator_tonnes": 390000,
+      "source_ids": [
+        "USGS_RE_2026"
+      ],
+      "status": "Reported country estimates; rounded world total",
+      "records": [
+        {
+          "id": "mine_2025_united_states",
+          "label_en": "United States mine production",
+          "value": 51000,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "United States",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_australia",
+          "label_en": "Australia mine production",
+          "value": 29000,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Australia",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_brazil",
+          "label_en": "Brazil mine production",
+          "value": 2000,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Brazil",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_burma",
+          "label_en": "Burma mine production",
+          "value": 22000,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Burma",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "China-import-based estimate"
+        },
+        {
+          "id": "mine_2025_canada",
+          "label_en": "Canada mine production",
+          "value": 0,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Canada",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_china",
+          "label_en": "China mine production",
+          "value": 270000,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "China",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_greenland",
+          "label_en": "Greenland mine production",
+          "value": 0,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Greenland",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_india",
+          "label_en": "India mine production",
+          "value": 2900,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "India",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_madagascar",
+          "label_en": "Madagascar mine production",
+          "value": 2700,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Madagascar",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "China-import-based estimate"
+        },
+        {
+          "id": "mine_2025_malaysia",
+          "label_en": "Malaysia mine production",
+          "value": 110,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Malaysia",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "China-import-based estimate"
+        },
+        {
+          "id": "mine_2025_nigeria",
+          "label_en": "Nigeria mine production",
+          "value": 1500,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Nigeria",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_russia",
+          "label_en": "Russia mine production",
+          "value": 2600,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Russia",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_south_africa",
+          "label_en": "South Africa mine production",
+          "value": 0,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "South Africa",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_tanzania",
+          "label_en": "Tanzania mine production",
+          "value": 0,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Tanzania",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        },
+        {
+          "id": "mine_2025_thailand",
+          "label_en": "Thailand mine production",
+          "value": 4800,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Thailand",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "China-import-based estimate"
+        },
+        {
+          "id": "mine_2025_vietnam",
+          "label_en": "Vietnam mine production",
+          "value": 150,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "country",
+            "country": "Vietnam",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "China-import-based estimate"
+        },
+        {
+          "id": "mine_2025_other",
+          "label_en": "Other mine production",
+          "value": 550,
+          "native_unit": "metric tonnes REO equivalent",
+          "period": "2025 calendar year",
+          "year": 2025,
+          "quarter": null,
+          "time_basis": "statistical_period",
+          "scope": {
+            "kind": "reported_country_group",
+            "country": "Other",
+            "site_id": null,
+            "company_id": null
+          },
+          "stage": "mining/concentration",
+          "product_form": "mixed mineral production, aggregate REO",
+          "quantity_status": "observed_estimate",
+          "source_id": "USGS_RE_2026",
+          "source_date": "2026-02-06",
+          "checked_at": "2026-10-07",
+          "element_mass": null,
+          "mass_balance_join_allowed": false,
+          "missing_fields": [
+            "Nd/Pr/Dy/Tb split",
+            "Fe/B production",
+            "mine/customer allocation"
+          ],
+          "estimate_flag": true,
+          "estimate_method": "USGS country production estimate"
+        }
+      ],
+      "note": "Country rows sum to 389,310 tonnes against a rounded world total of 390,000. The 690-tonne difference is rounding, not an invented producing country. REO is not NdPr, Dy, Tb or finished-magnet mass."
+    }
+  }
+}

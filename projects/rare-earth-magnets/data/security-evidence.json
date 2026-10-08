@@ -1,0 +1,944 @@
+{
+  "as_of": "2026-10-07",
+  "policy_current_state": {
+    "as_of": "2026-10-07",
+    "april_2025": {
+      "status": "licensing remains operative; not a blanket ban",
+      "scope": "Sm/Gd/Tb/Dy/Lu/Sc/Y products; Dy/Tb-containing NdFeB magnets or powder. Nd/Pr are not independently named in Announcement 18.",
+      "sources": [
+        "MOFCOM_18",
+        "MOFCOM_APR26"
+      ]
+    },
+    "october_2025": {
+      "status": "suspended; political extension announced",
+      "numbered_notice_end": "2026-11-10",
+      "political_arrangement_end": "2027-01-10",
+      "interpretation": "September 28 statement extends the Kuala Lumpur arrangement covering suspended tariff and non-tariff measures but does not separately name rare-earth notices. No amended numbered suspension text located as of check. Show both documentary states; do not claim October controls are currently fully enforced or that April licensing was repealed.",
+      "sources": [
+        "MOFCOM_70",
+        "MOFCOM_SEP26",
+        "MOFCOM_INDEX26"
+      ]
+    },
+    "us_defense": {
+      "status": "current alloy/magnet production origin restrictions, broader mined/refined/separated origin requirement effective 2027-01-01, subject to exceptions",
+      "sources": [
+        "DFARS_RULE",
+        "DFARS_EX"
+      ]
+    },
+    "remaining_uncertainty": "Exact administrative implementation of September extension against numbered October notices needs a later MOFCOM notice or procurement counsel interpretation for a transaction; not a reason to hold the public map.",
+    "named_us_entities": {
+      "status": "June 22 No. 23 effective text; later removal/suspension not located in bounded primary-source search",
+      "scope": "MP Materials and USA Rare Earth are explicitly named; dual-use products and Chinese-origin dual-use third-country transfers subject to ban, special-case application available.",
+      "search_cutoff": "2026-10-07",
+      "search_details": "MOFCOM 2026 announcement index and exact notice/entity Chinese/English keyword searches for suspension/removal; absence of located amendment is not absolute proof of no change.",
+      "sources": [
+        "MOFCOM_ENTITY23",
+        "MOFCOM_INDEX26"
+      ]
+    }
+  },
+  "policy_events": [
+    {
+      "date": "2010-07",
+      "event": "China reduced second-half REE export quota 70% versus H2 2009; full 2010 quota 37.1% below 2009.",
+      "status": "historical effective quota",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "scope": "aggregate rare-earth export quota, not per-element allotment",
+      "driver": "USGS historical reported restriction associated with price shock; do not assign entire price change to quota causally.",
+      "sources": [
+        "USGS_HISTORY"
+      ]
+    },
+    {
+      "date": "2011",
+      "event": "Major rare-earth price spike followed by subsequent declines; 2010/11 controls and tight supply are historical price-story anchors.",
+      "status": "historical observed episode",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "driver": "IEA reported market episode; ingredient price agent supplies annual or market-specific series.",
+      "sources": [
+        "IEA_RE_PDF"
+      ]
+    },
+    {
+      "date": "2014-08-29",
+      "event": "WTO adopted appellate/panel reports in DS431 concerning China's REE export restrictions.",
+      "status": "historical decision",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "WTO_DS431"
+      ]
+    },
+    {
+      "date": "2015-05-20",
+      "event": "China notified WTO DSB of removal of export quotas, export duties and trading-right restrictions; U.S. questioned complete compliance.",
+      "status": "reported implementation at DSB",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "WTO_DS431"
+      ]
+    },
+    {
+      "date": "2022",
+      "event": "Another price spike under tight supply conditions.",
+      "status": "historical observed episode",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "driver": "IEA assessment; no single-event causal claim supplied.",
+      "sources": [
+        "IEA_RE_PDF"
+      ]
+    },
+    {
+      "date": "2023-12-21",
+      "event": "Technology catalogue made specified REE extraction/separation, metal/alloy and magnet preparation technologies prohibited exports, with other REE mining/beneficiation/smelting/extractant technologies restricted.",
+      "status": "effective baseline technology regime; July 2025 partial amendment is separate",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "TECH23",
+        "TECH25"
+      ]
+    },
+    {
+      "date": "2024-Q4",
+      "event": "Kachin border closures disrupted Myanmar raw-material routes into China; gradual reopening in 2025.",
+      "status": "reported regional event",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "driver": "IEA reported governance/supply disruption; combined heavy magnet-REE basis, not separate Dy/Tb volumes.",
+      "sources": [
+        "IEA_RE_PDF"
+      ]
+    },
+    {
+      "date": "2025-04-04",
+      "event": "Announcement 18 immediately instituted licenses for listed medium/heavy REE metals, alloys, oxides, compounds and related products, including Dy/Tb-containing NdFeB materials.",
+      "status": "effective licensing; still separate from later suspension",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "MOFCOM_18"
+      ]
+    },
+    {
+      "date": "2025-10-09",
+      "event": "Announcements 57/61/62 expanded element products, some foreign-made/re-export product reach, and technology/personnel-related licensing; No61's foreign-made value/technology provisions were dated to start Dec1, other parts immediate.",
+      "status": "announced/partly initially effective; subsequently suspended",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "MOFCOM_57",
+        "MOFCOM_61",
+        "MOFCOM_62"
+      ]
+    },
+    {
+      "date": "2025-11-07",
+      "event": "Announcement70 immediately suspended Nos55,56,57,58,61,62 through Nov10 2026; No18 absent from suspension list.",
+      "status": "effective suspension, numbered text still displays this date",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "MOFCOM_70"
+      ]
+    },
+    {
+      "date": "2026-01-06",
+      "event": "All dual-use exports prohibited to Japanese military users, military uses and other end uses enhancing Japan's military capability; Chinese-origin third-country transfers also covered.",
+      "status": "effective end-user/end-use restriction; not a blanket civilian Japan ban",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "MOFCOM_JAPAN"
+      ]
+    },
+    {
+      "date": "2026-06-22",
+      "event": "MOFCOM Announcement 23 adds ten U.S. entities including MP Materials and USA Rare Earth to export-control list.",
+      "status": "effective immediately; no later removal/suspension located in searched primary sources as of 2026-10-07",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "scope": "Ban on dual-use exports to named entities; third-country organizations/persons may not transfer/provide Chinese-origin dual-use items to them. Special-case application provision. Not a blanket embargo on every rare-earth product.",
+      "driver": "Separate named-end-user restriction, not covered simply by October 2025 expansion's suspension.",
+      "sources": [
+        "MOFCOM_ENTITY23",
+        "MOFCOM_INDEX26"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "event": "White House says rare-earth/critical-mineral supply shortages remain under discussion with objective of restoring appropriate shipment levels.",
+      "status": "summit statement, not repeal or shipment guarantee",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "WH_SEP26"
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "event": "MOFCOM announced extension of Kuala Lumpur joint arrangement to Jan10 2027; rare-earth notices not individually named.",
+      "status": "political extension; numbered-notice implementation evidence gap",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "sources": [
+        "MOFCOM_SEP26"
+      ]
+    },
+    {
+      "date": "2027-01-01",
+      "event": "DFARS magnet restriction extends to mined/refined/separated stages; NdFeB chain described from Nd/Fe/B mining through finished magnets. Specified exceptions/waivers remain.",
+      "status": "enacted future effective date as of Oct7; defence procurement scope",
+      "ingredients": [
+        "NdPr"
+      ],
+      "sources": [
+        "DFARS_RULE",
+        "DFARS_EX"
+      ]
+    }
+  ],
+  "metrics": [
+    {
+      "id": "china_chain_share2024",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "measure": "China share of global magnet-REE chain",
+      "period": "2024",
+      "values": {
+        "mined": 60,
+        "refined": 91,
+        "sintered_magnets": 94
+      },
+      "unit": "percent",
+      "status": "IEA observed estimate",
+      "basis": "Only magnet REEs Nd,Pr,Dy,Tb; magnet output share is a different product measure.",
+      "sources": [
+        "IEA_RE_SUM"
+      ]
+    },
+    {
+      "id": "myanmar_heavy2024",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "measure": "Myanmar share of combined mined Dy+Tb",
+      "period": "2024",
+      "value": ">40",
+      "unit": "percent",
+      "status": "IEA estimated regional production; informal/underreported",
+      "basis": "Combined Dy+Tb; do not apply share separately to each element.",
+      "sources": [
+        "IEA_RE_PDF"
+      ]
+    },
+    {
+      "id": "demand_growth",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "measure": "combined magnet-REE demand",
+      "period": "2015 to report baseline (2024)",
+      "value": 2,
+      "unit": "growth factor",
+      "status": "IEA observed estimate",
+      "basis": "Combined Nd,Pr,Dy,Tb; application drivers EVs,wind,industrial motors and other electronics/automation.",
+      "sources": [
+        "IEA_RE_SUM"
+      ]
+    },
+    {
+      "id": "demand2030",
+      "ingredients": [
+        "NdPr",
+        "Dy",
+        "Tb"
+      ],
+      "measure": "combined magnet-REE demand",
+      "period": "baseline to2030",
+      "value": "about one-third",
+      "unit": "growth",
+      "status": "IEA scenario STEPS/today's policy settings",
+      "basis": "Not an element-specific shortage forecast or realized demand.",
+      "sources": [
+        "IEA_RE_SUM"
+      ]
+    },
+    {
+      "id": "us_aggregate_ree",
+      "ingredients": [],
+      "measure": "U.S. REE mineral concentrate production; compound/metal production; apparent compound/metal consumption",
+      "period": "2025 estimated",
+      "values": {
+        "concentrates": 51000,
+        "compounds_metals_production": 8900,
+        "apparent_compounds_metals_consumption": 27000,
+        "net_import_reliance_percent": 67
+      },
+      "unit": "metric tonnes REO equivalent, except percent",
+      "status": "USGS estimated aggregate/proxy context",
+      "basis": "All reported REE group, excludes significant embedded finished-goods imports; measures should not be summed or assigned to Nd/Dy/Tb.",
+      "sources": [
+        "USGS_RE"
+      ]
+    },
+    {
+      "id": "us_tb_origin",
+      "ingredients": [
+        "Tb"
+      ],
+      "measure": "China share of U.S. Tb compounds/metals import origin",
+      "period": "2021-2024",
+      "value": 100,
+      "unit": "percent",
+      "status": "USGS shipping-record estimate",
+      "basis": "No individual heavy-REE trade codes; no mine provenance; not all embedded Tb imports.",
+      "sources": [
+        "USGS_HRE"
+      ]
+    },
+    {
+      "id": "us_hree_import",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "measure": "heavy-REE group net import reliance",
+      "period": "2025 estimated",
+      "value": 100,
+      "unit": "percent",
+      "status": "USGS aggregate context",
+      "basis": "Tb,Dy,Ho,Er,Tm,Yb,Lu group; not an individual Dy formula; 2025 no sustained commercial U.S. HREE compound/metal production.",
+      "sources": [
+        "USGS_HRE"
+      ]
+    },
+    {
+      "id": "hree_price_segmentation",
+      "ingredients": [
+        "Dy",
+        "Tb"
+      ],
+      "measure": "European vs Chinese domestic HREE prices",
+      "period": "IEA Jan2023-Apr2026 published assessment",
+      "value": "around five",
+      "unit": "ratio",
+      "status": "published IEA market assessment using commercial sources",
+      "basis": "Regional market/form comparison only; not Oct7 live quote or free reproducible daily series.",
+      "sources": [
+        "IEA_GCM26"
+      ]
+    }
+  ],
+  "security_decision_frame": {
+    "objective": "Maintain specified U.S. qualified service deliveries during a specified disruption under fixed budget B.",
+    "required_inputs": [
+      "Agency/end-use and service level",
+      "Planning horizon and disruption duration",
+      "Required magnet grade/shape/qualification and allowable substitutions",
+      "Accessible oxide/metal/alloy/magnet inventories and conversion rates/yields",
+      "Source-correlated policy/logistics risks",
+      "Stage-specific incremental capex/opex, qualification cost and lead time"
+    ],
+    "options": [
+      {
+        "option": "Alternative mine/feedstock",
+        "benefit": "Adds primary feed after permitting/ramp-up and can improve geographic diversity.",
+        "tradeoff": "Feed element distribution and separation compatibility matter; mine investment can help where feed constrains future qualified delivery.",
+        "status": "Mechanism/hypothesis to model, not blanket ranking"
+      },
+      {
+        "option": "Separation plus metal/alloy plus magnet/qualification",
+        "benefit": "Converts accessible feed into usable end products.",
+        "tradeoff": "Must cost the complete required path and trace readiness/customer acceptance. Downstream bottleneck alone does not prove mine spending never helps.",
+        "status": "Mechanism supported by observed multi-stage projects"
+      },
+      {
+        "option": "Inventory",
+        "benefit": "Potential near-term bridge for short disruptions.",
+        "tradeoff": "An oxide stock cannot immediately satisfy a finished-part shortage without conversion and qualification. Compare oxide, metal, alloy, unfinished-magnet and qualified-part inventories, their carrying costs, and their interchangeability.",
+        "status": "Form-specific mechanism; quantities not established"
+      },
+      {
+        "option": "Recycling",
+        "benefit": "Swarf routes demonstrate early feed recovery; end-of-life access may grow later.",
+        "tradeoff": "Collection, composition, recovery yield, conversion and qualification constrain available service; distinguish oxide recovery from direct magnet recycling.",
+        "status": "Demonstrated technical routes; national impact unquantified"
+      },
+      {
+        "option": "Redesign/substitution",
+        "benefit": "Can reduce HREE intensity or magnet dependence.",
+        "tradeoff": "Application performance, thermal envelope, size/weight and customer requalification determine feasibility/time.",
+        "status": "Candidate options, no assumed universal drop-in replacement"
+      }
+    ],
+    "ranking": "No national intervention ranking or shortage forecast: B, horizon and service requirements are not supplied."
+  },
+  "sources": [
+    {
+      "id": "MP_SITE",
+      "title": "MP Materials Magnetics",
+      "url": "https://www.mpmaterials.com/magnetics",
+      "date": "2026-10-07",
+      "type": "company operating description",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MP_Q2",
+      "title": "MP Materials Q2 2026 results",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2026/MP-Materials-Reports-Second-Quarter-2026-Results/default.aspx",
+      "date": "2026-08-06",
+      "type": "company quarterly report",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MP_2025",
+      "title": "MP restores U.S. magnet production",
+      "url": "https://investors.mpmaterials.com/investor-news/news-details/2025/MP-Materials-Restores-U.S.-Rare-Earth-Magnet-Production/default.aspx",
+      "date": "2025-01-22",
+      "type": "company production announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_AR",
+      "title": "Lynas 2026 Annual Report",
+      "url": "https://cdn.financialreports.eu/financialreports/media/filings/65277/2026/RNS/65277_rns_2026-08-25_10795ee5-2a08-47d4-8bc6-e43e37c5949b.pdf",
+      "date": "2026-08-26",
+      "type": "original company report, publicly mirrored",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_US",
+      "title": "Lynas U.S. oxide supply binding LOI",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03068512.pdf",
+      "date": "2026-03-16",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_NOVEON",
+      "title": "Lynas/Noveon non-binding MoU",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03005309.pdf",
+      "date": "2025-10-08",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_LS",
+      "title": "Lynas/LS Eco Energy framework agreement",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03072369.pdf",
+      "date": "2026-03-26",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LYNAS_JS",
+      "title": "Lynas/JS Link partnership",
+      "url": "https://wcsecure.weblink.com.au/pdf/LYC/03108378.pdf",
+      "date": "2026-07-07",
+      "type": "company ASX announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_SV",
+      "title": "USA Rare Earth/Serra Verde combination completed",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-completes-combination-serra-verde-group",
+      "date": "2026-09-04",
+      "type": "company closing announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_Q2",
+      "title": "USA Rare Earth Q2 2026 results",
+      "url": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000056/exhibit991-earningsrelease.htm",
+      "date": "2026-08-10",
+      "type": "SEC-filed company results",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_STILLWATER",
+      "title": "USA Rare Earth Stillwater commissioning",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-achieves-major-operational-and-strategic",
+      "date": "2026-03-26",
+      "type": "company commissioning announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_PILOT",
+      "title": "Energy Fuels first terbium oxide",
+      "url": "https://investors.energyfuels.com/2026-03-25-Energy-Fuels-Announces-First-U-S-Primary-Production-of-Critical-Heavy-Rare-Earth-Material-in-Decades",
+      "date": "2026-03-25",
+      "type": "company pilot-production announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_QUAL",
+      "title": "Energy Fuels oxide qualification in Japan",
+      "url": "https://investors.energyfuels.com/2026-08-19-Heavy-Rare-Earths-Produced-by-Energy-Fuels-Qualified-for-Use-by-Largest-Permanent-Magnet-Manufacturer-in-Japan",
+      "date": "2026-08-19",
+      "type": "company customer-qualification announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_ASM",
+      "title": "Energy Fuels closes ASM acquisition",
+      "url": "https://investors.energyfuels.com/2026-08-28-Energy-Fuels-Completes-Acquisition-of-Australian-Strategic-Materials",
+      "date": "2026-08-28",
+      "type": "company closing announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_PDF",
+      "title": "Rare Earth Elements 2026 report",
+      "url": "https://iea.blob.core.windows.net/assets/88d2b060-4c5b-46cc-8727-c60576cb937d/RareearthelementsPathwaystosecureanddiversifiedsupplychains.pdf",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_RE_SUM",
+      "title": "Rare Earth Elements 2026 executive summary",
+      "url": "https://www.iea.org/reports/rare-earth-elements/executive-summary",
+      "date": "2026-04-08",
+      "type": "IEA public assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "LCM_METAL",
+      "title": "LCM metal-making capabilities",
+      "url": "https://lesscommonmetals.com/metalmaking/",
+      "date": "2026-10-07",
+      "type": "company technical operating description",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "NOVEON_SOLVAY",
+      "title": "Noveon/Solvay oxide supply agreement",
+      "url": "https://noveon.co/noveon-solvay-partnership",
+      "date": "2025-11-12",
+      "type": "company executed agreement announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_Q2",
+      "title": "Solvay Q2 2026",
+      "url": "https://www.solvay.com/en/press-release/solvay-second-quarter-2026-results",
+      "date": "2026-Q2 publication",
+      "type": "company quarterly results",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_Q3_2025",
+      "title": "Solvay Q3 2025 management transcript",
+      "url": "https://www.solvay.com/sites/g/files/srpend616/files/2025-11/2025Q3%20Transcript%20with%20Q%26A%20for%20Webpage.pdf",
+      "date": "2025-11",
+      "type": "company transcript",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "SOLVAY_VIRIDIS",
+      "title": "Solvay/Viridis LOI",
+      "url": "https://www.solvay.com/en/press-release/solvay-and-viridis-sign-letter-intent-loi-rare-earth-materials-sourcing",
+      "date": "2026; exact date not exposed in read page",
+      "type": "company LOI announcement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "ASM_SALES",
+      "title": "ASM Korean Metals Plant sales and sample delivery",
+      "url": "https://announcements.asx.com.au/asxpdf/20250616/pdf/06ks64kc2r0j8g.pdf",
+      "date": "2025-06-16",
+      "type": "company ASX presentation",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "NORTHERN_AR",
+      "title": "China Northern Rare Earth 2025 Annual Report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-04-18/1225118607.PDF",
+      "date": "2026-04-18",
+      "type": "company annual filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_RE",
+      "title": "USGS Mineral Commodity Summaries 2026: Rare Earths (version 1.2)",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths_ver.1.2.pdf",
+      "date": "2026-02",
+      "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_HRE",
+      "title": "USGS Mineral Commodity Summaries 2026: Heavy Rare Earths",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+      "date": "2026-02",
+      "type": "USGS; public primary text indexed; direct PDF fetch returned 403",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_18",
+      "title": "April 2025 rare-earth export licensing controls",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2025/art/2025/art_5e663d0bfec7452dabd950d0f0e42153.html",
+      "date": "2025-04-04",
+      "type": "government operative text",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_61",
+      "title": "Foreign-made/re-export rare-earth licensing extension",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2025/art/2025/art_e2587592fd774f23a62925ee51641071.html",
+      "date": "2025-10-09",
+      "type": "government text, subsequently suspended",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_62",
+      "title": "Rare-earth technology licensing extension",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2025/art/2025/art_04a2df12aa7c4529be797fd70eaf0dc8.html",
+      "date": "2025-10-09",
+      "type": "government text, subsequently suspended",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_57",
+      "title": "Additional medium/heavy rare-earth product controls",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2025/art/2025/art_9510f263c3c246d8936fbfa684a58ca8.html",
+      "date": "2025-10-09",
+      "type": "government text, subsequently suspended",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_70",
+      "title": "Suspension of six October 2025 measures",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2025/art/2025/art_da147202d0934ddebe252772e95ed7b3.html",
+      "date": "2025-11-07",
+      "type": "government operative suspension text",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_SEP26",
+      "title": "September 2026 extension of Kuala Lumpur arrangement",
+      "url": "https://www.mofcom.gov.cn/xwfb/sjfzrfb/art/2026/art_cd060e0649964da8ae13216c3bb1a645.html",
+      "date": "2026-09-28",
+      "type": "government political arrangement interpretation",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "WH_SEP26",
+      "title": "September 2026 U.S.-China summit fact sheet",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+      "date": "2026-09-25",
+      "type": "government summit statement",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_JAPAN",
+      "title": "Japan military end-use export prohibition",
+      "url": "https://exportcontrol.mofcom.gov.cn/article/zcfg/gnzcfg/zcfggzqd/202601/1206.html",
+      "date": "2026-01-06",
+      "type": "government operative text",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_APR26",
+      "title": "Current civilian licence process confirmation",
+      "url": "https://www.mofcom.gov.cn/xwfbzt/2026/swbzklxxwfbh2026n4y9r/index.html",
+      "date": "2026-04-09",
+      "type": "government press conference",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_INDEX26",
+      "title": "Current 2026 numbered announcement index",
+      "url": "https://www.mofcom.gov.cn/zcfb/blgg/gg/2026/index.html",
+      "date": "2026-10-07",
+      "type": "government current index",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "DFARS_RULE",
+      "title": "DFARS magnet origin restrictions",
+      "url": "https://www.acquisition.gov/node/35509/printable/print",
+      "date": "2026-10-07",
+      "type": "current official procurement regulation",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "DFARS_EX",
+      "title": "DFARS magnet origin restriction exceptions",
+      "url": "https://www.acquisition.gov/node/35510/printable/print",
+      "date": "2026-10-07",
+      "type": "current official procurement regulation",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "TECH23",
+      "title": "China prohibited/restricted technology catalogue",
+      "url": "https://www.mofcom.gov.cn/cms_files/oldfile//fms/202312/20231221153855374.pdf",
+      "date": "2023-12-21",
+      "type": "government catalogue",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "TECH25",
+      "title": "July 2025 partial amendment to technology catalogue",
+      "url": "https://fms.mofcom.gov.cn/zcfg/jsjckzcfg/art/2025/art_ba35a101c22c4f6e844f749cb0a98552.html",
+      "date": "2025-07-15",
+      "type": "government amendment; primary indexed text accessible, open timed out",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_HISTORY",
+      "title": "USGS The Principal Rare Earth Elements Deposits of the United States",
+      "url": "https://pubs.usgs.gov/sir/2012/5188/sir2012-5188.pdf",
+      "date": "2012",
+      "type": "USGS historical assessment",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "WTO_DS431",
+      "title": "WTO China rare-earth export restrictions dispute",
+      "url": "https://www.wto.org/english/tratop_e/dispu_e/cases_e/ds431_e.htm",
+      "date": "2015",
+      "type": "WTO official case record; indexed text accessible, open failed",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_GCM26",
+      "title": "Global Critical Minerals Outlook 2026 executive summary",
+      "url": "https://www.iea.org/reports/global-critical-minerals-outlook-2026/executive-summary",
+      "date": "2026-07-16",
+      "type": "IEA public assessment with commercial-data-derived published charts",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "MOFCOM_ENTITY23",
+      "title": "MOFCOM Announcement 2026 No. 23: ten U.S. entities in export-control list",
+      "url": "https://www.mofcom.gov.cn/zwgk/zcfb/art/2026/art_dfa9cc5c1e004d7fbb86f83d249e7986.html",
+      "date": "2026-06-22",
+      "type": "government operative notice",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "IEA_INVEST_CHART",
+      "title": "IEA investment requirements to 2035 in magnet-REE supply chains",
+      "url": "https://www.iea.org/data-and-statistics/charts/investment-requirements-to-2035-in-magnet-rare-earth-supply-chains-to-meet-projected-demand-in-diversified-regions",
+      "date": "2026-04-08",
+      "type": "official scenario chart",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_BLACKSBURG",
+      "title": "USA Rare Earth breaks ground on Blacksburg metal and magnet campus",
+      "url": "https://investors.usare.com/news-releases/news-release-details/usa-rare-earth-breaks-ground-advanced-rare-earth-metal-and",
+      "date": "2026-09-09",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_10Q26Q2",
+      "title": "USA Rare Earth Q2 2026 Form10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1970622/000197062226000057/usar-20260630.htm",
+      "date": "2026-08-10",
+      "type": "SEC filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_ROUNDTOP_GRANT",
+      "title": "USA Rare Earth Round Top grant and expected investment",
+      "url": "https://investors.usare.com/node/8886/pdf",
+      "date": "2026-05-12",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_10Q26Q2",
+      "title": "Energy Fuels Q2 2026 Form10-Q",
+      "url": "https://www.sec.gov/Archives/edgar/data/1385849/000138584926000029/efr-20260630.htm",
+      "date": "2026-08-05",
+      "type": "SEC filing",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_HRE_BUILD",
+      "title": "Commercial-scale heavy-REE plant under construction at White Mesa",
+      "url": "https://investors.energyfuels.com/2026-07-29-Commercial-Scale-Heavy-Rare-Earth-Plant-Now-Under-Construction-in-Utah",
+      "date": "2026-07-29",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_PHASE2_BFS",
+      "title": "White Mesa Phase2 BFS results",
+      "url": "https://investors.energyfuels.com/2026-01-15-Energy-Fuels-U-S-Rare-Earth-Processing-Expansion-Boasts-Lower-Than-Expected-CAPEX%2C-Significant-Annual-EBITDA%2C-and-Among-the-Lowest-Cost-NdPr-Production-in-the-World?submitted=1",
+      "date": "2026-01-15",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_VARA_FS",
+      "title": "Vara Mada updated feasibility study results",
+      "url": "https://investors.energyfuels.com/2026-01-08-Energy-Fuels-Announces-Updated-Feasibility-Study-for-Toliara-Rare-Earth-and-HMS-Project-in-Madagascar-Confirming-World-Class-Scale-and-Economics%2C-Including-1-8-Billion-NPV-and-Ramping-Up-to-Over-500-Million-of-Expected-Annual-EBITDA?submitted=1",
+      "date": "2026-01-08",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "EF_VAC_DEAL",
+      "title": "Energy Fuels VAC proposed acquisition, capacity and financing terms",
+      "url": "https://investors.energyfuels.com/2026-06-23-Energy-Fuels-Announces-Definitive-Agreement-to-Acquire-VAC-for-1-9-Billion-Equity-Value",
+      "date": "2026-06-23",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USAR_SV_SPV",
+      "title": "USA Rare Earth announced Serra Verde SPV capitalization arrangements",
+      "url": "https://www.globenewswire.com/news-release/2026/08/24/3349611/0/en/usa-rare-earth-nasdaq-usar-announces-completion-of-upsized-1-55-billion-capitalization-of-the-u-s-government-backed-special-purpose-vehicle-spv-for-serra-verde-offtake.html",
+      "date": "2026-08-24",
+      "type": "company primary disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "USGS_CHINA",
+      "title": "USGS Minerals Yearbook country page: China, 2024 report",
+      "url": "https://www.usgs.gov/centers/national-minerals-information-center/china",
+      "date": "2026 publication; data year 2024",
+      "type": "government statistical synthesis",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "JLMAG_AR2025",
+      "title": "JL MAG Rare-Earth 2025 annual report",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032502302_c.pdf",
+      "date": "2026-03-25",
+      "type": "original producer annual report",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "JLMAG_H12026",
+      "title": "JL MAG Rare-Earth 2026 interim report",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-21/1225485582.PDF",
+      "date": "2026-08-21",
+      "type": "original producer interim report",
+      "access": "public",
+      "checked": "2026-10-07"
+    },
+    {
+      "id": "JLMAG_BAOTOU_CAPEX",
+      "title": "JL MAG Baotou 20,000 tonnes/year project investment announcement",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-01-20/1222380366.PDF",
+      "date": "2025-01-20",
+      "type": "original producer project disclosure",
+      "access": "public",
+      "checked": "2026-10-07"
+    }
+  ]
+}

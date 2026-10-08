@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>From ore to magnet — Rare Earth</title>
+  <meta name="description" content="Explore magnet ingredients, purchased alloys, physical mine locations, magnet grades and twenty years of sourced price benchmarks.">
+  <meta name="theme-color" content="#101614">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=20261007-4"><link rel="stylesheet" href="grades.css?v=20261007-8"><link rel="stylesheet" href="grade-comparison.css?v=20261007-4"><link rel="stylesheet" href="purchased-materials.css?v=20261007-2"><link rel="stylesheet" href="supply-paths.css"><link rel="stylesheet" href="market-evidence.css">
+  <script defer src="lib/d3.min.js"></script><script defer src="lib/topojson-client.min.js"></script>
+  <script defer src="lib/plotly-4.1.1.min.js"></script><script defer src="volume-evidence.js?v=20261007-1"></script><script defer src="grades.js?v=20261007-12"></script><script defer src="grade-comparison.js?v=20261007-4"></script><script defer src="purchased-materials.js?v=20261007-3"></script><script defer src="supply-paths.js"></script><script defer src="market-evidence.js"></script>
+<link rel="stylesheet" href="global-nav.css?v=20261007-1"><script defer src="global-nav.js?v=20261007-1"></script><link rel="stylesheet" href="application-connections.css?v=20261007-1"><link rel="stylesheet" href="volume-evidence.css?v=20261007-1"></head>
+<body class="materials-page">
+  <a class="skip-link" href="#material-picker">Skip to materials</a>
+  <header class="masthead"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>RARE EARTH<small>A MATERIAL OBSERVATORY</small></span></a><nav aria-label="Main navigation"><a data-nav-route="supply" href="grades.html?layer=facilities#origins">Supply chain</a><a data-nav-route="flows" href="flows.html">Flows &amp; balance</a><a data-nav-route="applications" href="grades.html?layer=applications&amp;application_country=United%20States#origins">Applications &amp; demand</a><a data-nav-route="future" href="future.html">Future research</a><a data-nav-route="knowledge" href="knowledge.html">Davis knowledge</a><a data-nav-route="process" href="process.html">Factory tour</a><a data-nav-route="chain" href="chain.html">Supply laboratory</a></nav></header>
+  <main>
+    <section class="material-intro section-wrap">
+      <div><p class="eyebrow">The materials field guide</p><h1>From ore <em>to magnet.</em></h1></div>
+      <p>Choose an ingredient. Follow its physical forms, find its origins, and see what it contributes to a machine that moves.</p>
+    </section>
+    <section class="material-workspace section-wrap" aria-label="Interactive material journey">
+      <div id="material-picker" class="element-picker" aria-label="Choose an ingredient"></div>
+      <div class="journey-layout">
+        <div class="physical-scene">
+          <div class="scene-top"><span class="micro-label">A PHYSICAL JOURNEY · EXPLANATORY ANIMATION</span><button id="motion-toggle" type="button" aria-pressed="true">Pause motion</button></div>
+          <svg id="journey-scene" viewBox="0 0 880 380" role="img" aria-labelledby="scene-title scene-desc">
+            <title id="scene-title">From mined resource to finished magnet</title><desc id="scene-desc">An illustrated sequence of mining, separation, purchased feedstocks, alloy making and finished magnets. Movement explains sequence, not measured flow volumes.</desc>
+            <text x="440" y="190" text-anchor="middle" fill="#c5a46b">Loading the material journey…</text>
+          </svg>
+          <div class="step-tabs" aria-label="Explore the physical journey"><button data-step="0">Mine</button><button data-step="1">Separate</button><button data-step="2">Feedstocks</button><button data-step="3">Make</button><button data-step="4">Use</button></div>
+          <div id="step-explanation" class="step-explanation" aria-live="polite"></div>
+        </div>
+        <aside id="ingredient-detail" class="ingredient-detail" aria-live="polite"></aside>
+      </div>
+      <div class="reading-note">This field guide explains real products. The separate supply experiment still models an aggregate Nd/Dy portfolio; it does not predict a grade from an alloy recipe.</div>
+    </section>
+
+    <section id="origins" class="section-wrap material-section">
+      <div class="material-heading"><div><p class="eyebrow">01 / Place, process & control</p><h2>Follow the material<br><em>between places.</em></h2></div><p>Explore extraction, separation, metal and master-alloy conversion, magnet making and U.S. connections. Select a place or an evidence path to see the product and the gaps. This is a documented sample, not a global facility census.</p></div>
+      <div class="map-controls"><div class="button-group" aria-label="Map scope"><button id="map-all" class="active" aria-pressed="true">All ingredients</button><button id="map-selected" aria-pressed="false">Guide ingredient</button><button id="map-us" aria-pressed="false">U.S. connections</button></div><label class="map-language">Map language<select id="map-language"><option value="en">English</option><option value="zh">中文</option></select></label></div>
+      <div class="map-layer-controls"><label><span data-map-text="layer">Map layer</span><select id="map-layer"><option value="facilities">Supply places & relationships</option><option value="reserves">Country reserves · total rare earths</option><option value="applications">Application plants · documented examples</option></select></label><p id="map-layer-note">Each layer answers a different question. Reserves are a geological stock; plant pins and supply relationships describe selected activities.</p></div>
+      <nav class="map-linked-navigation" aria-label="Explore the linked maps"><a id="map-supply-link" href="grades.html?layer=facilities#origins" data-map-text="supplyMap">Supply-chain map</a><span aria-hidden="true">↔</span><a id="map-application-link" href="grades.html?layer=applications#origins" data-map-text="applicationMap">Application map</a><a id="map-equipment-readiness-link" href="future.html?question=readiness#future-questions" data-map-text="equipmentReadiness">Equipment & readiness · Question B ↗</a><a class="map-us-applications" href="grades.html?layer=applications&amp;application_country=United%20States#origins" data-map-text="usApplications">U.S. application sites ↗</a></nav>
+      <div id="map-facility-filters" class="map-filter-bar">
+        <label><span data-map-text="ingredient">Ingredient</span><select id="map-ingredient"><option value="all">All ingredients</option><option value="follow">Guide ingredient</option><option value="NdPr">Nd + Pr / NdPr · 钕镨</option><option value="Dy">Dy · dysprosium / 镝</option><option value="Tb">Tb · terbium / 铽</option><option value="Fe">Fe · iron / 铁</option><option value="B">B · boron / 硼</option></select></label>
+        <label><span data-map-text="stage">Stage</span><select id="map-stage"><option value="all">All stages</option><option value="origin">Extraction / resource</option><option value="processing">Separation / refining</option><option value="conversion">Metal / master alloy</option><option value="manufacturing">Magnet / component making</option><option value="entry">U.S. entry / logistics / market</option></select></label>
+        <label><span data-map-text="evidence">Evidence status</span><select id="map-evidence"><option value="all">All evidence</option><option value="reported">Reported operating chain</option><option value="agreement">Contract / proposed</option><option value="capability">Product / commercial capability</option><option value="pilot">Pilot / qualification</option><option value="development">Development project</option><option value="aggregate">Aggregate / regional context</option></select></label>
+        <label class="map-path-control"><span data-map-text="path">Evidence path</span><select id="map-path"><option value="all">All mapped paths</option></select></label>
+      </div>
+      <div id="map-reserve-controls" class="map-special-controls" hidden><label><span data-map-text="reserveDisplay">Reserve display</span><select id="map-reserve-display"><option value="bubbles">Bubbles · area shows reported stock</option><option value="shading">Country shading · reported stock</option></select></label><label><span data-map-text="reserveCountry">Inspect a country</span><select id="map-reserve-country"><option value="">Loading country evidence…</option></select></label><p id="map-reserve-basis">Total rare-earth reserves, in tonnes of rare-earth-oxide equivalent. Not separate NdPr, Dy or Tb reserves.</p></div>
+      <div id="map-application-controls" class="map-special-controls" hidden><label><span data-map-text="applicationSector">Application sector</span><select id="map-application-sector"><option value="all">All documented sectors</option></select></label><label><span data-map-text="applicationCountry">Application geography</span><select id="map-application-country"><option value="all">All countries</option><option value="United States">United States</option></select></label><p>Selected manufacturing sites are application context. A motor, vehicle or generator plant does not establish its magnet supplier, magnet consumption or customer qualification.</p></div>
+      <p id="map-status" class="map-counts" role="status">Loading verified locations…</p>
+      <div class="origin-layout"><div class="map-shell">
+        <div class="map-navigation"><span id="map-help">Drag to pan · scroll or pinch to zoom</span><div><button id="map-east-asia">China / East Asia</button><button id="map-fit">Fit results</button><button id="map-zoom-in" aria-label="Zoom in">+</button><button id="map-zoom-out" aria-label="Zoom out">−</button><button id="map-reset">World</button><output id="map-zoom-value" aria-label="Map zoom">1×</output></div></div>
+        <div id="map-anchor-choices" class="map-anchor-choices" aria-label="Places sharing an approximate map anchor" hidden></div>
+        <svg id="origins-map" viewBox="0 0 960 500" role="group" tabindex="0" aria-label="Interactive world map of material origins, processing, conversion and U.S. connections"></svg>
+        <div id="map-stage-key" class="map-key map-stage-key" aria-label="Stage marker legend"></div>
+        <div id="map-evidence-key" class="map-key map-evidence-key" aria-label="Relationship evidence legend"></div>
+        <div id="map-reserve-key" class="map-reserve-key" hidden></div>
+        <div id="map-application-key" class="map-application-key" hidden></div>
+        <p id="map-disclaimer">Equal-width lines show evidence relationships, not tonnes or transport itineraries. Hollow markers denote development or display-only regions. Approximate coordinates and missing links are explained for each place.</p>
+      </div><aside id="mine-detail" class="mine-detail" aria-live="polite"><p>Select a place on the map.</p></aside></div>
+      <div id="map-path-summary" class="map-path-summary" aria-live="polite"></div>
+      <div class="reading-note"><p>Turn this evidence fragment into a separate, explicitly assumed disruption experiment. Map locations do not calibrate capacity, yield, inventory or delivery.</p><a id="map-open-experiment" class="hero-cta" href="chain.html">Explore the supply-chain laboratory <span aria-hidden="true">↗</span></a></div>
+      <div id="mine-picker" class="mine-picker" aria-label="Choose a location"></div>
+      <details class="evidence-drawer"><summary>Map scope & evidence</summary><div id="map-caveats"></div></details>
+      <div id="supply-paths"></div>
+    </section>
+
+    <section id="performance" class="section-wrap material-section">
+      <div class="material-heading"><div><p class="eyebrow">02 / Read a magnet grade</p><h2>Strength is one axis.<br><em>Holding on is another.</em></h2></div><p>N35 and N52 describe energy-product classes. H, SH and UH indicate higher coercivity classes. Temperature, shape and the opposing field determine suitability.</p></div>
+      <div id="grade-comparison"></div>
+      <div class="grade-takeaway"><div class="domains-art" aria-hidden="true"><span>↑</span><span>↑</span><span>↑</span><span>↑</span><span>↑</span></div><p><strong>Dy and Tb help the magnet resist demagnetization.</strong> They do not automatically raise its maximum energy product. Grain-boundary diffusion can concentrate these costly ingredients near grain surfaces, rather than adding them throughout the magnet.</p><a href="https://www.shinetsu-rare-earth-magnet.jp/e/notice/" target="_blank" rel="noopener">Shin-Etsu process explanation</a></div>
+    </section>
+
+    <section id="composition" class="section-wrap material-section">
+      <div class="material-heading"><div><p class="eyebrow">03 / 配方 · alloy formulation</p><h2>Ingredients become<br><em>a physical batch.</em></h2></div><p>Start with the purchased forms, then compare two published specimens and see how their elements enter an ideal batch.</p></div>
+      <div id="purchased-materials"></div>
+      <div class="button-group specimen-picker" aria-label="Select published composition"><button data-specimen="prokofev" class="active" aria-pressed="true">High-coercivity specimen · 2020</button><button data-specimen="csc" aria-pressed="false">Fresh alloy · CSC 2022</button></div>
+      <div class="formulation-layout"><div><div id="composition-graphic" aria-label="Alloy composition by mass"></div><div id="specimen-description"></div><div id="feed-graphic"></div></div><aside class="batch-cost"><p class="eyebrow">Try your purchase quotes</p><h3>What would this<br>100 kg charge cost?</h3><p>Enter USD/kg of the actual purchased product. Blank quotes remain unknown.</p><form id="quote-form"></form><div id="batch-result" aria-live="polite"></div><p class="small-note">Ideal charging balance only. Excludes yield losses, diffusion additions, energy, labor, coating, scrap and qualification. It is not a finished-magnet price.</p></aside></div>
+      <div class="reading-note">These reported compositions are specimens, not universal N-grade recipes. Different processing histories prevent attributing their performance differences to Dy or Tb alone.</div>
+    </section>
+
+    <section id="prices" class="section-wrap material-section">
+      <div class="material-heading"><div><p class="eyebrow">04 / Twenty years of price evidence</p><h2>Watch the ingredients<br><em>change in value.</em></h2></div><p>2006–2025 · nominal prices. Select a material to inspect its actual traded form. Benchmark changes and missing observations remain visible.</p></div>
+      <div id="price-picker" class="element-picker compact" aria-label="Select a price history"></div>
+      <div class="price-card"><div class="price-title"><div><h3 id="price-title">Loading price evidence…</h3><p id="price-basis"></p></div><button id="download-prices">Download source data</button></div><div id="price-chart" class="price-plot" role="img" aria-label="Historical price chart"></div><div id="price-coverage"></div><div id="price-sources" class="source-chips"></div></div>
+      <div class="seasonality-card"><div><p class="eyebrow">A monthly lens</p><h3>Is there a repeating season?</h3><p id="seasonality-explanation"></p></div><div id="seasonality-chart" class="seasonality-plot" role="img" aria-label="Monthly descriptive price profile"></div></div>
+    </section>
+    <div id="market-evidence"></div>
+    <section id="physical-inputs" class="section-wrap material-section photographic-section"><div class="material-heading"><div><p class="eyebrow">05 / Meet the physical inputs</p><h2>These are industrial materials.</h2></div><p>Supplier product references connect material names to feedstocks. Product identity and assay require the cited specification.</p></div><div class="photo-grid"><figure><div class="public-material-label" aria-hidden="true">MATERIAL REFERENCE</div><figcaption><strong>Nd–Pr alloy pieces</strong><a href="https://www.epomaterial.com/rare-earth-material-praseodymium-neodymium-metal-prnd-alloy-ingots-2575-product/" target="_blank" rel="noopener">Epoch · product reference</a></figcaption></figure><figure><div class="public-material-label" aria-hidden="true">MATERIAL REFERENCE</div><figcaption><strong>Ferroboron</strong><a href="https://www.nippondenko.co.jp/ourbusiness/functionalmaterials/boron/" target="_blank" rel="noopener">Nippon Denko · product reference</a></figcaption></figure><article class="photo-context"><p class="eyebrow">Trace the product name</p><h3>Ore ≠ oxide<br>≠ metal ≠ alloy.</h3><p>A mine location tells you where extraction happens. A factory quotation tells you which chemical form, composition and delivery terms are being bought.</p><p>Supplier product references are credited to their original pages. Original publisher rights are retained.</p></article></div></section>
+  </main>
+  <footer class="section-wrap"><a href="index.html" class="footer-brand">RARE EARTH</a><p>Primary-source field guide · verified October 2026 · English first</p><a href="index.html#experiment">Open the supply experiment</a></footer>
+</body>
+</html>

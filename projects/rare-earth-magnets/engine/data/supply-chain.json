@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-07",
+  "scope": "Representative product-aware monthly stock-flow stress test. All capacities, geography fractions, losses, costs and readiness times are editable assumptions, not dollar estimates, national budgets, mineral assays or verified physical shipments.",
+  "defaults": {
+    "recipe_id": "n33u",
+    "application_label": "Generic motor / actuator magnet demand",
+    "annual_demand_tonnes": 1200.0,
+    "supply_reference_annual_tonnes": 1200.0,
+    "initial_pipeline_mode": "warm",
+    "horizon_months": 36,
+    "deadline_month": 24,
+    "decision_month": 1,
+    "shock_start_month": 8,
+    "shock_duration_months": 6,
+    "shock_stage": "separation",
+    "shock_region": "China",
+    "shock_retention": 0.25,
+    "shock_element": "all",
+    "additional_shocks": [],
+    "budget": 100.0,
+    "policy": "none",
+    "mix": {
+      "upstream-diversification": 0.25,
+      "processing": 0.25,
+      "magnets-qualification": 0.25,
+      "finished-inventory": 0.25
+    },
+    "capacity_headroom": 0.2,
+    "stage_yields": {
+      "resource": 0.98,
+      "separation": 0.95,
+      "metals": 0.98,
+      "magnets": 0.9,
+      "qualification": 0.98,
+      "nonree-inputs": 1.0
+    },
+    "lead_months": {
+      "resource": 1,
+      "separation": 1,
+      "metals": 1,
+      "magnets": 1,
+      "qualification": 2,
+      "nonree-inputs": 1
+    },
+    "inventory_months": {
+      "raw": 0.25,
+      "separated": 0.25,
+      "nonree": 0.25,
+      "feedstocks": 0.25,
+      "unqualified": 0.25,
+      "qualified": 0.5
+    },
+    "china_share": {
+      "resource": 0.7,
+      "separation": 0.85,
+      "metals": 0.85,
+      "magnets": 0.8,
+      "qualification": 0.8,
+      "nonree-inputs": 0.4
+    },
+    "construction_months": {
+      "upstream-diversification": 4,
+      "processing": 8,
+      "magnets-qualification": 9
+    },
+    "ramp_months": 3,
+    "project_qualification_months": 3,
+    "inventory_purchase_lead_months": 3,
+    "cost_per_capacity_fraction": {
+      "upstream-diversification": 400.0,
+      "processing": 300.0,
+      "magnets-qualification": 300.0
+    },
+    "inventory_cost_per_tonne": 1.0,
+    "feedstock_assays": {
+      "NdPr": {
+        "Nd": 0.75,
+        "Pr": 0.25
+      },
+      "DyFe": {
+        "Dy": 0.8,
+        "Fe": 0.2
+      },
+      "FeB": {
+        "B": 0.2,
+        "Fe": 0.8
+      }
+    },
+    "composition_wt_pct": null,
+    "stage_capacity_factors": {
+      "resource": 1.0,
+      "separation": 1.0,
+      "metals": 1.0,
+      "magnets": 1.0,
+      "qualification": 1.0,
+      "nonree-inputs": 1.0
+    },
+    "map_context": null
+  },
+  "recipes": [
+    {
+      "id": "n33u",
+      "label": "Prokofev N33U starting specimen",
+      "composition_wt_pct": {
+        "Nd": 20.7,
+        "Pr": 5.6,
+        "Dy": 6.6,
+        "Fe": 65.05,
+        "B": 1.0,
+        "Cu": 0.22,
+        "Al": 0.53,
+        "Co": 0.3
+      },
+      "source_url": "https://doi.org/10.3390/ma13143049",
+      "source_locator": "Section 2; Table 3; Fe balance calculated",
+      "source_status": "Published starting specimen; not the separate N42 or an Arnold grade recipe",
+      "designation": "N33U (paper designation)"
+    },
+    {
+      "id": "n52-patent",
+      "label": "CN108281246B N52 example 2",
+      "composition_wt_pct": {
+        "Nd": 24.08,
+        "Pr": 6.02,
+        "Fe": 67.13,
+        "B": 0.99,
+        "Al": 0.06,
+        "Cu": 0.6,
+        "Co": 1.0,
+        "Zr": 0.05,
+        "Hf": 0.07
+      },
+      "source_url": "https://patents.google.com/patent/CN108281246B/en",
+      "source_locator": "Example 2 / Table 2; PrNd expansion and Fe balance calculated",
+      "source_status": "Patent-reported nominal charge; not independent replication or Arnold certification",
+      "designation": "N52 (patent designation)"
+    }
+  ],
+  "stage_context": {
+    "resource": {
+      "map_node_refs": [
+        "bayan-obo",
+        "mountain-pass",
+        "mt-weld"
+      ],
+      "link_status": "evidence context only; no specimen-specific ore assay or shipped route established",
+      "reference_boundary": "Named evidence-context anchors only; no recipe, modeled capacity, shipment or customer assignment."
+    },
+    "separation": {
+      "map_node_refs": [
+        "northern_sep",
+        "white_mesa",
+        "lynas-kalgoorlie"
+      ],
+      "link_status": "hypothetical stage link; not an operating shipment",
+      "reference_boundary": "Named evidence-context anchors only; no recipe, modeled capacity, shipment or customer assignment."
+    },
+    "metals": {
+      "map_node_refs": [
+        "northern_metal",
+        "lcm_uk",
+        "kmp",
+        "independence"
+      ],
+      "link_status": "hypothetical oxide-to-metal/master-alloy link; procurement assays are nominal scenario inputs",
+      "reference_boundary": "Named evidence-context anchors only; no recipe, modeled capacity, shipment or customer assignment."
+    },
+    "magnets": {
+      "map_node_refs": [
+        "jlmag_ganzhou",
+        "noveon",
+        "independence"
+      ],
+      "link_status": "hypothetical magnet-making endpoint; no source recipe/factory assignment",
+      "reference_boundary": "Named evidence-context anchors only; no recipe, modeled capacity, shipment or customer assignment."
+    },
+    "qualification": {
+      "map_node_refs": [],
+      "link_status": "assumed customer acceptance throughput; not evidence of a qualified supplier",
+      "reference_boundary": "Named evidence-context anchors only; no recipe, modeled capacity, shipment or customer assignment."
+    },
+    "nonree-inputs": {
+      "map_node_refs": [
+        "imp_pune",
+        "nippon_denko_imizu"
+      ],
+      "link_status": "independent Fe/B/minor-metal feed branch; not traced mine shipments",
+      "reference_boundary": "Named evidence-context anchors only; no recipe, modeled capacity, shipment or customer assignment."
+    }
+  },
+  "boundaries": [
+    "Recoverable-contained elements are not ore or concentrate tonnes.",
+    "Separated oxide equivalents are stoichiometric reference mass only; oxygen/reagents are outside the tracked-element conservation ledger.",
+    "Fe/B/minor inputs bypass rare-earth separation.",
+    "Finished magnets only serve the selected illustrative composition and assumed generic customer; no cross-grade fungibility or property prediction.",
+    "A single finite paid inventory order enters the material ledger at the shared decision month and arrives after a positive procurement lead; no automatic exogenous replenishment.",
+    "All interventions use the same abstract budget and decision month; fixed-total resource geography diversification does not expand resource capacity.",
+    "Finite initial steady-state pipeline and working stocks are explicit in the initial element ledger; the same-policy no-shock counterfactual isolates scenario shock increments from all-cause backlog.",
+    "Scenario credits cover intervention commitments only; ordinary input procurement, operation/energy, financing and full commodity-price accounting are not priced. New capacity bundles use the nominal demand/yield reference, separate from existing stage-capacity factors."
+  ]
+}
