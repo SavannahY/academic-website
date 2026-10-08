@@ -1,10 +1,10 @@
 {
-  "version": "origin-flow-2026-10-07",
-  "source_revision": "b5d15c32a2e34e4ec91235d953408660405be048",
+  "version": "quantitative-supply-2026-10-08-af00e8ba",
+  "source_revision": "af00e8ba78530604fbb05d60a096cbd4e61e6fea",
   "base_route": "/projects/rare-earth-magnets/",
   "chapter_routes": [
     "flows.html?view=demand#flow-workspace",
-    "grades.html#origin-flow",
+    "grades.html#supply-quantities",
     "process.html",
     "future.html#future-questions"
   ],
@@ -36,8 +36,8 @@
     },
     {
       "path": "applications.html",
-      "bytes": 8542,
-      "sha256": "8eaa55fb66638691581886bdb7f35f90d7fffdb8cc61fcf11b7593400d95d53a"
+      "bytes": 8578,
+      "sha256": "7fd58477e016b52da87c49a5959811e498de1ef2c704c726292eacca36b69dc8"
     },
     {
       "path": "applications.js",
@@ -286,8 +286,8 @@
     },
     {
       "path": "chain.html",
-      "bytes": 9834,
-      "sha256": "27d91921e8d45c02f4996dd64277a5ad6659548f7bbee47202bda7369d5feb54"
+      "bytes": 9870,
+      "sha256": "4d745c08b19cc763e8efb8fd1e1cba6cfc4309c2ce34b337c813b7ba0d1011af"
     },
     {
       "path": "chain.js",
@@ -301,8 +301,8 @@
     },
     {
       "path": "collaborators.html",
-      "bytes": 6920,
-      "sha256": "e69f0f0c32f1b82aef81daa06aa73a872818b7e186cc27d11d2d1368c9724dc0"
+      "bytes": 6956,
+      "sha256": "359fad2904e49458b1535f1ab590fb98126b8c8eb1f7c797ac124bd1b5158c2a"
     },
     {
       "path": "collaborators.js",
@@ -410,6 +410,11 @@
       "sha256": "4688e10234b315c7e36e96b2f5bd714a34136a9f59dd61f92bc48c1151f1723b"
     },
     {
+      "path": "data/material-supply-quantities.json",
+      "bytes": 1034616,
+      "sha256": "b724976f42e42a10d5ceb002804386607e7904fceadb9f54b264adf6fdbe86bf"
+    },
+    {
       "path": "data/mine-routes.json",
       "bytes": 269919,
       "sha256": "94bb2622eda95990b380c454386f38322f2eb7b65e7fc8cd702e156059989c08"
@@ -501,8 +506,8 @@
     },
     {
       "path": "flows.html",
-      "bytes": 11527,
-      "sha256": "2737777118c64cc48859aaf70c70f252d9295fd545751064e069d7d97948c857"
+      "bytes": 11563,
+      "sha256": "ada20a65546aa23ea5b9cb77170f063daa7b4e0ca45c17dc8d813e01f079e814"
     },
     {
       "path": "flows.js",
@@ -516,8 +521,8 @@
     },
     {
       "path": "future.html",
-      "bytes": 12739,
-      "sha256": "4539954c08e5bea38ba3ee4f8262fe6fa1c1d3eff22f82f069d1a520cb339169"
+      "bytes": 12775,
+      "sha256": "102c07737ebc89e9a4a17e6623a77e212f88950c1371dc79f530941d86ea1838"
     },
     {
       "path": "future.js",
@@ -531,8 +536,8 @@
     },
     {
       "path": "global-nav.js",
-      "bytes": 14651,
-      "sha256": "f8108d08809689da4f561ff9721751be9ffc3ce1f25f8c5a31bf80f45e71b0e8"
+      "bytes": 14985,
+      "sha256": "aeee0f00c5335896929886dd8f976f3fb4ca1dcc1436b7415503972a539e0c4a"
     },
     {
       "path": "grade-comparison.css",
@@ -551,8 +556,8 @@
     },
     {
       "path": "grades.html",
-      "bytes": 21711,
-      "sha256": "6e3744070416ed6cd094d23f67a5700a96cd2ac9fe745ea5b1349795ac616c93"
+      "bytes": 22739,
+      "sha256": "7d143d6c1da4c5bd5ab9bcd581619211781e572faa9bfc932b94d6c3110c2d1a"
     },
     {
       "path": "grades.js",
@@ -561,8 +566,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 25782,
-      "sha256": "64d868bfee5714b5e5af9115d9d537430b00c142b72515ffc697a2f2066c44ce"
+      "bytes": 25830,
+      "sha256": "6a963a0efb837deab66d30bd86c53834186150c848639fbf6097fa3642496c03"
     },
     {
       "path": "investment-evidence.css",
@@ -586,8 +591,8 @@
     },
     {
       "path": "investment.html",
-      "bytes": 5865,
-      "sha256": "4687ac1342076431806ed83eba400b0be1d514b5e2ad3d1d659da9a9a9021f3c"
+      "bytes": 5901,
+      "sha256": "3cc6c848881393d538b51c3601fcaba04433f93fce59c5bf397af52e340b52a6"
     },
     {
       "path": "knowledge.css",
@@ -596,8 +601,8 @@
     },
     {
       "path": "knowledge.html",
-      "bytes": 9757,
-      "sha256": "5455d9fab22727bb4272d601ccb99866348e345787b201412a52c160e3b55e99"
+      "bytes": 9793,
+      "sha256": "1a78b4662cc8ec8420ef2f4480762f88fc8359d799cc9f9dbedb10aad892be04"
     },
     {
       "path": "knowledge.js",
@@ -651,8 +656,8 @@
     },
     {
       "path": "methods.html",
-      "bytes": 6605,
-      "sha256": "158ceddff6afc0a8d2e10fac9cbc1482f1d9ef3e9789b64ebb3225f1dcdea235"
+      "bytes": 6641,
+      "sha256": "08df000f7cc2222b63108511a9e718629b7598c30c001ac58f4e1aff807d3f0e"
     },
     {
       "path": "methods.js",
@@ -661,13 +666,13 @@
     },
     {
       "path": "origin-flow.css",
-      "bytes": 20945,
-      "sha256": "3ad1839e4ac6fc61181b43b7a4c88efa1b4f6d41a115a7c892f0474ba3a0a4fb"
+      "bytes": 21096,
+      "sha256": "264ea9cfbf834ce8ebc1d62409334111699951df02de20ec9d3a7ab9dda1b544"
     },
     {
       "path": "origin-flow.js",
-      "bytes": 43149,
-      "sha256": "36843420ab222ab4139d6b1a81d3c163bd5d52e2f6d4ae41a8d3fe8bcfe14cf6"
+      "bytes": 43159,
+      "sha256": "741db838e6d2600617dff681eca42eb6c8bfa39d3c84c47326cc12d63f134063"
     },
     {
       "path": "practitioner-insights.css",
@@ -696,8 +701,8 @@
     },
     {
       "path": "process.html",
-      "bytes": 13233,
-      "sha256": "242d8e970b079aca19e4c82db6bb69bde72ece79a720f72d619a817343075f64"
+      "bytes": 13269,
+      "sha256": "00de6fe0226d3a87c3e309dddcaf264333494227ce1d1d82ebbfb98878e3ede4"
     },
     {
       "path": "process.js",
@@ -746,8 +751,8 @@
     },
     {
       "path": "research.html",
-      "bytes": 5782,
-      "sha256": "f5fd090b69391da419b6c4afbe773d241dfe285143c739c0a62886567a889435"
+      "bytes": 5818,
+      "sha256": "c6f804eaf4eba5a36d8648f31de9937575924ba994cd0fb2019311cc955d2686"
     },
     {
       "path": "runtime.js",
@@ -771,8 +776,8 @@
     },
     {
       "path": "students.html",
-      "bytes": 7076,
-      "sha256": "24f2fc56eb7c3762e01d6daeb8a09594c3212aa1bb0260a356020adb18ccc8a3"
+      "bytes": 7112,
+      "sha256": "f3f4457f9fa3ce6c88be2c4e09b6bb62dbab0427b376a385cffaa9a94d4f07d9"
     },
     {
       "path": "students.js",
@@ -793,6 +798,16 @@
       "path": "supply-paths.js",
       "bytes": 16807,
       "sha256": "c3da0451ff848777228613975c987258afbb51071cd50782bc6154c2fb93cdc3"
+    },
+    {
+      "path": "supply-quantities.css",
+      "bytes": 21593,
+      "sha256": "83da916942d730374e04bf55b3c62921ca588efd8e4e56d40cb3cb27ede0f742"
+    },
+    {
+      "path": "supply-quantities.js",
+      "bytes": 60936,
+      "sha256": "707a1c353a3db73d124d6494142b1a8446991363b2059b6895d02c26063564d4"
     },
     {
       "path": "volume-evidence.css",

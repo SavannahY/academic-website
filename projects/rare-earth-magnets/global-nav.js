@@ -11,8 +11,9 @@
       ['application-map', 'U.S. application map', '美国应用地图', 'grades.html?layer=applications&application_country=United%20States#origins'],
       ['requirements', 'Application requirements', '应用要求', 'applications.html']
     ] },
-    { id: 'supply', number: '02', en: 'Supply', zh: '供应', href: 'grades.html#origin-flow', links: [
-      ['origin-flow', 'Mining-origin flow', '矿源流向', 'grades.html#origin-flow'],
+    { id: 'supply', number: '02', en: 'Supply', zh: '供应', href: 'grades.html#supply-quantities', links: [
+      ['supply-quantities', 'Quantitative supply flow', '定量供应流量', 'grades.html#supply-quantities'],
+      ['origin-flow', 'Mining-origin diagram', '矿源证据图', 'grades.html#mining-origin-details'],
       ['supply-atlas', 'Supply atlas', '供应地图', 'grades.html?layer=facilities#origins'],
       ['performance', 'Grade performance', '磁体牌号与性能', 'grades.html#performance'],
       ['composition', 'Alloy formulations', '合金配方', 'grades.html#composition'],
@@ -100,7 +101,7 @@
         ? { chapter: 1, route: 'balance', en: 'Material balance', zh: '物料平衡' }
         : { chapter: 0, route: 'demand-flow', en: 'Sourced demand flows', zh: '有来源的需求流量' };
     if (page === 'grades') {
-      const supplySections = { '#origin-flow': ['origin-flow', 'Mining-origin flow', '矿源流向'], '#performance': ['performance', 'Grade performance', '磁体牌号与性能'], '#composition': ['composition', 'Alloy formulations', '合金配方'], '#prices': ['prices', 'Material prices', '原料价格'] };
+      const supplySections = { '#supply-quantities': ['supply-quantities', 'Quantitative supply flow', '定量供应流量'], '#origin-flow': ['supply-quantities', 'Quantitative supply flow', '定量供应流量'], '#mining-origin-details': ['origin-flow', 'Mining-origin diagram', '矿源证据图'], '#performance': ['performance', 'Grade performance', '磁体牌号与性能'], '#composition': ['composition', 'Alloy formulations', '合金配方'], '#prices': ['prices', 'Material prices', '原料价格'] };
       if (supplySections[hash]) {
         const [route, en, zh] = supplySections[hash];
         return { chapter: 1, route, en, zh };

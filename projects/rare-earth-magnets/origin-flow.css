@@ -1,9 +1,9 @@
 /* The origin diagram is a relationship graph: no width or card area encodes volume. */
-#origin-flow{--of-bg:#101614;--of-panel:#17221d;--of-paper:var(--paper,#efe9dd);--of-muted:var(--muted,#9ca69c);--of-line:var(--line,#ffffff24);--of-brass:var(--brass,#c5a46b);--of-cyan:#80afb7;--of-sage:#8aab95;--of-proposed:#aaa4ce;--of-gap:#a5a69b;color:var(--of-paper);min-width:0;scroll-margin-top:90px}
-#origin-flow *{box-sizing:border-box}
-#origin-flow button,#origin-flow select{font-family:var(--sans,Arial,sans-serif)}
-#origin-flow button{cursor:pointer;color:var(--of-paper)}
-#origin-flow button:focus-visible,#origin-flow select:focus-visible,#origin-flow summary:focus-visible,#origin-flow a:focus-visible,.of-graph-scroll:focus-visible{outline:2px solid var(--of-brass);outline-offset:3px}
+#mining-origin-details{--of-bg:#101614;--of-panel:#17221d;--of-paper:var(--paper,#efe9dd);--of-muted:var(--muted,#9ca69c);--of-line:var(--line,#ffffff24);--of-brass:var(--brass,#c5a46b);--of-cyan:#80afb7;--of-sage:#8aab95;--of-proposed:#aaa4ce;--of-gap:#a5a69b;color:var(--of-paper);min-width:0;scroll-margin-top:90px}
+#mining-origin-details *{box-sizing:border-box}
+#mining-origin-details button,#mining-origin-details select{font-family:var(--sans,Arial,sans-serif)}
+#mining-origin-details button{cursor:pointer;color:var(--of-paper)}
+#mining-origin-details button:focus-visible,#mining-origin-details select:focus-visible,#mining-origin-details summary:focus-visible,#mining-origin-details a:focus-visible,.of-graph-scroll:focus-visible{outline:2px solid var(--of-brass);outline-offset:3px}
 .of-header{display:flex;align-items:flex-start;justify-content:space-between;gap:24px;margin:0 0 22px}
 .of-kicker{font-size:10px;letter-spacing:.11em;text-transform:uppercase;color:var(--of-brass);margin:0 0 9px;line-height:1.5}
 .of-header h3{font:clamp(28px,3vw,39px)/1.15 var(--serif,Georgia,serif);margin:0 0 11px;max-width:640px;font-weight:400}
@@ -191,3 +191,5 @@
 .of-link-association .of-link-path{stroke-dasharray:7 5;opacity:.5}
 .of-relation-association{border-left-color:var(--of-brass)}
 .of-relation-association>span{color:var(--of-brass)}
+
+.legacy-supply-anchor{display:block;scroll-margin-top:90px}

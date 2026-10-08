@@ -1,7 +1,7 @@
 /* Named origin relationships. Line width never represents mass, trade or market share. */
 (() => {
   'use strict';
-  const mount = document.getElementById('origin-flow');
+  const mount = document.getElementById('mining-origin-details');
   if (!mount) return;
 
   const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
