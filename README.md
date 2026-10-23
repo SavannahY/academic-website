@@ -4,10 +4,10 @@ Static academic website, hosted with GitHub Pages. No build step, database, serv
 
 ## Editing
 
-- `index.html`: biography, research, publications, selected course projects, personal exploratory projects, and background.
-- `styles.css` and `projects.css`: responsive layout and typography.
+- `index.html`: biography, research, publications, selected industry work, course projects, personal exploratory projects, and education.
+- `styles.css`, `projects.css`, and `research.css`: responsive layout and reading-first typography.
 - `script.js`: BibTeX copy buttons.
-- `assets/`: public portrait, research and course-project posters, project figures, and privacy-reviewed CV.
+- `assets/`: public portrait, research and course-project posters, and project figures. CVs are not included in the current website.
 - `projects/powertwin-4d/`: standalone, static PowerTwin 4D exploratory prototype, with locally hosted visualization dependencies and public reference material.
 - `projects/rare-earth-magnets/`: complete static Rare-Earth Magnet Supply-Chain Explorer, with sourced maps, material flows, manufacturing illustrations, public research readings, and browser-based scenario laboratories. This reviewed public export keeps the original development repository private; first simulation load requires the Pyodide CDN.
 

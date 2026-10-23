@@ -46,6 +46,12 @@ h2 { font-size: 1.55rem; letter-spacing: -.015em; }
 .authors { margin-top: 7px; font-size: .85rem; }
 .publication-meta { margin-top: 9px; gap: 18px; }
 .copy-status:empty { display: none; }
+.industry-section { border-top: 1px solid var(--line); }
+.industry-item + .industry-item { margin-top: 28px; }
+.industry-item h3 { font-family: var(--sans); font-size: 1.05rem; font-weight: 600; letter-spacing: 0; line-height: 1.5; }
+.industry-item .industry-role { margin-top: 5px; font-size: .83rem; color: var(--muted); }
+.industry-item > p:not(.industry-role) { margin-top: 9px; font-size: .94rem; line-height: 1.75; color: #39485a; }
+.industry-item .text-link { display: inline-block; margin-top: 10px; font-size: .86rem; }
 .course-project-list { display: block; }
 .course-project { grid-template-columns: 160px minmax(0, 1fr); gap: 28px; border: 0; padding: 0; }
 .course-project + .course-project { margin-top: 32px; }
@@ -59,8 +65,9 @@ h2 { font-size: 1.55rem; letter-spacing: -.015em; }
 .background-columns > div + div { margin-top: 26px; }
 .small-heading { margin-bottom: 16px; }
 .education-item { padding-bottom: 16px; }
-.education-item h4 { font-size: .96rem; }
+.education-item h3 { font-family: var(--sans); font-size: .96rem; font-weight: 600; letter-spacing: 0; line-height: 1.45; }
 .education-item p { font-size: .9rem; }
+.education-note { margin-top: 6px; font-size: .9rem; line-height: 1.75; color: var(--muted); }
 .experience-text { font-size: .94rem; margin-bottom: 14px; }
 .site-footer { max-width: 900px; margin: auto; padding: 24px 24px 32px; }
 @media (max-width: 650px) {
@@ -86,5 +93,6 @@ h2 { font-size: 1.55rem; letter-spacing: -.015em; }
 @media print {
   .section-shell { max-width: none; padding: 18px 0; }
   .research-item { padding: 0; }
+  .industry-item { break-inside: avoid; }
   .poster-section, .course-project { grid-template-columns: 120px minmax(0, 1fr); gap: 22px; }
 }
