@@ -7,6 +7,7 @@ Static personal website, hosted with GitHub Pages. No build step, database, serv
 - `index.html`: biography, selected industry work, public analysis, research, publications, course projects, personal exploratory projects, and education.
 - `styles.css`, `projects.css`, and `research.css`: responsive layout and reading-first typography.
 - `script.js`: BibTeX copy buttons.
+- `technical-work.html`: full technical project records and original course reports; the homepage presents a concise selection.
 - `analysis/`: public, source-linked industry analysis.
 - `assets/`: public portrait, research and course-project posters, and project figures. CVs are not included in the current website.
 - `projects/powertwin-4d/`: standalone, static PowerTwin 4D exploratory prototype, with locally hosted visualization dependencies and public reference material.

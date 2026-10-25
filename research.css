@@ -130,3 +130,59 @@ h2 { font-size: 1.55rem; letter-spacing: -.015em; }
   .analysis-reading { padding-top: 30px; }
   .analysis-reading th, .analysis-reading td { padding: 10px 8px; }
 }
+
+/* A profile organized around scope, responsibility, and selected work. */
+.profile-site .header-inner, .profile-site .section-shell, .profile-site .site-footer { max-width: 1000px; }
+.profile-site .header-inner { padding: 0 32px; min-height: 76px; }
+.profile-site .section-shell { padding: 44px 32px; }
+.profile-site .intro { grid-template-columns: minmax(0, 1fr) 170px; column-gap: 48px; row-gap: 34px; padding-top: 50px; padding-bottom: 32px; }
+.profile-site h1 { font-size: clamp(3rem, 5vw, 4rem); letter-spacing: -.045em; }
+.profile-site .intro .eyebrow { letter-spacing: .12em; font-size: .72rem; color: var(--blue); margin-bottom: 12px; }
+.profile-site .research-line { font-size: 1.35rem; margin: 16px 0 10px; }
+.focus-line { font-size: .86rem; color: var(--muted); line-height: 1.7; }
+.profile-site .bio { margin-top: 18px; font-size: 1.03rem; line-height: 1.8; }
+.credentials { margin-top: 18px; color: var(--ink); font-size: .83rem; }
+.profile-site .portrait img { height: 220px; }
+.profile-site .contact-links { align-items: center; margin-top: 24px; gap: 24px; }
+.contact-primary { background: var(--ink); color: #fff; padding: 9px 16px; text-decoration: none; }
+.contact-primary:hover { color: #fff; background: var(--blue); text-decoration: none; }
+.experience-scale { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1.2fr 1fr; gap: 26px; margin: 0; padding: 28px 0 0; border-top: 1px solid var(--line); }
+.experience-scale dt { font-family: var(--serif); font-size: 1.85rem; line-height: 1.25; letter-spacing: -.025em; }
+.experience-scale dd { font-size: .77rem; line-height: 1.65; color: var(--muted); margin: 8px 0 0; }
+.profile-site .industry-item { display: grid; grid-template-columns: 190px minmax(0, 1fr); gap: 36px; border-top: 1px solid var(--line); padding: 25px 0; }
+.profile-site .industry-item + .industry-item { margin-top: 0; }
+.industry-heading .industry-role { margin-top: 8px; line-height: 1.7; }
+.industry-description p { font-size: .94rem; line-height: 1.8; color: #39485a; }
+.industry-description p + p { margin-top: 12px; }
+.profile-site .business-link { margin-top: 0; padding-top: 15px; border-top: 1px solid var(--line); }
+.technical-section { border-top: 1px solid var(--line); }
+.technical-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 30px; padding: 24px 0; border-top: 1px solid var(--line); }
+.technical-row h3 { font: 600 1.05rem/1.6 var(--sans); letter-spacing: 0; }
+.technical-row h3 a { color: var(--ink); text-decoration: none; }
+.technical-row h3 a:hover { text-decoration: underline; }
+.technical-row p { max-width: 680px; font-size: .93rem; line-height: 1.75; color: #39485a; margin-top: 7px; }
+.technical-type { display: block; font-size: .76rem; color: var(--muted); margin-top: 8px; }
+.technical-action { font-size: .82rem; white-space: nowrap; padding-top: 5px; }
+.technical-context { font-size: .9rem; line-height: 1.75; color: var(--muted); margin-top: 15px; }
+.technical-intro h1 { font-size: 2.6rem; }
+@media (max-width: 650px) {
+  .profile-site .header-inner { padding: 17px 20px; min-height: auto; }
+  .profile-site .section-shell { padding: 32px 20px; }
+  .profile-site .intro { position: relative; grid-template-columns: 1fr; gap: 22px; }
+  .profile-site .intro-copy { order: 0; }
+  .profile-site .intro .eyebrow { max-width: calc(100% - 100px); }
+  .profile-site h1 { font-size: 3rem; }
+  .profile-site .intro h1 { margin-right: 96px; }
+  .profile-site .research-line { font-size: 1.3rem; }
+  .profile-site .portrait { position: absolute; top: 32px; right: 20px; padding: 0; }
+  .profile-site .portrait img { width: 72px; height: 92px; }
+  .profile-site .portrait figcaption { display: none; }
+  .profile-site .contact-links { gap: 20px; }
+  .experience-scale { grid-template-columns: 1fr; gap: 18px; padding-top: 24px; order: 2; }
+  .experience-scale > div { display: grid; grid-template-columns: 155px minmax(0, 1fr); gap: 15px; align-items: start; }
+  .experience-scale dt { font-size: 1.35rem; }
+  .experience-scale dd { margin-top: 2px; font-size: .74rem; }
+  .profile-site .industry-item { grid-template-columns: 1fr; gap: 13px; }
+  .technical-row { grid-template-columns: 1fr; gap: 9px; }
+  .technical-action { padding-top: 0; }
+}
