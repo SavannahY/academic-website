@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://janeyang.me/</loc>
-    <lastmod>2026-10-05</lastmod>
+    <lastmod>2026-10-25</lastmod>
   </url>
   <url>
     <loc>https://janeyang.me/projects/powertwin-4d/</loc>
@@ -11,5 +11,9 @@
   <url>
     <loc>https://janeyang.me/projects/rare-earth-magnets/</loc>
     <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://janeyang.me/analysis/gas-turbines-and-fuel-cells.html</loc>
+    <lastmod>2026-10-25</lastmod>
   </url>
 </urlset>

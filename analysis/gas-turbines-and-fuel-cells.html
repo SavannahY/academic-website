@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jane Yang on comparing gas turbines and Bloom Energy for data-center power: installed scope, fuel, reliability, and time to power.">
+  <link rel="canonical" href="https://janeyang.me/analysis/gas-turbines-and-fuel-cells.html">
+  <title>Gas Turbines &amp; Bloom Energy | Jane Yang</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../research.css?v=20261025">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header"><div class="header-inner"><a class="wordmark" href="../" aria-label="Jane Yang, home">JANE YANG</a><nav aria-label="Main navigation"><a href="../#analysis">All analysis</a><a href="mailto:yangzhengjie33@gmail.com">Email</a></nav></div></header>
+  <main id="main" class="section-shell analysis-reading">
+    <article aria-labelledby="article-title">
+      <header class="analysis-heading">
+        <p class="eyebrow">INDEPENDENT INDUSTRY ANALYSIS · OCTOBER 25, 2026</p>
+        <h1 id="article-title">Gas turbines &amp; Bloom Energy: comparing the full cost of power</h1>
+        <p class="analysis-deck">The decision depends on the complete system, the electricity it can deliver, and when that power becomes available.</p>
+        <p class="analysis-byline">Jane Yang · Energy infrastructure &amp; project economics</p>
+      </header>
+      <section aria-labelledby="judgment">
+        <h2 id="judgment">My starting point</h2>
+        <p>I evaluate onsite generation at the data center’s electrical boundary: net usable power, a defined reliability requirement, and a realistic energization date. A turbine equipment price and a fuel-cell service proposal can cover very different things. Comparing their headline dollars per kilowatt can hide the costs that determine the project.</p>
+        <p>My screening approach is to compare the complete installed systems first, then examine operating costs and the value of earlier deployment. A preferred technology should emerge from those assumptions, with the conditions that would change the decision stated explicitly.</p>
+      </section>
+      <section aria-labelledby="boundary">
+        <h2 id="boundary">Define the same project on both sides</h2>
+        <div class="analysis-table-wrap" role="region" aria-label="Project comparison checklist" tabindex="0">
+          <table>
+            <caption>Questions I would resolve before comparing proposals</caption>
+            <thead><tr><th scope="col">Variable</th><th scope="col">What to establish</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Delivered power</th><td>Net AC output at the same facility bus, including auxiliary loads and site conditions. Keep facility MW distinct from IT-load MW.</td></tr>
+              <tr><th scope="row">Installed scope</th><td>Generation equipment, gas delivery and conditioning, civil works, emissions controls where required, electrical integration, and commissioning.</td></tr>
+              <tr><th scope="row">Reliability</th><td>Grid-parallel or islanded operation, maintenance outages, reserve capacity, and the roles of UPS, batteries, and backup generation.</td></tr>
+              <tr><th scope="row">Operating costs</th><td>Delivered gas price, heat rate, utilization, service agreements, and the treatment of major maintenance or component replacement.</td></tr>
+              <tr><th scope="row">Schedule</th><td>Equipment allocation, permits, gas service, site readiness, electrical equipment, and commissioning milestones.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section aria-labelledby="evidence">
+        <h2 id="evidence">What the public evidence establishes</h2>
+        <p>The <a href="https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_AEO2025.pdf">EIA / Sargent &amp; Lundy capital-cost study for AEO2025</a> separates mechanical, electrical, civil, and indirect costs. Its reference projects are useful for understanding scope; their historical cost basis and utility-scale configurations need adjustment before application to a specific data center.</p>
+        <p>Bloom’s <a href="https://www.bloomenergy.com/wp-content/uploads/bloom-energy-server-datasheet-feb-2026.pdf">February 2026 Energy Server datasheet</a> specifies net AC output, fuel pressure, and efficiency on stated bases. Those specifications help define an engineering comparison, while an installed project price and service obligations still require a proposal.</p>
+        <p>In its <a href="https://www.bloomenergy.com/news/oracle-and-bloom-energy-collaborate-to-deliver-power-to-data-centers-at-the-speed-of-ai/">July 2025 Oracle announcement</a>, Bloom described a 90-day deployment plan for selected sites. I treat that as a vendor statement about that collaboration. For another project, I would ask which prerequisites and milestones the proposed schedule includes.</p>
+      </section>
+      <section aria-labelledby="economics">
+        <h2 id="economics">Separate the electricity cost from the value of time</h2>
+        <p>For a cost comparison, I would use discounted installed, fuel, maintenance, and replacement costs divided by discounted net electricity delivered, with the same study period and financing assumptions. Incentives belong in a separate scenario with eligibility and timing stated.</p>
+        <p>Scale makes small energy-cost differences consequential. As an illustration, a 100 MW facility operating at 90% annual utilization consumes 788,400 MWh a year. A 1 cent/kWh difference equals about $7.9 million annually, before discounting. This is arithmetic under those assumptions, not a project cost estimate.</p>
+        <p>I would assess earlier energization separately: how much useful computing capacity could actually operate earlier, for how long, and with what economic value? That value can justify a higher electricity cost, but it depends on the customer’s demand, facility readiness, and compute economics.</p>
+      </section>
+      <section aria-labelledby="validation">
+        <h2 id="validation">What would change the decision?</h2>
+        <p>A comparison should identify the gas-price, installed-cost, service-cost, and schedule assumptions at which the preference changes. The next evidence I would seek is a scope-matched proposal, a documented delivery slot, a gas-service assessment, and a reliability design that accounts for outages. Those checks turn a technology narrative into a project decision.</p>
+      </section>
+      <p class="analysis-scope">Scope: a public comparison framework. It does not present a site-specific design, vendor quotation, or modeled cost ranking. Source documents retain their original dates.</p>
+      <p class="analysis-return"><a href="../#analysis">← Back to selected analysis</a></p>
+    </article>
+  </main>
+  <footer class="site-footer"><div><p class="footer-name">Zhengjie (Jane) Yang</p><a href="mailto:yangzhengjie33@gmail.com">yangzhengjie33@gmail.com</a></div><p>For project and research conversations</p></footer>
+</body>
+</html>
